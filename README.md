@@ -15,8 +15,7 @@
 https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json
 ```
 
-
-貼上至以下位置后，點選安裝
+進入遊戲，並啓動之
 
 ## 介紹
 
