@@ -1,17 +1,21 @@
 {
-  "title": "DND5E职业包",
-  "description": "<p>包含了职业表和按环分类的法术包，方便车卡，包含部分UA规则，DM可以根据需要进行修改。BUG反馈与建议：Q群1083272094</p><p><b>注意：需要搭配 FVTT v11 与 DND5e v3.0.0以上版本使用</b></p>",
-  "version": "3.2.0",
+  "title": "DND5E正體中文職業包",
+  "description": "<p>包含了職業表和按環分類的法術包，方便車卡，包含部分UA規則，DM可以根據需要進行修改。</p><p><b>注意：需要搭配 FVTT v11 與 DND5e v3.0.0以上版本使用</b></p>",
+  "version": "1.0.0",
   "authors": [
     {
-      "name": "classpack社区",
+      "name": "classpack社區",
       "url": "https://github.com/HJSmile/classpack"
+    }, {
+      "name": "HKTRPG",
+      "url": "https://support.hktrpg.com"
     }
+    
   ],
   "packs": [
     {
       "name": "rtable",
-      "label": "随机表",
+      "label": "隨機表",
       "path": "packs/rtable",
       "type": "RollTable",
       "system": "dnd5e",
@@ -22,7 +26,7 @@
     },
     {
       "name": "moditems",
-      "label": "模组物品",
+      "label": "模組物品",
       "path": "packs/moditems",
       "type": "Item",
       "system": "dnd5e",
@@ -33,7 +37,7 @@
     },
     {
       "name": "loots",
-      "label": "DMG宝石与艺术品",
+      "label": "DMG寶石與藝術品",
       "path": "packs/loots",
       "type": "Item",
       "system": "dnd5e",
@@ -44,7 +48,7 @@
     },
     {
       "name": "extra-ability",
-      "label": "扩展职业特性",
+      "label": "擴展職業特性",
       "path": "packs/extra-ability",
       "type": "Item",
       "system": "dnd5e",
@@ -55,7 +59,7 @@
     },
     {
       "name": "class-table",
-      "label": "职业表",
+      "label": "職業表",
       "path": "packs/class-table",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -66,7 +70,7 @@
     },
     {
       "name": "classes-new",
-      "label": "职业列表",
+      "label": "職業列表",
       "path": "packs/classes-new",
       "type": "Item",
       "system": "dnd5e",
@@ -77,7 +81,7 @@
     },
     {
       "name": "class-abilityphb",
-      "label": "PHB职业特性",
+      "label": "PHB職業特性",
       "path": "packs/class-abilityphb",
       "type": "Item",
       "system": "dnd5e",
@@ -88,7 +92,7 @@
     },
     {
       "name": "new-icon",
-      "label": "法术",
+      "label": "法術",
       "path": "packs/new-icon",
       "type": "Item",
       "system": "dnd5e",
@@ -99,7 +103,7 @@
     },
     {
       "name": "racial-traits",
-      "label": "种族特性",
+      "label": "種族特性",
       "path": "packs/racial-traits",
       "type": "Item",
       "system": "dnd5e",
@@ -110,7 +114,7 @@
     },
     {
       "name": "races",
-      "label": "种族",
+      "label": "種族",
       "path": "packs/races",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -121,7 +125,7 @@
     },
     {
       "name": "itempack",
-      "label": "DMG与PHB物品",
+      "label": "DMG與PHB物品",
       "path": "packs/itempack",
       "type": "Item",
       "system": "dnd5e",
@@ -132,7 +136,7 @@
     },
     {
       "name": "spell-table",
-      "label": "法术表",
+      "label": "法術表",
       "path": "packs/spell-table",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -143,7 +147,7 @@
     },
     {
       "name": "feats-all",
-      "label": "专长",
+      "label": "專長",
       "path": "packs/feats-all",
       "type": "Item",
       "system": "dnd5e",
@@ -154,7 +158,7 @@
     },
     {
       "name": "subclass",
-      "label": "子职列表",
+      "label": "子職列表",
       "path": "packs/subclass",
       "type": "Item",
       "system": "dnd5e",
@@ -198,7 +202,7 @@
     },
     {
       "name": "races-item",
-      "label": "种族",
+      "label": "種族",
       "path": "packs/races-item",
       "type": "Item",
       "ownership": {
@@ -208,14 +212,14 @@
       "system": "dnd5e"
     }
   ],
-  "url": "https://github.com/HJSmile/classpack",
+  "url": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
     "maximum": "12"
   },
-  "manifest": "https://raw.githubusercontent.com/HJSmile/classpack/master/dnd5e_classpack/module.json",
-  "download": "https://github.com/HJSmile/classpack/raw/master/dnd5e_classpack.zip",
+  "manifest": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/module.json",
+  "download": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/dnd5e_classpack.zip",
   "id": "dnd5e_classpack",
   "relationships": {
     "systems": [
@@ -227,9 +231,9 @@
     ],
     "recommends": [
       {
-        "id": "dnd5e_DMTools",
+        "id": "dnd5e_DMTools-zh-tw",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/feederze/DMTools/main/module.json",
+        "manifest": "https://github.com/hktrpg/fvtt-5e-DMTools-zh-tw/releases/download/1.0.0/module.json",
         "compatibility": {}
       }
     ]
