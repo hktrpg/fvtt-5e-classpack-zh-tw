@@ -7,12 +7,15 @@
 整合了大部分種族，職業，物品，法術，同時可以使dm完全關閉babele換取載入效能。
 該mod與babele相容性很差，請自行決定是否開啟babele。
 
-
 ## 使用方法
 
 打開安裝MOD界面，複製以下路徑
 
-https://raw.githubusercontent.com/HJSmile/classpack/master/dnd5e_classpack/module.json
+```
+https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/module.json
+```
+
+
 貼上至以下位置后，點選安裝
 
 ## 介紹
