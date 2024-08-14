@@ -1,5 +1,7 @@
 # DnD 5e classpack zh-tw 正體中文  for fvtt
 
+![downloads](https://img.shields.io/github/downloads/hktrpg/fvtt-5e-classpack-zh-tw/total)
+
 本模組是[DND5e classpack for fvtt](https://github.com/HJSmile/classpack) 的正體中文化
 
 ## 簡介
@@ -21,7 +23,9 @@ https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_cl
 
 ![MODPanel](./使用說明.png)
 
-## 由簡體中文轉換成正體中文的方式
+## 轉換方法
+
+如果未來你有其他Package想翻譯或修改，可參考以下方法
 
 本模組使用 [The official Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli) 與 [ConvertZZ](https://github.com/flier268/ConvertZZ) 進行轉換
 
