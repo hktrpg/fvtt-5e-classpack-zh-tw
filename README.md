@@ -12,7 +12,7 @@
 打開安裝MOD界面，複製以下路徑
 
 ```
-https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/download/1.0.0/module.json
+https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json
 ```
 
 
