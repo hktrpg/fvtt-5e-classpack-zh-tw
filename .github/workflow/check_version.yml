@@ -1,8 +1,9 @@
 name: Check Version and Release
 
 on:
-  schedule:
-    - cron: '*/10 * * * *' # 每 10 分鐘運行
+  push:
+    branches:
+      - master 
 
 jobs:
   check_version:
