@@ -50,7 +50,7 @@ jobs:
         if: steps.check_version.outputs.updated == 'true'
         uses: softprops/action-gh-release@v1
         with:
-          tag: ${{ steps.check_version.outputs.new_version }}
+          tag_name: ${{ steps.check_version.outputs.new_version }}
           files: dnd5e_classpack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
