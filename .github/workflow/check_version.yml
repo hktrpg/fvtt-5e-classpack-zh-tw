@@ -1,0 +1,53 @@
+name: Check Version and Release
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' # 每 10 分鐘運行
+
+jobs:
+  check_version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check version
+        id: check_version
+        run: |
+          # 讀取 module.json 中的版本信息
+          NEW_VERSION=$(jq -r '.version' dnd5e_classpack/module.json)
+          echo "New version: $NEW_VERSION"
+
+          # 獲取最新 release 的版本
+          LATEST_RELEASE=$(git tag --sort=-creatordate | head -n 1)
+          echo "Latest release: $LATEST_RELEASE"
+
+          if [[ "$NEW_VERSION" != "$LATEST_RELEASE" ]]; then
+            echo "Version has changed"
+            echo "::set-output name=version_changed::true"
+            echo "::set-output name=new_version::$NEW_VERSION"
+          else
+            echo "No version change"
+            echo "::set-output name=version_changed::false"
+          fi
+
+      - name: Create release
+        if: steps.check_version.outputs.version_changed == 'true'
+        run: |
+          # 壓縮資料夾
+          zip -r dnd5e_classpack.zip dnd5e_classpack
+
+          # 創建新的 release
+          gh release create ${{ steps.check_version.outputs.new_version }} dnd5e_classpack.zip --title "Release ${{ steps.check_version.outputs.new_version }}" --notes "Updated to version ${{ steps.check_version.outputs.new_version }}."
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
