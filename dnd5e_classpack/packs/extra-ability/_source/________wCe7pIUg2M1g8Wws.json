@@ -1,0 +1,90 @@
+{
+  "_id": "wCe7pIUg2M1g8Wws",
+  "name": "戰鬥風格：攔截",
+  "type": "feat",
+  "img": "icons/equipment/shield/buckler-wooden-boss-glowing-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>        </strong>當一個你可見的生物攻擊距離你5尺以內你以外的目標時，你能以一個反應將目標受到的傷害減少[[/r 1d10]]+你熟練加值（最多減到0傷害）。當你手持一面盾牌或者一把簡單或軍用武器時才能執行此反應。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d10+@prof",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "fightingStyle"
+    },
+    "requirements": "戰士等級 1，勇士等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wCe7pIUg2M1g8Wws"
+}

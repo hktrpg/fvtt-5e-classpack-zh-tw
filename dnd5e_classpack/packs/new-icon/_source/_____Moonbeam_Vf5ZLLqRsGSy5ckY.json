@@ -1,0 +1,137 @@
+{
+  "_id": "Vf5ZLLqRsGSy5ckY",
+  "name": "月華之光 Moonbeam",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_ElunesGrace.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 指定施法距離內一點，以該點為中心半徑5尺、高40尺的柱狀區域內沐浴在一束淡淡的銀光中。直至法術終止前，柱狀區域內充滿微光光照。\n<br>生物在一個回合內第一次進入該區域，或在該區域內開始其回合時，將被幽靈般的火焰吞噬並引起劇烈的灼痛。該生物必須進行一次體質豁免，豁免失敗則受到2d10的光耀傷害，豁免成功則傷害減半。\n<br>變形生物進行該豁免時具有劣勢，而如果它豁免失敗，則將立即回覆其原始形態，而它離開該法術的光照前都無法變形成其他形態。\n<br>你在施展該法術后的每個自己回合內可以用一個動作將華光向任意方向移動至多60尺。\n<br><strong>升環施法效應。</strong>使用3環或更高法術位施展該法術時，你使用的法術位每比2環高一環，其傷害就增加1d10。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 261",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "cylinder"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d10",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "幾粒月籽藤種子和一塊乳白色的長石",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d10"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 28100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354490872,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Vf5ZLLqRsGSy5ckY"
+}

@@ -1,0 +1,220 @@
+{
+  "name": "地顫 Earth Tremor",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": false,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "nodam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "_id": "dADmhYuYM063hyy2",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.mwak",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.msak",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.disadvantage.attack.rwak",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.disadvantage.attack.rsak",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "*0.5",
+          "priority": 25
+        }
+      ],
+      "description": "- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.<br />- The creature has disadvantage on attack rolls.<br />- An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        }
+      },
+      "name": "Prone",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.dADmhYuYM063hyy2",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Prone",
+        "prone"
+      ],
+      "_id": "3EsHBstwrMw1ddPE",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/prone.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!dADmhYuYM063hyy2.3EsHBstwrMw1ddPE"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你在施法距離內引發地面顫動。處於該區域，除你之外的其他生物必須進行一次敏捷豁免檢定。若檢定失敗，該生物受到1d6點鈍擊傷害並倒地。若區域的地表為鬆軟的土壤或石頭，其在被清理之前成為困難地形。每5尺直徑的部分都需要至少1分鐘來手動清理。</p>\n<p><br /><strong>升環效果：</strong>當你使用2環或更高的法術位施放該法術時，使用的法術位每高一環，傷害便增加1d6。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 34900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.325",
+    "createdTime": 1711689533295,
+    "modifiedTime": 1717595541436,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dADmhYuYM063hyy2"
+}

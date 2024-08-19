@@ -1,0 +1,127 @@
+{
+  "_id": "QoPqj3mhjxq3gPle",
+  "name": "卓姆吉瞬間召喚 Instant Summons",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_ArcanePotency.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個重量至多10磅，長度至多6尺的物件。該法術將在該物品表面留下一個隱形的印記，並在你用以施法的藍寶石上留下該物件的名稱。你每次施展該法術時都必須使用不同的藍寶石作為其材料成分。\n<br>在隨後的時間裡，你可以使用動作喚出該物件的名稱並粉碎這顆藍寶石，該物件將無視任何距離和位面的限制立即出現在你的手上。物件出現后該隨即法術終止。\n<br>如果另一個生物正持握或攜帶著該物件，則粉碎藍寶石的動作無法將該物品傳送過來。不過你會知曉是誰佔有了該物品，以及其此刻身處的何處。\n<br>解除魔法dispel magic 或成功生效的類似效應作用於這顆藍寶石時，將提前終止該法術。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一枚價值 1000gp 的藍寶石",
+      "consumed": false,
+      "cost": 1000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 23700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722355416564,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QoPqj3mhjxq3gPle"
+}

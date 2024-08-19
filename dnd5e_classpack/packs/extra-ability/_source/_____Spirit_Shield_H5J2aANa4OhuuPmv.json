@@ -1,0 +1,86 @@
+{
+  "_id": "H5J2aANa4OhuuPmv",
+  "name": "精魂之盾 Spirit Shield",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warrior_VictoryRush.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從6級開始，衛士之魂會幫助你為你的盟友提供超自然保護。若你處於@UUID[Compendium.dnd5e_classpack.class-abilityphb.gLNFWGL05O0FUNTD]{狂暴}，而一個處於你周圍30尺內的，你能看到的其他生物受到傷害，你可以用一個反應動作來降低[[/r 2d6]]的傷害。</p>\n<p>當你達到這一范型的更高等級，你可以防止更多的傷害：10級[[/r 3d6]]，14級[[/r 4d6]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "(min((floor(@classes.barbarian.levels+2)/4),4))d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "先祖守衛等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!H5J2aANa4OhuuPmv"
+}

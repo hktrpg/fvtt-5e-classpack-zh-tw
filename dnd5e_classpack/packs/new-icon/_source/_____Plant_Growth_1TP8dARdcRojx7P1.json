@@ -1,0 +1,129 @@
+{
+  "_id": "1TP8dARdcRojx7P1",
+  "name": "植物滋長 Plant Growth",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_Flourish.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術將活力引導給特定區域中的植物。該法術有兩種用法，其一可產生即時增益，另一種則產生長期的增益。\n<br>用1動作施展該法術時，你指定施法距離內一點，該點周邊半徑100尺內的普通植物將變的粗壯和茂盛。一個穿過該區域的生物每移動1尺必須花費4尺的移動力。\n<br>你可以在該法術範圍內空出一塊或多塊任意大小的區域，使其排除在法術效應影響之外。\n<br>用8小時施展該法術時，你可以使這片土地肥沃。你指定施法距離內一點，該點周邊半徑半里的的植物將在1年內變的茂盛。這些植物收穫時將產出兩倍於正常產量的作物。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 266",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 100,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 150,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 1300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711692448384,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1TP8dARdcRojx7P1"
+}

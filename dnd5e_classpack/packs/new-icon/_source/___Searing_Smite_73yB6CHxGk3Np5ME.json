@@ -1,0 +1,131 @@
+{
+  "_id": "73yB6CHxGk3Np5ME",
+  "name": "熾焰斬Searing Smite",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_SheathofLight.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">你在法術持續時間內下一次用近戰武器攻擊命中某個生物時將在武器上閃現出白熱的光芒。該攻擊對目標造成額外的1d6點火焰傷害，並點燃目標。直至法術終止前，目標在自己每一回合開始時都要進行一次體質豁免。豁免失敗則受到1d6 點火焰傷害。豁免成功則法術終止。如果目標或其身邊5 尺內的另一個生物用一個動作來撲滅其身上的火焰，或有其他某種效果熄滅了火焰（例如目標跳入水中），則法術終止。</div>\n<div class=\"description \">&nbsp;</div>\n<div class=\"description \">升環施法效應。</div>\n<div class=\"description \">使用2 環或更高法術位施展該法術時，你使用的法術位每比1 環高一環，最初一次攻擊造成的額外傷害就增加1d6。</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 219",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 4900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727145834,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!73yB6CHxGk3Np5ME"
+}

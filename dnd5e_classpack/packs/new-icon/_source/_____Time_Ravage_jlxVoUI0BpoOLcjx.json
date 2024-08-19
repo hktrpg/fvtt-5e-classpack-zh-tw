@@ -1,0 +1,133 @@
+{
+  "_id": "jlxVoUI0BpoOLcjx",
+  "name": "時光蹂躪 Time Ravage",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_bossmagistrix_timewarp1.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你選定一個施法距離內的目標，使他的身體形態受到飛速衰老的破壞。目標必須進行一個體質豁免並在豁免失敗時受到12D10點暗蝕傷害, 或在豁免成功時只受到一半的傷害。 若其豁免失敗，目標還會快速老化至離老死只有三十天的時間點。 在這個年齡段, 目標在攻擊擲骰上, 屬性檢定上與豁免檢定上承受劣勢，其步行速度也減少一半.。只有祈願術Wish或以九環法術位施展的高等復原術Greater Restoration才能使這些效果消除並使其恢復原先的年齡。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "12D10",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一個裝滿了鑽石粉塵的沙漏，其價值至少為5000金幣, 會在施法時消耗",
+      "consumed": true,
+      "cost": 5000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 39700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722351308584,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jlxVoUI0BpoOLcjx"
+}

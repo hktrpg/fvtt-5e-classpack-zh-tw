@@ -1,0 +1,86 @@
+{
+  "_id": "BTVtgBSei6QUdcsB",
+  "name": "墳墓之眼",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_DeathKnight_ArmyOfTheDead.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在一級，你獲得偶爾可以意識到不死生物存在的能力。作為一個動作，你可以伸張意識來魔法性地辨識不死生物。直到你的下回合結束，你可以定位60尺內的沒有處於全掩護之下且不被保護於受預言系法術作用的不死生物，這不會告訴你生物的能力和身份。</p>\n<p>         你可以使用此能力的次數等同於你的感知調整值（至少一次），當你完成長休，你重獲使用過的次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "墳墓領域等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!BTVtgBSei6QUdcsB"
+}

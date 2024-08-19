@@ -1,0 +1,131 @@
+{
+  "_id": "0398FB134D76D87C",
+  "name": "打擊之錘 Mace of Smiting",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-spiked-wood-grey.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+1加值。如果你使用此武器攻擊構裝生物，則加值變為+3。</p>\n<p>當你使用這把武器攻擊並投出20時，目標受到額外7鈍擊傷害。如果目標是構裝生物，則額外傷害為14。如果受到此傷害后該構裝體的HP小於等於25，則它被摧毀。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 179"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 7000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod +1",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "mace"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 15200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!0398FB134D76D87C"
+}

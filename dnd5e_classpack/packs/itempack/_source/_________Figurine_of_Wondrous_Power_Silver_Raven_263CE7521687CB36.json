@@ -1,0 +1,115 @@
+{
+  "_id": "263CE7521687CB36",
+  "name": "白銀渡鴉異能塑像 Figurine of Wondrous Power Silver Raven",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-blue-grey.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>異能塑像是小到可以裝在口袋裡的野獸雕像。當你用一個動作說出命令字並把雕像扔到你周圍60尺以內的某處時，它將變成一隻活的生物。如果雕像被扔到的地方被其他生物或物品佔據，或者周圍的空間不足以容納雕像變成的生物，則它不會變成生物。</p>\n<p>雕像變成的生物對你和你的同伴友善。它能聽懂你的語言並且按你的口頭命令列事。如果你不下達任何命令，該生物會保護自己而不採取其他行動。生物數據見怪物圖鑑。</p>\n<p>生物存在的時間依雕像而不同。持續時間結束時，生物變回異能塑像形態。如果它的HP降至0，或是你用一個動作碰觸它並說出命令字，那麼它會提前變回雕像。變回雕像后，異能塑像的特性必須經過一段時間后才能再次啟動，時間長短依雕像種類而不同。</p>\n<p><strong>白銀渡鴉（非普通）。</strong>這個銀製渡鴉雕像可以變為一隻@UUID[Compendium.dnd5e_classpack.monsterspack.LPdX5YLlwci0NDZx]{渡鴉}達12小時。你可以對渡鴉形態的此雕像隨意施展@UUID[Compendium.dnd5e_classpack.new-icon.9IngOEqWWDsYnzCJ]{動物信使 Animal Messenger}。使用后，此雕像需要經過2天才能再次啟動。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 170"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 5000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "12",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 2.5,
+      "width": null,
+      "units": "ft",
+      "type": "space",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 26600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!263CE7521687CB36"
+}

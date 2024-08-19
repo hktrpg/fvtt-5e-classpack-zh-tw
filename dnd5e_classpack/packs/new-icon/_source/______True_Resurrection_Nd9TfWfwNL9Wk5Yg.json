@@ -1,0 +1,127 @@
+{
+  "_id": "Nd9TfWfwNL9Wk5Yg",
+  "name": "完全復生術 True Resurrection",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_TwilightsWrath.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個已死的生物使其復活。該生物的死亡時間必須不超過200年，且死因不能是老死。如果該生物的靈魂願意並且能夠回到其身體中，則它將以生命值全滿的狀態復活。\n<br>該法術能治癒所有致命傷，中和一切毒素與疾病，並解除其生前所受的一切詛咒。該法術甚至能恢復其損傷或失去的器官和肢體。\n<br>如果受術生物的遺體已經不再存在，該法術甚至能給它再造一個新的身體。此時，你必須喊出該生物的名字，隨後該生物便出現在你指定點周圍10尺內一處未被佔據的空間。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 284",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 9,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "少量聖水和至少價值 25000gp 的鑽石，作為該法術的耗材",
+      "consumed": true,
+      "cost": 25000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 20400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722352312566,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Nd9TfWfwNL9Wk5Yg"
+}

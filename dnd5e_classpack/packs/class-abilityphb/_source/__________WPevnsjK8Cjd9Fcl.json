@@ -1,0 +1,89 @@
+{
+  "_id": "WPevnsjK8Cjd9Fcl",
+  "name": "引導神力 (牧師)",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級時，你獲得引導神祇所授予神聖能量的能力，所引導的能量將用以實現各種魔法效應。你最初將獲得兩種效應：@UUID[Compendium.dnd5e_classpack.class-abilityphb.IYuxMvRIO9feIxSe]{引導神力：驅散不死生物}和另一個與你所選領域相關的效應。隨著你在冒險中提升等級，某些領域會賦予更多額外的效應，具體資訊可以參考相應領域的描述內容。</p>\n<p>引導神力最終產生的效應由你自行選擇。引導神力后，你必須完成一次短休或長休才能重新使用該特性。</p>\n<p>某些引導神力的效應需要豁免，其豁免DC等於你的牧師法術豁免DC。</p>\n<p>第6級起，你可以在兩次休息之間使用兩次引導神力，第18級后可以使用三次。完成一次短休或長休后，你將重新獲得所有消耗掉的引導神力次數。</p>\n<p><em>**友情提示:使用此追蹤牧師的引導神力次數。注意預設可用次數為1，請自己手動進行調整。</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 60",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "floor((@classes.cleric.levels+6)/12)+1",
+      "per": "sr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "牧師等級 2、6、18",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!WPevnsjK8Cjd9Fcl"
+}

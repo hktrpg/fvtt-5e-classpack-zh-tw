@@ -1,0 +1,126 @@
+{
+  "_id": "UmnebUDC5GoZtzQy",
+  "name": "繫結本源Tether Essence",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/control/energy-stream-link-spiral-white.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>兩個施法距離內的你能看見的生物必須進行一次體質豁免，若兩者在30</span>尺內，則他們的豁免檢定具有劣勢。每個生物都能自願放棄豁免。若兩者中有一個豁免成功了，那麼法術沒有效果。若兩人豁免均失敗了，那麼他們便會在法術持續時間內魔法般地被連線在一起，無論兩人間距多少。 若其中一人受到傷害 ，另外一人也會受到等額的傷害。若其中一人恢復了生命值，另外一人也會恢復等額的生命值。如果被繫結的雙方中任意一方的HP</span>減少到了0</span>，那麼該法術結束。該法術在任意一方身上結束時，另外一方的法術也結束。<br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 2,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一卷至少價值250金幣的鉑金絲線，在施法時被消耗。",
+      "consumed": true,
+      "cost": 250,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 27100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711726258246,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UmnebUDC5GoZtzQy"
+}

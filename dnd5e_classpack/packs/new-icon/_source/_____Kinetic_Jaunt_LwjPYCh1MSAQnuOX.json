@@ -1,0 +1,172 @@
+{
+  "_id": "LwjPYCh1MSAQnuOX",
+  "name": "動力短行 Kinetic Jaunt",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/cuili.png",
+  "effects": [
+    {
+      "_id": "lZWkUzZnN8JTqkDT",
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.LwjPYCh1MSAQnuOX",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "增加 10 尺速度",
+      "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!LwjPYCh1MSAQnuOX.lZWkUzZnN8JTqkDT"
+    }
+  ],
+  "folder": null,
+  "sort": 19400000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>你用舞蹈般的步姿魔法地增強你的移動，在持續時間內你獲得以下增益：</p>\n<ul>\n<li>你的速度增加10尺。</li>\n<li>你不會觸發藉機攻擊。</li>\n<li>你能穿過另一個生物的空間，而且對你言不算是困難地形。如果你在另一個生物的空間里結束回合，你會被推擠到你最後所經過的未被佔據空間里，並受到[[/r 1d8]]力場傷害。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCC",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727372859,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LwjPYCh1MSAQnuOX"
+}

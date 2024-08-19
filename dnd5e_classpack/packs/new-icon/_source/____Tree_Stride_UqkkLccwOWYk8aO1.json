@@ -1,0 +1,127 @@
+{
+  "_id": "UqkkLccwOWYk8aO1",
+  "name": "樹躍術 Tree Stride",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Rogue_QuickRecovery.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你能夠進入樹木中，並從樹木內部移動到500尺內的一棵同類樹木內。兩棵樹必須都是活的，而且至少要和你一樣大。你進入一棵樹時必須消耗5尺移動力。你將在進入樹木後知道附近500尺內所有同類樹木的位置。作為進入樹木所用移動的一部分，你可以移動到這些同類樹木的其中一棵，或走出你所在的樹木。\n<br>你會出現在作為目的地的樹木5尺範圍內自選的一點，並因此消耗5尺移動力。如果你的移動力已經耗盡，則你將出現在你進入的樹木周圍5尺範圍內某處。\n<br>你可以在法術持續時間內的每輪里使用一次這樣的傳送能力。而且你必須在樹外結束你的回合。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 283",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 27200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711725836773,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UqkkLccwOWYk8aO1"
+}

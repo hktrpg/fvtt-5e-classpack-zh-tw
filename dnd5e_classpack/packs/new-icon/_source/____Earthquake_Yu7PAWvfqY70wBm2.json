@@ -1,0 +1,130 @@
+{
+  "_id": "Yu7PAWvfqY70wBm2",
+  "name": "地震術 Earthquake",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Earthquake.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內一處能看見的地面上指定一點，並在其上製造地震擾動。在法術持續時間內，一陣強烈的震顫在震源周邊半徑100尺的圓形範圍內傳遞，並使區域內地上的生物和建築都受到震動影響。\n<br>受影響區域內的地面變為困難地形。而區域地面上的每個正在進行專注的生物都必須進行一次體質豁免，豁免失敗則其專注被打斷。\n<br>在你施展此法術以及隨後保持專注的每回合結束時，區域地面上的每個生物都必須進行一次敏捷豁免，豁免失敗則生物應擊倒地。\n<br>根據施法區域的地形，DM 可以決定是否應用額外的效應。\n<br><strong>裂縫Fissures。</strong>在施展此法術的下一個回合開始時，法術影響區域會撕開一道道裂縫。1d6條裂縫在DM 安排的位置出現。每條裂縫深1d10×10尺，寬10尺，並由影響區域的一邊向另一邊延伸。裂縫撕開時，將處於其位置上的生物必須成功通過一次敏捷豁免，否則將墜落其中。豁免成功則該生物移動到裂縫旁邊。裂縫上的建築會直接崩塌，詳情如下。\n<br><strong>建築Structures。</strong>在你施展此法術及法術終止前你的每個回合開始時，地震對影響區域內的所有建築都造成50點鈍擊傷害。建築生命值降為0時立即崩塌，且可能對附近生物造成傷害。與該建築距離不大於該建築高度一半的生物，都必須進行一次敏捷豁免。豁免失敗則受5d6的鈍擊傷害並應擊倒地且埋於廢墟之下。該生物可用一個動作來進行一次DC 20的力量（運動）檢定來嘗試逃離廢墟。DM 可根據廢墟的情況調整DC 高低。豁免成功時傷害減半，且不會倒地或被掩埋。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 236",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 100,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 500,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一撮泥土、一塊巖石和一坨黏土",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 31200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717595749886,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Yu7PAWvfqY70wBm2"
+}

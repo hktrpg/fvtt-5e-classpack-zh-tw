@@ -1,0 +1,133 @@
+{
+  "_id": "8iz3UpuZkW0KARvg",
+  "name": "連鎖閃電 Chain Lightning",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_ThunderKing_LightningWhip.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你放出一道閃電，射向施法距離內某個你能看見的指定目標。\n<br>經過首個目標后，閃電分成三束跳向該目標30尺內至多3個其他目標。閃電的目標可以是生物或物件，但每束閃電必須指定不同的目標。\n<br>每個目標必須進行一次敏捷豁免。豁免失敗者將受到10d8點閃電傷害，豁免成功則傷害減半。\n<br><strong>升環施法效應。</strong>使用7環或更高法術位施展該法術時，你使用的法術位每比6環高一環，跳躍后閃電就多分出一束射向一個不同的目標。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 221",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 150,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d8",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一些毛皮，一塊琥珀，玻璃或一柄水晶權杖，以及三根銀質別針。",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 6600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720799678246,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8iz3UpuZkW0KARvg"
+}

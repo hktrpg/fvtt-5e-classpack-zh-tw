@@ -1,0 +1,293 @@
+{
+  "name": "費茨本鉑金盾Fizban's Platinum Shield",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_return2.png",
+  "system": {
+    "description": {
+      "value": "<p>你創造一道閃著銀光的力場，環繞在施法距離內你所選擇的一個生物周圍（你可以選擇你自己）。該力場散發<span>5</span>尺微光光照。被力場保護的生物獲得以下好處：<span><br />      </span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">掩護</span></strong>：該生物具有半身掩護。<span><br />      </span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">傷害抗力</span></strong>：該生物獲得對強酸，寒冷，火焰，閃電以及毒素傷害的抗性。<span><br />      </span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">反射閃避</span></strong>：如果該生物受到可以由成功通過敏捷豁免來使傷害減半的效應影響，該生物在成功通過豁免時改為不受任何傷害，失敗則受到一半傷害。<span><br />      </span>在之後的回合內以一個附贈動作，你可以將該力場移動至力場周圍<span>60</span>尺內的另一個生物身上。<span><br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": 20,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一枚鍍上鉑金的龍鱗，價值至少500gp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "費茨本鉑金盾Fizban's Platinum Shield",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.vP75Ws9NmLAm8uT4",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "Rp3kDQGtqq7LKHji",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/ability_evoker_return2.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!vP75Ws9NmLAm8uT4.Rp3kDQGtqq7LKHji"
+    },
+    {
+      "changes": [
+        {
+          "key": "system.attributes.ac.cover",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.dex.bonuses.save",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        }
+      ],
+      "description": "Adds 2 to AC and dexterity saving throws",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        }
+      },
+      "name": "Cover (Half)",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.vP75Ws9NmLAm8uT4",
+      "tint": "#dae34f",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Cover (Half)"
+      ],
+      "_id": "1SAsv9Or81yaeXf3",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/broken-wall.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!vP75Ws9NmLAm8uT4.1SAsv9Or81yaeXf3"
+    }
+  ],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "vP75Ws9NmLAm8uT4",
+  "folder": null,
+  "sort": 49700000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711691270545,
+    "modifiedTime": 1711691342753,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!vP75Ws9NmLAm8uT4"
+}

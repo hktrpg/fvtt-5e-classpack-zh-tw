@@ -1,0 +1,93 @@
+{
+  "_id": "JQhUacS3gFJFVG2r",
+  "name": "超限導能",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_ThunderKing_Thunderstruck.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第14級起，你可以為你的簡單法術增強力量。施展一個造成傷害的1—5環法師法術時，你可以讓法術的傷害直接取其最大值。該特性不能作用於戲法。</p>\n<p>首次發動該特性時，你並不會承受任何減益。如果你在完成一次長休前再次使用此特性，則你將在施法完成後立刻受到等於該法術每環階[[/r 2d12]]點黯蝕傷害。你在完成一次長休前，每再使用一次該特性，每環階的黯蝕傷害就增加[[/r 1d12]]。這種反噬傷害將無視任何的抗性和免疫。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 118",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d12",
+          "necrotic"
+        ]
+      ],
+      "versatile": "1d12"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "塑能學派等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!JQhUacS3gFJFVG2r"
+}

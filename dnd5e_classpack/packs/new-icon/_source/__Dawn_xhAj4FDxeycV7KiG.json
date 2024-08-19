@@ -1,0 +1,137 @@
+{
+  "_id": "xhAj4FDxeycV7KiG",
+  "name": "拂曉Dawn",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/light/beam-strike-orange-gold.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>拂曉之光落在施法距離內你指定的地點，形成一道30英尺半徑、40英尺高度的明亮光柱。這個光芒被視為陽光。<br />當光柱出現時，每個處於其中的生物都必須進行體質豁免，失敗將受到4d10光耀傷害，成功則只承受一半。在光柱中結束回合的生物也必須再次進行這個豁免。<br />如果你在光柱60英尺內，你可以在你的回合以一個附贈動作將它移動60英尺。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d10",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "價值至少100GP的旭日墜飾",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 51000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717697743524,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xhAj4FDxeycV7KiG"
+}

@@ -1,0 +1,134 @@
+{
+  "_id": "FACD0D82CC19EE0B",
+  "name": "淬毒匕首 Dagger of Venom",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-dagger-poison-dripping-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+1加值。</p>\n<p>你可以用一個動作使匕首塗上毒液。毒液存在1分鐘，或直到你用這把武器成功命中某名生物。該生物必須進行一次DC15的體質豁免，否則受到[[/r 2d10]]毒素傷害並中毒一分鐘。直到次日黎明前，匕首的這個特性都無法再次啟動。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 161"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 2500,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod +1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d10",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "dagger"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 102700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!FACD0D82CC19EE0B"
+}

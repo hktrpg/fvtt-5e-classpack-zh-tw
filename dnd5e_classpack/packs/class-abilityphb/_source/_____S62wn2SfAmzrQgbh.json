@@ -1,0 +1,94 @@
+{
+  "_id": "S62wn2SfAmzrQgbh",
+  "name": "戰鬥激勵",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warrior_RallyingCry.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第3級起，你學會裡如何激勵他人作戰。從你身上獲得@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}的生物投擲武器傷害擲骰時，可以使用該激勵骰並將其骰值加入本次傷害擲骰中。另外，從你身上獲得詩人激勵的生物被攻擊時，該生物可以用它的反應使用該激勵骰，並將擲骰結果加入到它對抗該次攻擊的AC中，該特性可以使用於攻擊檢定揭示后，但必須在命中與否宣佈之前使用。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d(min(floor(@classes.bard.levels/5)*2+6,12))",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "勇氣學院等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 200
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!S62wn2SfAmzrQgbh"
+}

@@ -1,0 +1,120 @@
+{
+  "_id": "QmbFMDZcrR84p61Q",
+  "name": "蝰蛇法杖 Staff of The Adder",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-simple-knotted.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需牧師、德魯伊或邪術師同調）</em></p>\n<p>你可以用一個附贈動作說出法杖的命令語，並將法杖的頭部活化為一條毒蛇，效應持續1分鐘。你可以用另一個附贈動作再次說出該命令語使法杖還原。</p>\n<p>你視為擁有法杖變成的蛇頭攻擊的熟練項，並能以之發動近戰攻擊（觸及5尺）。如果攻擊命中，則目標受到[[/r 1d6]]點穿刺傷害並且必須成功通過一次DC 15的體質豁免否則受[[/r 3d6]]點毒素傷害。</p>\n<p>法杖頭部活化為蛇頭時可以被指定為攻擊目標。它具有AC 15和20點生命值。當蛇頭的生命值降至0時，法杖將被摧毀。只要法杖未被摧毀，它就會在恢復非活化狀態時恢復所有失去的生命值。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令語。"
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "3d6",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "@prof",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010444188,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 113900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!QmbFMDZcrR84p61Q"
+}

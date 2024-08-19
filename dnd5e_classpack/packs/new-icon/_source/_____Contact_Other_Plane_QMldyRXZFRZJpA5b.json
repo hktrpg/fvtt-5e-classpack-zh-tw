@@ -1,0 +1,131 @@
+{
+  "_id": "QMldyRXZFRZJpA5b",
+  "name": "異界探知 Contact Other Plane",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/003308.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你與一名半神，或者一個古老的賢者亡魂，又或是其他異位面的神秘實體建立了精神的連線。與這些跨位面亞種生物進行的知性接觸可能會增加你的精神負擔，甚至導致精神崩潰。當你施展此法術時，進行一個DC15的智力豁免。豁免失敗時，你受到6d6點心靈傷害並因此而變得錯亂，直至完成一個長休以結束該狀態。處於錯亂狀態時，你不能執行動作，不能理解其他生物說的話也無法閱讀，你說出口的也都是一些含糊不清的語句。對你施放法術高等復原術greater restora-tion 可以直接終止該效應。\n<br>豁免成功時，你可以詢問該實體五個問題。你必須在法術結束前提出你的問題。而你所提出的每條問題DM 都可以用一個單詞作回答，比如「是」「不是」「可能」「不可能」「沒關係」或是「不清楚」（如果該實體不知道該問題答案時）。如果一個單詞的答案可能導致誤導，DM 可能會用一句短語來作為問題的答案。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 226",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "6d6",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "level": 5,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "ritual"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 23000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353739967,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QMldyRXZFRZJpA5b"
+}

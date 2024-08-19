@@ -1,0 +1,86 @@
+{
+  "_id": "9Plsb93N8fdRkpoo",
+  "name": "守衛纏繞 Guardian Coil",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_mage_waterjet.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你的@UUID[Compendium.dnd5e_classpack.extra-ability.AO1g9WjlmCTq9KE8]{深海觸手}可以保護你和其他人，用自己將你們和危險隔開。當你或你可以看見的一個位於觸手10尺內的生物承受傷害時，你可以使用反應選擇這些生物中的一個並使該生物遭受的傷害減少[[/r 1d8]]。當你達到邪術師10級時，觸手可以抵消的傷害增加到[[/r 2d8]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "(min((ceil(@classes.warlock.levels/9)),2))d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "深海意志等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9Plsb93N8fdRkpoo"
+}

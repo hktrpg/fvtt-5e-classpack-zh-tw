@@ -1,0 +1,91 @@
+{
+  "_id": "gDsqXKtRpltzhHLP",
+  "name": "命極之手Hand of Ultimate Mercy",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_monk_serenity.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你對生命能量的掌握打開了通往命流奧義的大門，以一個動作，你可以接觸一個在過去24小時內死亡生物的屍體並消耗5點氣，該生物則會復活，恢復相當於[[/r 4D10]]+你的感知調整值的生命值。如果該生物是在以下這些狀態時死亡，它會在移除這些狀態后復活：目盲、耳聾、麻痹、中毒和震懾。</p>\n<p>一旦你使用了這個特性，你就不能再使用它，直至你完成一次長休。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "5 點氣。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "spec",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4D10 + @abilities.wis.mod",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "命流宗等級 17",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!gDsqXKtRpltzhHLP"
+}

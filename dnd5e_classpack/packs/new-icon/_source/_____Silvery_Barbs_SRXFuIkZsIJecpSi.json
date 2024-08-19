@@ -1,0 +1,128 @@
+{
+  "_id": "SRXFuIkZsIJecpSi",
+  "name": "銀光銳語 Silvery Barbs",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/yinghao.png",
+  "effects": [],
+  "folder": null,
+  "sort": 24800000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>你魔法地讓觸發生物分心，將其短暫的遲疑轉變為另一個生物的鼓勵。觸發生物必須重新投擲d20並選用較低的結果。</p>\n<p>之後你能選擇範圍內的一個不同生物（可以是你自己）。選擇的生物在接下來的一分鐘里的第一次攻擊檢定，屬性檢定，或豁免檢定中具有優勢。一個生物在同一時間裡只會擁有一次來自該法術的增益。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCC",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當一個於你60尺內且可見的生物成功進行一次攻擊檢定，屬性檢定，或是豁免檢定時"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711694881414,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SRXFuIkZsIJecpSi"
+}

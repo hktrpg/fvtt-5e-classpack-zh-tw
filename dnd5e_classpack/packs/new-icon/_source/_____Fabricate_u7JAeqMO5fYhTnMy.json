@@ -1,0 +1,129 @@
+{
+  "_id": "u7JAeqMO5fYhTnMy",
+  "name": "鬼斧神工 Fabricate",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_racial_forgeoflight.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你將一種原材料轉化成該材料製作的成品。例如，你可以將一叢樹木轉化為一座木橋，一把麻草化為繩子，或是將亞麻和羊毛化作衣物。\n<br>指定施法距離內你能看見的原材料。只要有足夠的材料，你就可以將他們轉化為一件大型或更小的物件（至多佔據10尺立方區域或八個相鄰的5尺立方區域）。如果你的目標材料是金屬、石料或者其他礦石材料，那麼背製造的物件不能大於中型（至多佔據5尺立方區域），製成品的質量和原材料質量相同。\n<br>生物或魔法物品不能作為該法術的原料或成品。你只有對製作某物品的工匠工具擁有熟練項時，才能使用該法術製作相應需要高工藝水平製作的物品，如珠寶、武器、玻璃、護甲等。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 48500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711693711168,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!u7JAeqMO5fYhTnMy"
+}

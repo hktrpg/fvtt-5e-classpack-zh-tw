@@ -1,0 +1,133 @@
+{
+  "_id": "3D8D43C5C84486AE",
+  "name": "焰舌短劍 Flame Tongue Shortsword",
+  "type": "weapon",
+  "img": "icons/magic/fire/projectile-bolt-zigzag-orange.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你可以用一個附贈動作說出命令字，讓這把劍的鋒刃吐出烈焰。劍身的火焰為周圍40尺範圍提供明亮照明，以及額外40尺的昏暗照明。劍身燃燒時，它在命中任何目標時造成額外[[/r 2d6]]火焰傷害。火焰將持續燃燒到你把劍放下、收入鞘內或再次用一個附贈動作說出命令字。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 170"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 5000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "shortsword"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 35300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!3D8D43C5C84486AE"
+}

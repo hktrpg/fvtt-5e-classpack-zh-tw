@@ -1,0 +1,130 @@
+{
+  "_id": "4F0A5E669BFB60C2",
+  "name": "召喚氣巨靈戒指 Ring of Djinni Summoning",
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>戒指（需同調）</em></p>\n<p>佩戴這枚戒指時，你可以用一個動作說出它的命令字從氣元素位面召喚一名特定的@UUID[Compendium.dnd5e_classpack.monsterspack.5P1VGAZQwOilwZQf]{氣巨靈Djinni}。該氣巨靈將出現在你周圍120尺內你指定的某個未被佔據的位置。你必須專注維持氣巨靈的存在（如同專注維持法術），持續至多1小時，或直到它的HP降至0。隨後它將回到自己的位面。</p>\n<p>被召喚的氣巨靈對你和你的夥伴友善。無論你使用何種語言，它都會服從你的命令。如果你沒有下達命令，它便只會保護自己。</p>\n<p>氣巨靈被遣返后，你必須等待24小時才能再次召喚它。如果該氣巨靈死去，這枚戒指將變為非魔法物品。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 190"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 45000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "square",
+      "prompt": true
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 40000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!4F0A5E669BFB60C2"
+}

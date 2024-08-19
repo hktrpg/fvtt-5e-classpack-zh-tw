@@ -1,0 +1,86 @@
+{
+  "_id": "m9IA0eF0U0iEV2cv",
+  "name": "陰暗學識 Shadow Lore",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Hunter_BeastWithin.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         14級時，你學會了在言語中織入黑暗魔法激發一個生物最深的恐懼。</p>\n<p>         以一個動作，你對一個30尺內，能聽見你的聲音的生物發出一段魔法的低語。目標必須進行一次感知豁免檢定，對抗你的法術豁免DC。若它與你沒有共通的語言，或是它不能聽見你的聲音，它會自動在豁免中成功。在一次成功的豁免檢定中，你的低語聲聽起來就像是不知所云的呢喃，並且沒有效果。</p>\n<p>         若目標在豁免檢定中失敗，他將在接下來的8小時內被你魅惑，或直到你或你的盟友攻擊了它、傷害了它，或是迫使它進行一次豁免檢定。他認為這段低語描述了他最為困窘的秘密。儘管你不會了解到這個秘密，目標堅信你已經知道了。</p>\n<p>         當被以此法魅惑時，該生物因為畏懼你會公開他的秘密而遵循你的命令。他不會爲了你讓自己的生命受到威脅，或是為你戰鬥，除非他已經這麼做。他偏向於你，並會像密友那樣提供關愛和恩惠。</p>\n<p>         當此效果結束時，該生物不會明白為什麼他會對你如此恐懼。</p>\n<p>         一旦你使用了此特性，直到你完成了一次長休前，你都不能再次使用它。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "spec",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "低語學院等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!m9IA0eF0U0iEV2cv"
+}

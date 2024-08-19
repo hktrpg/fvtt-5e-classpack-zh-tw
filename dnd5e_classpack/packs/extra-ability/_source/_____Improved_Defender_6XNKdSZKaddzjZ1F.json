@@ -1,0 +1,91 @@
+{
+  "_id": "6XNKdSZKaddzjZ1F",
+  "name": "改良守衛 Improved Defender",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_siege_engineer_automatic_repair_beam.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在第15級，你的@UUID[Compendium.dnd5e_classpack.extra-ability.mu9IA3SphVBRiv63]{鋼鐵守衛}和@UUID[Compendium.dnd5e_classpack.extra-ability.Cst5SSYPhKUEAtf1]{奧能搖盪}變得更強：</p>\n<ul>\n<li>奧能搖盪的額外傷害和生命恢復變為[[/r 4d6]]。</li>\n<li>你的鋼鐵守衛AC+2</li>\n<li>當你的鋼鐵守衛使用偏轉攻擊時，攻擊者受到[[/r 1d4]]+你的智力調整值的力場傷害。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d4+@abilities.int.mod",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "戰地匠師等級 15",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6XNKdSZKaddzjZ1F"
+}

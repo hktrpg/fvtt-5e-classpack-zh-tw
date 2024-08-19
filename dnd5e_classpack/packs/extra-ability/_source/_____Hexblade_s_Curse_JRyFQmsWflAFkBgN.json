@@ -1,0 +1,91 @@
+{
+  "_id": "JRyFQmsWflAFkBgN",
+  "name": "咒劍詛咒 Hexblade's Curse",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/1Ability_Rogue_CutToTheChase%20-%20.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從1級起，你得到了向一個敵人施加惡毒詛咒的能力。以一個附贈動作，選擇一個處於你周圍30尺內，你能看見的生物。該目標被詛咒1分鐘。該詛咒將會在目標死亡、你死亡、你陷入失能時提前結束。直到詛咒結束，你得到下述的好處：</p>\n<ul>\n<li>你對被詛咒目標的傷害檢定中得到加值。加值等於你的熟練加值。</li>\n<li>你對被詛咒目標的任何攻擊檢定，若在[[/r d20]]中投出19或20，則形成一次重擊。</li>\n<li>若被詛咒的目標死亡，你恢復等於你邪術士等級+你的魅力調整值（至少為1）的生命值。</li>\n</ul>\n<p>直到你完成了一次短休或長休，</span>你不能再次使用此特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "max(@classes.warlock.levels+@abilities.cha.mod,1)",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "咒劍士等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!JRyFQmsWflAFkBgN"
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "7F6B3713DF617C32",
+  "name": "蟲群法杖 Staff of Swarming Insects",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-spiral-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需詩人、牧師、德魯伊、術士、魔導士或法師同調）</em></p>\n<p>蟲群法杖有10發充能，且每天黎明時恢復[[/r 1d6+4]]發已消耗的充能。當充能耗盡時，投一個[[/r d20]]。如果投骰結果為1，一群昆蟲將吞噬法杖，將其摧毀。</p>\n<p>法術：持握法杖時，你可以用一個動作並消耗若干充能以施展以下法術（使用你自身的法術豁免DC）：@UUID[Compendium.dnd5e_classpack.new-icon.yBd3ZN5cVZjfIR3b]{巨蟲術 Giant Insect}（4發）、@UUID[Compendium.dnd5e_classpack.new-icon.eGYMgP3fmIUQEXMm]{疫病蟲群 Insect Plague}（5發）。</p>\n<p><strong>蟲云。</strong>握持法杖時，你可以用一個動作並消耗1發充能令一群無害的昆蟲佈滿你周圍30尺半徑的空間，持續10分鐘。持續時間內，這片區域對你以外的生物視為重度遮蔽。蟲群以你為中心隨你移動。一陣時速超過10英里/小時的風會驅散蟲群，終止蟲云的效果。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 203"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 16000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 +4",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 59800000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!7F6B3713DF617C32"
+}

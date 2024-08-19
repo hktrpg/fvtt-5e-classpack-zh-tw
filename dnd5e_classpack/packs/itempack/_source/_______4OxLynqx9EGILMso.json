@@ -1,0 +1,135 @@
+{
+  "name": "凱爾金的泥怪",
+  "type": "equipment",
+  "img": "icons/commodities/materials/slime-thick-blue.webp",
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left\">這團乳白色的共生體黏液被密封在一個罐子里，不斷緩慢地移動和變化，彷彿是在探索罐子內部。要與該共生體同調，你必須先喝下罐子里的黏液，以獲取以下特性：</p><ul><li><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;LINE-HEIGHT:16.8pt\"><strong>獲得抗力：</strong>當你與凱爾金的泥怪同調時，你獲得對毒素和強酸傷害的抗力，同時對中毒狀態免疫。</p></li><li><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;LINE-HEIGHT:16.8pt\"><strong>不定形態：</strong>你可以耗費一個動作說出一個命令詞，來使你的身體呈現出泥怪的不定形態特性。在接下來的一分鐘里，你（連同你所穿戴或攜帶的任何裝置）可以通過一個只有1英吋寬的空間而不視為擠入。本能力被使用后，直到次日黎明前將無法再使用。<br /><strong>強酸噴吐：</strong>你可以耗費一個動作，噴出一條30英尺長、5英尺寬的強酸吐息。範圍內的每一個生物都要進行一次DC 15的敏捷檢定，豁免失敗將受到36（8d8）點強酸傷害，成功則只承受一半傷害。本能力被使用后，直到次日黎明前將無法再使用。</p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;LINE-HEIGHT:16.8pt\"></p></li></ul><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;LINE-HEIGHT:16.8pt\"><strong>共生體：</strong>當你與凱爾金的泥怪同調時，泥怪不能從你身上被移除，你也不能主動結束對它的同調。如果你成為一個能結束詛咒的法術的目標，那麼你與泥怪的同調自動結束，它將會滲出你的身體。<br />如果你在體內含有泥怪的時候死亡，泥怪將會破體而出將你的屍體吞噬，然後變成一隻@UUID[Compendium.dnd5e_classpack.monsterspack.Actor.NwQpeeaMxAC3fRft]{黑布丁}，其視為異變魔的盟友。<br /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "ERLW"
+    },
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 50000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": 5,
+      "units": "ft",
+      "type": "line",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d8",
+          "acid"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691471469657,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "4OxLynqx9EGILMso",
+  "sort": 40600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!4OxLynqx9EGILMso"
+}

@@ -1,0 +1,192 @@
+{
+  "name": "月鐮+1 Moon Sickle",
+  "type": "weapon",
+  "img": "icons/weapons/sickles/sickle-hooked-silver.webp",
+  "effects": [
+    {
+      "name": "月鐮+1 Moon Sickle",
+      "origin": "Item.NaQ36hSv3zqragsa",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "transfer": true,
+      "disabled": false,
+      "_id": "Bh7SoJMWT7bNK7Yd",
+      "changes": [
+        {
+          "key": "system.bonuses.spell.attack",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.spell.dc",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/weapons/sickles/sickle-hooked-silver.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!m6vFvdI1UfbVGbTZ.Bh7SoJMWT7bNK7Yd"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"MsoNormal\" style=\"MARGIN-BOTTOM:12pt;TEXT-ALIGN:left;mso-pagination:widow-orphan\"><em style=\"mso-bidi-font-style:normal\">（需德魯伊或遊俠同調 ）</em></p><p class=\"MsoNormal\" style=\"MARGIN-BOTTOM:12pt;TEXT-ALIGN:left;mso-pagination:widow-orphan\">這把銀刃鐮刀閃爍著柔和的月光。當持握這把魔法武器時，你用其發動的攻擊檢定和傷害擲骰，與你德魯伊或遊俠法術的法術攻擊檢定與法術豁免DC上具有加值。加值取決於武器的稀有度。<br />此外，你可以用鐮刀作為你施展德魯伊或遊俠法術的法器。<br />當你持握這把鐮刀，施展一道恢復生命值的法術時，你可以骰一枚[[/r 1d4]]並將所得結果加入回覆的生命值中。<br /></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod +1",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "lgt",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "sickle"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692349989323,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "m6vFvdI1UfbVGbTZ",
+  "sort": 133300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!m6vFvdI1UfbVGbTZ"
+}

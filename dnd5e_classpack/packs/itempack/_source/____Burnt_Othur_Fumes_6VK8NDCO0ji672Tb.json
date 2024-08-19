@@ -1,0 +1,120 @@
+{
+  "_id": "6VK8NDCO0ji672Tb",
+  "name": "焦引燻煙Burnt Othur Fumes",
+  "type": "consumable",
+  "img": "icons/consumables/potions/conical-mushroom-poison-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>吸入</em></p>\n<p>受害於該毒藥的生物必須進行一次DC 13的體質豁免，豁免失敗則受10（[[/r 3d6]]）點毒素傷害，並且必須在隨後每個其自己回合開始時，再進行一次該豁免，每次豁免失敗都將受3（[[/r 1d6]]）點毒素傷害。三次成功豁免后毒藥的效應終止。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "cube",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "poison"
+        ]
+      ],
+      "versatile": "1d6"
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "poison",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 54500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!6VK8NDCO0ji672Tb"
+}

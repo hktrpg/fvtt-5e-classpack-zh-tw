@@ -1,0 +1,114 @@
+{
+  "_id": "SeUiaX2Z3wuUaZ3M",
+  "name": "蹄擊 (MPMM半人馬)",
+  "type": "feat",
+  "img": "icons/tools/smithing/horseshoe-steel-grey.webp",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">你可以用你的馬蹄來進行徒手打擊。如果你以蹄擊中目標，將造成1d6+力量調整值的鈍擊傷害，替代你通常的徒手打擊傷害。</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "MPMM"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": null,
+      "type": "enemy"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6+@mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "半人馬",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11600000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "fumbleThreshold": null,
+      "removeAttackDamageButtons": "default"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1713019425531,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SeUiaX2Z3wuUaZ3M"
+}

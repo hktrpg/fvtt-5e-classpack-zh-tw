@@ -1,0 +1,134 @@
+{
+  "_id": "tf3EIMrOkbZvOxSz",
+  "name": "灼熱金屬 Heat Metal",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shaman_LavaBurst.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 指定施法距離內一件你能看見的人造金屬物件（例如一把金屬武器，或者一套金屬質的重甲或中甲），並使該物件變得熾熱。\n<br>施展該法術時，任何與該物件有物理接觸的生物均受到2d8的火焰傷害。直到法術終止前，施法在隨後的每個回合中，你都可以使用一個附贈動作再次造成該傷害。\n<br>如果握持或著裝該物件的生物因此受到傷害，則該生物必須進行一次體質豁免。豁免失敗者在無其他條件影響時將丟下該物件。如果該物件沒有被丟下，則直至你的下一回合開始為止，該生物進行攻擊檢定和屬性檢定時具有劣勢。\n<br><strong>升環施法效應。</strong>使用3環或更高法術位施展該法術時，你使用的法術位每比2環高一環，傷害就增加1d8。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 250",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一片鐵片和一團火焰",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 48000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722355432803,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!tf3EIMrOkbZvOxSz"
+}

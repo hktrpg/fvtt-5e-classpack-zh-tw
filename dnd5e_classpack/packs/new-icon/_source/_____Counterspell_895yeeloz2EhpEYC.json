@@ -1,0 +1,128 @@
+{
+  "_id": "895yeeloz2EhpEYC",
+  "name": "法術反制 Counterspell",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_Arcane01.png",
+  "effects": [],
+  "folder": null,
+  "sort": 6000000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你試圖打斷一個生物正在施展的一個法術。如果該生物正在施展3環或更低環階法術，則其法術失敗且不產生任何效應。如果該生物正在施展4環或更高環階法術，則你以施法關鍵屬性進行一次屬性檢定，其檢定DC 等於10＋目標法術的環階。檢定成功則目標法術失敗且不產生任何效應。\n<br><strong>升環施法效應。</strong>使用4環或更高法術位施展該法術時，如果被打斷法術的環階不高於你所用的法術位環階，則該目標法術直接被打斷。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 228",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當你看見身邊 60 尺範圍內一個生物施展法術時執行"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d20 + @mod",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717696757391,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!895yeeloz2EhpEYC"
+}

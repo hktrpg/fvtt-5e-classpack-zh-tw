@@ -1,0 +1,91 @@
+{
+  "_id": "IYuxMvRIO9feIxSe",
+  "name": "引導神力：驅散不死生物",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_Excorcism_02.png",
+  "system": {
+    "description": {
+      "value": "<p>你以一個動作展示你的@UUID[Compendium.dnd5e_classpack.itempack.TJi1q6Bm8IGoJJVL]{聖徽}，並說出一段譴責不死生物的禱言。你身邊30尺範圍內能夠看到聖徽或聽到你禱言的不死生物必須進行一次感知豁免，豁免失敗則受到驅散，其效應持續1分鐘或直到其受到任何傷害。</p>\n<p>一個被驅散的生物必須花費其回合內的所有速度盡力遠離你，而且無法主動靠近你30尺內。被驅散的生物無法使用反應，只能使用既有的疾走Dash動作或從任何妨礙他們移動的效應中掙脫。該生物無路可走時，將會使用「迴避Dodge」動作。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 59",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Targets must be able to see or hear you."
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "wis",
+      "value": "wis"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "牧師等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IYuxMvRIO9feIxSe"
+}

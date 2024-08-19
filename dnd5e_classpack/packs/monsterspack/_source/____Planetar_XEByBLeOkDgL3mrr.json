@@ -1,0 +1,2148 @@
+{
+  "_id": "XEByBLeOkDgL3mrr",
+  "name": "異界神侍Planetar",
+  "type": "npc",
+  "img": "systems/dnd5e/tokens/celestial/Planetar.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 24,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 20,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 24,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 19,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 22,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 25,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 19,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 200,
+        "max": 200,
+        "temp": null,
+        "tempmax": 0,
+        "formula": "16d10 + 112"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 120,
+        "swim": 0,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 120,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>\n        <em>\n          指示物藝術圖來自\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+        "public": ""
+      },
+      "alignment": "守序善良",
+      "race": "",
+      "type": {
+        "value": "celestial",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 16,
+      "spellLevel": 0,
+      "source": "SRD 5.1"
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "radiant",
+          "slashing"
+        ],
+        "bypasses": [
+          "mgc"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "All; Telepathy 120 ft."
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "異界神侍Planetar",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "systems/dnd5e/tokens/celestial/Planetar.webp",
+      "tint": "#ffffff",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 120,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "hexagonalShape": 1,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "sDvx0IybgYa8Q4WG",
+      "name": "天使武器Angelic Weapons",
+      "type": "feat",
+      "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\"><p>異界神侍的武器攻擊帶有魔法。當異界神侍以任何武器攻擊命中目標時，其武器將額外造成<strong>5d8點<em>光耀傷害</em></strong> （已包含在攻擊項中）。</p></section><p>異界神侍的武器攻擊帶有魔法。當異界神侍以任何武器攻擊命中目標時，其武器將額外造成<em>光耀傷害</em> （已包含在攻擊項中）。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.sDvx0IybgYa8Q4WG"
+    },
+    {
+      "_id": "2kBUlTLMlwq3KoUB",
+      "name": "神性警覺Divine Awareness",
+      "type": "feat",
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>異界神侍可以辨出聽到的謊言。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.2kBUlTLMlwq3KoUB"
+    },
+    {
+      "_id": "9hrSczyYfl4fSrpZ",
+      "name": "天生施法Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>異界神侍的施法關鍵屬性為魅力（法術豁免DC 20）。它天生即可施展以下法術，而無需任何材料成分：</p>\n<p>隨意：偵測善惡detect evil and good，隱形術invisibility（僅自身）</p>\n<p>每項3/日：劍刃護壁blade barrier，反制善惡dispel evil and good，焰擊術flame strike，死者復活raise dead</p>\n<p>每項1/日：通神術commune，控制天氣control weather，疫病蟲群insect plague</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.9hrSczyYfl4fSrpZ"
+    },
+    {
+      "_id": "2C0408CEBtrZW8ji",
+      "name": "Invisibility (self only)",
+      "type": "spell",
+      "img": "icons/magic/air/fog-gas-smoke-blue-dense-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>你觸碰的一個生物變為隱形並維持至法術終止。目標的穿著物和攜帶物只要保持在其身上也隨之保持隱形狀態。如果目標發動攻擊或施展法術，則該法術終止。</p>\n<p><strong>升環施法效應。</strong>使用三環或更高的法術位施展該法術時，你使用的法術位每比二環高一環就可以額外指定一個目標。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.2C0408CEBtrZW8ji"
+    },
+    {
+      "_id": "5sDIEn5aplaeXax7",
+      "name": "魔法抗性Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>異界神侍為抵抗法術和其它魔法效應而作的豁免檢定具有<strong> 優勢</strong>。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.5sDIEn5aplaeXax7"
+    },
+    {
+      "_id": "LyxrhwvzMW4YbiYE",
+      "name": "多重攻擊Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>異界神侍發動兩次近戰攻擊。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.LyxrhwvzMW4YbiYE"
+    },
+    {
+      "_id": "BBLXs9hiUvtRaP16",
+      "name": "巨劍Greatsword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\"><p><em>近戰武器攻擊：</em><strong>命中+12，觸及5尺，</strong>單一目標。傷害：<strong>21（4d6+7）點<em>揮砍傷害</em></strong>，外加<strong>22（5d8）點<em>光耀傷害</em></strong>。</p></section><p>異界神侍使用巨劍攻擊。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "quantity": 1,
+        "weight": 6,
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d6 + @mod",
+              "slashing"
+            ],
+            [
+              "5d8",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": true,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": true,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.BBLXs9hiUvtRaP16"
+    },
+    {
+      "_id": "VJz6sW3vOJcEL4IS",
+      "name": "治癒之觸Healing Touch",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>異界神侍觸碰另一生物。被觸碰目標將回復30（6d8+3）點生命值，並移除其身上所有詛咒、疾病、中毒、目盲及耳聾效應。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "touch",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 4,
+          "max": "4",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "heal",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "6d8+3",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.VJz6sW3vOJcEL4IS"
+    },
+    {
+      "_id": "Mzh95utKDPIrjiH8",
+      "name": "偵測善惡Detect Evil and Good",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你在法術持續時間內能感覺到身邊 30 尺內出現的任一異怪、天界生物、元素生物、精類生物、邪魔或不死生物的存在，並掌握其具體位置。另外，你也可以知曉 30 尺內的物件或地點是否被祝福或褻瀆。</p><p>該法術可以穿透大多障礙，但仍會被 1 尺厚石質或 1 寸厚金屬質，或一層薄鉛質，或 3 尺厚木質或泥質材料阻隔。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "div",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.Mzh95utKDPIrjiH8"
+    },
+    {
+      "_id": "dLJhxDfeyOsc3zsY",
+      "name": "劍刃護壁Blade Barrier",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你立起一道由旋轉的魔法利刃組成的墻。墻壁出現在施法距離內一個你指定的位置，並維持到法術持續時間結束。你可以選擇創造長不過 100 尺、高不過 20 尺、厚不過 5 尺的直墻；或是直徑不過 60 尺、高不過 20 尺、厚不過 5 尺的環形墻。墻為位於其後方的生物提供四分之三掩護。而墻體所佔據的空間則視為困難地形。</p>\n<p>任何生物在一個回合內第一次進入墻體區域，或者在區域內開始其回合時，必須進行一次<strong>敏捷</strong>豁免。豁免失敗者將受到 6d10 點<em>揮砍傷害</em>.。豁免成功則傷害減半。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 100,
+          "width": null,
+          "units": "ft",
+          "type": "wall"
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "6d10",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 20,
+          "scaling": "spell"
+        },
+        "level": 6,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/projectile-beams-salvo-white.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.dLJhxDfeyOsc3zsY"
+    },
+    {
+      "_id": "TkJ8Wtg1L7TZtspm",
+      "name": "反制善惡Dispel Evil and Good",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>發光的能量環繞著你，並保護你免受來自精類生物、不死生物和源於主物質位面外異域生物的傷害。天界生物、元素生物、精類生物、邪魔、不死生物對你發動攻擊檢定時具有劣勢。</p>\n<p>你可以通過以下方式提前終止此法術：</p>\n<p><strong>破除附魔｜Break Enchantment</strong>。你使用動作觸碰一個觸及範圍內的生物，如果該生物受天界生物、元素生物、精類生物、邪魔或不死生物影響而陷入魅惑、恐慌，或是被附身狀態。生物的這些狀態即時結束。</p>\n<p><strong>驅逐｜Dismissal</strong>。你使用動作發動一次近戰法術攻擊，攻擊一個天界生物、元素生物、精類生物、邪魔或不死生物。命中時，你可以嘗試將該生物驅逐回其原屬位面。該生物必須成功通過一此魅力豁免，否則將強制返回其原屬位面（若已在原屬位面則無效）。比如精類生物會返回妖精荒野，不死生物會返回墮影冥界。 </p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": 20,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "abj",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Holy water or powdered silver and iron",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/air/air-burst-spiral-large-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.TkJ8Wtg1L7TZtspm"
+    },
+    {
+      "_id": "5e1xTohkzqFqbYH4",
+      "name": "焰擊術Flame Strike",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>一支聖火立柱從天堂帶著呼嘯降落在你指定的一處地點。聖火以施法距離內指定點為源點形成一處半徑 10 尺、高 40 尺柱狀區域，其內的每個生物必須進行一次<strong>敏捷</strong>豁免。豁免失敗者將受到 4d6 點<em>火焰傷害</em>和 4d6 點<em>光耀傷害</em>，豁免成功則傷害減半。</p>\n<p><strong升環施法效應。</strong> 使用六環或更高法術位施展該法術時，你使用的法術位每比五環高一環，其<em>火焰傷害</em>或<em>光耀傷害</em>（自選其一）就增加 1d6。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "cylinder"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "radiant"
+            ],
+            [
+              "4d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 20,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A pinch of sulfur",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/beam-rays-red-large.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.5e1xTohkzqFqbYH4"
+    },
+    {
+      "_id": "AGFMPAmuzwWO6Dfz",
+      "name": "死者復活Raise Dead",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你觸碰一個已死的生物，使其復活。該生物的死亡時間必須不超過 10 日。如果該生物的靈魂願意並且能夠回到其身體中，則它將以1點生命值重生。</p><p>該法術同樣會中和該生物生前體內的毒素以及罹患的非魔法疾病。但對於魔法造成的疾病、詛咒和類似的效應則無能為力；如果沒有在復活前治癒這些效應，則它們在該生物重獲生命的時候繼續生效。該法術不能復活不死生物。</p><p>該法術能治癒所有致命傷，但無法恢復失去的身體部位。如果該生物缺失了它生存所必要的身體部位或器官（比如頭），則該法術自動失敗。</p><p>死而復生是一個痛苦的體驗。復活的目標在隨後進行攻擊檢定、豁免檢定和屬性檢定時具有-4 減值。該目標每完成一次長休，其減值就減少 1，依次疊加直至減值完全消失。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "hour",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "spec",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "heal",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "nec",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A diamond worth at least 500gp, which the spell consumes.",
+          "consumed": true,
+          "cost": 500,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.AGFMPAmuzwWO6Dfz"
+    },
+    {
+      "_id": "d54VDyFulD9xxY7J",
+      "name": "通神術Commune",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你與所信奉神祇或其代理人進行聯繫，並詢問至多三個能以「是」或「否」回答的問題。你必須在法術終止前完成提問。你在隨後分別獲得每個問題的答案。</p>\n<p>這些神能存在也並非全知全能，因此當問題涉及的資訊超過神祇的認知範圍時，你可能會得到一句「不確定」作為回答。另外當一個單詞可能引致誤導，或者與神祇的興致相違背時，DM 可能會提供一句短語作為答案。</p>\n<p>若你在兩次長休之間兩次或更多次的施展該法術，則法術有一定的機率不給任何答覆。此概率從第二次施展起每次累計 25％。其具體結果由 DM 暗骰決定。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "div",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Incense and a vial of holy or unholy water",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.d54VDyFulD9xxY7J"
+    },
+    {
+      "_id": "ZPd73HtKF3At11jh",
+      "name": "操控天氣Control Weather",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你在法術持續時間內控制自身 5 里範圍內的天氣狀況。施展該法術時你必須身處戶外。而一旦移動到無法直接看到天空的地點時，法術也會隨即終止。</p>\n<p>本來由 DM 基於季節和氣候所決定的天氣狀況，在你施展此法術時可以由你隨意操控。你可以改變降水、氣溫以及風勢等狀況。新的天氣狀況生效需要經過[[/r 1d4]]×10分鐘的時間才能完成。狀況改變完成後，你可以再次對當前對天氣狀況作改變。法術終止時，天氣將漸漸恢復成平常狀態。</p>\n<p>改變天氣狀況時，你可以從以下表格查明與目前對應的等級，再選擇同一表格中高一級或第一級的狀況作為其改變結果。改變風勢時，你還可以同時改變其風向。</p>\n<p><strong>狀況</strong></p>\n<ol>\n<li>天晴｜clear</li>\n<li>薄雲｜light clouds</li>\n<li>多雲｜overcast，有霧｜ground fog</li>\n<li>有雨｜rain，冰雹｜hail，有雪｜snow</li>\n<li>暴雨｜torrential rain，冰暴｜driving hail，暴雪｜blizzard</li>\n</ol>\n<p><strong>氣溫</strong></p>\n<ol>\n<li>酷熱｜unbearable heat</li>\n<li>炎熱｜hot</li>\n<li>暖和｜warm</li>\n<li>清涼｜cool</li>\n<li>寒冷｜cold</li>\n<li>極寒｜arctic cold</li>\n</ol>\n<p><strong>風勢</strong></p>\n<ol>\n<li>無風｜calm</li>\n<li>和風｜moderate wind</li>\n<li>強風｜strong wind</li>\n<li>狂風｜gale</li>\n<li>暴風｜strom</li>\n</ol>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "minute",
+          "cost": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "mi",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 8,
+        "school": "trs",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Burning incense and bits of earth and wood mixed in water.",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/air/wind-tornado-cyclone-white.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.ZPd73HtKF3At11jh"
+    },
+    {
+      "_id": "OVikYmSdHliAG2YD",
+      "name": "疫病蟲群Insect Plague",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你指定施法距離內一點，並以該點為中心使半徑 20 尺的球狀區域內堆滿成群的噬人蝗蟲。蟲群會繞過拐角擴散。蟲群在法術終止前都會持續存在。，整個區域處於輕度遮蔽。整個區域成為困難地形。</p>\n<p>當蟲群顯現時，其區域內的每個生物都必須進行一次<strong>體質</strong>豁免。豁免失敗則受到 4d10 的<em>穿刺傷害</em>，豁免成功則傷害減半。生物在一個回合內第一次進入該區域內，或者在區域內結束其回合時，也必須進行該豁免。</p>\n<p><strong>升環施法效應。</strong>使用六環或更高法術位施展該法術時，你使用的法術位每比六環高一環，傷害就增加 1d10。 </p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 300,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d10",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 20,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "con",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A few grains of sugar, some kernels of grain, and a smear of fat",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d10"
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/nature/leaf-glow-maple-teal.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!XEByBLeOkDgL3mrr.OVikYmSdHliAG2YD"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!XEByBLeOkDgL3mrr"
+}

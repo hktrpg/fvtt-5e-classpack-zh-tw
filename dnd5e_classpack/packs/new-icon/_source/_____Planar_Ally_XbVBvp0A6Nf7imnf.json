@@ -1,0 +1,126 @@
+{
+  "_id": "XbVBvp0A6Nf7imnf",
+  "name": "異界誓盟 Planar Ally",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002684.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你祈求一個異界個體的援助。你必須對該存在個體有所瞭解，它可以是一個神祇，一位原祖，一名惡魔主君，或是其他界域級力量的存在。該存在將派遣一個效忠它的天界生物，元素生物或邪魔來援助你，並使該個生物顯現在施法距離內一個未佔據空間。如果你知道他們中某個特定生物的名字，則你可以在施展法術時說出其名字來請求指派該生物來援，但是你仍然有可能得到一個不同的生物（由DM 選擇）。\n<br>該生物出現時，你無法強迫它作任何事。你可以以報酬為交換請求其提供服務，只是它並沒任何義務為你實現。請求的任務可以簡單（幫我們飛越峽谷，或在一場戰鬥中提供協助），也可以複雜（暗中監視我們的敵人，或在我們掃蕩地城時保護我們）。你必須能與該生物交流以為他服務的報酬討價還價。\n<br>報酬的形式也可以各式各樣。一個天界生物可能會要求為一座同盟的神殿捐獻一份相當可觀的金幣或魔法物品，而一隻邪魔可能會索要一次活祭或一份財寶作為禮物。一些生物可能會要求你進行一個任務來換取它們的服務。\n<br>粗略計算，一個可以按分鐘計算的任務需要每分鐘100gp的報酬。一個可以按小時計算的任務需要每小時1,000gp 的報酬。一個可以按日計算的任務（至多10日）需要每日10,000gp的報酬。DM 可以按你施放該法術的環境調整具體的報酬。如果任務與生物的行爲準則一致，則報酬可能會被減半甚至放棄。沒有風險的任務一般只需要建議報酬的一半，而特別危險的任務可能會需要更大的贈禮。生物極少接受看上去像自殺的任務。\n<br>生物完成任務后，或當協議服務時間結束后，如果任務合適並在可能的情況下，生物會在回來向你報告后再返回自己的家鄉位面。如果你不能同意生物的服務價格，則其將立即返回其家鄉位面。\n<br>應召加入你隊伍的生物算作隊伍成員，並正常分享獲得的經驗值。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 265",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 30000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711695063509,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XbVBvp0A6Nf7imnf"
+}

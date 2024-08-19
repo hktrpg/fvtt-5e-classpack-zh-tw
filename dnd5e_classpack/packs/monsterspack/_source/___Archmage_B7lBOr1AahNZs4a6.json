@@ -1,0 +1,4044 @@
+{
+  "_id": "B7lBOr1AahNZs4a6",
+  "name": "大法師Archmage",
+  "type": "npc",
+  "img": "systems/dnd5e/tokens/humanoid/Archmage.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 20,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 99,
+        "max": 99,
+        "temp": null,
+        "tempmax": 0,
+        "formula": "18d8 + 18"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>\n        <em>\n          指示物藝術圖來自\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>\n      </p>",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 12,
+      "spellLevel": 18,
+      "source": "SRD 5.1"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": "damage from spells"
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "(Any 6 Languages)"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 2,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 2,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 3,
+        "override": null
+      },
+      "spell6": {
+        "value": 1,
+        "override": null
+      },
+      "spell7": {
+        "value": 1,
+        "override": null
+      },
+      "spell8": {
+        "value": 1,
+        "override": null
+      },
+      "spell9": {
+        "value": 1,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "大法師Archmage",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "systems/dnd5e/tokens/humanoid/Archmage.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "gSrKQbka5aLxlcJz",
+      "name": "施法Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>大法師作為18級施法者。其施法關鍵屬性為智力（法術豁免DC 17，法術攻擊命中+9）。大法師可隨意施展易容術disguise self和隱形術invisibility，且習有以下法師法術：</p>\n<p>• <strong>戲法</strong>（隨意）：火焰箭fire bolt，光亮術light，法師之手mage hand，魔法伎倆prestidigitation，電爪shocking grasp</p>\n<p>• <strong>1環（4法術位）：偵測魔法detect magic，鑑定術identify，法師護甲mage armor*，魔法飛彈magic missile</p>\n<p>• <strong>2環（3法術位）：偵測思想detect thoughts，鏡影術mirror image，迷蹤步misty step</p>\n<p>•<strong>3環（3法術位）：法術反制counterspell，飛行術fly，閃電束lightning boltbolt</p>\n<p>•<strong>4環（3法術位）：放逐術banishment，火焰護盾fire shield，石膚術stoneskin*</strong></p>\n<p>•<strong>5環（3法術位）：寒冰錐cone of cold，探知scrying，力場墻wall of force</p>\n<p>•<strong>6環（1法術位）：法術無效結界globe of invulnerability</p>\n<p>•<strong>7環（1法術位）：傳送術teleport</p>\n<p>• <strong>8環（1法術位）：心靈屏障mind blank*</strong></p>\n<p>• <strong>9環（1法術位）：時間停止time stop* </strong></p>\n<p><strong>*-大法師在進入戰鬥前對自身施展這些帶標記的法術。</strong></p>\n</section>\n<p>大法師作為施法者。其施法關鍵屬性為感知。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.gSrKQbka5aLxlcJz"
+    },
+    {
+      "_id": "Wa6dckSFp3pY8yH5",
+      "name": "魔法抗性Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>大法師抵抗法術和其它魔法效應時進行的豁免檢定具有<strong> 優勢</strong>。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.Wa6dckSFp3pY8yH5"
+    },
+    {
+      "_id": "vgTunE3gLps5Q595",
+      "name": "匕首Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>近戰或遠端武器攻擊：命中+6，觸及5尺，或射程20/60尺，單一目標。傷害：<strong>4（1d4+2）點<em>穿刺傷害</em></strong>。</p></section>\n<p>大法師使用匕首攻擊。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "quantity": 1,
+        "weight": 1,
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "thr": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.vgTunE3gLps5Q595"
+    },
+    {
+      "_id": "EOmsUcFQJTfG2oio",
+      "name": "火焰箭Fire Bolt",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你對施法距離內一個生物或物件擲出一把火焰。對目標進行一次遠端法術攻擊。若命中，則目標受到 1d10 點<em>火焰傷害</em>.。未被著裝或攜帶的可燃物件被該法術命中時將被點燃。</p>\n<p>你到達 5 級時，該法術的傷害增加 1d10（變為 2d10）。11 級時再加 1d10（變為 3d10），17 級時再加 1d10（變為 4d10）。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rsak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/fire/projectile-fireball-smoke-orange.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.EOmsUcFQJTfG2oio"
+    },
+    {
+      "_id": "Bnn9Nzajixvow9xi",
+      "name": "光亮術Light",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你觸碰一個尺寸在任意方向上都不超過 10 尺的物件。在法術終止前，物件將在其 20 尺半徑範圍內發出明亮光照，並在其外 20 尺範圍發出微光光照。光的顏色由你決定。該物件被不透明的東西完全遮蓋時，其光照被遮擋。如果你再次施展該法術，或者使用一個動作解散該法術，則該法術終止。</p><p>如果你指定敵對生物所持握或著裝的一個物件作為目標，則該生物必須進行一次敏捷豁免以嘗試擺脫該法術的效應。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 17,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A firefly or phosphorescent moss.",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.Bnn9Nzajixvow9xi"
+    },
+    {
+      "_id": "Utk1OQRwYkMkFRD3",
+      "name": "法師之手Mage Hand",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>一隻漂浮的幽靈手出現在施法距離內你指定的一點。幽靈手持續存在至法術終止，或直至你以一個動作解散該法術。如果幽靈手距你的距離超過 30 尺，或者當你再次施展了該法術時，則現存的幽靈手消失不見。</p>\n<p>你可以用動作控制幽靈手。你可以通過幽靈手實現一個行為：你可以操控一個物件，或者打開一扇未上鎖的門或容器，或者將一件物品放入容器或從容器中取出，或者將小瓶中的內容物傾倒出來。你每次你使用幽靈手時可以令其移動至多 30 尺。</p>\n<p>該幽靈手不能攻擊，也不能啟用魔法物品或承載超過 10 磅重的物質。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "space"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/water/water-hand.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.Utk1OQRwYkMkFRD3"
+    },
+    {
+      "_id": "udsLtG0BugXHR2JQ",
+      "name": "魔法伎倆Prestidigitation",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>該法術是一個初級施法者用來練習的魔法小伎倆。你在施法距離內創造下列魔法效果中的一種： </p>\n<ul>\n<li>你創造一個立即生效的，無害的感觀效應，比如一束火花，一陣風，微弱音樂或古怪的臭味。</li>\n<li>你立即點燃或熄滅一支蠟燭，一支火把或一小型營火。</li>\n<li>你立即使一個不大於1立方尺的物件變得清潔或骯髒。</li>\n<li>你立即使一個不大於 1 立方尺的非活體物質變得冰冷、溫暖或對其調味，其效應持續 1 小時。</li>\n<li>你在一個物件或一個表面上創造一塊色斑，或者一個記號，又或者一個標誌，其效應持續 1 小時。</li>\n<li>你創造一個巴掌大小的非魔法小玩意或一個虛幻影象，其效應持續到你下回合結束。</li>\n</ul>\n<p>如果你多次施展該法術，則可以同時維持至多三個不同的非即時效應，並且可以用一個動作解散其中一種效應。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/fire/explosion-fireball-small-purple-orange.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.udsLtG0BugXHR2JQ"
+    },
+    {
+      "_id": "XvbiNhNqXXIFisIy",
+      "name": "電爪Shocking Grasp",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你的手上發出閃電，並對你觸碰的一個生物發動電擊。對目標發動一次近戰法術攻擊。如果目標穿著金屬護甲，則你進行該檢定時具有優勢。若命中，則目標受到 1d8 點<em>閃電傷害</em>，並且在其下一回合開始前不能執行任何反應。</p>\n<p>你到達 5 級時，該法術的傷害增加 1d8（變為 2d8）。11 級時再加 1d8（變為 3d8），17 級時再加 1d8（變為 4d8）。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/lightning/bolt-forked-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.XvbiNhNqXXIFisIy"
+    },
+    {
+      "_id": "ghXTfe7sgCbgf1Q8",
+      "name": "偵測魔法Detect Magic",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你在法術持續時間內能感測到30尺記憶體在的魔法。感測到魔法的存在後，你可以使用動作，來看到任何你能看見的具有魔法的生物或物件周圍環繞著微弱的靈光，並分辨出其所屬的魔法學派（若有）。</p><p>該法術可以穿透大多障礙，但仍會被 1 尺厚石質或 1 寸厚金屬質，或一層薄鉛質，或 3 尺厚木質或泥質材料阻隔。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "div",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": true,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/explosion-star-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.ghXTfe7sgCbgf1Q8"
+    },
+    {
+      "_id": "3OZnNhunvRtPOQmH",
+      "name": "鑑定術Identify",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p> 你指定一個物件，並在施法過程中一直與其保持接觸。如果該物件是魔法物品或其他附有魔力的物件，則你將知曉其屬性和使用方式，以及瞭解是否需要與之同調。若它是充能物品則你將得知它現存的可用次數。你還可以發現是否有法術正影響該物件，以及可能存在的法術效應具體來自哪項法術。如果目標由法術所創，則你將知曉具體來自哪項法術。</p><p>如果你施法過程中一直接觸的是一生物，則你將知曉其是否受法術影響，及產生影響的法術效應具體來自哪項法術。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "div",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A pearl worth at least 100gp and an owl feather",
+          "consumed": false,
+          "cost": 100,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/explosion-star-small-teal-purple.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.3OZnNhunvRtPOQmH"
+    },
+    {
+      "_id": "CKZTpZlxj7hjjo2H",
+      "name": "法師護甲Mage Armor",
+      "type": "spell",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>你觸碰一個未著裝護甲的自願生物，使其受一個保護性魔法力場環繞直至法術終止。目標的基礎 AC 變為 13+它的敏捷調整值。目標著裝護甲或你以一個動作解散該法術后法術隨之終止。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "abj",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A piece of cured leather",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [
+        {
+          "_id": "cfwMU7LuOJ619Lny",
+          "changes": [
+            {
+              "key": "system.attributes.ac.calc",
+              "value": "mage",
+              "mode": 5,
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H",
+          "transfer": true,
+          "flags": {},
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "12.324",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Mage Armor",
+          "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!B7lBOr1AahNZs4a6.CKZTpZlxj7hjjo2H.cfwMU7LuOJ619Lny"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.CKZTpZlxj7hjjo2H"
+    },
+    {
+      "_id": "41JIhpDyM9Anm7cs",
+      "name": "魔法飛彈Magic Missile",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你創造三枚由魔法力場形成的閃光飛鏢。每發飛鏢命中施法距離內你能看見的指定生物。每發飛鏢對目標造成 1d4+<strong>1 的<em>力場傷害</em> </strong>。所有飛鏢將同時命中目標，而你還可以指定它們擊中同一個目標或是分別擊中幾個目標。</p>\n<p><strong>升環施法效應。</strong>使用二環或更高法術位施展該法術時，你使用的法術位每比一環高一環，該法術就會多製造出一支飛鏢。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + 1",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/fire/projectile-meteor-salvo-light-pink.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.41JIhpDyM9Anm7cs"
+    },
+    {
+      "_id": "ppWAAEul0QHtm4er",
+      "name": "偵測思想Detect Thoughts",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你在法術持續時間內能讀取特定生物的思想。你可以在施展法術時，或者在法術持續時間內以一個動作實現該效應。此時，受術生物必須身處你 30 尺內並且能被你看見，而你必須對其集中注意力。如果該生物智力為 3 或更低，或者不懂任何語言，則該生物不受影響。</p><p>你最初瞭解的是該生物的表面想法，一般就是其此刻正想著的東西。你可以使用動作繼續深入一個生物的思想，也可以用動作轉移讀心的目標。如果你繼續深入，則目標必須進行一次感知豁免。豁免失敗時，你瞭解到他的邏輯推理（如果有的話）、情緒狀態以及他頭腦中的一些大事（比如憂慮、摯愛和仇恨的事物）。豁免成功時，本法術終止。無論哪種情況，目標都會知道你正在窺探他的思想。除非你轉移注意力到其他生物，否則他可以在其回合內使用動作進行一次智力檢定，並與你的智力檢定作對抗；生物勝出對抗時，法術終止。</p><p>向目標提問可以引導目標的思想歷程，因此此法術在審訊中特別有效。</p><p>你還能用此法術偵測看不見的有思維生物。你可以在施展法術時，或者在法術持續時間內以一個動作實現該效應。此時，你可以搜尋 30 尺內的思想。該法術可以穿透大部分障礙，但仍會被 2 尺厚的石質，或 2 寸厚的金屬質，或一層薄鉛質材料所阻隔。你無法偵測到智力為 3 或更低的生物，也無法偵測不懂任何語言的生物。</p><p>以該方式偵測到一個生物后，你可以在法術持續時間內如上文所述的讀取其思想。你甚至不需要看見該生物，但其必須在其 30 尺內。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 17,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "div",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A copper piece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/explosion-star-teal-purple.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.ppWAAEul0QHtm4er"
+    },
+    {
+      "_id": "X4c8xCkmF8U9HUMz",
+      "name": "鏡影術Mirror Image",
+      "type": "spell",
+      "img": "icons/magic/control/debuff-energy-hold-levitate-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>三個你自身的幻象分身出現在你的位置上。直至法術終止前，分身都會隨你移動，並模仿你的動作和位置變換，使人無法追蹤判斷哪一個是你的真身。分身存在時，你可以用動作來解散這些幻象分身。</p>\n<p>在法術持續時間內，每當一個生物以你為攻擊目標時，擲一次[[/r d20]]決定該次攻擊擊中的是否其中一個分身。</p>\n<p>如果你有三個分身，則你必須擲出 6 或更高數值才能使目標的攻擊命中分身。如果你有兩個分身，則你必須擲出 8 或更高數值。如果你有一個分身，則你必須擲出 11 或更高數值。</p>\n<p>分身的 AC 等於 10+你的敏捷調整值。單次攻擊命中分身時相應分身立即被摧毀。分身會被一發命中它的攻擊摧毀。且無視所有其他的傷害和效應。三個分身全部被毀后該法術終止。</p>\n<p>如果一個生物無法視物，或者它可以依靠視覺之外的其它感官（例如盲視），又或者它可以如同真實視覺一樣洞察幻象，則該法術無法影響該生物。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1d20",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.X4c8xCkmF8U9HUMz"
+    },
+    {
+      "_id": "wqfAVANuQonNBgnL",
+      "name": "迷蹤步Misty Step",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你短暫地被銀白的霧氣所籠罩，傳送到至多 30 尺內一個你能看見且未被佔據的位置。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "space"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/control/debuff-energy-snare-brown.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.wqfAVANuQonNBgnL"
+    },
+    {
+      "_id": "Ek45cBpVXvJdv1Qy",
+      "name": "法術反制Counterspell",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你試圖打斷一個生物正在施展的一個法術。如果該生物正在施展三環或更低環階法術，則其法術失敗且不產生任何效應。如果該生物正在施展四環或更高環階法術，則你以施法關鍵屬性進行一次屬性檢定。其 DC 等於 10+目標法術的環階。檢定成功則目標法術失敗且不產生任何效應。</p>\n<p><strong>升環施法效應。</strong>使用四環或更高法術位施展該法術時，如果被打斷法術的環階不高於你所用的法術位環階，則該目標法術直接被打斷。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "which you take when you see a creature within 60 feet of you casting a spell"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1d20 + @mod",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "abj",
+        "components": {
+          "vocal": false,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/skills/melee/strike-blade-hooked-orange-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.Ek45cBpVXvJdv1Qy"
+    },
+    {
+      "_id": "yfbK8gZqESlaoY5t",
+      "name": "飛行術Fly",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你觸碰一個自願生物。並使該目標在法術持續時間內獲得 60 尺的飛行速度。法術終止時，如果目標仍在空中則隨即墜落。</p>\n<p><strong>升環施法效應。</strong> 使用四環或更高法術位施展該法術時，你使用的法術位每比三環高一環，就可以額外再指定一個生物作為法術目標。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "trs",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A wing feather from any bird",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/control/energy-stream-link-white.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.yfbK8gZqESlaoY5t"
+    },
+    {
+      "_id": "IyikgTEOTv701jgQ",
+      "name": "閃電束Lightning Bolt",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>一束 100 尺長，5 尺寬的的線狀閃電從你的位置向你指定的任意方向爆發迸出。線上狀區域內的每個生物必須進行一次<strong>敏捷</strong>豁免。豁免失敗者將受到 8d6 的<em>閃電傷害</em>，豁免成功則傷害減半。</p>\n<p>閃電會將區域內未被著裝或攜帶的可燃物件點燃。</p>\n<p><strong>升環施法效應。</strong>使用四環或更高法術位施展該法術時，你使用的法術位每比三環高一環，傷害就增加 1d6。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 100,
+          "width": null,
+          "units": "ft",
+          "type": "line"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d6",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 17,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A bit of fur and a rod of amber, crystal, or glass",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/lightning/bolt-forked-large-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.IyikgTEOTv701jgQ"
+    },
+    {
+      "_id": "pxpb2eOB6bv4phAf",
+      "name": "放逐術Banishment",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你試圖將一名你能看見的生物送往另一位面。目標必須進行一次魅力豁免併成功通過，否則將被放逐。</p>\n<p>如果目標是你所處位面的原住民，則他被放逐到一個無害的半位面。在半位面期間該生物處於失能狀態。法術終止時，目標重新出現在被放逐前的空間。如果該空間被佔據，則它將出現在最近的未被佔據空間。</p>\n<p>如果目標不是你所處位面的原住民，則他會伴隨著輕微的「啪」一聲被放逐回其家園位面。如果法術在 1 分鐘過去之前終止，則目標將在他被放逐前的空間重新出現。如果該空間被佔據，則他在最近的未被佔據空間出現。如果法術在持續 1 分鐘后終止，則目標不會回到原地。</p>\n<p><strong>升環施法效應。</strong> 使用五環或更高法術位施展該法術時，你使用的法術位每比四環高一環，就能多指定一個目標。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": 17,
+          "scaling": "spell"
+        },
+        "level": 4,
+        "school": "abj",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "An item distasteful to the target",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/control/energy-stream-link-spiral-teal.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.pxpb2eOB6bv4phAf"
+    },
+    {
+      "_id": "avD5XUtkBPQQR97c",
+      "name": "火焰護盾Fire Shield",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>微薄的烈焰在法術持續時間內環繞你的身體，散發出 10 尺半徑的明亮光照，以及該範圍外 10 尺的微光光照。你可以提前以一個動作解散該效應並終止該法術。</p>\n<p>你選擇該烈焰產生一副溫暖護盾或凍寒護盾。溫暖護盾將為你提供<em>冷凍傷害</em>抗性，凍寒護盾則提供<em>火焰傷害</em>抗性。</p>\n<p>此外，任何生物在你周圍 5 尺範圍內對你發動近戰攻擊時，護盾將對其迸出烈焰。溫暖護盾將對攻擊者造成 2d8 點<em>火焰傷害</em>，而凍寒護盾則對其造成 2d8 點<em>冷凍傷害</em>。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 4,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A bit of phosphorus or a firefly",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
+      "effects": [
+        {
+          "_id": "lVKx8swB08jm6IFE",
+          "flags": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "value": "cold",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": 600,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": "Item.OtcTsffCQaOFkr9K",
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "12.324",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Warm Shield",
+          "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!B7lBOr1AahNZs4a6.avD5XUtkBPQQR97c.lVKx8swB08jm6IFE"
+        },
+        {
+          "_id": "UUXwEKSPX4nYfDzo",
+          "flags": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "value": "fire",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": 600,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": "Item.OtcTsffCQaOFkr9K",
+          "tint": "#ffffff",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "12.324",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Chill Shield",
+          "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-blue.webp",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!B7lBOr1AahNZs4a6.avD5XUtkBPQQR97c.UUXwEKSPX4nYfDzo"
+        }
+      ],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.avD5XUtkBPQQR97c"
+    },
+    {
+      "_id": "ReMbjfeOKoSj3O79",
+      "name": "石膚術Stoneskin",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>該法術使你觸碰的一個自願生物面板變得硬如巖石。目標在法術終止前對<em>非魔法的鈍擊、穿刺和揮砍傷害具有抗性</em>。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 4,
+        "school": "abj",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Diamond dust worth 100 gp, which the spell consumes",
+          "consumed": true,
+          "cost": 100,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
+      "effects": [
+        {
+          "origin": "Compendium.dnd5e.spells.ReMbjfeOKoSj3O79",
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "_id": "cSVCA9h5OEo5lfBE",
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "bludgeoning",
+              "priority": null
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "piercing",
+              "priority": null
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "slashing",
+              "priority": null
+            },
+            {
+              "key": "system.traits.dr.bypasses",
+              "mode": 2,
+              "value": "mgc",
+              "priority": null
+            }
+          ],
+          "tint": "#ffffff",
+          "transfer": true,
+          "flags": {},
+          "_stats": {
+            "coreVersion": "12.324",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Stoneskin",
+          "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!B7lBOr1AahNZs4a6.ReMbjfeOKoSj3O79.cSVCA9h5OEo5lfBE"
+        }
+      ],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.ReMbjfeOKoSj3O79"
+    },
+    {
+      "_id": "RpKjTlYASrfqUPVA",
+      "name": "寒冰錐Cone of Cold",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>一片冷空氣從你手上迸發而出。在 60 尺錐狀區域內的每個生物必須進行一次<strong>體質</strong>豁免。豁免失敗者將受到 8d8 點<em>冷凍傷害</em>，豁免成功則傷害減半。</p>\n<p>被該法術殺死的生物將成為一尊冰凍塑像並持續至被解凍。</p>\n<p><strong>升環施法效應。</strong>使用六環或更高法術位施展該法術時，你使用的法術位每比五環高一環，法術傷害就增加 1d8。 </p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 60,
+          "width": null,
+          "units": "ft",
+          "type": "cone"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d8",
+              "cold"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 17,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A small crystal or glass cone",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.RpKjTlYASrfqUPVA"
+    },
+    {
+      "_id": "fVbCxFRaORalHB20",
+      "name": "探知Scrying",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你能看見和聽見一個和你處於同一存在位面上的生物。目標生物必須進行一次<strong>感知</strong>豁免；該豁免的調整值與你對目標的瞭解程度有關，也與你和目標之間的物理聯繫程度有關。如果目標知道你在施展該法術，而它又願意被你觀察，則它可以自願放棄該豁免。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>瞭解程度</strong></td>\n<td><strong>豁免調整值</strong></td>\n</tr>\n<tr>\n<td>二手資訊（你曾經聽說過受術者）</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>直接資訊（你曾經見過受術者）</td>\n<td>+0</td>\n</tr>\n<tr>\n<td>熟悉（你對受術者很瞭解）</td>\n<td>-5</td>\n</tr>\n</tbody>\n</table><table border=\"1\">\n<tbody>\n<tr>\n<td><strong>聯繫程度</strong></td>\n<td><strong>豁免調整值</strong></td>\n</tr>\n<tr>\n<td>肖像或影象</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>所有物或衣物</td>\n<td>-4</td>\n</tr>\n<tr>\n<td>身體部位，頭髮，指甲或類似物件</td>\n<td>-10</td>\n</tr>\n</tbody>\n</table>\n<p>如果對方豁免成功，則目標不受該法術影響，並且在 24 小時內你不能嘗試探知同一個目標。</p>\n<p>如果對方豁免失敗，則你在目標身邊 10 尺內創造出一個隱形的感測器。通過感測器，你可以身臨其境地看見和聽見周圍的環境。感測器會跟隨目標移動，並在法術持續時間內始終保持在目標 10 尺之內。在能夠看破隱形的生物眼中，你的探感測器是一個拳頭大小的光球。</p>\n<p>除生物之外，你也可以選擇一個你以前見過的地點作為該法術的目標。這時，感測器會出現在目標地點且不會移動。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "minute",
+          "cost": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 17,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "div",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water.",
+          "consumed": false,
+          "cost": 1000,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.fVbCxFRaORalHB20"
+    },
+    {
+      "_id": "o9ZCvuD2B1OTcubb",
+      "name": "力場墻Wall of Force",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>一面看不見的力墻出現在施法距離內你指定的一點。這面力墻的方向由你決定：你可以使力墻成為水平或垂直的結界，亦可以使它形成一定傾角。它可以浮在空中，也可以立於地上。你可以將它塑成半球狀或球狀（半徑最長 10 尺），也可以塑成一個由十個 10 尺×10 尺的方板塊構成的平面。而每塊板塊都必須要和至少一塊其他板塊相連。不管形狀如何，力墻的厚度總是1/4寸。力場墻將持續存在至法術終止。如果力墻形成時穿過了某個生物所佔據的空間，則該生物會被推到力墻的一側（由你決定推到哪一側）。</p>\n<p>沒有任何事物可以通過物理方式穿過力墻。力墻免疫所有傷害，也不能被解除魔法 dispel magic所解除。但法術解離術 disintegrate可以使其立即摧毀。力墻能夠延伸進以太位面，因此可以阻斷進入以太位面穿過墻壁旅行。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 100,
+          "width": null,
+          "units": "ft",
+          "type": "wall"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A pinch of powder made by crushing clear gemstone",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/light/beam-rays-magenta-large.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.o9ZCvuD2B1OTcubb"
+    },
+    {
+      "_id": "WmQpxfjZwF3MGUby",
+      "name": "法術無效結界Globe of Invulnerability",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>一個固定的微光屏障從你周圍半徑 10 尺區域內涌現並在法術持續時間內維持存在。</p>\n<p>任何在屏障外施放的五環或更低環階的法術無法影響其內的生物或物件，這些法術即使以升環施法施展也無法突破該限制。這些法術可以以屏障內的生物或物件為目標，但無法對其生效。其效果有如屏障內的區域被排除在法術效應範圍之外。</p>\n<p><strong>升環施法效應。</strong> 當你使用七環或更高法術位施展該法術時，你使用的法術位每比六環高一環，屏障能阻擋的法術就高一環。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 6,
+        "school": "abj",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A glass or crystal bead that shatters when the spell ends",
+          "consumed": true,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.WmQpxfjZwF3MGUby"
+    },
+    {
+      "_id": "L4J89JXqbKs6puEV",
+      "name": "傳送術Teleport",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>該法術將你以及施法距離內你能看見的至多八個自願生物，或者施法距離內你能看見的一個物件傳送到你指定的某處地點。如果你指定一個物件作為法術目標，則該物件必須能被整個放進一個邊長 10 尺的立方體中，且必須沒有被一個非自願生物所著裝或攜帶。</p>\n<p>你只能指定你知道的地點作為傳送目的地，而目的地必須與你位於同一個存在位面中。你對目的地的熟悉程度決定你是否能成功抵達。DM 可以擲一個 d100 並查閱下表。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>熟悉程度</strong></td>\n<td><strong>遇難</strong></td>\n<td><strong>相似地區</strong></td>\n<td><strong>目標錯誤</strong></td>\n<td><strong>目標正確</strong></td>\n</tr>\n<tr>\n<td>永久法陣</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>01-100</td>\n</tr>\n<tr>\n<td>相關物件</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>01-100</td>\n</tr>\n<tr>\n<td>非常熟悉</td>\n<td>01-05</td>\n<td>06-13</td>\n<td>14-24</td>\n<td>25-100</td>\n</tr>\n<tr>\n<td>偶爾見過</td>\n<td>01-33</td>\n<td>34-43</td>\n<td>44-53</td>\n<td>54-100</td>\n</tr>\n<tr>\n<td>見過一次</td>\n<td>01-43</td>\n<td>44-53</td>\n<td>54-73</td>\n<td>74-100</td>\n</tr>\n<tr>\n<td>聽過描述</td>\n<td>01-43</td>\n<td>44-53</td>\n<td>54-73</td>\n<td>74-100</td>\n</tr>\n<tr>\n<td>查無此地n</td>\n<td>01-50</td>\n<td>51-100</td>\n<td>-</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>\n<p><strong>熟悉程度｜Familiarity</strong>.「永久法陣」指你知道某永久傳送法陣的相關符文序列。「相關物件」指你持有一件在過去六個月內從目標地點取來的物件，例如某個法師圖書館內的一本書，某個皇家臥室裡床上的亞麻線或某巫妖陵墓里的一塊大理石。</p>\n<p>「非常熟悉」指的是你常去的地方，你仔細研究過的地方，或是你在施展該法術時能看見的地方。「偶爾見過」指你見過幾次的地方，但你不是很熟悉。「見過一次」指你只見過一次的地方，包括通過魔法看到的地點。「聽過描述」指一個你從別人那裡聽來位置和外觀的地點，比如從地圖上看來的地點。</p>\n<p>「查無此地」指根本不存在的地點。也許你嘗試探知敵人的密室但看到的只是幻象，或者是一個你曾經熟悉但如今已不再存在的地點。</p>\n<p><strong>正中目標｜On Target</strong>。你和你的隊伍（或目標物件）出現在你意料中的地點。</p>\n<p><strong>偏離目標｜Off Target</strong>。你和你的隊伍（或目標物件）出現在目的地隨機方向上隨機距離的一點。距離誤差等於原定移動距離×1d10×1d10×1%。例如，假設你嘗試移動 120 里而不幸偏離目標，並且在擲距離誤差時兩個 d10 投出了 5 和 3，那麼你的傳送距離誤差是原定移動距離的 15%，也就是 18 里。DM 通過擲一次 d8 來判誤差出現在目的地的哪個方向。1 為正北，2 為東北，3 為正東，依此類推。如果你們想要傳送到一個海濱城市但卻出現在離岸 18 里遠的海上，那你們可有麻煩了。</p>\n<p><strong>相似地區｜Similar Area</strong>。你和你的隊伍（或目標物件）出現在一個和目的地外觀或氛圍相似的不同地點。例如，如果你想回你自己的研究室去，則你可能會誤打誤撞出現在其他法師的研究室裡，或是一個陳設有許多和你的研究室裡相似工具的鍊金用品店。通常你會出現在離目的地最近的相似地區，但由於該法術沒有距離限制，你有可能會出現在同一個位面上的任何地點。</p>\n<p><strong>遇難｜Mishap</strong>。該法術的意外魔法效果導致這次旅行特別艱難。嘗試傳送的所有生物（或目標物件）受到 3d10 點<em>力場傷害</em>，隨後 DM 重投 d100 並查閱上表來決定你們出現在哪裡（你們可能再次遇難，而每次遇難都要承受該傷害）。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": 9,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1d100",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 7,
+        "school": "con",
+        "components": {
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.L4J89JXqbKs6puEV"
+    },
+    {
+      "_id": "bllEWfm9xfEKynhv",
+      "name": "心靈屏障Mind Blank",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>直至法術終止前，你所觸碰的一個自願生物對下列專案具有免疫：<em>心靈傷害</em>；任何可以感知到其情緒或閱讀其思想的效應；預言法術；魅惑狀態。當目標受祈願術 wish或者其他威力相當的法術或效應影響心智或竊獲資訊時，其也能以該法術進行阻擋。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "24",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 8,
+        "school": "abj",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/air/air-burst-spiral-large-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.bllEWfm9xfEKynhv"
+    },
+    {
+      "_id": "JYuRBwxpoFhXduvD",
+      "name": "時間停止Time Stop",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你使時間在除你之外所有生物的世界中暫時停止流動。你一次性進行 1d4+1 個回合，在這段過程內時間對於其他生物來說是靜止的，但你可以像正常一樣移動和使用動作。</p>\n<p>在法術持續時間內，如果你的一個動作或任何你創造出來的效應影響到除你之外的任何生物，或影響到其他生物著裝或攜帶的物件時，該法術將立即終止。此外，如果你在施法后移動離開施法位置超過 1000 尺，則法術也將因此終止。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1d4+1",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 9,
+        "school": "trs",
+        "components": {
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.JYuRBwxpoFhXduvD"
+    },
+    {
+      "_id": "1N8dDMMgZ1h1YJ3B",
+      "name": "隱形Invisibility",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你觸碰的一個生物變為隱形並維持至法術終止。目標的穿著物和攜帶物只要保持在其身上也隨之保持隱形狀態。如果目標發動攻擊或施展法術，則該法術終止。</p>\n<p><strong>升環施法效應。</strong>使用三環或更高的法術位施展該法術時，你使用的法術位每比二環高一環就可以額外指定一個目標。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "An eyelash encased in gum arabic",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.1N8dDMMgZ1h1YJ3B"
+    },
+    {
+      "_id": "A3q2gTNqG6fvNGrv",
+      "name": "易容術Disguise Self",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<p>你改變自身以及隨身的衣物、護甲、武器等所有物。該效應在法術終止或你使用動作主動解除時結束。肉眼看來你的身高可以有 1 尺的增減，體態可胖可瘦可勻稱。但是你不能改變身體的形狀，所以你變形的樣子必須有四肢或類似的生理結構。此外，幻術的影響範圍由你決定。</p><p>此法術產生的變化無法應對物理檢查。比如，你用此法術添了一頂帽子，那麼現實物件會從帽子穿過去，且任何觸碰帽子的人將摸不到任何東西或者摸到的是你的頭和頭髮。如果你用該法術讓自己變得消瘦，而某個人用手摸到你時，他的手看起來就像摸著空氣。</p><p>如果一個生物想要分辨你是否易容，則必須使用一個動作揭露你的偽裝，並進行一次智力（調查）檢定以對抗你的法術豁免 DC。</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "cover": null,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "sort": 0,
+      "img": "icons/magic/control/debuff-energy-hold-teal-blue.webp",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": "dnd5e",
+        "systemVersion": "3.2.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!B7lBOr1AahNZs4a6.A3q2gTNqG6fvNGrv"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "cfwMU7LuOJ619Lny",
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "value": "mage",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 678,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": 2,
+        "startTurn": 1
+      },
+      "origin": "Actor.B7lBOr1AahNZs4a6.Item.CKZTpZlxj7hjjo2H",
+      "transfer": false,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Mage Armor",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!B7lBOr1AahNZs4a6.cfwMU7LuOJ619Lny"
+    },
+    {
+      "_id": "lVKx8swB08jm6IFE",
+      "flags": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "value": "cold",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 678,
+        "seconds": 600,
+        "rounds": null,
+        "turns": null,
+        "startRound": 2,
+        "startTurn": 1,
+        "combat": null
+      },
+      "origin": "Actor.B7lBOr1AahNZs4a6.Item.avD5XUtkBPQQR97c",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Warm Shield",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!B7lBOr1AahNZs4a6.lVKx8swB08jm6IFE"
+    },
+    {
+      "_id": "UUXwEKSPX4nYfDzo",
+      "flags": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "value": "fire",
+          "mode": 2,
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 678,
+        "seconds": 600,
+        "rounds": null,
+        "turns": null,
+        "startRound": 2,
+        "startTurn": 1,
+        "combat": null
+      },
+      "origin": "Actor.B7lBOr1AahNZs4a6.Item.avD5XUtkBPQQR97c",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Chill Shield",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-blue.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!B7lBOr1AahNZs4a6.UUXwEKSPX4nYfDzo"
+    },
+    {
+      "origin": "Actor.B7lBOr1AahNZs4a6.Item.ReMbjfeOKoSj3O79",
+      "duration": {
+        "startTime": 0,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "4KtXvy5OXy2qUidh",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.bypasses",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Stoneskin",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!B7lBOr1AahNZs4a6.4KtXvy5OXy2qUidh"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!B7lBOr1AahNZs4a6"
+}

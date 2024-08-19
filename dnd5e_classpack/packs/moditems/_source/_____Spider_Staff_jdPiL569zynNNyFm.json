@@ -1,0 +1,132 @@
+{
+  "_id": "jdPiL569zynNNyFm",
+  "name": "蜘蛛法杖 Spider Staff",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-spiked.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n</div>\n<p>這把駭人的黑色法杖其頂端是一隻蜘蛛的造型。該法杖重 6 磅。你必須與之同調才能獲得其增益和施展其內的法術。</p>\n<p>該法杖可以作為一把長棍持用。用其作武器攻擊命中時， 它可以額外造成[[/r 1d6]]的毒素傷害。</p>\n<p>法杖有 10 發充能。持握法杖時，你可以用一個動作並消 耗 1 發或更多充能以施展以下法術之一(該法術必須在你的 職業法術列表內)：@UUID[Compendium.dnd5e_classpack.new-icon.FNDS75JLYFQy4WUq]{蛛行術 Spider Climb}(1 充能)或@UUID[Compendium.dnd5e_classpack.new-icon.oopuSIBsaXzQKw1Q]{蛛網術 Web} (2 充能，法術豁免 DC 15)。這些法術無需任何構材。</p>\n<p>法杖每天黃昏時恢復[[/r 1d6 + 4]]發已消耗的充能。當充能耗 盡時，骰一次[[/r d20]]。如果骰值為 1，則法杖被摧毀並化為塵埃。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "LMoP",
+    "quantity": 1,
+    "weight": 6,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6+@mod",
+          "bludgeoning"
+        ],
+        [
+          "1d6",
+          "poison"
+        ]
+      ],
+      "versatile": "1d8+@mod"
+    },
+    "formula": "1d6 + 4",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "quarterstaff",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!jdPiL569zynNNyFm"
+}

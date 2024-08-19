@@ -1,0 +1,128 @@
+{
+  "_id": "tyshE8ZcV1Xniej3",
+  "name": "鑑定術 Identify",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc8425913301925145646D1744001B37B0A8F4F23CB4B24E6449AA60E716.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你指定一個物件，並在施法過程中一直與其保持接觸。如果該物件是魔法物品或其他附有魔力的物件，則你將知曉其屬性和使用方式，以及瞭解是否需要與之同調。若它是充能物品則你將得知它現存的可用次數。你還可以發現是否有法術正影響該物件，以及可能存在的法術效應具體來自哪項法術。如果目標由法術所創，則你將知曉具體來自哪項法術。\n<br>如果你施法過程中一直接觸的是一生物，則你將知曉其是否受法術影響，及產生影響的法術效應具體來自哪項法術。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 252",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一顆價值至少 100gp 的珍珠和一根貓頭鷹羽毛",
+      "consumed": false,
+      "cost": null,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 48200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720798424337,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!tyshE8ZcV1Xniej3"
+}

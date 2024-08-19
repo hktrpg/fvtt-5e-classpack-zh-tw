@@ -1,0 +1,97 @@
+{
+  "_id": "yGK1lxcpwIjRMIV2",
+  "name": "恐懼之王 Dread Lord",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_shadow_twistedfaith.png",
+  "system": {
+    "description": {
+      "value": "<p>         20 級時，作為一個動作項，該聖騎士可以使自己在 1分鐘內環繞於陰鬱的靈光中。該靈光可以將該聖武士周邊30尺半徑的亮光光照減弱為微光光照。任何受該聖武士恐慌的敵人在該靈光內開始其自己回合時將受到[[/r 4d10]]的心靈傷害。</p><p>         此外，該聖武士以及由其指定的身處靈光中的生物都將籠罩於更深的幽影中。依賴視覺的生物對籠罩於該幽影中的生物發動攻擊檢定時具有劣勢。 靈光持續時，該聖騎士可以在其自己回合內用一個附贈 動作令該靈光內的幽影攻擊一個生物。該聖武士對該目標發動一次近戰法術攻擊。若攻擊命中，則該目標受到的黯蝕傷害等於 3d10＋該聖武士的魅力調整值。</p><p>         啟用該靈光后，該聖騎士必須完成一次長休才能再次使用該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DMG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "any",
+      "type": "enemy"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "msak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d10+@abilities.cha.mod",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "4d10",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "破誓者等級 20",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686412690291,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!yGK1lxcpwIjRMIV2"
+}

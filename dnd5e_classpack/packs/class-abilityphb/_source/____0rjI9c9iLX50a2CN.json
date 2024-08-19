@@ -1,0 +1,98 @@
+{
+  "_id": "0rjI9c9iLX50a2CN",
+  "name": "滲透勁",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/PandarenRacial_QuiveringPain.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第17級起，你可以將暗勁擊入他人體內。你的徒手打擊命中目標生物時，可以消耗3點氣將一股致命的勁力送入敵人體內。勁力的持續日數等於你的武僧等級，且在你用動作終止勁力之前它不產生任何減益。若要終止勁力，你和目標必須在同一個位面。而你使用動作終止勁力后，目標必須進行一次體質豁免，豁免失敗則其生命值降為0，豁免成功則目標受到[[/r 10d10]]的暗蝕傷害。</p>\n<p>同一時間只能有一個生物受你滲透勁特性影響。你也可以選擇不造成任何傷害的終止滲透勁，且不需要使用動作。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 80",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "只有終止勁力併產生傷害才需要一個動作。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d10",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "wis",
+      "value": "con"
+    },
+    "requirements": "散打宗等級 17",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 114
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0rjI9c9iLX50a2CN"
+}

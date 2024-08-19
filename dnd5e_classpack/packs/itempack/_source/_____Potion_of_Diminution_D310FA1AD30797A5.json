@@ -1,0 +1,115 @@
+{
+  "_id": "D310FA1AD30797A5",
+  "name": "縮小藥水 Potion of Diminution",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>藥水中的紅色成分不斷聚合成一個小球，然後又散開將周圍的液體染成紅色。搖晃藥水也不會打斷這個過程。</em></p>\n<p>飲用此藥水后，你獲得@UUID[Compendium.dnd5e_classpack.new-icon.1bUnNgI45qffE1P9]{變巨/縮小術 Enlarge/Reduce}的「縮小」效果，持續[[/r 1d4]]小時（無需專注）。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 187"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 270,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 87300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!D310FA1AD30797A5"
+}

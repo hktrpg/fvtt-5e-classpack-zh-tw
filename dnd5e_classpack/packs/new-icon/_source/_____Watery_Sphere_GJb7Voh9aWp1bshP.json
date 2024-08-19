@@ -1,0 +1,207 @@
+{
+  "name": "碧水法球 Watery Sphere",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/water/orb-water-transparent.webp",
+  "_id": "GJb7Voh9aWp1bshP",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.ability.save.dex",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 5243702910,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Restrained",
+          "sourceId": "ActiveEffect.8fYkPnOf7pMU05N0"
+        },
+        "dfreds-convenient-effects": {
+          "description": "- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.<br/>- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.<br/>- The creature has disadvantage on Dexterity saving throws.",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.GJb7Voh9aWp1bshP",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_id": "N4RlJJUBgSixbwNT",
+      "name": "Restrained",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/restrained.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!GJb7Voh9aWp1bshP.N4RlJJUBgSixbwNT"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你在距離之內，你能看見的一點上召喚出一個半徑5英尺的水球。水球可以懸浮於空氣中，但其離地高度不能超過10英尺。水球將在法術的持續時間內持續存在。<br />處於水球空間內的任何生物必須進行一次力量豁免檢定。若豁免成功，該生物將被排出到水球周圍最近的未被佔據的空間中。巨型Huge或更大的生物將自動於此豁免檢定中成功，並且一個大型Large或更小的生物可以選擇在豁免中失敗。若豁免失敗，生物會被水球束縛，被水淹沒。在其每個回合的結束，被束縛的生物可以重試此豁免檢定，若成功則結束法術對自己的效果。<br />水球可以容納至多4箇中型（或更小的）生物，或是1個大型生物。若水球束縛了一個超過上限的生物，一個已經被束縛的隨機生物將被排除，在水球周圍5英尺範圍內摔倒。<br />以一個動作，你可以在直線方向上移動水球，至多移動30英尺。若其移動時經過了一個坑，懸崖或類似地形，它會安全的落下，直到懸浮在地表10英尺為止。水球束縛的所有生物也會隨之移動。你可以用水球撞擊生物來迫使其進行豁免檢定。<br />當此法術終結時，水球會掉落在地，熄滅其周圍30英尺內的所有普通火焰。任何被水球束縛的生物會在摔落點成為摔倒狀態。隨後水流會消失。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一滴水",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 13800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.325",
+    "createdTime": 1711685874077,
+    "modifiedTime": 1717428960108,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GJb7Voh9aWp1bshP"
+}

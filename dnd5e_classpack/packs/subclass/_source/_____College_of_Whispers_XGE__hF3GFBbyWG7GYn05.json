@@ -1,0 +1,115 @@
+{
+  "_id": "hF3GFBbyWG7GYn05",
+  "name": "低語學院 College of Whispers（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_FocusedPower.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>         大多數村民都樂於招待吟遊詩人。而來自低語學院的詩人們正是利用了這一點。他們看起來就像是其他的吟遊詩人那樣，分享新聞，一展歌喉，向觀眾們講述蒐羅來的軼事。但實際上，低語學院教會學生們的是：他們應該是披著羊皮的狼。這些詩人用他們的知識和魔法來揭露秘密，並用這些秘密來恐嚇或是勒索他人。</p>\n<p>         許多其他的吟遊詩人痛恨低語，認為他們是利用吟遊詩人的名譽來為自己贏取金錢與權力的害群之馬。因此，這些詩人很少會揭露出自己的真實面目，除非確有必要。他們通常聲稱來自其他學院，或謹慎的隱藏自己，好混入皇室或其他權力中心。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "identifier": "college-of-whispers",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "xc5aaw0wrli6jluk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.krzQeK2QuWmhc4C1",
+            "Compendium.dnd5e_classpack.extra-ability.SiYzAyOLXUFow2lF"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "i636y9x8kmqd9es0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.i8fpZzA2N0hL3Irs"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "5q08qn03a7lbzlj8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.m9IA0eF0U0iEV2cv"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "3896qjilm2jm18w4",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "xinling",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "n": 2,
+              "die": 6
+            },
+            "5": {
+              "n": 3,
+              "die": 6
+            },
+            "10": {
+              "n": 5,
+              "die": 6
+            },
+            "15": {
+              "n": 8,
+              "die": 6
+            }
+          }
+        },
+        "value": {},
+        "title": "心靈之刃傷害",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!hF3GFBbyWG7GYn05"
+}

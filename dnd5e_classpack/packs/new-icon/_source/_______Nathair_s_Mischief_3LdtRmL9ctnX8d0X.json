@@ -1,0 +1,140 @@
+{
+  "name": "納撒爾惡作劇 Nathair's Mischief",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_fontofmagic.png",
+  "system": {
+    "description": {
+      "value": "<p><span><br />       </span>你選擇一個以施法範圍內一點為原點，<span>20</span>尺矩形的範圍。你在該範圍內填滿精類<span class=\"GramE\">與龍族的</span>魔法。在<span class=\"GramE\">惡作劇之涌表格</span>里擲<span class=\"GramE\">骰</span>以決定產生的魔法效應。法術持續時間內、在你的每個回合開始時，你都重<span class=\"GramE\">骰</span>這個表格。在你重<span class=\"GramE\">骰</span>之前，你可以把這個矩形範圍移動最多<span>10</span>尺。<span><br /></span></p>\n<p><span class=\"GramE\"><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">惡作劇之涌</span></strong></span><span><br /></span></p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>[[/r D4]]</td>\n<td>效應</td>\n</tr>\n<tr>\n<td>1</td>\n<td>空氣中瀰漫著蘋果派的味道，範圍內的生物必須成功通過一次感知豁免，否則將被你魅惑，直至你的下回合開始。<span><br /></span></td>\n</tr>\n<tr>\n<td>2</td>\n<td>一束<span class=\"GramE\">束</span>鮮花出現在四周，範圍內的生物必須成功通過一次敏捷豁免，否則鮮花將往他們臉上噴水，使他們陷入目盲，直至你的下回合開始。<span><br /></span></td>\n</tr>\n<tr>\n<td>3</td>\n<td>範圍內的每個生物必須成功通過一次感知豁免，否則將開始咯咯笑，直至你的下回合開始。一個正在咯咯笑的生物陷入失能，並使用他的所有移動力向一個隨機方向移動。<span><br /></span></td>\n</tr>\n<tr>\n<td>4</td>\n<td>一滴滴蜜糖出現並在矩形內懸停，將其內變成困難地形，直至你的下回合開始。</td>\n</tr>\n</tbody>\n</table>\n<p><span> </span></p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "width": 20,
+      "units": "ft",
+      "type": "line"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一塊麵包皮，來自一個蘋果派",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_id": "3LdtRmL9ctnX8d0X",
+  "folder": null,
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711730653817,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!3LdtRmL9ctnX8d0X"
+}

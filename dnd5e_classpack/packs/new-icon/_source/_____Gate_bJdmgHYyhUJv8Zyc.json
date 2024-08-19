@@ -1,0 +1,128 @@
+{
+  "_id": "bJdmgHYyhUJv8Zyc",
+  "name": "異界之門 Gate",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/003140.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你召喚一扇傳送門將施法距離內你能看到的一處未被佔據空間與一個不同位面的特定地點連線在一起。傳送門是你打開的一個直徑5到20尺的圓形開口。其開口朝向你指定的任意方向，並持續至法術終止。\n<br>傳送門在某個位面顯現時有著明確的正反面。只有從正面穿過傳送門的事物才能實現其傳送功能，從而傳送至另一位面，並在離傳送門最近的未佔據空間中顯現。\n<br>神祇和其他位面統治者可以阻止該法術在其所在或屬於其領域的任何地點創造傳送門。\n<br>施展該法術時，你可以說出某個特定生物的名字（不能是假名、頭銜、綽號等）。如果該生物在與你不同的位面，則傳送門會緊挨被指名生物打開並將該生物吸進傳送門。此時該生物會從你所在的傳送門另一頭出現，並顯現在距傳送門最近的未被佔據空間。你不會獲得任何被傳送生物的特殊能力，而它此時可以自由的作任何DM 認為合適的行動。它可能離開，也可以攻擊你或協助你。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 244",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "space"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 9,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一枚價值至少 5000gp 的鑽石",
+      "consumed": false,
+      "cost": 5000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 33700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353757332,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bJdmgHYyhUJv8Zyc"
+}

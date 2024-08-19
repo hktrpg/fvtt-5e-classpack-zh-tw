@@ -1,0 +1,91 @@
+{
+  "_id": "LiZlPc65hISeVSrS",
+  "name": "暴風狂怒 Storm's Fury",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_LightningOverload.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         14級起，每當你在一次近戰攻擊中被命中，你可以用你的反應動作對攻擊者造成等於你術士等級的閃電傷害。此外，攻擊者必須進行一次力量豁免，DC等於你的術士法術豁免。一旦豁免失敗，攻擊者將被直線推開20尺。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "被近戰攻擊命中。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "@classes.sorcerer.levels",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "狂怒風暴等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!LiZlPc65hISeVSrS"
+}

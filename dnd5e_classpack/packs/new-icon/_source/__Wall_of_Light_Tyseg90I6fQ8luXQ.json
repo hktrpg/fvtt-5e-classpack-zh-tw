@@ -1,0 +1,138 @@
+{
+  "_id": "Tyseg90I6fQ8luXQ",
+  "name": "光墻Wall of Light",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>明亮的、閃光的墻壁在施法距離內你選擇的一點出現。這面光墻的方向由你決定：你可以使墻成為水平或垂直的結界，亦可以使它成一定傾角。它可以浮在空中，也可以立於堅實的表面上。墻壁的長度至多60英尺，高度至多10英尺，厚度至多5英尺。墻會阻擋視覺線，但是生物和物體可以穿過它。它發出120英尺的明亮照明和額外120英尺的微光照明。<br />當光墻出現時，在那個區域里的每個生物都必須進行體質豁免檢定。若豁免失敗，生物受到4d8光耀傷害，並且目盲1分鐘。若豁免成功，它只承受一半傷害並且不會被目盲。一個被目盲的生物可以在它的每個回合結束時重新進行體質豁免檢定，若成功則結束對自己的目盲效果。在墻壁區域內結束回合的生物也會受到4d8光耀傷害。<br />直到法術結束之前，你可以使用你的動作從墻上發射出一條光輝射線，襲擊它60英尺內的一個你可以看見的生物。進行一次遠端法術攻擊檢定。若擊中，目標承受4d8光耀傷害。無論擊中或失手，墻壁的長度都會被減少10英尺。如果墻壁的長度被降低至0英尺，法術結束。</p>\n<p><strong>升環效果：</strong>當你使用6環或更高的法術位施放該法術時，使用的法術位每高一環，傷害便增加1d8。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 60,
+      "units": "",
+      "type": "wall",
+      "width": null
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一面手鏡",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 26100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728301245,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Tyseg90I6fQ8luXQ"
+}

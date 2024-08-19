@@ -1,0 +1,91 @@
+{
+  "_id": "RakISgKJ0fWy44XM",
+  "name": "一體共生 Symbiotic Entity",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_rogue_sturdyrecuperate.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在2級時，你獲得了向體內的孢子引導魔法的能力。<br />         當你使用你的@UUID[Compendium.dnd5e_classpack.class-abilityphb.pORTgCToV9NLPWo1]{荒野形態}特性時，你可以喚醒這些孢子，而非進行變形。當你這樣做的時候，你每在此職業上具有一個等級便獲得4點臨時生命值。當你這樣做時，你獲得下列好處：</p>\n<ul>\n<li>當你的孢子光暈特性造成傷害時，額外骰一個傷害骰加在原有的傷害骰上。</li>\n<li>並且你的近戰武器攻擊對任何被擊中的目標造成額外的[[/r 1d6]]點暗蝕傷害。</li>\n</ul>\n<p>         這些好處持續10分鐘，或直到你失去所有臨時生命值或再次使用了你的荒野形態。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4*@classes.druid.levels",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "孢子結社等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!RakISgKJ0fWy44XM"
+}

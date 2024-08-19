@@ -1,0 +1,208 @@
+{
+  "_id": "FUiSyN2j2j3ufukn",
+  "name": "焚云術 Incendiary Cloud",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_WindsofWoe.png",
+  "effects": [
+    {
+      "name": "焚云術 Incendiary Cloud",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.FUiSyN2j2j3ufukn",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "dYQ1DMT9jTsuwpau",
+      "changes": [
+        {
+          "key": "flags.midi-qol.OverTime",
+          "mode": 2,
+          "value": "turn=end,\ndamageRoll=10d8,\ndamageType=fire,\nsaveRemove=false,\nsaveDC=@attributes.spelldc,\nsaveAbility=dex,\nsaveDamage=halfdamage,\nkillAnim=true",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_WindsofWoe.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!FUiSyN2j2j3ufukn.dYQ1DMT9jTsuwpau"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 一片充滿了熾熱灰燼的旋轉煙雲顯現，並以施法距離內一點為中心的蔓延至半徑20尺的球狀區域。煙雲會繞過拐角擴散並使整個區域處於重度遮蔽，並在法術終止前持續存在。此外菸云還可以被和風或強度等級更高的風勢（風速至少每小時10里）所吹散。\n<br>煙雲出現時，每個處在其內的生物都必須進行一次敏捷豁免，豁免失敗者將受到10d8的火焰傷害，豁免成功則傷害減半。生物在一個回合內第一次進入煙雲內，或者在煙雲內結束其回合時，也必須進行該豁免。\n<br>在你的每回合開始時，煙雲會向你指定的方向直線移動10尺。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 253",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 150,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 12800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711691764392,
+    "modifiedTime": 1711691850724,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FUiSyN2j2j3ufukn"
+}

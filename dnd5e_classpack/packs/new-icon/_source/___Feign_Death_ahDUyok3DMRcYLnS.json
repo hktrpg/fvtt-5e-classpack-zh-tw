@@ -1,0 +1,174 @@
+{
+  "_id": "ahDUyok3DMRcYLnS",
+  "name": "假死術Feign Death",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Rogue_FeignDeath.png",
+  "effects": [
+    {
+      "changes": [],
+      "description": "No active effects",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        }
+      },
+      "name": "Dead",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.ahDUyok3DMRcYLnS",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Dead",
+        "dead"
+      ],
+      "_id": "ctz5psmEgsIUlvvk",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/skull.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!ahDUyok3DMRcYLnS.ctz5psmEgsIUlvvk"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你觸碰一自願生物並將其變得如死去一樣的僵直狀態。</p>\n<p>你可以用一個動作再次觸碰該目標以終止該法術。在法術持續時間內，對目標進行的任何肉體檢查和法術檢測都顯示目標已處於死亡狀態。該狀態下的目標陷入目盲以及失能狀態，且其移動速度降低為0。目標對除了心靈傷害外的所有傷害型別具有抗性。如果目標在受術時正陷入疾病或中毒狀態，或者在法術生效時陷入疾病或中毒狀態，則這些狀態在該法術持續時間內受抑制而無效，直至法術終止時再回復生效。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": null,
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一把墳土",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 32900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711696310148,
+    "modifiedTime": 1720798299055,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ahDUyok3DMRcYLnS"
+}

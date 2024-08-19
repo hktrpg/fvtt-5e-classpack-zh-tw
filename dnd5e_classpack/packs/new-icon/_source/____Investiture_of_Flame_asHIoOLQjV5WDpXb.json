@@ -1,0 +1,110 @@
+{
+  "name": "熾焰賦權Investiture of Flame",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
+  "_id": "asHIoOLQjV5WDpXb",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>火焰環繞著你的身體，照亮周圍30英尺半徑的區域，並在外圍30英尺範圍內產生微弱的亮光。這些火焰不會傷害到你。直到此法術終結，你得到如下的好處：<br />&middot;你免疫於火焰傷害並對寒冷傷害具有抗力。<br />&middot;任何在回合中第一次進入你周圍5英尺範圍之內，或是在你周圍5英尺範圍之內結束回合的生物受到1d10點火焰傷害。<br />&middot;你可以使用你的動作以創造出一條以你為起始點，向由你選擇的方向延伸的15英尺長、5英尺寬的火線。線上中的每個生物都必須進行一次敏捷豁免檢定。豁免失敗的生物受到4d8點火焰傷害，豁免成功者受到上述傷害的一半。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "line"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d10火焰",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 33300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717593136012,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!asHIoOLQjV5WDpXb"
+}

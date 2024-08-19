@@ -1,0 +1,112 @@
+{
+  "_id": "NOMp4AVrFi5GaTCb",
+  "name": "魔力泉涌",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Shaman_RepulsionTotem.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級時，你解除了體內魔力之源的封印，從中涌現的魔力體現為你的可用術法點。你可以使用術法點創造各種魔法效應。</p>\n<h3><strong>術法點</strong></h3>\n<p>開始時，你擁有2個術法點。此後你每提升一個術士等級，都會獲得更多的術法點，詳見「術士職業表」中「術法點」一欄。你的術法點永遠不能超過表中所列對應你目前等級的數值。而已消耗的術法點則可以通過完成一次長休進行恢復。</p>\n<h3><strong>易變施法</strong></h3>\n<p>你可以使用術法點來獲得額外的法術位，或是消耗法術位來換取額外的術法點。隨著術士等級的提升，你還可以學會其他術法點的使用方法。</p>\n<p><strong>產生法術位:</strong></p>\n<table>\n<tbody>\n<tr>\n<th>法術位環階</th>\n<th>術法點消耗</th>\n</tr>\n<tr>\n<td>1環</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2環</td>\n<td>3</td>\n</tr>\n<tr>\n<td>3環</td>\n<td>5</td>\n</tr>\n<tr>\n<td>4環</td>\n<td>6</td>\n</tr>\n<tr>\n<td>5環</td>\n<td>7</td>\n</tr>\n</tbody>\n</table>\n<p><strong>法術位轉換術法點：</strong>你可以在自己回合內使用附贈動作將未使用的法術位轉化為術法點。你消耗一枚法術位並獲得等於該法術位環階的術法點。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 101",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@classes.sorcerer.levels",
+      "per": "lr",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "術士等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 67
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1713005182044,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NOMp4AVrFi5GaTCb"
+}

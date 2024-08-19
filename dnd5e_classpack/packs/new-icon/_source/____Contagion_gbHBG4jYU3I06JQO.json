@@ -1,0 +1,127 @@
+{
+  "_id": "gbHBG4jYU3I06JQO",
+  "name": "疫病術 Contagion",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_maldraxxus_warlock.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你的觸碰帶著疾病。你對觸及範圍內一個生物發動一次近戰法術攻擊。命中時，你選擇使該生物承受以下描述的疾病之一。\n<br>被觸碰生物在每回合結束時必須進行一次體質豁免。在累計三次豁免失敗后，該疾病效應將維持至法術持續時間結束，且該生物不再進行相應的體質豁免。在累計三次豁免成功后，該生物從疾病中恢復，並終止法術的效應。\n<br>由於法術對目標引發的是自然疾病，因此任何移除疾病或改善疾病狀況的效應都可以對受術生物產生影響。\n<br><strong>失明癥Blinding Sickness。</strong>痛苦纏繞著患病者的意志，並使其眼睛變成奶白色。患病生物進行感知檢定和感知豁免時具有劣勢，並且承受目盲狀態。\n<br><strong>腐熱癥Filth Fever。</strong>患者身體發起嚴重的高燒。患病生物進行力量檢定和力量豁免時，以及發動基於力量的攻擊檢定時具有劣勢。\n<br><strong>爛肉癥Flesh Rot。</strong>患者的肌膚逐漸腐朽。患病生物進行魅力檢定時具有劣勢，並且具有所有傷害型別的傷害易受。\n<br><strong>腦熱癥Mindfire。</strong>患者頭腦發熱。患病生物進行智力檢定和智力豁免時具有劣勢，並且其在戰鬥中視為受到困惑術confusion效應影響。\n<br><strong>癲癇癥Seizure。</strong>患者全身顫抖不止。患病生物進行敏捷檢定和敏捷豁免時，以及發動基於敏捷的攻擊檢定時具劣勢。\n<br><strong>噁心癥Slimy Doom。</strong>患者開始不受控地流血。患病生物進行體質檢定和體質豁免時具有劣勢。另外每當該生物受到傷害時都會陷入震懾狀態，直至其下一回合結束。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 227",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 7,
+      "units": "day"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 37400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711694916685,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gbHBG4jYU3I06JQO"
+}

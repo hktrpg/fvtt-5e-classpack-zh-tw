@@ -1,0 +1,125 @@
+{
+  "_id": "BhKGVcetRNPD2w6M",
+  "name": "時流剎轉Temporal Shunt",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_mage_altertime_active.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你以觸發法術的生物為目標, 其必須通過一個成功的感知豁免，否則就會消失，被驅逐到時間流的另一個時間點上並導致攻擊失手或法術浪費。在目標生物的下個回合開始時，目標重新出現在他剛剛的位置或最近一處未被佔據的空間。目標不記得你施展了這個法術或自己被這個法術影響。</p>\n<p><strong>升環施法效應：</strong>當你使用六環或更高環位的法術位施展該法術時，每比五環高出一環的法術位可以使你多指定一個目標。 所有的目標都需要在互相的30尺內。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當你看到一個生物進行一次攻擊擲骰或開始施展一個法術時使用"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 9500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711725631059,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BhKGVcetRNPD2w6M"
+}

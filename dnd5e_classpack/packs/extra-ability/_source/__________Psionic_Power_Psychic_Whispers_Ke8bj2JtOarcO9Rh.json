@@ -1,0 +1,88 @@
+{
+  "_id": "Ke8bj2JtOarcO9Rh",
+  "name": "靈能天賦：心靈低語 Psionic Power：Psychic Whispers",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_bastion_druid1.png",
+  "system": {
+    "description": {
+      "value": "<p>你能夠利用靈能力在自己和他人之間建立起基於心靈感應的交流——在需要無聲滲透時這堪稱完美。以一個動作，擲一個靈能骰，從可見的生物中選擇一到至多等同於你熟練加值數量的生物，你和選擇的生物獲得通過心靈感應進行交流的能力。在等同於靈能骰結果個小時內，你可以和選擇生物進行雙向的心靈感應交流，但在發送或接收資訊時（無需動作），你和選擇生物之間的距離不可超過一英里。不會說任何語言的生物無法通過此方法進行交流，而且生物可以隨時終止心靈感應的鏈接（無需動作）。你和鏈接的生物不需要能說同一種語言也能互相理解話語。</p>\n<p>你每次長休后的第一次使用這個能力不會消耗你的靈能骰，在其它情況下使用這個能力的話，你會消耗靈能骰。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 2,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d(floor((1+@classes.rogue.levels)/6)*2+6)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "psionicPower"
+    },
+    "requirements": "魂刃等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Ke8bj2JtOarcO9Rh"
+}

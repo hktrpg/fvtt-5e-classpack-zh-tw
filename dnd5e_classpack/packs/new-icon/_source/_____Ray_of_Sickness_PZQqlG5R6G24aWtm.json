@@ -1,0 +1,134 @@
+{
+  "_id": "PZQqlG5R6G24aWtm",
+  "name": "致病射線 Ray of Sickness",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_FelFlameBreath.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">一道噁心的淺綠射線朝施法距離內一個生物射去。你對目標進行一次遠端法術攻擊。若命中，則目標受到2d8 的毒素傷害且必須進行一次體質豁免，豁免失敗則目標陷入中毒，該中毒效應持續至你的下一回合結束。</div>\n<div class=\"description \">&nbsp;</div>\n<div class=\"description \">升環施法效應。</div>\n<div class=\"description \">使用2 環或更高法術位施展該法術時，你使用的法術位每比1 環高一環，傷害就增加1d8。</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 271",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rsak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "poison"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 22200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711692106644,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PZQqlG5R6G24aWtm"
+}

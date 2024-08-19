@@ -1,0 +1,86 @@
+{
+  "_id": "UHIZXCLTWbG6nDr4",
+  "name": "靈能天賦Psionic Power",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_mage_massinvisibility.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>　　你的內在潛藏著一個心靈異能的源泉，當你以各種形式引導它時，其能量會上下起伏。這一力量被表現爲你的靈能骰，它的起始大小是[[/r d6]]。你擁有等同於你熟練加值兩倍數量的靈能骰，並且他們供你發揮出你擁有的多種靈能力量，這些選項在後面列出。</p>\n<p>一些你的能力會消耗它們使用的靈能骰，如能力中確切描述的一樣，而且你不能在你靈能骰全部用完的時候使用要求你使用靈能骰的能力。你在完成一次長休之後恢復所有的靈能骰。此外，作為一個附贈動作，你可以恢復一個你消耗的靈能骰，但是直到你完成一次短休或者長休之前，你都無法再次這樣做。</p>\n<p>每當你在這個職業中達到特定等級，你的靈能骰會增大，5級達到[[/r d8]]。11級[[/r d10]]，17級為[[/r d12]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "2",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d(floor((1+@classes.rogue.levels)/6)*2+6)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "魂刃等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!UHIZXCLTWbG6nDr4"
+}

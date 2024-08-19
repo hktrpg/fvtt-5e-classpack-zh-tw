@@ -1,0 +1,128 @@
+{
+  "name": "扭曲價值 Distort  Value",
+  "type": "spell",
+  "img": "icons/magic/control/control-influence-crown-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>　　當你試圖賣掉從混沌神殿中解放出來的那座奇異章魚雕像時，你是否需要從那個無良商人口袋裡再壓榨幾塊黃金？當收稅員駐足你的身前時，你是否需要貶低一些魔法資產的價值呢？扭曲價值法術為你保駕護航。</p><p>　　你施展此法術於邊長不超過 1 尺的一個物件上，以幻術的滋養和拋光來加倍它看起來的價值，或者是用虛幻的劃痕、凹陷和其他不雅的特徵來減半它看起來的價值。任何檢查物件的人，可以通過智力（調查）檢定對抗你的法術 DC，若成功將會確定它的真實價值。</p><p>　　<strong>升環施法效應</strong>：當你使用二環或更高的法術位施放該法術時，使用的法術位每高一環，目標物件的最大尺寸就可以增加 1 尺。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "AI",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "lKh5urDChUKhj0iW",
+  "folder": null,
+  "sort": 41300000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711702968691,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lKh5urDChUKhj0iW"
+}

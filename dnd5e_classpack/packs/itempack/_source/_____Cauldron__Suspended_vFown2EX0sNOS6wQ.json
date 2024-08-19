@@ -1,0 +1,129 @@
+{
+  "_id": "vFown2EX0sNOS6wQ",
+  "name": "吊掛大鍋 Cauldron, Suspended",
+  "type": "weapon",
+  "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>大型物件</em></p>\n<p><strong>傷害免疫</strong>：毒素，心靈</p>\n<p>大鍋的主體是一口吊掛起來的鋼鐵坩鍋，以方便使之側翻並倒出內里所裝載物質。大鍋一旦倒空，則必須重新裝填物質進鍋內，通常還需要對新加入物質進行加熱才可再次使用。裝填大鍋需要花費三個動作，傾倒大鍋需要花費一個動作。</p>\n<p>大鍋可以裝填其他液體，比如強酸或者綠軟泥，並依不同物質具有不同效應。</p>\n<p><strong>滾油Boiling Oil。</strong>大鍋向其正下方10尺方形區域倒出滾油。在區域內的生物必須進行一次<strong>DC 15的敏捷</strong>豁免，豁免失敗者將受到<strong>10（3d6）點<em>火焰傷害</em></strong>，豁免成功則傷害減半。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "傾倒前需先進行裝填。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "square",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 19
+    },
+    "hp": {
+      "value": 20,
+      "max": 20,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010446109,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 138900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!vFown2EX0sNOS6wQ"
+}

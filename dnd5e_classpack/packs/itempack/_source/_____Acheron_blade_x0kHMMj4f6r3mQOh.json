@@ -1,0 +1,132 @@
+{
+  "name": "冥河之劍 Acheron blade",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\"><p class=\"MsoNormal\">武器@UUID[Compendium.dnd5e_DMTools.homebrewrolltable.RollTable.D3VgPrWARtKdRRF8]{（任意劍）}</p><p class=\"MsoNormal\"><span style=\"WORD-SPACING:0px;FLOAT:none;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\">這柄劍的黑色劍刃由一種神秘的奧術合金所製成。你在用該魔法武器發動攻擊檢定與傷害擲骰時獲得</span>+1<span style=\"FONT-SIZE:10pt;COLOR:black\">加值。攜帶此劍時，你免疫將你轉化為不死的效應。</span></p><ul><li><p class=\"MsoNormal\"><span style=\"WORD-SPACING:0px;FLOAT:none;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\">黑暗饋贈</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /><span style=\"WORD-SPACING:0px;FLOAT:none;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\">持握此劍時，你可以用一個動作使自己獲得[[/r 1d4+4 #冥河之劍 - 黑暗饋贈]]</span><span style=\"FONT-SIZE:10pt;COLOR:black\">點臨時生命值。第二天黃昏前，此特性無法再次使用。</span></p></li><li><p class=\"MsoNormal\"><span style=\"WORD-SPACING:0px;FLOAT:none;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\">沮喪打擊</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /><span style=\"WORD-SPACING:0px;FLOAT:none;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\">你使用此武器發動攻擊並命中一個生物時，你可以讓該目標的內心充滿恐懼與不安。在你的下一回合結束前，該目標進行的的下一次豁免具有劣勢。免疫恐慌的生物將不受此特性影響。第二天黃昏前，此特性無法再次使用。</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /></p></li></ul></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "EGtW"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 5000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "攻擊一名非構裝非不死的生物並投出20。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 +@mod",
+          "slashing"
+        ]
+      ],
+      "versatile": "1d10 + @mod"
+    },
+    "formula": "3d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "longsword"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691798470434,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "x0kHMMj4f6r3mQOh",
+  "sort": 139500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!x0kHMMj4f6r3mQOh"
+}

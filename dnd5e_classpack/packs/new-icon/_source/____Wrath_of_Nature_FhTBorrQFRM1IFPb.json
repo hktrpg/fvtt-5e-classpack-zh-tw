@@ -1,0 +1,128 @@
+{
+  "name": "自然之怒Wrath of Nature",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/nature/tree-spirit-green.webp",
+  "_id": "FhTBorrQFRM1IFPb",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你喚醒自然界的精魂對抗你的敵人。選擇施法距離內你可見的一點，精魂令那一點為中心60英尺立方區域內的樹木、巖石和草叢被活化，直到法術結束。</p>\n<p><strong>草叢和灌木Grasses and Undergrowth：</strong>立方區域內被草叢或灌木覆蓋的地面對你的敵人而言是困難地形。</p>\n<p><strong>樹木Trees：</strong>在你的每個回合開始，在立方區域內的任何樹木周圍10英尺範圍內的每個你的敵人都必須成功進行敏捷豁免檢定，否則會因為樹枝的揮打受到4d6揮砍傷害。</p>\n<p><strong>根與藤Roots and Vines：</strong>在你的每個回合結束時，立方區域內站於地面上的一個你選擇的生物必須成功進行力量豁免檢定，否則會被束縛直到法術結束。被束縛的生物可以使用它的動作來進行一次力量（運動）檢定對抗你的施法DC，如果成功將會結束這個效果對自己的影響。</p>\n<p><strong>投石Rocks：</strong>在你的回合中以一個附贈動作，你可以使一塊立方區域中的鬆動巖石投擲向同樣在區域里的一個你可見的生物。若擊中，目標受到3d8非魔法鈍擊傷害，並且必須成功進行力量豁免檢定否則被擊倒。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 60,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 13200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727059316,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FhTBorrQFRM1IFPb"
+}

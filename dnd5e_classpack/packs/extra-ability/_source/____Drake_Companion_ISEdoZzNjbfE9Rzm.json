@@ -1,0 +1,101 @@
+{
+  "name": "龍獸夥伴Drake Companion",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/inv_salamanderwaterbaby_orange.png",
+  "system": {
+    "description": {
+      "value": "<p>使用一個動作，你能魔法地召喚@UUID[Compendium.dnd5e_classpack.monsterspack.J7x3bUrB2sSnUp29]{龍獸}與你聯結的。龍獸會出現在你30尺內一處由你選擇的未被佔據的空間里。</p><p>龍獸聽從你的指令，並且對你和你的同伴友善。從龍獸夥伴數據卡中檢視龍獸的遊戲數據，其中有幾處使用了你的熟練值（PB）。當你召喚龍獸時，從龍族精粹特性的列表中選擇傷害型別。你能自訂龍獸的外觀特徵，如顏色，鱗片紋理，和龍族精粹的視覺效果；你的外觀選擇對遊戲數據沒有影響。</p><p>戰鬥中，龍獸與你共享先攻，會在你的回合結束之後立即進行自己的回合。龍獸能自己獨自移動和使用反應動作，除非你在你的回合里使用附贈動作命令龍獸執行一個動作，否則龍獸只會使用迴避動作。執行的動作可以是數據卡上的，也可以是其他的。當你失能時，龍獸能獨自進行任何動作選項，而不是隻能迴避。</p><p>龍獸持續直到它的生命值降為0，或你使用本特性召喚另一隻龍獸，或你死亡。當龍獸消失時，它穿戴和攜帶的物品會留在原地。</p><p>當你召喚龍獸后，你需要完成一次長休才能再次這樣做。你也能使用一個一環或更高的法術位來召喚龍獸。</p><h2>龍獸夥伴Drake Companion</h2><p>小型龍<strong>護甲等級</strong> 14+PB（天生護甲）<strong>生命值</strong> 5+你遊俠等級*5（龍獸有與你遊俠等級相同數量的d10生命骰）<strong>速度</strong> 40尺</p><hr /><p>力量16（+3） 敏捷12（+1） 體質15（+2）智力8（-1）  感知14（+2） 魅力8（-1）</p><hr /><p><strong>豁免</strong> 敏捷+1+PB  感知+2+PB<strong>傷害免疫</strong> 由龍族精粹特性決定<strong>感官</strong> 黑暗視覺40尺 被動感知12<strong>語言</strong> 龍語<strong>挑戰等級–熟練值（PB）</strong>與你熟練值相同<strong>龍族精粹Draconic Essence。</strong>當你召喚龍獸時，選擇一種傷害型別:強酸，寒冷，閃電，火焰，毒性。該傷害型別會影響傷害免疫和注能打擊的傷害。</p><hr /><h3>動作</h3><p><strong>啃咬Bite。</strong>近戰武器攻擊:命中+3+PB，觸及5尺，單一目標，傷害:1d6+PB穿刺傷害。</p><hr /><h3>反應</h3><p><strong>注能打擊Infused Strikes。</strong>當龍獸30尺內一個龍獸可見的生物用武器攻擊命中一個生物時，龍獸能用它的精粹注能本次打擊，使目標額外受到d6傷害，傷害型別與龍族精粹相同。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "當你召喚龍獸后，你需要完成一次長休才能再次這樣做。你也能使用一個一環或更高的法術位來召喚龍獸。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "龍獸守衛等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e_classpack.extra-ability.0MMEa2Ks0eC5Gvs9"
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686417788189,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": "Compendium.dnd5e_classpack.extra-ability.0MMEa2Ks0eC5Gvs9",
+    "duplicateSource": null
+  },
+  "_id": "ISEdoZzNjbfE9Rzm",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wovyjRBV4JoGHRB8": 3
+  },
+  "_key": "!items!ISEdoZzNjbfE9Rzm"
+}

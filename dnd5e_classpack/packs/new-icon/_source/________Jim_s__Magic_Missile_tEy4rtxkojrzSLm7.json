@@ -1,0 +1,132 @@
+{
+  "name": "吉姆的魔法飛彈 Jim's  Magic Missile",
+  "type": "spell",
+  "img": "icons/magic/light/projectiles-pink-purple.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><h3><strong>版稅成分</strong></h3><p>　　吉姆·達克馬奇的獨特施法品牌混合了專業的奧術知識和特殊的財富熱情。起初由吉姆開發的新法術產生了新的法術成分，此後，這個成分擴散到了收購公司的僱員和特許經營人所創造的其他法術：這也就是版稅成分。</p><p>　　如果要施展一個使用版稅成分的法術（包括使用魔法卷軸或其他儲存了這個法術的魔法物品），施法者必須擁有足夠的個人資金。施法的成本由創造了這個法術的施法者確定，通常是每個法術位等級 1gp。當這個法術被施展時，版稅成分將魔法性地傳送到由法術創造者設計的一個保險櫃或其他物品中。無論施展法術的施法者是否知道版稅成分，付款都將會產生。如果這個施法者沒有足夠的資金，法術並不會丟失，但也不能被施展。</p><p>　　雖然有許多施法者曾經試著繞開版稅成分，但並沒有人完全成功。不過，據說一名角色可以在施展擁有版稅成分的法術同時嘗試進行一次 DC15 的智力（奧秘）檢定。若檢定成功，這個付款將由施法者周圍 10 尺內的隨機生物進行，而那個生物並不知情。</p></blockquote><p>　　每一個法師學徒都會施展無聊的古董魔法飛彈。啊哈，它總是擊中目標。（哈欠）。別再幹你祖父流傳下來的苦差事了，來像吉姆·達克馬奇那樣，用這個改進版本的法術吧！</p><p>　　你創造了三個扭曲著的，尖嘯著的，低過敏的，無麩質的魔法立場飛鏢。每一枚飛彈都瞄準一個在法術距離內由你選擇的可見生物。為每一枚飛彈進行遠端攻擊檢定。若命中，飛彈將對這個目標造成 2d4 點力場傷害。</p><p>　　如果這次攻擊檢定形成了一次重擊，取代了正常重擊形成的兩次傷害骰，那枚飛彈的目標將受到5d4力場傷害。但是如果任何一個飛彈的攻擊檢定為1，所有飛彈都會丟失他們的目標並且在你的臉上爆炸。那時每一枚飛彈都會對你造成1點傷害。</p><p>　　<strong>升環施法效應</strong>：當你使用二環或更高的法術位施放該法術時，使用的法術位每高一環，法術就可以多創造一枚飛鏢，但是版權成分也會增加 1gp。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "AI",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "版稅：1gp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_id": "tEy4rtxkojrzSLm7",
+  "folder": null,
+  "sort": 47700000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711695895274,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!tEy4rtxkojrzSLm7"
+}

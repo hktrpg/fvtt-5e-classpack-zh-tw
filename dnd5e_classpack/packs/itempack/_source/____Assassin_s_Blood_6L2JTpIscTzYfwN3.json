@@ -1,0 +1,120 @@
+{
+  "_id": "6L2JTpIscTzYfwN3",
+  "name": "刺客之血Assassin』s Blood",
+  "type": "consumable",
+  "img": "icons/consumables/potions/vial-cork-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>服用</em></p>\n<p>服用這種毒藥的生物必須進行一次DC 10的體質豁免，豁免失敗則受6（[[/r 1d12]]）點毒素傷害並中毒24小時。豁免成功則傷害減半且不會中毒。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 150,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d12",
+          "poison"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "poison",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 54400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!6L2JTpIscTzYfwN3"
+}

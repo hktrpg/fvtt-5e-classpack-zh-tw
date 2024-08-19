@@ -1,0 +1,140 @@
+{
+  "_id": "foXFIk5vUa6vCF0f",
+  "name": "閃電箭矢 Lightning Arrows",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/misc_legionfall_shaman.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">\n<div class=\"description \">你在法術持續時間內下一次進行的遠端武器攻擊時，該武器的彈藥或該武器本身（如果該武器是投擲武器）變為一束閃電。</div>\n<div class=\"description \">以正常方式進行攻擊檢定，若該攻擊命中則目標受到4d8 點閃電傷害，若未命中則傷害減半。即以該閃電傷害代替武器正常傷害。</div>\n<div class=\"description \">無論你的攻擊是否命中，目標周圍10 尺範圍內的每個生物都必須進行一次敏捷豁免，豁免失敗則受到2d8 點閃電傷害，豁免成功則傷害減半。</div>\n<div class=\"description \">在此之後，該彈藥或武器變回其正常形態。</div>\n<div class=\"description \">&nbsp;</div>\n<div class=\"description \">升環施法效應。</div>\n<div class=\"description \">使用4 環或更高法術位施展該法術時，你使用的法術位每比3 環高一環，上述兩種閃電傷害就各增加1d8。</div>\n</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB ",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d8",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 37000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722350389875,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!foXFIk5vUa6vCF0f"
+}

@@ -1,0 +1,139 @@
+{
+  "_id": "UYTedS2zsaG0Yoe3",
+  "name": "復仇風暴 Storm of Vengeance",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_LightningOverload.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 一團翻騰攪動的烏雲並以你能看見的一點為中心一直擴散至半徑360尺的區域，並使該區域內充斥著電閃雷鳴與狂風呼嘯。所有位於雲團下的生物（處於雲團下方5000尺內）必須進行一次體質豁免。豁免失敗者將受到2d6點雷鳴傷害，並陷入持續5分鐘的耳聾狀態。\n<br>你每維持一輪該法術的專注，風暴就會在你的回合中產生新的效應：\n<br>第2輪。\n<br>雲層中降下酸雨。所有位於雲團下方的生物和物件受到1d6點強酸傷害。\n<br>第3輪。\n<br>你從雲中召下六束閃電擊向你指定的六個位於雲團下的生物或物件，其中任一生物或物件都只能被該閃電擊中一次。遭電擊的生物必須進行一次敏捷豁免，豁免失敗者將受到10d6點閃電傷害，豁免成功則傷害減半。\n<br>第4輪。\n<br>冰雹從雲團中傾瀉而下。所有位於雲團下方的生物將受到2d6點鈍擊傷害。\n<br>第5－10輪。\n<br>狂風和冰雨沖襲著雲團下的區域，使該區域變為困難地形並造成重度遮蔽。該區域內的所有生物受到1d6點冷凍傷害。該區域內無法進行遠端武器攻擊。而其內的強風和暴雨將對維持法術專注造成嚴重干擾。此外，區域內的強風（風速在每小時20到50里）會自動吹散區域內的一切魔法或非魔法的煙霧以及其他類似現象。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 279",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 360,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "spec"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "thunder"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "10d6",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 26800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717697983194,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UYTedS2zsaG0Yoe3"
+}

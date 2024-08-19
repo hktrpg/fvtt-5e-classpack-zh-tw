@@ -1,0 +1,94 @@
+{
+  "_id": "bHrArCBuS5VdpjXP",
+  "name": "煙粉 Smoke powder",
+  "type": "consumable",
+  "img": "icons/containers/bags/sack-cloth-stitched-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>煙粉是一種魔法爆炸物，其主要用途是填充在火器的 槍管中作為子彈的推進劑。煙粉通常儲存在密封的木桶裡 或是防水的小皮袋中。一袋煙粉足夠擊發五次，一桶則是五百次。</p>\n<p>當煙粉被點燃、被掉落或是遇到其他保管不當的情況 時，它將爆炸，對 20 尺半徑內的每個生物或物體造成 [[/r 1d6]]/袋或 [[/r 9d6]]/桶的火焰傷害。通過 DC12 的敏捷豁免則 傷害減半。</p>\n<p>對煙粉使用@UUID[Compendium.dnd5e_classpack.new-icon.as6xgBANCbyoWPXX]{解除魔法 Dispel Magic}將使之永遠失效。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "WDH",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "fire"
+        ]
+      ],
+      "versatile": "9d6"
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 12,
+      "scaling": "flat"
+    },
+    "consumableType": "ammo"
+  },
+  "_key": "!items!bHrArCBuS5VdpjXP"
+}

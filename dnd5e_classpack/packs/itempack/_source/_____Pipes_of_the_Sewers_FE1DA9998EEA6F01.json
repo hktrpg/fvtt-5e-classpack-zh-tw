@@ -1,0 +1,115 @@
+{
+  "_id": "FE1DA9998EEA6F01",
+  "name": "喚鼠樂笙 Pipes of the Sewers",
+  "type": "consumable",
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>奇物（需同調）</p>\n<p>要使用喚鼠樂笙，你必須熟練於管樂器。</p>\n<p>與喚鼠樂笙同調時，普通老鼠和巨老鼠對你的態度為冷漠。除非你威脅或傷害它們，否則它們不會主動攻擊你。</p>\n<p>喚鼠樂笙有3發充能。你可以用一個動作吹奏它，然後用一個附贈動作消耗1到3發充能。 如果你周圍半英里內有足夠可供召喚的老鼠（由DM決定），那麼每消耗1發充能就能召喚1個老鼠集群（數據見怪物圖鑑）。如果範圍內老鼠數量不足以形成集群，則充能被浪費。被召喚的集群以最短路線靠近喚鼠樂笙被吹響的地方，但並不受你控制。</p>\n<p>喚鼠樂笙在每天黎明時恢復[[/r 1d3]]發充能。</p>\n<p>在你吹奏喚鼠樂笙時，你可以對你周圍30尺內一個未被他人控制的老鼠集群進行魅力檢定，對抗集群的感知檢定。如果你在對抗中落敗，集群會按通常的行為模式行動，並且在24小時內不會再被喚鼠樂笙影響。 如果你在對抗中獲勝，那麼集群會被樂笙的音樂控制。在你每輪以一個動作吹奏喚鼠樂笙期間，該老鼠集群對你和你的同伴態度友善。如果你沒有下達命令，則它會盡力保護自己，但不會進行其他動作。 如果一個友善的老鼠集群在自己回合開始時無法聽到喚鼠樂笙的聲音，則該集群會按通常的行動模式行動，並且在24小時內不會再被樂笙的音樂影響。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 185"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 2000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "擁有管樂器熟練。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 0.5,
+      "long": 0,
+      "units": "mi"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "abil",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "cha"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010443297,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 103900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!FE1DA9998EEA6F01"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "esOkyryLICY1Aew7",
+  "name": "真菌感染 Fungal Infestation",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Deathknight_UnholyPresence.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>       在</span>6級時，你的孢子獲得了感染並活化遺體的能力。<br />       如果一個小型或中型的野獸或類人生物在你十尺內死亡，你可以以一個反應動作活化它，令它站起並具有1點生命值。該生物使用MM中@UUID[Compendium.dnd5e_classpack.monsterspack.NAISFPoNNgUCsEyW]{殭屍}的屬性，它將持續活化狀態1小時，之後會倒下死去。<br />       在戰鬥中，它的回合緊接著你的。它遵從你的精神指令，而它只能進行攻擊動作，進行一次近戰攻擊。<br />       該特性的可用次數等於你的感知調整值（至少一次）。而已消耗的特性使用次數則可以通過完成一次長休進行恢復。</p>\n<p> </span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "GGR",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "孢子結社等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!esOkyryLICY1Aew7"
+}

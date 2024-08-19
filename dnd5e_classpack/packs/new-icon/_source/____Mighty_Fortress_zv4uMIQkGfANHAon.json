@@ -1,0 +1,128 @@
+{
+  "name": "堅固堡壘Mighty Fortress",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "_id": "zv4uMIQkGfANHAon",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>一座巖石的堡壘從施法距離內你選擇的一處可見的方形地面升起。這塊區域需要在每一邊上有至少120英尺，並且必須沒有任何建築或其他構造物立於其上。所有處於區域內的生物在堡壘升起時將會被無害地舉起。<br />這座堡壘有4個方形的塔樓，每一個都有20英尺的邊長和30英尺的高度，分佈在堡壘的每個角上。塔樓通過每邊80尺長的石墻相互連線，創造出一個封閉的區域。每一面墻的厚度都達到1英尺，由10英尺寬度和20英尺高度的石板組成。每塊石板都與其他兩塊石板或是與一塊石板和一座塔樓相鄰接。你可以在堡壘的外墻放置4面石門。<br />在封閉區域內樹立著一座小城堡。城堡擁有50尺邊長的方形基座，並且有3層樓，每一層的天花板都有10英尺高。每一層都可以以你喜歡的方式劃分出許多房間，但每個房間都至少要有5英尺的邊長。城堡的每一層都由石頭樓梯相連，它的墻厚達6英吋，室內房間的門戶式樣（石門或者開放式拱門）由你選擇。城堡內部的傢俱和裝潢以你喜歡的方式佈置，它每天可以提供足夠100人享用的、包含九道菜餚的盛宴。從堡壘中被帶走的傢俱、食物和其他由這個法術創造的物體會立即化為土灰。<br />你在施展法術時可以指定任意生物，有100個隱形的侍從作為堡壘的職工遵從他們的任何命令。每一個侍從都如同隱形僕役法術的造物，有近似的功能。<br />所有由石頭創造的城墻、塔樓和城堡都會被損害。每一塊10英尺x10英尺的巖石部件都有15點AC，以及每英吋厚度30點的生命值。它免疫毒素和精神傷害。將某一部分的巖石生命值降低至0點會摧毀它，並且也許會引起與它連線的部分變形和垮塌，具體由你的DM裁量。<br />在7天之後，或當你在別處再次施展這個法術，堡壘會無害地坍塌並沉入地面，把其中的任何生物安全地留在地上。<br />在一年之間，每7天一次在相同的位置施展這個法術會讓堡壘永久存在。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 7,
+      "units": "day"
+    },
+    "target": {
+      "value": 120,
+      "units": "ft",
+      "type": "square"
+    },
+    "range": {
+      "value": 1,
+      "long": null,
+      "units": "mi"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一顆價值至少500GP的鑽石，在施法時被消耗",
+      "consumed": false,
+      "cost": null,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 52400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711696348607,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zv4uMIQkGfANHAon"
+}

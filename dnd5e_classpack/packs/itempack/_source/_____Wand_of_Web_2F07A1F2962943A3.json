@@ -1,0 +1,115 @@
+{
+  "_id": "2F07A1F2962943A3",
+  "name": "蛛網魔杖 Wand of Web",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-simple-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>（需施法者同調）</p>\n<p>這把魔杖有7發充能，且每天黎明時恢復[[/r 1d6+1]]發已消耗的充能。當充能耗盡時，投一個[[/r d20]]。如果投骰結果為1，魔杖將化為灰燼而毀滅。</p>\n<p>持握此魔杖時，你可以用一個動作並消耗1發充能以施展@UUID[Compendium.dnd5e_classpack.new-icon.oopuSIBsaXzQKw1Q]{蛛網術 Web}（豁免DC15）。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 212"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 8000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "cube",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "1d4 +1"
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 29500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!2F07A1F2962943A3"
+}

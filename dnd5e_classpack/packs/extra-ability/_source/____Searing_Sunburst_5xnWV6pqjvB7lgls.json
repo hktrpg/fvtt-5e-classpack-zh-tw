@@ -1,0 +1,91 @@
+{
+  "_id": "5xnWV6pqjvB7lgls",
+  "name": "陽光爆 Searing Sunburst",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/PALADIN_HOLY.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從11級起，武僧可以創造出一個純粹的光能量球以引起一場毀滅性的爆炸。</p>\n<p>以一個動作，你可以魔法般地創造一個球體並且向150尺內的任意一點投擲，在那裡瞬間擴張成一個光芒四射的區域。以目標點為中心半徑20尺內的所有生物必須立即通過一次體質豁免，若未通過將受到[[/r 2d6]]的光耀傷害。若生物處於全掩護環境並且掩體不透光，那麼他不需要進行豁免。</p>\n<p>你可以花費額外的氣以提高這個能量球的威力。每花費1點可以使傷害上升[[/r 2d6]]，上限3點。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 150,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "radiant"
+        ]
+      ],
+      "versatile": "2d6"
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "wis"
+    },
+    "requirements": "日魂宗等級 11",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5xnWV6pqjvB7lgls"
+}

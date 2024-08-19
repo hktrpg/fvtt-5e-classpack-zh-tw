@@ -1,0 +1,89 @@
+{
+  "_id": "ylAmUiS71YoiU73g",
+  "name": "扎孢菇 Zabou",
+  "type": "consumable",
+  "img": "icons/consumables/mushrooms/umbontae-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p>這是楚爾特當地不同尋常的野生動植物。熟練自然技能的冒險者能夠一眼認出這些動植物，並通過一個成功 的 DC 15 的智力(自然)檢定來回憶起它的詳細屬性。如果冒險者們是楚爾特本地人，則該檢定具優勢。</p>\n<p>此處描述的野生動植物可以在南扎路港和其他聚居地內以動植物價格表內對應的價格進行買賣。</p>\n<p>有的野生動植物中會使生物承受一小時或更久的中毒狀態。請記住，@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]{次級復原術 Lesser Restoration}以及類似魔法可以結束該狀態。</p>\n</blockquote>\n<p>扎孢菇靠攝取內臟和枯樹的腐木的營養為生。謹慎處理的情況下，可以將扎孢菇採摘或拔除並使其不釋放孢子。一旦受到擠壓或是遭到打擊，扎孢菇就會釋放出孢子，覆蓋半徑 10 尺的球形範圍。扎孢菇也可以像手雷一樣被丟出最多 30 尺遠或者原地丟下，在受到衝擊時釋放它的孢子云。位於這片區域內的生物必須進行 DC 10 的體質豁免，豁免失敗則中毒一分鐘。生物在中毒期間會持續發癢。中毒生物在其每回合結束時可以重 復該豁免，豁免成功則結束該狀態。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ToA",
+    "quantity": 1,
+    "weight": 0,
+    "price": 10,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "consumableType": "food"
+  },
+  "_key": "!items!ylAmUiS71YoiU73g"
+}

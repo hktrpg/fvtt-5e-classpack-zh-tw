@@ -1,0 +1,128 @@
+{
+  "_id": "8Q1GXPGBXIdBOoqY",
+  "name": "轉生術 Reincarnate",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/000511.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個類人生物的遺體或遺體的一部分，以此創造出一具新的成年身體，並呼喚該生物的靈魂進入此新身軀。該生物死亡時間必須不超過10日。此外，如果目標生物的靈魂此時不能或者不願意完成該過程，則法術失敗。\n<br>該法術要為目標生物創造出一具新的身體，因此很可能導致該生物的種族發生變動。DM 可以投一個d100來判定該生物以何種形態復生，也可以直接由DM 選擇一種形態。\n<br>d100種族\n<br>01~04龍裔\n<br>05~13丘陵矮人\n<br>14~21山地矮人\n<br>22~25黑暗精靈\n<br>26~34高等精靈\n<br>35~42木精靈\n<br>43~46林侏儒\n<br>47~52巖侏儒\n<br>53~56半精靈\n<br>57~60半獸人\n<br>61~68輕足半身人\n<br>69~76強魄半身人\n<br>77~96人類\n<br>97~00提夫林\n<br>轉生后的生物保留其前生記憶和經驗。受術者保留原形的一切能力，不過其種族特性將以新種族的相應特性做更替。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 271",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d100",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "價值至少 1000gp 的稀有油和軟膏，作為該法術的耗材",
+      "consumed": true,
+      "cost": 1000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 6400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722355400746,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8Q1GXPGBXIdBOoqY"
+}

@@ -1,0 +1,127 @@
+{
+  "_id": "phPySCLLBCsToa81",
+  "name": "觸發術 Contingency",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_ArcaneIntellect.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 選擇一個你可以施展的5環或更低環階法術，該法術的施法時間必須為1動作，且必須能夠以你自身為目標。你以「隨因法術」的形式施展該法術，即將其作為所施展觸發術的一部分，並且同時消耗該法術與觸發術的法術位。該隨因法術並不立即生效，而是在特定狀況發生時才觸發其效應。你在施展這兩個法術時，必須描述該觸發狀況的細節。例如，觸發術與水下呼吸waterbreathing 一起施放可以確保水下呼吸可以在你被水或其他液體淹沒時自動觸發其效應。\n<br>隨因法術的效應在相應狀況第一次出現時立即生效，而無論你是否想要這麼做，在這之後觸發術終止。\n<br>隨因法術只能對你起作用，哪怕它通常可以指定其他目標現在也無法再作指定。你一次只能使用一個觸發術，如果你在已施放該法術時再次施展該法術，則前一個觸發術的效應立即終止。另外，當觸發術的材料成分不在你的角色身上時，其法術效應也將立即終止。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 227",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "day"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一尊你自己的塑像，其材質為象牙並以寶石作裝飾，其價值至少為 1500gp",
+      "consumed": false,
+      "cost": 1500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 44800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717593549666,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!phPySCLLBCsToa81"
+}

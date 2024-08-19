@@ -1,0 +1,99 @@
+{
+  "_id": "jS55GVIF48378kJd",
+  "name": "奧術守禦",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_TwilightFireward.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        第2級起，你可以編織周圍的魔法來保護自己。你施展一個1環或更高環階的防護系法術時，可以用該法術的一絲魔力創造一個保護自己的魔法結界，該結界將持續至你完成一次長休。結界的生命值等於你法師等級的兩倍+你的智力調整值。每當你受到傷害時，結界都會代你承受傷害。如果傷害使結界的生命值降至0，則你將承受剩餘的傷害。</p>\n<p>        奧術守禦的生命值降至0時不再吸收傷害，但其魔法仍然存在。你施展1環或更高環階的防護系法術時，結界回覆兩倍於該法術環階數量的生命值。</p>\n<p>        創造奧術守禦后，你必須完成一次長休才能再次創造新的奧術守禦。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 79",
+    "activation": {
+      "type": "special",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "2 * @classes.wizard.levels + @abilities.wis.mod",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "防護學派等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jS55GVIF48378kJd"
+}

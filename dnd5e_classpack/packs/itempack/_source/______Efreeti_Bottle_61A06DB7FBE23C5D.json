@@ -1,0 +1,115 @@
+{
+  "_id": "61A06DB7FBE23C5D",
+  "name": "火巨靈囚瓶 Efreeti Bottle",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-flask-corked-orange.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這個彩繪的黃銅瓶子重1磅。如果你用一個動作拔出瓶塞，一團濃煙將從瓶內溢出。在你的回合結束時，該濃煙會隨著一股無害的火焰消失，同時一名火巨靈efreeti將出現在你周邊30尺內一個未被佔據的空間位置。火巨靈的資料詳見《怪物圖鑑》。</p>\n<p>瓶子第一次被打開時，DM擲骰決定效應。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>效應</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01~10</td>\n<td>火巨靈攻擊你。戰鬥進行5輪后，火巨靈將消失，同時瓶子失去魔力</td>\n</tr>\n<tr>\n<td>11~90</td>\n<td>火巨靈為你服務1小時，然後回到瓶中。一個新的瓶塞將顯現並再次將其封印，且新瓶塞在24小時內將無法被拔出。之後兩次瓶子被打開時會產生同樣的效應。瓶子被打開第四次時火巨靈將逃走並消失，同時瓶子失去魔力。</td>\n</tr>\n<tr>\n<td>91~00</td>\n<td>火巨靈可以為你施展三次@UUID[Compendium.dnd5e_classpack.new-icon.xjn6gjItpWpldE53]{祈願術 Wish}。它將在1小時後或施展完第三次祈願術 時消失，而瓶子也隨之失去魔力。</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "square",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 48700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!61A06DB7FBE23C5D"
+}

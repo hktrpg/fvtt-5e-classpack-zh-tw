@@ -1,0 +1,127 @@
+{
+  "name": "亡靈召喚術 Summon Undead (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_necrolord_fleshcraft.jpg",
+  "_id": "DWDgKtljaEhfs9XQ",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>&nbsp; &nbsp; &nbsp; &nbsp; 你喚來一個不死生物靈魄。其在施法距離內你可見的一個未佔據位置化為實體。這一實體使用下面的不死靈魄Undead Spirit的數據。當你施展法術時，當你施展法術時，從虛靈Ghostly，腐尸Putrid或骷髏Skeletal中為此生物選擇一個外形。此生物的外形為你所選形態的不死生物，其資料表中的部分特性也受此影響。當其生命值降至 0 或法術結束時，生物消失。<br>　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束后立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br>　　<strong>升環施法效應：</strong>使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一個鍍金頭骨，價值至少 300gp",
+      "consumed": false,
+      "cost": 300,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 10800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722352334661,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DWDgKtljaEhfs9XQ"
+}

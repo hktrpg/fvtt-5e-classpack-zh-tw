@@ -1,0 +1,222 @@
+{
+  "name": "清風賦權風壓Investiture of Wind",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ]
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "c4f5347310cfc5fa0f2d8475026a9c2cc7066c8a",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.OkK5f6vH5D3XxVv6"
+    }
+  },
+  "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+  "effects": [
+    {
+      "name": "清風賦權風壓Investiture of Wind",
+      "origin": "Actor.bvEYS7EFkAFT4pCf.Item.OkK5f6vH5D3XxVv6",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "VC5GRVVeUwnjs9sh",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "isMoved"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!vOMllKgUmRpzS5Hq.VC5GRVVeUwnjs9sh"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>直到此法術終止，風在你的身旁迴旋，而你得到下述好處：<br />·對你進行的遠端武器攻擊，在其攻擊檢定中具有劣勢。<br />·你得到60英尺的飛行速度。若此法術終止時，你仍處於飛行狀態，你會墜落，除非你有其他方法避免墜落。<br />·你可以使用你的動作以在你60英尺範圍內，以你能看到的一點為中心，製造出15立方英尺的呼嘯之風。每個在該空間內的生物必須進行一次體質豁免檢定。豁免失敗的生物受到2d10點鈍擊傷害，豁免成功者受到上述傷害的一半。若體型不超過大型的生物在此豁免中失敗。該生物將在遠離該空間中心的方向上被推離10英尺。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "cube",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711723791243,
+    "modifiedTime": 1711723861469,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "vOMllKgUmRpzS5Hq",
+  "sort": 0,
+  "_key": "!items!vOMllKgUmRpzS5Hq"
+}

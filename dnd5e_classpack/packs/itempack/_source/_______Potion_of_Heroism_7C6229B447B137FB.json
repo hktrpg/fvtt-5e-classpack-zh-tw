@@ -1,0 +1,120 @@
+{
+  "_id": "7C6229B447B137FB",
+  "name": "英雄氣概藥水 Potion of Heroism",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>這種藍色的藥水如同沸騰搬冒出氣泡和蒸汽。</em></p>\n<p>飲用此藥水后，你獲得10臨時HP和@UUID[Compendium.dnd5e_classpack.new-icon.U1GNY4potyr0c6mq]{祝福術 Bless}效果（無需專注），持續1小時。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 180,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "heal",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "10",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 58900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!7C6229B447B137FB"
+}

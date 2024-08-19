@@ -1,0 +1,93 @@
+{
+  "_id": "oHj6AFAm66d9qYd7",
+  "name": "引導神力：和平撫慰 Balm of Peace",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/005210.png",
+  "system": {
+    "description": {
+      "value": "\n<p>你可以用@UUID[Compendium.dnd5e_classpack.class-abilityphb.WPevnsjK8Cjd9Fcl]{引導神力}來減輕痛苦，慰籍心靈。以一個動作，你可以移動等同於你速度的距離，此次移動不會引發藉機攻擊。當你在此動作期間移動到了任何其他生物5尺內時，你可以恢復其[[/r 2d6]]+你的感知調整值（最低1）的生命值。你採取此動作時，一個生物只能被治療一次。</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6+max((@abilities.wis.mod),1)",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "和平領域等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oHj6AFAm66d9qYd7"
+}

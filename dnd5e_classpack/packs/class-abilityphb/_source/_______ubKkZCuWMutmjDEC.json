@@ -1,0 +1,104 @@
+{
+  "_id": "ubKkZCuWMutmjDEC",
+  "name": "戰鬥荒野形態",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_deathknight_summongargoyle.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從你選擇該結社的第2級起，你可以在自己回合內用一個附贈動作而不是動作來使用@UUID[Compendium.dnd5e_classpack.class-abilityphb.pORTgCToV9NLPWo1]{荒野形態}特性。</p>\n<p>        此外，你使用@UUID[Compendium.dnd5e_classpack.class-abilityphb.pORTgCToV9NLPWo1]{荒野形態}變形時，可以用一個附贈動作消耗一個法術位來恢復相應法術位每環階[[/r 1d8]]點生命值。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 66",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 2,
+      "max": "2",
+      "per": "sr",
+      "type": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "healing"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "月亮結社等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 189
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ubKkZCuWMutmjDEC"
+}

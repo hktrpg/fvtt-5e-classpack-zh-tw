@@ -1,0 +1,205 @@
+{
+  "_id": "oLtyOvrWeLNEJDIE",
+  "name": "石化術 Flesh to Stone",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Mask_02.png",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.ability.save.dex",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 5243702910,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Restrained",
+          "sourceId": "ActiveEffect.8fYkPnOf7pMU05N0"
+        },
+        "dfreds-convenient-effects": {
+          "description": "- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.<br/>- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.<br/>- The creature has disadvantage on Dexterity saving throws.",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.oLtyOvrWeLNEJDIE",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_id": "3ZTfPBGcWk9k9Nco",
+      "name": "Restrained",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/restrained.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!oLtyOvrWeLNEJDIE.3ZTfPBGcWk9k9Nco"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你嘗試將施法距離內一個你能看見的生物變為石頭。如果該目標的身體由血肉組成，則其必須進行一次體質豁免。豁免失敗者的肉體將變得生硬並因此而受到束縛。豁免成功者將不受該效應的影響。\n<br>因該法術受束縛的生物必須在其每回合結束時再進行一次體質豁免。在累計三次豁免成功后，該法術終止。在累計三次豁免失敗后，該生物變為石頭並在持續時間內視為陷入石化狀態。成功或失敗的檢定不需要連續；只要記錄各情況的次數直至其中一方累計三次為止。\n<br>如果該生物被石化的身體遭破壞，則其在恢復原形時將遭受同樣的破壞。\n<br>如果你在為該法術維持了最長持續時間的專注，則該生物變為石頭的效應將保持至被移除為止。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 243",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "A pinch of lime, water, and earth",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 43400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711725524543,
+    "modifiedTime": 1711725524543,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oLtyOvrWeLNEJDIE"
+}

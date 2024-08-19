@@ -1,0 +1,133 @@
+{
+  "_id": "47EF17EA42E9DC9E",
+  "name": "矮人飛錘 Dwarven Thrower",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-drilling-spiked.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需矮人同調）</em></p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+3加值。它具有投擲特性，常規射程為20尺，最大射程為60尺。當你用此武器進行遠端攻擊命中時，它造成[[/r 1d8]]額外傷害。如果命中的目標是一名巨人，則額外傷害為[[/r 2d8]]。攻擊后，此武器立即飛回你手中。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 167"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 18000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +3",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d10 + @mod +3"
+    },
+    "formula": "1d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ret",
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "warhammer"
+    },
+    "attack": {
+      "bonus": "3",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 38400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!47EF17EA42E9DC9E"
+}

@@ -1,0 +1,99 @@
+{
+  "_id": "as3ge4MyQw6ppNFD",
+  "name": "直覺魅惑",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_AstralRecal.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>       第6級起，一個身處你周邊30尺範圍內你能看見的生物對你發動攻擊檢定時，你可以用你的反應來偏轉本次攻擊，前提是必須有另一生物在本次攻擊的攻擊範圍內。攻擊者必須進行一次對抗你法師法術豁免DC的感知豁免。豁免失敗則攻擊者必須轉而攻擊距離他最近的生物(不包括你或他自身)。如果有多個目標離他的距離相等且都為最近,則攻擊者可以從中自選一個攻擊對象。如果攻擊者豁免成功，則你將無法對這個生物在使用該特性，直至你完成一次長體。</p>\n<p>       你必須在攻擊確認命中與否前使用該特性。而免疫魅惑的生物也同樣免疫該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "wis",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "附魔學派等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!as3ge4MyQw6ppNFD"
+}

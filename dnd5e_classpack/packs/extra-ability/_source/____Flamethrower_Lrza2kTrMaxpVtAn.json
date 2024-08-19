@@ -1,0 +1,91 @@
+{
+  "_id": "Lrza2kTrMaxpVtAn",
+  "name": "投火機 Flamethrower",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_Ragnaros_LavaBolt.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>炮臺在你指定的一個15尺錐形範圍內發射火焰。該區域內的每個生物必須對你的法術豁免DC做一次敏捷豁免檢定，如果豁免失敗則受到[[/r 2d8]]火焰傷害，成功的豁免檢定將使傷害減半。火焰會點燃該地區內任何未被穿戴或攜帶的易燃物品。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 15,
+      "width": null,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "int",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "魔炮師等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Lrza2kTrMaxpVtAn"
+}

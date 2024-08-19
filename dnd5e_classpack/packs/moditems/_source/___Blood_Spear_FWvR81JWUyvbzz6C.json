@@ -1,0 +1,123 @@
+{
+  "_id": "FWvR81JWUyvbzz6C",
+  "name": "血矛 Blood Spear",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-simple-jagged.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>在施特拉德·馮·扎洛維奇到來之前，無情的酋長喀萬 Kavan 和他的部族就已經在巴力諾克山脈生活了數個世紀之久。儘管他是個不折不扣的活人，但喀萬與吸血鬼們也有一些共同之處：他白天睡覺，晚上打獵，他喝獵物的鮮血，並在地下生活。在戰鬥中，他揮舞著一把沾滿鮮血的長矛。這就是最初的血矛，這把武器會從被它殺害的生物身上吸取生命力並將之轉化為持有者的生命力，給持矛的個體持續戰鬥下去的耐力。</p>\n<p>當你使用這把魔法矛做出近戰攻擊並將目標的生命值降低到0點時，你將獲得[[/r 2d6]]的臨時生命值。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "CoS",
+    "quantity": 1,
+    "weight": 3,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": "1d8 + @mod"
+    },
+    "formula": "2d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "spear",
+    "properties": {
+      "rch": false,
+      "amm": false,
+      "ver": true,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "mgc": true,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": true,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "_key": "!items!FWvR81JWUyvbzz6C"
+}

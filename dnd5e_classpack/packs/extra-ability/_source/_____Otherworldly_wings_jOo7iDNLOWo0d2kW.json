@@ -1,0 +1,130 @@
+{
+  "_id": "jOo7iDNLOWo0d2kW",
+  "name": "神聖之翼 Otherworldly wings",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_Archangel.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>14級起，你可以使用一個附贈動作，在你的背部展現一對光翼。當光翼展現時，你具有30尺的飛行速度。它們會一直展現著，直到你失能、死亡、或者你以一個附贈動作遣散。</p>\n<p>你為你神聖魔法的特性所選擇的親和力，決定了光翼的外觀：鷹翼屬於善良或守序，蝠翼屬於邪惡或混亂，中立則是蜻蜓的翅膀。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "神聖之魂等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "Qy2Kd6jZiRwyYLnW",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.jOo7iDNLOWo0d2kW",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 30 尺飛行速度",
+      "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_Archangel.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!jOo7iDNLOWo0d2kW.Qy2Kd6jZiRwyYLnW"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jOo7iDNLOWo0d2kW"
+}

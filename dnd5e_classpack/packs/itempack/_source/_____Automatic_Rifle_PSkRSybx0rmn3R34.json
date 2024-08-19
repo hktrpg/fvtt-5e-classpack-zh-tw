@@ -1,0 +1,135 @@
+{
+  "_id": "PSkRSybx0rmn3R34",
+  "name": "自動步槍 Automatic Rifle",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>這把步槍能自動退彈、裝彈、擊發，按住扳機後會持續射擊直到子彈用盡。</p>\n<p><strong>掃射Burst Fire</strong>。具有掃射屬性的武器可以進行正常的單目標攻擊，也可以在其射程內使用掃射覆蓋一處10尺的立方區域。區域內的每個生物都必須進行一次DC 15的敏捷豁免，豁免失敗者將受該武器的正常傷害。該動作將耗費10發彈藥。</p>\n<p><em>註：裝彈屬性記錄在了充能中，根據實際需要自行調整。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 8,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "cube",
+      "prompt": true
+    },
+    "range": {
+      "value": 80,
+      "long": 240,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 30,
+      "max": "30",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "amm",
+      "fir",
+      "two",
+      "spc",
+      "rel"
+    ],
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010443297,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 113100000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!PSkRSybx0rmn3R34"
+}

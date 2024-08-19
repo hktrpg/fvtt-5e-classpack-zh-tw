@@ -1,0 +1,91 @@
+{
+  "_id": "c0gGX4Cu8ZXvxR8f",
+  "name": "灼光復仇 Searing Vengeance",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_DivineProvidence.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從14級開始，你引導的光耀能量能讓你抵抗死亡。當你在回合開始需要進行一次死亡豁免檢定時，你可以選擇在一次光耀能量的爆發中一躍而起。你恢復等於你最大生命值一半的生命值，如果你願意的話可以選擇處於站立狀態。距你30尺以內的、你所選擇的所有生物受到[[/r 2d8]]+你的魅力調整值的光耀傷害，並且目盲到你目前回合結束。</p>\n<p>當你使用這個職業特性后，在你完成一次長休前你無法再次使用此能力。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "回合開始需要進行一次死亡豁免檢定。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8+@abilities.cha.mod",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "floor(@attributes.hp.max/2)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "天界宗主等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!c0gGX4Cu8ZXvxR8f"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "高階惡魔召喚術 Summon Greater Demon",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "_id": "Xh5cdHfYtKXl5Izi",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你吐出污穢的詞語，從無底深淵的無盡混沌中召喚來一隻惡魔。你選擇挑戰等級為5或更低的一種惡魔型別，例如影魔Shadow Demon或者是巴古拉魔Barlgura。惡魔出現在法術距離內你可見的一處未被佔據的空間，當它的生命值降低至0點或是法術結束時，惡魔將會消失。<br />惡魔擁有自己的回合，為他投擲先攻。當你在召喚它以及在之後你的每一個回合，你都可以向它發佈口頭命令（無需你的動作），告訴它在下個回合它必須做什麼。如果你沒有發佈命令，它會花費自己的回合用來攻擊任何在觸及內攻擊它的生物。<br />在惡魔的每個回合結束時，它都會進行一次魅力豁免檢定。如果你說出它的真名，惡魔會在這次豁免檢定中具有劣勢。如果豁免失敗，惡魔繼續服從你。如果豁免成功，在法術剩下的時間中你失去對惡魔的控制，並且惡魔會花費它的回合用於追逐和攻擊最近的非惡魔生物，盡其所能。即使你在到達完整的持續時間之前中斷這個法術的專注，一個失去控制的惡魔在1d6輪內仍然不會消失，只要它還留有生命值。<br />作為施放此法術的一部分，你可以使用作為施法材料的血液在地上繪製一個法陣。法陣大到可以包括你在的空間。在法術的持續時間內，被召喚來的惡魔無法穿過或傷害法陣，也無法以其中的任何人作為目標。用這種方式使用的施法材料會在法術結束時被消耗。</p>\n<p><strong>升環效果：</strong>當你使用5環或更高的法術位施放該法術時，使用的法術位每高一環，允許召喚的惡魔挑戰等級就+1。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "來自一個於24小時之內被殺的類人生物身上的一劑血液",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 30300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354812168,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Xh5cdHfYtKXl5Izi"
+}

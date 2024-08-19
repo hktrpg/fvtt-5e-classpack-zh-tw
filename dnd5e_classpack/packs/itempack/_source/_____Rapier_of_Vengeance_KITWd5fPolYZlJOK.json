@@ -1,0 +1,132 @@
+{
+  "_id": "KITWd5fPolYZlJOK",
+  "name": "復仇刺劍 Rapier of Vengeance",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你在用該魔法武器發動攻擊檢定和傷害擲骰時獲得+1加值。</p>\n<p><strong>詛咒Curse</strong>。這把劍被寄宿其中一個渴望復仇的精魂所詛咒，與之同調的生物將受到其詛咒影響。只要詛咒還在生效，你總是會把劍帶在身邊，不願與它分開。與這把劍的同調持續期間，你在用其他武器進行的攻擊檢定和傷害擲骰具有劣勢。</p>\n<p>持握該劍時，每當你在戰鬥中受到傷害，你就必須進行一次DC 15的感知豁免。如果豁免失敗，則你必須持續攻擊對你造成傷害的生物，直到你的生命值降至0或你的無法到達近戰攻擊距離以對該發動近戰攻擊為止。</p>\n<p>你可以用常見方式解除劍上的詛咒，也可以對劍施展@UUID[Compendium.dnd5e_classpack.new-icon.lopw7wVkPoE7gbNu]{放逐術 Banishment}以驅逐其中寄宿的復仇精魂。此後，這把劍將變為一把普通的+1武器。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod+1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "rapier"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010443297,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 109500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!KITWd5fPolYZlJOK"
+}

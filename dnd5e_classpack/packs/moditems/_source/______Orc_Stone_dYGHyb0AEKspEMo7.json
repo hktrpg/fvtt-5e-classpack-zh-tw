@@ -1,0 +1,89 @@
+{
+  "_id": "dYGHyb0AEKspEMo7",
+  "name": "獸人的石頭 Orc Stone",
+  "type": "consumable",
+  "img": "icons/commodities/treasure/token-runed-circles-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需特殊角色同調）</em></p>\n<p>我救了一位獸人的命，他給了我一顆 刻有眾箭部族標誌(一個被三支箭刺穿的類人生物頭骨)的石頭。這個石頭是一件需要同調的非普通魔法物品，並且只有我能同調它。</p>\n<p>以一個動作，我可以用石頭召喚一位獸人戰士的靈體，它將在我30尺內的一個位置出現。該靈體使用怪物圖鑑內獸人軍官的數據，並且在10分鐘后或者其生命值被降至0時消失。該靈體理解我說的任何語言並遵守我的命令。</p>\n<p>該石頭在使用三次後化為灰燼。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "IDRotF",
+    "quantity": 1,
+    "weight": 0,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "_key": "!items!dYGHyb0AEKspEMo7"
+}

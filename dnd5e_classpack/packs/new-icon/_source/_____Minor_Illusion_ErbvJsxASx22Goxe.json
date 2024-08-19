@@ -1,0 +1,128 @@
+{
+  "_id": "ErbvJsxASx22Goxe",
+  "name": "次級幻影 Minor Illusion",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Priest_DivineStar_Shadow2.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內創造一段聲響或一個物件的影像，並使之維持至法術持續時間結束。你也可以用一個動作解除幻象，或者再次施展該法術來終止幻象。\n<br>如果你創造一段聲響，其音量可以是低聲耳語也可以是高聲尖叫。它可以是你或其他任何人的嗓音，或者是一頭獅子的咆哮、一段鼓聲以及任何你指定的其它聲響。聲響在持續時間內不會減弱，或者你也可以於法術終止前在不同的時間段創造幾段分散的聲響。\n<br>如果你創造一個物件的影像（比如一把椅子、泥濘的腳印、一個小箱子等），則該物件大小不得大於一個邊長5尺的立方體。\n<br>該影像不具有聲音、光亮、味道或任何其他的感官效應。由於影像可以被任何物件所穿透，因此與之進行物理互動時都會揭露其幻象的本質。\n<br>生物用其動作調查該聲響或影像時，必須進行一次對抗該法術豁免DC 的智力（調查）檢定，檢定成功則判斷出眼前即是幻象。幻象在看穿它的生物面前會顯得模糊不清。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 260",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一小塊羊毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 11800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717594171751,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ErbvJsxASx22Goxe"
+}

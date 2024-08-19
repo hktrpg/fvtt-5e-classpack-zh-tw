@@ -1,0 +1,108 @@
+{
+  "_id": "umqpL5B9ccbkpJtJ",
+  "name": "卜筮術 Augury",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Totem_WardOfDraining.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 藉由鑲嵌寶石的小短棒，龍骨，卡牌或是其他占卜器具，你從異界存在處獲得對某件你計劃在接下來的30分鐘內做的事的預示。DM 從下列預示中選取一個：\n<br>吉：預示著好的結果。\n<br>兇：預示著壞的結果。\n<br>吉且兇：預示著結果既有好的方面，也有壞的方面。\n<br>無：預示著結果並無明顯的好壞分別。\n<br>此法術不會將任何可能影響結果的偶然事件考慮在內。例如，額外施放某個法術，或是得到／失去某個同伴。\n<br>若你在兩次長休之間使用兩次或更多次的卜筮術，則法術有概率會給出隨機的結果。此概率從第二次施展起每次累計25％。\n<br>具體結果由DM 暗骰決定。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 215",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一套繪有標記的短棒，骨頭，或類似的象徵物，價值至少 25gp",
+      "consumed": false,
+      "cost": 25,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 49400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717429817015,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!umqpL5B9ccbkpJtJ"
+}

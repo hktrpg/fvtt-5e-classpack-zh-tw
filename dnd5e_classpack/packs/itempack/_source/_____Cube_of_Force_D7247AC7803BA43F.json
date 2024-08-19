@@ -1,0 +1,115 @@
+{
+  "_id": "D7247AC7803BA43F",
+  "name": "力場魔方 Cube of Force",
+  "type": "consumable",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這個立方體棱長約1寸，每個面上有獨特標記，並且可以被按壓。它共有36發充能，每天黎明時會恢復1d20發充能。 立方體的每個面都有不同效果。你可以用一個動作來按下立方體某一面，這將消耗如下表所示的充能。如果立方體充能不足，則什麼也不會發生。否則，按下後將產生一股無形力場構成的障壁，形成一個棱長15尺的立方體。障壁以你為中心移動，持續1分鐘，直到你用一個動作按下立方體的第六個面，或立方體耗盡了充能。你可以按下不同的面來改變障壁的效果，但這會消耗相應的充能並重置持續時間。（譯者註：這段話邏輯有問題，但原文如此。）</p>\n<p>如果由於你的移動使障壁與不能穿過它的固體接觸，則在障壁持續時間內你無法更加靠近該固體。</p>\n<h3>力場魔方各面效果 Cube of Force Faces</h3>\n<table>\n<thead>\n<tr>\n<th><strong>面</strong></th>\n<th><strong>消耗充能</strong></th>\n<th><strong>效果</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>1</td>\n<td>氣體、風和霧無法穿過障壁。</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>無生命體無法穿過障壁。你可以決定墻壁、地板和天花板是否可以穿過。</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>生命體無法穿過障壁。</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>法術效果無法穿過障壁。</td>\n</tr>\n<tr>\n<td>5</td>\n<td>5</td>\n<td>沒有任何東西能穿過障壁。你可以決定墻壁、地板和天花板是否可以穿過。</td>\n</tr>\n<tr>\n<td>6</td>\n<td>0</td>\n<td>解除障壁。</td>\n</tr>\n</tbody>\n</table>\n<p>當障壁成為某些特定法術目標，或是與某些特定法術、魔法物品效果接觸時，立方體將失去一部分充能，如下表所示。</p>\n<table>\n<thead>\n<tr>\n<th><strong>法術或物品</strong></th>\n<th><strong>充能損失</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.j4LqpyfXhYoUpUCz]{解離術 Disintegrate}</td>\n<td>[[/r 1d12]]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.C97A969AF2AF17AE]{音爆號角 Horn of Blasting}</td>\n<td>[[/r 1d10]]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.EoIuyVnLAF4DyTO7]{穿墻術 Passwall}</td>\n<td>[[/r 1d6]]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.oxvIiEKCQhht8JrO]{虹光噴射 Prismatic Spray}</td>\n<td>[[/r 1d20]]</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.agTzLRmgNSVghaGk]{火墻術 Wall of Fire}</td>\n<td>[[/r 1d4]]</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 159"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 16000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Must have enough charges for the face pressed otherwise the Action is lost."
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 15,
+      "width": null,
+      "units": "ft",
+      "type": "cube",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 36,
+      "max": "36",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 89600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!D7247AC7803BA43F"
+}

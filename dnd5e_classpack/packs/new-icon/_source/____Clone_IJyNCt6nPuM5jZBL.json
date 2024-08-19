@@ -1,0 +1,127 @@
+{
+  "_id": "IJyNCt6nPuM5jZBL",
+  "name": "克隆術 Clone",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_mage_massinvisibility.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 此法術用以培養一個活體生物的無意識複製體作為其死亡時的保險措施。該克隆體在一個密封容器中成長，並在120日後成熟；你還可以為同一個生物製作較年輕版本的肉體。在未被使用前，該軀體會一直保持無意識的靜止狀態。\n<br>克隆體成長成熟后，如果本體生物死亡，則其靈魂轉移到克隆體中，前提是該靈魂必須保持自由且自願復活。克隆體的肉體特質與本體相同，並具有相同的個性、記憶和能力，但並不擁有本體隨身的裝備。由於靈魂已經轉移到別處，該生物原本的遺體（如果依然存在）失去活力，且不能被複活\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 222",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 8,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一枚至少價值 1000gp 的鑽石以及被克隆生物 1 立方寸的肉，作為該法術的耗材。外加一副至少價值 2000gp 的帶密封功能的大容器，其尺寸必須足以存放一個要被克隆的生物，例如一個巨大的甕或靈柩，或是立在地上充滿漿狀物質的卵囊，又或者充滿鹽水的水晶棺",
+      "consumed": true,
+      "cost": null,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 15300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720798806256,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IJyNCt6nPuM5jZBL"
+}

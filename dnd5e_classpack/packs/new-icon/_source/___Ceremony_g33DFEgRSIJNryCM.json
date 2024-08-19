@@ -1,0 +1,126 @@
+{
+  "name": "典禮術Ceremony",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "_id": "g33DFEgRSIJNryCM",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你進行幾種宗教典禮之一。當你施展此法術時，選擇下述典禮之一，其目標必須在施法過程中處於你周圍10英尺內。<br />贖罪Atonement：你接觸一個陣營發生了改變的自願生物，而你進行一次DC20的感知（洞察）檢定。成功則你令目標恢復其原始陣營。<br />祝福聖水Bless Water：你接觸一瓶水並將它轉變為聖水。<br />成人禮Coming of Age：你接觸一個年齡足夠成年的類人生物。在接下來的24小時內，當目標進行一次屬性檢定時，它可以投d4並將投出的結果加到屬性檢定上。一個生物只能從此儀式中獲得此好處一次。<br />獻身Dedication：你接觸一個自願轉變為你的宗教的信仰或想要為你信奉的神明服務的類人生物。在接下來的24小時內，當目標進行一次豁免檢定時，它可以投d4並將投出的結果加到檢定上。一個生物只能從此儀式中獲得此好處一次。<br />葬禮Funeral Rite：你祝福一具處於你周圍5英尺內的屍體。在接下來的7天內，目標不能被任何弱於祈願術的方式變為不死生物。<br />婚禮Wedding：你接觸自願接受婚姻的束縛的成年類人生物。在接下來的7天內，每個目標若處於彼此30英尺範圍內，則在AC上獲得+2加值。一個生物只有在喪偶時才能再次從這個儀式中受益。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "價值25金幣的銀粉，在施法時被消耗",
+      "consumed": false,
+      "cost": 25,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 37300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717595906870,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!g33DFEgRSIJNryCM"
+}

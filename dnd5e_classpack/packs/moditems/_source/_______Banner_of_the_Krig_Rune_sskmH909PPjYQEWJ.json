@@ -1,0 +1,89 @@
+{
+  "_id": "sskmH909PPjYQEWJ",
+  "name": "戰爭符文之旗 Banner of the Krig Rune",
+  "type": "consumable",
+  "img": "icons/sundries/flags/banner-symbol-sun-gold-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這面旗幟以厚重的紅色布料製成，高5尺，寬3尺。布料中鋒有一塊圓形的金屬板，上面銘刻著krig（戰爭）符文。該旗幟可以接在一根10尺桿子上，當作是一面戰旗。展開或收攏該旗幟需要花費一個動作。該旗幟具有以下特性。</p>\n<p><strong>勇氣印記Mark of Courage</strong>。以一個附贈動作，你可以接觸已展開的旗幟，使它散發出勇氣。當位於該旗幟20尺範圍內時，你和你的盟友免疫恐慌。這一特性持續10分鐘或直至旗幟被收攏。一旦你使用了這個特性，直到完成一次短休息或長休息之前，都無法再次使用。</p>\n<p><strong>哨衛戰旗Sentinel Standard</strong>。你可以看到處於你視線範圍內、並處於已展開的該旗幟20尺範圍內的隱形生物。</p>\n<p><strong>戰旗之盾Standard's Shield</strong>。以一個附贈動作，你可以接觸已展開的旗幟以啟用該特性。當你和你的盟友位於展開旗幟的20尺內時，任何以你們為目標的遠端攻擊骰具有劣勢。此效果持續1分鐘，或直到旗幟收攏為止。一旦你使用了這個特性，直到完成一次短休息或長休息之前，都無法再次使用，</p>\n<p><strong>戰鬥之禮Gift of Battle</strong>。通過用你的手指在地面描繪krig符文，你可以將旗幟的魔法轉移到某一地方。由你所描繪的那個點成為一個半徑500尺的球形魔法區域的中心，該區域的位置是固定的。傳輸該項魔力需要花費8小時時間，並且需要旗幟在這期間一直位於你的5尺之內。在此期間，你可以選擇受到此法術增益的生物個體，生物的型別，或兩者都選。在這8小時結束時，旗幟被摧毀，該區域獲得以下特性：</p>\n<ul>\n<li>當位於此500尺半徑的球形範圍內時，你在轉移過程中所選擇的生物免疫恐慌，並且在攻擊骰和AC上獲得+1加值。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SKT",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "旗幟展開。"
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "_key": "!items!sskmH909PPjYQEWJ"
+}

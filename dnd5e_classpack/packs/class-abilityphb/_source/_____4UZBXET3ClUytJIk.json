@@ -1,0 +1,89 @@
+{
+  "_id": "4UZBXET3ClUytJIk",
+  "name": "詭術祝福",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_rogue_preparation.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從第1級選擇該領域起，你可以用你的動作觸碰處你自身之外的一個自願目標，並使他在進行敏捷(隱匿)檢定時具有優勢。該祝福持續1小時或直至你再次使用該特性為止。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 60",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "周邊五尺內一個你能看見的生物攻擊命中你時"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "touch",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "dex",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "詭術領域等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4UZBXET3ClUytJIk"
+}

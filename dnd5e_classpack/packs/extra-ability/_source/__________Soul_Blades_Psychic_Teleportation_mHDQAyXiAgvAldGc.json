@@ -1,0 +1,86 @@
+{
+  "_id": "mHDQAyXiAgvAldGc",
+  "name": "靈魂之刃：心靈傳送 Soul Blades：Psychic Teleportation",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_bastion_monk1.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你的@UUID[Compendium.dnd5e_classpack.extra-ability.yeqpLzvtDcAw6UBm]{念刃}現在成爲了你那充盈靈能之靈魂的具現，這使你能夠通過以下的方式更好地控制它：</p>\n<p>如果你的靈能天賦骰可用，你能通過投擲念刃來將自己魔法性地傳送到其他地方。以一個附贈動作，你塑造一把念刃，消耗並擲一個靈能骰，將念刃投擲到至多距離靈能骰結果數字10倍尺數的可見空閑區域。你傳送到目標位置，同時念刃消失。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "(d(floor((1+@classes.rogue.levels)/6)*2+6))*10",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "魂刃等級 9",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mHDQAyXiAgvAldGc"
+}

@@ -1,0 +1,106 @@
+{
+  "_id": "mcQ5lehafMClomzc",
+  "name": "傳送法陣 Teleportation Circle",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_Blast.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 施展該法術時，你在地上畫出一個直徑十尺的圓圈，並在其周圍畫出符文。這個圓形法陣將你所處的位置與你選擇的一個與你處在同個位面上的永久傳送法陣相連（你必須知道該法陣的符文序列）。圓圈中將打開一個發光的傳送門，並一直維持到你的下一回合結束。任何進入傳送門的生物將立即出現在目標法陣附近5尺內（如果該空間已被佔據，則出現在最靠近目標法陣的未被佔據空間）。\n<br>許多神殿、公會和其他重要的場所都在其中某處設有永久的傳送法陣。這種法陣各有自己的符文序列——按特定順序排列的一串魔法符文。當你最初獲得施放該法術的能力時，你會知道物質位面上兩個永久法陣的符文序列（由DM 決定），隨後你還可以在旅途中習得更多的符文序列。你只要花一分鐘仔細研究一個新的符文序列就能夠將其記錄下來。\n<br>當你在一年裡對同一地點每日連續施展該法術后，將創造出一個永久的傳送法陣。而你在如此創造法陣時並不需要使用該法陣進行傳送。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 282",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "稀有粉筆和浸有價值 50gp 珍稀寶石的墨水，作為該法術的耗材",
+      "consumed": true,
+      "cost": 50,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 42200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717593741333,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mcQ5lehafMClomzc"
+}

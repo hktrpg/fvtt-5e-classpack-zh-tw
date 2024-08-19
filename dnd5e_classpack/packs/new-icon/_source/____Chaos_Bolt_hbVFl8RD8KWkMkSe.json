@@ -1,0 +1,113 @@
+{
+  "_id": "hbVFl8RD8KWkMkSe",
+  "name": "混亂箭 Chaos Bolt",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warlock_ChaosBolt.png",
+  "effects": [],
+  "folder": null,
+  "sort": 38500000,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>你向著距離內的一個生物擲出一團變化不定、高聲尖鳴的混亂能量。對目標進行一次遠端法術攻擊。擊中時，目標受到2d8+1d6點傷害。選擇一顆d8投出的數字來決定它的傷害型別，投出的數字與對應的類別見下表。</p>\n<table>\n<thead>\n<tr>\n<th>[[/r D8]]</th>\n<th>傷害類別</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>強酸</td>\n</tr>\n<tr>\n<td>2</td>\n<td>寒冷</td>\n</tr>\n<tr>\n<td>3</td>\n<td>火焰</td>\n</tr>\n<tr>\n<td>4</td>\n<td>力場</td>\n</tr>\n<tr>\n<td>5</td>\n<td>閃電</td>\n</tr>\n<tr>\n<td>6</td>\n<td>毒素</td>\n</tr>\n<tr>\n<td>7</td>\n<td>精神</td>\n</tr>\n<tr>\n<td>8</td>\n<td>雷鳴</td>\n</tr>\n</tbody>\n</table>\n<p>若你的兩顆d8投出了相同的數字，混亂能量將從目標跳躍到一個由你選擇的、處於它周圍30英尺內的其他生物上。對新目標進行一次新的攻擊檢定，進行新的傷害檢定，這次傷害檢定也可能令混沌能量跳躍。</p>\n<p>一個生物只能被此混亂箭選作目標一次。</p>\n<p><strong>升環效果：</strong>當你使用2環或更高的法術位施展此法術時，每個生物受到額外傷害，型別與投出的一致。額外傷害等於高於1環的每個等級1d6點。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8+1d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719631226734,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hbVFl8RD8KWkMkSe"
+}

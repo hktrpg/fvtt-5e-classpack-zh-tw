@@ -1,0 +1,126 @@
+{
+  "_id": "uzaCkaQgLxMqWM1t",
+  "name": "吐息武器 (FTD龍裔)",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_disintegrate.png",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p><span style=\"color:#191813\">當你使用攻擊動作時，你可以將其中一次攻擊替換為呼出一種30尺長，5尺寬的魔法能量。矩形範圍內的每個生物都必須成功通過一次DC為（8+你的體質調整值+你的熟練加值）的敏捷豁免，否則將受到1d10的對應血脈的傷害，成功則傷害減半。該傷害在你達到5級時增至2d10，11級時增至3d10，17級時增至4d10。</span><br style=\"box-sizing:border-box;user-select:text;color:#191813\" /><span style=\"color:#191813\">你可以使用該特性的次數等同於你的熟練加值，你在完成</span><span class=\"GramE\" style=\"box-sizing:border-box;user-select:text;color:#191813\">一</span><span style=\"color:#191813\">次長休後重</span><span class=\"GramE\" style=\"box-sizing:border-box;user-select:text;color:#191813\">獲所有</span><span style=\"color:#191813\">已使用的次數。</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": 5,
+      "units": "ft",
+      "type": "line"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 26100000,
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.ciuz2U5Cgo44o8bN"
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711712753405,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": "Item.ciuz2U5Cgo44o8bN",
+    "duplicateSource": null
+  },
+  "_key": "!items!uzaCkaQgLxMqWM1t"
+}

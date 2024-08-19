@@ -1,0 +1,172 @@
+{
+  "_id": "xVdP01470qrUp5AM",
+  "name": "魅惑怪物 Charm Monster",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+  "effects": [
+    {
+      "changes": [],
+      "description": "- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.<br />- The charmer has advantage on any ability check to interact socially with the creature.",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        }
+      },
+      "name": "Charmed",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.xVdP01470qrUp5AM",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Charmed",
+        "charmed"
+      ],
+      "_id": "eQb43s2PXL37KWFq",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/charmed.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!xVdP01470qrUp5AM.eQb43s2PXL37KWFq"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你嘗試魅惑法術距離內你可見的某一生物。它立即進行感知豁免，如果你或者你的同伴正在與它戰鬥，它在這次豁免上具有優勢。如果它豁免失敗，它將被你魅惑直到法術結束，或者直到你或你的同伴做了任何有害它的事情。被魅惑的生物將對你友好。在法術結束時，生物會知道它曾被你魅惑。</p>\n<p><strong>升環效果：</strong>當你使用5環或更高的法術位施放該法術時，使用的法術位每高一環，你就可以多指定一個額外生物作為目標。每個被你指定的生物相互之間的距離必須在30尺內。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 50600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711701000018,
+    "modifiedTime": 1720800365449,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xVdP01470qrUp5AM"
+}

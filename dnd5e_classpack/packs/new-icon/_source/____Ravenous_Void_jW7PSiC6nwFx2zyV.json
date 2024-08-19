@@ -1,0 +1,137 @@
+{
+  "_id": "jW7PSiC6nwFx2zyV",
+  "name": "饕餮虛空Ravenous Void",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_priest_void-blast.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你以施法距離內你可見的一點為源點創造一個半徑20尺的毀滅性球形力場。在法術持續時間內，球形力場與其100尺範圍內的空間視為困難地形，且完全處於力場內的未被著裝與攜帶的非魔法物件會被摧毀。<br />&nbsp;當力場出現時或者在你的每回合開始時，力場的100尺範圍內未被著裝的物件將被直直拉向力場的中心，並在距離力場中心最近的未被佔據的空間停止。<br />當一個生物在力場的100尺範圍內開始其回合時，其必須進行一個力量豁免，若失敗則將被直直拉向力場的中心，並在距離力場中心最近的未被佔據的空間停止。一個在目前回合內第一次進入力場的生物或在力場內開始其回合的生物會受到5d10點力場傷害並且被束縛，直到其離開力場範圍。若力場位於空中，那麼被束縛的生物將會在力場中懸浮。一個生物能以其動作進行一個對抗你的法術豁免DC的力量檢定，若成功則能解除其自己或者另一個在其觸及範圍內的力場內的生物的束縛狀態。若一個生物的HP被該法術降低至0，他與他身上攜帶的所有非魔法物件都會被湮滅。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 1000,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "5d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一隻鐵製的小九芒星",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 39600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711714203785,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jW7PSiC6nwFx2zyV"
+}

@@ -1,0 +1,105 @@
+{
+  "_id": "nu6VBNJDc6rwqxo4",
+  "name": "不動物件Immovable Object",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/containers/chest/chest-elm-steel-brown.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你觸控一個至多不超過10磅的物件，使其魔法般地固定住。你與你施法時指定的生物能夠如常移動它。你也可以設定一串密碼，當密碼在該物件5尺內被念出時，使這個法術暫時被壓制1分鐘。<br />若該物件被固定在空中，那麼它可以至多承載4000磅的重量。更重的負載會使其墜落。另外，一個生物能以其動作進行一個對抗你的法術豁免DC的力量檢定。若其成功，則該物件能被他移動10尺。</p>\n<p><strong>升環法術效應：</strong>若你使用四環或五環法術位施展該法術，使該物件移動的檢定DC增加5，並且它能夠承載8000磅重的負載並持續24小時。如果你用六環或者更高環的法術位施展該法術，那麼使該物件移動的檢定DC增加10，並且它能夠承載20000磅重的負載並一直持續到法術被解除。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "至少價值25gp的金塵，在施法時消耗。",
+      "consumed": false,
+      "cost": 25,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 43200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717429880214,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nu6VBNJDc6rwqxo4"
+}

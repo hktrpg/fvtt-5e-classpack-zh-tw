@@ -1,0 +1,135 @@
+{
+  "name": "聚焰器Pyroconvercer",
+  "type": "equipment",
+  "_id": "Cxs6vr8Hf7CJYwu6",
+  "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\">這種伊捷制噴火裝置每次啟用都有故障風險。你可以用一個動作使聚焰器在10尺錐狀區域內噴射火焰，該範圍內每個生物都必須進行一次DC為13的敏捷豁免，豁免失敗則受到4d6火焰傷害，豁免成功則傷害減半。<br />每當你使用聚焰器時，擲一次d10，加上你上一次長休后使用聚焰器的次數，若該值為11及更高，則聚焰器故障，你受到4d6火焰傷害，直到一次長休前都無法使用聚焰器。<br /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "GTR"
+    },
+    "quantity": 1,
+    "weight": 8,
+    "price": {
+      "value": 1000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "cone",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691398089699,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 86300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!Cxs6vr8Hf7CJYwu6"
+}

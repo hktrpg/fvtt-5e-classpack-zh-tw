@@ -1,0 +1,132 @@
+{
+  "_id": "97B95E13D63D8FFA",
+  "name": "巨人屠殺者巨劍 Giant Slayer Greatsword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-guard-gold-worn.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>巨劍，珍稀</p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+1加值。</p>\n<p>當你以此武器命中巨人時，它將受與武器的傷害型別相同的到額外2d6傷害，並且必須通過一次DC15的力量豁免否則倒地。此處的「巨人」指任何生物型別為巨人的生物，包括 雙頭巨人 ettin 和 巨魔 troll 等等。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 172"
+    },
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 7000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 + @mod +1",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d6",
+    "save": {
+      "ability": "str",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "hvy",
+      "two"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 67600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!97B95E13D63D8FFA"
+}

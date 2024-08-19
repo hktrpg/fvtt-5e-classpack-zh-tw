@@ -1,0 +1,120 @@
+{
+  "_id": "84A1CC00E3A4CE29",
+  "name": "熾火膠 Alchemist's Fire",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "一種粘稠的流體，其一旦接觸空氣就會引起自燃。你可以用一個動作將這小瓶液體投到至多20尺遠的地方，並利用衝擊打破它。這個動作視為對一個生物或物件發動一次遠端攻擊，並將熾火膠視為一件臨時武器。命中時，目標在它每回合開始時受到1d4 點火焰傷害。被命中生物可以使用動作進行一次DC10 的敏捷檢定，以撲滅火焰來結束該傷害效應。",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 150"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "chatFlavor": "臨時武器",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4+@mod",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 61500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!84A1CC00E3A4CE29"
+}

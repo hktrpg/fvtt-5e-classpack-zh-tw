@@ -1,0 +1,93 @@
+{
+  "name": "聖劍騎士 Knight of The Sword",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>前置專長：@UUID[Compendium.dnd5e_classpack.feats-all.Item.K514K3cwFSluLevE]{索蘭尼亞扈從 Squire of Solamnia}</p></blockquote><p>你是一名隸屬於聖劍騎士團的索蘭尼亞騎士，該騎士團獻身與於英勇和氣概。勇氣使你的精神如同鋼鐵，並使你獲得下列增益：</p><ul><li><p><strong>屬性值提升Ability Score Increase.</strong>你的智力、感知或魅力提升1，最高不能超過20。</p></li><li><p><strong>喪志打擊Demoralizing Strike.</strong>每回合一次，當你以武器攻擊檢定命中一個生物時，你可以試圖令該目標恐慌。目標必須進行一次感知豁免檢定（DC為8+你的熟練加值+本專長提升屬性的調整值）。若失敗，目標陷入對你的恐慌直到你的下一回合結束。若成功，目標在其下一回合結束前進行的下一次攻擊檢定具有劣勢。你可使用此特性的次數等同於你的熟練加值，並且在完成一次長休後會恢復所有已消耗的使用次數。</p></li></ul><p><em>*classpack提示：豁免骰的DC所需要的屬性加值需要玩家自行指定並設定。</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DSotDQ",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "以武器攻擊檢定命中一個生物時"
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "等級 4，索蘭尼亞扈從專長",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": 1686470174680,
+    "modifiedTime": 1686479049182,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "OEcoUR5E9cRcfYOR",
+  "_id": "YDV2oBAXqkJVp6qX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jo05tXxu7yf2dQe3": 3
+  },
+  "_key": "!items!YDV2oBAXqkJVp6qX"
+}

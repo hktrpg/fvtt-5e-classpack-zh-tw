@@ -1,0 +1,91 @@
+{
+  "_id": "GUKctWtG0m69VgFk",
+  "name": "激勵光環 Mantle of Inspiration",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_AuraMastery.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         當你在3級加入迷惑學院時，你獲得將妖精的魔法浸入歌曲的力量，這會為你的盟友帶來活力與速度。</p>\n<p>         一個附贈動作，你可以消耗一次@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}的次數，讓自己得到華美而出塵的外貌。當你這樣做時，選擇處於你周圍60尺內的一定數量的盟友，你必須能看到他們而他們也必須能看到你，至多等於你的魅力調整值的數量（至少1個）。每個目標獲得5點臨時生命值。當一個生物獲得這些臨時生命值時，它可以用反應以其速度移動且不引發藉機攻擊。</p>\n<p>         臨時生命值在你達到此職業的特定等級時得到提升，在5級時提高到8，10級時11，15級時14。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "ally"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "min(floor(@classes.bard.levels/5)*3+5,14)",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "迷惑學院等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!GUKctWtG0m69VgFk"
+}

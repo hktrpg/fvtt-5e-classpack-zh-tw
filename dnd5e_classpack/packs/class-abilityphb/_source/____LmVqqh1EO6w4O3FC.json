@@ -1,0 +1,192 @@
+{
+  "_id": "LmVqqh1EO6w4O3FC",
+  "name": "天眼通",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_DivineIllumination.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        第10級起，你可以用你的動作增強你的感知能力。使用此特性時，你選擇一下增益其中之一。其效應將持續至你陷入失能狀態，或直至你開始一次短休或長休。你必須完成一次休息才能再次使用該特性。</p>\n<p>   <strong>     黑暗視覺Darkvision。</strong>你獲得60尺的黑暗視覺。<br />     <strong>   靈視Ethereal Sight。</strong>你可以看到自身周邊60尺範圍內的以太位面。<br /><strong>        高等理解力Greater Comprehension。</strong>你可以讀懂任何語言。<br />       <strong> 識破隱形See Invisibility。</strong>你可以看到距離你10尺內，且處於你視野內的隱形生物或物件。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "預言學派等級",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "b8Kc8ZZJRiR4HB47",
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "60",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.senses.special",
+          "mode": 2,
+          "value": "靈視 60 尺，隱形識破 10 尺",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.class-abilityphb.LmVqqh1EO6w4O3FC",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得黑暗視覺、靈視、隱形識破",
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_DivineIllumination.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!LmVqqh1EO6w4O3FC.b8Kc8ZZJRiR4HB47"
+    },
+    {
+      "_id": "5ST9vIT1Y9nZfIGj",
+      "changes": [
+        {
+          "key": "system.traits.languages.custom",
+          "mode": 2,
+          "value": ";可以讀懂任何語言",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.class-abilityphb.LmVqqh1EO6w4O3FC",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "習得所有語言",
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_DivineIllumination.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!LmVqqh1EO6w4O3FC.5ST9vIT1Y9nZfIGj"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!LmVqqh1EO6w4O3FC"
+}

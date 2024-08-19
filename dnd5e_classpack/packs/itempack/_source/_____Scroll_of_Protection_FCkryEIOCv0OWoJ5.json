@@ -1,0 +1,115 @@
+{
+  "_id": "FCkryEIOCv0OWoJ5",
+  "name": "守護卷軸 Scroll of Protection",
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-old-bound-brown-gray.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>每張守護卷軸僅針對一種特定型別的生物起效。生物型別由DM指定或按下表隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong> [[/r d100]] </strong></th>\n<th><strong> 生物型別 </strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01~10</td>\n<td>異怪</td>\n</tr>\n<tr>\n<td>11~20</td>\n<td>野獸</td>\n</tr>\n<tr>\n<td>21~30</td>\n<td>天界生物</td>\n</tr>\n<tr>\n<td>31~40</td>\n<td>元素生物</td>\n</tr>\n<tr>\n<td>41~50</td>\n<td>精類</td>\n</tr>\n<tr>\n<td>51~75</td>\n<td>邪魔</td>\n</tr>\n<tr>\n<td>76~80</td>\n<td>植物</td>\n</tr>\n<tr>\n<td>80~00</td>\n<td>不死生物</td>\n</tr>\n</tbody>\n</table>\n<p>用一個動作閱讀這張卷軸后，一道半徑5尺，高10尺的圓柱形隱形屏障將在你周圍展開。在屏障持續的5分鐘內，屏障會阻止指定型別生物進入屏障範圍或影響屏障內的任何事物。</p>\n<p>屏障以你為中心移動。如果你主動移動使指定型別的生物進入屏障範圍，則屏障的效應立即終止。</p>\n<p>一名指定型別的生物可以用一個動作進行一次DC 15的魅力檢定以嘗試突破屏障，成功則終止該效應對它的影響。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "5",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "cylinder",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "abil",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010443297,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 103400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!FCkryEIOCv0OWoJ5"
+}

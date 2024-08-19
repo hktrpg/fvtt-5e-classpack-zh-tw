@@ -1,0 +1,133 @@
+{
+  "_id": "38137B2F3CB01E63",
+  "name": "斬首巨劍 Vorpal Greatsword",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+3加值，並忽略揮砍抗性。</p>\n<p>當你命中一名有頭生物並投出20時，你砍下該生物的一顆頭。如果該生物無法在失去頭的情況下生存，則它將死亡。</p>\n<p>免疫揮砍傷害、沒有頭、不需要頭、有傳奇動作或DM認為體型太大無法被斬首的生物免疫斬首效果，但額外受到[[/r 6d8]]揮砍傷害。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 209"
+    },
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 24000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 + @mod +3",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "6d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "hvy",
+      "two",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "greatsword"
+    },
+    "attack": {
+      "bonus": "3",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 33000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!38137B2F3CB01E63"
+}

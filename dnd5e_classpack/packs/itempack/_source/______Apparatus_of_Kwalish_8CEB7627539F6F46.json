@@ -1,0 +1,115 @@
+{
+  "_id": "8CEB7627539F6F46",
+  "name": "夸力許裝置 Apparatus of Kwalish",
+  "type": "consumable",
+  "img": "icons/containers/barrels/barrel-walnut-steel-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這個物品乍一看是個重達500磅的密封大鐵桶。成功通過一次DC 20的智力（調查）檢定后可以發現鐵桶上有一個隱藏的把手。扳動把手將打開一扇艙門，其大小可以讓兩名中型或更小體型的生物爬入。艙體盡頭是十個拉桿。通常拉桿的位置都在中間，且可以向上推或向下拉。特定的拉桿被拉動時，裝置將變形成類似巨大龍蝦的外形。</p>\n<p>夸力許裝置是一個大型物件，其資料如下：</p>\n<div><strong>護甲等級：</strong>20</div>\n<div><strong>生命值：</strong>200\n<div><strong>速度：</strong>30尺，游泳30尺（如果裝置的腿和尾巴未展開，則都為0尺）\n<div><strong>傷害免疫：</strong>毒素，心靈\n<p>夸力許裝置用作交通工具時需要一名駕駛員。裝置的艙門閉合時，艙內屬於氣密和水密狀態。艙內空氣可供一個生物呼吸10小時，其總量由艙內生物平攤。</p>\n<p>此裝置可以在水面上漂浮，也可以潛入至多900尺深的水底。達到更深水域時，它將因高壓而每分鐘承受[[/r 2d6]]的鈍擊傷害。</p>\n<p>艙內的生物可以用一個動作同時推或拉至多兩個拉桿。每次操作之後，拉桿自動回到中間位置。拉桿的功能如下表所示（從左到右）：</p>\n<table>\n<thead>\n<tr>\n<th>拉桿</th>\n<th>上推</th>\n<th>下拉</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>伸展腿和尾巴，讓裝置可以實現步行和游泳。</td>\n<td>收起腿和尾巴，裝置的速度降至0，且無法獲得速度加成。</td>\n</tr>\n<tr>\n<td>2</td>\n<td>打開前窗。</td>\n<td>關閉前窗。</td>\n</tr>\n<tr>\n<td>3</td>\n<td>打開側舷窗（每側兩扇）。</td>\n<td>關閉側舷窗（每側兩扇）。</td>\n</tr>\n<tr>\n<td>4</td>\n<td>伸展裝置前部的兩隻鉗爪。</td>\n<td>收起鉗爪。</td>\n</tr>\n<tr>\n<td>5</td>\n<td>每隻鉗爪發動一次近戰武器攻擊：命中+8，觸及5尺，單一目標。傷害： 7（[[/r 2d6]]）點鈍擊傷害</td>\n<td>每隻鉗爪發動一次近戰武器攻擊：命中+8，觸及5尺，單一目標。傷害：目標被擒抱（逃脫DC 15）</td>\n</tr>\n<tr>\n<td>6</td>\n<td>裝置向前步行或游泳。</td>\n<td>裝置向後步行或游泳。</td>\n</tr>\n<tr>\n<td>7</td>\n<td>裝置向左轉90度。</td>\n<td>裝置向右轉90度。</td>\n</tr>\n<tr>\n<td>8</td>\n<td>眼狀部件發光，提供30尺半徑的明亮光照以其其外30尺半徑的微光光照。</td>\n<td>關閉發光部件。</td>\n</tr>\n<tr>\n<td>9</td>\n<td>裝置在液體中下沉至多20尺。</td>\n<td>裝置在液體中上浮至多20尺。</td>\n</tr>\n<tr>\n<td>10</td>\n<td>解封並打開後方艙門。</td>\n<td>關閉並密封后方艙門。</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 151"
+    },
+    "quantity": 1,
+    "weight": 500,
+    "price": {
+      "value": 10000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 63900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!8CEB7627539F6F46"
+}

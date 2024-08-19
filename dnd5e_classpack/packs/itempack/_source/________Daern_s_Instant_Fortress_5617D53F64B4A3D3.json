@@ -1,0 +1,120 @@
+{
+  "_id": "5617D53F64B4A3D3",
+  "name": "迪恩的摺疊要塞 Daern』s Instant Fortress",
+  "type": "consumable",
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>如果你用一個動作把這個棱長1寸的金屬立方體放在地上並說出命令語，它將迅速變成一座要塞。要塞內空無一人時，你可以用一個動作說出命令語讓它恢復摺疊狀態。</p>\n<p>這個要塞是一座方形的高塔，長寬各20尺，高30尺。要塞各面牆上都有箭孔，頂端則為城垛。它的內部被分為兩層，其間由樓梯連通。樓梯向上最終可以達到要塞頂部的活板門。要塞被啟用時，它面向你的一面上會出現一扇小門。小門只會因你的命令而開啟。說出開門的命令語需要一個附贈動作。這扇門不會受到 @UUID[Compendium.dnd5e_classpack.new-icon.VC9nFuUxF7yptXK5]和類似魔法效應的影響（比如@UUID[Compendium.dnd5e_classpack.itempack.B8601E375E4BD3C2]的效應）。</p>\n<p>要塞展開時，它即將佔據空間位置里的每個生物必須進行一次DC 15的敏捷豁免，豁免失敗者將受到[[/r 10d10]]的鈍擊傷害，豁免成功則傷害減半。無論通過與否，這些生物都會被推到要塞旁邊未被佔據的空間里。未被著裝或攜帶的物件將直接受到傷害並被推到要塞旁邊未被佔據的空間里。</p>\n<p>要塞由精金打造，魔法力量保護它不會被推倒。要塞的頂部、門和每面墻都有100點生命值，免疫除攻城武器外任何非魔法武器造成的傷害，且對其他所有傷害具有抗性。只有法術@UUID[Compendium.dnd5e_classpack.new-icon.xjn6gjItpWpldE53]可以修復要塞（這種用法視為複製一個8環或更低環的法術）。每一道@UUID[Compendium.dnd5e_classpack.new-icon.xjn6gjItpWpldE53]可以為要塞頂部、大門或一面墻恢復50點生命值。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 160"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 75000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "square",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 43600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!5617D53F64B4A3D3"
+}

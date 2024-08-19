@@ -1,0 +1,127 @@
+{
+  "_id": "Lub4e9tYHMHeVo7Y",
+  "name": "活化物件 Animate Objects",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Fabric_MoonRag_02.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 物件在你的命令下「活」了過來。在施法距離內指定至多十個未被持用或穿戴的非魔法物件作為法術目標。其中，中型目標視為兩個物件，大型目標視為四個物件，而巨型目標則視為八個物件，而你無法活化比巨型更大的物件。施法后，每個目標被喚起為受你控制的生物直至法術終止，或直至該生物生命值降至0。你可以使用一個附贈動作並以精神命令操縱500尺內任何你用此法術喚起的生物（如果你操縱多個生物，則你的命令可以同時傳達給它們全部或是其中的某幾個，不過只能使用同一種命令）。你決定被操縱生物下回合的動作和移動。或者，你也可以選擇下達寬泛的命令（比如守護某個房間或走廊）。沒有接受到你命令的生物只會對敵對生物作出自衛行為。一旦被下達命令，該生物會持續執行命令直到任務完成。被活化物件的AC、HP、攻擊，以及力量和敏捷值由其體型決定。其體質為10，智力和感知為3，魅力為1。其速度為30尺，如果它沒有腿或者類似的構造，則改為30尺的飛行速度並且可以懸浮。如果該物件被牢牢固定在某個表面或更大的物件上（例如被鐵鏈拴在墻上），則其速度為0。其擁有30尺盲視感官，該感官範圍之外則視為目盲狀態。被活化物件的生命值降至0時，即變回普通的物件，且以物件形態承受所有溢出的傷害。如果你命令活化物件發動攻擊，則它可以對其5尺內的一個生物發動一次近戰攻擊。它將發動一記猛擊並造成鈍擊傷害，相應的攻擊加值和傷害由其體型決定。此外，DM 還可以認定某些物件可以造成揮砍或穿刺傷害。\n<br><strong>升環施法效應。</strong>使用6環或更高法術位施展該法術時，你使用的法術位每比5環高一環，就多喚起兩個物件。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 213",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 10,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 19300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728396448,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Lub4e9tYHMHeVo7Y"
+}

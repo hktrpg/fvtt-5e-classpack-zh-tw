@@ -1,0 +1,138 @@
+{
+  "_id": "9v0Bzr3qFEEuEvnk",
+  "name": "暴風球Storm Sphere",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_monk_essencefont.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>在距離內，由你指定的一點為中心，出現了一個由強風構成的20英尺半徑的球體。該球體將在法術的持續時間內持續存在。在球體出現時處於其中的生物，或是在球體內結束其回合的生物均必須通過一次力量豁免檢定，否則受到2d6點鈍擊傷害。球體所在的空間成為困難地形。<br />直到法術終結，你可以再你的每個回合使用一個附贈動作，令球體中心射出一發閃電，攻擊距中心不超過60英尺範圍內的生物。進行一次遠端法術攻擊，如果攻擊目標在球體內，這次攻擊檢定具有優勢。若擊中，目標受到4d6點閃電傷害。<br />在球體周圍30英尺內的生物在用於聆聽的感知（觀察）檢定中具有劣勢.</p>\n<p><strong>升環效果：</strong>當你使用5環或更高的法術位施放該法術時，使用的法術位每高一環，所有效應產生的傷害便各增加1d6。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 150,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "4d6閃電",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 7900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717427375480,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9v0Bzr3qFEEuEvnk"
+}

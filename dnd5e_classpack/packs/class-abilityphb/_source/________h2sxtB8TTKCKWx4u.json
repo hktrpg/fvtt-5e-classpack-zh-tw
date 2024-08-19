@@ -1,0 +1,91 @@
+{
+  "_id": "h2sxtB8TTKCKWx4u",
+  "name": "引導神力：讀心",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_PowerInfusion.png",
+  "system": {
+    "description": {
+      "value": "<p>        第6級起，你可以用@UUID[Compendium.dnd5e_classpack.class-abilityphb.WPevnsjK8Cjd9Fcl]{引導神力}特性閱讀某生物的思想，以此接觸其意識並對其下達命令。</p>\n<p>        作為一個動作，你指定身邊60尺內一個你可以看見的生物。該生物必須進行一次感知豁免。豁免成功則你不能對其使用該特性，直至你完成一次長體。</p>\n<p>        如若豁免失敗，且其仍身處你周邊60尺內，則你可以閱讀其表層的思想(最基礎的意識，目前情緒的反映以及正活躍的思考內容)。該效應持續1分鐘。</p>\n<p>        效應持續期間，你可以用你的動作終止該效應，並同時對其施展一個無需花費法術位的@UUID[Compendium.dnd5e_classpack.new-icon.Ubl35siOKv9ihW2M]{暗示術 Suggestion}。而目標對該法術的豁免將直接判定為失敗。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "知識領域等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!h2sxtB8TTKCKWx4u"
+}

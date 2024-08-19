@@ -1,0 +1,106 @@
+{
+  "_id": "a05XJIH3FTA4AxZw",
+  "name": "黑顱骨護符 Amulet of the Black Skull",
+  "type": "equipment",
+  "img": "icons/equipment/neck/necklace-simple-bone-skull.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這枚護符由黑曜石雕刻而成，形如一個尖叫著的類人生物顱骨，紅寶石為眼，綠寶石為牙。它掛在一條鐵鏈項鍊上。</p>\n<p>這個護符具有6次充能，並在黎明時重新獲得[[/r 1d6]]次充能。佩戴護符時，你可以以一個動作以及一次充能將你自己以及你所穿戴以及佩戴的東西傳送到目前位置周圍一百尺的一個地方。你選擇的目標並不需要在你的視線內，但你必須熟悉那個地方（換句話說你曾看見過或是經過到過的地方），且必須與你在同一個位面。這一效果並不受九神古墓內的魔法限制；因此，這一護符可以被用於進出古墓。</p>\n<p>如果你並非不死者，每次使用護符傳送你必須進行一次DC16的體質豁免檢定。如果失敗，黑色顱骨會因你在傳送過程中的變形而咯咯嘲笑。這一變形會在你到達目的地時即刻生效。投[[/r d100]]並根據結果查詢黑顱骨變形表。</p>\n<table>\n<thead>\n<tr>\n<th colspan=\"3\">黑顱骨變形表</th>\n</tr>\n<tr>\n<th><strong> [[/r D100]] </strong></th>\n<th><strong> 變形 </strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1-20</td>\n<td>阿瑟瑞拉克的徽記熔進了你的血肉，這是一個只能夠通過@UUID[Compendium.dnd5e_classpack.new-icon.ewDH2w8w2yLSM021]法術或是類似魔法才能夠移除的詛咒。詛咒結束前，你的生命值無法通過魔法恢復</td>\n</tr>\n<tr>\n<td>21-35</td>\n<td>你的體型變得更大了，如同受到了@UUID[Compendium.dnd5e_classpack.new-icon.1bUnNgI45qffE1P9]的影響，但這一效益持續一小時</td>\n</tr>\n<tr>\n<td>36-50</td>\n<td>你變得更小了，如同受到了@UUID[Compendium.dnd5e_classpack.new-icon.1bUnNgI45qffE1P9]{變巨/縮小術 Enlarge/Reduce}的影響，但這一效益持續一小時</td>\n</tr>\n<tr>\n<td>51-70</td>\n<td>在到達目的地時，你只佩戴了黑顱骨護符，其他你所穿戴的攜帶的物品都被轉移到了你100尺內一個未被佔據的地方</td>\n</tr>\n<tr>\n<td>71-95</td>\n<td>你被麻痹了，除非以@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]或是類似法術解除效果，否則麻痹持續1分鐘。</td>\n</tr>\n<tr>\n<td>96-100</td>\n<td>你被石化了，這一效益只能夠通過@UUID[Compendium.dnd5e_classpack.new-icon.7dqplcsKNYQgRh2S]或類似法術解除。</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ToA",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "必須熟悉那個地方。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": 100,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 6,
+      "max": "6",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d100",
+    "save": {
+      "ability": "con",
+      "dc": 16,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": false
+  },
+  "_key": "!items!a05XJIH3FTA4AxZw"
+}

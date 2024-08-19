@@ -1,0 +1,132 @@
+{
+  "name": "鑄陽錘Sunforger",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-drilling-spiked.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\">你在用該魔法武器發動攻擊檢定和傷害擲骰時獲得+2加值。<br />你可以用一個動作將該武器擲出至多120尺，達到一個你可見的位置。到達該位置后，武器將在爆炸中消失，武器20尺半徑內所有生物必須進行一次DC為15的敏捷豁免，豁免失敗則受到6d6火焰傷害，豁免成功則傷害減半。此後，你可以用一個動作將武器召回你空著的手上。在你完成一次短休或長休后才能再次使鑄陽錘爆炸。<br />如果你未將武器召回到手上，它將在24小時或你不再與它同調時出現於爆炸時的位置。<br /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "GTR"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 5000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +2",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d10 + @mod +2"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "warhammer"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691398579176,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "cAZfiHoJY8WAwMIs",
+  "sort": 124200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!cAZfiHoJY8WAwMIs"
+}

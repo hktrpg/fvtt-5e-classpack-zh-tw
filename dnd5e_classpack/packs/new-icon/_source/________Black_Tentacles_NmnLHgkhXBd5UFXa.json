@@ -1,0 +1,301 @@
+{
+  "name": "艾伐黑觸手攫取 Black Tentacles",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ]
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "nodam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "d2814becc7b53694627479e663b0b408133ce660",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.PulBl59xviS03PEN"
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_priest_voidtendrils.jpg",
+  "effects": [
+    {
+      "name": "艾伐黑觸手 Black Tentacles",
+      "origin": "Actor.bvEYS7EFkAFT4pCf.Item.rQUFYPTi7MvYwqH6",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "r8vXDbPedFe5tlCx",
+      "changes": [
+        {
+          "key": "flags.midi-qol.OverTime",
+          "mode": 2,
+          "value": "turn=start,\ndamageRoll=3d10,\ndamageType=Bludgeoning,\nkillAnim=true",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/spell_priest_voidtendrils.jpg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!NmnLHgkhXBd5UFXa.r8vXDbPedFe5tlCx"
+    },
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.ability.save.dex",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 5243702910,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Restrained",
+          "sourceId": "ActiveEffect.8fYkPnOf7pMU05N0"
+        },
+        "dfreds-convenient-effects": {
+          "description": "- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.<br/>- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.<br/>- The creature has disadvantage on Dexterity saving throws.",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        }
+      },
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.NmnLHgkhXBd5UFXa",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_id": "HxUhbLkTzpuZMRRh",
+      "name": "Restrained",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/restrained.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!NmnLHgkhXBd5UFXa.HxUhbLkTzpuZMRRh"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"><p>對被艾伐黑觸手影響的生物使用<br />[房規：3d6→3d10]</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "creature",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "巨章魚或巨魷魚的一條觸鬚",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": true
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711681530884,
+    "modifiedTime": 1717426694592,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "NmnLHgkhXBd5UFXa",
+  "sort": 16100000,
+  "_key": "!items!NmnLHgkhXBd5UFXa"
+}

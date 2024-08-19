@@ -1,0 +1,94 @@
+{
+  "_id": "YdtxSgV9hbHLx416",
+  "name": "動作如潮",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warrior_Warbringer.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級起，你可以在短時間內突破極限，以使你在自己回合內執行一個額外的動作。</p>\n<p>該特性在使用后必須完成一次短休或長休才能再次使用。第17級起，你可以在休息前使用兩次該特性，但每個回合只能使用一次。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 72",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "floor(@classes.fighter.levels/17)+1",
+      "per": "sr",
+      "type": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "戰士等級 2",
+    "recharge": {
+      "value": 0,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "details",
+    "entityorder": {
+      "order": 218
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!YdtxSgV9hbHLx416"
+}

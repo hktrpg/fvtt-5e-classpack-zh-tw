@@ -1,0 +1,203 @@
+{
+  "_id": "6EjLIIN4ug7eSp4P",
+  "name": "護盾術 Shield",
+  "type": "spell",
+  "flags": {
+    "_sheetTab": "description",
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_LightningShield.png",
+  "effects": [
+    {
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.6EjLIIN4ug7eSp4P",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": 6,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "12oJ5jVCx8i48uFC",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "+5",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "specialDuration": [
+            "turnStart"
+          ],
+          "macroRepeat": "none"
+        },
+        "core": {
+          "statusId": "23411432",
+          "sourceId": "Actor.GabJyoAElcOKQvnt.Item.4ReYVJGBX9nG1drX.ActiveEffect.6vJhG8WkpDv7NaaM"
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        }
+      },
+      "name": "護盾術 Shield",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_LightningShield.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!6EjLIIN4ug7eSp4P.12oJ5jVCx8i48uFC"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 一道看不見的法力護盾浮現在你身邊，保護著你。在你的下一回合開始前，你的AC具有 +5加值（在觸發該法術的攻擊之前生效），並且不會受到魔法飛彈的傷害。",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 275",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當你被攻擊命中或被作為魔法飛彈的目標時執行"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 4400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": 1711694475616,
+    "modifiedTime": 1719582090396,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6EjLIIN4ug7eSp4P"
+}

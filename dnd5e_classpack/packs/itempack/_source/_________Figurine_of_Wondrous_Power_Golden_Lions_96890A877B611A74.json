@@ -1,0 +1,115 @@
+{
+  "_id": "96890A877B611A74",
+  "name": "黃金獅子異能塑像 Figurine of Wondrous Power Golden Lions",
+  "type": "consumable",
+  "img": "icons/commodities/claws/claw-bear-brown-grey.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>異能塑像是小到可以裝在口袋裡的野獸雕像。當你用一個動作說出命令語並把雕像扔到你周圍60尺以內的某處時，它將變成一隻活體生物。如果雕像被扔到的地方被其他生物或物件佔據，或者周圍的空間不足以容納該雕像變成的生物，則它將不會變成生物。</p>\n<p>雕像變成的生物對你和你的同伴態度友善。它能聽懂你的語言並會按你的口頭命令列事。如果你不下達任何命令，則該生物會保護自己而不作其他動作。</p>\n<p>生物存在的時間依雕像而不同。持續時間結束時，生物將變回異能塑像形態。它的生命值降至0，或你用一個動作碰觸它並說出命令語時，它將提前變回雕像狀態。變回雕像后，異能塑像的屬性必須經過一段時間后才能再次啟動，時間長短依雕像種類而不同。</p>\n<p><strong>@UUID[Compendium.dnd5e_classpack.itempack.96890A877B611A74]{黃金獅子 Golden Lions}（珍稀）。</strong>這尊黃金製成的獅子雕像總是成對製造。你可以只使用其中一隻，也可以兩隻一起使用。每隻獅子雕像都可以變為一隻@UUID[Compendium.dnd5e_classpack.monsterspack.hjhERRzafCiFFVLA]{獅子Lion}，其存在至多維持1小時。每隻獅子雕像都需要經過7日才能再次啟動。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 169"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 1200,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "space",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": "2",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 67100000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!96890A877B611A74"
+}

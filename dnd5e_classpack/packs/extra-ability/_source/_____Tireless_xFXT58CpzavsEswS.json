@@ -1,0 +1,97 @@
+{
+  "_id": "xFXT58CpzavsEswS",
+  "name": "不知疲倦 Tireless",
+  "type": "feat",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>　　以一個動作，你能夠給予自己[[/r 1d8]]+你的感知調整值的臨時生命值（最少1點）。你能夠使用此特性的次數等於你的熟練加值次，已消費的次數可以通過完成一次長休進行恢復。</p>\n<p>　　此外，當你完成一次短休時，你的力竭等級減少1（若有）。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 4,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "max(1d8+@abilities.wis.mod,1)",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "遊俠等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685193078959,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xFXT58CpzavsEswS"
+}

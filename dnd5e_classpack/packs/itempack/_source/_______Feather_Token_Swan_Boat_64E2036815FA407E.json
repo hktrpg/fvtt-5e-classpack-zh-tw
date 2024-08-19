@@ -1,0 +1,115 @@
+{
+  "_id": "64E2036815FA407E",
+  "name": "羽符（天鵝船）Feather Token Swan Boat",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-blue-grey.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這是一件外觀類似羽毛的小物品。夸爾羽符有很多種，每種都有一個一次性效應。羽符的型別由DM選取或參照下表隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>羽符</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>51~65</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.64E2036815FA407E]{天鵝船 Swan Boat}</td>\n</tr>\n</tbody>\n</table>\n<p><strong>天鵝船Swan Boat。</strong>你可以用一個動作以這枚羽符碰觸一個至少直徑60尺的水體。羽符將消失，取而代之的是一艘50尺長，20尺寬的天鵝形小船。這艘小船可以自行在水面上以6里每小時的速度前進。乘坐這艘小船時，你可以用一個動作命令它前進或在不超過90度的範圍內轉向。小船可以搭載至多三十二名中型或更小體型的生物。一名大型體型生物計為四名中型生物，一名巨型生物計為九名中型生物。小船將在24小時後消失。你可以用一個動作解消羽符的效應。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 50300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!64E2036815FA407E"
+}

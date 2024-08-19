@@ -1,0 +1,133 @@
+{
+  "name": "血斧 BloodAxe",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-broad-jagged.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\"><p class=\"MsoNormal\"><span style=\"FONT-SIZE:10pt;COLOR:black\">在使用該魔法武器進行攻擊時，你的攻擊檢定與傷害擲骰獲得</span><span class=\"1\">+2</span><span style=\"FONT-SIZE:10pt;COLOR:black\">加值。血斧將對非構裝生物或非不死生物額外造成</span><span class=\"1\">1d6</span><span style=\"FONT-SIZE:10pt;COLOR:black\">的黯蝕傷害。當你使用此武器將一個生物的生命值降為</span><span class=\"1\">0</span><span style=\"FONT-SIZE:10pt;COLOR:black\">時，你將獲得</span><span class=\"1\">10</span><span style=\"FONT-SIZE:10pt;COLOR:black\">點臨時生命值。</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /><span style=\"FONT-SIZE:10pt;COLOR:black\">這把斧子由深鐵銹色的金屬所製成，曾屬於歌利亞野蠻人</span><span class=\"1\">Grog Strongjaw of Vox Machina</span></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "EGtW"
+    },
+    "quantity": 1,
+    "weight": 7,
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d12 + @mod +2",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "hvy",
+      "two",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "greatsword"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692162802415,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "EpmWX6YcfH81h6gF",
+  "sort": 98800000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!EpmWX6YcfH81h6gF"
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "NeBFoq8gg0253mfG",
+  "name": "死疽軀殼Necrotic Husk",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_animarevendreth_buff.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你與亡靈和暗蝕能量的聯繫現在充斥著你的身體。你對暗蝕傷害具有抗性。如果你使用@UUID[Compendium.dnd5e_classpack.extra-ability.39YlsyoJXTtDSGf4]{戰慄形態}變身，你轉而會對暗蝕傷害免疫。</p>\n<p>此外，當你的生命值降低到0時，你可以使用反應，改為將生命值降低到1，並使你的身體爆發出死亡能量。你周圍30尺內的由你選擇的生物都會受到相當於2d10+你的邪術師等級的暗蝕傷害。你獲得1級的力竭。一旦你使用該反應，你就不能再這樣做，直到你完成1d4次長休。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "VRGR",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當你的生命值降低到0時"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d10+@classes.warlock.levels",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "死靈宗族等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attunement": null
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!NeBFoq8gg0253mfG"
+}

@@ -1,0 +1,101 @@
+{
+  "_id": "X7VhirgyfXKUNPdu",
+  "name": "復仇之魂",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Rogue_SinisterCalling.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第15級起，你立下@UUID[Compendium.dnd5e_classpack.class-abilityphb.9tHkjupIEW3QqBa2]{仇敵誓言}時所宣誓之存在賜予你更大的力量以擊倒敵人。一個受你仇敵誓言影響的生物發動攻擊時，如果其身處你的近戰武器攻擊範圍內，則你就可以用你的反應對其發動一次近戰武器攻擊。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "受仇敵誓言影響的生物發動攻擊，且在攻擊範圍內。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "wis",
+      "value": "con"
+    },
+    "requirements": "復仇之誓等級 15",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 114
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    },
+    "favtab": {
+      "isFavorite": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!X7VhirgyfXKUNPdu"
+}

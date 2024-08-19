@@ -1,0 +1,120 @@
+{
+  "_id": "2wRw9Oz58nxMTBMu",
+  "name": "燈油 Oil（扁瓶 Flask）",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>燈油通常裝在一個1 品脫大小的陶土扁瓶中。你可以用一個動作將扁瓶中的燈油潑濺到你身邊5尺範圍內的一個生物身上，或是將扁瓶投到至多20 尺遠的地方，並利用衝擊打破它。兩種情況都可以視為對一個生物或物件發動一次遠端攻擊，並將燈油視為一件臨時武器。</p>\n<p>命中時，目標被燈油灑滿全身。如果目標在燈油揮發前（1 分鐘后）受到任何火焰傷害，則目標因燃燒的燈油受到額外5 點火焰傷害。你還可以將一扁瓶燈油潑在地面上，以覆蓋一塊邊長5 尺且保持水平的方形區域。</p>\n<p>點燃該區域后，燈油將持續燃燒2 輪，並對任何進入該區域或在該區域結束其回合的生物造成5 點火焰傷害。同一生物每回合只受該傷害作用一次。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 152"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0.1,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 20,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "5",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": "DvPCQI8OS5cg0lFu",
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 7500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!2wRw9Oz58nxMTBMu"
+}

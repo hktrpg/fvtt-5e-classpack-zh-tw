@@ -1,0 +1,120 @@
+{
+  "_id": "5735FED485872FD7",
+  "name": "卡夫統靈藥 Keoghtom's Ointment",
+  "type": "consumable",
+  "img": "icons/commodities/materials/liquid-orange.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p>亦稱為Restorative Ointment。</p>\n</blockquote>\n<p>奇物</p>\n<p>這個直徑3寸的玻璃瓶中裝著[[/r 1d4+1]]劑聞起來隱約有蘆薈氣味的混合劑。瓶子和混合劑共重1/2磅。</p>\n<p>用一個動作可以吞下或外敷一劑軟膏。軟膏將為使用它的生物恢復[[/r 2d8+2]]的生命值，並解除毒素和治癒任何疾病。</p>\n<p><em>Foundry 註：藥劑為最多的5次使用次數。同樣的，靈藥價格為5*120gp。根據實際需要調整。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 179"
+    },
+    "quantity": 1,
+    "weight": 0.5,
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "靈藥需要被吞下或外敷。"
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 5,
+      "max": "5",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "heal",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8 +2",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 44300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!5735FED485872FD7"
+}

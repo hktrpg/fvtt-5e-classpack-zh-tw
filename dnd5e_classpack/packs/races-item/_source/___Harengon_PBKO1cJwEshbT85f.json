@@ -1,0 +1,164 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "兔人 Harengon",
+  "type": "race",
+  "_id": "PBKO1cJwEshbT85f",
+  "img": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>兔人 Harengon</h2><p>兔人起源於妖精荒野，在那裡他們說木族語，並且體現了他們自由與旅行的精神。隨著時間推移，這些兔人跳到了其他世界中，他們帶著精類國度之中的洋溢情感，並且學習了他們需要的新語言。</p><p>兔人們兩足著地，有著獨特的兔子的長腳，並且有著多種顏色的毛皮。他們有著野兔般的敏銳感官，並且充滿活力，就像蓬勃的春天。兔人被些許精類氣運所祝福，在冒險中，他們時常能夠幸運地從危險之中逃脫。</p><h2>兔人特質 Harengon Traits</h2><p>作為一位兔人，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。 你是類人生物。</p><p><strong>體型 Size</strong>。你的體型為中型或小型。在你選擇該種族時選擇體型。</p><p><strong>速度 Speed</strong>。你的步行速度為30尺。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.jerMt6L5L92bmtmw]{野兔敏銳 Hare-Trigger}</strong>。你可以將你的熟練加值加入你的先攻數值。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.Ty9vupDptqWrom71]{野兔感官 Leporine Senses}</strong>。你擁有察覺技能的熟練項。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.wBRoaqPEPThsvcc7]{幸運步法 Lucky Footwork}</strong>。當你的敏捷豁免檢定失敗時，你可以用反應投擲一粒d4並將其加入到結果中，這樣做可能會將失敗轉變為成功。當你的速度為0或處於倒地狀態時，你不能使用該反應。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.gdAqQuQqh6ACEXcS]{兔子跳 Rabbit Hop}</strong>。作為一個附贈動作，你能夠跳躍一段距離，距離長度為你的熟練加值的五倍，並且不會觸發藉機攻擊。你只能在你的速度高於0時才能使用該特質。你可以使用此特質的次數等於你的熟練加值，當你完成一次長休后，你重新獲得所有消耗的次數。</p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "dhSJgOKlG4XyMEQd",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ],
+          "hint": ""
+        },
+        "level": 0,
+        "title": "",
+        "icon": null,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "StwFWXlQVHx4uwFa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.jerMt6L5L92bmtmw"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.Ty9vupDptqWrom71"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.wBRoaqPEPThsvcc7"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.gdAqQuQqh6ACEXcS"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      },
+      {
+        "_id": "ynnMMCcQpz6i8Eix",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc"
+          ],
+          "choices": [],
+          "hint": "你擁有察覺技能的熟練項。"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "野兔感官",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713020119171,
+    "modifiedTime": 1713020211289,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PBKO1cJwEshbT85f"
+}

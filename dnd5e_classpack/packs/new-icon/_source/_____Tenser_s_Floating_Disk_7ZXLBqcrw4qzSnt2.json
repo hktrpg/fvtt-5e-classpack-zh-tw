@@ -1,0 +1,127 @@
+{
+  "_id": "7ZXLBqcrw4qzSnt2",
+  "name": "譚森浮碟術Tenser's Floating Disk",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Jewelry_Talisman_02.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">指定施法距離內一處你能看見的未被佔據空間，並在該處創造一個圓盤狀的碟型水平力場。浮碟直徑3 尺，厚1 寸，懸浮在離地3 尺的半空。其可以在法術持續時間內持續存在，並至多可負載500 磅重量。如果放在浮碟上的物件重量超過500 磅，則該法術立即終止，浮碟上的所有東西也將掉落地面。</div>\n<div class=\"description \">浮碟在你20 尺內時靜止不動。只要你與其距離超過20 尺，浮碟就會跟隨你移動，並保持在你的20 尺範圍內。浮碟可以自由通過崎嶇地形，上落的階梯，斜坡面或者諸如此類的地面，但它不能越過高差超過10 尺的地面。例如，浮碟不能越過一個10尺深的坑；如果浮碟造在坑裡，則它也無法離開這個深坑。如果你和浮碟間的距離超過100 尺（通常是因為它受障礙所阻無法跟上你），則法術隨即終止。</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 254",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一滴水銀",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 5200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722351989398,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7ZXLBqcrw4qzSnt2"
+}

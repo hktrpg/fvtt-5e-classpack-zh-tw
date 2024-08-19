@@ -1,0 +1,93 @@
+{
+  "_id": "W9HrZ4ShSAcrZmRL",
+  "name": "引導神力：扭轉局勢 Channel Divinity:Turn The Tide",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Achievement_BG_returnXflags_def_WSG.png",
+  "system": {
+    "description": {
+      "value": "<p>        以一個附贈動作，你可以@UUID[Compendium.dnd5e_classpack.class-abilityphb.3eyfqXMTJMG9AxYH]{引導神力}支撐受傷的生物繼續戰鬥。你可以選擇你周圍30尺內任意數量可以聽見你說話的生物，如果他們生命值在一半以下，他們將立即恢復[[/r 1d6]]+你的魅力調整值（最小為1點）的生命值。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6+@abilities.cha.mod",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "王冠之誓等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!W9HrZ4ShSAcrZmRL"
+}

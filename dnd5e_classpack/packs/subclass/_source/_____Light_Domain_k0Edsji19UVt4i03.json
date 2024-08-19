@@ -1,0 +1,185 @@
+{
+  "_id": "k0Edsji19UVt4i03",
+  "name": "光明領域 Light Domain",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_BlindingLight.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>        光明之神(包括海姆Helm、 洛山達Lathander. 佛爾圖斯Pholtus、布蘭查拉branchala、銀焰The Silver Flame、巴菜納斯Belenus、阿波羅Apollo以及拉.赫拉克提Re-Horakh-ty)促進世間的理念如重生和革新，真理，警覺，以及美麗，其通常的象徵為太陽。某些這類的神衹會被描繪為太陽本身，或是駕著戰車引領太陽劃過天際。還有一些則是不懈的哨兵之眼，時刻洞穿每一片陰影與詭計。而其中某些美與才藝的神衹其教義還會詮釋藝術即靈魂晉陞容器的理念。光明之神的牧師們致力於指引灌輸光耀的靈魂，其守護神的力量洞悉幻象，驅散謊言並燒盡一切晦暗。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>牧師等級</th>\n<th>法術</th>\n</tr>\n<tr>\n<td><strong>1st</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.CB9z74KJLWMplGuz]{燃燒之手}@UUID[Compendium.dnd5e_classpack.new-icon.sLkNbDcU39qcVt14]{妖火}</td>\n</tr>\n<tr>\n<td><strong>3rd</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.TEZY0aYJtnuU4FlW]{熾焰法球}@UUID[Compendium.dnd5e_classpack.new-icon.IkgKSSiBuGa5TPLB]{灼熱射線}</td>\n</tr>\n<tr>\n<td><strong>5th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.uRF0L8no150cYca4]{晝明術}@UUID[Compendium.dnd5e_classpack.new-icon.Uh3zcz4PO4DXP3Dj]{火球術}</td>\n</tr>\n<tr>\n<td><strong>7th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.LPXdi1HhVx8kJWYy]{信仰守衛}@UUID[Compendium.dnd5e_classpack.new-icon.agTzLRmgNSVghaGk]{火墻術}</td>\n</tr>\n<tr>\n<td><strong>9th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.Q8XNvy4kwTSQVizo]{焰擊術}@UUID[Compendium.dnd5e_classpack.new-icon.OA4mCsVxg6nUrLjV]{探知}</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><strong>額外戲法Bonus Cantrips</strong></p>\n<p>在你第1級選擇該領域時，獲得戲法@UUID[Compendium.dnd5e_classpack.new-icon.rW5ZoeX4jjZw4hBO]{光亮術},如果你已經學會則不會重新獲得。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "light-domain",
+    "classIdentifier": "cleric",
+    "advancement": [
+      {
+        "_id": "lowv6o578jo7dqnq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.CB9z74KJLWMplGuz",
+            "Compendium.dnd5e_classpack.new-icon.sLkNbDcU39qcVt14"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 1,
+        "title": "獲得領域法術",
+        "icon": ""
+      },
+      {
+        "_id": "hae6czro96iqw4dp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.TEZY0aYJtnuU4FlW",
+            "Compendium.dnd5e_classpack.new-icon.IkgKSSiBuGa5TPLB"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得領域法術",
+        "icon": ""
+      },
+      {
+        "_id": "fk77z2wwcw4n25l4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.uRF0L8no150cYca4",
+            "Compendium.dnd5e_classpack.new-icon.Uh3zcz4PO4DXP3Dj"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得領域法術",
+        "icon": ""
+      },
+      {
+        "_id": "s2c8unanjhicb4sd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.LPXdi1HhVx8kJWYy",
+            "Compendium.dnd5e_classpack.new-icon.agTzLRmgNSVghaGk"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 7,
+        "title": "獲得領域法術",
+        "icon": ""
+      },
+      {
+        "_id": "zd4fuedgf1zxqiyg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.Q8XNvy4kwTSQVizo",
+            "Compendium.dnd5e_classpack.new-icon.OA4mCsVxg6nUrLjV"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得領域法術",
+        "icon": ""
+      },
+      {
+        "_id": "2pbio9g7r1c48uqm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.4lIfviMB7iNh8W9X"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "w23y6jcwldhqnfh2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.mZK4784I0vq8h7Ug"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "4tobypdfms4ciha1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.thQvk0Pz73NwGhgr"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "cb32azsgazjyrx8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.lTR0ojCE1yFRvIjT"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 8,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "96yky860nofemqc4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.v1Lepy3QhD41otYW"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!k0Edsji19UVt4i03"
+}

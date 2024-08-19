@@ -1,0 +1,242 @@
+{
+  "_id": "Nyi51I1ZPVV1gNpo",
+  "name": "精神監獄Mental Prison",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_demonhunter_imprison.png",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.ability.save.dex",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": 5243702910,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "statusId": "Convenient Effect: Restrained",
+          "sourceId": "ActiveEffect.8fYkPnOf7pMU05N0"
+        },
+        "dfreds-convenient-effects": {
+          "description": "- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.<br/>- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.<br/>- The creature has disadvantage on Dexterity saving throws.",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "1Attack",
+            "isMoved"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.Nyi51I1ZPVV1gNpo",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_id": "UXtA5q8BAORM9BKy",
+      "name": "Restrained",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/restrained.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!Nyi51I1ZPVV1gNpo.UXtA5q8BAORM9BKy"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你試圖將目標生物束縛在一個只有他自己能感知的幻覺牢房中。在距離內你可見的一個生物必須進行智力豁免檢定。如果目標免疫魅惑，它在這次豁免中自動成功。若豁免成功，目標受到5d10精神傷害，同時法術結束。若豁免失敗，在造成5d10精神傷害的同時你立即創造出環繞目標所在空間的某種危險區域。你也許會讓目標感覺到自己被烈火、被浮動的刀鋒、被可怕的獠牙所包圍。<br />無論你採用什麼形式的幻象，目標都不能越過它看到或聽到任何事物，並且在法術持續時間內被束縛。如果目標移動出幻象，穿過它進行一次近戰攻擊檢定，或嘗試用身體的任何部分穿過它，目標受到10d10精神傷害，然後法術結束。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "5d10",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 20800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711697241362,
+    "modifiedTime": 1711697321481,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Nyi51I1ZPVV1gNpo"
+}

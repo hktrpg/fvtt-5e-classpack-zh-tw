@@ -1,0 +1,127 @@
+{
+  "name": "低階惡魔召喚術 Summon Lesser Demon",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/creatures/unholy/demon-fanged-horned-yellow.webp",
+  "_id": "lI7RcmepcbATWP5h",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你吐出污穢的詞語，從無底深淵的無盡混沌中召喚來惡魔。遵從下表Roll點來決定什麼生物出現。<br />D6&nbsp;&nbsp;&nbsp; 被召喚的惡魔<br />1-2&nbsp;&nbsp;&nbsp; 2個挑戰等級為1或更低的惡魔<br />3-4&nbsp;&nbsp;&nbsp; 4個挑戰等級為1/2或更低的惡魔<br />5-6&nbsp;&nbsp;&nbsp; 8個挑戰等級為1/4或更低的惡魔<br />DM選擇惡魔的種類，例如原魔Manes或者怯魔dretches，然後你選擇施法距離內可見的未被佔據空間讓它們出現。被召喚的惡魔在生命值降低為0或法術結束時消失。<br />惡魔對包括你在內的所有生物抱有敵意。它們擁有自己的回合，將它們整體視作一組來投擲先攻。惡魔會花費它的回合用於追逐和攻擊最近的非惡魔生物，盡其所能。<br />作為施放此法術的一部分，你可以使用作為施法材料的血液在地上繪製一個法陣。法陣大到可以包括你在的空間。在法術的持續時間內，被召喚來的惡魔無法穿過或傷害法陣，也無法以其中的任何人作為目標。用這種方式使用的施法材料會在法術結束時被消耗。</p>\n<p><strong>升環效果：</strong>當你使用6環或7環的法術位施放該法術時，被召喚的惡魔數量變為兩倍。當你使用8環或9環的法術位施放該法術時，被召喚的惡魔數量變為三倍。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "來自一個於24小時之內被殺的類人生物身上的一劑血液",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 41200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354746026,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lI7RcmepcbATWP5h"
+}

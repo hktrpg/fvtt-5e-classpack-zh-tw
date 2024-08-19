@@ -1,0 +1,115 @@
+{
+  "_id": "76A53FC1DC160E02",
+  "name": "靈化之油 Oil of Etherealness",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>這種渾濁的灰色油膏在容器外會變成珠狀並迅速蒸發。一瓶油膏可以塗抹在一個中型或更小的生物及其穿戴和攜帶的裝備上。生物的體型每比中型大一級就需要多使用一瓶。使用靈化之油耗時10分鐘，此後受油膏影響的生物將獲得@UUID[Compendium.dnd5e_classpack.new-icon.2dKpsNn8QZWECFtd]{同遊靈界 Etherealness}的效果，持續1小時。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 183"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 1920,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "中型或更小的生物，耗時10分鐘。"
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 57200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!76A53FC1DC160E02"
+}

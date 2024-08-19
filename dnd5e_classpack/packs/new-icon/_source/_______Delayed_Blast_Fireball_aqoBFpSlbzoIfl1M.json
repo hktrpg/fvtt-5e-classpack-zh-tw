@@ -1,0 +1,139 @@
+{
+  "_id": "aqoBFpSlbzoIfl1M",
+  "name": "延遲爆裂火球 Delayed Blast Fireball",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_FlameBolt.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 一束黃光從你的指尖射向施法距離內你指定的一點，並在法術持續時間內在該點凝結成一顆赤紅的珠子。當因專注被打斷或自主決定導致法術終止時，珠子將伴著低吼炸裂成四竄的烈焰並繞過拐角擴散。此時，目標點周邊半徑20尺內的每個生物都必須進行一次敏捷豁免。豁免失敗者將承受全部累積的火焰傷害，豁免成功則傷害減半。\n<br>該法術的基礎傷害為12d6。如果你在回合結束時，珠子尚未引爆，則其傷害增加1d6。\n<br>如果珠子爆炸前被生物觸碰到，則該生物必須進行一次敏捷豁免。豁免失敗則法術立即終止並觸發爆炸效應。豁免成功則該生物可將珠子拋開至多40尺。當珠子被生物或固態物件撞擊時，法術立即終止並且觸發爆炸效應。火焰傷害區域內沒被著裝攜帶的易燃物品將被烈焰點燃。\n<br><strong>升環施法效應。</strong>使用8環或更高法術位施展該法術時，你使用的法術位每比7環高一環，基礎傷害就提高1d6。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 230",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 150,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "12d6",
+          "fire"
+        ]
+      ],
+      "versatile": "1d6"
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一顆蝙蝠糞和硫磺混合的小球",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 33100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353354155,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!aqoBFpSlbzoIfl1M"
+}

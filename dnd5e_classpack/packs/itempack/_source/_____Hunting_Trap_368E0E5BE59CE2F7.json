@@ -1,0 +1,120 @@
+{
+  "_id": "368E0E5BE59CE2F7",
+  "name": "狩獵陷阱 Hunting Trap",
+  "type": "consumable",
+  "img": "icons/environment/traps/trap-jaw-steel.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>使用動作設定好該陷阱后，其形成一個鋸齒鋼圈，並在生物踏上其中央壓板時閉合。陷阱由一根沉重的鏈條固定在某處，例如一棵樹或是一根釘在地上的釘子。任何踩上壓板的生物都必須進行一次DC13 的敏捷豁免，豁免失敗則受到[[/r 1d4]]點穿刺傷害，並停止移動。在該生物從陷阱中解脫前，其移動範圍都被限制在鏈條的長度內（通常為3尺）。一個生物可以使用動作進行一次DC13 的力量檢定，以解脫自己或其觸及範圍內的另一生物。每次豁免失敗時，被困生物都將受到1 點穿刺傷害。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 152"
+    },
+    "quantity": 1,
+    "weight": 25,
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4",
+          "piercing"
+        ]
+      ],
+      "versatile": "1"
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 32600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!368E0E5BE59CE2F7"
+}

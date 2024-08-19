@@ -1,0 +1,134 @@
+{
+  "_id": "oo6uAT48xm0JsxNm",
+  "name": "征服Whelm",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需矮人同調）</em></p>\n<p>征服藏在白羽山的地下城中，它是一把由矮人鍛造，極具威力的戰錘。</p>\n<p>你使用這把武器發動的攻擊檢定和傷害擲骰獲得+3加值。只要你維持與它同調，從你第一次以征服擲攻擊檢定的次日黎明開始，你便會對室外產生恐懼。在白天可以看到天空時，你的攻擊檢定、豁免檢定和屬性檢定均具有劣勢。</p>\n<p><strong>投擲武器Thrown Weapon</strong>。征服 帶有投擲屬性，常規射程為20尺，最大射程60尺。當你以遠端攻擊命中目標時，你對目標造成額外[[/r 1d8]]點鈍擊傷害（如果目標是巨人，額外傷害變為[[/r 2d8]]）。你每次擲出該武器后，它會自動飛回你手裡。如果你沒有空著的手，則該武器會落在你的腳邊。</p>\n<p><strong>震盪波Shock Wave</strong>。你可以用一個動作以征服 重擊地面，從一點發出震盪波。在你周圍60尺的所有生物必須進行一次DC 15的體質豁免，失敗則被震懾1分鐘。每個生物在自己回合結束時可以重骰該豁免，豁免成功者可以終止自己身上的震懾效應。此後該屬性直到次日黎明前都不能再使用。</p>\n<p><strong>超然警覺Supernatural Awareness</strong>。持握該武器時，它能讓你發現周邊30尺內的密門。此外，你還可以用一個動作以征服 施展法術@UUID[Compendium.dnd5e_classpack.new-icon.zeN5fxXLn4QE2YDa]{偵測善惡 Detect Evil and Good}或@UUID[Compendium.dnd5e_classpack.new-icon.Fw3U8sQwWSPVoisW]{物件定位術 Locate Object}。施展任一項法術后，直至次日黎明你都無法再用該武器的施法能力。</p>\n<p><strong>智慧Sentience</strong>。征服 是一把守序中立的智慧魔法武器。它的智力是15，感知12，魅力15。它聽覺與黑暗視覺的感官範圍為120尺。<br />這把武器會與持有者通過心靈感應進行交流，它也能說、讀和理解矮人語、巨人語和地精語。在戰鬥時征服 會發出矮人語的吶喊。</p>\n<p><strong>個性Personality</strong>。征服的目標是殺戮巨人和地精。它也會與所有敵人戰鬥來保衛矮人。如果持有者不能秉持摧毀巨人與地精或不能秉持守衛矮人時，它便會做出對抗。<br />征服與創造它的矮人氏族緊密的聯繫在一起，該氏族有各種稱呼，如丹吉爾Dankil或稱強錘Mightyhammer氏族。征服 渴望回到氏族中。並且會傾其所能來保護矮人一族免受侵害。<br />征服 也有自己的不能開口的秘密。若干世紀前，一個叫契丹米爾Ctenmiir的英勇矮人曾短暫的持用著它。但契丹米爾最後卻被變成了一隻吸血鬼。他以自己強大的意志強迫征服 為自己的邪惡意圖服務，甚至用其殺死了自己部落的成員。</p>\n<p><em>註：其他公式為1d8用於計算額外傷害，請根據實際需要調整。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +3",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d10 + @mod +3"
+    },
+    "formula": "1d8",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "ret",
+      "mgc",
+      "thr"
+    ],
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "warhammer"
+    },
+    "attack": {
+      "bonus": "3",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010446109,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 135400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!oo6uAT48xm0JsxNm"
+}

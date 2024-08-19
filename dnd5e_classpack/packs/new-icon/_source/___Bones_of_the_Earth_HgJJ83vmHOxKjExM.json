@@ -1,0 +1,135 @@
+{
+  "name": "地之骨Bones of the Earth",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "_id": "HgJJ83vmHOxKjExM",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你令距離內你能看見的地面處升起六根石柱。每根石柱為直徑5英尺，高度至多30英尺的圓柱。升起石柱的地表必須具有足以容納其直徑的空間，你可以以一個體型不超過中型Medium的生物的腳下作為目標。每根石柱的AC為5，具有30點生命值。當其生命值被降為0時，石柱將變為碎石，在10英尺半徑的區域內形成一片困難地形的區域。每塊5尺直徑的碎石區域都需要至少1分鐘來手動清理。<br />若一根石柱在一個生物的腳下升起，該生物必須進行一次敏捷豁免檢定，否則會被石柱頂起。生物可以選擇在此豁免中失敗。<br />若一根事物因為天花板或其他障礙未能達到其最大高度，在石柱上的生物受到6d6點鈍擊傷害，並被束縛，在石柱與障礙物間動彈不得。被束縛的生物可以以一個動作來進行一次力量或敏捷檢定（由該生物選擇），對抗此法術的豁免檢定DC。若成功，該生物不再被束縛，必須選擇從石柱上移動下來或摔落下來。</p>\n<p><strong>升環效果：</strong>當你使用7環或更高的法術位施放該法術時，使用的法術位每高一環，你便能額外升起兩根石柱。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 2.5,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "6d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 14800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727303334,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HgJJ83vmHOxKjExM"
+}

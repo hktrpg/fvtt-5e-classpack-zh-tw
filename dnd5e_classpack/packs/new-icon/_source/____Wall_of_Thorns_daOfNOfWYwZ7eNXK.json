@@ -1,0 +1,137 @@
+{
+  "_id": "daOfNOfWYwZ7eNXK",
+  "name": "棘墻術 Wall of Thorns",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_druid_massentanglement.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你創造出一面堅韌、糾纏、長滿銳利棘刺的灌木之墻。棘墻出現在施法距離內一處堅實的地面上並且持續存在至法術終止。\n<br>你可以選擇創造長不過60尺、高不過10尺、厚不過5尺的直墻；或是直徑不過20尺、高不過20尺、厚不過5尺的環形墻。此外，棘墻還會阻擋視線。\n<br>棘墻出現時所有位於其內的生物要進行一次敏捷豁免。豁免失敗者將受到7d8點穿刺傷害，豁免成功則傷害減半。\n<br>生物可以移動穿過棘墻，但這是個十分緩慢且痛苦的過程。\n<br>生物在棘墻中每移動1尺要消耗4尺的移動力。另外，生物在一個回合內第一次進入棘墻或在棘牆裡結束其回合時，必須進行一次敏捷豁免。豁免失敗者將受到7d8點揮砍傷害，豁免成功則傷害減半。\n<br><strong>升環施法效應。</strong>使用7環或更高法術位施展該法術時，你使用的法術位每比6環高一環，兩種型別的傷害就都增加1d8。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 287",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 60,
+      "units": "ft",
+      "type": "wall"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "7d8",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一把荊棘",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 35500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720798008090,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!daOfNOfWYwZ7eNXK"
+}

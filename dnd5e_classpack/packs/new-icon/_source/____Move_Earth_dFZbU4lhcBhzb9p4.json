@@ -1,0 +1,131 @@
+{
+  "_id": "dFZbU4lhcBhzb9p4",
+  "name": "地動術 Move Earth",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002637.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 指定施法距離內邊長不大於40尺的方狀地形區域，並以任意的方式重塑區域內的泥土，沙土或黏土。你可以升高或降低區域內的地面高度，製造或填平一道溝渠，升起或夷平一座山丘，或者塑造一根立柱。被改變的地形範圍在最長不得超過整個區域最長邊長的一半。因此，如果你影響了40尺方狀區域，則你可以創造一根至多20尺高的立柱，將地面升高或降低至多20尺，挖一條至多20尺深的壕溝，等等。這些改變需要花10分鐘的時間來完成。\n<br>每為法術維持10分鐘專注，你都可以選擇一片新的地形區域再施以影響。\n<br>由於地形的變化發生得很緩慢，區域內的生物通常不會被地面的移動困住或者受傷。\n<br>該法術無法改變天然的巖石或石製建築。但石頭和建築仍會因適應地形的變化而被改變。如果你改變地形的方式會使得建築不穩定，則它有可能倒塌。\n<br>此外，該法術也無法直接影響植物生長。而被移走的土壤會帶走任何生長在其上的植物。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 263",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 2,
+      "units": "hour"
+    },
+    "target": {
+      "value": 40,
+      "units": "ft",
+      "type": "square"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一把鐵刃以及一個小袋子，袋內裝著黏土、壤土、砂土等混成的泥土",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 35000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717595336865,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dFZbU4lhcBhzb9p4"
+}

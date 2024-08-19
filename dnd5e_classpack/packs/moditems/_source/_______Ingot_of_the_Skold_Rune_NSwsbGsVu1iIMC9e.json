@@ -1,0 +1,150 @@
+{
+  "_id": "NSwsbGsVu1iIMC9e",
+  "name": "盾牌符文之錠 Ingot of the Skold Rune",
+  "type": "equipment",
+  "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+  "effects": [
+    {
+      "_id": "Pat3fnPmzL3nQYvl",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.NSwsbGsVu1iIMC9e",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "AC + 1",
+      "img": "icons/commodities/metal/ingot-stamped-steel.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!NSwsbGsVu1iIMC9e.Pat3fnPmzL3nQYvl"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這奇物看起來是一塊樸素的鐵礦石錠，大約一尺長，幾寸寬。檢查其表面可以看見skold（盾牌）符文暗淡的銀色輪廓。鑄塊具有以下特性，這些特性只在此鑄塊裝備在你身上時才能生效。</p>\n<p><strong>符文之盾Runic Shield</strong>。 你在AC上獲得+1加值。</p>\n<p><strong>盾之連結Shield Bond</strong>。 以一個附贈動作，選擇一個30尺內你所能看到的除你以外生物。直到你的下一回合結束，目標所受到的傷害將會減少至1，但是你會受到以此方式防止的傷害的一半。你所承受的傷害無法以任何方式減少。一旦你使用了這個特性，直到完成一次短休息或長休息之前，都無法再次使用，</p>\n<p><strong>盾之守護Shield Ward</strong>。 通過用你的手指在一件非魔法物品——一把武器或一件盔甲上描摹skold符文，你可以將鑄塊的魔法轉移到上面。轉移需要花費8小時時間，並且需要兩件物品在此期間互相間隔在5尺之內。在這8小時結束時，鑄塊會被摧毀，並且銀色的符文會出現在你所選擇的物品上，這會使得該物品獲得一項基於其形態的增益：</p>\n<ul>\n<li><strong>盾牌Shield</strong>。 該盾牌現在成為一件珍稀的魔法物品，需要同調。它的魔法使你在AC上獲得+1加值，並且每當你進行一次長休之後、第一次受到將你的生命值降低至O的傷害時，你改為降低生命值至1點。要獲得這種好處，你必須持有該盾牌。</li>\n<li><strong>武器Weapon</strong>。該武器現在成為一件非普通的魔法物品。當你持有它的時候，你在AC上獲得+1加值。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SKT",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "turn"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "_key": "!items!NSwsbGsVu1iIMC9e"
+}

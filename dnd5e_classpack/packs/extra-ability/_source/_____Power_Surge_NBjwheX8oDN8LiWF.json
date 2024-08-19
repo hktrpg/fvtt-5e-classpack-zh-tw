@@ -1,0 +1,91 @@
+{
+  "_id": "NBjwheX8oDN8LiWF",
+  "name": "力量涌動 Power Surge",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/SPELL_HOLY_PERSECUTION.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從6級起，你可以將魔法能量存於體內並於之後增幅你危險異常的法術。在這一儲存模式中，這一能量被稱為力量涌動。</p>\n<p>你不能儲存超過你智力調整值（至少1）的力量涌動。當你完成一次長休，你的力量涌動數重置為1。當你成功用@UUID[Compendium.dnd5e_classpack.new-icon.as6xgBANCbyoWPXX]{解除魔法}或@UUID[Compendium.dnd5e_classpack.new-icon.895yeeloz2EhpEYC]{法術反制}終結一個法術時，你獲得1點力量涌動，因為你從你挫敗的法術中竊得魔力。當你在沒有力量涌動次數時完成一次短休，你獲得1點力量涌動。</p>\n<p>每回合一次，當你用一個法師法術對一生物或物體造成傷害時，你可以消耗1點力量涌動來對目標造成額外的力場傷害。額外傷害值等於你的法師等級的一半。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.int.mod,1)",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(floor(@classes.wizard.levels /2))",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "戰爭法師等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!NBjwheX8oDN8LiWF"
+}

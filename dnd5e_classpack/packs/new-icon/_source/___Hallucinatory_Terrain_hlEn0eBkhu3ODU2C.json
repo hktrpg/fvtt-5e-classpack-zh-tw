@@ -1,0 +1,130 @@
+{
+  "_id": "hlEn0eBkhu3ODU2C",
+  "name": "幻景 Hallucinatory Terrain",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Racial_Ultravision.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你使施法距離內一處150尺立方區域內的自然地形在視覺、聽覺、嗅覺上都像是另一種自然地形。因此，開闊的平原或者一條路可能會變得像是一片沼澤，或是丘陵、裂谷以及其他困難地形，甚至是無法通過的地形。一個池塘可能變得看起來像一片草地，一個懸崖像是一個緩坡，或者使一條亂石溝像是一條寬闊平坦的道路。區域內經過加工的建築、裝置或生物的外表不會改變。\n<br>地形的觸覺特徵不會改變，所以進入這片區域的生物可能會看穿幻象。如果觸覺區別不明顯，一個認真調查幻象的生物可以嘗試進行一次對抗法術豁免DC 的智力（調查）檢定以揭穿幻象。\n<br>對於一個識破了幻象本體的生物，幻象看起來就像是一層模糊的影象疊加在真實地形上。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 249",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 150,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 300,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一塊石頭、一枝嫩枝和一小片綠色植物",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 38800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719630520482,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hlEn0eBkhu3ODU2C"
+}

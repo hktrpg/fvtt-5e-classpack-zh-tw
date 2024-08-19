@@ -1,0 +1,134 @@
+{
+  "_id": "SCmGEYM6V880rfaW",
+  "name": "強化屬性 Enhance Ability",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_druid_lunarinspiration.jpg",
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個生物，併爲其附上魔力強化。選擇下列效應之一生效，而目標將在法術終止前維持該法術效應。\n<br><strong>熊之堅韌Bear』s Endurance。</strong>目標進行體質檢定時具有優勢。\n<br>目標同時獲得2d6的臨時生命值，並維持至法術終止。\n<br><strong>公牛之力Bull』s Strength。</strong>目標進行力量檢定時具有優勢，且其負重翻倍。\n<br><strong>貓之優雅Cat』s Grace。</strong>目標進行敏捷檢定時具有優勢。另外，目標在非失能狀態下不會因20尺以內的墜落而傷害。\n<br><strong>鷹之威儀Eagle』s Splendor。</strong>目標進行魅力檢定時具優勢。\n<br><strong>狐之狡黠Fox』s Cunning。</strong>目標進行智力檢定時具有優勢。\n<br><strong>梟之睿智Owl』s Wisdom。</strong>目標進行感知檢定時具有優勢。\n<br><strong>升環施法效應。</strong>使用3環或更高法術位施展該法術時，你使用的法術位每比2環高一環，就可以多指定一個目標。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 237",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "temphp"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "野獸的毛皮或羽毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 24500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722343200752,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SCmGEYM6V880rfaW"
+}

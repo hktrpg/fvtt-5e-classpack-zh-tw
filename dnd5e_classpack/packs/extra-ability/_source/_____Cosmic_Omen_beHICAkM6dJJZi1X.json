@@ -1,0 +1,86 @@
+{
+  "_id": "beHICAkM6dJJZi1X",
+  "name": "宇宙預兆 Cosmic Omen",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/003550.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你學會使用你的星圖來占卜宇宙的意志。每當你完成一次長休，骰一次[[/r d6]]。根據你[[/r d6]]骰值是奇數還是偶數，你獲得以下的一個預兆。</p>\n<ul>\n<li><strong>吉兆（奇數）</strong>：每當你 30 尺內可見的一個生物進行一次攻擊檢定，豁免檢定或屬性檢定，你可以使用你的反應來骰一個[[/r d6]]並將骰值加到檢定結果中。</li>\n<li><strong>兇兆（偶數）</strong>：每當你 30 尺內可見的一個生物進行一次攻擊檢定，豁免檢定或屬性檢定，你可以使用你的反應來骰一個[[/r d6]]並將骰值從檢定結果中減去。</li>\n</ul>\n<p>你可以使用此反應的次數等同於你的感知調整值，且當你結束一次長休時恢復所有已使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "@abilities.wis.mod",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "星辰結社等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!beHICAkM6dJJZi1X"
+}

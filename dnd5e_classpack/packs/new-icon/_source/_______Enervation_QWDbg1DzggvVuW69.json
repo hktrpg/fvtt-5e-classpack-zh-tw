@@ -1,0 +1,152 @@
+{
+  "name": "汲能術持續汲取Enervation",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ]
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "7eeaf6095c07e75ee9d54a0507bac8023819681b",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.shX11ocY2z8H3T8w"
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_priest_voidsear.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>墨色的黑暗觸鬚從你身上延伸，觸碰法術距離內你可見的一個生物並汲取它的生命。目標必須進行敏捷豁免檢定。若豁免成功，目標將受到2d8暗蝕傷害，隨後法術結束。若豁免失敗，目標受到4d8暗蝕傷害，並且直到法術結束之前，你在每個自己的回合都可以用你的動作對目標自動造成4d8暗蝕傷害。如果你使用你的動作來做其他任何事情，則法術即刻結束。此外，如果目標位於法術射程外或對你有全掩蔽，法術同樣會結束。<br />每次法術對目標造成傷害，你都可以恢復目標受到的暗蝕傷害量的一半生命值。</p>\n<p><strong>升環效果：</strong>當你使用6環或更高的法術位施放該法術時，使用的法術位每高一環，傷害便增加1d8。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "nec",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711695999164,
+    "modifiedTime": 1720797961209,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "QWDbg1DzggvVuW69",
+  "sort": 0,
+  "_key": "!items!QWDbg1DzggvVuW69"
+}

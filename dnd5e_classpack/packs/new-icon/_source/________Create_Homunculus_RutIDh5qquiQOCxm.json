@@ -1,0 +1,125 @@
+{
+  "name": "創造人工生命體 Create Homunculus",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "_id": "RutIDh5qquiQOCxm",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>說出複雜咒語的同時，你用一把鑲嵌寶石的匕首刺穿自己，並受到不能被任何方式降低的2d4穿刺傷害。隨後你將血液滴落在法術的其他成分上並接觸它們，將它們轉變為一種名為造妖Homunculus的特殊構裝體。<br />造妖的數據參見怪物手冊。它是你的忠實夥伴，並且會隨著你死亡。每次你完成一次長休息，並且此時若造妖與你處於同一位面，你可以選擇花費最多一半的生命骰，投擲每個骰子並加上你的體質調整值，之後你的最大生命值降低數字的總和，並且造妖的最大生命值和目前生命值都提升這個數字。這個過程可以讓你的生命值降至不低於1點。你和造妖的生命值變化會在你完成下一次長休息時還原，在那之前你的最大生命降低效果不能被移除，除非你的造妖死亡。<br />同一時間你只能擁有一隻造妖。如果你在你的造妖還存活時施展，法術將會失敗。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "黏土，灰塵，曼德拉草根，以上材料在施法時被消耗，以及價值1000GP的鑲嵌寶石的匕首",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 24200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717594068548,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RutIDh5qquiQOCxm"
+}

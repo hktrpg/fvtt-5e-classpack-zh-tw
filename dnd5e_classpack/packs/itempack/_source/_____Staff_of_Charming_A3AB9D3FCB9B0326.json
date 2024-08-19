@@ -1,0 +1,132 @@
+{
+  "_id": "A3AB9D3FCB9B0326",
+  "name": "魅惑法杖 Staff of Charming",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>（需詩人、牧師、德魯伊、術士、邪術師或法師同調）</p>\n<p>法杖有10發充能。持握法杖時，你可以用一個動作並消耗1發充能施展@UUID[Compendium.dnd5e_classpack.new-icon.QFBZcGORjnBRgAYo]{魅惑人類 Charm Person}、@UUID[Compendium.dnd5e_classpack.new-icon.Ja6HpsLeGA9MQ0Rm]{命令術 Command}或@UUID[Compendium.dnd5e_classpack.new-icon.v0KfpSysfp5ug9kx]{通曉語言 Comprehend Languages}（使用你自身的法術豁免DC）。魅惑法杖也可以用作一把魔法長棍quarterstaff。</p>\n<p>持握法杖時，如果你對一個僅以你為目標的附魔法術豁免失敗，則你可以將這次失敗變為成功。此後該屬性直到次日黎明前都無法再次啟動。如果你在對一個僅以你為目標的附魔法術豁免成功（無論是否受益於法杖屬性），則你可以用反應並消耗1發充能將該法術反射回原施法者，而你則視為該反射法術的施法者。</p>\n<p>法杖每天黎明時恢復[[/r 1d8+2]]發已消耗的充能。當充能耗盡時，骰一次[[/r d20]]。若骰值為1，則法杖將變為一把無魔法的長棍。</p>\n<p><em>Foundry 註：需要的話，「其他公式」按鈕已經設為投擲黎明時的充能量。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 201"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 12000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8 + @mod"
+    },
+    "formula": "1d8 +2",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 72600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!A3AB9D3FCB9B0326"
+}

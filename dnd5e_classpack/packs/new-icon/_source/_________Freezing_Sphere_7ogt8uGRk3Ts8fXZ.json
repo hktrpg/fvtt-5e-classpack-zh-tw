@@ -1,0 +1,137 @@
+{
+  "_id": "7ogt8uGRk3Ts8fXZ",
+  "name": "歐提路克冰封法球 Freezing Sphere",
+  "type": "spell",
+  "flags": {
+    "_sheetTab": "description",
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Frost_FrozenCore.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 一個冷凍能量形成的冰球從你的指尖射向施法距離內一處指定點，並在該處迸裂為一個半徑60尺的球狀區域。區域內的每個生物必須進行一次體質豁免。豁免失敗者將受到10d6點冷凍傷害。豁免成功則傷害減半。\n<br>如果冰球擊中某處水體或者某處以水分為主的液態表面（不包括由水組成的生物），其觸及的水面將凝結出6寸厚、30尺寬的方形凍結區域。任何在其中游泳的生物將被冰面所困。受困的生物可以用一個動作進行一次對抗法術豁免DC 的力量檢定以破冰掙脫。\n<br>你可以在完成該法術后延遲發射冰。此時你手上將形成一個彈丸般大小，摸起來感覺冰冷的小冰球。你或者任意從你手上獲得冰球的生物可以隨時將冰球投出去（以40尺射程）或者用投石索將其彈射出去（以投石索的正常射程），並以衝擊將其打破再產生正常施法時相同的效應。你還可以將冰球設定好，然後使其在不需要打破的情況下維持1分鐘后自動迸裂。\n<br><strong>升環施法效應。</strong>使用7環或更高法術位施展該法術時，你使用的法術位每比6環高一環，其傷害就增加1d6。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 242",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 60,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 300,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "A small crystal sphere",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 5600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711703027171,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7ogt8uGRk3Ts8fXZ"
+}

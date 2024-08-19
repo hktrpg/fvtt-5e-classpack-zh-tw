@@ -1,0 +1,128 @@
+{
+  "name": "異怪召喚術 Summon Aberration (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_shaman.jpg",
+  "_id": "kkahnA5EClqV0LWA",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>&nbsp; &nbsp; &nbsp; &nbsp; 你喚來一個異怪靈魄。其在施法距離內你可見的一個未佔據位置化為實體。這一實體使用下面的異怪靈魄Aberrant Spirit的數據。當你施展法術時，從類眼魔Beholderkin，史拉蟾Slaadi或星之子Star Spawn中選擇一個。此生物的外形與你所選一致，其資料表中的部分特性也受此影響。當其生命值降到0或法術結束時，生物消失。<br>　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束后立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br>　　<strong>升環施法效應：</strong>使用五環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一條醃製觸手和一顆裝在白金瓶中的眼球，至少價值 400gp",
+      "consumed": false,
+      "cost": 400,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 40500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728144523,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kkahnA5EClqV0LWA"
+}

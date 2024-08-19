@@ -1,0 +1,192 @@
+{
+  "_id": "IXs3Neqbl8xaT3yk",
+  "name": "變形術 Polymorph",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": true,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Polymorph.png",
+  "effects": [
+    {
+      "name": "變形術 Polymorph",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.IXs3Neqbl8xaT3yk",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "sbtw1B85pf1uq7Bw",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Polymorph.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!IXs3Neqbl8xaT3yk.sbtw1B85pf1uq7Bw"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術將一個施法距離內你能看見的生物變化為一個新的形態。一個非自願的生物必須進行一次感知豁免來避免此效應。\n<br>該法術無法對變形生物或生命值為0的生物生效。\n<br>法術產生的變化在法術持續時間內得以維持，或直至目標的生命值降為0或死亡。新形態可以是任何挑戰等級小於等於目標本身的野獸（如果目標沒有挑戰等級，則以其等級為基準）。目標的遊戲資料以及心智相關的屬性值都將被所選定野獸的屬性數據取代。而其陣營和個性則仍然保留。\n<br>目標使用其新形態的生命值。當它變回正常形態時，則立即恢復變化前的生命值。如果目標因為生命值降至0而變回正常形態，則其正常形態需要承受所有的溢出傷害。只要溢出的傷害沒有將該生物正常形態的生命值降為0，它就不會因打擊而陷入昏迷。\n<br>該生物可作出的動作因其新形態而有所限制。它不能說話，不能施法，也不能作出其他需要用手和需要說話的動作。目標的裝備融入新形態中，但其不能啟動，使用，揮舞或以其他方式從其裝備上獲得增益。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 266",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一個毛蟲蟲繭",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 15400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711686125650,
+    "modifiedTime": 1717429240604,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IXs3Neqbl8xaT3yk"
+}

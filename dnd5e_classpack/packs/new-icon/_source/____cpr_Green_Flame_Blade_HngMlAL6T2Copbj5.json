@@ -1,0 +1,178 @@
+{
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><em>This spell is safe to rename.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sword Coast Adventurer's Guide pg 142"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "[fire] To Second Target",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "evo",
+    "materials": {
+      "value": "一把價值至少 1sp 的近戰武器",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": true
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": "1d8"
+    },
+    "properties": [
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "summons": null
+  },
+  "name": "翠炎劍(cpr)Green-Flame Blade",
+  "flags": {
+    "midi-qol": {
+      "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.greenFlameBlade",
+      "forceCEOff": true,
+      "onUseMacroParts": {
+        "items": {
+          "0": {
+            "macroName": "function.chrisPremades.macros.greenFlameBlade",
+            "option": "postActiveEffects"
+          }
+        }
+      },
+      "effectActivation": false,
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "cf": null,
+    "midiProperties": {
+      "magicdam": false,
+      "magiceffect": false,
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "confirmTargets": "default",
+      "noConcentrationCheck": false
+    },
+    "core": {},
+    "custom-character-sheet-sections": {
+      "sectionName": ""
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "exportSource": {
+      "world": "development-testing",
+      "system": "dnd5e",
+      "coreVersion": "10.303",
+      "systemVersion": "2.2.2"
+    },
+    "chris-premades": {
+      "info": {
+        "name": "Green-Flame Blade",
+        "version": "0.10.41"
+      }
+    },
+    "dnd5e": {},
+    "scene-packer": {
+      "hash": "2e3ccb489632158fa9059c6a4d06542f8aa86ed2",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.Bd7U4lchP87l7oyo"
+    }
+  },
+  "effects": [],
+  "img": "icons/skills/melee/blade-tip-energy-green.webp",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1676798650565,
+    "modifiedTime": 1717594904616,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PQGBBcoVSwpUhViM": 3,
+    "m9ZEHyQjhLqQuPSG": 3,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "_id": "HngMlAL6T2Copbj5",
+  "sort": 0,
+  "_key": "!items!HngMlAL6T2Copbj5"
+}

@@ -1,0 +1,91 @@
+{
+  "_id": "s8snvQrvRsN7YeaH",
+  "name": "治癒之光 Healing Light",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_BlindingHeal.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>在1級時，你得到了引導天界能量以治療傷口的能力。你獲得了一個[[/r d6]]骰池，用以使用此治癒能力。骰池的總數等於1+你的邪術士等級。</p>\n<p>以一個附贈動作，你可以消耗骰池，治療一個你視線中的、距你60尺以內的生物。單獨一次能消耗的最大骰子數量等於你的魅力調整值（最小為1）。投擲你消耗的骰子，將骰值相加來決定所能恢復的生命值總量。</p>\n<p>當你完成一次長休后，骰池重獲所有已消耗的骰子。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": "1+@classes.warlock.levels",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "天界宗主等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!s8snvQrvRsN7YeaH"
+}

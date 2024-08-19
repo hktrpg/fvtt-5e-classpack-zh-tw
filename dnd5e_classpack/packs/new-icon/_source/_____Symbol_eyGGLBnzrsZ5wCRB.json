@@ -1,0 +1,135 @@
+{
+  "_id": "eyGGLBnzrsZ5wCRB",
+  "name": "徽記術  Symbol",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_paladin_summer.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 持續時間施展該法術時，你在某個表面（諸如桌面、地板、墻等）或某個能被關閉以隱藏符紋的物件里（諸如書本、卷軸、寶箱等）刻畫一個傷害其他生物的符紋。如果你指定某個表面，則此符紋可以覆蓋周邊不超過10尺直徑的區域。如果你指定某個物件，則該物件必須待在其所在位置；如果該物件從被施法位置被移動超過10尺，則其符紋被破壞且法術不被觸發即高終止。\n<br>該符紋近乎隱形，其需要以法術的豁免DC 進行一次智力（調查）檢定才能被發現。\n<br>你在施法時設定該符紋的觸發條件。刻畫於表面的符紋其最典型的觸發條件包括：觸碰或站立在符紋上；拿掉覆蓋在符紋上的物件；進入符紋一定施法距離；操作符紋所在的物件等。刻畫在物件內的符紋其最典型的觸發條件包括：打開物件；靠近物件一定的距離；看到或閱讀該符紋等。\n<br>你可以進一步細化觸發條件，比如設定法術觸發時符合特定的條件，或設定其觸發者必須具備特定身體特徵（身高體重等），特定生物種類（例如設定為隻影響異怪或卓爾）或特定陣營。你還可以將特定條件者排除在符紋觸發者之外，諸如某說出特定口令的人。\n<br>刻畫符文時，你可以從下列選項中選擇其一作為該法術的效應。符文一旦被觸發就會開始發光，使其周圍60尺半徑的球狀區域處於微光光照並持續10分鐘。該時間段過後法術即告終止。\n<br>符文生效時，所有位於球狀區域內的生物即成為法術效應的目標。\n<br>生物在其回合內第一次進入該區域內或在其中結束其回合時，也同樣會成為符文效應的目標。\n<br><strong>死亡Death。</strong>所有目標必須進行一次體質豁免，豁免失敗者將受到10d10點黯蝕傷害，豁免成功則傷害減半。\n<br><strong>爭鬥Discord。</strong>所有目標必須進行一次體質豁免。豁免失敗者將在接下來的1分鐘內將不停地與其他生物爭吵。該時間段內它無法進行任何有意義的溝通，並且其進行的所有攻擊檢定和屬性檢定都具有劣勢。\n<br><strong>恐懼Fear。</strong>所有目標必須進行一次感知豁免，豁免失敗者將陷入1分鐘的恐慌狀態。被恐慌時，該生物將丟棄其所有持握物，並在其每回合里盡力向遠離符文的方向移動至少30尺。\n<br><strong>絕望Hopelessness。</strong>所有目標必須進行一次魅力豁免，豁免失敗者將陷入持續1分鐘的絕望。該時間段內它不能進行攻擊，也不能對任何生物使用傷害性的能力，法術或其他魔法效應。\n<br><strong>錯亂Insanity。</strong>所有目標必須進行一次智力豁免，豁免失敗者將陷入持續1分鐘的錯亂。陷入錯亂的生物不能執行動作，也聽不懂其他生物的話語看不懂任何文字，而只會胡言亂語。此時將由DM 來控制其胡亂的移動。\n<br><strong>苦痛Pain。</strong>所有目標必須進行一次體質豁免，豁免失敗者將因極度的痛苦而陷入1分鐘的失能狀態。\n<br><strong>睡眠Sleep。</strong>所有目標必須進行一次感知豁免，豁免失敗者將陷入10分鐘的昏迷狀態。該睡眠者受到傷害時將會被驚醒，也可以被其他人用一個動作搖醒或打醒。\n<br><strong>震懾Stunning。</strong>所有目標必須進行一次感知豁免，豁免失敗則陷入1分鐘的被震懾狀態。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 280",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d10",
+          "necrotic"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "水銀和磷，以及總計價值至少 1000gp 的鑽石和蛋白石粉末，作為該法術的耗材",
+      "consumed": true,
+      "cost": 1000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 36400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720802996496,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eyGGLBnzrsZ5wCRB"
+}

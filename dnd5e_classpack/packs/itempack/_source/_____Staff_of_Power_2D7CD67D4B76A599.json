@@ -1,0 +1,132 @@
+{
+  "_id": "2D7CD67D4B76A599",
+  "name": "威力法杖 Staff of Power",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-skull-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需術士、邪術師或法師同調）</em></p>\n<p>該法杖是一把魔法長棍，你在用它發動的攻擊檢定和傷害擲骰獲得+2加值。持握法杖時，你的AC、豁免檢定和法術攻擊檢定獲得+2加值。</p>\n<p>這把法杖有20發充能，且每天黎明時恢復[[/r 2d8+4]]發已消耗的充能。當充能耗盡時，骰一次[[/r d20]]。如果骰值為1，法杖將失去除攻擊檢定和傷害擲骰的+2加值外的所有屬性。如果骰值為20，則法杖恢復[[/e 1d8+2]]發充能。</p>\n<p><strong>威力打擊Power Strike。</strong>用這把法杖發動近戰攻擊並命中時，你可以消耗1發充能以對目標造成額外[[/r 1d6]]點力場傷害。</p>\n<p><strong>法術Spells。</strong>持握這把法杖時，你可以用一個動作並消耗1發或更多充能以施展以下法術之一（使用你自身的法術攻擊加值和豁免DC）：@UUID[Compendium.dnd5e_classpack.new-icon.q0FYQJX9EBseJ9KN]{魔法飛彈 Magic Missile}（1充能）、@UUID[Compendium.dnd5e_classpack.new-icon.VRvKmIZL44nZWKaa]{衰弱射線 Ray of Enfeeblement}（1充能）、@UUID[Compendium.dnd5e_classpack.new-icon.GNvrHluGdgqD06wZ]{浮空術 Levitate}（2充能）、@UUID[Compendium.dnd5e_classpack.new-icon.z9HXB89B3uO5NHW8]{寒冰錐 Cone of Cold}（5充能）、@UUID[Compendium.dnd5e_classpack.new-icon.Uh3zcz4PO4DXP3Dj]{火球術 Fireball}（5環版本，5充能）、@UUID[Compendium.dnd5e_classpack.new-icon.abm5MgV3kejSatZt]{怪物定身術 Hold Monster}（5充能）、@UUID[Compendium.dnd5e_classpack.new-icon.dHg72reVMXYFu4lR]{閃電束 Lightning Bolt}（5環版本，5充能）、@UUID[Compendium.dnd5e_classpack.new-icon.31jKHMGJ0vlqdvQU]{力場墻 Wall of Force}（5充能）、@UUID[Compendium.dnd5e_classpack.new-icon.GG46WW8ccTRfoSxH]{法術無效結界 Globe of Invulnerability}（6充能）。</p>\n<p><strong>復仇打擊Retributive Strike。</strong>你可以用一個動作在自己的膝蓋上或堅固的表面上折斷這把法杖，釋放復仇性的打擊。法杖將毀滅併產生一場以其為中心半徑30尺的爆炸，釋放其剩餘的所有魔力。</p>\n<p>你有50%的概率被傳送到某個隨機位面以避開爆炸。如果你未被傳送，則你將受16×法杖剩餘充能數點力場傷害。爆炸範圍內的其他生物必須進行一次DC 17的敏捷豁免。豁免失敗的生物根據它距離爆炸中心的距離承受傷害，如下表所示。豁免成功的生物傷害減半。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>與爆炸中心的距離</strong></td>\n<td><strong>傷害</strong></td>\n</tr>\n<tr>\n<td>0尺或更近</td>\n<td>8*法杖剩餘充能數</td>\n</tr>\n<tr>\n<td>11-20尺</td>\n<td>6*法杖剩餘充能數</td>\n</tr>\n<tr>\n<td>21-30尺</td>\n<td>4*法杖剩餘充能數</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 202"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 95500,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 20,
+      "max": "20",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod +2",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8 + @mod +2"
+    },
+    "formula": "2d8 +4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 29200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!2D7CD67D4B76A599"
+}

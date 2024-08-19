@@ -1,0 +1,190 @@
+{
+  "_id": "r6AKEvIbCOnYDRxg",
+  "name": "群體暗示術 Mass Suggestion",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_AstralRecalGroup.png",
+  "effects": [
+    {
+      "name": "群體暗示術 Mass Suggestion",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.r6AKEvIbCOnYDRxg",
+      "duration": {
+        "rounds": 1000,
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "CAKypLpZahjXTiZP",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_AstralRecalGroup.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!r6AKEvIbCOnYDRxg.CAKypLpZahjXTiZP"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你以魔法影響施法距離內至多十二個你能看見的生物，並對其施以某種行動暗示（至多以一兩句話的形式）。由你指定的受術目標必須能聽到並理解你的話語。而不能被魅惑的生物也將免疫此效應。你的暗示言辭必須能讓其行為聽起來合乎情理。要求生物刺傷它自己，自己撞向矛尖上，讓它自我犧牲，或是讓它做任何明顯有害的行為都會直接取消該法術所產生的效應。\n<br>每個目標必須進行一次感知豁免，豁免失敗者將盡其所能地從事你所描述的行為。你所暗示的行為可能會在法術持續時間內始終一直進行。而如果你所暗示的活動可以用更短的時間完成，則該法術會在目標完成了你的要求后隨即終止。\n<br>你也可以描述一種在持續時間內發生的特定狀況，作為觸發特殊行為的條件。例如，你可以暗示一隊士兵將所有的錢交給他們遇到的第一個乞丐。如果在法術終止前條件始終沒有滿足，則指定的行為不會被執行。\n<br>如果你或你同伴中的任何人傷害了一個被該法術影響的生物，則該法術對該生物產生的效應隨之終止。\n<br><strong>升環施法效應。</strong>使用7環法術位施展該法術時，持續時間變為10日。使用8環法術位施展該法術時，持續時間變為30日。使用9環法術位施展該法術時，持續時間變為一年零一日。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 258",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 12,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一條蛇的舌頭外加一小塊蜂窩或一滴橄欖油",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 46300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711723995714,
+    "modifiedTime": 1722343818642,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!r6AKEvIbCOnYDRxg"
+}

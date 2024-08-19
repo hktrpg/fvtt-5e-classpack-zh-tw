@@ -1,0 +1,141 @@
+{
+  "_id": "4k8CkHDM05RJUQF4",
+  "name": "幽靈漫步Ghost Walk",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_shadow_coneofsilence.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你可以部分的進入死亡的領域，變得如同一個幽靈。作為一個附贈動作，你化為靈體的形態。處於這種形態時，你擁有10尺的飛行速度，能夠盤旋，並且針對你的攻擊都具有劣勢。你也可以如同是困難地形那樣穿過生物或者物品，但是如果回合結束時你仍然在內部，你將受到[[/r 1d10]]點力場傷害。</p>\n<p>該形態持續10分鐘或直到你以一個附贈動作將其解除。你再次使用此特性前必須完成一次長休。或者你以同一個附贈動作銷燬一個你的@UUID[Compendium.dnd5e_classpack.extra-ability.eXk4FM2eHvy3WS67]{魂器}並激活幽靈漫步。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "鬼魅等級 13",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "vSijTZvtSwJq8sI8",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 4,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.hover",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.4k8CkHDM05RJUQF4",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 10 尺飛行速度",
+      "img": "modules/dnd5e_classpack/Nicons/spell_shadow_coneofsilence.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!4k8CkHDM05RJUQF4.vSijTZvtSwJq8sI8"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4k8CkHDM05RJUQF4"
+}

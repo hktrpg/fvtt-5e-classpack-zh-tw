@@ -1,0 +1,130 @@
+{
+  "_id": "2hMuY5PjvH1Nc345",
+  "name": "黑夜明目 Eyes of Night",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Sentinal.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你的雙眼可以洞穿最深沉的黑暗。你獲得300尺的黑暗視覺，而你的視力在微光光照下視為等同於明亮光照，而在黑暗中則視為等同於微光光照。</p>\n<p>以一個動作，你可以用魔法將這個特性分享給你10尺內最多等同於你感知調整值數量（最少1名生物）的可見自願生物。共享的黑暗視覺持續1小時。一旦如此做，直到你完成一次長休或消耗一個任意環階的法術位，你無法再次分享此特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "暮光領域等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "R3XQwDd6tSSl4su8",
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "300",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.2hMuY5PjvH1Nc345",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 300 尺黑暗視覺",
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Sentinal.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!2hMuY5PjvH1Nc345.R3XQwDd6tSSl4su8"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2hMuY5PjvH1Nc345"
+}

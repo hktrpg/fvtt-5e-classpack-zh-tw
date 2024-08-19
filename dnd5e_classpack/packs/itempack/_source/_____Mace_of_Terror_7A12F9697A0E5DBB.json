@@ -1,0 +1,131 @@
+{
+  "_id": "7A12F9697A0E5DBB",
+  "name": "恐懼之錘 Mace of Terror",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>這把魔法武器有3發充能。持有它時，你可以用一個動作並消耗一發充能來釋放一股恐懼之波。你周圍30尺半徑內每個被你選中的生物必須通過一次DC15的感知豁免否則對你恐慌1分鐘。</p>\n<p>受這種恐慌影響的生物必須在自己的回合盡全力遠離你，無法自願進入你周圍30尺範圍內也無法進行反應。它的動作只能選擇疾行動作或是試圖脫離阻止它移動的效果。如果無處可逃，它可以使用閃避動作。在它的每一輪結束時，該生物可以再次進行豁免，成功則終止效果對它的影響。</p>\n<p>每天黎明時恐懼之錘恢復[[/r 1d3]]發充能。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 180"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 8000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "mace"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 58300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!7A12F9697A0E5DBB"
+}

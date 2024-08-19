@@ -1,0 +1,128 @@
+{
+  "name": "元素召喚術 Summon Elemental (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_demonhunter_sigilblue.jpg",
+  "_id": "9Yhs9yVaMLPnDlSC",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>&nbsp; &nbsp; &nbsp; &nbsp; 你喚來一個元素靈魄。其在施法距離內你可見的一個未佔據位置化為實體。這一實體使用下面的元素靈魄Elemental Spirit的數據。當你施展法術時，從氣Air，土Earth，火Fire或水Water中選擇一個元素。此生物的外形如同一個週身纏繞著你所選元素的模糊二足人影，其資料表中的部分特性也受此影響。當其生命值降至 0 或法術結束時，生物消失。<br>　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束后立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br>　　<strong>升環施法效應：</strong>使用五環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一個至少價值 400gp 的，裝有空氣、一塊鵝卵石、灰燼與水的水晶瓶",
+      "consumed": false,
+      "cost": 400,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 7400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728148328,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9Yhs9yVaMLPnDlSC"
+}

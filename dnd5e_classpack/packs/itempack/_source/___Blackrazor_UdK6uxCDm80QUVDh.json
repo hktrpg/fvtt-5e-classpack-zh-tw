@@ -1,0 +1,133 @@
+{
+  "_id": "UdK6uxCDm80QUVDh",
+  "name": "黑刃 Blackrazor",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-worn.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需非守序陣營同調）</em></p>\n<p>黑刃藏在白羽山White Plume Mountain的地下城中，它像夜空中的繁星一樣閃耀，黑色的劍鞘上鑲滿了切割好的黑曜石。</p>\n<p>使用該魔法武器發動攻擊檢定和傷害擲骰時具有+3加值。它還具有以下額外屬性。</p>\n<p><strong>吞噬靈魂Devour Soul</strong>。當你用它將一個生物的生命值降到0時，這把劍會殺死這個生物並且吞噬它的靈魂。不死生物和構裝生物不受影響。被暗黑刃 吞噬靈魂的生物只能通過@UUID[Compendium.dnd5e_classpack.new-icon.xjn6gjItpWpldE53]{祈願術 Wish}復活。<br />每當黑刃吞噬一個靈魂時，它會賜予你被殺死生物的最大生命值作為你的臨時生命值。該臨時生命值持續存在24小時。只要這些臨時生命值存在且你正手握黑刃，那麼你的攻擊檢定、豁免檢定和屬性檢定均帶有優勢。<br />當你用這把武器擊中不死生物時，你將受[[/r 1d10]]點黯蝕傷害，目標恢復[[/r 1d10]]生命值。如果黯蝕傷害將你的生命值降至0，則黑刃將會吞噬你的靈魂。</p>\n<p><strong>靈魂獵手Soul Hunter</strong>。你手持這把武器時，能夠意識到60尺內超小型或更大體型的非構裝體非不死生物型別的其他生物。你陷入魅惑或者恐慌時，這項屬性失效。<br />黑刃 每天可以對你使用一次@UUID[Compendium.dnd5e_classpack.new-icon.YLYeCtTmbjIZsPvN]{加速術 Haste}。它會自己決定什麼時候施展該法術並維持專注，所以你在法術生效時不必維持專注。</p>\n<p><strong>智慧Sentience</strong>。黑刃 是一把混亂中立的智慧魔法武器。它的智力為17，感知10，魅力19。它的聽覺和黑暗視覺的感官範圍為120尺。<br />這把武器能夠說、讀和理解通用語，同時也能夠與持有者通過心靈感應進行交流。它的聲音低沉且帶有回聲。當你與之完成同調后，黑刃 也能聽懂你掌握的所有語言。</p>\n<p><strong>個性Personality</strong>。黑刃的語氣帶著傲慢，好像習慣別人服從於它。<br />這把劍的目標是吞噬靈魂，它並不在乎吞噬誰的靈魂，哪怕是其持用者。這把劍相信所有的物質與能量都來源於負能量的虛無之中，且終將有一日一切都將回歸其中。黑刃則希望能夠加快這個過程。<br />除它信仰的虛無主義以外，黑刃對@UUID[Compendium.dnd5e_classpack.itempack.tkd0c9SaX46E7q0b]{波濤Wave}和@UUID[Compendium.dnd5e_classpack.itempack.oo6uAT48xm0JsxNm]{征服Whelm}這兩把也被封印在白羽山中的劍有著莫名的親近感。它希望這三把劍能夠重聚並一起戰鬥，儘管它十分不同意征服的看法也覺得波濤很無聊。<br />黑刃對靈魂的渴望必須經常得到滿足。如果這把劍三日或更長時間沒吞噬靈魂，那它就會在次日黃昏時與其持用者進行對抗。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 6,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 + @mod +3",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "mgc",
+      "two",
+      "hvy"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "greatsword"
+    },
+    "attack": {
+      "bonus": "3",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010444188,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 117100000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!UdK6uxCDm80QUVDh"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "翠炎劍 Green-Flame Blade",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-teal.webp",
+  "_id": "E7iT0s1aQdjdOVdg",
+  "system": {
+    "description": {
+      "value": "<p>作為施展這個法術的一部分，你必須用你的武器對施法距離內的一個生物進行一次近戰攻擊，否則法術失敗。如果攻擊命中，目標受到這次攻擊的正常影響，並且翠綠色的火焰將從目標身上跳轉至另一個生物。這個生物必須在第一個目標周圍5尺之內，並且你可以看見；它將受到等於你施法主屬性的調整值的火焰傷害。<br />戲法的傷害隨著你的等級提升而增加。在你5級的時候，這次近戰攻擊將造成額外1d8火焰傷害，且第二個目標將受到的傷害提升至1d8+你的施法主屬性的調整值。所有傷害骰都會在11級和17級的時候增長1d8。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "@mod",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一把價值至少 1sp 的近戰武器",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": "1d8"
+    },
+    "properties": [
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717594858513,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!E7iT0s1aQdjdOVdg"
+}

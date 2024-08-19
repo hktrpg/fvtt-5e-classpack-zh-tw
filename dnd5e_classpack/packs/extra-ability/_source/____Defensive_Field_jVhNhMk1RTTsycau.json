@@ -1,0 +1,97 @@
+{
+  "_id": "jVhNhMk1RTTsycau",
+  "name": "防護場 Defensive Field",
+  "type": "feat",
+  "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>在每個你的回合，你能以一個附贈動作獲得等於你奇械師職業等級的臨時生命值，這會取代你現有的任何臨時生命值。如果你脫下裝甲，你會失去這些臨時生命值。你能執行此附贈動作熟練加值次，在完成一次長休后將恢復所有花費的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "@classes.artificer.levels",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "裝甲師等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192760524,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jVhNhMk1RTTsycau"
+}

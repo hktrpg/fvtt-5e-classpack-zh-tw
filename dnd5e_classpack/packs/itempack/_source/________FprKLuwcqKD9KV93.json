@@ -1,0 +1,137 @@
+{
+  "name": "迪恩的觸手長鞭",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-red-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left\">這條長長的鞭狀肌肉異常堅韌，一端長著一根鋒利的螯刺。要與該共生體武器同調，你必須在同調期間把鞭子纏繞在手腕上，期間鞭子會將捲鬚嵌入你的手臂，這個過程非常痛苦。<br />使用這把魔法鞭子進行的攻擊和傷害檢定獲得+2加值，但使用此武器攻擊異怪時具有劣勢。被此武器擊中的生物額外受到1d6點心靈傷害。且當你使用此武器在攻擊檢定的d20中擲出自然20時，目標會陷入震懾（stunned），直到其下一回合結束。<br />你可以使用一個附贈動作將鞭子縮排你的手臂里以收起武器，或是從你的手臂中抽出鞭子。<br /><strong>共生體：</strong>當你與觸手長鞭同調時，鞭子不能從你身上被移除，你也不能主動結束對鞭子的同調。如果你成為一個能結束詛咒的法術的目標，那麼你與觸手長鞭的同調自動結束，它將會與你分離。<br /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "ERLW"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod +2",
+          "slashing"
+        ],
+        [
+          "1d6",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "rch",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "whip"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691478207287,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "FprKLuwcqKD9KV93",
+  "sort": 104800000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!FprKLuwcqKD9KV93"
+}

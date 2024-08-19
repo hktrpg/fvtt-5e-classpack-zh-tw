@@ -1,0 +1,134 @@
+{
+  "name": "災厄之刃 Blade of Disaster (TCE)",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_revendreth_deathknight.jpg",
+  "_id": "NvJ2XLsbQkA7XEvq",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;你在法術範圍內你能看見的一個未被佔據的空間創造出一把形態如同劍一般的，長約 3 尺的位面裂縫。該劍刃持續存在，直至法術結束。當你施展此法術時，你可以用該劍刃進行至多兩次近戰法術攻擊，每次攻擊的目標為位於劍刃5尺內的一個生物、未被攜帶的物件或建築。若命中，則目標受到 4d12 力場傷害。該攻擊在 d20 投出 18 或更高時造成重擊，並在重擊時造成額外 8d12 力場傷害（共計 12d12 力場傷害）。</div>\n<div>\n<div>\n<div id=\"msg_1085612\">　　你可以在自己回合內以一個附贈動作讓該武器移動至多 30 尺到一個你可以看見的未被佔據的空間，隨後再用其進行兩次近戰法術攻擊。<br />　　該劍刃可以無害地通過任何屏障，包括一道力場墻。</div>\n</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d12",
+          "force"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 9,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 20700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728028444,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NvJ2XLsbQkA7XEvq"
+}

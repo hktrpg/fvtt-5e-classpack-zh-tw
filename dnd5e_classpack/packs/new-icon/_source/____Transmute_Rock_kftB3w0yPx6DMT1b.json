@@ -1,0 +1,136 @@
+{
+  "name": "轉化巖石Transmute Rock",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "_id": "kftB3w0yPx6DMT1b",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你選定距離內，你能看到的，不超過40立方英尺區域內的巖石或泥土，並選擇下述效果之一。</p>\n<p><strong>化石為泥Transmute Rock to Mud</strong>：該區域內任何種類的非魔法石塊在法術的持續時間內變成等量的稀薄、可流動的泥漿。<br />若你將法術施放在一處區域或地表，其將變得足夠癱軟，足以令生物陷入其中。生物穿過泥漿的每英尺均消耗4英尺的移動力，而在你施法時處於該區域內的生物需要進行一次力量豁免檢定。若一個生物在一個回合內第一次進入此區域，或在此區域內結束其回合，其也需要進行此豁免檢定。若豁免失敗，其將沒入泥漿並被束縛，雖然他可以以一個動作來把自己拽出泥漿以結束束縛。<br />若你對天花板施放此法術，泥漿會掉落。在泥漿掉落時處於其下方的所有生物必須進行一次敏捷豁免檢定。若檢定失敗則該生物受到4d8點鈍擊傷害，檢定成功者只受到上述傷害的一半。</p>\n<p><strong>化泥為石Transmute Mud to Rock</strong>：在法術的持續時間內，區域內不超過10英尺深的非魔法泥土或流沙變為柔軟的巖石。在變化的泥土中的生物需要進行一次敏捷豁免檢定。若豁免成功，該生物安全的移動到未被佔據的一處地表上。若豁免失敗，該生物被巖石所束縛。被束縛的生物、或者是其他可以觸及到它的生物，可以使用一個動作以試圖通過一次力量檢定（DC20）來令其脫困。巖石擁有15AC和25點生命值，並且免疫毒素和精神傷害。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 40,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "陶土和水",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 40400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711691606665,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kftB3w0yPx6DMT1b"
+}

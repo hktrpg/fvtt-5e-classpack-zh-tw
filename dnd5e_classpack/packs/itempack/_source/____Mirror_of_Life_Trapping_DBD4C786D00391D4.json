@@ -1,0 +1,115 @@
+{
+  "_id": "DBD4C786D00391D4",
+  "name": "攝心鏡 Mirror of Life Trapping",
+  "type": "consumable",
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>以非直接的方式看向這面鏡子時，其中映著生物模糊的影像。鏡子重50磅，AC為11，HP為10，鈍擊易傷。HP降至0時，鏡子將粉碎並被摧毀。</p>\n<p>鏡子被掛在垂直平面上時，你可以在5尺內用一個動作說出命令字啟用它。它將一直保持啟用狀態直到你再次用一個動作說出命令字。</p>\n<p>除你之外，任何在一面啟用的攝心鏡周圍30尺內從鏡中看到自己影像的生物必須通過一次DC15的魅力豁免，否則會連同穿戴或攜帶的物品一起被困入鏡中的十二個異次元空間之一。如果該生物瞭解鏡子的本質，則它在豁免上具有優勢。構裝生物豁免自動成功。</p>\n<p>異次元空間中充滿了濃霧，能見度只有10尺。被囚禁的生物不會衰老，也無需飲食和睡眠。使用位面旅行魔法可以逃脫，但除此之外被囚禁的生物只能等待被釋放。</p>\n<p>如果鏡子的十二個異次元空間已被佔滿而鏡子又困住了新的生物，則它將隨機釋放一名之前被囚禁的生物以容納新囚犯。被釋放的生物在鏡子前未被佔據的空間背對鏡子出現。如果鏡子被打碎，它囚禁的生物將全部被釋放，出現在它周圍未被佔據的空間里。</p>\n<p>你可以在鏡子5尺內用一個動作說出一名被囚禁生物的名字或是一個異次元空間的號碼。該生物或是被囚禁於該號碼空間里的生物的影像將出現在鏡子里，使得你和該生物可以正常交流。</p>\n<p>以類似的方式，你可以用一個動作說出另一個命令字以釋放一名被囚禁的生物。被釋放的生物連帶其所有物將背對鏡子出現在離鏡子最近的未被佔據的空間里。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 181"
+    },
+    "quantity": 1,
+    "weight": 50,
+    "price": {
+      "value": 18000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。目標生物必須能看見其鏡中倒影。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 12,
+      "max": "12",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 91500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!DBD4C786D00391D4"
+}

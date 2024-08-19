@@ -1,0 +1,182 @@
+{
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Animation by: <a href=\"https://discord.gg/RXwkJD4hTe\">EskieMoh#2969</a></p><p><em>This spell is safe to be renamed.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Basic Rules, Player's Handbook pg 237"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "trs",
+    "materials": {
+      "value": "一撮鐵粉",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "summons": null
+  },
+  "name": "變巨/縮小術(cpr)Enlarge/Reduce",
+  "flags": {
+    "midi-qol": {
+      "forceCEOff": true,
+      "effectActivation": false,
+      "forceCEOn": false,
+      "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.enlargeReduce.item",
+      "onUseMacroParts": {
+        "items": {
+          "0": {
+            "macroName": "function.chrisPremades.macros.enlargeReduce.item",
+            "option": "postActiveEffects"
+          }
+        }
+      },
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "cf": null,
+    "core": {},
+    "custom-character-sheet-sections": {
+      "sectionName": ""
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": true,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "confirmTargets": "never",
+      "noConcentrationCheck": false
+    },
+    "chris-premades": {
+      "configuration": {
+        "animation": true
+      },
+      "info": {
+        "name": "Enlarge/Reduce",
+        "version": "0.7.45",
+        "mutation": {
+          "target": "Enlarge/Reduce"
+        },
+        "hasAnimation": true
+      }
+    },
+    "dnd5e": {},
+    "scene-packer": {
+      "hash": "8c8a044e773a47fe8fd45d09199e559ed70d521b",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.zT0dn9HJqgLKISRY"
+    }
+  },
+  "effects": [],
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1676798650358,
+    "modifiedTime": 1717429166816,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PQGBBcoVSwpUhViM": 3,
+    "m9ZEHyQjhLqQuPSG": 3,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "_id": "4Q9suJkmy8IlMmWr",
+  "sort": 0,
+  "_key": "!items!4Q9suJkmy8IlMmWr"
+}

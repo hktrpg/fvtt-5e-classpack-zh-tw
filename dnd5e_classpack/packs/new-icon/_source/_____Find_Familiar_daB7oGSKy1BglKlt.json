@@ -1,0 +1,132 @@
+{
+  "_id": "daB7oGSKy1BglKlt",
+  "name": "尋獲魔寵 Find Familiar",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Misc_PheonixPet_01.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你獲得一隻為你服務的魔寵。以下列動物為原型選擇魔寵的動物精魂外貌：蝙蝠bat、貓cat、螃蟹crab、青蛙frog（蟾蜍toad）、鷹hawk、蜥蜴lizard、章魚octopus、貓頭鷹owl、毒蛇poisonous snake、魚fish（食人魚quipper）、老鼠rat、渡鴉raven、海馬sea horse、蜘蛛spider、鼬鼠weasel。魔寵出現在施法距離內一處未被佔據的空間，雖然有著所選的生物屬性數據，但其種類為天界生物，精類生物或邪魔（由你選擇）而不是野獸。\n<br>你的魔寵可以獨立行動，不過會隨時遵循你的指令。戰鬥時，它為自己骰先攻，並在自己的回合里行動。魔寵無法攻擊，但是它能如常執行其他動作。\n<br>魔寵的HP 降為0時自行消失，且不會留下任何物理殘餘，而當你重新施展該法術后它會重新出現。\n<br>你的魔寵在你身邊100尺範圍內時，你可以與其進行心靈交流。此外，你還可以用一個動作將自己的視覺和聽覺切換到魔寵的感官，並一持續至你下一回合。在此期間，你同時享有該魔寵自身的特殊感官，而你本體的感官則等同於陷入耳聾以及目盲狀態。\n<br>你可以用一個動作暫時的解散你的魔寵。此時它將進入一個小位面等待你的重新召喚。或者，你也可以選擇永久解散它。暫時解散時，你可以用一個動作召喚它出現在30尺內任意未佔據的空間中。\n<br>你不能同時擁有一隻以上的魔寵，如果你在已有魔寵的狀況下施展該法術，則你可以為現有的魔寵選擇的新的形態（從以上列表選擇）。\n<br>此外，當你施展施法距離為觸及的法術時，你的魔寵可以幫你傳遞法術，其效果就如同該法術由魔寵施展一樣。此時你的魔寵必須在你身邊100尺範圍內，且其必須可以執行反應來傳遞法術。如果傳遞的法術需要進行攻擊檢定，則該檢定將使用你自己的攻擊調整值。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 240",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false,
+      "value": ""
+    },
+    "materials": {
+      "value": "將價值 10gp 的木炭、焚香以及香草，放在黃銅盆中燒盡，作為該法術的耗材",
+      "consumed": true,
+      "cost": 10,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 35400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720797828652,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!daB7oGSKy1BglKlt"
+}

@@ -1,0 +1,147 @@
+{
+  "_id": "ScqNvMCUNcvTs5rG",
+  "name": "魅影之力 phantasmal force",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_Arcane02.png",
+  "effects": [],
+  "folder": null,
+  "sort": 25000000,
+  "flags": {
+    "_sheetTab": "description",
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "otherSaveDamage": "default"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">你指定施法距離內一個你能夠看見的生物，並創造一個根植於其意識的幻像。該目標必須進行一次智力豁免。豁免失敗時，你創造出一個不大於10 尺立方且只能被目標感知到的幻影物件，生物或其他你指定的可見現象。該創造將持續存在直至法術終止。且該法術對不死生物和構裝生物無效。</div>\n<div class=\"description \">該幻像包括聲音、溫度和其他反應因素，同樣只對目標顯現。目標可以用其動作進行一次對抗該法術豁免DC 的智力（調查）檢定來檢查這個幻像。檢定成功則目標意識到該幻像是一個幻術，法術隨即終止。</div>\n<div class=\"description \">目標受法術影響時會認定幻像是真實的，並且會合理化任何與幻像產生的不合邏輯的互動結果。例如，某個受術生物試圖走過一座跨越峽谷的幻影橋時踏出第一步就從橋上墜落。如果目標在墜落中倖存，它會仍然相信該橋是真實存在的，並且會提出自己墜落的一些其他解釋&mdash;&mdash;比如被推了一把，自己滑倒了，或者可能有一陣強風把他吹了下來。</div>\n<div class=\"description \">受法術影響的目標對幻像的真實性深信不疑，甚至還會受到幻象的直接傷害。一個生物模樣的幻像可以攻擊目標。比如，顯現為火焰，酸池或巖漿的幻象能夠燒傷目標。在你的每一回合，如果目標在幻象的傷害區域內或在其顯現的生物周邊5 尺攻擊範圍內，則幻象可以對目標造成1d6 點心靈傷害。而此時目標則會感覺該傷害與幻像所顯現的型別相符。</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 274",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "int",
+    "actionType": "summ",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一點羊毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "summons": {
+      "match": {
+        "proficiency": false,
+        "attacks": false,
+        "saves": false
+      },
+      "bonuses": {
+        "ac": "",
+        "hp": "",
+        "attackDamage": "",
+        "saveDamage": "",
+        "healing": ""
+      },
+      "profiles": []
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711730129328,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ScqNvMCUNcvTs5rG"
+}

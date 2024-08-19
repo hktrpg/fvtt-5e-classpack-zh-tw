@@ -1,0 +1,86 @@
+{
+  "_id": "jbF707c18X2M5EYm",
+  "name": "灼燒烈焰 Cauterizing Flames",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/inv_tradeskillitem_lessersorcerersfire.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你獲得將死亡轉化為可以用於治療或焚燒的魔法火焰的能力。</p>\n<p>當一個小型或更大生物在你或你的野火精魂 30 尺內死亡時，無害幽火從其死亡生物空間中涌現並在此處搖曳 1 分鐘。當一個你可見的生物進入該空間時，你可以用反應撲滅那裡的幽火併對該生物進行治療或火焰傷害。傷害或治療數值等於[[/r 2d10]]+你的感知調整值。</p>\n<p>你能使用該特性的次數等於你熟練加值，你在完成一次長休後會恢復所有已消耗使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "@mod",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "2d10 + @abilities.wis.mod",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "野火結社等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!jbF707c18X2M5EYm"
+}

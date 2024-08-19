@@ -1,0 +1,139 @@
+{
+  "_id": "blzFbMN0WrOEGDXX",
+  "name": "元素賜福 Elemental Gift",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_frostfire-orb.png",
+  "system": {
+    "description": {
+      "value": "<p>你逐漸顯露出你的巨靈宗主的特質。你對由你的宗主型別決定的一種傷害型別具有抗性：鈍擊（土巨靈），雷鳴（氣巨靈），火焰（火巨靈），冷凍（水巨靈）。 同時，以一個附贈動作，你可以獲得一個持續10分鐘的30尺飛行速度，並且在飛行時你可以懸浮。你可以使用此附贈動作的次數等同於你的熟練加值，並在完成一次長休后恢復所有使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 3,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "巨靈宗主等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "b8jOgHndeuTasjp7",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.hover",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.blzFbMN0WrOEGDXX",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 30 尺飛行速度",
+      "img": "modules/dnd5e_classpack/Nicons/spell_frostfire-orb.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!blzFbMN0WrOEGDXX.b8jOgHndeuTasjp7"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192746162,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!blzFbMN0WrOEGDXX"
+}

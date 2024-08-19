@@ -1,0 +1,127 @@
+{
+  "_id": "JXjHc37DKcHrPtNz",
+  "name": "涅斯圖魔法靈光 Arcanist's Magic Aura",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Mage_NetherWindPresence.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在觸及的一個生物或一個物件身上設定一個幻術，使得預言法術會揭示出關於該目標的錯誤資訊。目標可以是一個自願的生物，或者是一個未被其他生物著裝或攜帶的物件。\n<br>施展此法術時，你選擇下列效應中的一個或兩個。效應在持續時間內一直存在。如果你每天都對同一個生物或物件施展此法術且每次都選擇相同的效應，持續30天，幻術就會一直存在直到被解除。\n<br><strong>虛假靈光False Aura。</strong>針對目標的靈光偵測法術和魔法效應（例如法術偵測魔法）將顯示不同的資訊。你可以使一個非魔法物件顯示出魔法，一個魔法物件顯示出非魔法；或者改變物件的魔法靈光，使其顯示出由你選擇的特定魔法學派的靈光。當你對物件設定該效應時，你可以使這種虛假的魔法向任何使用此物品的生物顯示出來。\n<br><strong>偽裝Mask。</strong>針對目標生物類別的偵測法術和魔法效應（例如聖武士的「神聖感知」，或法術徽記術的觸發條件）將顯示不同的資訊。你選擇一種生物類別，其他法術和魔法效應將會認為目標生物屬於該類別或者屬於該類別所屬陣營。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一小塊方形絲綢",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 16700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722342997577,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JXjHc37DKcHrPtNz"
+}

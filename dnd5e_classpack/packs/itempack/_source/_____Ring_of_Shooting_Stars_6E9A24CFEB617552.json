@@ -1,0 +1,130 @@
+{
+  "_id": "6E9A24CFEB617552",
+  "name": "流星戒指 Ring of Shooting Stars",
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>戒指（需在夜晚的戶外同調）</em></p>\n<p>佩戴這枚戒指且在黑暗或昏暗照明環境下時，你可以隨意施展@UUID[Compendium.dnd5e_classpack.new-icon.EytNGAyofbNy9Im9]{舞光術 Dancing Lights}和@UUID[Compendium.dnd5e_classpack.new-icon.rW5ZoeX4jjZw4hBO]{光亮術 Light}。利用戒指施法需要一個動作。</p>\n<p>戒指還有6發充能，每天黎明時恢復[[/r 1d6]]發已消耗的充能。</p>\n<p><strong>妖火。</strong>你可以用一個動作並消耗1發充能施展@UUID[Compendium.dnd5e_classpack.new-icon.sLkNbDcU39qcVt14]{妖火 Faerie Fire}。</p>\n<p><strong>流星。</strong>你可以用一個動作並消耗1-3發充能。每1發充能將轉化為一點光屑，從戒指中射出到60尺內你能看到的地點。光屑落點周圍15尺範圍內的每名生物都必須進行一次DC15的敏捷豁免，豁免失敗受到[[/r 5d4]]火焰傷害，成功則減半。</p>\n<p><strong>球狀閃電。</strong>你可以用一個動作並消耗2發充能以創造1-4個3尺直徑的閃電球。你創造的閃電球越多，單個閃電球的威力就越小。</p>\n<p>閃電球將會出現在你周圍120尺內未被佔據的空間。它們將在你專注（如同專注於一個法術）期間持續存在，但至多不能超過1分鐘。每個閃電球都為周圍30尺提供昏暗照明。</p>\n<p>以一個附贈動作，你可以將每個閃電球移動至多30尺，但不能離開你周圍120尺的範圍。當閃電球和某名除你以外的生物間距離不足5尺時，它將向該生物釋放閃電然後消失。該生物必須進行一次DC15的敏捷豁免，失敗則受到相應閃電傷害。單個閃電球的傷害如下表所示：</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>閃電球數量</strong><p></p>\n</td>\n<td><strong>單個閃電球傷害</strong></td>\n</tr>\n<tr>\n<td>4<p></p>\n</td>\n<td>[[/r 2d4]]</td>\n</tr>\n<tr>\n<td>3<p></p>\n</td>\n<td>[[/r 2d6]]</td>\n</tr>\n<tr>\n<td>2<p></p>\n</td>\n<td>[[/r 5d4]]</td>\n</tr>\n<tr>\n<td>1<p></p>\n</td>\n<td>[[/r 4d12]]</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 192"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 14000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 6,
+      "max": "6",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 53700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!6E9A24CFEB617552"
+}

@@ -1,0 +1,131 @@
+{
+  "_id": "InxRn0MsZsH5wslj",
+  "name": "雪雨暴 Sleet Storm",
+  "type": "spell",
+  "img": "icons/magic/water/projectile-beams-salvo-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 15900000,
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你指定施法距離內一點,並使以該點為中心，半徑40尺、高20尺的區域內降下寒冷刺骨的凍雨和冰雹直至法術終止。該區域將造成重度遮蔽，且該區域內的一切開放的明火都將被澆熄。\n<br>該區域的地面上覆著一層光滑的冰，使地面變成困難地形。\n<br>生物在一個回合內第一次進入該區域或在區域內開始其回合時，必須進行一次敏捷豁免，豁免失敗則失足倒地。\n<br>如果法術區域內有一個生物正進行專注，則該生物必須進行一次對抗你法術豁免DC 的體質豁免，豁免失敗則其專注被打斷。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 276",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 40,
+      "width": null,
+      "units": "ft",
+      "type": "cylinder"
+    },
+    "range": {
+      "value": 150,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一撮灰塵和幾滴水",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353195523,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!InxRn0MsZsH5wslj"
+}

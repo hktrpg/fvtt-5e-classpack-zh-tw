@@ -1,0 +1,98 @@
+{
+  "name": "火之符文 Fire Rune",
+  "type": "feat",
+  "img": "icons/commodities/treasure/token-engraved-red-glowing.webp",
+  "system": {
+    "description": {
+      "value": "<p>該符文的異能可以引導偉大鐵匠的高超技藝。當你穿著或持有一個銘刻此符文的物品，你在進行使用工具的熟練項進行技能檢定時，你的熟練加值翻倍。</p><p>此外，當你使用一次武器攻擊擊中了一個生物，你可以啟用此符文來召喚熾熱鐐銬：目標受到額外[[/r 2d6]]的火焰傷害，且目標必須通過一次力量豁免檢定，如果失敗則被束縛1分鐘。當目標被熾熱鐐銬束縛時，目標在它的每回合開始時受到[[/r 2d6]]的火焰傷害。目標可以在每個自己回合結束時重複進行此豁免檢定，直到成功解除束縛。每當你啟用該符文，你無法再次使用該異能直到你完成一次短休或長休。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "special",
+      "cost": 1,
+      "condition": "使用一次武器攻擊擊中了一個生物"
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "con"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "rune"
+    },
+    "requirements": "符文騎士等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": 1686420484950,
+    "modifiedTime": 1686421751543,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "T6Sp4fwgXhcmKFCd",
+  "_id": "bhJ4eR9o9RgyaEku",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jo05tXxu7yf2dQe3": 3
+  },
+  "_key": "!items!bhJ4eR9o9RgyaEku"
+}

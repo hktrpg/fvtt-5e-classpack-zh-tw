@@ -1,0 +1,250 @@
+{
+  "_id": "hFHF7vm3FYyTN288",
+  "name": "睡眠術 Sleep",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "otherCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_foundryraid_dormant.jpg",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.fail.ability.save.dex",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.fail.ability.save.str",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.critical.range",
+          "mode": 5,
+          "value": "5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "0",
+          "priority": 25
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.mwak",
+          "value": "1",
+          "mode": 0,
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.msak",
+          "value": "1",
+          "mode": 0,
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.disadvantage.attack.rwak",
+          "value": "1",
+          "mode": 0,
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.grants.disadvantage.attack.rsak",
+          "value": "1",
+          "mode": 0,
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "value": "1",
+          "mode": 0,
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "value": "*0.5",
+          "mode": 0,
+          "priority": 25
+        }
+      ],
+      "description": "- An unconscious creature is incapacitated (See the condition) can't move or speak, and is unaware of its surroundings.<br />- The creature drops whatever its holding and falls prone (See the condition).<br />- The creature automatically fails Strength and Dexterity saving throws.<br />- Attack rolls against the creature have advantage.<br />- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        }
+      },
+      "name": "Unconscious",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.hFHF7vm3FYyTN288",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Unconscious",
+        "unconscious",
+        "incapacitated",
+        "prone"
+      ],
+      "_id": "pQ02FB9JXTX13Sfr",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/unconscious.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!hFHF7vm3FYyTN288.pQ02FB9JXTX13Sfr"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術使一些生物陷入魔法造成的沉睡中。擲一次5d8；其結果為受該法術影響生物的生命值總數。你指定施法距離一點，該點周圍20尺區域內的生物以剩餘生命值由小至大的順序受法術影響（生效時忽略昏迷生物）。\n<br>計算受法術影響生物時，從剩餘生命值最低的生物開始逐個計算。每個受術生物均陷入昏迷，直至法術終止。睡眠者受到傷害也會驚醒，又或者由其他人以一個動作將其搖醒或打醒。法術擲骰的生命值總數減去一個受術生物的生命值后，餘數再用以計算生命值稍高者是否受法術影響。生物剩餘生命值，必須小於等於該餘數法術才能成功影響該生物。\n<br>不死生物以及免疫魅惑效果的生物不受該法術影響。\n<br><strong>升環施法效應。</strong>使用2環或更高法術位施展該法術時，使用的法術位每比1環高一環，法術的擲骰就增加2d8。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 276",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "5d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一把細沙，玫瑰花瓣，或一隻蟋蟀",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "2d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 38200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711713684414,
+    "modifiedTime": 1722351643685,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hFHF7vm3FYyTN288"
+}

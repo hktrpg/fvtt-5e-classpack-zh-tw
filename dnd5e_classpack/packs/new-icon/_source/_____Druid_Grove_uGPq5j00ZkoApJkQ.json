@@ -1,0 +1,128 @@
+{
+  "_id": "uGPq5j00ZkoApJkQ",
+  "name": "德魯伊林地Druid Grove",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_druid_manatree.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你呼喚自然之靈來守護一塊戶外區域或者是地底。這片區域最小為邊長30英尺的立方體，最大則可達邊長90英尺的立方體。建築物和其他構造物會被排除在受影響區域外。如果你在一年內每天對同一區域施展這個法術，法術將持續到被解除。<br />法術將在區域內產生如下效果。當你施展這個法術時，你可以指定生物作為友伴免疫這些效果。你也可以指定一個口令，大聲說出口令的人也同樣免疫這些效果。<br />整個被保護的區域都輻射著魔法。一道在區域內施展的解除魔法法術若成功，將只移除以下效果之一，而非整塊區域。法術的施法者可以選擇一個效果結束。只有當所有效果結束時法術才會被解除。</p>\n<p><strong>重霧Solid Fog：</strong>你可以在地面上分佈厚霧填充任意數量的5尺方格，使其處於重度隱蔽之下。霧氣高達10英尺。在穿過霧氣時每移動1英尺就要花費額外2英尺的移動力。在免疫這個效果的生物眼中，霧氣什麼也不會掩蓋，並且看起來像是漂浮在空氣中的綠色光點。</p>\n<p><strong>糾纏灌木Grasping Undergrowth：</strong>你可以在沒有被填充霧氣的地面上分佈糾纏的藤蔓和雜草填充任意數量的5尺方格，如同它們受到了糾纏術的影響。對免疫這個效果的生物而言這些野草和藤蔓都是柔軟的，甚至可以重塑形態成為臨時的座椅和床鋪。</p>\n<p><strong>林地守衛Grove Guardians：</strong>你可以活化區域內最多四棵樹木，使它們從地面上拔根而起。這些樹木與怪物手冊中的啓蒙樹Awakened tree有相同的數據，除了它們不會說話，並且在它們的表皮上覆蓋著德魯伊符記。如果有任何不免疫這個效果的生物進入被保護的區域，林地守衛會與它們戰鬥直到入侵者被趕走或被殺死。林地守衛也遵從你在這個區域內發佈的口頭命令（無需你的動作）。如果你沒有給它們命令也沒有入侵者，林地守衛不會行動。林地守衛不能從被保護的區域離開。在法術結束時，驅動它們的魔法也會消失，它們會重新生根（如果可能的話）。</p>\n<p><strong>額外法術效果Additional Spell Effect：</strong>你可以從以下魔法效果中選擇其一放置在被保護的區域。<br />&middot;在你選擇的兩個位置佈置持續的造風術效果。<br />&middot;在你選擇的一個位置佈置荊棘叢生效果。<br />&middot;在你選擇的兩個位置佈置風墻術效果。<br />對免疫這個效果的生物而言，風是帶著芳香的微風，而佈置荊棘叢生的區域是無害的。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 90,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一個在滿月之光下以黃金鐮刀收割的槲寄生，在施法時會被消耗",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 48800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727297603,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!uGPq5j00ZkoApJkQ"
+}

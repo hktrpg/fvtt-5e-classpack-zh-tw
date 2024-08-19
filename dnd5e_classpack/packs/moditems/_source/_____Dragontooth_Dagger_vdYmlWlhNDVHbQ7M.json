@@ -1,0 +1,127 @@
+{
+  "_id": "vdYmlWlhNDVHbQ7M",
+  "name": "龍牙匕首 Dragontooth Dagger",
+  "type": "weapon",
+  "img": "icons/weapons/daggers/dagger-simple-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>一把由龍的牙齒製成的匕首。雖然刀片是用龍牙，但手柄處被一層皮革包裹。</em></p>\n<p>使用這把武器攻擊時，你的攻擊檢定和傷害擲骰+1，被命中目標受到額外的<strong>[[/r 1d6]]點<em>強酸傷害</em></strong>。</p>\n<p><strong>龍巫氣息 Draconic Potency</strong>。如果匕首命中的目標並非龍巫教的夥伴，則匕首的攻擊檢定和傷害擲骰的加值增加到+2，額外的強酸傷害增加到 [[/r 2d6]]。</p>\n<p><em>註：額外傷害已設為1d6點強酸傷害。請根據實際需要調整。</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "RoT",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4+@mod +1",
+          "piercing"
+        ],
+        [
+          "1d6",
+          "acid"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "dagger",
+    "properties": {
+      "rch": false,
+      "amm": false,
+      "ver": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": true,
+      "mgc": true,
+      "lgt": true,
+      "two": false,
+      "spc": false,
+      "thr": true,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "_key": "!items!vdYmlWlhNDVHbQ7M"
+}

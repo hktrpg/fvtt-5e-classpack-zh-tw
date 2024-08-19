@@ -1,0 +1,159 @@
+{
+  "name": "一體化防護(機關人)",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<div>你的身體有內建的防護層，這一防護可被護甲增強：</div>\n<ul>\n<li>你的防護等級（AC）+1</li>\n<li>你僅能裝備你具有熟練的護甲。爲了穿著這件護甲，你必須花費1個小時的時間將它組裝進你的身體，在此期間你必須與該護甲保持接觸。爲了脫卸這件護甲，你同樣要花費1小時來將其移除。你能在以此法穿著或脫卸護甲時進行休息。</li>\n<li>只要你還活著，你所穿著的護甲就不能在違揹你意願的情況下被卸下。&nbsp;</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "_id": "0J9piOAeeWvRYK8L",
+  "effects": [
+    {
+      "name": "一體化防護(機關人)",
+      "origin": "Compendium.dnd5e_classpack.racial-traits.Item.0J9piOAeeWvRYK8L",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "7fSaCZYqNihWycru",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        }
+      ],
+      "description": "<p>你的防護等級（AC）+1</p><p>你僅能裝備你具有熟練的護甲。爲了穿著這件護甲，你必須花費1個小時的時間將它組裝進你的身體，在此期間你必須與該護甲保持接觸。爲了脫卸這件護甲，你同樣要花費1小時來將其移除。你能在以此法穿著或脫卸護甲時進行休息。</p><p>只要你還活著，你所穿著的護甲就不能在違揹你意願的情況下被卸下。</p>",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!0J9piOAeeWvRYK8L.7fSaCZYqNihWycru"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711687673572,
+    "modifiedTime": 1711712181631,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0J9piOAeeWvRYK8L"
+}

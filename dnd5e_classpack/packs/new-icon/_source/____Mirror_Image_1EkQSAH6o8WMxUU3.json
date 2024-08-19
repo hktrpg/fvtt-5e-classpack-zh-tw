@@ -1,0 +1,127 @@
+{
+  "_id": "1EkQSAH6o8WMxUU3",
+  "name": "鏡影術 Mirror Image",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shaman_ElementalOath.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 三個你自身的幻象分身出現在你的位置上。直至法術終止前，分身都會隨你移動，並模仿你的動作和位置變換，使人無法追蹤判斷哪一個是你的真身。分身存在時，你可以用動作來解散這些幻象分身。\n<br>在法術持續時間內，每當一個生物以你為攻擊目標時，擲一次d20決定該次攻擊擊中的是否其中一個分身。\n<br>如果你有三個分身，則你必須擲出6或更高數值才能使目標的攻擊命中分身。如果你有兩個分身，則你必須擲出8或更高數值。如果你有一個分身，則你必須擲出11或更高數值。\n<br>分身的AC等於10＋你的敏捷調整值。單次攻擊命中分身時，相應分身立即被摧毀。分身只會被一次命中它的攻擊摧毀，而無視所有其他的傷害和效應。三個分身全部被毀后該法術終止。\n<br>如果一個生物無法視物，或者它可以依靠視覺之外的其它感官（例如盲視），又或者它可以如同真實視覺一樣洞察幻象，則該法術無法影響該生物。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 260",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d20",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727722633,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1EkQSAH6o8WMxUU3"
+}

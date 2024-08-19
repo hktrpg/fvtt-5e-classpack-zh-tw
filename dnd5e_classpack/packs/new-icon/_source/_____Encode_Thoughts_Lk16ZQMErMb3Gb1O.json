@@ -1,0 +1,127 @@
+{
+  "_id": "Lk16ZQMErMb3Gb1O",
+  "name": "思想編碼 Encode Thoughts",
+  "type": "spell",
+  "img": "icons/magic/light/projectile-smoke-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 19000000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>你將一根手指放在你的頭上，然後將一段記憶、想法或資訊從你的心靈中拖出來，轉變為一段由耀眼能量組成的，名為「思想鏈」的有形的鏈條，其將一直存在直到持續時間結束，或者到你再次施放這個法術為止。思想鏈出現在距離你5尺的未被佔據的空間內，表現爲一個可以像絲帶一樣被你持握或攜帶的，微小的、極輕的、半固態的物件。除此之外，思想鏈都是靜止的。如果你在施放這個法術時正在專注於一個允許你讀取或操縱他人思想的法術或能力時（例如@UUID[Compendium.dnd5e_classpack.new-icon.YuGbz9k5JXA0kIgT]{偵測思想 Detect Thoughts}或@UUID[Compendium.dnd5e_classpack.new-icon.O865yy87cPevGeMj]{篡改記憶 Modify Memory}）。你可以將你讀取到的思想和記憶轉化為思想鏈，而不是轉化你自己的。</p>\n<p>在你持握著一根思想鏈的時候施放這個法術將使你立刻接收到思想鏈里所包含的任何記憶、想法或資訊（對思想鏈施放@UUID[Compendium.dnd5e_classpack.new-icon.YuGbz9k5JXA0kIgT]{偵測思想 Detect Thoughts}也具有同樣效果）。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "GGR",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "將一根手指放在你的頭上。"
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711725911668,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Lk16ZQMErMb3Gb1O"
+}

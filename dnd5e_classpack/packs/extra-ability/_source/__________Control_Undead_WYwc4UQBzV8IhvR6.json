@@ -1,0 +1,88 @@
+{
+  "_id": "WYwc4UQBzV8IhvR6",
+  "name": "引導神力：控制亡靈 Control Undead",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Frost_FrostArmor.png",
+  "system": {
+    "description": {
+      "value": "<p>         作為一個動作項，該聖騎士指定其身邊 30尺內一個他能看見的不死生物。該目標必須進行一次感知豁免。豁免失敗時，該目標必須在隨後的 24小時里遵從該聖武士的命令，或者直至該聖武士在此使用該@UUID[Compendium.dnd5e_classpack.class-abilityphb.3eyfqXMTJMG9AxYH]{引導神力}選項為止。挑戰等級等於或高於該聖武士等級的不死生物免疫該效應。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DMG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "破誓者等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!WYwc4UQBzV8IhvR6"
+}

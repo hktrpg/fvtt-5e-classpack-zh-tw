@@ -1,0 +1,89 @@
+{
+  "_id": "gLNFWGL05O0FUNTD",
+  "name": "狂暴",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warrior_FocusedRage.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你帶著原初的狂怒作戰。你可以在自己回合內以一個附贈動作進入狂暴。<br />狂暴持續期間，只要你未著裝重甲就獲得以下增益：</p>\n<ul>\n<li>你進行力量檢定和力量豁免時具有優勢。</li>\n<li>你用力量值發動近戰武器攻擊時的傷害擲骰獲得加值。此加值隨你的野蠻人等級提升而增加，具體見「@UUID[Compendium.dnd5e_classpack.class-table.i64YEkU2hjo61bLG]{野蠻人職業表}」中「狂暴傷害」一欄。</li>\n<li>你擁有鈍擊，穿刺和揮砍傷害的抗性。</li>\n</ul>\n<p>擁有施法能力的角色無法在狂暴持續期間施展法術或進行法術專注。<br />你的狂暴狀態維持1分鐘。如果你在狂暴其間陷入昏迷，或者，如果你在上一個自己回合之後到本回合結束時都未攻擊任何敵對生物也未受到傷害，則狂暴提前結束。你也可以在自己回合里以一個附贈動作主動結束狂暴狀態。</p>\n<p>「@UUID[Compendium.dnd5e_classpack.class-table.i64YEkU2hjo61bLG]{野蠻人職業表}」中根據你的野蠻人等級給出了相應的狂暴次數。如果你用光了這些次數，則必須完成一次長休才能再次使用狂暴。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 48",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 2,
+      "max": "@classes.barbarian.levels>19?99:(@classes.barbarian.levels>16?6:(@classes.barbarian.levels>11?5:(@classes.barbarian.levels>5?4:(@classes.barbarian.levels>2?3:2))))",
+      "per": "lr",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "野蠻人等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!gLNFWGL05O0FUNTD"
+}

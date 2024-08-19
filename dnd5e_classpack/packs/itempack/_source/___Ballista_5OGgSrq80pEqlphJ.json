@@ -1,0 +1,129 @@
+{
+  "_id": "5OGgSrq80pEqlphJ",
+  "name": "弩炮 Ballista",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/ballista-wood-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>大型物件</em></p>\n<p><strong>傷害免疫：</strong>毒素，心靈</p>\n<p>弩炮是一副發射重型弩矢的巨型十字弩。其攻擊發射前必須先進行裝填和瞄準作業。使用該武器時，進行裝填、瞄準以及攻擊發射三項作業需要分別花費一個動作。</p>\n<p><em><strong>弩矢Bolt。</strong>遠端武器攻擊</em>：<strong>命中+6，射程120/480尺</strong>，單一目標。傷害：<strong>16（3d10）點<em>穿刺傷害</em></strong>。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "攻擊發射前必須先進行裝填和瞄準作業。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 120,
+      "long": 480,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d10",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 15
+    },
+    "hp": {
+      "value": 50,
+      "max": 50,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [],
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "-@mod+6",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 47700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!5OGgSrq80pEqlphJ"
+}

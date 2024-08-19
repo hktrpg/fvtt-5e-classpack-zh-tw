@@ -1,0 +1,94 @@
+{
+  "_id": "f67fXbqyV95H2Y0l",
+  "name": "鴉閣聖像 Icon of Ravenloft",
+  "type": "consumable",
+  "img": "icons/commodities/treasure/statue-bust-stone-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需要一位善良陣營生物同調）</em></p>\n<p>鴉閣聖像 是一尊的 12 寸高的小雕像，由最純凈的銀子鑄成，重10 磅。它刻畫出一位跪著祈禱的牧師。</p>\n<p>這尊聖像是施特拉德家族的老朋友大祭司西里爾·羅姆里奇 Ciril Romulich 贈給施特拉德、用來給城堡和城堡內的聖堂祝聖的。</p>\n<p>生物在聖像 30 尺範圍內時受@UUID[Compendium.dnd5e_classpack.new-icon.IuzXxwP3EhWGhtXC]{防護善惡 Protection from Evil and Good}的效果加持，用以對抗邪魔與亡靈。一名生物只有與聖像同調后才能使用聖像的其它屬性。</p>\n<p><strong>占卜Augury</strong>。以一個行動，你能使用聖像釋放一次@UUID[Compendium.dnd5e_classpack.new-icon.umqpL5B9ccbkpJtJ]{卜筮術 Augury}，無需花費任何材料。一旦使用，這個屬性直到下一個黎明都不能再被使用了。</p>\n<p><strong>亡靈之禍Bane of the Undead</strong>。在使用「驅散不死生物 Turn Undead」或「驅散不潔 Turn the Unholy」特性時，你可以將這尊聖像作為聖徽使用，若如此，則該豁免DC+2。</p>\n<p><strong>療傷Cure Wounds</strong>。持有該聖像時，你可以以一個行動，治療一個 30 尺內的你所能看見的生物。目標恢復[[/r 3d8+3]]點生命值，不死生物，構裝體，及惡魔除外。使用后，該屬性直到下一個黎明無法使用。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "CoS",
+    "quantity": 1,
+    "weight": 10,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "不死生物，構裝體，及惡魔除外。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d8+3",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "_key": "!items!f67fXbqyV95H2Y0l"
+}

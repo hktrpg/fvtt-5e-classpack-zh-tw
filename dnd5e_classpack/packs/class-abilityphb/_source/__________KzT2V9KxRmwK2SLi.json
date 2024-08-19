@@ -1,0 +1,105 @@
+{
+  "_id": "KzT2V9KxRmwK2SLi",
+  "name": "魔能祈喚:癲狂巫咒",
+  "type": "feat",
+  "img": "icons/magic/water/bubbles-air-water-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>    以一個附贈動作，對你以@UUID[Compendium.dnd5e_classpack.new-icon.KhekI9OpHBERLsux]{脆弱詛咒}法術或@UUID[Compendium.dnd5e_classpack.extra-ability.JRyFQmsWflAFkBgN]{咒劍詛咒}、@UUID[Compendium.dnd5e_classpack.class-abilityphb.EZOi1EL0NGt3wTxN]{ 兇兆符記}等邪術士特性所詛咒的目標，你向他施加一種精神干擾。當你如此做時，你對詛咒目標和所有距他5尺內的、你所選擇的生物造成精神傷害。精神傷害值等於你的魅力調整值（最低為1）。爲了使用此祈喚，你必須能看到詛咒目標，且他必須距你30尺以內。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "max(@abilities.cha.mod,0)",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "requirements": "邪術師等級 5，脆弱詛咒或進行詛咒的邪術師特性",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KzT2V9KxRmwK2SLi"
+}

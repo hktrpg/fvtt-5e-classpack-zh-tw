@@ -1,0 +1,129 @@
+{
+  "_id": "Yadd2Edj31nLDBJf",
+  "name": "彈射投石機 Mangonel",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/catapult-simple.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>大型物件</em></p>\n<p><strong>傷害免疫</strong>：毒素，心靈</p>\n<p>彈射投石機是一種以弧線拋射重型投石的彈道武器，其投出的石彈可以擊中身處掩護的目標。彈射投石機進行攻擊前必須先進行裝填和瞄準作業。裝填該武器需要花費兩個動作，瞄準需要花費兩個動作，而發射則需要花費一個動作。</p>\n<p>彈射投石機可以投擲標準的重型石彈，它也可以投擲其他彈藥並依不同種類而產生不同的效果。</p>\n<p><strong>彈射投石Mangonel Stone</strong>。<em>遠端武器攻擊</em>：<strong>命中+5，射程200/800尺（無法攻擊60尺內目標）</strong>，單一目標。傷害：<strong>27（5d10）點<em>鈍擊傷害</em></strong>。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "攻擊前必須先進行裝填和瞄準作業。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 200,
+      "long": 800,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "5d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 15
+    },
+    "hp": {
+      "value": 100,
+      "max": 100,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "-@mod+5",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010444188,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 121000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!Yadd2Edj31nLDBJf"
+}

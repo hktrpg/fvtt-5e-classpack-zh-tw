@@ -1,0 +1,132 @@
+{
+  "_id": "749E9FC50A454EE9",
+  "name": "雷神之錘 Hammer of Thunderbolts",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>武器（巨錘），傳說</p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+1加值。</p>\n<p>巨人殺手（需同調）：要同調此物品，你必須同時佩戴 巨人之力腰帶 belt of giant strength （任意一種）和 食人魔力量手套 gauntlets of orge power 。如果你卸下其中任何一件，雷神之錘的同調立刻終止。持有此武器且與之同調時，你的力量值提升4，可以超過20但不能超過30。當你使用這把武器攻擊巨人且投出20時，該巨人必須進行一次DC17的體質豁免，失敗則立即死亡。</p>\n<p>雷神之錘有5發充能。與它同調時，你可以消耗1發充能並用它進行一次遠端武器攻擊，此時將它視為常規射程20尺，最大射程60尺的投擲武器。如果攻擊命中，錘子將產生300尺內都可以聽清的雷鳴。目標生物和它周圍30尺內的生物必須通過一次DC17的體質豁免否則被震懾到你的下一回合結束。雷神之錘每天在黎明時恢復1d4發用掉的充能。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 173"
+    },
+    "quantity": 1,
+    "weight": 10,
+    "price": {
+      "value": 16000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 5,
+      "max": "5",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 +@mod +1",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 17,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "hvy",
+      "two"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 56500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!749E9FC50A454EE9"
+}

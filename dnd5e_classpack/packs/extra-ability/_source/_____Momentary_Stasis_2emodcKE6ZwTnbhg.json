@@ -1,0 +1,86 @@
+{
+  "_id": "2emodcKE6ZwTnbhg",
+  "name": "瞬時靜止 Momentary Stasis",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Mage_TimeWarp.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從6級起，以一個動作，你可以魔法地迫使60尺內你可以看見的一個大型或更小的生物進行一次對抗你法術豁免DC的體質豁免檢定。若失敗，該生物將被禁錮於一個魔法力場中，直至你的下回合結束或者該生物受到任何傷害。當以此法被禁錮時，該生物陷入失能，並且速度被降至0。</p>\n<p>          你可以使用這一特性等同於你智力調整值的次數（至少一次）。你在完成一次長休後重獲所有已消耗的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "可以看見的一個大型或更小的生物。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.int.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "時間魔法等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2emodcKE6ZwTnbhg"
+}

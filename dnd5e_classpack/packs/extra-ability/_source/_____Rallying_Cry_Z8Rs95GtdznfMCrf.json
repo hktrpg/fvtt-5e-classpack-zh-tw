@@ -1,0 +1,94 @@
+{
+  "_id": "Z8Rs95GtdznfMCrf",
+  "name": "重整姿態 Rallying Cry",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Achievement_BG_KillFlagCarriers_grabFlag_CapIt.png",
+  "system": {
+    "description": {
+      "value": "<p>從3級起，你學會了如何激勵你的盟友來對抗傷害。當你使用你的@UUID[Compendium.dnd5e_classpack.class-abilityphb.AQ0X21tf5cmjRmGT]{回氣}能力，你可以選擇在你60尺範圍內最多3個盟友，他們每個人都恢復等同於你的戰士等級的生命值。他們必須要能看到或者聽到你的聲音才能獲得這個好處。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": "使用回氣。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 3,
+      "width": null,
+      "units": "any",
+      "type": "ally"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "@classes.fighter.levels",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "紫龍騎士等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686419315733,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Z8Rs95GtdznfMCrf"
+}

@@ -1,0 +1,91 @@
+{
+  "_id": "2JbjMYpSiJM5QotY",
+  "name": "召喚野火精魂 Summon Wildfire Spirit",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_racial_fireresist.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "\n<p>你能召喚出與你靈魂連線的原初精魂。以一個動作，你可以消耗一次@UUID[Compendium.dnd5e_classpack.class-abilityphb.pORTgCToV9NLPWo1]{荒野形態}使用次數召喚你的野火精魂，而不是變化為野獸形態。</p>\n<p>精魂出現在你所選擇的距離你 30 尺內未被佔據的可見空間內。每個精魂 10 尺內的生物（除你之外）在它出現時都必須成功一次對抗你法術豁免 DC 的敏捷豁免否則受到[[/r 2d6]]火焰傷害。</p>\n<p>野火精魂對你與你的同伴保持友善並遵從你的命令。在野火精魂資料表中可以看到這隻生物的遊戲數據，其中幾處採用了你的熟練加值（PB）。由你來決定精魂的外形。一些精魂是熊熊燃燒的枝條虬結而成的人形，而另一些則像是被火焰包裹的野獸。</p>\n<p>在戰鬥中，野火精魂與你使用同一先攻，但在你的回合之後緊接著行動。它僅能使用迴避動作，除非你使用一個附贈動作命令它採取其他動作。那個動作可以是其資料表上的一個，也可以是其他動作。如果你陷入失能，精魂可以採取任何它選擇的動作，不只是迴避。</p>\n<p>野火精魂持續存在 1 小時，直到其生命值降低至 0，或直到你再次使用此特性召喚此精魂，或直到你死亡。</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "野火結社等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2JbjMYpSiJM5QotY"
+}

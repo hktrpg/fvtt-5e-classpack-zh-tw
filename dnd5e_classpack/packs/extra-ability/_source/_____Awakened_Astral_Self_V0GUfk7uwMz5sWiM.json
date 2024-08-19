@@ -1,0 +1,130 @@
+{
+  "_id": "V0GUfk7uwMz5sWiM",
+  "name": "星我覺醒 Awakened Astral Self",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_priest.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你與星我之間的連線趨近完美，你能夠釋放它的全部潛能。以一個附贈動作，你可以花費5點氣召喚你的@UUID[Compendium.dnd5e_classpack.extra-ability.Qctmiuim4M9SfU1E]{星我之臂}、@UUID[Compendium.dnd5e_classpack.extra-ability.vimr3VI7xsnK1ydv]{星我之容}和@UUID[Compendium.dnd5e_classpack.extra-ability.lG7lOXsvmj7RXhkk]{星我之軀}，這種星我覺醒狀態持續10分鐘，如果你失能或死亡，這種覺醒狀態會提前結束。</p>\n<p>當你處於星我覺醒時，你將獲得如下增益：</p>\n<ul>\n<li><strong>靈魂盔甲</strong>。你的AC獲得+2加值。</li>\n<li><strong>星之連擊</strong>。當你使用@UUID[Compendium.dnd5e_classpack.class-abilityphb.WKQXfXbifuoCk1V1]{額外攻擊}特性進行兩次攻擊時，可以改為三次攻擊，所有的攻擊必須都是星我之臂進行的。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "5 點氣。"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "星我宗等級 17",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "uccizkzfb6kIK7L1",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.V0GUfk7uwMz5sWiM",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 2 AC",
+      "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_priest.jpg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!V0GUfk7uwMz5sWiM.uccizkzfb6kIK7L1"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!V0GUfk7uwMz5sWiM"
+}

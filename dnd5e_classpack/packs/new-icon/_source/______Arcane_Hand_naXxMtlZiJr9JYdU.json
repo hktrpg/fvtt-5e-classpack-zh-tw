@@ -1,0 +1,136 @@
+{
+  "_id": "naXxMtlZiJr9JYdU",
+  "name": "畢格比之手 Arcane Hand",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_DeadofNight.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內指定一處你能看見且未被佔據的空間，並在該處創造出一隻閃爍著微光的巨手。巨手在法術持續時間內維持存在，並聽從你的命令模仿你手掌移動的方式進行移動。巨手視為一個物件，其AC為20，生命值等於你的生命值上限。如果它的生命值降至0則法術提前終止。其力量為26（+8），敏捷為10（+0）。巨手並不佔據其所在的空間。\n<br>施展此法術時，你可以令巨手移動至多60尺遠並造成下列效應之一。你也可以在自己隨後的回合里以一個附贈動作完成該效應。\n<br><strong>金剛拳Clenched Fist。</strong>巨手對自身5尺內的一個生物或物件發動打擊。用你自身的遊戲資料發動一次近戰法術攻擊，並在命中時造成4d8點力場傷害。\n<br><strong>飛擊掌Forceful Hand。</strong>巨手嘗試對自身5尺內的一個生物進行推擠。用巨手的力量檢定與目標的力量（運動）檢定作對抗。如果目標為中型或更小的生物則你的檢定具有優勢。你勝出對抗時，目標將被推開數尺，其具體尺數等於5加上你施法關鍵屬性調整值得五倍。巨手隨著目標一起移動，並與之保持5尺的距離。\n<br><strong>擒拿掌Grasping Hand。</strong>巨手嘗試對自身5尺內的一個巨型或更小的生物進行擒抱。該擒抱的計算數據使用巨手的力量值。如果目標體型為中型或更小，則你的檢定具有優勢。在巨手擒抱目標期間，你可以使用一個附贈動作命令巨手對其進行擠壓，並對目標造成2d6＋你的施法關鍵屬性調整的鈍擊傷害。\n<br><strong>護身掌Interposing Hand。</strong>巨手阻擋在你和一名你所選生物中間，直到你給他另一個命令為止。巨手不斷移動保持在你和目標中間，使得你相對目標處於半身掩護。如果目標的力量值小於或等於巨手的力量值，則其無法穿過巨手的阻擋。如果其力量值高於巨手，則目標可以穿過巨手所在的空間，不過該空間必須被目標視為困難地形。\n<br><strong>升環施法效應。</strong>使用6環或更高法術位施展該法術時，你使用的法術位每比5環高一環，則金剛拳的傷害提高2d8，擒拿掌的傷害提高2d6。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "space"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rsak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "force"
+        ]
+      ],
+      "versatile": "2d6",
+      "value": ""
+    },
+    "formula": "1d20+8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一塊蛋殼和一隻蛇皮手套",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "2d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 43000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717428488397,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!naXxMtlZiJr9JYdU"
+}

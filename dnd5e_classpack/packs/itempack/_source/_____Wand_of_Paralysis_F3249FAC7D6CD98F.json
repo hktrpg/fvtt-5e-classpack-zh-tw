@@ -1,0 +1,115 @@
+{
+  "_id": "F3249FAC7D6CD98F",
+  "name": "麻痹魔杖 Wand of Paralysis",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需施法者同調）</em></p>\n<p>這把魔杖有7發充能。持握此魔杖時，你可以用一個動作並消耗1發充能從魔杖尖端向60尺內一名你能看到的生物射出一道纖細的藍色光線。目標必須成功通過一次DC 15的體質豁免否則麻痹1分鐘。目標可以在它的每回合結束時再次嘗試豁免，成功則不再麻痹。</p>\n<p>魔杖每天黎明時恢復1d6+1發已消耗的充能。當充能耗盡時，骰一次d20。如果骰值為1，魔杖將化為灰燼而毀滅。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 211"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 16000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "1d4 +1"
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 100000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!F3249FAC7D6CD98F"
+}

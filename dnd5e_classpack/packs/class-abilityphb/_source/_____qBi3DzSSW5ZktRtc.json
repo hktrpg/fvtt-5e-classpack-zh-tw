@@ -1,0 +1,106 @@
+{
+  "_id": "qBi3DzSSW5ZktRtc",
+  "name": "凝氣剛拳",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_monk_Jab.png",
+  "system": {
+    "description": {
+      "value": "<p>        你可以將大氣凝聚成拳進行打擊。作為一個動作，你可以消耗2點氣並指定一個在你身邊30尺內的生物。該生物必須進行一次力量豁免，豁免失敗者將受到[[/r 3d10]]點鈍擊傷害，此外你每額外消耗1點氣則再增加[[/r 1d10]]點鈍擊傷害，並且可以將目標從遠離你的方向推開至多20尺再使其倒地。豁免成功則傷害減半，且不會被推離和擊倒。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "2 點氣（或額外氣以造成每點氣額外傷害）。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d10",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "wis",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "elementalDiscipline"
+    },
+    "requirements": "四象宗等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qBi3DzSSW5ZktRtc"
+}

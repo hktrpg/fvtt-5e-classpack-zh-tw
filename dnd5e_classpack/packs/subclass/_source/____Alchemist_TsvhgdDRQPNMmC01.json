@@ -1,0 +1,199 @@
+{
+  "_id": "TsvhgdDRQPNMmC01",
+  "name": "鍊金師 Alchemist",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Monk_Ability_CherryManaTea.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>         鍊金師是將奇異的原料混合在一起以產生種種新物質的專家，鍊金師的創造物能用來延續生命，也能用來奪走生命。鍊金術是最古老的奇械師技藝，它的多功能性在戰爭與和平時都長期受到重視。。</p>\n<h3><strong>本職工具</strong></h3>\n<p>         當你在第三級選擇此專業時，你獲得@UUID[Compendium.dnd5e_classpack.itempack.EFBBAE8B63126638]{鍊金工具}的熟練。如果你已經擁有此熟練，作為代替，你能獲得另一種工匠工具的熟練。</p>\n<h3><strong>鍊金師法術</strong></h3>\n<p>         從第3級起，只要你達到相應的職業等級，鍊金師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>職業等級</th>\n<th>法術</th>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.L6dK0A5IfpiXRhdm]{治癒真言}@UUID[Compendium.dnd5e_classpack.new-icon.PZQqlG5R6G24aWtm]{致病射線}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.TEZY0aYJtnuU4FlW]{熾焰法球}@UUID[Compendium.dnd5e_classpack.new-icon.jR5afVVOCCwjkbz2]{馬友夫強酸箭}</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.gjE6zBmfdUOwXiae]{氣化形體}@UUID[Compendium.dnd5e_classpack.new-icon.6PTF3SN0jxkEqv6W]{群體治癒真言}</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.AVumturalJuP4paw]{枯萎術}@UUID[Compendium.dnd5e_classpack.new-icon.4gLdaCM7rxoNhj8d]{防死結界}</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.T39k39dbE2poIFc5]{死云術}@UUID[Compendium.dnd5e_classpack.new-icon.63gAxMpLpbVW9Oja]{死者復活}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "identifier": "alchemist",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "tkbgdbxvtxpu7hy5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.L6dK0A5IfpiXRhdm",
+            "Compendium.dnd5e_classpack.new-icon.PZQqlG5R6G24aWtm"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "g4zf4sd250fujr18",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.TEZY0aYJtnuU4FlW",
+            "Compendium.dnd5e_classpack.new-icon.jR5afVVOCCwjkbz2"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "9gux83m1up7lh3r9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.gjE6zBmfdUOwXiae",
+            "Compendium.dnd5e_classpack.new-icon.6PTF3SN0jxkEqv6W"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "wwxsap8xb3qeivcw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.AVumturalJuP4paw",
+            "Compendium.dnd5e_classpack.new-icon.4gLdaCM7rxoNhj8d"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 13,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "xtggaeyr4hmz2fse",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.T39k39dbE2poIFc5",
+            "Compendium.dnd5e_classpack.new-icon.63gAxMpLpbVW9Oja"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 17,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "ghdml62lf7ggrhk9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.sGggioh8w6WTNUbD"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "6ptlppq33l9j3s9q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.i7WUteJZQLyoN9Jn"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 5,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "regcm0ht1xm0q4bi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.VJHMkz9DNOnuIsQ8",
+            "Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 9,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "c7jrwpcj96gafkuw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.FRsOak029n5r5Gi2",
+            "Compendium.dnd5e_classpack.new-icon.7dqplcsKNYQgRh2S",
+            "Compendium.dnd5e_classpack.new-icon.nCLJRsp7CWAACqGE"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "fxt1ffi9shru1udh",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "lingyao",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 1
+            },
+            "6": {
+              "value": 2
+            },
+            "15": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "長休製作靈藥數",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!TsvhgdDRQPNMmC01"
+}

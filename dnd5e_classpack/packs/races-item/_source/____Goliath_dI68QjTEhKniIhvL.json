@@ -1,0 +1,176 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "歌利亞 Goliath",
+  "type": "race",
+  "_id": "dI68QjTEhKniIhvL",
+  "img": "icons/commodities/stone/rock-pile-grey.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>歌利亞 Goliath</h2><p>最早的歌利亞們居住在最高的山峰上遠離林木線，空氣稀薄、寒風呼嘯。與巨人的遠親關係，和祖先們山脈家園的超自然精華的灌輸，使得歌利亞有7到8尺高，有著許多種類色調的面板，就如同不同種類的石頭。</p><h2>歌利亞特質 Goliath Traits</h2><p>作為一位歌利亞，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。你是類人生物。</p><p><strong>體型 Size</strong>。你的體型為中型。</p><p><strong>速度 Speed</strong>。你的步行速度為30尺。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.p1E0LRVFSDiCTg5I]{小型巨人 Little Giant}</strong>。你擁有運動技能的熟練項，並且在決定你的載重、和你可以推、拉及抬的重量時，你視作為體型大一級的生物。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.r4Xsz0LqpAC0mCqe]{生於高山 Mountain Born}</strong>。你具有冷凍傷害的抗性。即使你從未去過，你也天生地適應高海拔。這包括超過2萬尺的高度。</p><p><strong>@UUID[Actor.KjgPT4UMHpsUWB95.Item.JlnMw6egm8IM52KF]{石之堅韌 Stone's Endurance}</strong>。你可以超自然地藉由堅硬的巖石避免受傷。當你受到傷害時，你可以使用你的反應，擲一粒d12。將你的體質調整值與骰擲的結果相加，降低該總和的傷害。</p><p>你可以使用此特質的次數等於你的熟練加值，當你完成一次長休后，你重新獲得所有消耗的次數。</p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MMPM"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "DFdcL99Rv6kGzs1F",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "VPOs00tkhkMk8obj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.p1E0LRVFSDiCTg5I"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.r4Xsz0LqpAC0mCqe"
+            },
+            {
+              "uuid": "Actor.KjgPT4UMHpsUWB95.Item.JlnMw6egm8IM52KF"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      },
+      {
+        "_id": "CiU1fhTwWIES1wUn",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:cold"
+          ],
+          "choices": [],
+          "hint": "你具有冷凍傷害的抗性。即使你從未去過，你也天生地適應高海拔。這包括超過2萬尺的高度。"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "生於高山",
+        "icon": null
+      },
+      {
+        "_id": "khhscNEQ74i6CoyB",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ath"
+          ],
+          "choices": [],
+          "hint": "你擁有運動技能的熟練項，並且在決定你的載重、和你可以推、拉及抬的重量時，你視作為體型大一級的生物。"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "小型巨人",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713016366131,
+    "modifiedTime": 1713019612240,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dI68QjTEhKniIhvL"
+}

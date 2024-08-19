@@ -1,0 +1,126 @@
+{
+  "_id": "33995BB0E200D747",
+  "name": "巨蟒法杖 Staff of the Python",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-spiral-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>（需牧師、德魯伊或魔導士同調）</p>\n<p>你可以用一個動作說出巨蟒法杖的命令字並把它扔到你周圍10尺範圍內的地面上。法杖將變為一條@UUID[Compendium.dnd5e_classpack.monsterspack.NpvwE1feOHyEqAbP]{巨蟒蛇Giant Constrictor Snake}。巨蟒聽你指揮，並在其自身的先攻值行動。用一個附贈動作再次說出命令字可將巨蟒變回法杖形態。</p>\n<p>在你的回合內，只要巨蟒在你周圍60尺內且你並未失能，你就可以通過精神命令控制巨蟒。你可以決定巨蟒下一輪的動作和移動，或是下達寬泛的命令，如「攻擊敵人」或「保護某地點」。</p>\n<p>當巨蟒的生命值降至0時它將死亡，法杖也會被摧毀。只要巨蟒的生命沒有降至0，它就會在恢復法杖形態時恢復所有失去的HP。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 204"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 2000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 31500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!33995BB0E200D747"
+}

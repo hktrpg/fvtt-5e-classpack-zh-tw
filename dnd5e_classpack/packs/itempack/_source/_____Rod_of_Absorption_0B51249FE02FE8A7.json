@@ -1,0 +1,115 @@
+{
+  "_id": "0B51249FE02FE8A7",
+  "name": "吸收權杖 Rod of Absorption",
+  "type": "consumable",
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>持握這把權杖時，你可以使用反應以吸收一個僅以你為目標（而非影響你所在的區域）的法術。被吸收的法術不產生效果，但其能量（而非法術本身）被權杖吸收。這股能量的環數與該法術被施展時的環數相同。</p>\n<p>吸收權杖從產生到毀滅只能儲存50環的能量。吸收滿50環能量后，它將無法再吸收法術。如果權杖無法吸收某個以你為目標的法術，則該法術不受權杖影響。</p>\n<p>當你與吸收權杖同調時，你瞭解權杖已經吸收過多少能量，以及它現時儲存了多少能量。</p>\n<p>如果你是一名施法者，當你持握吸收權杖時，你可以將權杖中儲存的能量轉化為法術位施展你準備或知曉的法術。你可以轉化最高5環的法術位，但不能高於你擁有的最高環法術位。你仍如通常一般施法，只是消耗權杖儲存的能量代替自身法術位。例如，你可以用權杖儲存的3環能量代替自身的一個3環法術位。</p>\n<p>新發現的吸收權杖通常已經儲存了[[/r 1d10]]環能量。無法繼續吸收能量且儲存的能量已經用盡的吸收權杖將變為普通物品。</p>\n<p>**Foundry 註：這把權杖設定為在新發現時具有10發充能，根據實際調整。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 195"
+    },
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 50000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "被轉化的法術環位不高於五環。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 10,
+      "max": "50",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 17800000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!0B51249FE02FE8A7"
+}

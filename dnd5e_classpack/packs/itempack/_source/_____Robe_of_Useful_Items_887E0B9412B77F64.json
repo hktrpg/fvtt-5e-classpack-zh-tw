@@ -1,0 +1,130 @@
+{
+  "_id": "887E0B9412B77F64",
+  "name": "雜貨法袍 Robe of Useful Items",
+  "type": "equipment",
+  "img": "icons/equipment/back/mantle-collared-black.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這件長袍上打著各種顏色和形狀的補丁。穿著這件長袍時，你可以用一個動作撕下一塊補丁，令它變成它象徵的物品。所有補丁都被撕下後，這件長袍將變為普通衣物。</p>\n<p>雜貨法袍有以下補丁各2個：</p>\n<ul>\n<li>@UUID[Compendium.dnd5e_classpack.itempack.78342EC246D19CE6]{匕首 Dagger}</li>\n<li>@UUID[Compendium.dnd5e_classpack.itempack.1E736C2439A4AE33]{牛眼提燈 Bullseye Lantern}（裝滿燃料且點燃）</li>\n<li>@UUID[Compendium.dnd5e_classpack.itempack.A093417A4A3FAB10]{鋼面鏡 Steel Mirror}</li>\n<li>10尺@UUID[Compendium.dnd5e_classpack.itempack.9D4941C007EBCEDA]{長桿 Pole}</li>\n<li>@UUID[Compendium.dnd5e_classpack.itempack.2AB01617B0811939]{麻繩（50尺）Hempen Rope (50 ft.)}（盤繞狀態）</li>\n<li>@UUID[Compendium.dnd5e_classpack.itempack.FD4EAEEDEA14F1A4]{大袋子 Sack}</li>\n</ul>\n<p>另外，雜貨法袍還有[[/r 4d4]]個其他補丁。補丁對應的物品由DM選擇或隨機決定。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>[[/r d100]]</th>\n<th><strong>補丁 </strong></th>\n</tr>\n<tr>\n<td>01-08</td>\n<td>裝有100金幣的錢袋</td>\n</tr>\n<tr>\n<td>09-15</td>\n<td>價值500金幣的銀櫃（高1尺，寬、深6寸）</td>\n</tr>\n<tr>\n<td>16-22</td>\n<td>至多10尺長寬，一面有門閂的鐵門。你可以選擇一處空當安放鐵門，它將自動改變形狀貼合空當並設定鉸鏈。</td>\n</tr>\n<tr>\n<td>23-30</td>\n<td>10枚寶石。每枚價值100金幣。</td>\n</tr>\n<tr>\n<td>31-44</td>\n<td>24尺長的木梯</td>\n</tr>\n<tr>\n<td>45-51</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.rz8UTUnFT87BsAFR]{乘用馬Riding Horse}及鞍囊</td>\n</tr>\n<tr>\n<td>52-59</td>\n<td>10尺立方的陷坑。你可以將其佈置在你周圍10尺內的地面上。</td>\n</tr>\n<tr>\n<td>60-68</td>\n<td>4瓶@UUID[Compendium.dnd5e_classpack.itempack.001CB94F5D09877A]{治療藥水 Potion of Healing}</td>\n</tr>\n<tr>\n<td>69-75</td>\n<td>12尺長的劃艇</td>\n</tr>\n<tr>\n<td>76-83</td>\n<td>寫有1個1-3環法術的法術卷軸</td>\n</tr>\n<tr>\n<td>84-90</td>\n<td>2只@UUID[Compendium.dnd5e_classpack.monsterspack.YTpL2c3NO4sOn2UA]{獒犬Mastiff}</td>\n</tr>\n<tr>\n<td>91-96</td>\n<td>2尺*4尺的窗戶，最多2尺深。你可以將它佈置在你能觸及的豎直平面上。</td>\n</tr>\n<tr>\n<td>97-00</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.D6A99E1B972F02F4]{攜帶型攻城錘 Portable Ram}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 195"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 140,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "4d4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "clothing",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 62600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!887E0B9412B77F64"
+}

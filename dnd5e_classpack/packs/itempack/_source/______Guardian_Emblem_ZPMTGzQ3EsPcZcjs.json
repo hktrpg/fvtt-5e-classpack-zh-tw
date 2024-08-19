@@ -1,0 +1,190 @@
+{
+  "name": "守護者紋章 Guardian Emblem",
+  "type": "equipment",
+  "img": "icons/commodities/treasure/token-cross-gem-yellow.webp",
+  "effects": [
+    {
+      "name": "虔信護符+1  Amulet of the Devout",
+      "origin": "Item.RDDEpsv3VSON4N8V",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "transfer": true,
+      "disabled": false,
+      "_id": "GzZLsyKPssceeZJp",
+      "changes": [
+        {
+          "key": "system.bonuses.spell.attack",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.spell.dc",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/equipment/neck/pendant-rough-silver-blue.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!ZPMTGzQ3EsPcZcjs.GzZLsyKPssceeZJp"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em style=\"mso-bidi-font-style:normal\">聖徽</em><em style=\"mso-bidi-font-style:normal\">（需牧師或聖武士同調）</em></p><p>這枚紋章是一位神祇或一種超自然傳承的徽章。作為一個動作，你可以將徽章附上一套護甲或一面盾牌或移下。<br />徽章具有3發充能。當你穿戴著附有徽章的護甲或裝備著附有徽章的盾牌，且你或一個距離你30尺內且你可見的生物受到一次重擊時，你可以用一個反應並消耗1發充能將重擊命中改為普通命中。<br />徽章在每天黎明時恢復所有已消耗的充能。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "reaction",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692348996712,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "ZPMTGzQ3EsPcZcjs",
+  "sort": 121600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!ZPMTGzQ3EsPcZcjs"
+}

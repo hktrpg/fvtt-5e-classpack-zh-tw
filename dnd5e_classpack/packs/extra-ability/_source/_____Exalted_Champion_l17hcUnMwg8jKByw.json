@@ -1,0 +1,130 @@
+{
+  "_id": "l17hcUnMwg8jKByw",
+  "name": "崇高衛士 Exalted Champion",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_Conviction.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從20級起，對於那些獻身於你所遵從的事業的人而言，你已經成爲了一個鼓舞人心的完美典範。你可以用一個動作在接下來1個小時里得到如下好處：</p>\n<ul>\n<li>你對非魔法武器所造成的鈍擊、穿刺、揮砍傷害具有抗性。</li>\n<li>在你30尺距離內的盟友在進行死亡豁免時具有優勢。</li>\n<li>你和你30尺距離內的盟友在感知豁免上具有優勢。</li>\n</ul>\n<p>如果你死亡或者進入失能狀態，這個效果將提前結束。一旦你使用了這個能力，在你完成一次長休之前你不能再次使用。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "王冠之誓等級 20",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "Qt0n5FAwhS7O9Esf",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "physical",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.l17hcUnMwg8jKByw",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得非魔法的鈍擊、刺穿、揮砍抗性",
+      "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_Conviction.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!l17hcUnMwg8jKByw.Qt0n5FAwhS7O9Esf"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!l17hcUnMwg8jKByw"
+}

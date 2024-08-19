@@ -1,0 +1,91 @@
+{
+  "_id": "i3YthtU7oYjfnZgB",
+  "name": "追蹤箭 Seeking Arrow",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Hunter_Misdirection.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         使用預言魔法，你賦予你的箭自尋目標的能力。當你使用該選項時，你不用為該次攻擊投攻擊骰，取而代之，選擇一名在過去的1分鐘里你見過的角色。如果需要的話，這隻箭會立刻掉頭飛向那名角色，且忽視四分之三和半遮蔽。如果目標在箭的射程範圍內且中間路程適合箭飛行至目標，目標必須做一個敏捷豁免。如果豁免失敗，角色會受到如同被這隻箭擊中的傷害和額外[[/r 1d6]]的穿刺傷害，而且你得知目標的確切位置。如果成功，傷害減半且你無法得知其方位。如果目標不在範圍內，箭會在飛行到最大距離后消失。</p>\n<p>         當你的戰士等級到18級時該穿刺傷害增加到[[/r 2d6]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(ceil(@classes.fighter.levels/17))d6",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "int"
+    },
+    "requirements": "魔射手等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!i3YthtU7oYjfnZgB"
+}

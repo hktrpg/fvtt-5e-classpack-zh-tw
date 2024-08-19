@@ -1,0 +1,158 @@
+{
+  "_id": "ORa3OSWbxr1phj4b",
+  "name": "喚起死靈 Create Undead",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_DeathKnight_ArmyOfTheDead.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 在施法距離內指定至多三具中型或小型類人生物遺體，並使每具受術屍體變成一隻受你控制的食尸鬼ghoul（這些生物的具體遊戲資料由DM 掌控）。該法術只能在夜晚施展。\n<br>在你的任一回合內，你可以使用一個附贈動作並以精神命令操縱120尺內任何你用此法術喚起的生物（如果你操縱多個生物，則你的命令可以同時傳達給它們全部或是其中的某幾個，不過只能使用同一種命令）。你決定被操縱的生物下回合的動作和移動。或者，你也可以選擇下達寬泛的命令，例如守護某個房間或走廊。沒有接受到你命令的生物則只會對敵對生物作出自衛的行為。一旦被下達命令，該生物會持續執行命令直到任務完成。被操縱的生物只會在24小時內服從你的命令。如果你在目前的24小時時間段終止前再次施展此法術，則你對該生物的操縱時間再延長24小時。法術的此種用法只能延長你對至多三個你使用此法術所創造生物的控制時間，而不會創造新的生物。\n<br><strong>升環施法效應。</strong>使用7環法術位施展該法術時，你可以喚起或者維持四隻食尸鬼。使用8環法術位施展該法術時，你可以喚起或維持五隻食尸鬼，或者兩隻妖鬼，或者兩個尸妖。當你使用9環法術位施展該法術時，你可以喚起或維持六隻食尸鬼，或者三隻妖鬼，或者三個尸妖，或者兩個木乃伊。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 229",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": "You can cast this spell only at night."
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 3,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "summ",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一個裝滿墳土的陶壺和一個裝滿苦水的陶壺，併爲每具屍體準備一枚 150gp 的黑瑪瑙",
+      "consumed": false,
+      "cost": 150,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "summons": {
+      "match": {
+        "proficiency": false,
+        "attacks": false,
+        "saves": false
+      },
+      "bonuses": {
+        "ac": "",
+        "hp": "",
+        "attackDamage": "",
+        "saveDamage": "",
+        "healing": ""
+      },
+      "profiles": [
+        {
+          "name": "",
+          "_id": "AhJcbn4siSED7oVf",
+          "uuid": "Compendium.dnd5e_classpack.monsterspack.Actor.OBujQLLPSmlJiZnL"
+        },
+        {
+          "name": "",
+          "_id": "CBT8yXn30RsJskgg",
+          "uuid": "Compendium.dnd5e_classpack.monsterspack.Actor.OBujQLLPSmlJiZnL"
+        },
+        {
+          "name": "",
+          "_id": "vWduu8b3MhkBIWvb",
+          "uuid": "Compendium.dnd5e_classpack.monsterspack.Actor.OBujQLLPSmlJiZnL"
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 21100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719630562647,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ORa3OSWbxr1phj4b"
+}

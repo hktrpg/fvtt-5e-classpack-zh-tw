@@ -1,0 +1,120 @@
+{
+  "_id": "EDD56798F9BAD52A",
+  "name": "法球護符 Talisman of the Sphere",
+  "type": "consumable",
+  "img": "icons/magic/unholy/orb-beam-pink.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>持握此護符時，你在嘗試操控@UUID[Compendium.dnd5e_classpack.itempack.8E0682CA53CCA4B8]{湮滅法球 Sphere of Annihilation}的智力（神秘）檢定上加上雙倍熟練加值。</p>\n<p>另外，如果在你回合開始時你操縱著一個 @UUID[Compendium.dnd5e_classpack.itempack.8E0682CA53CCA4B8]{湮滅法球}，你可以用一個動作將法球升起10+10*智力調整值尺。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 207"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 20000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "object",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "int",
+    "actionType": "abil",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d20 + @mod + @attributes.prof + @attributes.prof",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "10+10*@mod",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 97500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!EDD56798F9BAD52A"
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "02A55BD1E2D060C9",
+  "name": "魔法飛彈魔杖 Wand of Magic Missiles",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>這把魔杖有7發充能，且每天黎明時恢復1d6+1發已消耗的充能。當充能耗盡時，投一個d20。如果投骰結果為1，魔杖將化為灰燼而毀滅。</p>\n<p>持握此魔杖時，你可以用一個動作並消耗1發或更多充能以施展@UUID[Compendium.dnd5e_classpack.new-icon.q0FYQJX9EBseJ9KN]{魔法飛彈 Magic Missile}。施展1環魔法飛彈 magic missile 消耗1發充能，每多消耗1發充能法術環數也增加1。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 211"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 8000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d4",
+          "force"
+        ],
+        [
+          "3",
+          "force"
+        ]
+      ],
+      "versatile": "1d4 +1"
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 14900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!02A55BD1E2D060C9"
+}

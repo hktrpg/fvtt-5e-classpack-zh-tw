@@ -1,0 +1,115 @@
+{
+  "_id": "618A8297F706ADB0",
+  "name": "糾纏繩 Rope of Entanglement",
+  "type": "consumable",
+  "img": "icons/magic/nature/root-vine-thorned-coil-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這條繩索長30尺，重3磅。你可以握住繩索的一端並用一個動作說出命令字，繩索的另一端將疾速飛出困住周圍20尺內一名你能看見的生物。該生物必須通過一次DC15的敏捷豁免否則被束縛。</p>\n<p>你可以用一個附贈動作說出另一個命令字以釋放被束縛的生物。被束縛的生物也可以用一個動作進行DC15的力量檢定或DC15的敏捷豁免（由該生物選擇），豁免成功則掙脫束縛。</p>\n<p>繩索擁有AC20和20HP。只要還剩至少1HP，繩索就能每5分鐘恢復1HP。如果繩索的HP降低至0，則它被摧毀。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 197"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 48500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!618A8297F706ADB0"
+}

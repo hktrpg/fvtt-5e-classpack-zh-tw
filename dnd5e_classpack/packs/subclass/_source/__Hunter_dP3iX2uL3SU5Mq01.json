@@ -1,0 +1,191 @@
+{
+  "_id": "dP3iX2uL3SU5Mq01",
+  "name": "獵人Hunter",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Hunter_ImprovedTracking.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>        選擇獵人范型，意味著你接受文明社會與驚粟荒野間的交界作為你的戰鬥崗位。走上獵人之路后，你將學習專業的戰鬥技巧，並面臨的各種威脅：從狂暴的食人魔和成群的獸人，到高聳的巨人和可怕的龍都是你前進的障礙。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "hunter",
+    "classIdentifier": "ranger",
+    "advancement": [
+      {
+        "_id": "3eev3140f4m4ifwe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.v4e9dpVoep1w4VAa"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性"
+      },
+      {
+        "_id": "8rgvc1g4t4jtszwl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.NBKmI7pjkbpW90nT"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性"
+      },
+      {
+        "_id": "glxpcb9suuqvu19u",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.jI2PKRsYc3cxRr1F"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "職業特性"
+      },
+      {
+        "_id": "fzcpl7zzfmqyjd3i",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Tr1uiVh2WfsHXcXl"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性"
+      },
+      {
+        "_id": "WWGF6d0GkTfPXawy",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": 1
+          },
+          "allowDrops": false,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.VvGTtcw5UMCwTT1e",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.cDiBqlWHtAh4l4vm",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.8vJvWcin0pZpck0W"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "huntersPrey"
+          },
+          "hint": "第三級時，你獲得以下特性其一："
+        },
+        "value": {},
+        "title": "獵物特性"
+      },
+      {
+        "_id": "fcJnxjEeni6IQiRr",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "7": 1
+          },
+          "allowDrops": false,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.r8uKpHYKpQY0fMdQ",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.oCr3QxfslqtWWVzL",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.oW9TdsaCSUH7Btn4"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "defensiveTactic"
+          },
+          "hint": "第7級時，你選擇獲得以下特性之一："
+        },
+        "value": {},
+        "title": "防守戰術特性"
+      },
+      {
+        "_id": "r0f6VhKEec07pAxv",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "11": 1
+          },
+          "allowDrops": false,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.wYaXI0hCvrfrTzpT",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.XV0jtD6HgTAlUbJf"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "multiattack"
+          },
+          "hint": "第11級時，你選擇獲得以下特性之一."
+        },
+        "value": {},
+        "title": "多重攻擊特性"
+      },
+      {
+        "_id": "NR7U9CIQLzVcVpg4",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "15": 1
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.nFxBGG5SqcoUb0vA",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.WxUQn7muR2QrM9kH",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.7dA5N00W7DLESP9V"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "superiorHuntersDefense"
+          },
+          "hint": "第15級時，你選擇獲得以下特性之一。"
+        },
+        "value": {},
+        "title": "高效獵人防術"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686417161737,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dP3iX2uL3SU5Mq01"
+}

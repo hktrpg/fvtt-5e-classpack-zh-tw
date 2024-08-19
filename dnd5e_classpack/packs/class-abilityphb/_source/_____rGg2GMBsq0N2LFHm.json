@@ -1,0 +1,99 @@
+{
+  "_id": "rGg2GMBsq0N2LFHm",
+  "name": "催眠凝視",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_UnholyFrenzy.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從第2級你選擇該學派起，你可以用輕柔的語言和魅惑的目光來施展魔法奴役其他生物。作為一個動作，你指定身邊5尺範圍內一個你能看見的生物。如果該生物能看見你或者能聽到你的聲音，則其必須進行一次對抗你法師法術豁免DC的感知豁免，豁免失敗則受你魅惑，其狀態持續至你下一回合結束。該被魅惑生物的速度將下降至0，並陷入失能狀態。外表上看該生物會是一副頭暈目眩的樣子。</p>\n<p>        在接下來的回合中，你可以用另一個動作來延續該效應，以將其持續時間再延續至你的下一回合結束。然而，如果你移動到目標生物5尺以外,或者該生物變得不能看見你也不能聽到你的聲音，又或者目標生物受到傷害時，該效應將提前終止。</p>\n<p>        如果該效應終止，或者該生物在最初的豁免中成功，則你將無法對這個生物再使用該特性，直至你完成一次長休。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "wis",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "附魔學派等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rGg2GMBsq0N2LFHm"
+}

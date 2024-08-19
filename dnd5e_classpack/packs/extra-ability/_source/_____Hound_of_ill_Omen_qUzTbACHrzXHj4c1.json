@@ -1,0 +1,86 @@
+{
+  "_id": "qUzTbACHrzXHj4c1",
+  "name": "兇兆獵犬 Hound of ill Omen",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_shadow_summonfelhunter.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>6級時，你獲得一種能力，你能夠驅使嚎叫的幽暗生物來折磨你的敵人的。你可以以一個附贈動作消耗3點術法點選擇一個120尺內你可見的生物作為目標，用魔法召喚一頭兇兆獵犬的獵犬去獵殺它。兇兆獵犬用@UUID[Compendium.dnd5e_classpack.monsterspack.EYiQZ3rFL25fEJY5]{恐狼 Dire Wolf}的模板但有以下變化：</p>\n<ul>\n<li>獵犬的體型由大體型變為中等體型，獵犬視作怪獸而不是野獸。</li>\n<li>當獵犬被召喚時獲得等同於你術士等級一半的臨時生命值。</li>\n<li>獵犬可以像穿越困難地形一樣穿過其他生物或物體。如果當獵犬的回合結束時處於某個物體內則會受到5點的力場傷害。</li>\n<li>當獵犬的回合開始時，自動知曉獵物的所在。如果目標處於躲藏狀態，它對獵犬來說不再處於該狀態。</li>\n</ul>\n<p>獵犬被召喚時出現在目標30尺內一個由你選擇的空間。為獵犬投擲先攻。當獵犬行動時，它只能以最短路徑衝向目標獵物，以及只能在攻擊目標獵物時執行動作。獵犬可以使用藉機攻擊，但對像只能是目標獵物。此外，當兇兆獵犬在目標獵物5尺內時，目標對你所釋放的任何法術的豁免上都承受劣勢。兇兆獵犬會在它自己降為0血、獵物降為0血或5分鐘后消失。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "3術法點。"
+    },
+    "duration": {
+      "value": 5,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "幽影魔法等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!qUzTbACHrzXHj4c1"
+}

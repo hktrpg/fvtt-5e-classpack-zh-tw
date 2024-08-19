@@ -1,0 +1,111 @@
+{
+  "_id": "AdWubx1kFJLe8QDa",
+  "name": "火焰護盾 Fire Shield",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_BlessingOfProtection.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 微薄的烈焰在法術持續時間內環繞你的身體，散發出10尺半徑的明亮光照，以及該範圍外10尺的微光光照。你可以提前以一個動作解散該效應並終止該法術。\n<br>你選擇該烈焰產生一副溫暖護盾或凍寒護盾。溫暖護盾將為你提供冷凍傷害抗性，凍寒護盾則提供火焰傷害抗性。\n<br>此外，任何生物在你周圍5尺範圍內對你發動近戰攻擊時，護盾將對其迸出烈焰，溫暖護盾將對攻擊者造成2d8點火焰傷害，而凍寒護盾則對其造成2d8點冷凍傷害。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 242",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一小塊磷或者一隻螢火蟲",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 8900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720797681450,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AdWubx1kFJLe8QDa"
+}

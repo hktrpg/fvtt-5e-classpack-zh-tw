@@ -1,0 +1,98 @@
+{
+  "_id": "AlFAC3Lz1ud2ry9T",
+  "name": "偷襲",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Rogue_SurpriseAttack.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第1級起，你就知道如何精確地攻擊分心的敵人。每當你的攻擊命中一個生物時，如果該攻擊的攻擊檢定帶有優勢，則可以造成額外[[/r 1d6]]的傷害。該傷害每回合可以產生一次，且造成傷害的攻擊必須使用帶靈巧屬性的武器或遠端武器。</p>\n<p>如果目標生物身邊5尺內還有其他與之對敵者，且該對敵者並未處於失能狀態，則只要你的攻擊檢定沒有劣勢，就可以發動偷襲。</p>\n<p>你的偷襲傷害也將會隨遊蕩者職業等級的提升而提高，其具體數值見「@UUID[Compendium.dnd5e_classpack.class-table.Ft3CGxQpcwyFz94r]{遊蕩者職業表}」。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 96",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null,
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(ceil(@classes.rogue.levels /2))d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "遊蕩者等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 142
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!AlFAC3Lz1ud2ry9T"
+}

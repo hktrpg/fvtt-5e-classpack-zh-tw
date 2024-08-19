@@ -1,0 +1,129 @@
+{
+  "_id": "juLb5PHooXitZDWI",
+  "name": "力場監牢 Forcecage",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/inv_trinket_80_titan02a.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你圍繞施法距離內一處指定地點以魔力形成一個固定的立方狀隱形監牢。你可以選擇監牢的形式為籠狀或密封體。\n<br>籠狀監牢為各邊長至多20尺的立方體，其墻體由1/2寸粗的力場柵欄桿組成，每桿指間相距1/2寸。\n<br>密封監牢為各邊長至多10尺的立方體，其墻體為由力場墻密封，並阻隔一切物質和法術從牢籠里進出。\n<br>施展該法術時，所有完全在法術區域內的生物將被牢籠困住。\n<br>部分處於區域內或者體型比區域更大的生物則被從區域中心向外推開，直至其完全離開該區域。\n<br>牢籠內的生物不能以非魔法的手段離開。如果該生物試圖使用傳送或跨位面旅行來離開牢籠，則其必須線進行一次魅力豁免。\n<br>豁免成功則該生物可以用該魔法離開牢籠。豁免失敗者將無法以此離開牢籠並浪費掉該法術或效應。該牢籠同時延伸至以太位面從而遮蔽掉從以太位面旅行逃脫。\n<br>該法術不能被法術解除魔法dispel magic 所解除。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 243",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 100,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "價值 1500gp 的紅寶石塵",
+      "consumed": false,
+      "cost": 1500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 39900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720803095221,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!juLb5PHooXitZDWI"
+}

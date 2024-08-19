@@ -1,0 +1,110 @@
+{
+  "name": "轟雷劍 Booming Blade",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
+  "_id": "96hMNnbvC0O57baz",
+  "system": {
+    "description": {
+      "value": "<p>作為施展這個法術的一部分，你必須用你的武器對施法距離內的一個生物進行一次近戰攻擊，否則法術失敗。如果攻擊命中，目標受到這次攻擊的正常影響，並且被包覆在爆發性的能量之中直到你的下回合開始。如果目標在這之前自願進行了一次移動，他將立即受到1d8的雷鳴傷害，並且法術結束。<br />戲法的傷害隨著你的等級提升而增加。在你5級的時候，這次近戰攻擊將造成額外1d8雷鳴傷害，並且目標進行移動時受到的傷害提升爲2d8。所有傷害骰都會在11級和17級的時候增長1d8。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一把至少價值 1sp 的近戰武器",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "cantrip",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719581868846,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!96hMNnbvC0O57baz"
+}

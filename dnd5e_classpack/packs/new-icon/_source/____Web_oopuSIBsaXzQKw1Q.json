@@ -1,0 +1,138 @@
+{
+  "_id": "oopuSIBsaXzQKw1Q",
+  "name": "蛛網術 Web",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc84259084127190629761D0A3D21C73A291011A77DB5152CB73E49B2759.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內指定一點，並召喚出一大片粘厚的網狀物。\n<br>蛛網覆蓋以該點為源點的20尺立方區域，並在法術持續時間內維持存在。蛛網使該區成為困難地形並造成輕度遮蔽。\n<br>如果蛛網沒有被固定在兩個固體中間（例如墻和樹）或跨在一片地板、墻壁、天花板中間，則你召喚出的蛛網會自動坍塌，而導致法術在你的下一回合開始時終止。攤在平面上的蛛網深度為5尺。\n<br>任何在蛛網中開始其回合或在其回合中進入蛛網的生物必須進行一次敏捷豁免。豁免失敗者將被束縛在網中，直至其離開蛛網或掙脫束縛。\n<br>被蛛網束縛的生物可以用一個動作嘗試掙脫。該生物必須進行一次對抗法術豁免DC 的力量檢定，檢定成功則不再被束縛。\n<br>這些蛛網都是可燃物。每5尺立方的蛛網觸及明火時將在1輪內被燒盡。而任何在燃燒區域內開始其回合的生物將因此受2d4點火焰傷害。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 287",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d4",
+          "fire"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "少量蜘蛛網",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 43900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722355331060,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oopuSIBsaXzQKw1Q"
+}

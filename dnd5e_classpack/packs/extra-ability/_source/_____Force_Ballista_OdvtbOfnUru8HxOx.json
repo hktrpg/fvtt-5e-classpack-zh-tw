@@ -1,0 +1,94 @@
+{
+  "_id": "OdvtbOfnUru8HxOx",
+  "name": "力場弩炮 Force Ballista",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_TwilightFlameBolt.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>對一個距離炮臺120尺以內的生物或物體進行遠端法術攻擊。擊中時，目標受到[[/r 2d8]]力場傷害，如果目標是一個生物，它將向遠離炮臺的方向推開5尺。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "int",
+    "actionType": "rsak",
+    "attackBonus": "0",
+    "chatFlavor": "如果目標是一個生物，它將向遠離炮臺的方向推開5尺。",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "魔炮師等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!OdvtbOfnUru8HxOx"
+}

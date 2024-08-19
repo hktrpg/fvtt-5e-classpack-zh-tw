@@ -1,0 +1,86 @@
+{
+  "_id": "My3oEiXWQLulUxDs",
+  "name": "擾神之詞 Unsettling Words",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/httpsvignettewikianocookienetwowimages552Spellmiscemotionafraidpngrevisionlatestcb20090317211041pathprefixru.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         3級起，你可以編造一些帶有魔法的詞語，讓一個生物感到不安並懷疑自身。你可以用一個附贈動作消耗一次@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}次數，並選擇你身邊60尺內一個你能看見的生物。骰擲一次詩人激勵骰。在你的下一個回合開始前，該生物進行的下一次豁免必須在擲骰結果中減去你的激勵骰結果的數字。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "MOT",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d(min(floor(@classes.bard.levels/5)*2+6,12))",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "雄辯學院等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!My3oEiXWQLulUxDs"
+}

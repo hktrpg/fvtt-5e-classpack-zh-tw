@@ -1,0 +1,148 @@
+{
+  "_id": "NOdNl8paEppqJs10",
+  "name": "靈能武士 Psi Warrior（TCE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_AuraOfLight.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>覺醒了內在心靈力量的靈能戰士使用灌注靈能力量的武器攻擊、念力鞭撻和靈能屏障來強化自己肉體力量的戰士。很多吉斯洋基人受訓成為這樣的戰士，一些極度自律的高等精靈也會這麼做。在艾伯倫的世界中，許多年輕的離夢人（kalashtar）夢想著成為靈能武士。</p>\n<p>作為一個靈能武士，你必須通過極度的自律來磨礪靈能力量，在一個大師的指導下覺醒，或在一個學院中精進對於靈能粉塵化為武器或盾牌力量的掌握。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "identifier": "psi-warrior",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "9gd70onmans30zvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.sE0eWBfIdzrqoNWO",
+            "Compendium.dnd5e_classpack.extra-ability.IGFbodPoYQ6aujAT",
+            "Compendium.dnd5e_classpack.extra-ability.uaPefnuz8mYlc7Th",
+            "Compendium.dnd5e_classpack.extra-ability.w6wzRcoxxL5rrnxe"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "xrbp5zb11dgdzq36",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.0eSDePMWApq9RHqv",
+            "Compendium.dnd5e_classpack.extra-ability.6s7P6OwuQlVpfnDQ",
+            "Compendium.dnd5e_classpack.extra-ability.dkpQJsciaVomruu7"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "a3dzqoxh385uu51q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.gUogqXt5i3DjyA2j"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "ac1adrmivci6ryf4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.2dqkKB0KNItEKuCk"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "ohit44ogojqgyzso",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.QNiJ6nJvw24FCLm0",
+            "Compendium.dnd5e_classpack.new-icon.MTNfEcCXSJZ2m2nG"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 18,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "i01stcnnemosv88y",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "lingneng",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "n": 1,
+              "die": 6
+            },
+            "5": {
+              "n": 1,
+              "die": 8
+            },
+            "11": {
+              "n": 1,
+              "die": 10
+            },
+            "17": {
+              "n": 1,
+              "die": 12
+            }
+          }
+        },
+        "value": {},
+        "title": "靈能骰",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!NOdNl8paEppqJs10"
+}

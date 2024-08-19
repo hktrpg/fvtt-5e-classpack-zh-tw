@@ -1,0 +1,131 @@
+{
+  "_id": "hAc1Efpn9LxdZEtv",
+  "name": "治癒之魂Healing Spirit",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_paladin_spring.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你召喚出自然精魂撫慰傷員。這個無形的精魂出現在施法距離內你可以看見的一處5英尺立方空間。精魂看起來像是透明的野獸或是妖精（由你選擇）。<br />直到法術結束之前，每次你或者一個你可以看見的生物在回合里第一次進入精魂所佔據的空間，或是在其中開始它的回合，你都可以讓精魂為它恢復1d6點生命值（無需動作）。精魂不能治療構裝體或不死生物。<br />在你的回合中以一個附贈動作，你可以移動精魂30英尺至你可以看見的另一個空間。</p>\n<p><strong>升環效果：</strong>當你使用3環或更高的法術位施放該法術時，使用的法術位每高一環，治療值就增加1d6點。</p>\n<p><strong>最新勘誤：</strong>法術治癒之魂Healing Spirit最大治療次數將限制在 1+施法屬性調整值 次（最少兩次）。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "space"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 38100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711692216416,
+    "lastModifiedBy": "hpWg2Frf5WwPfR0G",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hAc1Efpn9LxdZEtv"
+}

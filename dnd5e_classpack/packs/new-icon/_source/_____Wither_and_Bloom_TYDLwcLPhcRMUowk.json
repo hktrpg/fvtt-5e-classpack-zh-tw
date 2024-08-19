@@ -1,0 +1,140 @@
+{
+  "_id": "TYDLwcLPhcRMUowk",
+  "name": "靡葉生華 Wither and Bloom",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/mihua.png",
+  "effects": [],
+  "folder": null,
+  "sort": 25800000,
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>選擇範圍里的一點，以該點為中心的10尺半徑球形區域里，你喚起死氣與生機。該區域里每個由你選擇的生物需進行一次體質豁免，失敗時受到[[/r 2d6]]暗蝕傷害，成功時傷害減半。區域里的非魔法植物都會枯萎。</p>\n<p>此外，區域里一個你所選的生物能使用並投擲一枚未使用的生命骰。恢復投擲結果加上你的施法屬性調整值點生命值。</p>\n<p><strong>升環施法效應：</strong>當你使用3環或更高的法術位釋放該法術時，法術位每比2環高1環，法術多造成[[/r 1d6]]傷害，選擇生物能投擲的生命骰數也多1個。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCC",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "彎折成環形的枯萎藤蔓",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720800749824,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TYDLwcLPhcRMUowk"
+}

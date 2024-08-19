@@ -1,0 +1,86 @@
+{
+  "_id": "yaiCR2TIRre4E5Yi",
+  "name": "奧能炮臺 Eldritch Cannon",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_vehicle_liquidpyrite_blue.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>　　在第 3級，你習得了如何製造一個魔法炮臺。只要你手持@UUID[Compendium.dnd5e_classpack.itempack.A4B41FB9DAE8B865]{木匠工具}或@UUID[Compendium.dnd5e_classpack.itempack.B97AB85722BCF651]{鐵匠工具}，你能以一個動作在距離你 5尺且沒被佔據的水平空格內魔法性地召喚出一架小型或微型炮臺。小型奧能炮臺會佔據它所在的方格，而微型炮臺能直接拿在手裡。</p>\n<p>　　你每天能夠免費召喚一次炮臺，你在這麼做后，必須完成一次長休才能再次進行。但是你也可以通過消費一個至少 1環的法術位來製造炮臺。你一次只能有一個炮臺，當你的炮臺已經被製造時，你不能再製造一個炮臺。</p>\n<p>　　無論炮臺有多大，它都是魔法物件。它的 ac是 18，生命值是你奇械師等級的 5倍。它對毒素傷害、心靈傷害和所有狀態都免疫。如果它被迫進行屬性檢定或豁免檢定，則將其所有屬性都視為 10(+0)。如果對炮臺施展@UUID[Compendium.dnd5e_classpack.new-icon.2LREP2D10afC4Y3V]{修復術}，它將恢復[[/r 2d6]]生命值。炮臺在生命值降低到 0 或者 1 小時後消失。你能夠以一個動作來提早讓它消失。</p>\n<p>　　當你製造炮臺時，你可以決定它的外觀以及是否有腿，並且需要從奧能炮臺列表中選擇它的型別。在你的每個回合中，只要你離炮臺不到 60 尺，就能以一個附贈動作來啟用炮臺。作為同一動作的一部分，你可以引導有腿的炮臺步行或攀爬到 15 尺內的一個未佔用的空間中。</p>\n<p><strong>奧能炮臺</strong></p>\n<table>\n<tbody>\n<tr>\n<th>炮臺</th>\n<th>描述</th>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.extra-ability.Lrza2kTrMaxpVtAn]{投火機}</td>\n<td>炮臺在你指定的一個 15 尺錐形範圍內發射火焰。該區域內的每個生物必須對你的法術豁免 DC 做一次敏捷豁免檢定，如果豁免失敗則受到[[/r 2d8]]火焰傷害，成功的豁免檢定將使傷害減半。火焰會點燃該地區內任何未被穿戴或攜帶的易燃物品。</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.extra-ability.OdvtbOfnUru8HxOx]{力場弩炮}</td>\n<td>對一個距離炮臺 120 尺以內的生物或物體進行遠端法術攻擊。擊中時，目標受到[[/r 2d8]]力場傷害，如果目標是一個生物，它將向遠離炮臺的方向推開 5 尺。</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.extra-ability.kpdFpp8QYwoOCnig]{防禦者}</td>\n<td>炮臺釋放出一股正能量，給予它自己和 10 尺距離內每個你選擇的生物[[/r 1d8]]+ 你智力調整值的臨時生命值（最低 +1 ）。</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "space"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "魔炮師等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!yaiCR2TIRre4E5Yi"
+}

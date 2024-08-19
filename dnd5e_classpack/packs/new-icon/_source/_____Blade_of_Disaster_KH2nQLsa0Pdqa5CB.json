@@ -1,0 +1,139 @@
+{
+  "name": "災厄之刃 Blade of Disaster",
+  "type": "spell",
+  "img": "icons/skills/melee/blade-tip-energy-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>你在法術範圍內你能看見的一個未被佔據的空間創造出一把劍刃，其形態好似一道約3尺長的次元裂隙。該劍刃持續存在，直至法術結束。當你施展此法術時，你可以用該劍刃進行至多兩次近戰法術攻擊，每次攻擊的目標為位於劍刃5尺內的一個生物，未被固定的物件，或者建築。命中時，目標受到4d12點力場傷害。該攻擊在d20投出18或更高時造成重擊，並在重擊時造成額外8d12點力場傷害（共計12d12點力場傷害）。</p><p>你可以在自己的回合里以一個附贈動作，將劍刃移動至多30尺到一個你可以看見的未被佔據的空間，隨後再次用它進行兩次近戰法術攻擊。</p><p>該劍刃可以無害地通過任何屏障，包括一道力場墻。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "TCE"
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": 18,
+      "damage": "4d12"
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d12",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_id": "KH2nQLsa0Pdqa5CB",
+  "folder": null,
+  "sort": 17800000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354571647,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KH2nQLsa0Pdqa5CB"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "b7YOoleApdPyVYfG",
+  "name": "振奮魔法 Bolstering Magic",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_HolyGuidance.png",
+  "system": {
+    "description": {
+      "value": "<p>你可以控制你的狂野魔法並用于振奮自己或者一個同伴。以一個動作，你觸碰一個生物（也可以是你自己）並且為該生物提供以下增益中你所選擇的一種：</p>\n<ol>\n<li>持續10分鐘，該生物在擲攻擊骰或者屬性檢定時可以額外擲一個[[/r d3]]的骰子，將其加到所扔的[[/r d20]]中。</li>\n<li>擲一個[[/r d3]]骰子。這個生物將恢復一個法術位，其環數必須小於等於所擲出骰子的結果（由這個生物決定）。當一個生物享受了這一增益后，直到下一次長休結束前都不能再次從此獲益。</li>\n</ol>\n<p>你每天可以使用該能力的次數等於你的熟練加值。每完成一次長休之後你補充齊所有已消耗的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 3,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d3",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "狂野魔法道途等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192731567,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!b7YOoleApdPyVYfG"
+}

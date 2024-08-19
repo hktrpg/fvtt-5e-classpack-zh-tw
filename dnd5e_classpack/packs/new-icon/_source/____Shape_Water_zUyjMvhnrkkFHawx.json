@@ -1,0 +1,103 @@
+{
+  "_id": "zUyjMvhnrkkFHawx",
+  "name": "操水術 Shape Water",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/water/orb-water-bubbles.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你選定距離之內，你能看見的一處佔據5立方英尺的水體。你能以下述方式之一來對其進行操控：<br />&middot;你立即在你選定的方向上，造成或改變水的流動，至多在任意方向上改變5英尺。此種運動的力量不足以造成傷害。<br />&middot;你令水體呈現出簡單的形狀，隨你的意願而運動。這種變化持續1個小時。<br />&middot;你改變了水體的顏色或透明度。水體必須被整體性的改變。此種變化持續1個小時。<br />&middot;你凍結了水，只要其中沒有生物。水會在1小時內解凍。<br />若你多次施放此法術，你可以同時維持至多兩個非立即的效果生效，你也可以以一個動作解消上述效應之一。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 52000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717430263758,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zUyjMvhnrkkFHawx"
+}

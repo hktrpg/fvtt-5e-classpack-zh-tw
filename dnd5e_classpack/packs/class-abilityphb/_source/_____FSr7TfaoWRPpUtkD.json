@@ -1,0 +1,103 @@
+{
+  "_id": "FSr7TfaoWRPpUtkD",
+  "name": "詩人激勵",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Shaman_CleanseSpirit.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從第1級起，你可以用熱血的話語和音樂激勵他人。此時，你可以在自已回合內用一個附贈動作指定身邊60尺內一個能聽到你聲音的生物(不能指定你自身)，並使該生物獲得一個詩人激勵，即一個[[/r d6]]的激勵骰。</p>\n<p>       在接下來的10分鐘內，該生物在進行單次屬性檢定、攻擊檢定。豁免檢定時可以使用該激勵散，以將其結果加到揶骰結果中。該生物可以在[[/r d6]]結果擲出后，DM宣佈結果前決定是否使用詩人激勵。而詩人激勵一旦使用即被消耗掉。一個生物同一時間裡只能保有一個詩人激勵。</p>\n<p>        你能夠使用該特性的次數等於你的魅力調整值(最低1次)。完成一次長休后，你將重獲所有消耗掉的詩人激勵次數。</p>\n<p>        你產生的澈勵骰大小可以在達到本職業的特定等級時增大。第5級時為[[/r d8]]，第10級時為[[/r d10]]，而第15級時為[[/r d12]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 53",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.cha.mod,1)",
+      "per": "lr",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d(min(floor(@classes.bard.levels/5)*2+6,12))",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "吟遊詩人等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "ability",
+      "_deprecated": true,
+      "type": "String",
+      "label": "Feat Type"
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FSr7TfaoWRPpUtkD"
+}

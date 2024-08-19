@@ -1,0 +1,128 @@
+{
+  "_id": "QQgNYijldqhDb6JP",
+  "name": "投影術 Project Image",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/003139.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你創造一個自己的幻象分身，並使其在法術持續時間內維持存在。該分身可以出現在施法距離內你曾見過的任何地點，而不論中間是否存在障礙物。該幻象外觀和聲音與你一樣，只是沒有現實形體。幻象受到傷害時會立即消失並終止法術。\n<br>你可以用你的動作移動該分身至多兩倍於你速度的尺數，而其姿態、言語和行為均按照你的指定作表現。此外幻象還可以完美的模仿你的舉止。\n<br>你可以通過分身的眼睛視物，用分身的耳朵聆聽，如同你處於它的位置一樣。你可以在自己回合內以一個附贈動作在自己與分身的感官間切換。而當你使用分身的感官時，本體周邊的事物對你而言等同於處於目盲且耳聾的狀態。\n<br>由於幻象無法被碰到，任何與該幻象進行的物理互動都會暴露其幻覺本質。一個生物用其動作調查幻象時，它可以進行一次對抗法術豁免DC 的智力（調查）檢定，以判定是否看穿幻象。辨出幻象的生物可以看穿該影像，其產生的聲響對該生物而言顯得虛假。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 270",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "day"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 500,
+      "long": 0,
+      "units": "mi"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "價值至少 5gp 的材料製成的一個你自身的微縮模型",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 23100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722352226703,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QQgNYijldqhDb6JP"
+}

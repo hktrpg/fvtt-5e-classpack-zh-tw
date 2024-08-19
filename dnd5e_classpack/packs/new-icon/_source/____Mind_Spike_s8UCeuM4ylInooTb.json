@@ -1,0 +1,205 @@
+{
+  "_id": "s8UCeuM4ylInooTb",
+  "name": "心靈尖刺Mind Spike",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/skills/melee/strike-dagger-arcane-pink.webp",
+  "effects": [
+    {
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.s8UCeuM4ylInooTb",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "ycS1ja3b3SRwyRGJ",
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "-1d4",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "multi",
+          "durationExpression": "",
+          "specialDuration": [
+            "isSave"
+          ]
+        },
+        "core": {
+          "statusId": "12431243",
+          "sourceId": "Actor.GabJyoAElcOKQvnt.Item.BLQ0Ji7lUWee8Nkf.ActiveEffect.0dzIM4EKwjByRFi9"
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        }
+      },
+      "name": "心靈之楔 Mind Sliver（TCE）",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/ability_demonhunter_soulcleave2.jpg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!s8UCeuM4ylInooTb.ycS1ja3b3SRwyRGJ"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你接觸施法距離內一個你可見生物的內心。目標必須進行感知豁免檢定，若失敗會受到3d8精神傷害，成功則只承受一半。在目標豁免失敗時，你在法術結束之前能時刻得知目標所在的位置，只要你們還處於同一位面上。當你擁有這個資訊時，目標將不能對你躲藏，並且如果它隱形了，在對抗你時它不能從這個狀態中受益。</p>\n<p><strong>升環效果：</strong>當你使用3環或更高的法術位施放該法術時，使用的法術位每高一環，傷害就增加1d8。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "somatic",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 46800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711705575236,
+    "modifiedTime": 1722352925827,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!s8UCeuM4ylInooTb"
+}

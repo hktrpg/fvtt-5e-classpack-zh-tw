@@ -1,0 +1,381 @@
+{
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>Enable \"Template Listener\" in the module settings for spell to work.</p><p>This spell will follow the overlapping spell effect rules.</p><p><em>This spell is safe to rename.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Player's Handbook pg 251"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "sphere",
+      "prompt": true
+    },
+    "range": {
+      "value": 150,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "[2d6 - cold] Any creature that starts its turn in the area of effect, [2d6 - acid] Any creature that ends its turn in the area of effect",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "一條酸洗過的章魚觸鬚",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "summons": null
+  },
+  "name": "哈達之慾(cpr)Hunger of Hadar",
+  "flags": {
+    "cf": null,
+    "midiProperties": {
+      "magicdam": false,
+      "magiceffect": false,
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "confirmTargets": "default",
+      "noConcentrationCheck": false
+    },
+    "core": {},
+    "custom-character-sheet-sections": {
+      "sectionName": ""
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "midi-qol": {
+      "effectActivation": false,
+      "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.hungerOfHadar.item",
+      "onUseMacroParts": {
+        "items": {
+          "0": {
+            "macroName": "function.chrisPremades.macros.hungerOfHadar.item",
+            "option": "postActiveEffects"
+          }
+        }
+      },
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "templatemacro": {
+      "whenDeleted": {
+        "asGM": false,
+        "command": "await chrisPremades.macros.hungerOfHadar.removed(template);"
+      }
+    },
+    "autoanimations": {
+      "id": "e302a2cc-ebfe-44be-92db-a49cc3fd18ab",
+      "label": "Hunger of Hadar",
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "meleeSwitch": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "regular"
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "detect": "automatic",
+          "range": 2,
+          "returning": false,
+          "switchType": "on"
+        }
+      },
+      "menu": "templatefx",
+      "primary": {
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isMasked": false,
+          "isWait": false,
+          "occlusionAlpha": 0,
+          "occlusionMode": 0,
+          "opacity": 1,
+          "persistent": true,
+          "persistType": "attachtemplate",
+          "removeTemplate": false,
+          "repeat": 1,
+          "repeatDelay": 0,
+          "rotate": 0,
+          "scale": "1, 1",
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 0.75,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "templatefx",
+          "menuType": "circle",
+          "animation": "armsofhadar",
+          "variant": "01",
+          "color": "darkpurple",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 0,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 0.75,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 0.75,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 0.75
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 0.75
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "isEnabled": true,
+      "isCustomized": true,
+      "fromAmmo": false,
+      "version": 5
+    },
+    "chris-premades": {
+      "info": {
+        "name": "Hunger of Hadar",
+        "version": "0.8.11",
+        "settings": [
+          "Template Listener"
+        ]
+      }
+    },
+    "dnd5e": {},
+    "scene-packer": {
+      "hash": "f509341072bbc51918409c01f90f261b7cf4e884",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.9xUOBR0Qvs7xV657"
+    }
+  },
+  "effects": [],
+  "img": "icons/magic/water/barrier-ice-shield.webp",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": 1676798650596,
+    "modifiedTime": 1719581336947,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PQGBBcoVSwpUhViM": 3,
+    "m9ZEHyQjhLqQuPSG": 3,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "_id": "gn4x8qfwCVrPMUPL",
+  "sort": 0,
+  "_key": "!items!gn4x8qfwCVrPMUPL"
+}

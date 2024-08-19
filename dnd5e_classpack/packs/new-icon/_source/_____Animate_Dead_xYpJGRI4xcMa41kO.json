@@ -1,0 +1,108 @@
+{
+  "_id": "xYpJGRI4xcMa41kO",
+  "name": "活化死屍 Animate Dead",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_DeathKnight_Thrash_Ghoul.png",
+  "effects": [],
+  "folder": null,
+  "sort": 50700000,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術創造一個不死生物僕從。在施法距離內指定一具中型或小型類人生物遺骨或遺體，並以該法術將污穢的虛假生命力量注入其中，將之喚起為一個不死生物。如果你選擇的是遺骨，則目標變為骷髏 skeleton；選擇的是遺體則變為殭屍 zombie。該生物的具體遊戲資料由DM 掌控。\n<br>在你的任一回合內，你可以使用一個附贈動作並以精神命令操縱60尺內任何你用此法術喚起的生物（如果你操縱多個生物，則你的命令可以同時傳達給它們全部或是其中的某幾個，不過只能使用同一種命令）。你決定被操縱生物下回合的動作和移動。或者，你也可以選擇下達寬泛的命令（比如守護某個房間或走廊）。沒有接受到你命令的生物則只會對敵對生物作出自衛行為。一旦被下達命令，該生物會持續執行命令直到任務完成。\n<br>這些受操縱生物只會在24小時內服從你的命令。如果你在目前的24小時時間段終止前再施展該法術，則你對這些生物的操縱時間再延長24小時。法術的此種用法只能延長你對至多四個你使用此法術所創造生物的控制時間，而不會創造新的生物。升環施法效應。使用4環或更高法術位施展該法術時，你使用的法術位每比3環高一環，就會多喚起兩隻不死生物，或是多延長對兩隻不死生物的控制。你無法用同一具骸骨或遺體喚起多個不死生物。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 212",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一滴血，一塊肉，以及一點骨灰",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717430324192,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xYpJGRI4xcMa41kO"
+}

@@ -1,0 +1,133 @@
+{
+  "_id": "152FDAA04D28AF9E",
+  "name": "陽炎劍 Sun Blade",
+  "type": "weapon",
+  "img": "icons/magic/light/beam-strike-orange-gold.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>這件物品看起來像是一把長劍的劍柄。持握劍柄時，你可以用一個附贈動作展開或是解消這把劍完全由光構成的劍刃。展開劍刃的陽炎劍是一把具有靈巧屬性的魔法長劍。如果你能熟練使用長劍或短劍，你也能熟練使用陽炎劍。</p>\n<p>你在使用陽炎劍進行的攻擊和傷害骰上獲得+2加值，但它造成光耀傷害而非揮砍傷害。被這把劍命中的不死生物額外受到[[/r 1d8]]光耀傷害。</p>\n<p>陽炎劍劍刃放出的光視為陽光，並提供15尺明亮照明和額外15尺昏暗照明。劍刃展開時，你可以用一個動作使明亮與昏暗照明半徑各擴大或縮小5尺。照明範圍上限為明亮和昏暗區域各擴大30尺，下限為各縮小10尺。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 205"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 12000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +2",
+          "radiant"
+        ]
+      ],
+      "versatile": "1d10 + @mod +2"
+    },
+    "formula": "1d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "fin",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "longsword"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 20900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!152FDAA04D28AF9E"
+}

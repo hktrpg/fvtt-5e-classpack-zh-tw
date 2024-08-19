@@ -1,0 +1,91 @@
+{
+  "_id": "leabhG1wc0d4vP8C",
+  "name": "欺詐箭 Beguiling Arrow",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Hunter_ImprovedSteadyShot.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         你的附魔魔法會讓箭暫時欺騙目標。被這發箭擊中的角色會額外受到[[/r 2d6]]的心靈傷害，而且選擇距離目標30尺內的一名隊友。目標必須成功通過一個感知豁免，或者被選擇的隊友魅惑直到你的下一個回合開始。這個效果會在所選的盟友攻擊被魅惑目標、對目標造成傷害、或強迫它進行豁免檢定時提早結束。</p>\n<p>         當你的戰士等級到18級時該心靈傷害增加到[[/r 4d6]]</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(ceil(@classes.fighter.levels/17)*2)d6",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "int"
+    },
+    "requirements": "魔射手等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!leabhG1wc0d4vP8C"
+}

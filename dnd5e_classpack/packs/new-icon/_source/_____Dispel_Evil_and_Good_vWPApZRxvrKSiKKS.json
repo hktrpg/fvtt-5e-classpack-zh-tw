@@ -1,0 +1,202 @@
+{
+  "_id": "vWPApZRxvrKSiKKS",
+  "name": "反制善惡 Dispel Evil and Good",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002505.png",
+  "effects": [
+    {
+      "name": "反制善惡 Dispel Evil and Good",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.vWPApZRxvrKSiKKS",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "v75VoOYxlooXXH1T",
+      "changes": [
+        {
+          "key": "flags.midi-qol.grants.disadvantage.attack.all",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/002505.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!vWPApZRxvrKSiKKS.v75VoOYxlooXXH1T"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 發光的能量環繞著你，並保護你免受來自精類生物、不死生物和源於主物質位面外異域生物的傷害。天界生物、元素生物、精類生物、邪魔、不死生物對你發動攻擊檢定時具有劣勢。\n<br>你可以通過以下方式提前終止此法術。\n<br><strong>破除附魔Break Enchantment。</strong>你使用動作觸碰一個觸及範圍內的生物。如果該生物受天界生物、元素生物、精類生物、邪魔或不死生物影響而陷入魅惑、恐慌，或是被附身狀態，則生物的這些狀態即時結束。\n<br><strong>驅逐Dismissal。</strong>你使用動作發動一次近戰法術攻擊，攻擊一個天界生物、元素生物、精類生物、邪魔或不死生物。命中時，你可以嘗試將該生物驅逐回其原屬位面。該生物必須成功通過一此魅力豁免，否則將強制返回其原屬位面（若已在原屬位面則無效）。比如精類生物會返回妖精荒野，不死生物會返回墮影冥界。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 233",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "聖水或銀鐵粉末",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 49800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711690279951,
+    "modifiedTime": 1717696893076,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vWPApZRxvrKSiKKS"
+}

@@ -1,0 +1,91 @@
+{
+  "_id": "u9tfHLloCMBfZfmA",
+  "name": "事件視界 Event Horizon",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/003140.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         14級起， 使用一個動作，你能魔法地發散出由重力能量引起的強大力場，力場能把其他生物拖拽至多1分鐘，或在你的專注終止（如同你專注法術一樣）時結束。在持續時間內，當一個位於你30尺內，且與你敵對的生物開始回合時，該生物必須進行一次力量豁免對抗你的法術DC。當豁免失敗時，該生物受到[[/r 2d10]]的力場傷害，並且移動速度降低至0尺，減速持續直到該生物的下一個回合開始。當豁免成功時，該生物受到一半的傷害，並且每移動一尺就需要額外花費2尺的移動力。</p>\n<p>          一旦你使用了本特性，你不能再次使用，直到你完成了一次長休或花費一個3環或更高的法術位來再次啟動。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "重力魔法等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!u9tfHLloCMBfZfmA"
+}

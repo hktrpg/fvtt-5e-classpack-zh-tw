@@ -1,0 +1,93 @@
+{
+  "_id": "4MtCSq9pacayzLEL",
+  "name": "直墜噩夢",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_DeathsEmbrace.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第14級起，每當你的攻擊動作成功命中一個生物時，你可以使用此能力將目標瞬間傳送並穿越下層位面。該生物立刻消失並前往如同噩夢一般的風景。</p>\n<p>在你下一回合結束時，目標返回先前所佔據的空間、或是最近的未被佔據空間。如果目標並非邪魔，則他因這次可怖的經歷而受到[[/r 10d10]]點心靈傷害。</p>\n<p>你必須完成一次長休才能再次使用該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 109",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "你的攻擊動作成功命中一個生物。"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d10",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "邪魔等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4MtCSq9pacayzLEL"
+}

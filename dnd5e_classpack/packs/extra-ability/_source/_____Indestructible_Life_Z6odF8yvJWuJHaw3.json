@@ -1,0 +1,91 @@
+{
+  "_id": "Z6odF8yvJWuJHaw3",
+  "name": "永恒生命 Indestructible Life",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_deathwing_bloodcorruption_earth.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從14級起，你從你的宗主處窺探到一些有關於永恒的奧秘。在你的回合，你可以使用一個附贈動作恢復[[/r 1d8]]+邪術士等級的生命值。此外，如果你在使用這個能力的同時把自己一部分被切斷的軀體放置在斷口處，那部分傷口將會癒合。<br />        一旦你使用了這個能力，直到一次長/短休之前你不能再次使用。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8+@classes.warlock.levels",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "不朽者等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Z6odF8yvJWuJHaw3"
+}

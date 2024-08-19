@@ -1,0 +1,86 @@
+{
+  "_id": "kWUnVFx2j9KvQEpZ",
+  "name": "靈光一閃 Flash Of Genius",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/SPELL_HOLY_DEVINEAEGIS.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從第7級起，你獲得了在壓力下想出解決方案的能力。當你或距離你30尺內的可見生物進行屬性檢定或豁免檢定時，你能以一個反應將你的智力調整值新增到此次檢定中。</p>\n<p>         你能使用此能力的次數等於你的智力調整值（最少1次）。在你完成一次長休后，將恢復所有可用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.int.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "奇械師等級 7",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kWUnVFx2j9KvQEpZ"
+}

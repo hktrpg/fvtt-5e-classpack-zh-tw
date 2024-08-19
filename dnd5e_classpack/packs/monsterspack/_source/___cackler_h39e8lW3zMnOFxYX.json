@@ -1,0 +1,1212 @@
+{
+  "name": "咯笑魔cackler",
+  "type": "npc",
+  "_id": "h39e8lW3zMnOFxYX",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 9,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 7,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "max": 10,
+        "temp": null,
+        "tempmax": null,
+        "formula": "3d6"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha"
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"WordSection1\"><div><p class=\"MsoNormal\" style=\"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto\"><span style=\"FONT-SIZE:10pt;COLOR:black\">咯笑魔是小巧又嘰嘰喳喳的弄臣，他們用混亂的滑稽戲來為拉鐸司的表演增添情趣。他們永不停歇的咯笑可以激發出無法控制的笑聲，使每一件事</span>——<span style=\"FONT-SIZE:10pt;COLOR:black\">哪怕最可怕的場面</span>——<span style=\"FONT-SIZE:10pt;COLOR:black\">都顯得滑稽可笑。有些咯笑魔擅長模仿聲音，以滑稽的方式模仿名流；另一些則通過潛伏在陰影中嚇唬路人來滿足他們的施虐傾向。拉鐸司的表演者喜歡用各種面具、帽子和服裝妝點咯笑魔來嘲笑公眾人物。</span> </p></div></div>",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "source": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "piercing",
+          "bludgeoning",
+          "slashing",
+          "fire",
+          "cold",
+          "lightning"
+        ],
+        "bypasses": [
+          "mgc"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "abyssal",
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 1,
+        "override": 1
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "咯笑魔cackler",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "9gULCjDlNdxmtVl9",
+      "name": "火焰箭 Fire Bolt",
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e_classpack.new-icon.Item.Oa5hMlxdpwLNtLWp"
+        }
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Fire_FireBolt02.png",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 你對施法距離內一個生物或物件擲出一把火焰，對目標進行一次遠端法術攻擊。若命中，則目標受到1d10點火焰傷害。未被著裝或攜帶的可燃物件被該法術命中時將被點燃。\n<br />你到達5級時，該法術的傷害增加1d10（變為2d10）。11級時再加1d10（變為3d10），17級時再加1d10（變為4d10）。\n<br /></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 242",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rsak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "iHjgcxaHIKDcwbmy": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.2.2",
+        "coreVersion": "12.324",
+        "createdTime": 1691395051344,
+        "modifiedTime": 1691395051344,
+        "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.Oa5hMlxdpwLNtLWp",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!h39e8lW3zMnOFxYX.9gULCjDlNdxmtVl9"
+    },
+    {
+      "_id": "CwQpyVFx9KmzMJUy",
+      "name": "塔莎狂笑術 Hideous Laughter",
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e_classpack.new-icon.Item.n9RjfSJ88RfFhO1T"
+        }
+      },
+      "img": "modules/dnd5e_classpack/Nicons/httpsvignettewikianocookienetwowimages999Spellmiscemotionhappypngrevisionlatestcb20090317211041pathprefixru.png",
+      "effects": [],
+      "system": {
+        "description": {
+          "value": "<div class=\"description \"> 指定施法距離內一個你能看見的生物，如果該生物可受法術影響，則一切事物在該生物眼中都變得滑稽可笑，使它開始狂笑起來。目標必須進行一次感知豁免，豁免失敗則俯身倒地，並在法術持續時間內陷入失能狀態且無法起立。該效應對智力為4或更低的生物無效。\n<br />目標在其每回合結束或受到傷害時，可以再進行一次感知豁免。豁免成功則法術終止。再進行豁免時，如果是因受到傷害所致則該次豁免具有優勢。\n<br /></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Tiny tarts and a feather that is waved in the air",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "iHjgcxaHIKDcwbmy": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.2.2",
+        "coreVersion": "12.324",
+        "createdTime": 1691395056086,
+        "modifiedTime": 1691395056086,
+        "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+        "compendiumSource": "Compendium.dnd5e_classpack.new-icon.Item.n9RjfSJ88RfFhO1T",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!h39e8lW3zMnOFxYX.CwQpyVFx9KmzMJUy"
+    },
+    {
+      "name": "臨終一笑Last Laugh",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"WordSection1\"><div><p class=\"MsoNormal\" style=\"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto\"><span style=\"FONT-SIZE:10pt;COLOR:black\">咯笑魔死亡時，它會發出一聲垂死的笑聲傷害附近其他生物的心靈。咯笑魔身邊</span>10<span style=\"FONT-SIZE:10pt;COLOR:black\">尺範圍內每個生物都必須成功通過一次</span>DC11<span style=\"FONT-SIZE:10pt;COLOR:black\">的感知豁免，否則受到</span>2<span style=\"FONT-SIZE:10pt;COLOR:black\">（</span>1d4<span style=\"FONT-SIZE:10pt;COLOR:black\">）的心靈傷害。</span><br /></p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1d4",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "y09DZbBeVAoCv7ox",
+      "img": "modules/dnd5e_classpack/Nicons/httpsvignettewikianocookienetwowimages999Spellmiscemotionhappypngrevisionlatestcb20090317211041pathprefixru.png",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iHjgcxaHIKDcwbmy": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.2.2",
+        "coreVersion": "12.324",
+        "createdTime": 1691395094453,
+        "modifiedTime": 1691395132412,
+        "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!h39e8lW3zMnOFxYX.y09DZbBeVAoCv7ox"
+    },
+    {
+      "name": "擬聲Mimicry",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"WordSection1\"><div><p class=\"MsoNormal\" style=\"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto\"><span style=\"FONT-SIZE:10pt;COLOR:black\">咯笑魔可以模仿聽到的任何聲音，包括人說話的嗓音等。聽到該聲音的生物可以進行一次</span>DC 11 <span style=\"FONT-SIZE:10pt;COLOR:black\">的感知（洞悉）檢定，檢定成功則發現其是模仿的聲音。</span><br /></p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "OPdncPrRfGZVt6pN",
+      "img": "icons/magic/control/mouth-smile-deception-purple.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iHjgcxaHIKDcwbmy": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.2.2",
+        "coreVersion": "12.324",
+        "createdTime": 1691395150573,
+        "modifiedTime": 1691395176833,
+        "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!h39e8lW3zMnOFxYX.OPdncPrRfGZVt6pN"
+    },
+    {
+      "_id": "X6nFQ6h7i3wfVVFj",
+      "name": "啃咬Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\" id=\"secret-SXDNd6ri6tPiOLBz\"><p><em>近戰武器攻擊：</em><strong>命中+5，觸及5尺，</strong>單一目標。傷害：<strong>5（1d4+3）點</strong><em><strong>穿刺傷害</strong></em>。</p></section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SRD 5.1",
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "ada": false,
+          "mgc": false,
+          "sil": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "iHjgcxaHIKDcwbmy": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e_classpack.monsterspack.Actor.hb6pjvdCNYmLLp8V.Item.c8cisRQ7Ki3qiXgL"
+        }
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.2.2",
+        "coreVersion": "12.324",
+        "createdTime": 1691395236546,
+        "modifiedTime": 1691395269974,
+        "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+        "compendiumSource": "Compendium.dnd5e_classpack.monsterspack.Actor.hb6pjvdCNYmLLp8V.Item.c8cisRQ7Ki3qiXgL",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!h39e8lW3zMnOFxYX.X6nFQ6h7i3wfVVFj"
+    },
+    {
+      "_id": "X9zR8QRl5aoTby9v",
+      "name": "刺鏈Spiked Chain",
+      "type": "weapon",
+      "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 35400000,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e_classpack.itempack.Item.D5AAD67BC3577420"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<section id=\"secret-BEFgQ7qrMgZLgAdE\" class=\"secret\"><div class=\"WordSection1\"><div><p class=\"MsoNormal\" style=\"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto\"><span style=\"FONT-SIZE:10pt;COLOR:black\">近戰武器攻擊：命中</span>+5<span style=\"FONT-SIZE:10pt;COLOR:black\">，觸及</span>5<span style=\"FONT-SIZE:10pt;COLOR:black\">尺，單一目標。傷害</span>6<span style=\"FONT-SIZE:10pt;COLOR:black\">（</span>1d6+3<span style=\"FONT-SIZE:10pt;COLOR:black\">）的揮砍傷害。</span></p></div></div></section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": 2,
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6+@mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "flail",
+        "properties": {
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "ada": false,
+          "mgc": false,
+          "sil": false,
+          "lod": false
+        },
+        "proficient": true
+      },
+      "ownership": {
+        "default": 0,
+        "iHjgcxaHIKDcwbmy": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.2.2",
+        "coreVersion": "12.324",
+        "createdTime": 1691395282143,
+        "modifiedTime": 1691395309758,
+        "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+        "compendiumSource": "Compendium.dnd5e_classpack.itempack.Item.D5AAD67BC3577420",
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!h39e8lW3zMnOFxYX.X9zR8QRl5aoTby9v"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "iHjgcxaHIKDcwbmy": 3
+  },
+  "flags": {
+    "tidy5e-sheet": {
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "maxPreparedSpells": null,
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1": {
+        "name": ""
+      },
+      "notes2": {
+        "name": ""
+      },
+      "notes3": {
+        "name": ""
+      },
+      "notes4": {
+        "name": ""
+      },
+      "traitsExpanded": true,
+      "allow-edit": true
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.2",
+    "coreVersion": "12.324",
+    "createdTime": 1691394868813,
+    "modifiedTime": 1691396046027,
+    "lastModifiedBy": "iHjgcxaHIKDcwbmy",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!h39e8lW3zMnOFxYX"
+}

@@ -1,0 +1,128 @@
+{
+  "_id": "kqh0eV640hXk4flg",
+  "name": "降咒 Bestow Curse",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_revendreth_mage.jpg",
+  "effects": [],
+  "folder": null,
+  "sort": 40700000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一名生物。該生物必須進行一次感知豁免併成功通過，否則將在法術持續時間內被詛咒。施展法術時，你從以下詛咒選項選擇其一：\n<br>選擇一個屬性值。受詛咒影響時，目標進行該屬性的豁免檢定和屬性檢定時具有劣勢。\n<br>受詛咒影響時，目標對你進行的攻擊檢定具有劣勢。\n<br>受詛咒影響時，目標必須在其每回合開始時進行一次感知豁免，豁免失敗則浪費掉該回合的動作。\n<br>受詛咒影響時，你的攻擊和法術對目標額外造成1d8的黯蝕傷害。\n<br>法術移除詛咒可終止此法術的效應。DM 也可以讓你選擇其他詛咒，但它們不該比上表更強大。詛咒效應最終由DM 裁定。\n<br><strong>升環施法效應。</strong>使用4環或更高法術位施展該法術時，法術的持續時間變為：專注，至多10分鐘。使用5環或更高法術位時，變為8小時。使用7環或更高法術位時，變為24小時。使用9環法術位時，法術將持續到被解除。使用5環或更高法術位\n<br>施展此法術時無需在其持續時間內維持專注。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 218",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728475323,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kqh0eV640hXk4flg"
+}

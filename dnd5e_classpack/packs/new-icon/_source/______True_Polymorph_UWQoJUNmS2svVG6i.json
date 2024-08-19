@@ -1,0 +1,126 @@
+{
+  "_id": "UWQoJUNmS2svVG6i",
+  "name": "完全變形術 True Polymorph",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Magic_PolymorphChicken.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你指定施法距離內一個你能看見的生物或物件並使其變形。\n<br>你可以將目標生物變成另一個不同的生物，或將目標生物變成一個物件，又或者將目標物件變成一個生物（該物件必須沒有被任何生物著裝或攜帶）。變形效應持續到法術持續時間結束，或直至目標生命值降至0或目標死亡。如果你在法術持續時間內一直保持該法術的專注，則該變形得以永久持續。\n<br>該法術對變形生物以及生命值為0的目標無效。而不願被變形的生物可以進行一次感知豁免，豁免成功則不受該法術影響。\n<br>生物變生物。\n<br>如果你將一個生物變形成另一種生物，則它的新形態可以是你選擇的挑戰等級等於或低於受術者挑戰等級（如果受術者沒有挑戰等級則按其角色等級）的任意物種。受術者的遊戲資料（包括各精神屬性值）將被新形態的數據取代，而其陣營和性格則保持不變。目標將使用新形態的生命值。而當其變回通常形態時，該目標的生命值也恢復爲變形前的數值。如果目標是因為生命值降至0而變回通常形態，則由通常形態承受溢出的傷害。只要溢出傷害不足以將通常形態生命值降至0，他就不會因此而昏迷。\n<br>該生物所能實施的行為因其新形態的特徵而受限，除非其新形態的身體特徵允許，否則該生物不能說話，施法或者執行任何需要手和言語的動作。目標的裝備融入其新形態，而且不能啟用或持用裝備，也無法以其他任何方式從其裝備上獲益。\n<br>物件變生物。\n<br>你可以將一個物件變成任何一種符合下列要求的生物：生物的體積不能大於原物件，且生物的挑戰等級必須低於等於9。變形出的生物對你和你的同伴保持友善。而戰鬥中它將會在你的回合內，由你決定其如何行動。該生物的數據由DM掌控，並由DM 來判定其行動結果如何。\n<br>如果該法術變成永久有效，則你將不再控制該生物。此後，該生物將根據你對待他的方式決定是否對你保持友善。\n<br>生物變物件。\n<br>如果你將一個生物變形成一個物件，則它連同其穿著攜帶物一起變成新的形態。受術者的數據變成和該物件一樣，在法術終止而受術者變回原形后，它將不會記得在變成物件時所發生的任何事情。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 283",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一滴水銀，一團阿拉伯膠以及一縷煙",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 26700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722352298332,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UWQoJUNmS2svVG6i"
+}

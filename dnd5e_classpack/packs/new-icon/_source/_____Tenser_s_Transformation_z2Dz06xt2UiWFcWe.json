@@ -1,0 +1,132 @@
+{
+  "name": "譚森變形術Tenser's Transformation",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "_id": "z2Dz06xt2UiWFcWe",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你以魔法為燃料賦予自己耐久和武藝。直到法術結束之前，你不能施展法術，並且得到如下增益：<br />&middot;你得到50點臨時生命。如果這些臨時生命保持到了法術結束，它們會失去。<br />&middot;你在使用簡易或軍用武器時，攻擊檢定具有優勢。<br />&middot;當你用武器攻擊擊中一個目標，它將受到額外2d12力場傷害。<br />&middot;你熟練於所有盔甲，盾牌，簡易武器和軍用武器。<br />&middot;你熟練於力量豁免和體質豁免。<br />&middot;當你在自己的回合採取攻擊動作時，你可以攻擊兩次而非一次。如果已經有類似的能力給予你額外攻擊，例如額外攻擊Extra Attack，你無視這項增益。<br />在法術結束時你需要立即成功通過一次DC15的體質豁免檢定，否則將承受1級力竭。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": null,
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "50",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d12力場",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一縷公牛毛髮",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 51700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722351971626,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!z2Dz06xt2UiWFcWe"
+}

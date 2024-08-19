@@ -1,0 +1,165 @@
+{
+  "name": "洞悉感官(精靈)",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你在智力（調查）和感知（洞悉）檢定上具有優勢。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "_id": "sfq0xVT89dKputWJ",
+  "effects": [
+    {
+      "name": "洞悉感官(精靈)",
+      "origin": "Compendium.dnd5e_classpack.racial-traits.Item.sfq0xVT89dKputWJ",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "P58x3wT5qqfINPXU",
+      "changes": [
+        {
+          "key": "flags.midi-qol.advantage.skill.inv",
+          "mode": 0,
+          "value": "true",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.advantage.skill.ins",
+          "mode": 0,
+          "value": "true",
+          "priority": 20
+        }
+      ],
+      "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">你在智力（調查）和感知（洞悉）檢定上具有優勢。</span></p>",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!sfq0xVT89dKputWJ.P58x3wT5qqfINPXU"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 24800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711688450318,
+    "modifiedTime": 1711712493941,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sfq0xVT89dKputWJ"
+}

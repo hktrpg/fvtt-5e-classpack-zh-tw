@@ -1,0 +1,111 @@
+{
+  "_id": "eT0LfvbxuKfMuRbs",
+  "name": "哈達之慾 hunger of hadar",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warlock_EverlastingAffliction.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div>\n<div>你打開一個通道，並連線到群星間黑暗處某個遍佈未知恐怖之物的領域。以施法距離內一點為中心，一個半徑20</span>尺，漆黑而寒冷的球狀區域顯現並持續至該法術終止。這個虛無區域外30</span>尺範圍內能聽到充斥在空氣中的不諧耳語和啜嚼噪音。任何光照，魔法或其他手段都無法照亮這個區域，而完全進入該區域內的生物將陷入目盲狀態。<br />&nbsp;&nbsp;&nbsp; </span>虛無扭曲了空間的結構，使該區域內成為困難地形。任何在區域內開始其回合的生物將受到2d6</span>點冷凍傷害。任何在區域內結束其回合的生物必須進行一次敏捷豁免，豁免失敗者將因異界軟體觸手的觸碰而受到2d6</span>點強酸傷害。<br /></span></div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 150,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": "2d6強酸"
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一條酸洗過的章魚觸鬚",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 36000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719581315561,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eT0LfvbxuKfMuRbs"
+}

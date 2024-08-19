@@ -1,0 +1,93 @@
+{
+  "name": "石之符文 Stone Rune",
+  "type": "feat",
+  "img": "icons/commodities/treasure/token-engraved-spiral-grey-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>該符文的魔力可以引導和石巨人相關的智慧 judiciousness。當你穿著或持有一個銘刻此符文的物品，你在感知（洞悉）的檢定上獲得優勢，且你獲得120尺的黑暗視覺。</p><p>此外，當一個30尺內對你可見的生物結束它的回合，你可以使用一個反應動作來對該符文啟用，並強迫該生物進行一次感知豁免檢定。如果檢定失敗，該生物被你魅惑一分鐘。如果以該形式被魅惑，此生物移動速度降為0且進入失能狀態，陷入夢幻般的麻木狀態。目標可以在每個自己回合結束時重複進行此豁免檢定，直到成功解除該狀態。每當你啟用該符文，你無法再次使用該異能直到你完成一次短休或長休。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "30尺內對你可見的生物結束它的回合"
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "con"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "rune"
+    },
+    "requirements": "符文騎士等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": 1686420858004,
+    "modifiedTime": 1686421751543,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "T6Sp4fwgXhcmKFCd",
+  "_id": "MCeY3dEwTSnazF5c",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jo05tXxu7yf2dQe3": 3
+  },
+  "_key": "!items!MCeY3dEwTSnazF5c"
+}

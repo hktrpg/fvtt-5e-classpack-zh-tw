@@ -1,0 +1,136 @@
+{
+  "name": "旋風術 Whirlwind",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": true,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/air/wind-tornado-cyclone-white.webp",
+  "_id": "oVNlsoJvJriiUm1U",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>一陣呼嘯的旋風出現在你指定的地表上可見的一點。旋風半徑為10英尺，高度為30英尺，是一個以指定點為中心的柱狀體。直到此法術終結，你可以使用你的動作來在水平的任何方向上移動至多30英尺。旋風會吸入所有固定或未被穿戴或持握的，不大於中型Medium的物體。<br />在回合中第一次進入旋風的生物，或所在空間被旋風進入的生物（包括旋風第一次出現時的）必須進行一次敏捷豁免檢定。豁免失敗的生物受到10d6點鈍擊傷害，豁免成功者只受到上述傷害的一半。此外，體型不超過大型Large的生物若未通過豁免則必須通過一次力量豁免檢定，否則會被旋風束縛，直到法術終結。當一個生物在被旋風束縛的條件下開始其回合時，除非其達到了頂點，其將被向上方推動5英尺。被束縛的生物會隨著旋風移動，而法術終結時其會摔落，除非其具有其他方法保持懸浮。<br />被束縛的生物可以使用一個動作來進行一次力量或敏捷檢定，對抗你的法術豁免DC。若成功，該生物不再被旋風束縛，並被向隨機方向拋離3d6&times;10英尺遠。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一根稻草",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 43600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353158727,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oVNlsoJvJriiUm1U"
+}

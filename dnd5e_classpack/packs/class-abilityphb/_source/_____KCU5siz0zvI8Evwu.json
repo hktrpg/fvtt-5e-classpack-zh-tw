@@ -1,0 +1,94 @@
+{
+  "_id": "KCU5siz0zvI8Evwu",
+  "name": "自然恢復",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ABILITY_DRUID_NOURISH.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級起，你可以通過靜坐冥想與自然建立交流，並以此恢復部分魔法能量。完成一次短休后，你可以選擇恢復部分已使用的法術位。所恢復法術位環階的總和等於你德魯伊職業等級的一半（向下取整），且不能是6環或更高環階。你在完成一次長休后才能再次使用該特性。</p><p>例如，作為一名4級德魯伊時，你可恢復環階總數為二的法術位。你可以選擇恢復一枚2環法術位或者兩枚1環法術位。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 68",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "德魯伊能夠恢復部分已使用的法術位（不能是6環或更高）。",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "floor(@classes.druid.levels/2)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "大地結社等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 125
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!KCU5siz0zvI8Evwu"
+}

@@ -1,0 +1,228 @@
+{
+  "_id": "V7BV9skWjd87Ebgj",
+  "name": "隱形術 Invisibility",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Stealth.png",
+  "effects": [
+    {
+      "changes": [],
+      "description": "Grants advantage on next attack roll while forcing disadvantage to all who attack for 1 hour. Expires after 1 attack.",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": 3600,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": [
+            {
+              "changes": [
+                {
+                  "key": "flags.midi-qol.advantage.attack.all",
+                  "mode": 0,
+                  "value": "1",
+                  "priority": null
+                },
+                {
+                  "key": "flags.midi-qol.grants.disadvantage.attack.all",
+                  "mode": 0,
+                  "value": "1",
+                  "priority": null
+                }
+              ],
+              "description": "- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.<br/>- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+              "disabled": false,
+              "duration": {
+                "rounds": null,
+                "seconds": null,
+                "turns": null,
+                "startTime": null,
+                "combat": null,
+                "startRound": null,
+                "startTurn": null
+              },
+              "flags": {
+                "dfreds-convenient-effects": {
+                  "isConvenient": true,
+                  "isDynamic": false,
+                  "isViewable": true,
+                  "nestedEffects": [],
+                  "subEffects": []
+                }
+              },
+              "icon": "modules/dfreds-convenient-effects/images/invisible.svg",
+              "name": "Invisible",
+              "origin": null,
+              "tint": null,
+              "transfer": false,
+              "statuses": [
+                "Convenient Effect: Invisible",
+                "invisible"
+              ],
+              "_id": null
+            }
+          ]
+        },
+        "dae": {
+          "specialDuration": [
+            "1Attack",
+            "1Spell"
+          ]
+        }
+      },
+      "name": "Invisibility",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.V7BV9skWjd87Ebgj",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Invisibility",
+        "invisible"
+      ],
+      "_id": "F4uz50JzcWWZdG8j",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!V7BV9skWjd87Ebgj.F4uz50JzcWWZdG8j"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰的一個生物變為隱形並維持至法術終止。目標的穿著物和攜帶物只要保持在其身上也隨之保持隱形狀態。如果目標發動攻擊或施展法術，則該法術終止。\n<br><strong>升環施法效應。</strong>使用3環或更高的法術位施展該法術時，你使用的法術位每比2環高一環就可以額外指定一個目標。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 254",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一根包裹在阿拉伯膠中的睫毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 27500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711705891162,
+    "modifiedTime": 1722353881156,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!V7BV9skWjd87Ebgj"
+}

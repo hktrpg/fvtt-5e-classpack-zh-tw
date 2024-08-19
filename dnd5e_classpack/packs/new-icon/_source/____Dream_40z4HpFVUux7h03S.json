@@ -1,0 +1,135 @@
+{
+  "_id": "40z4HpFVUux7h03S",
+  "name": "託夢術 Dream",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc8425905989904532955B410E9FCB50232D4D5417826764D05EEDD07443.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 此法術將塑造一個生物的夢境。指定一個你已認知且與你同處一個位面的生物。那些不睡眠的生物（比如精靈），則不會被該法術影響。你或一個被你觸碰的自願生物，將作為信使進入出神狀態。該狀態下，信使能夠意識到自己周圍的狀況，但是不能執行動作或進行移動。\n<br>如果目標正睡著，則信使可以進入其夢中並在其沉睡期間與之交流。信使可以在法術持續時間內在夢中創造景觀、物件和其他影像。信使可以隨時結束出神狀態並提前終止法術效應。而目標在完全醒來后，可以回憶其夢境的內容。如果你施法時目標醒著，則信使可以瞭解到這點。此時信使可以終止出神和法術，或是等待目標入睡再進入其夢境。\n<br>你可以讓信使以可怕的形象出現。但此時信使只能提供不超過十個單詞的資訊，而且目標必須成功通過一次感知豁免。豁免失敗時，怪影縈繞的噩夢就會影響目標的睡眠，使其無法從休息中獲益。並且在其醒來時受到3d6點心靈傷害。\n<br>如果你擁有目標身體的部分，比如頭髮，指甲或類似的東西。則目標進行該豁免時具有劣勢。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 236",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "psychic"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一把沙子，一點墨水，和一支從沉睡的鳥兒身上拔下的可書寫羽毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 3100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722352280467,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!40z4HpFVUux7h03S"
+}

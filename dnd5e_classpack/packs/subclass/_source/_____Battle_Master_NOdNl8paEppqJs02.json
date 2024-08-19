@@ -1,0 +1,180 @@
+{
+  "_id": "NOdNl8paEppqJs02",
+  "name": "戰鬥大師 Battle Master",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Achievement_Arena_2v2_6.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>        戰鬥大師選擇磨鍊列代先輩傳承下來的戰鬥技巧。戰鬥大師們將戰鬥視為一門學問，而其內容不止包含戰鬥本身，還包括鑄造武器和書法等等。並非每個戰士都能適應戰鬥大師範型對學習歷史，理論和藝術的要求，但能做到的人則都是技藝精熟，知識豐富的多面手。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "battle-master",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "9gd70onmans30zvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.SU3RYIYcwg1MmRGV",
+            "Compendium.dnd5e_classpack.class-abilityphb.CRu7K83gIxlVL5sX",
+            "Compendium.dnd5e_classpack.class-abilityphb.ZT9vj0Gq45jYM7ne"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性"
+      },
+      {
+        "_id": "xrbp5zb11dgdzq36",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.DKWVj0Nu3c7Bv76Q"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性"
+      },
+      {
+        "_id": "a3dzqoxh385uu51q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.MNPSY97vJ2u3g4PT"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性"
+      },
+      {
+        "_id": "ac1adrmivci6ryf4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.XhIrfJzwfR4ldXHy"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性"
+      },
+      {
+        "_id": "azolijsc98tbxiyw",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "zhuoyue",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 4,
+              "faces": 8
+            },
+            "7": {
+              "number": 5,
+              "faces": 8
+            },
+            "10": {
+              "number": 5,
+              "faces": 10
+            },
+            "15": {
+              "number": 6,
+              "faces": 10
+            },
+            "18": {
+              "number": 6,
+              "faces": 12
+            }
+          }
+        },
+        "value": {},
+        "title": "卓越骰"
+      },
+      {
+        "_id": "f2j3m4T9xQ2npoCE",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": 3,
+            "7": 2,
+            "10": 2,
+            "15": 2
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.P2sEeA2SwAWVFlmp",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.7Bxg3jMMKStcDwEg",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.ICU4UM2zkjZKgF8R",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.o0drZbre70mQZJyw",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.XPss8JrGOAkbvtqL",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.3mh8JDnSHd0C80FD",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.QWzpd3YeD8yzm0uQ",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.fmut2oPoXkcErPTG",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.Z9VTY08dEKHN6NSG",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.tZMUQ7cZxXp8Jhig",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.ntxJ0qMIKnU4Urbs",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.nK8383Sfx2lzCMbu",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.YWPe5vOpsEEhdAET",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.hjCX6CUshgacy9eU",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.CdZjITokyfYmKkfh",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.sXPM1fnnLlbIEWsG",
+            "Compendium.dnd5e_classpack.extra-ability.Item.eZWU8IrHPcNXuu0w",
+            "Compendium.dnd5e_classpack.extra-ability.Item.DHRB0zFNBcOkuto3",
+            "Compendium.dnd5e_classpack.extra-ability.Item.iim2hoh4OGrRYZU0",
+            "Compendium.dnd5e_classpack.extra-ability.Item.4LvVKKPL68AFJiwL",
+            "Compendium.dnd5e_classpack.extra-ability.Item.KBa0zvvGmsIQzAWM",
+            "Compendium.dnd5e_classpack.extra-ability.Item.71aSuFiaQn7QPgiQ",
+            "Compendium.dnd5e_classpack.extra-ability.Item.VtoHZM9o8Oifvh4m"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "maneuver"
+          },
+          "hint": "你習得三種自選戰技。戰技強化了你的攻擊。而你在每次攻擊時只能應用一種戰技。\n\n        你在第7，第10和第15級時均習得兩種新戰技。習得新戰技時，你還可以額外替換一個已經習得的戰技。"
+        },
+        "value": {},
+        "title": "卓越戰技"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686419173150,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NOdNl8paEppqJs02"
+}

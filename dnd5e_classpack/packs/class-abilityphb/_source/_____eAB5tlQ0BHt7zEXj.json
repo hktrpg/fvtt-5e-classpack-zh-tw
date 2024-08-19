@@ -1,0 +1,101 @@
+{
+  "_id": "eAB5tlQ0BHt7zEXj",
+  "name": "身化長流",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Frost_WindWalkOn.png",
+  "system": {
+    "description": {
+      "value": "<p>作為一個動作，你可以消耗1點氣並指定你周邊120尺內一塊不大於30尺的冰或水的區域。你可以將該區域內的水凝為冰，反之亦可，並且還可以將區域內的冰塑造成任意的形狀。你可以提高或降低冰的高度，創造或填平溝壑，豎起或放倒冰墻，或是塑造一根冰柱。這些造型的最大尺寸不能超過該區域最大邊長的一半。例如，假設你影響一塊30尺的方狀區域，你可以豎起的冰柱高度至多為15尺，提升或降低區域內總體高度至多15尺,創造的溝壑最深15尺，等等。你不能通過塑形冰來困住或傷害區域內的生物。</p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "1 點氣。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "elementalDiscipline"
+    },
+    "requirements": "四象宗等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eAB5tlQ0BHt7zEXj"
+}

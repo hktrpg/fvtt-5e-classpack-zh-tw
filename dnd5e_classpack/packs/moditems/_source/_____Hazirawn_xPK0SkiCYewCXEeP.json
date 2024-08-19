@@ -1,0 +1,127 @@
+{
+  "_id": "xPK0SkiCYewCXEeP",
+  "name": "哈茲瑞恩 Hazirawn",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>作為一把智慧巨劍（中立邪惡），哈茲瑞恩會說通用語和耐色瑞爾語。即使你未與它同調，你持用這把武器進行的攻擊檢定和傷害擲骰仍可獲得 +1 加值。若你未與哈茲瑞恩同調， 你以該武器命中時只可額外造成[[/r 1d6]]的黯蝕傷害。</p>\n<p><strong>提升效能 Increased Potency。</strong>你與該武器同調后，其攻擊檢定和傷害擲骰的加值提升爲 +2，且其命中時造成的額外傷害改為[[/r 2d6]]的黯蝕傷害（代替[[/r 1d6]]）。</p>\n<p><strong>法術 Spells。</strong>哈茲瑞恩 擁有 4 發充能用以施展法術。與這把劍同調並將其持握在手后，你可以施展法術@UUID[Compendium.dnd5e_classpack.new-icon.cGO3m3Xu4mtPegr4]{偵測魔法 Detect Magic}（1 充能）、@UUID[Compendium.dnd5e_classpack.new-icon.zeN5fxXLn4QE2YDa]{偵測善惡 Detect Evil and Good}（1 充能）或@UUID[Compendium.dnd5e_classpack.new-icon.YuGbz9k5JXA0kIgT]{偵測思想 Detect Thoughts}（2 充能）。在每日午夜時分，哈茲瑞恩 會回覆 [[/r 1d4]]的充能。</p>\n<p><strong>致傷 Wounding。</strong>你與該武器同調后，任何被你以哈茲瑞恩 命中的生物在 1 分鐘內無法恢復生命值。該目標在其每個自己 回合結束時，可以進行一次 DC 15 的體質豁免，豁免成功則該效應提前終止。</p>\n<p><em>註：傷害與加值已設為同調后的數值。請根據實際需要調整。</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "HotDQ",
+    "quantity": 1,
+    "weight": 6,
+    "price": null,
+    "attunement": 1,
+    "equipped": true,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "2",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 + @mod+2",
+          "slashing"
+        ],
+        [
+          "2d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "greatsword",
+    "properties": {
+      "rch": false,
+      "amm": false,
+      "ver": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "mgc": true,
+      "lgt": false,
+      "two": true,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": true,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "_key": "!items!xPK0SkiCYewCXEeP"
+}

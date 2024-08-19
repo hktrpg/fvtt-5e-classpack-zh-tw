@@ -1,0 +1,136 @@
+{
+  "_id": "3281F1CA7C3B86A1",
+  "name": "閃電標槍 Javelin of Lightning",
+  "type": "weapon",
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>這把標槍是魔法武器。當你投擲它並說出命令字時，它將轉變為一道5尺寬的閃電束，向120尺內的某個目標飛去。閃電經過的直線上除你和目標之外的每個生物必須進行一次DC13的敏捷豁免，失敗受到[[/r 4d6]]閃電傷害，成功則減半。閃電束在達到目標時變回標槍並對目標進行一次遠端攻擊。如果攻擊命中，目標將受到標槍的傷害外加[[/r 4d6]]閃電傷害。</p>\n<p>標槍的這個特性直到次日黎明前都無法再次啟動，但你仍然可以把它當做普通魔法武器使用。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 178"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 1500,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 120,
+      "width": null,
+      "units": "ft",
+      "type": "line",
+      "prompt": true
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "piercing"
+        ],
+        [
+          "4d6",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "4d6",
+    "save": {
+      "ability": "dex",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "thr",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "javelin"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 31200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!3281F1CA7C3B86A1"
+}

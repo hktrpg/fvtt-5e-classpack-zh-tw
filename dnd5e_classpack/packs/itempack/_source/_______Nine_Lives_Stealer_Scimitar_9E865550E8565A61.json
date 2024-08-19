@@ -1,0 +1,133 @@
+{
+  "_id": "9E865550E8565A61",
+  "name": "九轉奪命彎刀 Nine Lives Stealer Scimitar",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+2加值。</p>\n<p>九轉奪命劍有[[/r 1d8+1]]發充能。當你用此劍對一名HP不足100的生物造成重擊時，它必須通過一次DC15的體質豁免否則立刻因生命力被劍吸乾而死（不死生物和構裝生物免疫此能力）。如果該生物因此被殺，劍將消耗1發充能。用盡充能后，劍將失去這個特用。</p>\n<p><em>Foundry 註：這把彎刀具有完整的9發充能。請根據需要調整。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 183"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 8000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "對一名HP不足100的生物造成重擊。不死生物和構裝生物免疫。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 9,
+      "max": "9",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 +@mod +2",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "scimitar"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 70200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!9E865550E8565A61"
+}

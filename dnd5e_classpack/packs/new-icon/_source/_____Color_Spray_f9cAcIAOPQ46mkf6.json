@@ -1,0 +1,307 @@
+{
+  "_id": "f9cAcIAOPQ46mkf6",
+  "name": "七彩噴射 Color Spray",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/000466.png",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        },
+        {
+          "key": "flags.midi-qol.grants.advantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 0
+        }
+      ],
+      "description": "<p>- A blinded creature can't see and automatically fails any ability check that requires sight.<br />- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</p>",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "turnEndSource"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "name": "Blinded",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.f9cAcIAOPQ46mkf6",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Blinded",
+        "blinded"
+      ],
+      "_id": "UH2PUxoRHzEpd0h3",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/blinded.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!f9cAcIAOPQ46mkf6.UH2PUxoRHzEpd0h3"
+    },
+    {
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "ActiveEffect.SDrUwzuaGgY9Zvev"
+        },
+        "dfreds-convenient-effects": {
+          "description": "緩慢 Slowed 如同緩慢術的效果，如果在緩慢狀態下再次受到緩慢影響將會陷入失能",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "count",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "turnEndSource"
+          ],
+          "disableIncapacitated": false,
+          "dontApply": false,
+          "showIcon": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "nameOverride": "",
+          "customCheck": "",
+          "wallsBlock": "system"
+        }
+      },
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.f9cAcIAOPQ46mkf6",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_id": "9utQMZrCrTZmNKJ8",
+      "name": "恍惚",
+      "description": "<div class=\"Section0\" style=\"LAYOUT-GRID:15.6pt none\"><h4 style=\"MARGIN:2pt 0pt;mso-pagination:widow-orphan\"><strong>恍惚</strong></h4><p class=\"26\" style=\"MARGIN-BOTTOM:0pt;MARGIN-TOP:0pt;LINE-HEIGHT:13pt;MARGIN-RIGHT:0pt;TEXT-INDENT:12pt;mso-pagination:widow-orphan;mso-char-indent-count:1.0000;mso-add-space:auto;mso-line-height-rule:exactly\">·恍惚的生物不能執行反應。</p><p class=\"26\" style=\"MARGIN-BOTTOM:0pt;MARGIN-TOP:0pt;LINE-HEIGHT:13pt;MARGIN-RIGHT:0pt;TEXT-INDENT:12pt;mso-pagination:widow-orphan;mso-char-indent-count:1.0000;mso-add-space:auto;mso-line-height-rule:exactly\">·恍惚的生物在自己的回合內，只能從動作、附贈動作、消耗移動力三種行為中選擇一項執行。</p></div>",
+      "statuses": [
+        "Convenient Effect: 恍惚"
+      ],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/daze.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!f9cAcIAOPQ46mkf6.9utQMZrCrTZmNKJ8"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"><p>炫目的彩光從你指間散射而出。擲一次6d10；其結果為受該法術影響生物的生命值總數。在以你為源點的15尺錐狀區域內的生物以剩餘生命值由小至大的順序受法術影響（生效時忽略昏迷生物和不能視物的生物）。 <br />計算受法術影響生物時，從剩餘生命值最低的生物開始逐個計算。每個受術生物均陷入目盲以及恍惚，直至法術終止。法術擲骰的生命值總數減去一個受術生物的生命值后，餘數再用以計算生命值稍高者是否受法術影響。生物剩餘生命值，必須小於等於該餘數法術才能成功影響該生物。 <br /><strong>升環施法效應。</strong>使用2環或更高法術位施展該法術時，你使用的法術位每比1環高一環，法術的擲骰時就增加2d10。<br /></p></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 222",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "6d10",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一撮粉末或沙子，其顏色必須包含紅、黃、藍三色",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "2d10"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 36700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711703635615,
+    "modifiedTime": 1722343098421,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!f9cAcIAOPQ46mkf6"
+}

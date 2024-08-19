@@ -1,0 +1,234 @@
+{
+  "_id": "k0Edsji19UVt4i04",
+  "name": "自然領域 Nature Domain",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_BlessingOfAgility.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>        自然之神正如自然界本身一樣變化多端，從宛如迷一般居於密林之中的神衹(如西凡那斯Silvanus、歐拜 · 亥Obad-Hai、奇思洛夫Chislev、巴力諾Balinor和潘Pan)到關聯為特定花朵與灌木的友善神衹(如埃達絲Eldath)都有存在。崇拜自然界本身的德魯伊也會服務於其中一個神衹，並用德魯伊的秘密語言練習其神秘儀式，以及背誦那些早被遺忘的禱文。許多這些神衹同樣擁有相應的牧師，而這些勇士會幫助特定的自然神衹出任更需要積極冒險的任務。他們可能會前去狩獵破壞林地的邪惡怪物，去護佑忠實信徒們的收穫，或是去詛咒那些瀆神者的莊稼使其枯萎。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>牧師等級</th>\n<th>法術</th>\n</tr>\n<tr>\n<td><strong>1st</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.t09Fa4kTkkIgMoDu]{化獸為友}@UUID[Compendium.dnd5e_classpack.new-icon.3JUEqJSbgArlUBR5]{動物交談}</td>\n</tr>\n<tr>\n<td><strong>3rd</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.YbdMfI7wNgrKkpRK]{樹膚術}@UUID[Compendium.dnd5e_classpack.new-icon.1oL8DBOVZMuhaKpw]{荊棘叢生}</td>\n</tr>\n<tr>\n<td><strong>5th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.1TP8dARdcRojx7P1]{植物滋長}@UUID[Compendium.dnd5e_classpack.new-icon.WLWSZA4pZSGb0Mku]{風墻術}</td>\n</tr>\n<tr>\n<td><strong>7th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.xaSXewdCx3aWtczk]{支配野獸}@UUID[Compendium.dnd5e_classpack.new-icon.AAXts6UWV351MjQ4]{擒抱藤}</td>\n</tr>\n<tr>\n<td><strong>9th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.eGYMgP3fmIUQEXMm]{疫病蟲群}@UUID[Compendium.dnd5e_classpack.new-icon.UqkkLccwOWYk8aO1]{樹躍術}</td>\n</tr>\n</tbody>\n</table>\n<p><strong>附贈熟練項Bonus Proficiency</strong></p>\n<p>在第1級選擇該領域時，你獲得重甲的熟練項。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "nature-domain",
+    "classIdentifier": "cleric",
+    "advancement": [
+      {
+        "_id": "lowv6o578jo7dqnq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.t09Fa4kTkkIgMoDu",
+            "Compendium.dnd5e_classpack.new-icon.3JUEqJSbgArlUBR5"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "hae6czro96iqw4dp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.YbdMfI7wNgrKkpRK",
+            "Compendium.dnd5e_classpack.new-icon.1oL8DBOVZMuhaKpw"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "fk77z2wwcw4n25l4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.1TP8dARdcRojx7P1",
+            "Compendium.dnd5e_classpack.new-icon.WLWSZA4pZSGb0Mku"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "s2c8unanjhicb4sd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.xaSXewdCx3aWtczk",
+            "Compendium.dnd5e_classpack.new-icon.AAXts6UWV351MjQ4"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "zd4fuedgf1zxqiyg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.eGYMgP3fmIUQEXMm",
+            "Compendium.dnd5e_classpack.new-icon.UqkkLccwOWYk8aO1"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "2pbio9g7r1c48uqm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.ZLgr8uSYlPn3jYNq"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "職業特性"
+      },
+      {
+        "_id": "w23y6jcwldhqnfh2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.eVa5T71KMiaceD5z"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性"
+      },
+      {
+        "_id": "4tobypdfms4ciha1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.vLPURGuDHBKlghiC"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性"
+      },
+      {
+        "_id": "cb32azsgazjyrx8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.zFXd6nXmOKpnmHDR"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "職業特性"
+      },
+      {
+        "_id": "96yky860nofemqc4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.vHm8PpQAYp05Aw3W"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性"
+      },
+      {
+        "_id": "d5pf1kfxap5syi0o",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "8": {
+              "number": 1,
+              "faces": 8
+            },
+            "14": {
+              "number": 2,
+              "faces": 8
+            }
+          }
+        },
+        "value": {},
+        "title": "神聖打擊傷害"
+      },
+      {
+        "_id": "azWrJA2n88jaLD9d",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "1": 1
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "restriction": {
+            "level": "0"
+          },
+          "hint": "第1級時，你習得一個自選的德魯伊戲法。"
+        },
+        "value": {},
+        "title": "自然侍僧"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685806521574,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!k0Edsji19UVt4i04"
+}

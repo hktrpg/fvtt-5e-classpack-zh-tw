@@ -1,0 +1,127 @@
+{
+  "name": "隱形僕役 Unseen Servant",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/control/debuff-energy-hold-blue-yellow.webp",
+  "_id": "EuKITnw8F4mHUEEL",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術創造出一個無心智、無實體的隱形力場生物。你可以在法術終止前命令它進行簡單的工作。該僕從被創造出來后出現在施法距離內一處未被佔據空間的地面上。其AC為10，生命值為1，力量為2，且不能攻擊。若僕從的生命值降至0，則法術終止。\n<br>你可以自己每個回合內以一個附贈動作對僕役下達精神命令，使它移動最多15尺並與一個物件進行互動。僕從可以做人類僕從能做到的簡單工作，例如拿取東西、打掃衛生、修補東西、疊衣服、點火、上菜、倒酒等。一旦你下達了命令，僕從就會盡全力去做你命令它做的工作直至完成，並在完成任務后靜待你的下一個命令。\n<br>如果你命令僕從做一件需要它離開你身邊60尺的工作，則法術隨之終止。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 284",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "space"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一根線和一塊木頭",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 12000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353853870,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EuKITnw8F4mHUEEL"
+}

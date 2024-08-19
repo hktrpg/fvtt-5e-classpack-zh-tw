@@ -1,0 +1,120 @@
+{
+  "_id": "521E9169AAE01949",
+  "name": "劇毒藥水 Potion of Poison",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>這種藥水看起來、聞起來和嚐起來都和@UUID[Compendium.dnd5e_classpack.itempack.001CB94F5D09877A]{治療藥水 Potion of Healing}或其他增益藥水差不多。</em></p>\n<p>但實際上，它是用幻術偽裝過的毒藥。@UUID[Compendium.dnd5e_classpack.new-icon.tyshE8ZcV1Xniej3]{鑑定術 Identify}可以發現它的本質。</p>\n<p>飲用此藥水后，你受到[[/r 3d6]]毒素傷害並且必須通過一次DC13的體質豁免否則中毒。中毒期間每次你的回合開始時，你受到[[/r 3d6]]毒素傷害。每次你的回合結束時你可以再次嘗試豁免。如果豁免成功，你在接下來的回合中受到的毒素傷害減少[[/r 1d6]]。當毒素傷害降低至0時，毒藥效果消失。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "spec"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "poison"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d6",
+    "save": {
+      "ability": "con",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "poison",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 42100000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!521E9169AAE01949"
+}

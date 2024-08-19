@@ -1,0 +1,115 @@
+{
+  "_id": "D1A657077F6D2CE0",
+  "name": "攀爬繩 Rope of Climbing",
+  "type": "consumable",
+  "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這條60尺長的絲質繩索重3磅，可以承受3,000磅的重量。</p>\n<p>你可以握住繩索的一端並用一個動作說出命令字以使繩索活化。以一個附贈動作，你可以命令繩索的另一端向你指定的目的地前進。從你下達命令的回合開始，繩索的另一端在你的每個回合移動10尺，直到到達目的地、長度不足或你命令它停止。你也可以命令繩索牢牢綁在一個指定物體上，或是鬆綁、打結、解結、捲起。</p>\n<p>如果你命令攀爬繩打結，它將每隔1英尺打一個大結。打結將使繩索長度縮短為50尺，但你在使用繩索進行攀爬時具有優勢。</p>\n<p>繩索擁有AC20和20HP。只要還剩至少1HP，繩索就能每5分鐘恢復1HP。如果繩索的HP降低至0，則它被摧毀。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 197"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 2000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。一個附贈動作令其移動10尺"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 20,
+      "max": "20",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 86900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!D1A657077F6D2CE0"
+}

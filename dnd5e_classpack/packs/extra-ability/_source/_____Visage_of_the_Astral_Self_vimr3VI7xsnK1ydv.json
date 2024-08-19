@@ -1,0 +1,130 @@
+{
+  "_id": "vimr3VI7xsnK1ydv",
+  "name": "星我之容 Visage of the Astral Self",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_bastion_priest.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你可以召喚你的星我之容，以一個附贈動作，或者作為你召喚@UUID[Compendium.dnd5e_classpack.extra-ability.Qctmiuim4M9SfU1E]{星我之臂}時的附贈動作中的一部分，你可以花費1點氣來召喚星我之容，持續10分鐘，如果你失能或死亡，則它會立即消失。</p>\n<p>幽光般的頭盔或面具遮擋著你的臉，你來決定它的外觀。</p>\n<p>當星我之容存在時，你將獲得如下增益：</p>\n<ul>\n<li><strong>星之視覺</strong>。你在黑暗中擁有120尺的可視距離，而無論其屬於魔法黑暗還是非魔法黑暗。</li>\n<li><strong>靈魂感知</strong>。你的感知（洞悉）和魅力（威嚇）檢定具有優勢。</li>\n<li><strong>靈魂之語</strong>。當你說話時，你可以將你的話語指向你選擇的一個60尺範圍內的可視生物，這種情況下只有這個生物才能聽到你的聲音。 或者你可以放大你的聲音，這種情況下600尺內的所有生物都能聽到你的聲音。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "1 點氣。"
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "星我宗等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "ZbkZlyE5gsHPADH0",
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "120",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.vimr3VI7xsnK1ydv",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 120 尺黑暗視野。",
+      "img": "modules/dnd5e_classpack/Nicons/ability_bastion_priest.jpg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!vimr3VI7xsnK1ydv.ZbkZlyE5gsHPADH0"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!vimr3VI7xsnK1ydv"
+}

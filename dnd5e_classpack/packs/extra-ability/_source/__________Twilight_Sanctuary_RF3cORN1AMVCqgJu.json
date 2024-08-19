@@ -1,0 +1,93 @@
+{
+  "_id": "RF3cORN1AMVCqgJu",
+  "name": "引導神力：暮光聖域 Twilight Sanctuary",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_unused2.png",
+  "system": {
+    "description": {
+      "value": "<p>你可以@UUID[Compendium.dnd5e_classpack.class-abilityphb.WPevnsjK8Cjd9Fcl]{引導神力}，用柔和的暮光來振作你盟友的精神。</p>\n<p>你用一個動作展示@UUID[Compendium.dnd5e_classpack.itempack.TJi1q6Bm8IGoJJVL]{聖徽}並使自身散發球體範圍的暮光。球體以你為源心，具有30尺半徑，其範圍內被微光光照充斥。除非你失能或死亡，否則球體跟隨你移動並持續存在1分鐘。當一個生物（包括你）在球體內結束自己回合時，你能給予它以下好處之一：</p>\n<ul>\n<li>使目標獲得[[/r 1d6]]加你牧師等級的臨時生命。</li>\n<li>使目標結束一個正使他魅惑或恐慌的效果。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @classes.cleric.levels",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "暮光領域等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RF3cORN1AMVCqgJu"
+}

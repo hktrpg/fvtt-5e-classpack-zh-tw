@@ -1,0 +1,205 @@
+{
+  "name": "攝心目光(驚慌) Eyebite",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ]
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "29578724b0bb9072e13f6dfa8a22926ae8fc0eca",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.qIZ8AXXoGmKiomkm"
+    }
+  },
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.midi-qol.disadvantage.ability.check.all",
+          "mode": 0,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.<br />- The creature can't willingly move closer to the source of its fear.",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        }
+      },
+      "name": "Frightened",
+      "origin": "Actor.bvEYS7EFkAFT4pCf.Item.qIZ8AXXoGmKiomkm",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Frightened",
+        "frightened"
+      ],
+      "_id": "NorxvQaWwXQbwfIi",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dfreds-convenient-effects/images/frightened.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!FL1ww0jvWZ97B39T.NorxvQaWwXQbwfIi"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 在法術持續時間內，你的眼睛變成充滿恐怖力量的漆黑空洞。\n<br />指定一個60尺內你能看見的生物，並迫使其進行一次感知豁免，豁免失敗者將承受下列效應之一（由你選擇）。在法術終止前的每個自己回合，你都可以使用動作來指定一個目標。不過不能指定那些已經成功通過該豁免的生物。\n<br /><strong>沉睡Asleep。</strong>目標陷入昏迷。其在受到傷害，或另一個生物使用動作搖晃它時，即可再次醒來。\n<br /><strong>驚慌Panicked。</strong>目標因你而恐慌，它必須在每個其自己回合里執行疾走Dash 動作並移動，且以最短、最安全的路徑儘可能的逃離你，直至其無路可逃為止。如果目標移至離你60尺遠且看不見你的地方，則法術效應終止。\n<br /><strong>患病Sickened。</strong>目標發動攻擊檢定和進行能力檢定時具有劣勢。目標在每個其自己回合結束時都可以進行另一個感知豁免，豁免成功則該效應終止。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 238"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "nec",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711724671900,
+    "modifiedTime": 1711725041064,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "FL1ww0jvWZ97B39T",
+  "sort": 12500,
+  "_key": "!items!FL1ww0jvWZ97B39T"
+}

@@ -1,0 +1,127 @@
+{
+  "_id": "PLsEzUel26T6JUTO",
+  "name": "復生術 Resurrection",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/000411.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個已死的生物，並使之復活。該目標的死亡時間必須沒有超過一百年，其死因不能是老死，且不能是不死生物。此時，如果該生物的靈魂願意並且能夠回來，則受術生物以生命值全滿的狀態復活。\n<br>該法術同樣會中和該生物生前體內的毒素以及罹患的普通疾病，但對於魔法造成的疾病、詛咒和類似的效應則無能為力；如果沒有在復活前治癒這些效應，則該生物重獲生命的時該效應將繼續生效。\n<br>該法術能治癒致命的傷口，也能恢復失去的身體部位。\n<br>死而復生是一個痛苦的體驗。復活的目標在隨後進行攻擊檢定、豁免檢定和屬性檢定時具有－4減值。該目標每完成一次長休，其減值就減少1，依次疊加直至減值完全消失。\n<br>使用該法術復活一個已死去一年或更久的生物會使你耗費大量精力。你將無法在完成一次長休前再施放任何法術，且此時你進行的一切攻擊檢定、屬性檢定和豁免檢定具有劣勢。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 272",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一顆至少價值 1000gp 的鑽石，作為該法術的耗材",
+      "consumed": true,
+      "cost": 1000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 22100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717698026188,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PLsEzUel26T6JUTO"
+}

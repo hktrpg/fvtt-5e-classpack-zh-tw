@@ -1,0 +1,112 @@
+{
+  "name": "魂靈環繞 Spirit Shroud (TCE)",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_priest.jpg",
+  "_id": "TH2wXQ3yssrGZ821",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div>&nbsp; &nbsp; &nbsp; &nbsp; 你召來亡者的魂靈，而它們在法術持續時間內環繞於你的身邊。這些魂靈無形且不可傷害。<br />　　直到法術終止前，你的所有命中你 10 尺內生物的攻擊造成 1d8 額外傷害。傷害型別為光耀、黯蝕或寒冷（由你在施展法術的時候選擇）。任何受到此傷害的生物無法恢復生命值直到你的下個回合開始。<br />　　此外，任何你 10 尺內可見生物回合開始時，你可以使其速度降低 10 尺直到你的下個回合開始。<br />　　<strong>升環施法效應：</strong>使用四環或更高法術位施展該法術時，你使用的法術位每比三環高 2 環，其傷害就增加 1d8。</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "radius"
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "radiant"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d4"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 25600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719631202494,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TH2wXQ3yssrGZ821"
+}

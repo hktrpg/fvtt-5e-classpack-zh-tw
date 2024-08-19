@@ -1,0 +1,127 @@
+{
+  "_id": "Op4JXRBVkdPVuDov",
+  "name": "魔鄧肯豪宅術 Mordenkainen's Magnificent Mansion",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Jewelry_Amulet_01.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內創造出一個異次元的居所，並維持至法術持續時間結束。居所唯一的入口寬5尺，高10尺而微微發光，其具體位置由你指定。只要該入口保持開啟，你和你施展該法術時指定的任意生物都可以進入該異次元居所中。你可以在距入口不超過30尺處開啟或關閉入口。而入口關閉時即其處於隱形狀態。\n<br>入口內是一個連線著許多房間的華麗大廳。其內空氣潔凈清新而溫暖舒適。\n<br>你可以隨意創造自己喜歡的房間構造，但其總體積不得超過50個邊長10尺的立方體。房間內依你喜好配置好傢俱和裝飾，其內儲備的食材足以製作供100人享用的九道菜大餐。一組共100名的半透明僕從會招待任何進入房間的人。僕從的外觀衣著由你決定，而它們會完全服從你的命令。每個僕從都可以完成一個普通人程度的工作，但它們不能攻擊或者進行任何直接傷害其他生物的行動。因而僕從可以完成的工作包括：取來物品、清潔、修理、疊衣服、生火、上菜、倒酒等等。僕從可以去豪宅中的任何地方，但不能里開宅子。由該法術創造的傢俱和其他物品如果被移出豪宅，就會消散成煙霧。該法術終止時，任何處於該異次元空間內的生物都將被移出空間內，並出現在距離入口最近的開放空間內。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 300,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一個象牙雕琢的拱門小模型、一塊打磨過的大理石和一把微型銀湯匙，每件物品至少價值 5gp",
+      "consumed": false,
+      "cost": 15,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 21600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720802925921,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Op4JXRBVkdPVuDov"
+}

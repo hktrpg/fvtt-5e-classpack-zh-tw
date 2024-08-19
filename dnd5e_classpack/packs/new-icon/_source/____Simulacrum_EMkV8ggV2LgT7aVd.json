@@ -1,0 +1,127 @@
+{
+  "_id": "EMkV8ggV2LgT7aVd",
+  "name": "擬像術 Simulacrum",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_DeathKnight_FrostFever.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你花費整段施法時間為施法距離內一個野獸或類人生物塑造出一個幻像分身。該分身是一個由冰雪構成的半真實生物，它可以執行動作，也能在其他方面如同正常生物一樣受到各種影響。它與其本體生物看起來一樣，但是其生命值上限只有本體一半，而且在成型時不帶任何裝備。除此之外，幻象分身的屬性數據都與本體相同。\n<br>擬像對你和你所選定的生物保持友好關係。它會服從你說出的命令，按照你的願望行動，在戰鬥中還會在你的回合行動。擬像無法學習，也不知道如何變得更強大，因此它永遠不會升級，其他能力也不會變得更強，而它用掉的法術位也不能恢復。\n<br>擬像受損后，你可以在鍊金實驗室裡修理它。擬像每恢復一點生命值就要消耗價值100gp 的稀有礦物和藥草。擬像會一直持續到其生命值降至0，隨後就變回冰雪並立刻融化。再次施放該法術時，任何你已用該法術創造出來並且正在活動中的分身都會立刻被摧毀。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 276",
+    "activation": {
+      "type": "hour",
+      "cost": 12,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一些雪或冰，用來給模擬對像製作一個真人大小的模型；放置在模型上的模擬對像身體的一部分，比如毛髮或指甲；以及撒在分身上至少價值 1500gp 的紅寶石粉，作為該法術的耗材",
+      "consumed": true,
+      "cost": 1500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 11100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722342964067,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EMkV8ggV2LgT7aVd"
+}

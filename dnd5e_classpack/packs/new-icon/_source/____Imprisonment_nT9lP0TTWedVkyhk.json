@@ -1,0 +1,126 @@
+{
+  "_id": "nT9lP0TTWedVkyhk",
+  "name": "禁錮術 Imprisonment",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/003087.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你創造一個魔法監牢，將施法距離內一個你能看見的生物監禁於其內。目標必須進行一次感知豁免，豁免失敗則被該法術禁錮；對於成功通過豁免的生物，若你再次對其施展該法術，則它對該法術免疫。被該法術禁錮時，目標生物不需要呼吸，不需要吃喝，也不會變老。預言法術也無法定位或感知到該目標。你在施展該法術時從下列選項中選擇一種監牢的形式：\n<br><strong>埋葬Burial。</strong>目標被深埋在遠離地表的球狀魔法力場內，其大小剛好能包覆住目標。任何事物均無法穿過該力場，且任何生物均無法通過傳送或位面旅行進出該力場。此版本法術需要的特殊材料為一個秘銀小球。\n<br><strong>鎖鏈Chaining。</strong>沉重的鎖鏈牢固地深植於大地，將目標禁錮在原地。目標被束縛至法術終止，其間它不能移動或以任何方式被移動。\n<br>此版本法術需要的特殊材料為一截精美的貴金屬鏈。\n<br><strong>避世監牢Hedged Prison。</strong>該法術將目標傳送至一個隔絕了傳送和位面旅行的小型半位面。該半位面可以是一個迷宮，一間牢房，一座塔樓，或是任意由你選擇的幽閉建築或區域。此版本法術需要的特殊材料為一個玉製的監牢微縮模型。\n<br><strong>微縮牢籠Minimus Containment。</strong>目標被縮小到1寸高，並囚禁於一塊寶石或是類似的物件里。光線可以正常地穿透寶石（這讓目標可以看到外面，其他生物也可以看到裡面），但其他任何事物均無法在其內進出，即使是通過傳送或位面旅行等手段也不行。只要法術仍然生效，該寶石就無法被切開或打碎。該版本法術需要的特殊材料為一大塊透明的寶石，例如剛玉，鑽石或紅寶石。\n<br><strong>沉睡Slumber。</strong>目標陷入昏睡且無法被喚醒。該版本法術需要的特殊材料為稀有的催眠藥草。\n<br>終止法術。\n<br>無論是法術的哪個版本，你都可以在施法過程中設定一個使法術終止並釋放目標的條件。此條件可以按你的意願設定其明確或複雜的程度，但必須經由DM 認可該條件的合理性及可實現性。此條件可以根據一個生物的名字，身份或神格來設定，但在其他方面必須基於可觀察到的行為或特性，而不能基於諸如等級，職業或生命值這類無形之物。\n<br>法術解除魔法dispel magic 可以終止該法術，但只有使用9環法術位並針對監牢或針對創造監牢效果的特殊物質施展時才有效。\n<br>你在同一時間內，使用同一種特殊材料只能創造一個監牢。\n<br>如果你使用了同樣的材料再次施展該法術，則先前被監禁的生物立刻從禁錮中解脫擺脫恢復自由。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 252",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一張寫有對目標詳細描述的牛皮紙或者一個與目標相似的小雕像，以及對應所選擇法術版本的特殊材料，其價值為對應目標每粒生命骰至少花費 500gp",
+      "consumed": false,
+      "cost": 5000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 42800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720798531395,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nT9lP0TTWedVkyhk"
+}

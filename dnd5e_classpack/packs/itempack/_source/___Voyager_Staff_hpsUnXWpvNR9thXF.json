@@ -1,0 +1,185 @@
+{
+  "name": "旅人杖Voyager Staff",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-hook.webp",
+  "effects": [
+    {
+      "name": "旅人杖Voyager Staff",
+      "origin": "Item.TDqszpI15uwORAVb",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "transfer": true,
+      "disabled": false,
+      "_id": "5TfExbUWwAucYQPO",
+      "changes": [
+        {
+          "key": "system.bonuses.spell.attack",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/weapons/staves/staff-ornate-hook.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!hpsUnXWpvNR9thXF.5TfExbUWwAucYQPO"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\">該法杖可以用作一把魔法長棍，你用它發動的攻擊檢定和傷害擲骰獲得+1加值。持握法杖時，你發動的法術攻擊檢定獲得+1加值。<br />該法杖有10發充能。持握法杖時，你可以用一個動作消耗1發或更多充能從旅人杖施展以下法術:放逐術banishment（4充能），閃現術blink（3充能），迷蹤步misty step（2充能），穿墻術passwall（5充能），傳送術teleport（7充能）。<br />法杖每天黎明時可以恢復1d6+4發已消耗的充能。當充能耗盡時，骰一次d20。若骰值為 1 則法杖將永遠消失。<br /></p></div></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "GTR"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 50000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges",
+      "recovery": "1d6+4",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + 1 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691398327310,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "hpsUnXWpvNR9thXF",
+  "sort": 129900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!hpsUnXWpvNR9thXF"
+}

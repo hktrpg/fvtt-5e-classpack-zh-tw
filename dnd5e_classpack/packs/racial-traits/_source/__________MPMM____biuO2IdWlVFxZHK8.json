@@ -1,0 +1,113 @@
+{
+  "_id": "biuO2IdWlVFxZHK8",
+  "name": "堅韌不屈 (半獸人/MPMM獸人)",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>當你HP</span>降至0</span>而沒有立即死亡時，可以改為使HP</span>降至1</span>。此特質生效后必須完成一次長休后才能再次生效。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "PHB/MPMM"
+    },
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": "當你生命值降至0而沒有立即死亡時"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "半獸人/獸人",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "properties": []
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default"
+    }
+  },
+  "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 16500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1713006419922,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!biuO2IdWlVFxZHK8"
+}

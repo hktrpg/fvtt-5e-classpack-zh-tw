@@ -1,0 +1,125 @@
+{
+  "name": "骷髏之舞Danse Macabre",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/death/skull-trio-badge-purple.webp",
+  "_id": "X5XpXKOD2m4PzLQq",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>黑暗力量的線從你的指尖延伸，刺穿了法術距離內最多5具你可見的小型Small或中型Medium的屍體。每具屍體都立即站起變為亡靈。你自由決定它是殭屍或者骷髏（殭屍和骷髏的數據參考怪物手冊），並且它們在攻擊和傷害檢定中得到等同你的施法屬性調整值的加值。<br />你可以用你的附贈動作精神性地指揮你用這個法術創造的生物，並對它們發出同樣的命令。生物必須在你60英尺內才能接受命令。你決定被操縱的生物下回合的動作和移動。或者，你可以下達寬泛的命令，例如守護某個房間或走廊。如果你不下達命令，生物只會保護自己對抗敵對生物。一旦被下達命令，生物會持續執行命令直到任務完成。<br />你對這些生物的控制持續到法術結束，在那之後它們立即變回無生命狀態。</p>\n<p><strong>升環效果：</strong>當你使用6環或更高的法術位施放該法術時，使用的法術位每高一環，你就可以活化額外的兩具屍體。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 5,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 29300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727734551,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!X5XpXKOD2m4PzLQq"
+}

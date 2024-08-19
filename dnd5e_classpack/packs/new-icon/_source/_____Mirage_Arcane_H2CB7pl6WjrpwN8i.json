@@ -1,0 +1,129 @@
+{
+  "_id": "H2CB7pl6WjrpwN8i",
+  "name": "海市蜃樓 Mirage Arcane",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_Twilight.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你使至多1里方形區域內的地形在視覺、聽覺、嗅覺、甚至觸覺上都像是某種其它的地形，不過其地形的大致形狀仍保持不變。你可以讓開闊的平原或者一條路可能變得像一片濕地，一座小山，一個裂谷或是其它困難或無法通行的地形。你還可以讓一個池塘變得像一片茂盛的草地，一個懸崖變得像一個緩坡，或者讓一個亂石溝變得像一條寬闊平坦的大路。\n<br>另外，你還可以改變建築物的外觀，或者在本來沒有建築物的地方添上建築物。該法術不可以偽裝、隱藏或增添生物。\n<br>該幻術是聽覺、視覺、觸覺和嗅覺的綜合體，因而其可以把空曠的地面變成困難地形（或者反過來），甚至使之變成無法通行的區域。幻象地形的任何一小部分（例如一塊石頭或者一根樹枝）被移動到法術區域外時都會立刻消失不見。\n<br>擁有真實視覺的生物可以看穿幻術，洞悉地形的真實形態；然而幻象的所有其它元素仍會得以保留，所以一個意識到這是幻象的生物仍然可以與該幻象進行物理互動。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 260",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "day"
+    },
+    "target": {
+      "value": 1,
+      "units": "mi",
+      "type": "square"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "spec"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 14500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711693822092,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!H2CB7pl6WjrpwN8i"
+}

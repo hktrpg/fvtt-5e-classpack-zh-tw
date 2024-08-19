@@ -1,0 +1,127 @@
+{
+  "_id": "MTNfEcCXSJZ2m2nG",
+  "name": "心靈遙控 Telekinesis",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Purge.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你獲得以意念移動操縱生物或物件的能力。施展該法術時，你可以對施法距離內一個你能看見的生物或物件以你的意念造成下列詳述的效應。你也可以在隨後法術持續時間內的自己的任一回合里以一個動作實現該行為。你可以一輪接一輪地影響同一個目標，也可以在任何時候選擇一個新的目標。如果你改變了目標，則之前的目標將不再受該法術影響。\n<br><strong>生物Creature。</strong>你可以嘗試移動一個巨型或更小的生物。以你的施法關鍵屬性進行一次屬性檢定，並與目標生物的力量檢定進行對抗。如果你在對抗中勝出，則你可以使該生物朝任何方向（包括豎直向上）移動30尺，但不能讓它離開施法距離。在你的下一回合結束前，該生物將被你的遙控抓握束縛。而被朝正上方抬起的生物會在半空中懸停。\n<br>在隨後的回合中，你可以再次進行前面進行過的對抗來嘗試繼續抓住該生物（消耗一個動作）。\n<br><strong>物件Object。</strong>你可以嘗試移動一個重量不超過1000磅的物件。如果該物品沒有被任何生物所著裝或攜帶，則你可以自動使它朝任何方向移動30尺，但不能讓它離開施法距離。\n<br>如果該物件已被著裝或攜帶，則你必須以你的施法關鍵屬性進行一次屬性檢定，並與該生物的力量檢定進行對抗。如果你在對抗中勝出，則你可以把目標物件從該生物身上拿走，並且使該物體朝任意方向移動30尺（但不能讓它離開施法距離）。\n<br>你可以使用心靈遙控來對物體進行精密操作，例如操縱一件簡單的工具，打開一扇門或一個容器，把東西放進或拿出一個打開的容器中，或是把一個小瓶子里的東西倒出來。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 280",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 19500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711726424609,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MTNfEcCXSJZ2m2nG"
+}

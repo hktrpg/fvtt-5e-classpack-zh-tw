@@ -1,0 +1,234 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "新 物品",
+  "type": "race",
+  "_id": "DqlAZp1T93XJD4lo",
+  "img": "icons/magic/air/fog-gas-smoke-dense-blue.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>元素裔 Genasi</h2><p>元素裔的先祖是元素位面的巨靈們，所以每個元素裔都有控制一種元素力量的能力。氣、土、火、和水這是四種支撐物質位面的元素，和四種巨靈的種類。一些元素裔是巨靈的直系後代，另一些元素裔則是由生活在充滿巨靈魔法之地附近的非巨靈雙親所生。</p><p>元素裔通常有120年的壽命。</p><h2>水元素裔特質 water Genasi Traits</h2><p>作為一位水元素裔，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。你是類人生物。</p><p><strong>體型 Size</strong>。你的體型為中型或小型。在你選擇該種族時選擇體型。</p><p><strong>速度 Speed</strong>。你的步行速度為30尺，同時你擁有等同於你步行速度的游泳速度。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.mDGPm62pTgbJPvwY]{強酸抗性 Acid Resistance}</strong>。你具有強酸傷害的抗性。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.Dwl2iUmoHCmejY2D]{水陸兩棲 Amphibious}</strong>。你可以在空氣和水中呼吸。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.1TOjirDfRN3zc3LB]{呼喚波浪 Call to the Wave}</strong>。你知曉戲法@UUID[Compendium.dnd5e_classpack.new-icon.Item.E7wFpzV30sX2e7t6]{酸液飛濺 Acid Splash}。從3級開始，你可以使用該特質施展@UUID[Compendium.dnd5e_classpack.new-icon.Item.V843ppI7fUmc5Gd6]{造水/枯水術 Create or Destroy Water}。從5級開始，你可以使用該特質施展@UUID[Compendium.dnd5e_classpack.new-icon.Item.AAbxHWiSKv5AG58p]{水墻術 Wall of Water}，且無需材料成分。一旦你使用了該特質施展了造水/枯水術或水墻術，直到完成一次長休前，你不能再次使用該特質施展那個法術。你也能用你擁有的相應法術環階的法術位來施展這些法術。</p><ul><li><p>當你使用該特質施展這些法術時，智力，感知或魅力是你的施法屬性（當你選擇該種族時進行決定）。</p></li></ul><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY]{黑暗視覺 Darkvision}</strong>。在微光光照下，你身邊60尺內可以視為等同於明亮光照。而在黑暗中，該範圍內可視為等同於微光光照。你無法在黑暗中分辨顏色，只能看到有灰度的黑白畫面。</p>",
+      "chat": ""
+    },
+    "source": {},
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "dhSJgOKlG4XyMEQd",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ],
+          "hint": ""
+        },
+        "level": 0,
+        "title": "",
+        "icon": null,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "Jw5Bo66aDC4Gktkc",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:acid"
+          ],
+          "choices": [],
+          "hint": "你具有強酸傷害的抗性。"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "強酸抗性",
+        "icon": null
+      },
+      {
+        "_id": "YWStvho5DeC16Gjx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.mDGPm62pTgbJPvwY"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.Dwl2iUmoHCmejY2D"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.1TOjirDfRN3zc3LB"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      },
+      {
+        "_id": "MRNuJ5esGHKnxbxH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.new-icon.Item.E7wFpzV30sX2e7t6"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "呼喚波浪",
+        "icon": null
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.new-icon.Item.V843ppI7fUmc5Gd6"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr"
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "呼喚波浪",
+        "icon": null,
+        "_id": "sHwcgOh6zLNko3Ct"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.new-icon.Item.AAbxHWiSKv5AG58p"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr"
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "呼喚波浪",
+        "icon": null,
+        "_id": "jYam5xUMASwlQXoo"
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 30,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713021369258,
+    "modifiedTime": 1713021483843,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DqlAZp1T93XJD4lo"
+}

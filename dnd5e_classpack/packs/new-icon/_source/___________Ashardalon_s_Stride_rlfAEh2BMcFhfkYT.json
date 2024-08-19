@@ -1,0 +1,158 @@
+{
+  "name": "阿莎德隆奔行(燒灼) Ashardalon's Stride",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_rescue1.png",
+  "system": {
+    "description": {
+      "value": "<p>龍類翻滾咆哮的火焰環繞你的足部，使你獲得爆發性的速度。法術持續時間內，你的速度提升<span>20</span>尺，並且移動不會觸發藉機攻擊。<span><br />      </span>當你移動至一個生物或未被著裝或攜帶的物件<span>5</span>尺內時，其被你的灼熱尾跡灼燒，受到<span>1d6</span>火焰傷害。一個生物或物件每回合只會承受<span class=\"GramE\">一次此</span>傷害。<span><br />      </span><span class=\"GramE\"><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">升環效果</span></strong></span>：當你用<span>4</span>環或更高的<span class=\"GramE\">法術位</span>施展此法術時，你使用的<span class=\"GramE\">法術位每比</span><span>3</span>環高一環，你的移動速度額外增加<span>5</span>尺，法術造成的傷害增加<span>1d6</span>。<span><br /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "FTD"
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "width": 20,
+      "units": "ft",
+      "type": "enemy",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "trs",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": true
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {},
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ]
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default"
+    },
+    "scene-packer": {
+      "hash": "e1a8ca961fa5ac3ef60332d0e5c83c34105b2f6f",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.5avs0CNNm30t7G1d"
+    }
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711680851672,
+    "modifiedTime": 1717426582366,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "rlfAEh2BMcFhfkYT",
+  "sort": 25700000,
+  "_key": "!items!rlfAEh2BMcFhfkYT"
+}

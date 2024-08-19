@@ -1,0 +1,151 @@
+{
+  "_id": "QHD9S9sWWIpPnykD",
+  "name": "龍捲塵暴 Dust Devil",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/control/debuff-energy-snare-brown.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>選擇距離之內，你能看見的一個5英尺立方的，未被佔據的空氣。一股元素，外觀如同塵捲風，出現在那裡，並在法術的持續時間內持續存在。<br />任何在塵捲風周圍5英尺範圍內結束其回合的生物必須進行一次力量豁免檢定。若檢定失敗，該生物受到1d8點鈍擊傷害並被推離10英尺。若檢定成功，該生物只受到上述傷害的一半，並不會被推離。<br />以一個附贈動作，你可以讓塵捲風向任意方向移動至多30英尺。若塵捲風移動時經過了沙子，塵土，鬆軟的土壤或小砂礫，它將會捲起這些物質，在自身周圍形成10英尺半徑的殘骸云，持續到你下個回合的開始。殘骸云重度遮蔽了所在區域。</p>\n<p><strong>升環效果：</strong>當你使用3環或更高的法術位施放該法術時，使用的法術位每高一環，傷害便增加1d8。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": null,
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "summ",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一捧塵土",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "summons": {
+      "match": {
+        "proficiency": true,
+        "attacks": false,
+        "saves": true
+      },
+      "bonuses": {
+        "ac": "",
+        "hp": "",
+        "attackDamage": "",
+        "saveDamage": "",
+        "healing": ""
+      },
+      "profiles": [
+        {
+          "name": "",
+          "_id": "E8Y81N5x8bIg4jI2",
+          "uuid": "Compendium.dnd5e_classpack.monsterspack.Actor.BXIr2v67pAg3A49z"
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 22900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717430471091,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QHD9S9sWWIpPnykD"
+}

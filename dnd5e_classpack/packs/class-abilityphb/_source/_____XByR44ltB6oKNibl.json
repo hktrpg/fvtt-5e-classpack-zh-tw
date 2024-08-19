@@ -1,0 +1,94 @@
+{
+  "_id": "XByR44ltB6oKNibl",
+  "name": "凈化之觸",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_Heal.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第14級起，你可以用動作觸碰你自身或一個自願生物，以中止該目標身上的一個法術效應。</p><p>該特性的可用次數等於你的魅力調整值（至少一次）。而已消耗的特性使用次數則可以通過完成一次長休進行恢復。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 85",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "觸碰的生物必須自願。"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.cha.mod,1)",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "聖武士等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 166
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!XByR44ltB6oKNibl"
+}

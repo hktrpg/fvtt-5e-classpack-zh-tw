@@ -1,0 +1,112 @@
+{
+  "_id": "KhekI9OpHBERLsux",
+  "name": "脆弱詛咒 hex",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/httpcloud3steamusercontentcomugc842585053236293653BC90477E338A08EA9CE90C6AFD9DBCE000EB0EDD.jpg",
+  "effects": [],
+  "folder": null,
+  "sort": 18300000,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">\n<div class=\"description \">你對施法距離內一個你能看見的一個生物施加詛咒。直到法術終止前，你對命中該目標的任意攻擊都將額外造成1d6 點黯蝕傷害。此外，你在施展該法術的同時選擇一項屬性，使該目標進行所選屬性的屬性檢定時具有劣勢。</div>\n<div class=\"description \">如果目標在法術終止前HP 降至0，則你可以在法術終止前後續的某一回閤中使用一個附贈動作詛咒另一個生物。</div>\n<div class=\"description \">對受術目標施展法術移除詛咒remove curse 后可以提前終止該法術。</div>\n<div class=\"description \">&nbsp;</div>\n<div class=\"description \">升環施法效應。</div>\n<div class=\"description \">使用3 環或4 環法術位施展該法術時，其專注可以維持至多8 小時。使用5 環或更高法術位施展該法術時，其專注可以維持至多24 小時。</div>\n</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一隻被石化的蠑螈眼睛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "專注"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717594741924,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KhekI9OpHBERLsux"
+}

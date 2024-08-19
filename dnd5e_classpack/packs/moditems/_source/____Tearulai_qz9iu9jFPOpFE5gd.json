@@ -1,0 +1,128 @@
+{
+  "_id": "qz9iu9jFPOpFE5gd",
+  "name": "特魯萊 Tearulai",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-serrated.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>長劍特魯萊，是一把有知性的中立善良的鋒銳之劍，有著翡翠色的劍刃，劍柄和柄頭鑲嵌著珍貴的寶石。這把劍的魔法屬性被壓制，直到它從瓦爾德馬的頭上移除。</p>\n<p>邪惡的生物無法同調它；任何試圖同調的邪惡生物都會受到 20 點心靈傷害。武器的翡翠劍刃不會損壞或變鈍，並且在同調時，沒有持劍者的劍不能被傳送到任何地方。</p>\n<p><strong>法術 Spell</strong>。劍有 6 次充能，每天黎明時恢復[[/r 1D4+2]]次消耗的充能。一個已同調長劍的生物可以使用一個動作並花費若干個充能從它身上施放下列法術中的一個而不 需要材料：@UUID[Compendium.dnd5e_classpack.new-icon.N6gooaEP5pDVtJTV]{飛行術 Fly}(2 次充能)，@UUID[Compendium.dnd5e_classpack.new-icon.IXs3Neqbl8xaT3yk]{變形術 Polymorph}(3 次充能)，@UUID[Compendium.dnd5e_classpack.new-icon.L9NYP6PPcOKVOt8H]{木遁術 Transport via Plants}(4 次充能)。</p>\n<p><strong>智慧 Sentience</strong>。劍的智力 17，感知 12，魅力 20。它有 120 尺範圍內的聽覺和真實視覺。它以心靈感應的方式與同調的持用者交流，並能說、閱讀和理解通用語、龍語、精靈語和木族語。此外，這把劍還可以確定 5 尺內任何寶石的真實價值。</p>\n<p><strong>性格 Personality</strong>。特魯萊喜歡美學、音樂、美術和詩歌。它努力改善自己外觀，渴求寶石，並尋找更好的寶石來裝飾自己，儘管這是徒勞的。最重要的是，它渴望回到迷斯卓諾周圍的森林，它就是在那裡被創造出來的。如果它它的持用者並逃離地脈迷城，在那裡它可以使用木遁術返回它來的地方。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "WDMM",
+    "quantity": 1,
+    "weight": 3,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 6,
+      "max": "6",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8+@mod",
+          "slashing"
+        ]
+      ],
+      "versatile": "1d10+@mod"
+    },
+    "formula": "1d4 + 2",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "longsword",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!qz9iu9jFPOpFE5gd"
+}

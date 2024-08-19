@@ -1,0 +1,96 @@
+{
+  "_id": "BfziXRGboEVxEJfh",
+  "name": "引導神力：驅散不潔",
+  "type": "feat",
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<p>作為一個動作，你可以用@UUID[Compendium.dnd5e_classpack.class-abilityphb.3eyfqXMTJMG9AxYH]{引導神力}特性亮出@UUID[Compendium.dnd5e_classpack.itempack.TJi1q6Bm8IGoJJVL]{聖徽}高喊禱言，以逐退不死生物和邪魔。你身邊30尺範圍內能夠看見聖徽或能聽到你禱言的不死生物或邪魔都必須進行一次感知豁免，豁免失敗者將受到驅散，其效應持續1分鐘或直至其受到任何傷害。</p>\n<p>以該方式被驅散的生物必須花費其回合內的所有移動力盡量遠離你，且無法主動靠近你30尺內。被驅散的生物無法執行反應，只能使用既有的疾走 Dash 動作或從任何妨礙其移動的效應中掙脫。該生物無路可走時將執行迴避 Dodge 動作。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 86",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "enemy"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "cha",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "奉獻之誓等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 110
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BfziXRGboEVxEJfh"
+}

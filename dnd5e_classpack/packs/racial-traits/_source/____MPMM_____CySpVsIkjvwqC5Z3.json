@@ -1,0 +1,127 @@
+{
+  "name": "龍吼 (MPMM狗頭人)",
+  "type": "feat",
+  "_id": "CySpVsIkjvwqC5Z3",
+  "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">用一個附贈動作，你向在你周圍10尺內的敵人發出吼叫。直到你的下一個回合開始前，你和你的盟友對所有能聽見你的敵人進行的攻擊檢定具有優勢。你可以使用此特質的次數等於你的熟練加值，當你完成一次長休后，你重新獲得所有消耗的次數。</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "custom": "MPMM",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "radius",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 2,
+      "max": "@attributes.prof",
+      "per": "lr",
+      "recovery": "",
+      "prompt": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "summons": null,
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "狗頭人",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1712118957114,
+    "modifiedTime": 1713016629343,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CySpVsIkjvwqC5Z3"
+}

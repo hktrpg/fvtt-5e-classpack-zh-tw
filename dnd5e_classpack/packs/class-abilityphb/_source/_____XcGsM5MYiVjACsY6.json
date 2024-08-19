@@ -1,0 +1,141 @@
+{
+  "_id": "XcGsM5MYiVjACsY6",
+  "name": "奉獻靈光",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_SpellWarding.png",
+  "system": {
+    "description": {
+      "value": "<p>第7級起，你與友方生物在你身邊10尺內不會被魅惑。提供該增益時你必須保持意識清醒。</p><p>第18級起，靈光的作用範圍擴展至30尺。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 86",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "ally"
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "奉獻之誓等級 7",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "otTJ5iZxZIEfwWDa",
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.class-abilityphb.XcGsM5MYiVjACsY6",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得魅惑免疫",
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_SpellWarding.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!XcGsM5MYiVjACsY6.otTJ5iZxZIEfwWDa"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "details",
+    "entityorder": {
+      "order": 108
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686412478547,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XcGsM5MYiVjACsY6"
+}

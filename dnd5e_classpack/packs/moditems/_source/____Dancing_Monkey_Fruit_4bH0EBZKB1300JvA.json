@@ -1,0 +1,89 @@
+{
+  "_id": "4bH0EBZKB1300JvA",
+  "name": "猴舞果 Dancing Monkey Fruit",
+  "type": "consumable",
+  "img": "icons/consumables/fruit/mang-unripe-yellow-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p>這是楚爾特當地不同尋常的野生動植物。熟練自然技能的冒險者能夠一眼認出這些動植物，並通過一個成功 的 DC 15 的智力(自然)檢定來回憶起它的詳細屬性。如果冒險者們是楚爾特本地人，則該檢定具優勢。</p>\n<p>此處描述的野生動植物可以在南扎路港和其他聚居地內以動植物價格表內對應的價格進行買賣。</p>\n<p>有的野生動植物中會使生物承受一小時或更久的中毒狀態。請記住，@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]{次級復原術 Lesser Restoration}以及類似魔法可以結束該狀態。</p>\n</blockquote>\n<p>這些稀有魔法果實的汁液足以裝滿一個小瓶。任何吃下猴舞果或者飲下其汁液的類人生物都必須進行一次 DC 14 的體質豁免豁免失敗則開始跳起持續一分鐘的滑稽舞蹈。免疫中毒的類人生物同樣免疫該魔法效果。</p>\n<p>舞者必須耗盡他的移動力在原地跳舞，其攻擊檢定和敏捷豁免均具劣勢。對他發動的攻擊檢定具優勢。每次受到傷害時，舞者可以再次進行該豁免，豁免成功則結束舞蹈效果。當舞蹈效果結束時，該類人生物陷入一小時的中毒狀態中。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ToA",
+    "quantity": 1,
+    "weight": 0,
+    "price": 5,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 14,
+      "scaling": "flat"
+    },
+    "consumableType": "food"
+  },
+  "_key": "!items!4bH0EBZKB1300JvA"
+}

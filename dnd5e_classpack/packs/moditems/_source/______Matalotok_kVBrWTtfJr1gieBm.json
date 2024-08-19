@@ -1,0 +1,172 @@
+{
+  "_id": "kVBrWTtfJr1gieBm",
+  "name": "瑪塔洛托克 Matalotok",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-mallet-black.webp",
+  "effects": [
+    {
+      "_id": "Amw5Li0KXDHA3o8Z",
+      "changes": [
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.kVBrWTtfJr1gieBm",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "+ 冷凍免疫",
+      "img": "icons/weapons/hammers/hammer-mallet-black.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!kVBrWTtfJr1gieBm.Amw5Li0KXDHA3o8Z"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>冰霜之父瑪塔洛托克是由霜巨人之神索列姆 Thrym製造的一把古老的錘子。瑪塔洛托克是惡魔領主科斯徹奇 Kostchtchie最喜歡的武器，這把錘子觸感寒冷刺骨，並被迷霧籠罩。</p>\n<p>握著瑪塔洛托克時，你對冷凍傷害免疫。每當使用這把錘子對生物造成傷害時，錘子就會在30尺半徑的範圍內製造出強烈的寒流。該區域內的每個生物都會受到10([[/r 3d6]])點冷凍傷害。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "BGDIA",
+    "quantity": 1,
+    "weight": 2,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8+@mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d10+@mod"
+    },
+    "formula": "3d6",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "warhammer",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!kVBrWTtfJr1gieBm"
+}

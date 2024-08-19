@@ -1,0 +1,191 @@
+{
+  "_id": "Ja6HpsLeGA9MQ0Rm",
+  "name": "命令術 Command",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_Possession.png",
+  "effects": [
+    {
+      "name": "命令術 Command",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.Ja6HpsLeGA9MQ0Rm",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "HI1Ac41Wj1Ip6phh",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "turnEnd"
+          ]
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_Possession.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!Ja6HpsLeGA9MQ0Rm.HI1Ac41Wj1Ip6phh"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你對施法距離內一個你能看見的生物說出一個單詞的命令。\n<br>目標生物必須成功通過一次感知豁免，否則必須在其自己的下一回合服從該命令列事。如果目標為不死生物或目標無法聽懂你的語言，又或者你的命令對其直接構成損害，則該法術無效。以下列出一些通常可用的命令單詞及其效果。你也可以說出此處沒有列明的單詞命令，並由DM 決定目標將如何行動。如果目標無法完成你的命令，則法術終止。\n<br><strong>過來Approach。</strong>目標以最短最直接的路線向你移動，並在到達距你5尺時結束其回合。\n<br><strong>放下Drop。</strong>目標放下手中持握物並結束其回合。\n<br><strong>走開Flee。</strong>目標在其回合內以最快最有效的方式遠離你。\n<br><strong>趴下Grovel。</strong>目標趴下倒地並結束其回合。\n<br><strong>立定Halt。</strong>目標不移動且不作任何動作。飛行生物在原地懸浮（如果它可以這麼做）。如果它必須移動才能保持在空中，則其移動最小的距離以保持飛行。\n<br><strong>升環施法效應。</strong>使用2環或更高法術位施展該法術時，你使用的法術位每比1環高一環，法術就能多影響一個目標。而各目標之間距離不能超過30尺。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 223",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 16900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711702078396,
+    "modifiedTime": 1711702092153,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Ja6HpsLeGA9MQ0Rm"
+}

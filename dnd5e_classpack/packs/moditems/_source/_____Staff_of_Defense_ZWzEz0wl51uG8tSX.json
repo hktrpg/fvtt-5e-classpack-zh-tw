@@ -1,0 +1,172 @@
+{
+  "_id": "ZWzEz0wl51uG8tSX",
+  "name": "防護法杖 Staff of Defense",
+  "type": "weapon",
+  "img": "icons/weapons/wands/wand-gem-purple.webp",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {},
+      "_id": "51hlv1s6g06t86m6",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "AC + 1",
+      "img": "icons/weapons/wands/wand-gem-purple.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!ZWzEz0wl51uG8tSX.51hlv1s6g06t86m6"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>這把法細長的空心法杖由玻璃製成但卻有如橡木一樣堅韌。其總重 3 磅。你必須與之同調才能獲得其增益和施展其內的法術。</p>\n<p>持用該法杖時，你的護甲等級獲得+1 加值。</p>\n<p>法杖有 10 發充能。持握法杖時，你可以用一個動作並消耗 1 發或更多充能以施展以下法術之一(該法術必須在你的職業法術列表內)：@UUID[Compendium.dnd5e_classpack.new-icon.KSMVJWpOg82yVTWG]{法師護甲 Mage Armor}(1 充能)或@UUID[Compendium.dnd5e_classpack.new-icon.6EjLIIN4ug7eSp4P]{護盾術 Shield}(2 充能)。這些法術無需任何構材。</p>\n<p>法杖每天黎明時恢復 [[/r 1d6 + 4]]發已消耗的充能。當充能耗 盡時，骰一次[[/r d20]]。如果骰值為 1，則法杖將被摧毀並化為一 灘水。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "LMoP",
+    "quantity": 1,
+    "weight": 3,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6+@mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8+@mod"
+    },
+    "formula": "1d6+4",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "quarterstaff",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!ZWzEz0wl51uG8tSX"
+}

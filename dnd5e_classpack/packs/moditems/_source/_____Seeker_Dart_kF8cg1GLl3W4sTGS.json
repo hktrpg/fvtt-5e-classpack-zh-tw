@@ -1,0 +1,127 @@
+{
+  "_id": "kF8cg1GLl3W4sTGS",
+  "name": "索敵飛鏢 Seeker Dart",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/dagger-ringed-engraved-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>這款小飛鏢飾有像風一樣的螺旋紋路，橫跨整個鏢柄。</p>\n<p>當你低聲說出」搜索「並投擲這個飛鏢時，它會在距離你120尺內的範圍尋找你所選擇的目標。你必須曾經見過該目標，但你在當下並不需要看到它。若目標不在射程內，或者你與它之間沒有可通行的路徑，飛鏢將會掉落在地，且它的魔法也將消耗殆盡。否則的話，氣元素之力將會立即引導飛鏢穿過空中，直達目標。飛鏢可以穿過1寸寬的開口，並且可以改變飛行方向來繞過轉角。</p>\n<p>當飛鏢抵達目標時，目標必須成功通過一次DC 16的敏捷豁免，否則將受到[[/r 1d4]]點穿刺傷害和[[/r 3d4]]點閃電傷害。在這之後，飛鏢上的魔法將被消耗，變成一個普通的飛鏢。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PotA",
+    "quantity": 1,
+    "weight": 0.25,
+    "price": null,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "低聲說出」搜索「。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4",
+          "piercing"
+        ],
+        [
+          "3d4",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 16,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "baseItem": "dart",
+    "properties": {
+      "rch": false,
+      "amm": false,
+      "ver": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": true,
+      "mgc": true,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": true,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false
+  },
+  "_key": "!items!kF8cg1GLl3W4sTGS"
+}

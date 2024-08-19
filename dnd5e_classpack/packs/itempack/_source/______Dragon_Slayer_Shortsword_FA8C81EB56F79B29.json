@@ -1,0 +1,133 @@
+{
+  "_id": "FA8C81EB56F79B29",
+  "name": "屠龍者短劍 Dragon Slayer Shortsword",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+1加值。</p>\n<p>當你以此武器命中龍時，它將受到與劍的傷害型別相同的額外[[/r 3d6]]傷害。此處的「龍」指任何生物型別為龍的生物，包括@UUID[Compendium.dnd5e_classpack.monsterspack.ijsfYEDqSuwQXwNN]{龍龜Dragon Turtle}和@UUID[Compendium.dnd5e_classpack.monsterspack.7198siHjPJf8g0cG]{飛龍Wyvern}等等。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 166"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 8000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod +1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "3d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "shortsword"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 102500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!FA8C81EB56F79B29"
+}

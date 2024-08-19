@@ -1,0 +1,192 @@
+{
+  "_id": "YuGbz9k5JXA0kIgT",
+  "name": "偵測思想 Detect Thoughts",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_MentalQuickness.png",
+  "effects": [
+    {
+      "name": "偵測思想 Detect Thoughts",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.YuGbz9k5JXA0kIgT",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "Sk7gkZux1d2oYVvr",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_MentalQuickness.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!YuGbz9k5JXA0kIgT.Sk7gkZux1d2oYVvr"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在法術持續時間內能讀取特定生物的思想。你可以在施展法術時，或者在法術持續時間內以一個動作實現該效應。此時，受術生物必須身處你30尺內並且能被你看見，而你必須對其集中注意力。如果該生物智力為3或更低，或者不懂任何語言，則該生物不受影響。\n<br>你最初瞭解的是該生物的表面想法，一般就是其此刻正想著的東西。你可以使用動作繼續深入一個生物的思想，也可以用動作轉移讀心的目標。如果你繼續深入，則目標必須進行一次感知豁免。豁免失敗時，你瞭解到他的邏輯推理（如果有的話）、情緒狀態以及他頭腦中的一些大事（比如憂慮、摯愛和仇恨的事物）。\n<br>豁免成功時，本法術終止。無論哪種情況，目標都會知道你正在窺探他的思想。除非你轉移注意力到其他生物，否則他可以在其回合內使用動作進行一次智力檢定，並與你的智力檢定作對抗；生物勝出對抗時，法術終止。\n<br>向目標提問可以引導目標的思想歷程，因此此法術在審訊中特別有效。\n<br>你還能用此法術偵測看不見的有思維生物。你可以在施展法術時，或者在法術持續時間內以一個動作實現該效應。此時，你可以搜尋30尺內的思想。該法術可以穿透大部分障礙，但仍會被2尺厚的石質，或2寸厚的金屬質，或一層薄鉛質材料所阻隔。你無法偵測到智力為3或更低的生物，也無法偵測不懂任何語言的生物。\n<br>以該方式偵測到一個生物后，你可以在法術持續時間內如上文所述的讀取其思想。你甚至不需要看見該生物，但其必須在其30尺內。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 231",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一塊銅片",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 31300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711706205697,
+    "modifiedTime": 1722355045468,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!YuGbz9k5JXA0kIgT"
+}

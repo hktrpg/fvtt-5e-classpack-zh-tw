@@ -1,0 +1,91 @@
+{
+  "_id": "noTXi9zM4UR6s18f",
+  "name": "回收潛能 Reclaim Potential",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Invisibilty.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從15級起，你已經學會吸收你迴音上轉瞬即逝的魔力。當你的一個迴音因承受傷害而被摧毀，而你也沒有臨時生命值時，你獲得相當於[[/r 2d6]]+體質調整值點數的臨時生命值。<br />        你能使用本特性的次數等於你的體質調整值（最少一次）。當你完成一次長休后，你恢復所有的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.con.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6+@abilities.con.mod",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "迴音騎士等級 15",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!noTXi9zM4UR6s18f"
+}

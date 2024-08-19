@@ -1,0 +1,120 @@
+{
+  "_id": "D63FB5D6283927AB",
+  "name": "青銅瓦爾哈拉號角 Bronze Horn of Valhalla",
+  "type": "consumable",
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>你可以用一個動作吹響號角。作為迴應，約瑟園Ysgard的戰士英靈們將在你周圍60尺內出現。這些英靈使用@UUID[Compendium.dnd5e_classpack.monsterspack.kz1t6xeXVwODpYb2]{狂戰士 Berserker}的資料。生命值降至0，或者1小時之後英靈們將返回約瑟園。使用后，號角需要經過7日才能再次啟動。</p>\n<p>已知共有四種類型的瓦爾哈拉號角，分別由不同的金屬製成。號角的型別決定了使用它的前提條件，以及迴應你呼喚的狂戰士數量。號角的型別由DM決定或隨機決定。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>[[/r d100]]</th>\n<th>號角型別</th>\n<th>狂戰士數量</th>\n<th>前提條件</th>\n</tr>\n<tr>\n<td>76~90</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.D63FB5D6283927AB]{青銅}</td>\n<td>[[/r 4d4+4]]</td>\n<td>所有中型護甲熟練項</td>\n</tr>\n</tbody>\n</table>\n<p>如果你在不滿足前提條件的情況下吹響了號角，則召喚出的英靈們將對你發動攻擊。如果你滿足前提條件，他們將對你和你的同伴態度友善，並聽從你的命令。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 175"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 11200,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d4 +4",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 89000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!D63FB5D6283927AB"
+}

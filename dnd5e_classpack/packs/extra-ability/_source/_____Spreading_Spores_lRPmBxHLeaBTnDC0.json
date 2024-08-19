@@ -1,0 +1,86 @@
+{
+  "_id": "lRPmBxHLeaBTnDC0",
+  "name": "擴散孢子 Spreading Spores",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/spell_Shaman_convection.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在10級時，你獲得了在一片區域內散佈致命的孢子的能力。當你的@UUID[Compendium.dnd5e_classpack.extra-ability.RakISgKJ0fWy44XM]{一體共生}特性處於開啟狀態下，你可以用一個附贈動作，將真菌孢子拋向至多30尺外，它們將漂浮在那裡10尺見方的空間中，持續1分鐘。若你再次使用此特性，或使用一個附贈動作取消掉，或你的一體共生特性不再起作用，這片孢子將提前消失。</p>\n<p>         任何在此空間內開始其回合的生物受到你的@UUID[Compendium.dnd5e_classpack.extra-ability.XvZtgLjExeMcMxrd]{孢子光暈}傷害，除非其通過一個等同於你法術DC的體質豁免，一個生物每輪只能受到一次該傷害。<br />         只要這片孢子存在，你就不能使用你孢子光暈的反應動作。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "GGR",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "孢子結社等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lRPmBxHLeaBTnDC0"
+}

@@ -1,0 +1,164 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "狗頭人 Kobold",
+  "type": "race",
+  "_id": "XpKtP6VNe1XtKH38",
+  "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>狗頭人 Kobold</h2><p>狗頭人是多元宇宙中最小的龍生物，他們的龍族血統體現在閃耀的鱗片和他們的吼聲之中。傳說最初的狗頭人出現在幽暗地域中最早的龍巢穴附近。在一些大陸，狗頭人服侍於色彩龍或金屬龍甚至把他們當作神聖生物來崇拜。在其他地方，狗頭人們知道那些龍有多危險，並且幫助他人來抵禦龍的破壞。</p><p>無論他們與龍的關係，狗頭人的鱗片通常是鐵銹色，但是偶爾有狗頭人表現出類似色彩龍或金屬龍的鱗片顏色。狗頭人的叫聲可以表達一系列的情緒:憤怒、決心、亢奮、恐懼等等。無論他們表達什麼情緒，他們的叫聲都會與龍的力量產生共鳴。</p><h2>狗頭人特質 Kobold Traits</h2><p>作為一位狗頭人，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。 你是類人生物。</p><p><strong>體型 Size</strong>。你的體型為小型。</p><p><strong>速度 Speed</strong>。你的步行速度為30尺。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY]{黑暗視覺 Darkvision}</strong>。在微光光照下，你身邊60尺內可以視為等同於明亮光照。而在黑暗中，該範圍內可視為等同於微光光照。你無法在黑暗中分辨顏色，只能看到有灰度的黑白畫面。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.CySpVsIkjvwqC5Z3]{龍吼 Dracoinc Cry}</strong>。用一個附贈動作，你向在你周圍10尺內的敵人發出吼叫。直到你的下一個回合開始前，你和你的盟友對所有能聽見你的敵人進行的攻擊檢定具有優勢。你可以使用此特質的次數等於你的熟練加值，當你完成一次長休后，你重新獲得所有消耗的次數。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.2jKdUiOrs8SPcTTi]{狗頭人傳承 Kobold Legacy}</strong>。狗頭人與龍的聯繫能夠以一種不可思議的方式在一個狗頭人的身上顯現。從下列傳承選項中為你的狗頭人選擇一項：</p><ul><li><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.RoYqyqiQ2DILGhVi]{狡猾 Craftiness}</strong>。你擁有以下一項自選技能的熟練項：奧秘，調查，醫藥，巧手，或求生。</p></li><li><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.2PhS7UnYXIidn9zS]{反抗 Defiance}</strong>。你在為自己避免或結束恐慌狀態的豁免檢定時具有優勢。</p></li><li><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.9NSJUwRO45r4T1N2]{龍族術法 Draconic Corcery}</strong>。你知曉一項你從術士法術列表中選擇的戲法。智力，感知或魅力是你的施展該戲法的施法屬性（當你選擇該種族時進行決定）。</p></li></ul><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "DFdcL99Rv6kGzs1F",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ],
+          "hint": ""
+        },
+        "level": 0,
+        "title": "",
+        "icon": null,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "qp4n2FKBIDsI6fZ4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.CySpVsIkjvwqC5Z3"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.2jKdUiOrs8SPcTTi"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      },
+      {
+        "_id": "EDpmkqFpvVydFIBT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.RoYqyqiQ2DILGhVi"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.2PhS7UnYXIidn9zS"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.9NSJUwRO45r4T1N2"
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "狗頭人傳承",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713016513629,
+    "modifiedTime": 1713019612240,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XpKtP6VNe1XtKH38"
+}

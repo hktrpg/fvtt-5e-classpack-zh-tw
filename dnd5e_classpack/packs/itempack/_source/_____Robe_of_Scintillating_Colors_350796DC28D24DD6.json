@@ -1,0 +1,130 @@
+{
+  "_id": "350796DC28D24DD6",
+  "name": "虹光法袍 Robe of Scintillating Colors",
+  "type": "equipment",
+  "img": "icons/magic/lightning/orb-ball-purple.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這件長袍有3發充能，且每天黎明時恢復[[/r 1d3]]發已消耗的充能。</p>\n<p>穿著這件長袍時，你可以用一個動作並消耗1發充能讓長袍顯現不斷變幻的耀眼影象，直到你的下回合結束。這段時間內，長袍提供30尺的明亮照明和額外30尺的昏暗照明。能看到你的生物在對你的攻擊骰上承受劣勢。</p>\n<p>另外，在長袍效果啟動期間，任何處於長袍產生的明亮照明區域內且可以看到你的生物必須通過一次DC15的感知豁免否則被震懾直到長袍的效果終止。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 194"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 6000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d3",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "clothing",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 32000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!350796DC28D24DD6"
+}

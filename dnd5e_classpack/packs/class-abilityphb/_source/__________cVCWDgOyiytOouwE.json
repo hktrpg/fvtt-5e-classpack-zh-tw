@@ -1,0 +1,96 @@
+{
+  "_id": "cVCWDgOyiytOouwE",
+  "name": "引導神力：維持生命",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_BlindingHeal.png",
+  "system": {
+    "description": {
+      "value": "<p>第2級起，你可以用@UUID[Compendium.dnd5e_classpack.class-abilityphb.WPevnsjK8Cjd9Fcl]{引導神力}特性來恢復嚴重的傷害。</p>\n<p>你用一個動作展示@UUID[Compendium.dnd5e_classpack.itempack.TJi1q6Bm8IGoJJVL]{聖徽}，引導治療能量來恢復等於你牧師等級五倍的生命值。你指定身邊30尺內的任意生物作為該特性的目標，再為其分配從中獲得的治療能量。該特性不能將目標恢復到其生命值上限的一半以上。而且你不能對不死生物或構裝生物使用該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 60",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "目標不能是不死生物或構裝生物。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "5* @classes.cleric.levels",
+          "healing"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "生命領域等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!cVCWDgOyiytOouwE"
+}

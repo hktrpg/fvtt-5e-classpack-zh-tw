@@ -1,0 +1,126 @@
+{
+  "name": "地獄呼喚Infernal Calling",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "_id": "hu5sjWnByZjYiOQu",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>說出黑暗的咒語，你從九獄之中召喚來魔鬼。你選擇挑戰等級在6或更低的一種魔鬼的型別，例如猬魔Barbed Devils或須魔Bearded Devils。魔鬼出現在施法距離內你可以看見的一處未被佔據的空間。魔鬼在生命值降低至0或法術結束時消失。<br />魔鬼對你和你的同伴是不友好的。為魔鬼投擲先攻，並且它擁有自己的回合。它處於DM的控制之下並在它的每個回合依據本性來進行行動。如果它認為自己能取勝它有可能會攻擊你，或者它會誘惑你承諾一個邪惡行為來交換它的有限服務。DM掌握這個生物的數據。<br />在你的每個回合中，你都可以嘗試向魔鬼發出口頭命令（不需要任何動作）。如果命令可能產生的結果與它的願望一致，尤其是可能會讓你走向邪惡，魔鬼會遵從命令。否則，你必須進行魅力（欺瞞、威嚇或說服）檢定對抗它的感知（洞察）檢定。如果你說出這個魔鬼的真名，你在這次檢定中具有優勢。如果你的檢定失敗，在法術餘下的持續時間中魔鬼將免疫你的口頭命令，雖然它仍舊可以選擇執行。如果你的檢定成功，魔鬼會執行你的命令直到完成，例如&ldquo;攻擊我的敵人&rdquo;，&ldquo;探索前面的房間&rdquo;，或者是&ldquo;將這個資訊帶給女王&rdquo;。在那之後它返回向你報告自己已經完成。<br />如果你的專注在法術到達完整的持續時間之前中斷，且魔鬼已經免疫了你的口頭命令，那麼它不會立即消失，而是在消失之前以它選擇任何方式活動3d6分鐘。<br />如果你擁有某個特定的魔鬼邪符，並且它的挑戰等級在法術允許的適當範圍+1里，你可以召喚那個魔鬼，它會遵從你的命令而你無需魅力檢定。</p>\n<p><strong>升環效果：</strong>當你使用6環或更高的法術位施放該法術時，使用的法術位每高一環，允許召喚的魔鬼挑戰等級就+1。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一塊至少價值999GP的紅寶石",
+      "consumed": false,
+      "cost": 999,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 38900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727324786,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hu5sjWnByZjYiOQu"
+}

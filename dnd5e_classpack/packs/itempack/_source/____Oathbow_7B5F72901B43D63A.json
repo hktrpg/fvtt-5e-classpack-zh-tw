@@ -1,0 +1,134 @@
+{
+  "_id": "7B5F72901B43D63A",
+  "name": "誓仇弓 Oathbow",
+  "type": "weapon",
+  "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>當你彎弓搭箭時，誓仇弓會用精靈語悄聲念出「速殲敵」。當你用此武器進行遠端攻擊時，你可以說出命令「負我者死」。這次攻擊的目標將成為你的仇敵，直到它死亡或直到七天後的黎明之時。你同時只能指明一名這樣的仇敵。仇敵死後，你可以在次日黎明後重新選擇仇敵。</p>\n<p>當你使用此弓對仇敵進行遠端攻擊時，你在攻擊骰上具有優勢。另外，目標不會從非全掩蔽的掩蔽上受益，你也不會因為超出常規射程承受劣勢。如果攻擊命中，你的仇敵受到[[/r 3d6]]額外穿刺傷害。</p>\n<p>只要你的仇敵還活著，你在使用其他武器進行攻擊時將承受劣勢。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 183"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 3500,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令語。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 150,
+      "long": 600,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "3d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "amm",
+      "hvy",
+      "two",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": "longbow"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 58500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!7B5F72901B43D63A"
+}

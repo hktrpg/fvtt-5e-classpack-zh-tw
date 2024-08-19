@@ -1,0 +1,107 @@
+{
+  "_id": "UyQ9nYcQlFdEbmeV",
+  "name": "黑暗術 Darkness",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_Eclipse.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內指定一點，並在法術持續時間內使魔法的黑暗充斥該點半徑15尺的球狀區域。該黑暗會繞過拐角擴散，連擁有黑暗視覺的生物也無法看穿這這種黑暗，而非魔法的光照也無法在區域內提供照明。\n<br>如果你將法術目標設定於你正持握或未被穿著攜帶的物件，則黑暗將從物件周圍漫出並跟隨物件移動。將該物件完全掩蓋時（比如用碗或頭盔蓋住），也會將其漫出的黑暗隔絕。\n<br>如果法術區域內有任何2環或更低環階法術創造的光源，則這些造光的法術將被解除。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 230",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "蝙蝠毛髮，以及一滴瀝青或一小塊煤",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 27300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": null,
+    "modifiedTime": 1719581562071,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UyQ9nYcQlFdEbmeV"
+}

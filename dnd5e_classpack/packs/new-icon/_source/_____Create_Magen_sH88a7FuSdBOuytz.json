@@ -1,0 +1,130 @@
+{
+  "name": "創造魔衛 Create Magen",
+  "type": "spell",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>施展該法術時，你將一小瓶水銀放置在一個填充著灰燼和塵土的真人大小的人偶的胸口裡。然後你縫合好人偶，將你的血滴在上面。在施法結束時，你用一支水晶權杖在人偶上輕輕一點，將它轉化為一個穿著人偶所穿著的衣服的魔衛。魔衛的型別由你在施法時選擇，查閱《冰風谷：冰霜少女的霧凇》附錄C以找到不同型別的魔衛以及它們的數據。</p><p>當魔衛出現時，你的最大生命值減少一定值，其數值等同於該魔衛的挑戰等級（至少減少1點）。只有一道祈願術才能撤銷此減值。</p><p>任何你用該法術創造的魔衛會毫無異議地執行你的命令。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "IDRotF",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一小瓶價值500gp的水銀和一個真人大小的人偶，作為法術的耗材，以及一支複雜的水晶權杖，價值至少1500gp，法術不會消耗該材料。",
+      "consumed": true,
+      "cost": 500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "sH88a7FuSdBOuytz",
+  "folder": null,
+  "sort": 47000000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727231826,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sH88a7FuSdBOuytz"
+}

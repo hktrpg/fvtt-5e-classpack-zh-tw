@@ -1,0 +1,179 @@
+{
+  "name": "應激衝刺 (MPMM獸人)",
+  "type": "feat",
+  "_id": "MmdjLqcVXmtkCC2n",
+  "img": "icons/equipment/feet/boots-leather-engraved-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>你可以用附贈動作進行<strong>疾走 Dash</strong>動作。你可以使用此特質的次數等於你的熟練加值，當你完成一次長休后，你重新獲得所有消耗的次數。並且你一回合不能使用該特質超過一次。</p><ul><li><p>每當你使用該特質時，你獲得等於你熟練加值的臨時生命值。</p></li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "custom": "MPMM",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "summons": null,
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "獸人",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "name": "應激衝刺 (MPMM獸人)",
+      "origin": "Compendium.dnd5e_classpack.racial-traits.Item.MmdjLqcVXmtkCC2n",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "2cPrwQcq7VNYiXWk",
+      "changes": [
+        {
+          "key": "system.attributes.hp.temp",
+          "mode": 2,
+          "value": "@attributes.prof",
+          "priority": 20
+        }
+      ],
+      "description": "<ul><li><p>每當你使用該特質時，你獲得等於你熟練加值的臨時生命值。</p></li></ul>",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": true,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/equipment/feet/boots-leather-engraved-brown.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!MmdjLqcVXmtkCC2n.2cPrwQcq7VNYiXWk"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713005889931,
+    "modifiedTime": 1713006258459,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MmdjLqcVXmtkCC2n"
+}

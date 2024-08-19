@@ -1,0 +1,140 @@
+{
+  "_id": "kZ9PSqGyiR7bGViM",
+  "name": "冰墻術 Wall of Ice",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Frost_FrostNova.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內一塊堅實的地面上創造出一面冰墻。你可以將它塑成半球狀或球狀（半徑最長10尺），也可以塑成一個由十個10尺×10尺的方板塊構成的平面。每塊板塊都必須要和至少一塊其他板塊相連。不管形狀如何，冰墻總是厚1尺並持續存在至法術終止。\n<br>如果冰墻形成時穿過了某生物所佔據的空間，則該生物會被推到冰墻的一側且必須進行一次敏捷豁免。豁免失敗者將受到10d6點冷凍傷害，豁免成功則傷害減半。\n<br>作為一個物件，冰墻可以因受到傷害而被打破。冰墻的AC為12，每段10尺長的冰墻有30點生命值，而且冰墻對火焰傷害具有易傷。當一段10尺長的冰墻的生命值降至0時，這段冰墻就會被摧毀，但原地會留下一片冰冷刺骨的空氣。生物在一個回合內第一次通過這片寒氣時，必須進行一次體質豁免。豁免失敗者將受到5d6的冷凍傷害，成功則傷害減半。\n<br><strong>升環施法效應。</strong>使用7環或更高法術位施展該法術時，你使用的法術位每比6環高一環，冰墻出現時造成的傷害就增加2d6，並且通過寒氣時受到的傷害也增加1d6。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 285",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": null,
+      "type": "creature",
+      "width": null
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一小塊石英",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "2d6"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 40300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717429499449,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kZ9PSqGyiR7bGViM"
+}

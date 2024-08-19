@@ -1,0 +1,120 @@
+{
+  "_id": "77C1A0FCE0457BA1",
+  "name": "羽符（鞭）Feather Token Whip",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-colored-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這是一件外觀類似羽毛的小物品。夸爾羽符有很多種，每種都有一個一次性效應。羽符的型別由DM選取或參照下表隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>羽符</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>91~100</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.77C1A0FCE0457BA1]{鞭 Whip}</td>\n</tr>\n</tbody>\n</table>\n<p><strong>鞭Whip。</strong>你可以用一個動作將這枚羽符扔出至多10尺。羽符將消失，取而代之的是一條懸浮在空中的長鞭。你可以用一個附贈動作讓長鞭對它周圍10尺內的一名生物發動近戰法術攻擊，攻擊加值+9。如果攻擊命中，目標將受到[[/r 1d6+5]]點力場傷害。</p>\n<p>你可以在自己的回合里用一個附贈動作命令長鞭飛行至多20尺並攻擊它周圍10尺內的一名生物。長鞭將在1小時後消失，你陷入失能或你死亡時鞭子也會消失。你可以用一個動作解消羽符的效應。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 250,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "用附贈動作控制長鞭。"
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "space",
+      "prompt": true
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + 5",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "9",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 57400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!77C1A0FCE0457BA1"
+}

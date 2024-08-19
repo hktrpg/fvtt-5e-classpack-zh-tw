@@ -1,0 +1,130 @@
+{
+  "_id": "rt2w2oWZgdNmOm3n",
+  "name": "塵世壁壘 Mortal Bulwark",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/002505.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "\n<p>20級起，你展現出神聖力量的火花，以捍衛凡人的世界。以一個附贈動作，你在1分鐘內獲得以下增益：</p>\n<ul>\n<li>你獲得120尺的真實視覺。</li>\n<li>當你對異怪、天界生物、元素、精類或邪魔進行攻擊檢定時，你獲得優勢。</li>\n<li>當你對一個生物進行攻擊並擊中，並對其造成傷害時，你可以使其進行一次魅力豁免。若其失敗且其不屬於此位面，其將被魔法性地放逐到其原本的位面。若目標豁免成功，其在24小時內不能再被此能力放逐。</li>\n</ul>\n<p>一旦你使用了此能力，你在完成一次長休之前必須消耗一個5環法術位以再次使用此能力。</p>\n",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "守望之誓等級 20",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "1qNIImlL9UawRXN2",
+      "changes": [
+        {
+          "key": "system.attributes.senses.truesight",
+          "mode": 4,
+          "value": "120",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.rt2w2oWZgdNmOm3n",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得120尺真實視覺",
+      "img": "modules/dnd5e_classpack/Nicons/002505.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!rt2w2oWZgdNmOm3n.1qNIImlL9UawRXN2"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rt2w2oWZgdNmOm3n"
+}

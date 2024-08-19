@@ -1,0 +1,94 @@
+{
+  "_id": "LqBlv1BYu1IQVkgj",
+  "name": "堅定之印 Warding Maneuver",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/1ability_toughness%20.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從3級起，你能夠恐嚇你的敵人，抑制他們的攻擊並懲罰他們。當你以一次近戰武器攻擊擊中一名敵人時，你可以標記他直到你的下一個回合，這個效果會提前結束，如果你失能，死亡或者有其他人標記該敵人。</p>\n<p>         在你的5尺之內，如果他的攻擊不是以你為目標，該名被你標記的敵人的攻擊骰承受劣勢。另外，如果該敵人對除你之外的人造成了傷害，在你的下一個回合你可以用一個附贈動作對該敵人進行一次特殊近戰攻擊，你這次攻擊骰有優勢，且如果擊中，攻擊武器對目標額外造成等同於你戰士等級一半的傷害。</p>\n<p>         無論你標記了多少名角色，你能夠使用的特殊攻擊次數等同於你的力量調整值（至少為1），而且你在長休後重新獲得所有被消耗的特殊攻擊次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.str.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "floor(@classes.fighter.levels/2)",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "騎兵等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!LqBlv1BYu1IQVkgj"
+}

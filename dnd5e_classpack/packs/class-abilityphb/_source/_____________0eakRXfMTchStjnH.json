@@ -1,0 +1,105 @@
+{
+  "_id": "0eakRXfMTchStjnH",
+  "name": "魔能祈喚:萊維斯圖斯之墓",
+  "type": "feat",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>    當你受到傷害時，你可以以一個反應將自己封鎖在冰墓中，冰墓會在你的下一個回合結束時融解。你得到每邪術士等級10點的臨時生命值，此生命值會盡可能優先地抵消傷害。當你受到傷害之後，你立即得到對火焰傷害的易傷，速度降低至0，並且陷入失能狀態。這些效果，以及剩餘的臨時生命值，會在冰墓融解時終止。</p>\n<p>    當你使用此魔能祈喚后，在完成一次短休或長休前，你無法再次使用這祈喚。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10 * @classes.warlock.levels",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "requirements": "邪術師等級 5",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0eakRXfMTchStjnH"
+}

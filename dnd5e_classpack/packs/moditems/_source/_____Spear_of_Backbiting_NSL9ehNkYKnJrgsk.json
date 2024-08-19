@@ -1,0 +1,128 @@
+{
+  "_id": "NSL9ehNkYKnJrgsk",
+  "name": "反噬之矛 Spear of Backbiting",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你用該魔法武器發動的攻擊檢定和傷害擲骰具 +2 加值。用其進行投擲時，它的常規和最大射程都增加 30 尺，且命中后增加一枚額外的傷害骰。投擲完成後，它無論是否命中都會立即飛回你手中。</p>\n<p><strong>詛咒Curse</strong>。與這支受詛咒武器同調的生物將受到其詛咒影響。只要詛咒還在生效，你總是會把它放在觸手可及的地方，不願與它分開。此外，你使用除它之外的任何武器發動攻擊檢定時具有劣勢。</p>\n<p>以該武器發動攻擊檢定骰出 1 時，它會突然彎曲或飛轉攻擊你的後背。進行一次帶優勢的攻擊檢定，對抗你自身AC。若命中，則你受到傷害，如同你用它捅了自己。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TftYP",
+    "quantity": 1,
+    "weight": 3,
+    "price": null,
+    "attunement": 1,
+    "equipped": true,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 50,
+      "long": 90,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "+2",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6+2+@mod",
+          "piercing"
+        ]
+      ],
+      "versatile": "1d8+2+@mod"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "spear",
+    "properties": {
+      "thr": true,
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": true,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": true,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!NSL9ehNkYKnJrgsk"
+}

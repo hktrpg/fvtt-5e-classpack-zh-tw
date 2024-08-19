@@ -1,0 +1,201 @@
+{
+  "_id": "NZ4JOGBMJzeCKT5O",
+  "name": "糾纏術 Entangle",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_StrangleVines.png",
+  "effects": [
+    {
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.NZ4JOGBMJzeCKT5O",
+      "duration": {
+        "seconds": 60,
+        "startTime": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "GRPc9eR6tuKCzJLQ",
+      "changes": [
+        {
+          "key": "macro.CE",
+          "mode": 0,
+          "value": "Restrained",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "multi",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": "24134312",
+          "sourceId": "Actor.3GTNWzp1ve7EJotl.Item.nAmfPdqBTPJeq8np.ActiveEffect.Fg3KJ2tgbt7Hd5vP"
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        }
+      },
+      "name": "糾纏術 Entangle",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_StrangleVines.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!NZ4JOGBMJzeCKT5O.GRPc9eR6tuKCzJLQ"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 在施法距離內指定一點，並以其為源點蔓延出20尺方形區域的雜草和藤蔓。在法術持續時間內，這片被植物覆蓋的區域變為困難地形。\n<br>在你施展法術時，該區域內的生物必須成功通過一此力量豁免，否則將因為這些纏繞的植物陷入束縛狀態，直到法術終止。\n<br>一個因此被束縛的生物可以使用其動作進行一次力量檢定以對抗該法術的豁免DC，檢定成功則擺脫束縛。\n<br>法術終止時，所召喚的植物隨即枯萎。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 238",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "square"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 20300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711697570741,
+    "modifiedTime": 1711697570741,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NZ4JOGBMJzeCKT5O"
+}

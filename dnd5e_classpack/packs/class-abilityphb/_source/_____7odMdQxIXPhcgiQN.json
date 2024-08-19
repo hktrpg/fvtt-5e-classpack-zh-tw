@@ -1,0 +1,89 @@
+{
+  "_id": "7odMdQxIXPhcgiQN",
+  "name": "神聖干預",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_InfusionofLight.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第10級起，你可以在迫切需要幫助時，召喚神祇的協助。</p>\n<p>你需要用一個動作來請求所信仰神祇的幫助。描述你所需要的幫助，然後擲[[/r d100]]。如果你的結果等於或者小於你的牧師等級，你將得到神祇的迴應。迴應的結果由DM作出選擇；此時通常請求任何牧師法術或者領域法術的效應都在可接受範圍內。</p>\n<p>如果你的神祇迴應了請求，你在此後的7日內無法再次使用該特性；否則你可以在完成長休后再次使用該特性。</p>\n<p>到達20級后，你的呼喚將自動得到神祇的迴應，無需再擲[[/r d100]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 59",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "你迫切需要幫助……"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d100",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "牧師等級 10、20",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7odMdQxIXPhcgiQN"
+}

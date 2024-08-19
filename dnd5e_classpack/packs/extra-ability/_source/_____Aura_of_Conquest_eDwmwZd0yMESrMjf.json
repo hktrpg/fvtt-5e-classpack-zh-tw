@@ -1,0 +1,94 @@
+{
+  "_id": "eDwmwZd0yMESrMjf",
+  "name": "征服光環 Aura of Conquest",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_ArtofWar.png",
+  "system": {
+    "description": {
+      "value": "<p>         從7級起，只要你並未失能，你便瀰漫出一陣威嚇的靈光。光環包括你的格子，從你向各個方向延伸10尺，它會被全掩蔽所阻擋。</p>\n<p>         若一個生物恐慌於你，當其處於此光環內，其速度降為0，若其在光環內開始其回合，則受到等於你聖武士等級一半的心靈傷害。</p>\n<p>         從18級，此光環的距離增加到30尺。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "spec",
+      "type": "creature"
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "floor(@class.paladin.levels/2)",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "征服之誓等級 7",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686412755620,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eDwmwZd0yMESrMjf"
+}

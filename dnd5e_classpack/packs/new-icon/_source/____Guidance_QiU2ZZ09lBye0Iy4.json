@@ -1,0 +1,203 @@
+{
+  "_id": "QiU2ZZ09lBye0Iy4",
+  "name": "神導術 Guidance",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_Chastise.png",
+  "effects": [
+    {
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.QiU2ZZ09lBye0Iy4",
+      "duration": {
+        "seconds": 60,
+        "startTime": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "bA9jGJLPC87StGPe",
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.check",
+          "mode": 2,
+          "value": "+1d4",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "specialDuration": [
+            "isCheck",
+            "isSkill"
+          ],
+          "macroRepeat": "none"
+        },
+        "core": {
+          "statusId": "21344213",
+          "sourceId": "Actor.IOObBuw02XRfRgiy.Item.Kyv24afg6zttEBa2.ActiveEffect.Cttw0OSAXrnydpfp"
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        }
+      },
+      "name": "神導術 Guidance",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_Chastise.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!QiU2ZZ09lBye0Iy4.bA9jGJLPC87StGPe"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個自願的生物。在法術終止前，目標可以選擇在一次屬性檢定時額外擲一粒d4，並將所得數值加入檢定結果中。它可以在進行屬性檢定之前或之後擲骰。法術隨後即終止。",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 248",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 0,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 23600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": 1711704152473,
+    "modifiedTime": 1721195291832,
+    "lastModifiedBy": "U85JsON1DhCo5SOg",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QiU2ZZ09lBye0Iy4"
+}

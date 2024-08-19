@@ -1,0 +1,86 @@
+{
+  "_id": "F68ybxpw29bpMlz9",
+  "name": "反迷惑",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_ReflectiveShield.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第6級起，你獲得用音樂或話語來打斷心控效應的能力。</p><p>你可以使用一個動作開始一場持續至你的下一回合結束的演出。在這段時間內，你與你身邊30尺內的友方生物進行對抗恐慌或魅惑效應的豁免檢定具有優勢。該生物必須能聽到你的聲音才能獲得此增益。這場表演只有當你陷入失能、沉默狀態，或主動終止（無需動作）時才會提前結束。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 54",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "受增益生物必須能聽到你的聲音。"
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "吟遊詩人等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!F68ybxpw29bpMlz9"
+}

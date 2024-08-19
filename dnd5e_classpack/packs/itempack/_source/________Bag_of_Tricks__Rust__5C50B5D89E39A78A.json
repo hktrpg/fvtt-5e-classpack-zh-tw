@@ -1,0 +1,115 @@
+{
+  "_id": "5C50B5D89E39A78A",
+  "name": "魔術袋（鐵銹色）Bag of Tricks (Rust)",
+  "type": "consumable",
+  "img": "icons/containers/bags/sack-simple-leather-tan.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這種普通布袋看起來是空無一物，但把手伸進去會摸到一個小小的毛絨物件。整個袋子重1/2磅。</p>\n<p>你可以用一個動作取出布袋里的毛絨物件，並把它扔出至多20尺遠。當物件落地時骰一次[[/r d8]]，參考布袋的表格決定物件變成的生物。該生物在次日黎明時分消散，其生命值降至0時也隨即消失。</p>\n<p>扔出的生物對你和你的同伴態度友善，且會在你的回合內行動。你可以用一個附贈動作命令該生物在其下一回合執行特定的移動方式，做特定的動作。你也可以下達寬泛的命令，例如攻擊你的敵人。沒接到命令時，該生物按自己天性行動。</p>\n<p>袋子抽出三件毛絨物件后，要經過下次黎明才能再用。</p>\n<table><caption>@UUID[Compendium.dnd5e_classpack.itempack.5C50B5D89E39A78A]{魔術袋（鐵銹色）Bag of Tricks (Rust)}</caption>\n<thead>\n<tr>\n<th><strong>[[/r d8]]</strong></th>\n<th><strong>生物</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.pozQUPTnLZW8epox]{老鼠Rat}</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.d0prpsGSAorDadec]{貓頭鷹Owl}</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.YTpL2c3NO4sOn2UA]{獒犬Mastiff}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.y8sRU8Ks2lcrGsaf]{山羊Goat}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.rjqk7ToMD8sGr3n4]{巨山羊Giant Goat}</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.SsuCaF2fIEoDdFA3]{巨野豬Giant Boar}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.hjhERRzafCiFFVLA]{獅子Lion}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.omcDpBoB69esCXeM]{棕熊Brown Bear}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 154"
+    },
+    "quantity": 1,
+    "weight": 0.5,
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "space",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "day",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439659,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 46600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!5C50B5D89E39A78A"
+}

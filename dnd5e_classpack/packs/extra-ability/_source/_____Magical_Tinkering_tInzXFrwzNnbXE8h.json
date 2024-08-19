@@ -1,0 +1,86 @@
+{
+  "_id": "tInzXFrwzNnbXE8h",
+  "name": "魔法工藝 Magical Tinkering",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_RewindTime.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在第1級，你將學習如何在平凡的物品中注入魔法的火花。要使用這個能力，你必須手持@UUID[Compendium.dnd5e_classpack.itempack.E20CE7D30DE58B23]{修理工具}，或其他工匠工具。然後花費一個動作觸控一個微小的非魔法物體，從以下魔法屬性中選擇一個賦予它：</p>\n<ul>\n<li>該物體提供5尺半徑的明亮照明，以及該範圍外5尺範圍的微光照明。</li>\n<li>無論何時，只要該物品被生物觸碰，就會發出可在10尺外聽到的錄音資訊。錄入的資訊在你將此屬性賦予對像時決定，且時長不可超過6秒。</li>\n<li>物品不斷地發出一種氣味或一種非語言的聲音（風聲、浪聲、鳥叫或類似的聲音）。這一現象最多能傳播10尺遠。</li>\n<li>一個靜態的視覺效果出現在物體的表面上。這個效果可以是一幅圖片，最多25個單詞的文字，線條和形狀，或者這些元素的混合，如你所愿。</li>\n</ul>\n<p>         所選的魔法屬性持續時間無限。你能夠以一個動作觸控對像來消除這一魔法屬性。</p>\n<p>         你能夠通過此特性將魔力賦予多個物品，每次使用該特性時都需要觸控一個物品，並且單個物品一次只能承載一種魔法屬性。你能夠使用該特性影響的物品的最大數量等於你的智力調整值（最少一個物品）。如果你試圖超過最大值，最老的魔法屬性將立即結束，然後新的魔法屬性生效。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "max(@abilities.int.mod,1)",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "奇械師等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!tInzXFrwzNnbXE8h"
+}

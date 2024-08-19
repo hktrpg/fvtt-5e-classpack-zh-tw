@@ -1,0 +1,86 @@
+{
+  "_id": "kIUKnDJ9qdscR3zt",
+  "name": "獵人感知 Hunter's Sense",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_PredatoryInstincts.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         3級起，你獲得了觀察生物並魔法性地分析出最佳狩獵方式的能力。以一個動作，選擇一名60尺範圍內對你可見的角色。你立刻知曉該角色的傷害免疫，抗性和易傷。如果該角色被預言系魔法覆蓋，你感覺它沒有任何傷害免疫，抗性和易傷。</p>\n<p>         你能使用該特性的次數等同於你的感知調整值（至少為1）。你重新獲得所有使用過的次數當你完成一次長休時。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "怪物殺手等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kIUKnDJ9qdscR3zt"
+}

@@ -1,0 +1,130 @@
+{
+  "name": "魔寵群 Flock of Familiars",
+  "type": "spell",
+  "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><br />    你召喚3只使用你所選擇的動物精魂外貌的臨時魔寵。每隻魔寵所使用的規則與動物精魂外貌選項與@UUID[Compendium.dnd5e_classpack.new-icon.daB7oGSKy1BglKlt]{獲得魔寵find familiar}相同。該法術所召喚的所有魔寵都必須屬於同一生物種類（天界生物，精類生物，邪魔；你的選擇）。如果你已經以@UUID[Compendium.dnd5e_classpack.new-icon.daB7oGSKy1BglKlt]{獲得魔寵find familiar}或類似方式召喚一個魔寵，則你以該法術召喚的魔寵數量減少一個。</p><p>    該法術召喚的魔寵可以與你進行心靈交流且當它們在你1英里範圍內時可以與你分享它們的視覺或聽覺感官。</p><p>    當你施展施法距離為觸及的法術時，該法術所召喚的其中一名魔寵可以如常傳遞法術。然而每回合你只能通過一隻魔寵傳遞一次觸及法術。</p><p><strong>升環施法效應。</strong>使用3環或更高法術位施展該法術時，你的法術位每比2環高一環，你可以召喚一隻額外的魔寵。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "LLK",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "JiWbZLEWgYfCUaDp",
+  "folder": null,
+  "sort": 17100000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711730280300,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JiWbZLEWgYfCUaDp"
+}

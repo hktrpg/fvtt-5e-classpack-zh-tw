@@ -1,0 +1,91 @@
+{
+  "_id": "7BefhtXtZoz4BHvd",
+  "name": "位面戰士 Planar Warrior",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/000151.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>3級起，你學會通過吸取多元宇宙的能量來強化你的攻擊。以一個附贈動作，選擇一名在你30尺範圍內對你可見的角色，這回合你對其的下一次武器攻擊造成的傷害變成力場傷害，且目標額外受到來自於該攻擊的[[/r 1d8]]力場傷害，當你的遊俠等級到達11級時，額外傷害變成[[/r 2d8]].</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "turn"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "enemy"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(ceil(@classes.ranger.levels/10))d8",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "邊界行者等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7BefhtXtZoz4BHvd"
+}

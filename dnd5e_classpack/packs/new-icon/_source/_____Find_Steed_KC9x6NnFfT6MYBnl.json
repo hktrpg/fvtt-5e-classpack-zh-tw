@@ -1,0 +1,127 @@
+{
+  "_id": "KC9x6NnFfT6MYBnl",
+  "name": "尋獲坐騎 Find Steed",
+  "type": "spell",
+  "flags": {
+    "_sheetTab": "description",
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Mount_Charger.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你召喚一隻擁有超凡智力、力量和忠誠的靈體作為坐騎，同時與其立長期的契約。坐騎顯現在施法距離內未被佔據的空間，其外形由你從以下形態中選擇：戰馬、矮種馬、駱駝、麋鹿、獒犬（DM 也可以允許你選擇其他動物作坐騎）。坐騎擁有你所選形態的屬性數據，但他實際上屬於天界生物，精類生物或邪魔的一種（由你選擇）而不是通常型別。另外，如果你的坐騎智力為5或更低，則其智力變為6，同時能聽懂一門你掌握的語言。\n<br>不管是否在戰鬥中，坐騎都能為你提供幫助，而你們之間的契約讓你們行動更為緊密。你乘上該坐騎時，所有你施展的只以自身為目標的法術同時也影響該坐騎。\n<br>該坐騎生命值降至0時消失不見，且不留下任何物質殘餘。你也可以隨時用一個動作解散該坐騎使其消失。此後，每當你重新施展該法術時，將滿生命值的召喚同一匹坐騎顯現。\n<br>坐騎在你身邊1里內時，你可以與其以心靈感應的方式進行交流。\n<br>你不能用該法術同時擁有一匹以上的坐騎，你可以隨時用一個動作將坐騎從契約中解放，並使其消失不見。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 17700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354971867,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KC9x6NnFfT6MYBnl"
+}

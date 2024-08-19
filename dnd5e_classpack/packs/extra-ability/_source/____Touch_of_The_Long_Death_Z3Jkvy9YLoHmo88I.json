@@ -1,0 +1,91 @@
+{
+  "_id": "Z3Jkvy9YLoHmo88I",
+  "name": "長眠觸 Touch of The Long Death",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Monk_TouchofDeath.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從17級起，你可以將死亡的能量傳入生物的體內。</p>\n<p>        以一個動作，你觸碰一個5尺內的生物，同時花費1到10點氣。目標必須進行一次體質豁免，若失敗將受到每點被耗費的氣[[/r 2d10]]的黯蝕傷害。成功通過豁免可以使這個傷害降低到一半。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "1 到 10 點氣。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "touch",
+      "type": "creature"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "con",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d10",
+          "necrotic"
+        ]
+      ],
+      "versatile": "2d10"
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "wis"
+    },
+    "requirements": "永亡宗等級 17",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Z3Jkvy9YLoHmo88I"
+}

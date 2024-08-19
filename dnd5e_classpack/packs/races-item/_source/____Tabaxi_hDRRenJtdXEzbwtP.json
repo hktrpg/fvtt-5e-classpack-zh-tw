@@ -1,0 +1,165 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "斑貓人 Tabaxi",
+  "type": "race",
+  "_id": "hDRRenJtdXEzbwtP",
+  "img": "icons/creatures/abilities/paw-print-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>斑貓人 Tabaxi</h2><blockquote><p>我曾經遇見過貓之主。他的目光刺穿了我，而他的威儀令我沉醉。我從未見過如此華貴的皮毛！我一直不太喜歡貓，但他…他令我重新考慮起對貓的喜愛來。</p><p>——魔鄧肯</p></blockquote><p>斑貓人由貓之主一位上層位面的神靈所創造，身上融合了類人生物和貓的特徵。斑貓人是一個形態和外貌多種多樣的民族。在一些土地上，斑貓人們如同他們與之相似的貓兒一般生活，生性好奇，在有趣的環境中安家。而在另一些地方，斑貓人像其他民族一般生活，絲毫沒有表現出貓之主希望他們具有的貓科行為特徵。</p><p>斑貓人的外表和他們的態度一般多變。一些斑貓人的皮毛上有老虎、美洲豹或其他大型貓科動物的特徵或花紋，而另一些則外表更像家貓。還有一些斑貓人有著獨特的花紋，或者會以自己的喜好來設計皮毛的樣式或者甚至乾脆沒有毛髮！</p><h2>斑貓人特質 Tabaxi Traits</h2><p>作為一位斑貓人，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。你是類人生物。</p><p><strong>體型 Size</strong>。你的體型為中型或小型。</p><p><strong>速度 Speed</strong>：你的步行速度為30尺，並且擁有等於你行走速度的攀爬速度。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.wEZRdGntmDPeHKFD]{貓之利爪 Cat』s Claws}</strong>：你能夠以爪子進行徒手攻擊。當你使用它命中目標時，該打擊造成1d6+力量調整值的揮砍傷害，而非一次通常徒手打擊的鈍擊傷害。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.7xXThU2nqbtFtbod]{貓之天性 Cat』s Talent}</strong>：你擁有察覺和隱匿技能的熟練項。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY]{黑暗視覺 Darkvision}</strong>。在微光光照下，你身邊60尺內可以視為等同於明亮光照。而在黑暗中，該範圍內可視為等同於微光光照。你無法在黑暗中分辨顏色，只能看到有灰度的黑白畫面。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.yRINLeWo4TuWpD1G]{貓之迅捷 Feline Agility}</strong>。你的反應和敏捷允許你能以爆發性的速度移動。當你在戰鬥中移動時，你可以讓你的速度直到回合結束翻倍。一旦你使用了這個特性，除非你在你的一個回合移動了0尺，否則你不能再使用它。</p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "dhSJgOKlG4XyMEQd",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ],
+          "hint": ""
+        },
+        "level": 0,
+        "title": "",
+        "icon": null,
+        "value": {}
+      },
+      {
+        "_id": "gkw5a3h445dmaeJg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.wEZRdGntmDPeHKFD"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.7xXThU2nqbtFtbod"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.yRINLeWo4TuWpD1G"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特性",
+        "icon": null
+      },
+      {
+        "_id": "v39UJPGaxpRAzaO1",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:ste"
+          ],
+          "choices": [],
+          "hint": ""
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "貓之天性",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": 30,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713015272137,
+    "modifiedTime": 1713019612240,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hDRRenJtdXEzbwtP"
+}

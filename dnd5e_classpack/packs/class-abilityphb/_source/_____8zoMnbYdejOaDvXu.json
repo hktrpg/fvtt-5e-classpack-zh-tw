@@ -1,0 +1,145 @@
+{
+  "_id": "8zoMnbYdejOaDvXu",
+  "name": "復仇天使",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_Archangel.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第20級起，你可以化身為復仇的天使。你可以使用動作實行這種轉變，並在接下來的1小時內獲得以下增益：</p>\n<ul>\n<li>你背生雙翼，獲得60尺飛行速度。</li>\n<li>你散發出一個30尺半徑範圍的威脅靈光。在一 次戰鬥中，任何敵對生物第一次進入靈光範圍，或者在靈光範圍內開始其回合時，都必須進行一次感知豁免。豁免失敗者將在接下來的1分鐘陷入對你的恐慌狀態，直至受到傷害。對因此陷入恐慌的生物所進行的任何攻擊檢定都具有優勢。</li>\n</ul>\n<p>你必須完成一次長休后才能再次使用該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": "con"
+    },
+    "requirements": "復仇之誓等級20",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "f3WYikh5TP5RvI66",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 4,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.class-abilityphb.8zoMnbYdejOaDvXu",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得 60 尺飛行速度",
+      "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_Archangel.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!8zoMnbYdejOaDvXu.f3WYikh5TP5RvI66"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 114
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    },
+    "favtab": {
+      "isFavorite": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8zoMnbYdejOaDvXu"
+}

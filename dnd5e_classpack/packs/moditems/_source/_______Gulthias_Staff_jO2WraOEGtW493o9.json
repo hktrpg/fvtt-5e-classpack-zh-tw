@@ -1,0 +1,123 @@
+{
+  "_id": "jO2WraOEGtW493o9",
+  "name": "甘提亞斯法杖 Gulthias Staff",
+  "type": "weapon",
+  "img": "icons/commodities/wood/kindling-stick-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>法杖（需同調）</em></p>\n<p>甘提亞斯法杖 由一棵甘提亞斯樹的枝條製成，（見《怪物圖鑑》中的枯枝怪blights 條目），法杖是一段多孔的黑色木頭。其邪惡氣息會讓 30 尺內的野獸明顯不適。法杖有 10 發充能，每天黃昏恢復[[/r 1d6+4]]發已經被消耗的充能。</p>\n<p>如果法杖被破壞或燒成灰燼，其木材會發出一聲可怕而非人的尖叫，在 300 尺範圍內都能聽到，聽到尖叫的枯萎怪會立刻枯萎死去。</p>\n<p><strong>吸血打擊Vampiric Strike</strong>。該柄法杖可以被當作一柄有魔法的長棍來使用。若命中，其傷害等同於普通的長棍，你可以花費 1 點充能，恢復等於該武器造成傷害量的生命值。每花費一發充能，法杖的孔洞中都會滲出鮮紅的血液，你必須成功通過一個DC 12 的感知豁免，否則將陷入短暫性瘋狂（見《城主指南》第 8 章的「瘋狂」）。</p>\n<p><strong>枯枝禍根Blight Bane</strong>。當你與法杖取得同調，枯枝怪及其他邪惡的植物角色將不視你為敵對狀態，除非你傷害它們。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "CoS",
+    "quantity": 1,
+    "weight": 4,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8 + @mod"
+    },
+    "formula": "1d6+4",
+    "save": {
+      "ability": "wis",
+      "dc": 12,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "",
+    "properties": {
+      "rch": false,
+      "amm": false,
+      "ver": true,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "mgc": true,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false
+  },
+  "_key": "!items!jO2WraOEGtW493o9"
+}

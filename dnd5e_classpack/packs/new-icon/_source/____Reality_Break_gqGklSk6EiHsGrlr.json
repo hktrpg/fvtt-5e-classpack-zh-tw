@@ -1,0 +1,193 @@
+{
+  "name": "崩壞現實Reality Break",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/lightning/orb-ball-purple.webp",
+  "_id": "gqGklSk6EiHsGrlr",
+  "effects": [
+    {
+      "name": "崩壞現實Reality Break",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.gqGklSk6EiHsGrlr",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "GPOHshHCCBp5bbd6",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/magic/lightning/orb-ball-purple.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!gqGklSk6EiHsGrlr.GPOHshHCCBp5bbd6"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<p>你將現實與時間線之間的壁壘粉碎，使一個生物陷入混沌與瘋狂。目標必須通過一個感知豁免，否則將無法執行任何反應直到法術結束。被影響的生物必須在其回合開始時roll一個d10，其結果決定目標身上發生了什麼。參照下方表格&ldquo;崩壞現實效果&rdquo;<br />在其回合結束時，受影響的生物能重複其感知豁免，若成功，則法術結束。</p>\n<p>崩壞現實效果<br />d10&nbsp;&nbsp; 效果<br />1&ndash;2&nbsp;&nbsp; 遙遠國度之瞥。目標受到6d12點心靈傷害並且陷入震懾到本輪結束。<br />3&ndash;5&nbsp;&nbsp; 崩碎裂縫。目標必須通過一個敏捷豁免，若失敗則受到8d12點力場傷害，若豁免成功則受到一半傷害。<br />6&ndash;8&nbsp;&nbsp; 蟲洞。該目標與其身上所著裝、攜帶的一切東西被傳送到他30尺內你能看到的未被佔據的空間。目標受到12d10點力場傷害並倒地。<br />9&ndash;10&nbsp;&nbsp; 暗虛之凍。 目標受到12d10點寒冷傷害並且目盲到本回合結束。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d10",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一個水晶棱鏡",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 37700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711685243872,
+    "modifiedTime": 1711685631408,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gqGklSk6EiHsGrlr"
+}

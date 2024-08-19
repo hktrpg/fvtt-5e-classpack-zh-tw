@@ -1,0 +1,115 @@
+{
+  "_id": "F5CCE6553F5CB9A1",
+  "name": "次元鐐銬 Dimensional Shackles",
+  "type": "consumable",
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>你可以用一個動作來以此鐐銬束縛一個失能的生物。鐐銬可以自行調整適應從小型到大型的生物。除了普通鐐銬的作用之外，次元鐐銬還能阻止被束縛的生物進行異次元移動，包括傳送和異位面旅行。但是，鐐銬不會阻止生物穿過一道連線異位面的傳送門。</p>\n<p>你和你指定的任何生物能用一個動作解除此鐐銬。每隔30天，被束縛的生物可以進行一次DC30的力量（運動）檢定，成功則破壞鐐銬重獲自由。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 165"
+    },
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "小型到大型的生物必須失能。"
+    },
+    "duration": {
+      "value": "30",
+      "units": "day"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": 30,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 101000000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!F5CCE6553F5CB9A1"
+}

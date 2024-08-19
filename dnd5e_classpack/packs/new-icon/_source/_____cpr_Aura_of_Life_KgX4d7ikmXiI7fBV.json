@@ -1,0 +1,285 @@
+{
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-family:Signika, sans-serif\">Enable \"Aura of Life Automation\" in the module settings for this spell to work.</span></p><p>This spell will prevent Active Effects from reducing Temporary Maximum Hitpoints while in the aura.</p><p><em>This spell is safe to rename, do not rename the effect.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Player's Handbook pg 216"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "",
+      "type": "self",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "[healing] Each nonhostile creature in the aura (including you) when at 0 hit points",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "abj",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "concentration",
+      "mgc"
+    ],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "summons": null
+  },
+  "name": "生命靈光(cpr)Aura of Life",
+  "flags": {
+    "midi-qol": {
+      "forceCEOff": true,
+      "effectActivation": false,
+      "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.auraOfLife.item",
+      "onUseMacroParts": {
+        "items": {
+          "0": {
+            "macroName": "function.chrisPremades.macros.auraOfLife.item",
+            "option": "postActiveEffects"
+          }
+        }
+      },
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "cf": null,
+    "midiProperties": {
+      "magicdam": false,
+      "magiceffect": false,
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "confirmTargets": "default",
+      "noConcentrationCheck": false
+    },
+    "core": {},
+    "custom-character-sheet-sections": {
+      "sectionName": ""
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "name": "Aura of Life",
+        "version": "0.8.13",
+        "settings": [
+          "Aura of Life"
+        ]
+      }
+    },
+    "dnd5e": {},
+    "scene-packer": {
+      "hash": "0253633807f2434b48a3d50540aeba3483ccfdea",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.Ymag3FNPAB2g1K63"
+    }
+  },
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "flags.chris-premades.aura.auraOfLife.name",
+          "mode": 5,
+          "value": "auraOfLife",
+          "priority": 20
+        },
+        {
+          "key": "flags.chris-premades.aura.auraOfLife.castLevel",
+          "mode": 5,
+          "value": "castLevel",
+          "priority": 20
+        },
+        {
+          "key": "flags.chris-premades.aura.auraOfLife.range",
+          "mode": 5,
+          "value": "30",
+          "priority": 20
+        },
+        {
+          "key": "flags.chris-premades.aura.auraOfLife.disposition",
+          "mode": 5,
+          "value": "ally",
+          "priority": 20
+        },
+        {
+          "key": "flags.chris-premades.aura.auraOfLife.effectName",
+          "mode": 5,
+          "value": "Aura of Life",
+          "priority": 20
+        },
+        {
+          "key": "flags.chris-premades.aura.auraOfLife.macroName",
+          "mode": 5,
+          "value": "auraOfLife",
+          "priority": 20
+        }
+      ],
+      "transfer": false,
+      "_id": "hemNnRP2zbanh3dq",
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "tint": "#ffffff",
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "undefined",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        },
+        "effectmacro": {
+          "onDelete": {
+            "script": "await chrisPremades.macros.auraOfLife.end(token);"
+          },
+          "onEachTurn": {
+            "script": "await chrisPremades.macros.auraOfLife.turns(token, origin);"
+          }
+        }
+      },
+      "name": "Aura of Life - Aura",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!KgX4d7ikmXiI7fBV.hemNnRP2zbanh3dq"
+    }
+  ],
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1676798650904,
+    "modifiedTime": 1711704378445,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PQGBBcoVSwpUhViM": 3,
+    "m9ZEHyQjhLqQuPSG": 3,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "_id": "KgX4d7ikmXiI7fBV",
+  "sort": 0,
+  "_key": "!items!KgX4d7ikmXiI7fBV"
+}

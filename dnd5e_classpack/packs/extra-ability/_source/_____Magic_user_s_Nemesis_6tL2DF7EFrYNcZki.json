@@ -1,0 +1,86 @@
+{
+  "_id": "6tL2DF7EFrYNcZki",
+  "name": "魔法剋星 Magic-user's Nemesis",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_Cower.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         11級時，你獲得打斷其他人的魔法的能力。60尺內，當你看到一名角色使用法術或者傳送，你可以用你的反應魔法性地來嘗試打斷它。角色必須成功通過一個難度等同於你的施法DC的感知豁免，否則它的法術和傳送失敗並浪費。</p>\n<p>         你使用該特性后，不能再次使用它直到你完成一次短休或者長休。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "spec",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "怪物殺手等級 11",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6tL2DF7EFrYNcZki"
+}

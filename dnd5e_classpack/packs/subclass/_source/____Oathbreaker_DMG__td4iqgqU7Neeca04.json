@@ -1,0 +1,172 @@
+{
+  "_id": "td4iqgqU7Neeca04",
+  "name": "破誓者 Oathbreaker（DMG）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_FocusedMind.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>         成為破誓者的聖武士打破了自己的神聖誓言，而去追求黑暗的野心或為邪惡力量服務。聖武士心中燃燒的光耀已經熄滅，只剩下一片黑暗。</p>\n<p>         只有至少達到 3 級的邪惡聖武士才能成為一名破誓者。</p>\n<p>         該聖武士將用破誓者特性替換其所有對應神聖誓言的特性。</p>\n<p><strong>破誓者法術 Oathbreaker Spells</strong></p>\n<p>         一名破誓者聖武士失去所有之前獲得的聖誓法術，並在達到相應聖武士等級時獲得下列破誓者法術作為替代。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>聖騎士等級</th>\n<th>法術</th>\n</tr>\n<tr>\n<td><strong>3rd</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.Qh8PTvCxR44isqVO]{煉獄叱喝}@UUID[Compendium.dnd5e_classpack.new-icon.Fl4lOWHo82WLp3g7]{致傷術}</td>\n</tr>\n<tr>\n<td><strong>5th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.otAaRLMc7OfxRYAw]{瘋狂冠冕}@UUID[Compendium.dnd5e_classpack.new-icon.UyQ9nYcQlFdEbmeV]{黑暗術}</td>\n</tr>\n<tr>\n<td><strong>9th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.xYpJGRI4xcMa41kO]{操縱死屍}@UUID[Compendium.dnd5e_classpack.new-icon.kqh0eV640hXk4flg]{降咒}</td>\n</tr>\n<tr>\n<td><strong>13th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.AVumturalJuP4paw]{枯萎術}@UUID[Compendium.dnd5e_classpack.new-icon.MZ1jwLEJukFjSv1a]{困惑術}</td>\n</tr>\n<tr>\n<td><strong>17th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.gbHBG4jYU3I06JQO]{疫病術}@UUID[Compendium.dnd5e_classpack.new-icon.JudswpO6E5GBlyfQ]{支配人類}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DMG",
+    "identifier": "oathbreaker",
+    "classIdentifier": "paladin",
+    "advancement": [
+      {
+        "_id": "eatgwz3uuhikhxhp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.Qh8PTvCxR44isqVO",
+            "Compendium.dnd5e_classpack.new-icon.Fl4lOWHo82WLp3g7"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "0nj4up600131mxrz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.otAaRLMc7OfxRYAw",
+            "Compendium.dnd5e_classpack.new-icon.UyQ9nYcQlFdEbmeV"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "o7zsqvhhqe97wpjf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.xYpJGRI4xcMa41kO",
+            "Compendium.dnd5e_classpack.new-icon.kqh0eV640hXk4flg"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "p1y9vt6zcebyxva9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.AVumturalJuP4paw",
+            "Compendium.dnd5e_classpack.new-icon.MZ1jwLEJukFjSv1a"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 13,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "f4nvci24wf5uue8v",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.gbHBG4jYU3I06JQO",
+            "Compendium.dnd5e_classpack.new-icon.JudswpO6E5GBlyfQ"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 17,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "v9tf4ikkfjxv72bq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.WYwc4UQBzV8IhvR6",
+            "Compendium.dnd5e_classpack.extra-ability.odSeRNvb2P8PIUOp"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "cqq00nf7ksv6vy0q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.33uiZeA8YUJ27xSh"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "hnaiucd217jv6tvd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.Kz5Ylv8DxVzoXvV9"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "1tqlmkmug0xjo9wk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.yGK1lxcpwIjRMIV2"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 20,
+        "title": "職業特性",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!td4iqgqU7Neeca04"
+}

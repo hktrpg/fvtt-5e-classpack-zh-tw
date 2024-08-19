@@ -1,0 +1,87 @@
+{
+  "_id": "dpOHLoQUpFbxl3Nj",
+  "name": "彼岸故事 Tales from Beyond",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/sanctum_features_animadiversion.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你與那些藉由你來講述自己故事的精魂溝通。當你持握你的@UUID[Compendium.dnd5e_classpack.extra-ability.Sew4Tj3ec9CwH53H]{精魂法器}時，你可以使用一個附贈動作，消耗一次你的@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}來投擲一次精魂故事表。詩人激勵骰的擲骰結果將決定精魂們引導你說出何種故事。這個故事將儲存在你腦海中，直到你用掉該故事的效果，或者完成一次短休或長休。</p>\n<p>你可以使用一個動作選擇30尺內一個你能夠看到的生物（可以是你自身）作為故事效果所影響的目標。一旦這樣做之後，在下一次投擲故事表以前，你都無法再次使用此故事的效果。</p>\n<p>你的腦海中一次只能儲存一種故事，再次投擲精魂故事表將立刻結束之前一個故事的效果。</p>\n<p>如果故事的效果需要進行豁免，其DC為你的法術豁免DC。</p>\n<table><caption>精魂故事表</caption>\n<thead>\n<tr>\n<th>[[/r D12]]</th>\n<th>通過你講述的故事</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><strong>聰慧的動物的故事Tale of the Clever Animal</strong><br />接下來的10分鐘內，每當目標進行一次智力、感知或魅力檢定時，目標可以在投擲[[/r d20]]后額外立刻投擲一個額外的骰子，並將數值加到檢定結果之中。額外骰的面數和你的詩人激勵骰相同。</td>\n</tr>\n<tr>\n<td>2</td>\n<td><strong>著名決鬥家的故事Tale of the Renowned Duelist</strong><br />你對目標進行一次近戰法術攻擊。若命中，則目標受到等同於2個你的詩人激勵骰的擲骰結果+你的魅力調整值的力場傷害。</td>\n</tr>\n<tr>\n<td>3</td>\n<td><strong>摯友們的故事 Tale of the Beloved Friends</strong><br />目標和其所選的另一個在其5尺內且其可見的生物獲得臨時生命值，數值等於1個你的詩人激勵骰的擲骰結果+你的魅力調整值。</td>\n</tr>\n<tr>\n<td>4</td>\n<td><strong>逃亡的故事Tale of the Runaway</strong><br />目標可以立即使用其反應來傳送至多30尺，到一處其可見且未被佔據的空間。當目標傳送時，其能選擇至多相當於你的魅力調整值（最少為0）數量的、在其30尺內的可見生物立即執行相同的反應。</td>\n</tr>\n<tr>\n<td>5</td>\n<td><strong>復仇者的故事 Tale of the Avenger</strong><br />在1分鐘里，任何使用近戰攻擊命中目標的生物會受到相當於1個你的詩人激勵骰的擲骰結果的力場傷害。</td>\n</tr>\n<tr>\n<td>6</td>\n<td><strong>旅行者的故事 Tale of theTraveler</strong><br />目標獲得臨時生命值，數值為一個你的詩人激勵骰的擲骰結果+你的詩人等級。當其擁有這些臨時生命值時，其移動速度增加10尺，並在其AC上獲得+1加值。</td>\n</tr>\n<tr>\n<td>7</td>\n<td><strong>欺詐者的故事 Tale of the Beguiler</strong><br />目標進行一次感知豁免，失敗則受到數值等同於2個你的詩人激勵骰的擲骰結果的心靈傷害，並陷入失能incapacitated直到其下一個回合結束。</td>\n</tr>\n<tr>\n<td>8</td>\n<td><strong>鬼魅的故事Tale of the Phantom</strong><br />目標變為隱形invisible，直到其下一個回合結束，或以攻擊命中一個生物。如果目標在這次隱形期間攻擊命中了一個生物，被攻擊的生物受到暗蝕傷害，數值等同於1個你的詩人激勵骰的擲骰結果，並陷入對目標的恐慌frightened之中，持續到該生物的下一個回合結束。</td>\n</tr>\n<tr>\n<td>9</td>\n<td><strong>兇蠻惡漢的故事 Tale of the Brute</strong><br />目標所選擇的30尺內其可見的每個生物都必須進行一次力量豁免。若豁免失敗，該生物受到3個你的詩人激勵骰的擲骰結果的雷鳴傷害，並倒地prone。若豁免成功，該生物受到的傷害減半，並且不會倒地prone。</td>\n</tr>\n<tr>\n<td>10</td>\n<td><strong>巨龍的故事 Tale of the Dragon</strong><br />目標從口中噴出30尺錐形的火焰。在範圍內的每個生物都必須進行一次敏捷豁免，若豁免失敗則受到4個你的詩人激勵骰的擲骰結果的火焰傷害，若豁免則成功傷害減半。</td>\n</tr>\n<tr>\n<td>11</td>\n<td><strong>天使的故事 Tale of the Angel</strong><br />目標恢復相當於2個你的詩人激勵骰的擲骰結果+你的魅力調整值的生命值，並且你結束目標身上正起作用的狀態中的一個，可結束的狀態如下：目盲blinded，耳聾deafened，麻痹paralyzed，石化petrified或中毒poisoned。</td>\n</tr>\n<tr>\n<td>12</td>\n<td><strong>奪魂故事 Tale of the Mind-Bender</strong><br />你從某個超凡的存在那裡喚起了一則超越人的理解能力的寓言。目標必須成功通過一次智力豁免，否則受到相當於3個你的詩人激勵骰的擲骰結果的心靈傷害，並被震懾stunned直到其下一個回合結束。</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "VRGR",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d12",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "精魂學院等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attunement": null
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dpOHLoQUpFbxl3Nj"
+}

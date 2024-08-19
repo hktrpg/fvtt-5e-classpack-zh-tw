@@ -1,0 +1,126 @@
+{
+  "_id": "8FFF00BE26857B80",
+  "name": "冰霜法杖 Staff of Frost",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需德魯伊、術士、魔導士或法師同調）</em></p>\n<p>持握這把法杖時，你對寒冷傷害具有抗性。</p>\n<p>這把法杖有10發充能。持握法杖時，你可以用一個動作並消耗1發或更多充能以施展以下法術之一（使用你自身的法術豁免DC）：@UUID[Compendium.dnd5e_classpack.new-icon.rKLSWNBCS8eqGUll]{雲霧術 Fog Cloud}（1發）、@UUID[Compendium.dnd5e_classpack.new-icon.u2MG84qW8YLuECHa]{冰風暴 Ice Storm}（4發）、@UUID[Compendium.dnd5e_classpack.new-icon.kZ9PSqGyiR7bGViM]{冰墻術 Wall of Ice}（4發）、@UUID[Compendium.dnd5e_classpack.new-icon.z9HXB89B3uO5NHW8]{寒冰錐 Cone of Cold}（5發）。</p>\n<p>法杖每天黎明時恢復[[/r 1d6+4]]發已消耗的充能。當充能耗盡時，投一個[[/r d20]]。如果投骰結果為1，法杖將被摧毀，化為一灘水。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 201"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 26000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 +4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 64900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!8FFF00BE26857B80"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "塑土術 Mold Earth",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/environment/settlement/pyramid.webp",
+  "_id": "dkqz1yASQkxNRWSS",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你選擇距離之內，你能看見的，佔滿5立方英尺空間的一堆泥土或一塊巖石。你可以用以下方式之一對其進行改變：<br />&middot;若你指向一片鬆散的土壤，你可以立刻挖開它，令其沿著地表行進，被運離到至多5英尺之外的地方。這種移動的力量不足以造成傷害。<br />&middot;你讓泥土或巖石的形狀，和/或顏色發生改變，寫出文字，畫出圖案或雕出圖紋。這種變化持續1個小時。<br />&middot;若你指定的泥土或巖石在地表上，你可以令其成為困難地形。作為另一種選項，你亦可以令已經是困難地形的地表區域成為正常地形。這種變化持續1個小時。<br />若你多次施放此法術，你可以同時維持至多兩個非立即的效果生效，你也可以以一個動作解消上述效應之一。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 35700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722351789896,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dkqz1yASQkxNRWSS"
+}

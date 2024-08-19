@@ -1,0 +1,115 @@
+{
+  "_id": "04362F9153D7CAED",
+  "name": "偵敵魔杖 Wand of Enemy Detection",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-simple-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需施法者同調）</em></p>\n<p>這把魔杖有7發充能，且每天黎明時恢復[[/r 1d6+1]]發已消耗的充能。當充能耗盡時，投一個[[/r d20]]。如果投骰結果為1，魔杖將化為灰燼而毀滅。</p>\n<p>持握此魔杖時，你可以用一個動作說出命令字並消耗1發充能。你獲知60尺內離你最近的對你有敵意的生物的方向，但不知道距離，持續1分鐘。魔杖可以感知可見的、隱形的、靈體的、偽裝的以及躲藏的生物。如果你不再持有魔杖時，此效果結束。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 210"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。"
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 15500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!04362F9153D7CAED"
+}

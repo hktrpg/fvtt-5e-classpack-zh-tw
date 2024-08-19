@@ -1,0 +1,94 @@
+{
+  "_id": "pORTgCToV9NLPWo1",
+  "name": "荒野形態",
+  "type": "feat",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級起，你可以用動作以魔力變化為曾見識過的野獸形態。該特性可以使用兩次，且在完成一次短休或長休后，你將重新獲得所有消耗掉的荒野形態次數。<br />你的德魯伊職業等級決定了你可以變化的野獸種類，你可以變化成任意沒有飛行或游泳速度且挑戰等級為1/4或更低的野獸形態。</p>\n<table>\n<tbody>\n<tr>\n<th>等級</th>\n<th>最高CR</th>\n<th>限制</th>\n<th>範例</th>\n</tr>\n<tr>\n<td>2nd</td>\n<td>1/4</td>\n<td>沒有飛行或游泳速度</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.yawTeS8u2FCfzzZH]{狼}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>1/2</td>\n<td>沒有飛行速度</td>\n<td>@UUID[Compendium.dnd5e_classpack.monsterspack.8aCTKP5qaBPFOqxM]{鱷魚}</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>1</td>\n<td>-</td>\n<td>巨鷹</td>\n</tr>\n</tbody>\n</table>\n<p>你可以在數個小時里保持著野獸形態，其持續時間具體數值等於你的德魯伊職業等級的一半（向下取整）。你可以在持續時間過後恢復原形，或者你也可以再次使用此特性來維持變形。另外，你也可以在你的回合內用一個附贈動作來恢復原形。在你陷入昏迷、生命值為0或者死亡的時候，變形將自動解除。<br />你變形時必須遵從以下規則：</p>\n<ul>\n<li>你的屬性數據替換為新形態的數值，但你仍保持你的陣營、個性，以及智力值、感知值、魅力值。你保留技能與豁免的熟練項，並且獲得新形態的技能和豁免熟練項。如果新形態的熟練項與你相同且熟練加值較高，則使用新形態的熟練加值。你不能使用新形態可能擁有的傳奇動作或巢穴動作。</li>\n<li>變形后，你使用新形態的生命值和生命骰。變回原形時，你的生命值恢復變形之前的數值。而任何讓你的生命值降至0的傷害，都可以使你變回原形並承受該傷害的溢出傷害量。例如，你在動物形態下受到了10點傷害而你只剩1點生命值，則你變回原形並受到9點傷害。只要超過的傷害沒有將你原形的生命值降至0，你就不會因此陷入昏迷。</li>\n<li>你不能施法，並且任何說話或者需要用手的動作，在你處於野獸形態時都將受到限制。變形不會打斷你正在專注的法術，也不會妨礙你執行作為已施展法術（例如@UUID[Compendium.dnd5e_classpack.new-icon.KPqCiGUT62tcmfgY]{召雷術}）一部分的某些動作。</li>\n<li>你保持從職業、種族或其它來源特性的收益，並且可以在新形態身體能力允許下使用這些特性。不過，你無法使用任何原有的特殊感官（例如黑暗視覺），除非你的新形態也具有這種感官。</li>\n<li>變形時，你可以選擇將你的裝備丟在所處空間，或者將其融入新形態，又或者直接著裝在身上。新形態直接著裝的裝備可以如常起作用，但DM有權基於新形態的體型和身姿作出判斷，並最終決定新形態使用該裝備是否合理。裝備不會改變大小來適應新形態，新形態無法著裝某裝備時，該裝備會掉落你所處空間或融入新形態中。融入新形態的裝備失去其效應，且在你變回原形時才能恢復。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 66",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 2,
+      "max": "@classes.druid.levels > 19 ? 99 : 2",
+      "per": "sr",
+      "type": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "德魯伊等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 189
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!pORTgCToV9NLPWo1"
+}

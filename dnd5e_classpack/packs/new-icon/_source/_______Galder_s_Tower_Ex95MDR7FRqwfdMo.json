@@ -1,0 +1,130 @@
+{
+  "name": "加德爾高塔術 Galder's Tower",
+  "type": "spell",
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>    你召喚一座兩層的石製，木製，或其他合適建築材料所製成的塔樓。塔的形狀既可以是圓形也可以為方形。塔的每層有10尺高並有著最高100平方的面積。層與層之間的通道有一個簡單的梯子與艙口組成。當你施法時，每一層有以下形式供你選擇。</p><ul><li><p>有床，椅子，櫃子和魔法壁爐的臥室</p></li><li><p>有書桌，書，書架，羊皮紙，墨水和墨水筆的書房</p></li><li><p>有餐桌、椅子、魔法壁爐、容器和炊具的用餐處</p></li><li><p>有沙發、扶手椅、邊桌和腳凳的休息室</p></li><li><p>有廁所、浴缸、魔法火盆和桑拿椅的衛生間</p></li><li><p>有望遠鏡和夜空地圖的天文臺</p></li><li><p>一間沒有傢俱的空房間</p></li></ul><p>    塔的內部溫暖而又幹燥，且不受外部環境影響。任何隨塔一同召喚的傢俱或裝置如果被挪出塔外便會化為煙霧。法術結束時，與該法術無關的一切生物或物件將安全地出現在室外的地面上，且塔與其中傢俱的一切痕跡都將消失。</p><p>   你可以在法術持續時再次施展該法術來將塔的存在延長24小時。在一年的時間內，你可以通過每天在相同的位置並以同樣的配置來施放這個法術來創造一個永久塔。</p><p><strong>升環施法效應。</strong>使用4環或更高法術位施展該法術時，你的法術位每比3環高一環，召喚的塔可以多一層。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "LLG",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一塊石頭，木材或其他建築材料的碎片",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "Ex95MDR7FRqwfdMo",
+  "folder": null,
+  "sort": 12200000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711730328687,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Ex95MDR7FRqwfdMo"
+}

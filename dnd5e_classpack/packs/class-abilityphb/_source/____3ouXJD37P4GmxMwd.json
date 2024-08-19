@@ -1,0 +1,106 @@
+{
+  "_id": "3ouXJD37P4GmxMwd",
+  "name": "清流鞭",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Mage_IceFlows.png",
+  "system": {
+    "description": {
+      "value": "<p>        你可以用一個動作消耗2點氣創造一根水鞭推拉目標使其失去平衡。指定你周邊30尺區域內一個你能看見的生物，並迫使其進行一次敏捷豁免。豁免失敗者將受到[[/r 3d10]]點鈍擊傷害，此外你每額外消耗1點氣則再增加[[/r 1d10]]點鈍擊傷害，且你可以使目標倒地或者將其向你的方向拉近至多25尺。豁免成功則傷害減半，且不會被拉近和擊倒。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "2 點氣（或額外氣以造成每點氣額外傷害）。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d10",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "wis",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "elementalDiscipline"
+    },
+    "requirements": "四象宗等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!3ouXJD37P4GmxMwd"
+}

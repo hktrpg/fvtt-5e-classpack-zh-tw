@@ -1,0 +1,120 @@
+{
+  "_id": "224AD9EE38658823",
+  "name": "火球項鍊 Necklace of Fireballs",
+  "type": "consumable",
+  "img": "icons/equipment/neck/pendant-faceted-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這條項鍊上掛著[[/r 1d6+3]]顆珠子。你可以用一個動作取下一顆珠子並投擲到至多60尺遠的地方。它將在移動軌跡的終點爆炸，效果等同於3環的@UUID[Compendium.dnd5e_classpack.new-icon.Uh3zcz4PO4DXP3Dj]{火球術 Fireball}（豁免DC15）。</p>\n<p>你可以一次投擲多個珠子甚至整條項鍊。同時投擲的珠子數量每增加1，火球術的環數也增加1。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 182"
+    },
+    "quantity": 1,
+    "weight": 0.01,
+    "price": {
+      "value": 61440,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "radius",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 9,
+      "max": "9",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d6",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 25400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!224AD9EE38658823"
+}

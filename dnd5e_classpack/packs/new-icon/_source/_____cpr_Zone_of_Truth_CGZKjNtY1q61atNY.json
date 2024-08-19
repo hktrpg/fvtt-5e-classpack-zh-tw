@@ -1,0 +1,187 @@
+{
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<p>This spell will automatically apply to tokens in the template following the RAW rules for Zone of Truth.</p><p>This includes overlapping spell effect rules (you can safely overlap multiple Zone of Truth).</p><p><em>This spell is not safe to rename.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Basic Rules, Player's Handbook pg 289"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 15,
+      "width": null,
+      "units": "ft",
+      "type": "sphere",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ],
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "summons": null
+  },
+  "name": "誠實之域(cpr)Zone of Truth",
+  "flags": {
+    "cf": null,
+    "core": {},
+    "templatemacro": {
+      "whenCreated": {
+        "asGM": false,
+        "command": "console.log(template);\nconsole.log(this);"
+      },
+      "whenEntered": {
+        "asGM": false,
+        "command": "await chrisPremades.macros.zoneOfTruth.inZone(token, template);"
+      },
+      "whenTurnStart": {
+        "asGM": false,
+        "command": "await chrisPremades.macros.zoneOfTruth.inZone(token, template);"
+      },
+      "whenLeft": {
+        "asGM": false,
+        "command": "await chrisPremades.macros.zoneOfTruth.leaveZone(token, template);"
+      },
+      "whenStaying": {
+        "asGM": false,
+        "command": "await chrisPremades.macros.zoneOfTruth.inZone(token, template);"
+      }
+    },
+    "custom-character-sheet-sections": {
+      "sectionName": ""
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "midi-qol": {
+      "effectActivation": false,
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "confirmTargets": "default",
+      "noConcentrationCheck": false
+    },
+    "chris-premades": {
+      "info": {
+        "name": "Zone of Truth",
+        "version": "0.7.01"
+      }
+    },
+    "dnd5e": {},
+    "scene-packer": {
+      "hash": "02f6338b5f07f3611d9d554309386fe325e473fe",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.dpDKz4seVFXGJiem"
+    }
+  },
+  "effects": [],
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1676798650073,
+    "modifiedTime": 1711730873686,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "PQGBBcoVSwpUhViM": 3,
+    "m9ZEHyQjhLqQuPSG": 3,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "_id": "CGZKjNtY1q61atNY",
+  "sort": 0,
+  "_key": "!items!CGZKjNtY1q61atNY"
+}

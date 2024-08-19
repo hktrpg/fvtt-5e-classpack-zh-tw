@@ -1,0 +1,234 @@
+{
+  "_id": "k0Edsji19UVt4i08",
+  "name": "死亡領域 Death Domain（DMG）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_DeadofNight.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>         死亡領域關注的是導致死亡的原力，以及喚起不死生物的負能量。其神祇諸如奇魔須Chemosh、米爾寇Myrkul和維婕絲Wee Jas等，都是死靈法師、死亡騎士、巫妖、木乃伊領主和吸血鬼的守護神。死亡領域的神靈還具現為謀殺（阿努比斯Anubis、巴爾Bhaal和匹里麻斯Pyremius），痛苦（魯茲Iuz或勞薇塔Loviatar），疾病或毒藥（英凱布居羅斯Incabulos、塔洛娜Talona或魔吉安Morgion），和冥界underworld（哈迪斯Hades和赫爾Hel）。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>牧師等級</th>\n<th>法術</th>\n</tr>\n<tr>\n<td><strong>1st</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.DEl8kc5vGwLCNYpR]{虛假生命}@UUID[Compendium.dnd5e_classpack.new-icon.PZQqlG5R6G24aWtm]{致病射線}</td>\n</tr>\n<tr>\n<td><strong>3rd</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.5GWYJBfc1aZ6415M]{目盲/耳聾術}@UUID[Compendium.dnd5e_classpack.new-icon.VRvKmIZL44nZWKaa]{衰弱射線}</td>\n</tr>\n<tr>\n<td><strong>5th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.xYpJGRI4xcMa41kO]{操縱死屍}@UUID[Compendium.dnd5e_classpack.new-icon.FKjra48NDHtB4518]{吸血鬼之觸}</td>\n</tr>\n<tr>\n<td><strong>7th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.AVumturalJuP4paw]{枯萎術}@UUID[Compendium.dnd5e_classpack.new-icon.4gLdaCM7rxoNhj8d]{防死結界}</td>\n</tr>\n<tr>\n<td><strong>9th</strong></td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.XK3IvcqPquyj1W3P]{防活物護罩}@UUID[Compendium.dnd5e_classpack.new-icon.T39k39dbE2poIFc5]{死云術}</td>\n</tr>\n</tbody>\n</table>\n<h3><strong>附贈熟練項</strong> Bonus Proficiency</h3>\n<p>          該牧師在第1級選擇該領域時將獲得軍用武器的熟練項。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "DMG",
+    "identifier": "death-domain",
+    "classIdentifier": "cleric",
+    "advancement": [
+      {
+        "_id": "lowv6o578jo7dqnq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.DEl8kc5vGwLCNYpR",
+            "Compendium.dnd5e_classpack.new-icon.PZQqlG5R6G24aWtm"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "hae6czro96iqw4dp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.5GWYJBfc1aZ6415M",
+            "Compendium.dnd5e_classpack.new-icon.VRvKmIZL44nZWKaa"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "fk77z2wwcw4n25l4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.xYpJGRI4xcMa41kO",
+            "Compendium.dnd5e_classpack.new-icon.FKjra48NDHtB4518"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "s2c8unanjhicb4sd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.AVumturalJuP4paw",
+            "Compendium.dnd5e_classpack.new-icon.4gLdaCM7rxoNhj8d"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "zd4fuedgf1zxqiyg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.XK3IvcqPquyj1W3P",
+            "Compendium.dnd5e_classpack.new-icon.T39k39dbE2poIFc5"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得領域法術"
+      },
+      {
+        "_id": "2pbio9g7r1c48uqm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.YW2NTcJkg9hHYpCy"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "職業特性"
+      },
+      {
+        "_id": "w23y6jcwldhqnfh2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.BAYFDeCiaMYHQZRw"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性"
+      },
+      {
+        "_id": "4tobypdfms4ciha1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.XLAACVfQbbmNrhQk"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性"
+      },
+      {
+        "_id": "cb32azsgazjyrx8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.5RpPB6Lwkva1meGG"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "職業特性"
+      },
+      {
+        "_id": "wuj5f6aahfqtblyy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.hpaOlH1qrWKtRwaY"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性"
+      },
+      {
+        "_id": "a4wi02921e4rlsj7",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "shensheng",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "8": {
+              "number": 1,
+              "faces": 8
+            },
+            "14": {
+              "number": 2,
+              "faces": 8
+            }
+          }
+        },
+        "value": {},
+        "title": "神聖打擊傷害"
+      },
+      {
+        "_id": "vPPxcUKwA1sFykVP",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "1": 1
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "restriction": {
+            "level": "0"
+          },
+          "hint": "第1級時，該牧師可以從任意法術列表中選擇學習一個死靈戲法。"
+        },
+        "value": {},
+        "title": "收割者"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685807244031,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!k0Edsji19UVt4i08"
+}

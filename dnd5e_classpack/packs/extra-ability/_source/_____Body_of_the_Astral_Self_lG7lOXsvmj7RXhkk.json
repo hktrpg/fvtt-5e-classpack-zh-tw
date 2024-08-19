@@ -1,0 +1,91 @@
+{
+  "_id": "lG7lOXsvmj7RXhkk",
+  "name": "星我之軀 Body of the Astral Self",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_bastion_monk.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>當你同時召喚@UUID[Compendium.dnd5e_classpack.extra-ability.Qctmiuim4M9SfU1E]{星我之臂}和@UUID[Compendium.dnd5e_classpack.extra-ability.vimr3VI7xsnK1ydv]{星我之容}時，你可以讓你的星我之軀出現（不需要任何動作），這個幽光般的軀體如同一件盔甲般覆蓋著你的身體，與星我之臂和星我之容相連。你來決定它的外觀。</p>\n<p>當星我之軀出現時，你將獲得如下增益：</p>\n<ul>\n<li><strong>撥擋能量</strong>。當你受到強酸、冷凍、火焰、力場、閃電或雷鳴傷害時，你可以用你的反應來偏轉它，如果你這麼做，則你所受的該次傷害減少[[/r 1D10]]+你的感知調整值（最小減少1）。</li>\n<li><strong>注能之臂</strong>。你的每回閤中有一次機會，當你用星我之臂攻擊命中目標時，你可以對目標造成額外傷害，相當於你的武藝骰。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "d(ceil(((@classes.monk.levels)+2)/6)*2+2)",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "max(1d10 + @abilities.wis.mod,1)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "星我宗等級 11",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lG7lOXsvmj7RXhkk"
+}

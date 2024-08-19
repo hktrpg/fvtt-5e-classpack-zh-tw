@@ -1,0 +1,132 @@
+{
+  "name": "巧舌如簧 Gift of  Gab",
+  "type": "spell",
+  "img": "icons/magic/control/mouth-smile-deception-purple.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><h3><strong>版稅成分</strong></h3><p>　　吉姆·達克馬奇的獨特施法品牌混合了專業的奧術知識和特殊的財富熱情。起初由吉姆開發的新法術產生了新的法術成分，此後，這個成分擴散到了收購公司的僱員和特許經營人所創造的其他法術：這也就是版稅成分。</p><p>　　如果要施展一個使用版稅成分的法術（包括使用魔法卷軸或其他儲存了這個法術的魔法物品），施法者必須擁有足夠的個人資金。施法的成本由創造了這個法術的施法者確定，通常是每個法術位等級 1gp。當這個法術被施展時，版稅成分將魔法性地傳送到由法術創造者設計的一個保險櫃或其他物品中。無論施展法術的施法者是否知道版稅成分，付款都將會產生。如果這個施法者沒有足夠的資金，法術並不會丟失，但也不能被施展。</p><p>　　雖然有許多施法者曾經試著繞開版稅成分，但並沒有人完全成功。不過，據說一名角色可以在施展擁有版稅成分的法術同時嘗試進行一次 DC15 的智力（奧秘）檢定。若檢定成功，這個付款將由施法者周圍 10 尺內的隨機生物進行，而那個生物並不知情。</p></blockquote><p>　　據說是吉姆·達克馬奇發明了這個魔法，並且它最開始的名字叫「我說了啥？！」你有沒有曾經在與當地領主開玩笑時，不小心提到他的兒子長得像你家農場里那隻你最喜歡的豬？我們過去都經歷過！不過你可以確保沒人知道這件事情，來假裝它從未發生過，以此來避免因為一次誠實的失言而丟掉腦袋。</p><p>　　當你施展這個法術時，你可以通過巧妙的操作修整你周圍聽眾的記憶，從而使在你周圍 5 尺內、每一個你所選擇的生物立即忘掉在最後六秒中你所說過的每一句話。之後，他們會記住你實際上說的是作為這個法術言語成分的那些話語。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "AI",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當你與另一個生物說話時採取"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "版稅：2gp",
+      "consumed": true,
+      "cost": 2,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_id": "CpvtM9z1XpTyxqj1",
+  "folder": null,
+  "sort": 9900000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722343720121,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CpvtM9z1XpTyxqj1"
+}

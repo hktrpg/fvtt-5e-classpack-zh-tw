@@ -1,0 +1,97 @@
+{
+  "_id": "0M65FLBoPzoNWHZH",
+  "name": "黑暗賜福",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_FelMending.png",
+  "system": {
+    "description": {
+      "value": "<p>第1級起，每當你把一個敵對生物的生命值降至0，你都會獲得等同於你的魅力調整值＋你的邪術師等級的臨時生命值（最低為1）。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 109",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": "把一個敵對生物的生命值降至0。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "@mod + @classes.warlock.levels",
+          "temphp"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "邪魔等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686415443444,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0M65FLBoPzoNWHZH"
+}

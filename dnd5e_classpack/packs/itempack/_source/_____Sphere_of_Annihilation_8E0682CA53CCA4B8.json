@@ -1,0 +1,120 @@
+{
+  "_id": "8E0682CA53CCA4B8",
+  "name": "湮滅法球 Sphere of Annihilation",
+  "type": "consumable",
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這個2尺直徑的黑色球體是多元宇宙中的一個空洞，由一個圍繞在它周圍的魔法場維持穩定。</p>\n<p>湮滅法球會毀滅任何穿過它或被它穿過的物質。神器，除非標註了易受湮滅法球影響，否則可以不受影響的穿過法球。其它接觸到法球但未被完全毀滅或吞噬的東西都將受到[[/r 4d10]]力場傷害。</p>\n<p>除非被人控制，湮滅法球總是保持靜止。如果你在一個未被控制的湮滅法球周圍60尺內，你可以用一個動作進行一次DC25的智力（神秘）檢定。如果檢定成功，你可以讓法球向一個你選擇的方向移動5*你的智力調整值尺（最少5尺）；如果檢定失敗，湮滅法球將向你移動10尺。如果法球進入了某名生物佔據的空間，該生物必須通過一次DC13的敏捷豁免以避開法球，失敗則受到[[/r 4d10]]力場傷害。</p>\n<p>你可以嘗試從另一名生物處奪取湮滅法球的控制權。你和該生物進行智力（神秘）對抗，勝者將獲得法球的控制權並可以如從操縱它移動。</p>\n<p>如果湮滅法球與位面傳送門（例如@UUID[Compendium.dnd5e_classpack.new-icon.bJdmgHYyhUJv8Zyc]{異界之門 Gate}製造的）或是異位面空間（例如@UUID[Compendium.dnd5e_classpack.itempack.387A15D30FA11064]{次元洞 Portable Hole}內部）接觸，DM按下表決定發生的事件：</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>[[/r d100]]</strong></td>\n<td><strong>結果</strong></td>\n</tr>\n<tr>\n<td>01-50<p></p>\n</td>\n<td>法球被摧毀</td>\n</tr>\n<tr>\n<td>51-85<p></p>\n</td>\n<td>法球穿過位面傳送門或進入異位面空間</td>\n</tr>\n<tr>\n<td>86-00<p></p>\n</td>\n<td>一個空間裂縫出現，將湮滅法球和其周圍180尺範圍內的生物和物體送到一個隨機地點。</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 201"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 15000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "未受控制的法球需要一次DC25的智力（神秘）檢定。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "object",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 64200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!8E0682CA53CCA4B8"
+}

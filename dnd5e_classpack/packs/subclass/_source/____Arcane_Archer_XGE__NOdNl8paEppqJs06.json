@@ -1,0 +1,165 @@
+{
+  "_id": "NOdNl8paEppqJs06",
+  "name": "魔射手 Arcane Archer（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Monk_SpearHand.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>         一個魔射手會學習能將魔法注入到攻擊中併產生超自然效果的獨特精靈箭技。魔射手是精靈中最精銳的戰士。他們會駐足守望精靈國土的邊界，著重留意那些入侵者並在那些怪物和入侵者來到精靈的居住地之前用注魔箭矢擊敗他們。在這數個世紀之間，這種精靈箭技已經被其他能夠在魔法和箭藝中找到平衡的種族習得。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "identifier": "arcane-archer",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "9gd70onmans30zvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.rydtC4xFzhhmfXsT",
+            "Compendium.dnd5e_classpack.extra-ability.w3EVK3XBgi1HZ5K2",
+            "Compendium.dnd5e_classpack.extra-ability.HqwYiStgiunCmEG7"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性"
+      },
+      {
+        "_id": "xrbp5zb11dgdzq36",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.AbDKFh70K7dThl4q",
+            "Compendium.dnd5e_classpack.extra-ability.9jfOa8HGvdeSAP14"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性"
+      },
+      {
+        "_id": "ac1adrmivci6ryf4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.2qyvDJtbsF8bGjnQ"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性"
+      },
+      {
+        "_id": "39ruqulctv7jmzih",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "aoshu",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "18": {
+              "value": "奧術射擊升級"
+            }
+          }
+        },
+        "value": {},
+        "title": "奧術射擊"
+      },
+      {
+        "_id": "KCR0J3aDtPCIhrGa",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": 1
+          },
+          "allowDrops": false,
+          "type": "spell",
+          "pool": [
+            "Compendium.dnd5e_classpack.new-icon.Item.zaUmr54yGtLyvUVC",
+            "Compendium.dnd5e_classpack.new-icon.Item.Q6muyDarRcXMcuKv"
+          ],
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "restriction": {
+            "level": "0"
+          },
+          "hint": "在3級時，你作為精靈軍事傳統的研習者學會了魔法理論或者自然知識。你從魔法伎倆或者德魯伊伎倆中選擇一個戲法並學會。"
+        },
+        "value": {},
+        "title": "魔射手學識"
+      },
+      {
+        "_id": "fNFw7NAVOEWJigMv",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": 2,
+            "7": 1,
+            "10": 1,
+            "15": 1,
+            "18": 1
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.extra-ability.Item.Xr8uiPr41sHR1Uwt",
+            "Compendium.dnd5e_classpack.extra-ability.Item.leabhG1wc0d4vP8C",
+            "Compendium.dnd5e_classpack.extra-ability.Item.yQGz7bYFsOumtt2M",
+            "Compendium.dnd5e_classpack.extra-ability.Item.uCwcaFGcyIGftJr4",
+            "Compendium.dnd5e_classpack.extra-ability.Item.HLXS5pd6WfRE3anL",
+            "Compendium.dnd5e_classpack.extra-ability.Item.O3iKK0vtmoVxfUqo",
+            "Compendium.dnd5e_classpack.extra-ability.Item.i3YthtU7oYjfnZgB",
+            "Compendium.dnd5e_classpack.extra-ability.Item.9IoLBGEaRRm3vd6G"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": ""
+          },
+          "hint": "3級時，你學會在射擊時施放一些特殊的魔法效果。當你獲得這個特性時，你學會兩種你選擇的奧術射擊選項。\n當你到達一定戰士等級時（7級、10級、15級、18級）你會獲得一個額外的你選擇的奧術射擊選項。所有的選項在你成為18級戰士時都會提升。"
+        },
+        "value": {},
+        "title": "奧術射擊"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "int"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686419538292,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NOdNl8paEppqJs06"
+}

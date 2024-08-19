@@ -1,0 +1,115 @@
+{
+  "_id": "268EE66F6C8B9CD1",
+  "name": "祈神蠟燭 Candle of Invocation",
+  "type": "consumable",
+  "img": "icons/sundries/lights/candle-unlit-grey.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>每一支祈神蠟燭都是為某位神祇定製的，具有和神祇同樣的陣營。蠟燭的陣營可以通過@UUID[Compendium.dnd5e_classpack.new-icon.zeN5fxXLn4QE2YDa]{偵測善惡 Detect Evil and Good}辨別。蠟燭對應的神祇或陣營由DM選擇或隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d20]]</strong></th>\n<th><strong>陣營</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1-2</td>\n<td>混亂邪惡</td>\n</tr>\n<tr>\n<td>3-4</td>\n<td>混亂中立</td>\n</tr>\n<tr>\n<td>5-7</td>\n<td>混亂善良</td>\n</tr>\n<tr>\n<td>8-9</td>\n<td>中立邪惡</td>\n</tr>\n<tr>\n<td>10-11</td>\n<td>絕對中立</td>\n</tr>\n<tr>\n<td>12-13</td>\n<td>中立善良</td>\n</tr>\n<tr>\n<td>14-15</td>\n<td>守序邪惡</td>\n</tr>\n<tr>\n<td>16-17</td>\n<td>守序中立</td>\n</tr>\n<tr>\n<td>18-20</td>\n<td>守序善良</td>\n</tr>\n</tbody>\n</table>\n<p>當你用一個動作點燃蠟燭時，它的魔力就會被啟用。蠟燭共可以燃燒4小時，你可以提前吹滅蠟燭以備將來之用。以分鐘為單位計算蠟燭已燃燒時間，並從總時間內扣除。</p>\n<p>蠟燭燃燒時為30尺半徑的範圍提供昏暗照明。範圍內任何陣營與蠟燭相同的生物在攻擊骰、豁免和屬性檢定上具有優勢。另外，範圍內陣營與蠟燭相同的牧師和德魯伊施展1環法術時無需消耗法術位，但法術效果仍按消耗了1環法術位計算。</p>\n<p>你也可以在第一次點燃蠟燭時施展@UUID[Compendium.dnd5e_classpack.new-icon.bJdmgHYyhUJv8Zyc]{異界之門 Gate}。這種用法將立即摧毀祈神蠟燭。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 157"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 12000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "4",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 26700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!268EE66F6C8B9CD1"
+}

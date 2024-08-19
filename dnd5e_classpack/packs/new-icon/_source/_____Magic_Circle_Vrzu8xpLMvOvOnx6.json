@@ -1,0 +1,130 @@
+{
+  "_id": "Vrzu8xpLMvOvOnx6",
+  "name": "防護法陣 Magic Circle",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 指定施法距離內地面上你能看見的一點，並在該處創造了一個10尺半徑、20尺高的柱狀魔法能量。而承載能量柱的地面或其他平面上則會顯現出閃光的符文。\n<br>指定以下生物型別中的一種或多種：天界生物、元素生物、精類生物、邪魔、不死生物。法陣將會對被指定型別的生物產生以下效應：\n<br>該類生物不能以非魔法手段主動進入柱狀區域內。如果該類生物試圖使用傳送或位面旅行進入此區域，則它必須先進行一次魅力豁免以判定其是否成功。\n<br>該類生物對柱狀區域內的生物進行攻擊檢定時具有劣勢。\n<br>柱狀區域內的目標不受該類生物所魅惑，恐慌或附身。施展該法術時，你可以選擇讓魔法作用於相反的方向來阻止特定種類的生物離開柱狀區域內，以保護區域外的目標。\n<br><strong>升環施法效應。</strong>使用4環或更高法術位施展該法術時，你使用的法術位每比3環高一環，法術持續時間就增加1小時。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 256",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "cylinder"
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 3,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "總價值至少 100gp 的聖水或銀、鐵粉，作為該法術的耗材",
+      "consumed": true,
+      "cost": 100,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 28200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717697009086,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Vrzu8xpLMvOvOnx6"
+}

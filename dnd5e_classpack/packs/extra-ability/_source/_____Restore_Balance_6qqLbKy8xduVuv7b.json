@@ -1,0 +1,89 @@
+{
+  "_id": "6qqLbKy8xduVuv7b",
+  "name": "歸復平衡 Restore Balance",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_paladin_savedbythelight.png",
+  "system": {
+    "description": {
+      "value": "<p>1級起，你與絕對秩序之位面的聯繫使你能重整混沌的時刻。當你60尺內一個你可見的生物即將進行一次具有優勢或劣勢的檢定時，你可以用反應使其免受優勢或劣勢的影響。</p>\n<p>你可以使用此能力的次數等同於你的熟練加值。每當你完成一次長休，你重新獲得已消耗的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "目標將進行有優勢或劣勢的檢定時。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "時械之魂等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192594162,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6qqLbKy8xduVuv7b"
+}

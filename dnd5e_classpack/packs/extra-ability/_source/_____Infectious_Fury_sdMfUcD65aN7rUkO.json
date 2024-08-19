@@ -1,0 +1,94 @@
+{
+  "_id": "sdMfUcD65aN7rUkO",
+  "name": "怒火侵蝕 Infectious Fury",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_druid_freshwound.jpg",
+  "system": {
+    "description": {
+      "value": "<p>當你在@UUID[Compendium.dnd5e_classpack.class-abilityphb.gLNFWGL05O0FUNTD]{狂暴}中用你的天生武器擊中一個生物時，你內在的野獸可以詛咒你的目標變得如狂犬病似得病態癲狂。該生物需進行一次感知豁免（DC為8+你的熟練加值+你的體質調整值），如果失敗，將必須承受以下的一種效果（尤你來決定）：</p>\n<ul>\n<li>目標必須消耗他的反應動作對你所選擇的一個能看到的目標的進行一次近戰攻擊。</li>\n<li>目標承受[[/r 2d12]]的心靈傷害</li>\n</ul>\n<p>你每天可以使用該能力的次數等於你的熟練加值。每完成一次長休之後你補充齊所有已消耗的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": "狂暴中用天生武器擊中生物。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 4,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d12",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "con"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "野獸道途等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192948668,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sdMfUcD65aN7rUkO"
+}

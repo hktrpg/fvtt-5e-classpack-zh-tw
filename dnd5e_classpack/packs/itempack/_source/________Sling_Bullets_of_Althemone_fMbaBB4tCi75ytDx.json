@@ -1,0 +1,120 @@
+{
+  "name": "阿瑟蒙妮之彈丸 Sling Bullets of Althemone",
+  "type": "consumable",
+  "img": "icons/skills/ranged/bullets-triple-ball-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\">這些彈藥裝在一個袋子里，裡面有[[/r 1d4+4]]顆彈丸。在列表上為每顆彈丸投骰，以確定其魔法屬性。</p><p class=\"MsoNormal\">你在用這些彈丸做出的攻擊和傷害檢定有<span>+2</span>的加成。如果彈丸沒有擊中目標，彈丸會傳送回彈袋。一旦彈丸擊中目標，彈丸就會失去魔力。</p><p class=\"MsoNormal\"><span>1</span>、放逐<span>Banishment</span>。受到此彈丸傷害的生物必須在<span>DC15</span>的魅力豁免檢定中成功，否則將被驅逐，就像被@UUID[Compendium.dnd5e_classpack.new-icon.Item.lopw7wVkPoE7gbNu]{放逐術}影響一樣。</p><p class=\"MsoNormal\"><span>2</span>、閃光<span>Fulguration</span>。命中后，這顆彈丸會對目標造成額外<span>2d8</span>閃電傷害。目標周圍<span>10</span>尺內的所有其他生物必須在<span>DC15</span>的體質豁免中成功，否則將受到<span>1d8</span>的閃電傷害。</p><p class=\"MsoNormal\"><span>3</span>、震懾<span>Stunning</span>。命中后，此彈丸會造成額外的<span>1d10</span>力場傷害，目標會被震懾直到你的下一回合結束。</p><p class=\"MsoNormal\"><span>4</span>、追蹤<span>Tracking</span>。受到這顆彈丸傷害的生物會在被子彈擊中的地方被標記上一個發光符文。這個標記會持續<span>24</span>小時。當生物被標記時，你總是知道它的方向。</p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MOT"
+    },
+    "quantity": 1,
+    "weight": 0.075,
+    "price": {
+      "value": 5000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "properties": [],
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692348384925,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "fMbaBB4tCi75ytDx",
+  "sort": 127400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!fMbaBB4tCi75ytDx"
+}

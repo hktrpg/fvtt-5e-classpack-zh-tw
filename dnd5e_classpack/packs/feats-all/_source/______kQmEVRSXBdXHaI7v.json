@@ -1,0 +1,150 @@
+{
+  "_id": "kQmEVRSXBdXHaI7v",
+  "name": "巨武器大師",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>你習得將武器重量作為優勢的技巧，使你的攻擊力大增。你獲得下列增益：</p><ul><li><p>你在自己回合內用近戰武器造成重擊，或將一個生物生命值降至0時，可以用附贈動作發動一次近戰武器攻擊。</p></li><li><p>你在使用具有熟練項的重型武器發動近戰攻擊前，可以選擇讓本次攻擊檢定承受-5減值。若本次攻擊命中，則其傷害擲骰獲得+10加值。</p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [
+    {
+      "name": "巨武器大師",
+      "origin": "Compendium.dnd5e_classpack.feats-all.Item.kQmEVRSXBdXHaI7v",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "gRBkT5XGeqYmaqF1",
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "+10",
+          "priority": null
+        }
+      ],
+      "description": "<ul><li><p class=\"22\" style=\"MARGIN:0pt 0pt 0pt 8.5pt;LINE-HEIGHT:13pt;mso-line-height-rule:exactly;mso-add-space:auto\">你在自己回合內用近戰武器造成重擊，或將一個生物生命值降至0時，可以用附贈動作發動一次近戰武器攻擊。</p></li><li><p class=\"22\" style=\"MARGIN:0pt 0pt 0pt 8.5pt;LINE-HEIGHT:13pt;mso-line-height-rule:exactly;mso-add-space:auto\">你在使用具有熟練項的重型武器發動近戰攻擊前，可以選擇讓本次攻擊檢定承受-5減值。若本次攻擊命中，則其傷害擲骰獲得+10加值。</p></li></ul>",
+      "transfer": true,
+      "statuses": [],
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!kQmEVRSXBdXHaI7v.gRBkT5XGeqYmaqF1"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.0.3",
+    "coreVersion": "12.324",
+    "createdTime": 1711461359519,
+    "modifiedTime": 1711461416960,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kQmEVRSXBdXHaI7v"
+}

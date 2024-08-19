@@ -1,0 +1,214 @@
+{
+  "name": "臭云術重複效應 Stinking Cloud",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ]
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "6bc22d76ed637167928811341151425145b7f4d9",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.wBml9095u1XhkX9e"
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_monk_zenflight.png",
+  "effects": [
+    {
+      "name": "臭云術 Stinking Cloud",
+      "origin": "Actor.bvEYS7EFkAFT4pCf.Item.wBml9095u1XhkX9e",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "M5sVYWZNRnC3rGKI",
+      "changes": [],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/ability_monk_zenflight.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!wltYuACh4gJ1qqKk.M5sVYWZNRnC3rGKI"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你以施法距離內一點為中心創造出一團半徑20尺的黃色噁心氣體雲團。雲團會繞過拐角擴散，並能造成重度遮蔽。在法術持續時間結束前雲團都會一直在空氣中徘徊。\n<br />如果一個生物在其回合開始時完全位於雲團內，則它必須進行一次對抗毒素的體質豁免。豁免失敗則該生物必須因嘔吐和蹣跚浪費掉其本回合的動作。如果生物不需要呼吸或對毒素免疫，則其檢定直接判定為成功。\n<br />雲團被和風（風速至少每小時10里）吹襲4輪后消散。而強風（風速至少每小時20英里）只需1輪就能將其吹散。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 278"
+    },
+    "activation": {
+      "type": "special",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": null,
+      "type": "creature",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "一個臭雞蛋或幾根臭菘草",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711688706381,
+    "modifiedTime": 1717593279509,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "wltYuACh4gJ1qqKk",
+  "sort": 0,
+  "_key": "!items!wltYuACh4gJ1qqKk"
+}

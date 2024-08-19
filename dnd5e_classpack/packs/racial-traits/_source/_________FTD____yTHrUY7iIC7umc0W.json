@@ -1,0 +1,118 @@
+{
+  "name": "金屬龍吐息武器 (FTD龍裔)",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_dragonrage.png",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p><span>5</span>級起，你獲得第二種吐息武器。當你使用攻擊動作時，你可以將其中一次攻擊替換為呼出一種<span>15</span>尺錐形的魔法氣體。其豁免<span>DC</span>為<span>8+</span>你的體質調整值<span>+</span>你的熟練加值。在你使用此特性時，選擇以下一項：<span><br /><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">·</span></strong></span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">衰弱吐息</span></strong>。範圍內的每個生物必須成功通過一次體質豁免，否則將陷入失能，直至你的下個回合開始。<span><br /><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">·</span></strong></span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">排斥吐息</span></strong>。範圍內的每個生物必須成功通過一次力量豁免，否則將被推離<span>20</span>尺並應擊倒地。在你使用你的<span class=\"GramE\">金屬龍吐息武器</span>后，你不能再次使用它，直至你完成<span class=\"GramE\">一</span>次長休。<span><br /><br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "當你使用攻擊動作時"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 15,
+      "width": null,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "等級5",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 27100000,
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.NnTjvnjY4KdSqgYK"
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_id": "yTHrUY7iIC7umc0W",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711712765760,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": "Item.NnTjvnjY4KdSqgYK",
+    "duplicateSource": null
+  },
+  "_key": "!items!yTHrUY7iIC7umc0W"
+}

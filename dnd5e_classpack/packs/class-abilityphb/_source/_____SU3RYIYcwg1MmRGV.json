@@ -1,0 +1,89 @@
+{
+  "_id": "SU3RYIYcwg1MmRGV",
+  "name": "卓越戰技",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Icon_Scenarios.png",
+  "system": {
+    "description": {
+      "value": "<p>        在你選擇此范型的第3級時，你習得戰技並獲得驅動戰技的卓越骰。</p>\n<p>      <strong>@UUID[Compendium.dnd5e_classpack.class-abilityphb.CRu7K83gIxlVL5sX]{戰技 Maneuver}。</strong>你習得三種自選戰技。戰技強化了你的攻擊。而你在每次攻擊時只能應用一種戰技。</p>\n<p>        你在第7，第10和第15級時均習得兩種新戰技。習得新戰技時，你還可以額外替換一個已經習得的戰技。</p>\n<p>       <strong> 卓越骰Superiority Dice。</strong>你擁有四個[[/r d8]]卓越骰。卓越骰一經使用即消耗，完成短休或長休后恢復。你的卓越骰在第7和第15級時各增加一粒。</p>\n<p>      <strong>  豁免SavingThrows。</strong>某些戰技需要進行豁免檢定作抵抗。戰技的豁免DC為:</p>\n<p style=\"text-align:center\"><strong>豁免DC</strong>=8+你的熟練加值+你的力量或敏捷調整值(自選)</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 4,
+      "max": "floor((@classes.fighter.levels+1)/8)+4",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "戰鬥大師等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686419186048,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SU3RYIYcwg1MmRGV"
+}

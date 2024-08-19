@@ -1,0 +1,91 @@
+{
+  "_id": "QzZhaAWQvPYyGE6Z",
+  "name": "兇蠻無羈 Reckless Abandon",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Achievement_Boss_Ignis_01.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從6級起，若你在@UUID[Compendium.dnd5e_classpack.class-abilityphb.gLNFWGL05O0FUNTD]{狂暴}中使用@UUID[Compendium.dnd5e_classpack.class-abilityphb.eHoAjddNTEm1m6Gn]{魯莽攻擊}，你可以得到等同你體質調整值的臨時生命（最少1點）。當你結束狂暴時它們消失。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "max(@abilities.con.mod,1)",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "戰狂道途等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!QzZhaAWQvPYyGE6Z"
+}

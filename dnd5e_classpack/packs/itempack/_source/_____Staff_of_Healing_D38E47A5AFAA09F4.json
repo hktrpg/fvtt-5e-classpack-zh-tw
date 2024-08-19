@@ -1,0 +1,124 @@
+{
+  "_id": "D38E47A5AFAA09F4",
+  "name": "治癒法杖 Staff of Healing",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-green.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需詩人、牧師、或德魯伊同調）</em></p>\n<p>這把法杖有10發充能。持握法杖時，你可以用一個動作並消耗1發或更多充能以施展以下法術之一（使用你自身的法術豁免DC）：@UUID[Compendium.dnd5e_classpack.new-icon.a5wqDP53A5UvGvSK]{療傷術 Cure Wounds}（每環1發充能，至多4發）、@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]{次級復原術 Lesser Restoration}（2發）、@UUID[Compendium.dnd5e_classpack.new-icon.UBLAtJuRhRB3GokC]{群體療傷術 Mass Cure Wounds}（5發）</p>\n<p>法杖每天黎明時恢復[[/r 1d6+4]]發已消耗的充能。當充能耗盡時，投一個[[/r d20]]。如果投骰結果為1，法杖將在一陣閃光中消失。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 202"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 13000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "heal",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 +4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 87700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!D38E47A5AFAA09F4"
+}

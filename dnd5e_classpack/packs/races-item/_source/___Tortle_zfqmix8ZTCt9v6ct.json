@@ -1,0 +1,172 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "龜人 Tortle",
+  "type": "race",
+  "_id": "zfqmix8ZTCt9v6ct",
+  "img": "icons/commodities/leather/scales-green.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>龜人 Tortle</h2><p>龜人們有句諺語：「我們把家背在背上。」這些如同龜一樣的族裔生活在許多世界中，大部分時候都在沿著海岸、順著水路、穿過大海往返旅行。關於他們的起源並沒有一個統一的故事，但他們都具有一種和自然的世界神秘相連的感覺。他們身負自己的庇護所，無論走到何處，龜人們都會有一種特別的安全感，因為即使他們旅行到一個遙遠、未知的國度，他們也有一處能供自己容身。</p><p>龜人們的顏色和花紋和龜類相似，而他們喜歡用獨特的方式裝飾自己的殼。</p><h2>龜人特質 Tortle Traits</h2><p>作為一位龜人，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。你是類人生物。</p><p><strong>體型 Size</strong>。你的體型為中型。</p><p><strong>速度 Speed</strong>。你的步行速度為30尺。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.Okck1RYBqtfY1Eux]{利爪 Claws}</strong>。你能夠以爪子進行徒手打擊。當你使用它命中目標時，該打擊造成1d6+力量調整值的揮砍傷害，代替徒手打擊原本的鈍擊傷害。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.NfUsAXzvY8fDWY4a]{屏息 Hold Breath}</strong>。你能屏住呼吸長達1小時。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.QZZStHbby7r4hueS]{天生護甲 Natural Armor}</strong>。你的外殼提供充足的防禦，你的基礎AC是17（你的敏捷調整值不會影響這個數字）。你無法穿戴輕甲、中甲和重甲，但你在使用盾牌時，仍能獲得盾牌的AC加值。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.FHSxeoAnaLaZ9rQd]{自然直覺 Nature』s Intuition}</strong>。由於你與自然的神秘聯繫，擁有以下一項自選技能的熟練項：馴獸、醫藥、自然、察覺、隱匿或生存。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.LbFVDIHmDCMSc906]{龜殼防禦 Shell Defense}</strong>。 你能用一個動作縮回殼內。直到你出殼，你獲得+4的AC加值， 在力量豁免與體質豁免具有優勢。當你在龜殼內時，你處於倒地狀態，速度為0且不能增加。你的敏捷豁免具有劣勢，你不能執行反應，你唯一能執行的動作是以一個附贈動作從殼中出來。</p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "DFdcL99Rv6kGzs1F",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "NhoXYwHid6Zk8Yae",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.Okck1RYBqtfY1Eux"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.NfUsAXzvY8fDWY4a"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.QZZStHbby7r4hueS"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.FHSxeoAnaLaZ9rQd"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.LbFVDIHmDCMSc906"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      },
+      {
+        "_id": "P1swEzLGSlgI96JP",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:prc",
+                "skills:sur",
+                "skills:ani",
+                "skills:med",
+                "skills:nat"
+              ]
+            }
+          ],
+          "hint": "由於你與自然的神秘聯繫，擁有以下一項自選技能的熟練項：馴獸、醫藥、自然、察覺、隱匿或生存。"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "自然直覺",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713016749475,
+    "modifiedTime": 1713019612240,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zfqmix8ZTCt9v6ct"
+}

@@ -1,0 +1,106 @@
+{
+  "_id": "hjZdUljJPh9cpJeE",
+  "name": "彗星卷軸 Scroll of the Comet",
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-diamond-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>若你以一個動作閱讀這張卷軸，一顆從天而降的彗星墜落在你1里範圍內可見的地面上的一點。你必須在室外使用這張卷軸，否則什麼都不會發生，且卷軸將被浪費。</p>\n<p>彗星在撞擊時會創造一個深50尺、半徑500尺的隕石坑。該半徑範圍內的所有生物必須進行一次DC20的敏捷豁免。豁免失敗者將受到[[/r 30d10]]的力場傷害，豁免成功則傷害減半。隕石坑中的所有建築物以及所有未被穿著或攜帶的非魔法物件亦將被摧毀。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "IDRotF",
+    "quantity": 1,
+    "weight": 0,
+    "price": null,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "在室外。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 500,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 1,
+      "long": null,
+      "units": "mi"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": null,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "30d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 20,
+      "scaling": "flat"
+    },
+    "consumableType": "scroll",
+    "attuned": false,
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!hjZdUljJPh9cpJeE"
+}

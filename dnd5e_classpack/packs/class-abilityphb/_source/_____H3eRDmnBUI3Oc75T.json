@@ -1,0 +1,99 @@
+{
+  "_id": "H3eRDmnBUI3Oc75T",
+  "name": "編演記憶",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shadow_Brainwash.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        第14級起，你獲得讓生物無法認識到你對其魔法影響的能力。你施展一個可以魅惑一個或更多生物的附魔系法術時，可以改變某一個生物的認識，以令其無法察覺自已已經被魅惑。</p>\n<p>        此外，在法術持續時間結束前，你有一次機會可以用你的動作嘗試修改被指定生物的記憶,讓他忘記被魅惑期間的一些記憶。該生物必須進行一次對抗你法師法術豁免DC的智力豁免，豁免失敗則其失去一定小時的記憶，其數值為1+你的魅力調整值(至少為1)。你可以選擇讓目標忘記更短時間內的記憶,而所忘記記憶的長度不能超過該附魔法術的持續時間。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null,
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "max(@abilities.cha.mod,0)+1",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "附魔學派等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!H3eRDmnBUI3Oc75T"
+}

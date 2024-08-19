@@ -1,0 +1,136 @@
+{
+  "_id": "oxvIiEKCQhht8JrO",
+  "name": "虹光噴射 Prismatic Spray",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002652.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 八條多彩射線從你的手上閃出。每條射線顏色不同且具有不同的威力和作用。在60尺錐狀區域內的每個生物必須進行一次敏捷豁免同時擲一次d8決定生效哪種顏色的射線。\n<br>1.紅red。目標豁免失敗時受10d6的火焰傷害，成功則傷害減半。\n<br>2.橙Orange。目標豁免失敗時受10d6的強酸傷害，成功則傷害減半。\n<br>3黃Yellow。目標豁免失敗時受10d6的閃電傷害，成功則傷害減半。\n<br>4.綠Green。目標豁免失敗時受10d6的毒素傷害，成功則傷害減半。\n<br>5.藍Blue。目標豁免失敗時受10d6的冷凍傷害，成功則傷害減半。\n<br>6.靛Indigo。目標豁免失敗時受束縛。它必須在其每回合結束時進行一次體質豁免。三次豁免成功后法術終止。三次豁免失敗后目標將永久陷入石化狀態。成功或失敗的豁免不需要連續，只需記下兩邊的數量直至其中一種達到三次。\n<br>7.紫Violet。目標豁免失敗時陷入目盲。其必須在你下一回合開始時進行一次感知豁免。豁免成功則目盲狀態終止。豁免失敗則該生物被傳送到另一個DM 指定的位面並且不再目盲。（典型情況是不在家鄉位面的生物被驅逐回家，而其他生物通常會被傳送到星界或以太位面。）\n<br>8.特殊Special。目標被兩條射線打中。再擲兩次，結果為8時再重擲。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 267",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 60,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 44200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728353844,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oxvIiEKCQhht8JrO"
+}

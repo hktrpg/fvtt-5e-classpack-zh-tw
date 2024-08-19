@@ -1,0 +1,134 @@
+{
+  "_id": "CB861206B1BBE9D0",
+  "name": "舞空短劍 Dancing Shortsword",
+  "type": "weapon",
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你可以用附贈動作把這把魔法劍拋到空中並說出命令字。當你如此做時，劍將懸浮在空中，飛行至多30尺並攻擊距離它5尺以內的一名生物。劍使用你的攻擊骰，並在傷害骰上使用你的屬性調整值。</p>\n<p>劍在空中懸浮時，你可以用附贈動作令它在你周圍30尺的範圍內飛行至多30尺，還可以令它攻擊距離它5尺以內的一名生物（同一個附贈動作）。</p>\n<p>劍在浮空狀態下攻擊四次後，它將飛行至多30尺試圖回到你手上。如果你沒有空著的手，那麼它會落在你腳邊。如果你和劍之間的路徑被阻塞了，它會盡可能的落在離你最近的位置。如果你抓住懸浮的劍或者離開它超過30尺，它也將停止懸浮。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 161"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 2000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "ret",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "shortsword"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 84300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!CB861206B1BBE9D0"
+}

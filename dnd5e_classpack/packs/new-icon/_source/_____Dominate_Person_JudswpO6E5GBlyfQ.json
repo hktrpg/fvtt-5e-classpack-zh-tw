@@ -1,0 +1,126 @@
+{
+  "_id": "JudswpO6E5GBlyfQ",
+  "name": "支配人類 Dominate Person",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_priest_thoughtsteal01.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你試圖安撫一個施法距離內你能看見的類人生物，目標生物必須必須成功通過一次感知豁免，否則將在法術持續時間內被你魅惑。若它正與你或你的友方生物戰鬥，則其進行該豁免時具有優勢。\n<br>目標被魅惑時，只要你與其處於同一位面就可以與之保持心靈感應。你在有意識時，可以通過心靈感應命令該生物（不需要作動作），而它則會盡量服從。你可以描述一個簡單具體的行為指令，比如「攻擊那個生物」「跑到那個位置」或是「去拿那個物品」。生物完成一項指令卻未收到你的進一步指示時，將會使用其本身的能力盡可能的保護自己。\n<br>你可以使用動作以徹底而精確的控制目標。而該生物則只能作你選擇的動作，且不能作任何你沒有允許的動作，並持續至你下回合結束。在此期間，你還可以要求該生物作一個反應，但這需要你使用自己的反應來實現。\n<br>每次目標受到傷害時，都可以嘗試進行一次感知豁免，豁免成功則法術終止。\n<br><strong>升環施法效應。</strong>使用6環法術位施展該法術時，持續時間變為：專注，至多10分鐘。使用7環法術位施展該法術時，持續時間變為：專注，至多1小時。使用8環或更高法術位施展該法術時，持續時間變為：專注，至多8小時。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 235",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 17300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711726940421,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JudswpO6E5GBlyfQ"
+}

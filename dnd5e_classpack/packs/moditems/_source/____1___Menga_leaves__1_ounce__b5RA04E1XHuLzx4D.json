@@ -1,0 +1,94 @@
+{
+  "_id": "b5RA04E1XHuLzx4D",
+  "name": "曼加葉（1盎司）Menga leaves (1 ounce)",
+  "type": "consumable",
+  "img": "icons/consumables/plants/dried-herb-bundle-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p>這是楚爾特當地不同尋常的野生動植物。熟練自然技能的冒險者能夠一眼認出這些動植物，並通過一個成功 的 DC 15 的智力(自然)檢定來回憶起它的詳細屬性。如果冒險者們是楚爾特本地人，則該檢定具優勢。</p>\n<p>此處描述的野生動植物可以在南扎路港和其他聚居地內以動植物價格表內對應的價格進行買賣。</p>\n<p>有的野生動植物中會使生物承受一小時或更久的中毒狀態。請記住，@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]{次級復原術 Lesser Restoration}以及類似魔法可以結束該狀態。</p>\n</blockquote>\n<p>曼加叢的干葉可以磨碎泡水，然後加熱服下。以這種方式服下 一盎司曼加葉的生物會恢復1點生命值。24小時內攝入超過 5 盎司曼加葉的生物不會再獲得增益，並且必須進行 DC 11 的體質豁免，豁免失敗則昏迷 1 小時。在一輪承受至少 5 點傷害的情況下，陷入昏迷的生物才會醒來。</p>\n<p>狀況良好的曼加叢通常有[[/r 2d6]] 盎司的葉片。一旦被摘取，這些葉片在能夠產生任何有益效果之前，需要 1 天時間進行脫水乾燥。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ToA",
+    "quantity": 1,
+    "weight": 0.0625,
+    "price": 2,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d6",
+    "save": {
+      "ability": "con",
+      "dc": 11,
+      "scaling": "flat"
+    },
+    "consumableType": "food"
+  },
+  "_key": "!items!b5RA04E1XHuLzx4D"
+}

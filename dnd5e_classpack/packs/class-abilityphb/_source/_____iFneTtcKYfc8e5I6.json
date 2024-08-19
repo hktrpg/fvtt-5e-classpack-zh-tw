@@ -1,0 +1,88 @@
+{
+  "_id": "iFneTtcKYfc8e5I6",
+  "name": "超凡技藝",
+  "type": "feat",
+  "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第14級起，你進行屬性檢定時，可以花費一次@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}次數並擲一次激勵骰，然後將結果加到你的屬性檢定上。你可以在擲完屬性檢定后，DM宣佈結果前決定是否使用此特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 54",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d(min(floor(@classes.bard.levels/5)*2+6,12))",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "軼聞學院等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!iFneTtcKYfc8e5I6"
+}

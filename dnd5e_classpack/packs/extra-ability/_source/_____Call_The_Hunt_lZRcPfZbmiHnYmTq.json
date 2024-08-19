@@ -1,0 +1,94 @@
+{
+  "_id": "lZRcPfZbmiHnYmTq",
+  "name": "狩獵呼喚 Call The Hunt",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ABILITY_HUNTER_BESTIALDISCIPLINE.png",
+  "system": {
+    "description": {
+      "value": "<p>你內在的野獸已經成長的如此強大，你可以把你的其狂暴的戰意散播到他人身上，並且這些加入你狩獵的人也會讓你更加的強韌。當你進入@UUID[Compendium.dnd5e_classpack.class-abilityphb.gLNFWGL05O0FUNTD]{狂暴}時，你可以選擇你視野中，30尺以內，一定數量的（小於等於你的體質調整值，大於等於1），自願接受該特性的生物。每個加入你狩獵的生物會給你5臨時生命值。直到你的狂暴終止前，加入你狩獵的生物每回合一次進行攻擊檢定並造成傷害時，可以增加一個[[/r d6]]的傷害骰子。</p>\n<p>你每天可以使用該能力的次數等於你的熟練加值。每完成一次長休之後你補充齊所有已消耗的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "spec",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 5,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "野獸道途等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192827427,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lZRcPfZbmiHnYmTq"
+}

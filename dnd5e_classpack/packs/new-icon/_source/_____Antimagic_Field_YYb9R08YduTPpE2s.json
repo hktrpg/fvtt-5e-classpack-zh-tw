@@ -1,0 +1,131 @@
+{
+  "_id": "YYb9R08YduTPpE2s",
+  "name": "反魔法場 Antimagic Field",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Misc_ShadowEgg.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 半徑10尺的隱形球狀反魔法能量環繞著你，將該區域與瀰漫在多元宇宙間的魔法能量隔離開來。在該球狀力場內：法術無法施放；召喚生物消失無蹤；魔法物品也失去其效應。該力場以你為中心移動，直至法術終止。\n<br>除非其來自神器或神祇本身，否則任何法術和魔法效應都將在力場內受壓制而無法波及力場內部。在力場內施放的法術，其效應被壓制的同時其使用的法術位依然被消耗。被壓制的魔法效應不會生效，但其持續時間仍然如常計算。\n<br><strong>目標效應Targeted Effects。</strong>法術或其他魔法效應以生物或物件為目標時（比如魔法飛彈和魅惑人類），無法對力場內的目標生效。\n<br><strong>魔法區域Areas of Magic。</strong>法術和其他魔法效應產生的區域影響（比如火球術），無法波及力場內部。如果力場與某一魔法效應重疊，則該效應在重疊部分被壓制。例如，當力場與火墻術產生的火焰重疊時，重疊區域的火焰被壓制。如果重疊區域夠大，甚至可以將火墻從中間截斷。\n<br><strong>法術Spell。</strong>力場中的生物或物件身上生效的法術或其他魔法效應會受到壓制。\n<br><strong>魔法物品Magic Items。</strong>魔法物品的屬性和威能在力場中受到壓制。例如，一把 +1長劍 在力場中視為一把非魔法長劍。用以攻擊力場內目標，或被力場內攻擊者持用的魔法武器，其屬性和威力將受到壓制。如果一把魔法武器或是一發魔法彈藥完全離開力場範圍（例如，你從力場內向力場外的某個目標發射一支箭矢或是投擲一把標槍），則其中的魔法將在離開力場的瞬間得以恢復。\n<br><strong>魔法旅行Magic Tracel。</strong>以力場內區域為起點或終點的傳送或位面旅行效應無法生效。在力場內，通往某地、某世界或某位面的傳送門，以及次元空間的入口（諸如魔繩術所創造的區域）都被暫時關閉。\n<br><strong>生物和物件Creatures and Objects。</strong>在力場內，由魔法創造或召喚的生物或物件暫時消失。如此消失的生物，在力場不再覆蓋其所佔據空間時立刻在該處重新出現。\n<br><strong>解除魔法Dispel Magic。</strong>法術和其他魔法效應產生的類似法術解除魔法的效應對力場無效。另外，不同來源的防魔法力場之間不會相互抵消。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 213",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 10,
+      "units": "",
+      "type": "sphere"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 8,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一撮鐵粉或鐵屑",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 30800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717696851192,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!YYb9R08YduTPpE2s"
+}

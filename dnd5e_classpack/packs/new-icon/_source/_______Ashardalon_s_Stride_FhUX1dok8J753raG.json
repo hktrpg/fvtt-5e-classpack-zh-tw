@@ -1,0 +1,210 @@
+{
+  "name": "阿莎德隆奔行 Ashardalon's Stride",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_rescue1.png",
+  "system": {
+    "description": {
+      "value": "<p>龍類翻滾咆哮的火焰環繞你的足部，使你獲得爆發性的速度。法術持續時間內，你的速度提升<span>20</span>尺，並且移動不會觸發藉機攻擊。<span><br />      </span>當你移動至一個生物或未被著裝或攜帶的物件<span>5</span>尺內時，其被你的灼熱尾跡灼燒，受到<span>1d6</span>火焰傷害。一個生物或物件每回合只會承受<span class=\"GramE\">一次此</span>傷害。<span><br />      </span><span class=\"GramE\"><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">升環效果</span></strong></span>：當你用<span>4</span>環或更高的<span class=\"GramE\">法術位</span>施展此法術時，你使用的<span class=\"GramE\">法術位每比</span><span>3</span>環高一環，你的移動速度額外增加<span>5</span>尺，法術造成的傷害增加<span>1d6</span>。<span><br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": 20,
+      "units": null,
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "阿莎德隆加速 Ashardalon's Stride",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.FhUX1dok8J753raG",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "k3kMiZTFvf6JQHPY",
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "+20",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": true,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/ability_evoker_rescue1.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!FhUX1dok8J753raG.k3kMiZTFvf6JQHPY"
+    }
+  ],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "FhUX1dok8J753raG",
+  "folder": null,
+  "sort": 13300000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711680585473,
+    "modifiedTime": 1717426538179,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!FhUX1dok8J753raG"
+}

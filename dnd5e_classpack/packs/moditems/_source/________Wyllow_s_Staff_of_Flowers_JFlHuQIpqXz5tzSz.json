@@ -1,0 +1,128 @@
+{
+  "_id": "JFlHuQIpqXz5tzSz",
+  "name": "月羅的繁花法杖 Wyllow's Staff of Flowers",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-vines-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>（需同調）</p>\n<p>當一個生物拿著手杖時，它可以用一個動作消耗法杖的 1 發充能，使一朵花從 5 尺以內的陸地或土壤上發芽，或者從手杖本身發芽。除非選擇了一種特定的花，不然手杖會創造出一種香味柔和的雛菊。月羅的手杖有些特殊，它不能創造出大德魯伊討厭的玫瑰。如果選擇了玫瑰，長出的是雛菊。這種花是無害的，非魔法的，它會像普通鮮花一樣生長枯萎。</p>\n<p>手杖有 10 次充能，每天黎明時恢復[[/r 1d6+4]]發已消 耗的充能。當充能耗盡時，骰一次[[/r d20]]。如果結果為 1， 手杖會化為黑色玫瑰花瓣而永遠消失。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "WDMM",
+    "quantity": 1,
+    "weight": 4,
+    "price": null,
+    "attunement": 1,
+    "equipped": true,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6+@mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8+@mod"
+    },
+    "formula": "1d6 + 4",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "quarterstaff",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": true,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!JFlHuQIpqXz5tzSz"
+}

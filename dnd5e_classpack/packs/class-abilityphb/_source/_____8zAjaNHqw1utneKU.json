@@ -1,0 +1,94 @@
+{
+  "_id": "8zAjaNHqw1utneKU",
+  "name": "神聖感知",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_HealingFocus.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>強大的邪惡存在於你有如帶毒的香氣，而強大的善良光環於你則如仙樂般悠揚。你可以使用一個動作擴展你的意識，以偵測此類勢力。直到你下回合結束前，你可以對身邊60尺範圍內進行感測，任何未對你處於完全掩蔽的天界生物、邪魔或不死生物都將被你定位。你將感應到範圍內生物的種類（天界生物、邪魔、不死生物），但並不能精確指明（比如「吸血鬼伯爵斯托德･馮･扎洛維奇 Vampire Count Strahd von Zarovich」）。在同樣的範圍內，你也可以偵測任何受到@UUID[Compendium.dnd5e_classpack.new-icon.ZQnZLHUxTFdRi2ig]{聖居}一類的法術祝福或褻瀆的地點或物件。</p>\n<p>該特性的可用次數等於1＋你的魅力調整值。而已消耗的特性使用次數，則可以通過完成一次長休進行恢復。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 84",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 60,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "@abilities.cha.mod+1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "聖武士等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 164
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8zAjaNHqw1utneKU"
+}

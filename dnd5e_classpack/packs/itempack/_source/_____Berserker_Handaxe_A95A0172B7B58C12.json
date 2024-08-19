@@ -1,0 +1,133 @@
+{
+  "_id": "A95A0172B7B58C12",
+  "name": "狂戰手斧 Berserker Handaxe",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-crescent-engraved-steel.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+1加值。此外，當你與此武器同調，你的HP上限增加等於你等級的數值。</p>\n<p><strong>詛咒。</strong>與這把受詛咒的斧子同調的生物將受到其詛咒影響。只要詛咒還在生效，你總是會把斧子放在觸手可及的地方，不願和它分開。除非你在60尺範圍內看不到敵人也聽不到敵人的聲音，否則你在使用這把斧子之外的武器攻擊時承受劣勢。</p>\n<p>如果你持有狂戰斧時一名敵對生物傷害了你，你必須進行一次DC15的感知豁免否則陷入狂怒狀態。狂怒時，你必須使用你每輪的動作用狂戰斧攻擊離你最近的生物。如果你的攻擊動作包括額外攻擊，你會在目前目標倒下後繼續移動並攻擊下一個最近的目標。</p>\n<p>如果多個目標對你同爲最近，隨機選擇其中一個。如果你的回合開始時60尺內沒有你能看到或聽到聲音的生物，則狂怒結束。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 155"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 6000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod +1",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "lgt",
+      "thr",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "handaxe"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441154,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 74500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!A95A0172B7B58C12"
+}

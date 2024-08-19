@@ -1,0 +1,131 @@
+{
+  "_id": "31jKHMGJ0vlqdvQU",
+  "name": "力場墻 Wall of Force",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Arcane_ArcaneTorrent.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 一面看不見的力墻出現在施法距離內你指定的一點。這面力墻的方向由你決定：你可以使力墻成為水平或垂直的結界，亦可以使它形成一定傾角。它可以浮在空中，也可以立於地上。你可以將它塑成半球狀或球狀（半徑最長10尺），也可以塑成一個由十個10尺×10尺的方板塊構成的平面，而每塊板塊都必須要和至少一塊其他板塊相連。不管形狀如何，力墻的厚度總是1/4寸。\n<br>力場墻將持續存在至法術終止。如果力墻形成時穿過了某個生物所佔據的空間，則該生物會被推到力墻的一側（由你決定推到哪一側）。\n<br>沒有任何事物可以通過物理方式穿過力墻。力墻免疫所有傷害，也不能被解除魔法dispel magic 所解除，但法術解離術disintegrate 可以使其立即摧毀。力墻能夠延伸進以太位面，因此可以阻斷進入以太位面穿過墻壁旅行。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 285",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 100,
+      "units": "ft",
+      "type": "wall"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "由純凈的寶石原石碾成的一小撮粉末",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 2600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720799632873,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!31jKHMGJ0vlqdvQU"
+}

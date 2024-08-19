@@ -1,0 +1,179 @@
+{
+  "_id": "FRsOak029n5r5Gi2",
+  "name": "化學專家 Chemical Mastery",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_EarthandSky.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在第15級，你已經接觸了太多的化學物質，並解開了它們的秘密，它們對你的危害很小，你可以使用它們來迅速治癒某些疾病。</p>\n<ul>\n<li>你獲得了對強酸傷害和毒素傷害的抗性，同時對中毒狀態免疫。</li>\n<li>只要你使用@UUID[Compendium.dnd5e_classpack.itempack.EFBBAE8B63126638]{鍊金工具}作為法器，就能夠在不消費法術位和材料成分的情況下施展@UUID[Compendium.dnd5e_classpack.new-icon.7dqplcsKNYQgRh2S]{高等復原術}或@UUID[Compendium.dnd5e_classpack.new-icon.nCLJRsp7CWAACqGE]{醫療術}。一旦你通過此特性施法，必須完成一次長休才能再次使用此特性。</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "鍊金師等級 15",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "Nt4ZjbWjzFXLkRCv",
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.FRsOak029n5r5Gi2",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得強酸、毒素抗性",
+      "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_EarthandSky.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!FRsOak029n5r5Gi2.Nt4ZjbWjzFXLkRCv"
+    },
+    {
+      "_id": "ozCKPzxa8jDCYCcB",
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Compendium.dnd5e_classpack.extra-ability.FRsOak029n5r5Gi2",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "獲得中毒免疫",
+      "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_EarthandSky.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!FRsOak029n5r5Gi2.ozCKPzxa8jDCYCcB"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FRsOak029n5r5Gi2"
+}

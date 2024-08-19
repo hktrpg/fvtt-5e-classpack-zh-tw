@@ -1,0 +1,120 @@
+{
+  "_id": "5134DB575D96ED7C",
+  "name": "純善護符 Talisman of Pure Good",
+  "type": "consumable",
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需善良陣營生物同調）</em></p>\n<p>這枚護符是至善的象徵。接觸到護符的非善良非邪惡生物受到6d6光耀傷害，邪惡生物則受到8d6光耀傷害。如果這兩類生物在自己回合結束時仍握持或攜帶著護符，則會再次受到等量傷害。</p>\n<p>善良的牧師或聖武士可以將純善護符當作聖徽使用，持握或佩戴它時在法術攻擊骰上獲得+2加值。</p>\n<p>純善護符有7發充能。持握或佩戴它時，你可以用一個動作，消耗1發充能並選擇一個在你周圍120尺內地面上你能看見的生物。如果目標是邪惡的，一道冒著火焰的裂隙將在它腳下打開。目標必須通過一次DC20的敏捷豁免否則墜入裂隙，屍骨無存。裂隙隨後不留痕跡地關閉。</p>\n<p>充能耗盡后，護符將被摧毀，化為閃著金光的塵埃。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 207"
+    },
+    "quantity": 1,
+    "weight": 0.1,
+    "price": {
+      "value": 71680,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "6d6",
+          "radiant"
+        ]
+      ],
+      "versatile": "8d6"
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 20,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 41600000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!5134DB575D96ED7C"
+}

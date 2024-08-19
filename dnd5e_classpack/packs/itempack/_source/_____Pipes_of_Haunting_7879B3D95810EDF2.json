@@ -1,0 +1,115 @@
+{
+  "_id": "7879B3D95810EDF2",
+  "name": "顫慄樂笙 Pipes of Haunting",
+  "type": "consumable",
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>要使用顫慄樂笙，你必須熟練於管樂器。</p>\n<p>顫慄樂笙有3發充能。你可以用一個動作吹奏它並消耗1發充能，發出一陣含有魔法的怪異音調。你周圍30尺內的每名生物都必須通過一次DC15的感知豁免否則對你恐慌1分鐘。你可以選擇讓範圍內所有對你沒有敵意的生物豁免自動成功。 豁免失敗的生物可以在每次他的回合結束時重投豁免，成功則終止恐慌效果對它的影響。豁免成功的生物在24小時內免疫顫慄樂笙的效果。</p>\n<p>顫慄樂笙在每天黎明時恢復[[/r 1d3]]發充能。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 185"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 6000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "擁有管樂器熟練。"
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 57800000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!7879B3D95810EDF2"
+}

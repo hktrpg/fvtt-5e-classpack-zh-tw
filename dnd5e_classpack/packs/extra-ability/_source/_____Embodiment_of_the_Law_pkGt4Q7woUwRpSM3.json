@@ -1,0 +1,86 @@
+{
+  "_id": "pkGt4Q7woUwRpSM3",
+  "name": "法律化身 Embodiment of the Law",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_AuraMastery.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從 6 級起，你變得十分擅於引導魔法能量來強迫他人。</p>\n<p>         如果你用一個 1 環或更高的法術位施展一個附魔學派的法術，倘若這個法術的施法時間是 1 動作，你可以在這次施法時將法術的施法時間改為 1 附贈動作。</p>\n<p>         你可以使用該特性的次數等於你的感知調整值（最少一次）。完成一次長休后，你將重獲其所有消耗掉的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "GGR",
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "秩序領域等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!pkGt4Q7woUwRpSM3"
+}

@@ -1,0 +1,127 @@
+{
+  "_id": "mac7quHJaKMYwCeM",
+  "name": "動物形態 Animal Shapes",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_CatForm.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你施法把其他生物變成野獸。指定施法距離內任意數量的自願生物，並使每個目標變形為一隻挑戰等級不超過4，體型不大於大型的野獸。你可以在法術持續時間內以一個動作將受術生物變成其他野獸形態。\n<br>每個受術生物的變形效應持續至法術終止，其生命值降至0或是死亡時，法術效應也將隨之終止。你可以分別為每個目標選擇不同的形態。而目標的遊戲資料則以所選野獸的遊戲資料作替換，並保留其本來的陣營，以及智力、感知和魅力值。目標將使用新形態的生命值。而當其變回通常形態時，該目標的生命值也恢復爲變形前的數值。如果目標是因為生命值降至0而變回通常形態，則由通常形態承受溢出的傷害。只要溢出傷害不足以將通常形態生命值降至0，他就不會因此而昏迷。受術生物只能使用新形態的動作，且無法說話或施法。\n<br>目標的裝備融入其新形態，而且不能啟用或持用裝備，也無法以其他任何方式從其裝備上獲益。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 212",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 0,
+      "units": null,
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 8,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 42100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727406466,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mac7quHJaKMYwCeM"
+}

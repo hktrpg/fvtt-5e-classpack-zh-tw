@@ -1,0 +1,93 @@
+{
+  "_id": "mvfsL7Pp6aCSn6uh",
+  "name": "聖療",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_BlessedMending.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你的觸碰溢滿祝福，可以醫治傷口。你獲得一個治療能量池，其內的治療能量在每次完成長休后自動補滿。治療能量池儲備的可恢復生命值總值等於你的聖武士職業等級×5。</p><p>你可以用一個動作觸碰一個生物，並抽取治療能量池中的能量恢復該生物的生命值，其恢復量最多等於你治療能量池中剩餘的治療量。</p><p>此外，你也可以使用5點治療量治癒目標生物身上的一種疾病，或者祛除一種中毒效應。你可以在一次聖療中治癒複數的疾病並祛除複數的毒素，但你需要為每一種疾病和毒素分別支付治療量。</p><p>該職業特性對不死生物和構裝生物無效。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 84",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "目標不能是不死生物和構裝生物。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 5,
+      "max": "5",
+      "per": "lr",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "5 * @classes.paladin.levels",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "聖武士等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 161
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mvfsL7Pp6aCSn6uh"
+}

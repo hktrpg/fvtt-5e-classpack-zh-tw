@@ -1,0 +1,88 @@
+{
+  "_id": "XVwbRWKX20xZZWQB",
+  "name": "語出驚人",
+  "type": "feat",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第3級起，你學會運用你的妙語連珠來打斷敵人，迷惑對方或影響他人的信心。當你身邊60尺內一個你能看見的生物進行攻擊檢定，屬性檢定或傷害擲骰時，你可以用反應消耗一次@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}次數來擲一次激勵骰。並在目標的擲骰結果中減去你的激勵骰結果。你可以在目標擲出骰子后，DM宣佈結果之前決定是否使用該特性。若目標無法聽見你的話語或免疫魅惑狀態，則目標同樣也會免疫該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 54",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "目標能聽見你的話且不免疫魅惑。"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d(min(floor(@classes.bard.levels/5)*2+6,12))",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "軼聞學院等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!XVwbRWKX20xZZWQB"
+}

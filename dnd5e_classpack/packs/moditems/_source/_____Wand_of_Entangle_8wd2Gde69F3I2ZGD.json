@@ -1,0 +1,101 @@
+{
+  "_id": "8wd2Gde69F3I2ZGD",
+  "name": "糾纏魔杖 Wand of Entangle",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-simple-hooked.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需施法者同調）</em></p>\n<p>這把魔杖有 7 發充能。持握此魔杖時，你可以用一個動作並消耗 1 發充能以其施展@UUID[Compendium.dnd5e_classpack.new-icon.NZ4JOGBMJzeCKT5O]{糾纏術 Entangle}（豁免DC 15）。</p>\n<p>該魔杖每日黎明時恢復[[/r 1d6+1]]發已消耗充能。充能耗盡時骰一次[[/r d20]]。若骰值為1，則魔杖化為灰燼而毀滅。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TftYP",
+    "quantity": 1,
+    "weight": null,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "day",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": null,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d20",
+    "save": {
+      "ability": "str",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "consumableType": "wand",
+    "attuned": true,
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!8wd2Gde69F3I2ZGD"
+}

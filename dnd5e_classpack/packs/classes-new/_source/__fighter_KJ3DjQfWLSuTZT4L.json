@@ -1,0 +1,514 @@
+{
+  "_id": "KJ3DjQfWLSuTZT4L",
+  "name": "戰士fighter",
+  "type": "class",
+  "img": "modules/dnd5e_classpack/Nicons/ClassIcon_Warrior.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<h1>戰士Fighter</h1><p>身著厚重板甲的人類持盾帶頭衝入地精群中。她的身後是個身穿皮甲的精靈，用精製的良弓向敵人連珠的射出箭矢。而他們附近還有位喊著口號的半獸人，幫助兩名勇士在殺敵時保持優勢。<br />身著鍊甲的矮人舉盾站在他的夥伴和食人魔之間，以阻擋敵人致命的攻擊。他的同伴——身穿鱗甲，帶著兩把彎道翻飛如風的半精靈，則在巨魔身邊纏鬥著尋找敵人疏於防禦的時機。<br />一名在競技場中搏鬥的角鬥士，身為三叉戟和捕網的大師，同時還精於摔絆敵人與拖拽對方繞場移動的技巧——而這一手既為他贏得了觀眾的喝彩，也讓他在戰鬥中顯得遊刃有餘。他對手的劍上忽然閃出一點藍光，而一道閃電隨即向其襲來。<br />這些就是戰士，也許是龍與地下城世界中最具多樣性的職業。他們可以是四處探索的騎士，南征北戰的領主，皇家鬥士或精英步兵，冷酷僱傭兵或山賊頭目。作為戰士，他們都擁有高超的武藝，以及全面的戰鬥知識。他們的生活與死亡相伴，既不害怕手上染滿鮮血，也不畏懼迎接死亡。</p><h2>全能武鬥家Well-Rounded Specialists</h2><p>戰士廣泛涉獵各種戰鬥風格。他們使役各種武器時都有不俗的水平：斧頭、刺劍、長劍、巨劍、弓箭甚至捕網，到戰士手中都是信手拈來。他們甚至還同時熟習盾牌和各類護甲的用法。除掌握基本使用技巧外，每位戰士還專精於某種特定的戰鬥風格。有些專攻箭術，有些專精雙持武器戰鬥，有些則擅長於用魔法增強自己的戰鬥能力。泛用與專精相結合，讓戰士在戰場和地城中都能有卓越的表現。</p><h2>為冒險而生Trained for Danger</h2><p>在城市哨衛，村莊民兵團或是女王的軍隊中，並非每個服役者是戰士。這些部隊的成員大多是隻有基本戰鬥知識而相對缺乏訓練的士兵。而那些經驗豐富的老兵軍官、特訓保鏢、專職騎士之類才更符合戰士的形象。<br />某些戰士認為在冒險中運用其能力才更有意義。冒險生活中常見事件，如地城探索和怪物殲滅等危險作業對戰士而言都再平常不過，因而他們並不會對這樣的生活感到不適。或許這樣的生活風險很大，但回報卻更大——畢竟，僅僅當個城市守衛可沒多少機會找到一把帶魔法的焰舌劍。</p><h2>建立戰士Creating a Fighter</h2><p>建立一個戰士角色時，可以先思考與該角色背景相關的兩個元素：你從哪裡學到戰鬥的技巧，又是如何從大量普通的學武之人中脫穎而出？你是否特別冷酷無情？你是否曾因為超乎常人的努力而受到某個導師的特別照顧？為什麼你最初會走上習武的道路？是故鄉的安寧受威脅，是渴望復仇，還是希望證明自己？<br />你可能在貴族軍隊或本地民兵團中接受了正規訓練；也可能是在一所戰爭學院裡學到了戰略戰術和戰史；你甚至可能自學成才，缺乏理論但實戰經驗豐富。你是爲了逃離平庸的農耕生活而執劍，還是爲著沿襲家族光榮傳統？你的武器護甲從何而來？是由軍隊分發，還是從家族繼承，又或者是你多年節衣縮食買下？這裝備是你最重要的財產，因為只有它們能保你遠離死神懷抱。</p><h2>快速建卡Quick Build</h2><p>你可以按以下建議快速建立一名戰士。首先，決定你是使用近戰武器還是遠端武器（或是靈巧武器），並據此將你最高屬性分配給力量或敏捷。次高屬性分配給體質，或者智力（計劃選擇@UUID[Compendium.dnd5e_classpack.subclass.Item.NOdNl8paEppqJs03]{奧法騎士范型}時）。然後選擇@UUID[Compendium.dnd5e_classpack.BackgroundList.Item.eHi6eK6u9FBlvT88]{士兵背景}。</p><h2>戰士職業表</h2><p>@UUID[Compendium.dnd5e_classpack.class-table.OG8GfMscEvM0q0Jt]{戰士職業表}</p><h2>職業特性Class Features</h2><p>作為一名戰士，你獲得以下職業特性。</p><h3>生命值Hit Points</h3><p><strong>生命骰：</strong>每戰士等級1d10<br /><strong>首級生命值：</strong>10＋你的體質調整值<br /><strong>升級生命值：</strong>首級生命值之外，對應每個戰士等級6（1d10）＋你的體質調整值</p><h3>熟練項Proficiencies</h3><p><strong>護甲：</strong>全部護甲、盾牌<br /><strong>武器：</strong>簡易武器、軍用武器<br /><strong>工具：</strong>無<br /><strong>豁免：</strong>力量、體質<br /><strong>技能：</strong>從雜技、馴獸、運動、歷史、洞悉、威嚇、察覺和求生中選擇兩項</p><h3>裝備Equipment</h3><p>你帶著以下裝備開始遊戲，此外該角色還可以從其背景項中獲得額外的起始裝備：</p><ul><li>（a）@UUID[Compendium.dnd5e_classpack.itempack.EDEFD370A013E954]{鍊甲}或（b）@UUID[Compendium.dnd5e_classpack.itempack.81278767023C4C8D]{皮甲}，@UUID[Compendium.dnd5e_classpack.itempack.3EE9A77945B5824F]{長弓}和20支@UUID[Compendium.dnd5e_classpack.itempack.CF71E50BD1C63428]{箭}</li><li>（a）一把軍用武器和一面@UUID[Compendium.dnd5e_classpack.itempack.0FFBA161B7765569]{盾牌}或（b）兩把軍用武器</li><li>（a）一把@UUID[Compendium.dnd5e_classpack.itempack.15A3A6D6FEF0A465]{輕弩}和20支@UUID[Compendium.dnd5e_classpack.itempack.95FAB1D8AC957844]{弩矢}或（b）兩把@UUID[Compendium.dnd5e_classpack.itempack.5680E5DF807D71EA]{手斧}</li><li>（a）一個@UUID[Compendium.dnd5e_classpack.itempack.3fyigduizHQGfKrg]{地城套組}或（b）一個@UUID[Compendium.dnd5e_classpack.itempack.gEWUlWthAzKg2394]{探索套組}</li></ul><h2>角色選項</h2><blockquote><p><q>你話講完了告訴我一下。</q></p><p style=\"text-align:right\"><em>——托達克</em></p></blockquote><p>在DND世界裡所有的冒險者中，戰士可能有著最大的分歧。一方面，沒有兩個戰士會用同一種方式來體現職業的一種特性：比如他們的武器，鎧甲和戰鬥方式會顯得大相逕庭。另一方面，無論他們使用的是何種武器和戰鬥方式，每一個戰士心中都有一種相同的信念：傷害別人好過被別人傷害。<br />雖然有些冒險中的戰士是爲了榮譽和財寶而冒險，但也有戰士會爲了他人的利益而著想。他們會爲了社會、村鎮和團體的安定幸福而努力且不顧自己的安危。即使金子就在眼前，對於大多數戰士來說真正的獎勵也是金子能讓敵人們走向滅亡。<br />接下來一些提供的選項能給你的戰士角色一些深度和個人特徵。</p><h2>紋章標誌</h2><p>戰士經常會爲了某些緣由而戰鬥。比如一些戰士會爲了王國的利益而和怪物戰鬥，一些只是爲了尋求個人的榮耀。無論是那種情況，一個戰士通常會展示一個標誌來體現這些原因，你既可以從一個王國或者貴族那裡獲得標誌，也可以僅憑自己的興趣製作一個裝飾。<br />你的角色可以與一個組織或者一件事情的起因聯繫在一起，也可以爲了某個偉大的目的而旅行。如果這些都不是你想要的，你也可以考慮用紋章標誌來象徵你的內在本質或者訴說你在這個世界的目標。</p><table><tbody><tr><th><p>[[/r D6]]</p></th><th><p>標誌</p></th></tr><tr><td><p>1</p></td><td><p>一條佇立於綠野上的狂躁金龍，象徵著勇猛和對財富的追求</p></td></tr><tr><td><p>2</p></td><td><p>於雲端緊握閃電的風暴巨人之拳，象徵著憤怒與力量</p></td></tr><tr><td><p>3</p></td><td><p>在城堡門前交叉的綠色對劍，象徵著城市或者王國的守衛</p></td></tr><tr><td><p>4</p></td><td><p>一顆被匕首刺穿的顱骨，象徵著你為你的敵人帶來的毀滅</p></td></tr><tr><td><p>5</p></td><td><p>火環里的鳳凰，象徵著不屈的靈魂</p></td></tr><tr><td><p>6</p></td><td><p>在黑幕中從臥刃落下的三滴血，象徵著三名你發誓要剷除的敵人</p></td></tr></tbody></table><h2>導師</h2><p>有些戰士天生就是能從戰場上存活下來的鬥士。其他則需要在年輕時就在軍隊或者其他軍事組織里磨鍊戰鬥技藝的基礎，當他們被組織的導師教導時。<br />以下列舉的三種泛型的戰士都會接受來自於陪同的經驗豐富的人的一對一技巧訓練。取決於學生的背景，導師曾經或一直都是某個戰鬥領域的佼佼者。<br />如果你決定了你的角色曾有一個獨特的導師，那麼他會特別在什麼地方呢？你是會模仿你的導師那樣戰鬥，還是會取其精華，棄其糟粕，自成一派呢？</p><table><tbody><tr><th><p>[[/r D6]]</p></th><th><p>導師</p></th></tr><tr><td><p>1</p></td><td><p>角鬥士 你的導師是一個在某個地區爲了自由而戰的，或者爲了獲取錢財和名望甘願成為角鬥士的奴隸。</p></td></tr><tr><td><p>2</p></td><td><p>軍人 你的導師在一隊士兵中工作且瞭解團隊合作。</p></td></tr><tr><td><p>3</p></td><td><p>城市守衛 把控群眾和保衛和平是你的導師的強項。</p></td></tr><tr><td><p>4</p></td><td><p>部落勇士 你的導師成長於一個為某人幹架是家常便飯的部落</p></td></tr><tr><td><p>5</p></td><td><p>街頭打手 你的導師擅長城市作戰，沉默且高效的近身戰鬥。</p></td></tr><tr><td><p>6</p></td><td><p>武器大師 你的導師會幫助你，告訴你如何高效的使用你選擇的武器。</p></td></tr></tbody></table><h2>鮮明風格</h2><p>很多戰士會通過展現和完善一種特別的戰鬥風格和方法來從自己的同類中區分自己。雖然這種風格可能是戰士長期積累的個人特點，但事情並不總是這樣，畢竟在危急關頭，一味貫徹自己的戰鬥風格就顯得沒必要了。<br />你有會反應在你的生活中的戰鬥風格嗎？或者是戰鬥時某些內在的東西？</p><table><tbody><tr><th><p>[[/r D6]]</p></th><th><p>風格</p></th></tr><tr><td><p>1</p></td><td><p>簡練 你的行動精準優雅，收放自如，從沒有多餘的動作。</p></td></tr><tr><td><p>2</p></td><td><p>野蠻 你的攻擊猶如呼呼作響的錘子，要別人粉身碎骨血沫橫飛。</p></td></tr><tr><td><p>3</p></td><td><p>狡猾 你能夠在一瞬間做出攻擊，喜歡用小計謀獲得優勢。</p></td></tr><tr><td><p>4</p></td><td><p>從容 你在戰鬥中很少出汗且喜歡及時行樂。</p></td></tr><tr><td><p>5</p></td><td><p>活力 你在戰鬥中又唱又笑彷彿你的靈魂都在高漲，手握武器，面對強敵是你最快樂的時刻。</p></td></tr><tr><td><p>6</p></td><td><p>陰險 你在戰鬥中會怒視和譏諷對手，你尤其享受在擊敗對手后羞辱他們的感覺。</p></td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "fighter",
+    "levels": 1,
+    "hitDice": "d10",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "gilq1vjnpur64iv3",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "httwqnsfvwcjbjyc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.0LbuXQnP6LC0gn3H",
+            "Compendium.dnd5e_classpack.class-abilityphb.AQ0X21tf5cmjRmGT",
+            "Compendium.dnd5e_classpack.extra-ability.wfzlpRPC5owayAq5"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "職業特性"
+      },
+      {
+        "_id": "quc0rwf3eqgj2dyg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.YdtxSgV9hbHLx416"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性"
+      },
+      {
+        "_id": "4uym61w20kml93uf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Fs3YJW6scuBDsPrE"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性"
+      },
+      {
+        "_id": "6ww6pvwpioytyczy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.bCzTP0sFVSM7nsNl"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 4,
+        "title": "職業特性"
+      },
+      {
+        "_id": "2sp8e2prwjpuoh32",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.ug1Y5YXiU65DLpsB"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "職業特性"
+      },
+      {
+        "_id": "votbzr2hohfq0rol",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.H8gQ1Lf0OpePA3JP"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "職業特性"
+      },
+      {
+        "_id": "wt78ty9vqkbx2how",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "ruchao",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "17": {
+              "value": 2
+            }
+          }
+        },
+        "value": {},
+        "title": "動作如潮次數"
+      },
+      {
+        "_id": "u5uzss2r9fuygelv",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "ewai",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "5": {
+              "value": 1
+            },
+            "11": {
+              "value": 2
+            },
+            "20": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "額外攻擊次數"
+      },
+      {
+        "_id": "2awesqig4baotvla",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "buqu",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "9": {
+              "value": 1
+            },
+            "13": {
+              "value": 2
+            },
+            "17": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "不屈次數"
+      },
+      {
+        "_id": "8UZUourrNoBQ53p0",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "1": 1
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.uZjBfwzuVt0KO2iD",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.En7ex9752IkmvyKQ",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.VoKRG6XqUxTz4rT3",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.bfBqO9i1IWHXezXk",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.8OGJqqmq5Vtx0QJy",
+            "Compendium.dnd5e_classpack.class-abilityphb.Item.9U4ePVABZME8Syk9",
+            "Compendium.dnd5e_classpack.extra-ability.Item.wCe7pIUg2M1g8Wws",
+            "Compendium.dnd5e_classpack.extra-ability.Item.5M9eFqLMIbkwKy0b",
+            "Compendium.dnd5e_classpack.extra-ability.Item.nXNzOQmtv0e6egnX",
+            "Compendium.dnd5e_classpack.extra-ability.Item.B38xqQQ5E8HdqNzQ",
+            "Compendium.dnd5e_classpack.extra-ability.Item.XDsHOwUjo6dJSK4b"
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "fightingStyle"
+          },
+          "hint": "你專精於一種戰鬥風格，並從下列選項中選擇。另外，即使你有多次選擇戰鬥風格的機會，也不能多次選擇同一個戰鬥風格。"
+        },
+        "value": {},
+        "title": "戰鬥風格"
+      },
+      {
+        "_id": "6KJ1wz4CENVjg4Mo",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "choices": [],
+          "hint": ""
+        },
+        "level": 1,
+        "title": "",
+        "icon": "systems/dnd5e/icons/svg/trait-weapon-proficiencies.svg",
+        "value": {}
+      },
+      {
+        "_id": "WZLiDroNw8S2pZvD",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "armor:shl"
+          ],
+          "choices": [],
+          "hint": ""
+        },
+        "level": 1,
+        "title": "",
+        "icon": null,
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "hint": "",
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "secondary",
+        "_id": "HaDrodkjJAJAXoJ6",
+        "value": {}
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "rvfuW71lYEeJW7HS"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 6,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "Kn3umJGPjhfwoDXd"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "WAVyo9UHiQYmuTak"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "YsAsj21YieUXFVZR"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 14,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "xO9MTzt187dhDyUK"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "tBYldd1rbb1nmwel"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 19,
+        "title": "屬性值提升",
+        "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+        "_id": "TxLupjByTHGYfmOg"
+      },
+      {
+        "_id": "3o2s8ZVAyJd74CrP",
+        "type": "Trait",
+        "configuration": {
+          "hint": "",
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:str",
+            "saves:con"
+          ],
+          "choices": []
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "_id": "JEZnz3P7ydbNAdwN",
+        "type": "Trait",
+        "configuration": {
+          "hint": "",
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:acr",
+                "skills:ani",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "level": 1,
+        "title": "",
+        "classRestriction": "primary"
+      }
+    ],
+    "saves": [
+      "str",
+      "con"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "acr",
+        "ani",
+        "ath",
+        "his",
+        "ins",
+        "itm",
+        "prc",
+        "sur"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    },
+    "wealth": ""
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1685540227314,
+    "modifiedTime": 1711711325361,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KJ3DjQfWLSuTZT4L"
+}

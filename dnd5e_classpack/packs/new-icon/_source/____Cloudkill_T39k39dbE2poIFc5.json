@@ -1,0 +1,110 @@
+{
+  "_id": "T39k39dbE2poIFc5",
+  "name": "死云術 Cloudkill",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/ability_deathwing_sealarmorbreachgreen.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內指定一點，並以該點為中心創造一片20尺半徑的球狀黃綠色劇毒濃霧，且該濃霧會圍繞拐角擴散。霧氣在法術持續時間內維持存在，但仍會被強風吹散。而其存在區域則視為重度遮蔽。\n<br>任何生物在一個回合內第一次進入法術區域，或者在區域內開始其回合時，必須進行一次體質豁免。豁免失敗者將受到5d8點毒素傷害，豁免成功則傷害減半。該生物就算屏住呼吸或者不需要呼吸也會受到濃霧效應的影響。\n<br>濃霧在你每回合開始時沿著地面向遠離你的方向移動10尺。霧氣比空氣重，因此會沉落低窪地面甚至滲進地隙中。\n<br><strong>升環施法效應。</strong>使用6環或更高法術位施展該法術時，你使用的法術位每比5環高一環，法術的傷害就增加1d8。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 222",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "5d8",
+          "poison"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 25300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722351713217,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!T39k39dbE2poIFc5"
+}

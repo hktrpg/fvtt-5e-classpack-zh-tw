@@ -1,0 +1,91 @@
+{
+  "_id": "8fO6wjfLt8LT8lg7",
+  "name": "熱能襲 Searing Arc Strike",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Paladin_icon_speedoflight.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從6級起，武僧可以轉換自己的氣變為灼熱的能量。</p>\n<p>如果你在你的回合內進行了攻擊動作，你可以立即消耗2點氣來用附贈動作施放一環@UUID[Compendium.dnd5e_classpack.new-icon.CB9z74KJLWMplGuz]{燃燒之手}。</p>\n<p>你可以花費額外的氣來施展更高環的燃燒之手法術，每一點額外的氣都使法術等級上升1環。你最多可以在這個法術上花費的氣（2+額外的點數）等同你一半的武僧等級（向下取整）。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "回合進行了攻擊動作；至少 2 點氣。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 15,
+      "width": null,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "日魂宗等級 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8fO6wjfLt8LT8lg7"
+}

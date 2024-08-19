@@ -1,0 +1,130 @@
+{
+  "name": "加德爾急速郵差 Galder's Speedy Courier",
+  "type": "spell",
+  "img": "icons/containers/boxes/box-gift-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>    你在施法距離內的一點召喚出一名小型@UUID[Compendium.dnd5e_classpack.monsterspack.banHjKDMCegbUwYE]{氣元素}。氣元素沒有形體且近乎透明，它對所有傷害免疫且無法與其他生物或物件互動。它攜帶著一件內部尺寸為每邊3尺的打開的空箱子。當法術持續時，你可以在箱子記憶體放盡可能多的物品。隨後你可以指定一名你曾見過至少一次，或擁有其一件身體部位，頭髮，指甲或類似物件的生物。</p><p>    一旦箱子的蓋子被合上，氣元素與箱子將會消失，並隨後在目標生物的旁邊重新出現。如果目標生物處在另一個位面，或是不受魔法偵測和定位的影響，箱子里的物件將在你腳下的地面上重新出現。</p><p>    目標生物在選擇是否打開箱子前會知道其中內容，並知道在法術結束前它還有多少時間取得其中物品。其他任何生物都無法打開箱子和取得其中的內容。當法術結束或箱子內部所裝物品皆被移出之後，氣元素與箱子都會消失。如果目標生物命令氣元素將物品返還與你，則它也會消失，而箱子內未被取出的物品將在你腳下的地面上重新出現。</p><p><strong>升環施法效應。</strong>使用8環法術位施展該法術時，你可以將箱子送往與你處在不同存在位面的生物。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "LLK",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "25金幣，或同等價值的礦石貨物作為該法術的耗材",
+      "consumed": true,
+      "cost": 25,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "4nhQ6KAK3ixbyEAI",
+  "folder": null,
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711696214102,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4nhQ6KAK3ixbyEAI"
+}

@@ -1,0 +1,127 @@
+{
+  "_id": "zaUmr54yGtLyvUVC",
+  "name": "魔法伎倆 Prestidigitation",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Frost_ManaBurn.png",
+  "effects": [],
+  "folder": null,
+  "sort": 52100000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術是一個初級施法者用來練習的魔法小伎倆。你在施法距離內創造下列魔法效果中的一種：\n<br>你創造一個立即生效的，無害的感觀效應，比如一束火花，一陣風，微弱音樂或古怪的臭味。\n<br>你立即點燃或熄滅一支蠟燭，一支火把或一小型營火。\n<br>你立即使一個不大於1立方尺的物件變得清潔或骯髒。\n<br>你立即使一個不大於1立方尺的非活體物質變得冰冷、溫暖或對其調味，其效應持續1小時。\n<br>你在一個物件或一個表面上創造一塊色斑，或者一個記號，又或者一個標誌，其效應持續1小時。\n<br>你創造一個巴掌大小的非魔法小玩意或一個虛幻影象，其效應持續到你下回合結束。\n<br>如果你多次施展該法術，則可以同時維持至多三個不同的非即時效應，並且可以用一個動作解散其中一種效應。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 267",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 0,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711702262640,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zaUmr54yGtLyvUVC"
+}

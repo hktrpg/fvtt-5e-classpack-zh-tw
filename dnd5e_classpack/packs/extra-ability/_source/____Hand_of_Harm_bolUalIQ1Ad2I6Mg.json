@@ -1,0 +1,91 @@
+{
+  "_id": "bolUalIQ1Ad2I6Mg",
+  "name": "奪命之手Hand of Harm",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Monk_TouchOfDeath.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你能用氣來造成傷害。當你用徒手攻擊命中一個生物時，可以花費1點氣來額外造成等於1個你的武藝骰+感知調整值的黯蝕傷害。每回合你能使用該特性一次。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "用徒手攻擊命中一個生物；1 點氣。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "d(ceil(((@classes.monk.levels)+2)/6)*2+2) + @abilities.wis.mod",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "命流宗等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bolUalIQ1Ad2I6Mg"
+}

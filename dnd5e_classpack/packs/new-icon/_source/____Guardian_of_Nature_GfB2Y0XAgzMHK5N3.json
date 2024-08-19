@@ -1,0 +1,124 @@
+{
+  "_id": "GfB2Y0XAgzMHK5N3",
+  "name": "自然守衛Guardian of Nature",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/magic/nature/tree-animated-strike.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>自然之魂迴應你的呼喚並將你轉變為一個強大的守衛。轉變持續到法術結束。你選擇以下形態之一取得：原始猛獸或戰爭巨樹。</p>\n<p><strong>原始猛獸Primal Beast：</strong>如野獸般的皮毛覆蓋你的身體，你的面部特徵變得野性，並且你得到以下增益：</p>\n<p>&middot;你的步行速度增加10英尺。<br />&middot;你得到120英尺的黑暗視覺。<br />&middot;你基於力量的攻擊檢定得到優勢。<br />&middot;你的近戰武器攻擊在擊中時會造成額外1d6力場傷害。</p>\n<p><strong>戰爭巨樹Great Tree：</strong>你的面板出現樹紋，枝葉從你的頭髮上萌芽，並且你得到以下增益：</p>\n<p>&middot;你得到10點臨時生命。<br />&middot;你的體質豁免檢定得到優勢。<br />&middot;你基於敏捷或基於感知的攻擊檢定得到優勢。<br />&middot;當你在地面上時，你周圍15英尺的地面對於你的敵人而言是困難地形。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 14200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711727054282,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GfB2Y0XAgzMHK5N3"
+}

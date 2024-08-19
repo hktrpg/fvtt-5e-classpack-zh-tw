@@ -1,0 +1,132 @@
+{
+  "_id": "1O80t9X7nof3CkrS",
+  "name": "靈魂牢籠 Soul Cage",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_animamaldraxxus_nova.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>這個法術攫取一個死去的類人生物的靈魂，並將它關在你用作為法術材料成分的籠子里。被偷竊而來的靈魂在籠子里持續到法術結束或者你摧毀這個籠子，這也會使法術結束。當你的籠子裡面有一個靈魂時，你可以用下文描述的任一方法來利用它。一個被困住的靈魂最多被你這樣使用6次。一旦你第六次利用這個靈魂，它將會被釋放，然後法術結束。在靈魂被困住時，作為靈魂來源的已死類人生物無法被複活。</p>\n<p><strong>竊取生命Steal Life：</strong>你可以用一個附贈動作從靈魂中吸取活力並恢復2d8生命值。</p>\n<p><strong>靈魂質問Query Soul：</strong>你向靈魂提出一個問題（無需動作）並得到一個簡短的回答作為心靈感應，無論用什麼語言你都可以理解。靈魂只知道它的人生中瞭解的事物，但它必須如實回答並且盡其所能。回答至多是一兩句話，也有可能是有隱藏意義的。</p>\n<p><strong>借鑑經驗Borrow Experience：</strong>你可以使用一個附贈動作讓靈魂的人生經驗來支撐你，令你的下一次攻擊檢定，能力檢定和豁免檢定具有優勢。如果在你的下個回合開始之前你沒有使用這個增益，它將會丟失。</p>\n<p><strong>亡者之眼Eyes of the Dead：</strong>你可以使用一個動作來說出這個類人生物在人生中曾見過的地點的名字，如果你和那個地點在同一位面，你可以在那裡創造出一個隱形的感測器。這個感測器將維持到你的專注結束，最多10分鐘（如同你正專注於一個法術）。你從這個感測器中接受視覺和聽覺資訊，就如同你在那個地點使用自己的感官。<br />能看到這個感測器的生物（例如使用了識破隱形法術或是擁有真實視覺）將會看到被你關在籠中的受難者半透明的影像。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "當你看見60英尺內類人生物死去時採取"
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "enemy"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一個價值100GP的銀籠子",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 1100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720799819125,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1O80t9X7nof3CkrS"
+}

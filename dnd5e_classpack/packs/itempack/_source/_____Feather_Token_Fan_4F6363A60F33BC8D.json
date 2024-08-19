@@ -1,0 +1,115 @@
+{
+  "_id": "4F6363A60F33BC8D",
+  "name": "羽符（扇）Feather Token Fan",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-colored-red.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這是一件外觀類似羽毛的小物品。夸爾羽符有很多種，每種都有一個一次性效應。羽符的型別由DM選取或參照下表隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>羽符</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>36~50</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.4F6363A60F33BC8D]{扇 Fan}</td>\n</tr>\n</tbody>\n</table>\n<p><strong>扇Fan。</strong>如果你正乘坐一艘船，你可以用一個動作將這枚羽符拋到10尺高的空中。羽符將消失，取而代之的是一把巨大的扇子。這把扇子會懸浮在空中，並扇起一陣足以推動一艘船的風，使船的速度增加5里每小時，持續8小時。你可以用一個動作解消羽符的效應。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 250,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 40100000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!4F6363A60F33BC8D"
+}

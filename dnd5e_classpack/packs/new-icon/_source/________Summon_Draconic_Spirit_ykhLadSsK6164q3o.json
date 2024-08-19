@@ -1,0 +1,138 @@
+{
+  "name": "龍類靈魄召喚術 Summon Draconic Spirit",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_dragonriding_launch01.png",
+  "system": {
+    "description": {
+      "value": "<p><span><br />      </span>你喚出一隻巨龍精魂。它於施法範圍內一處未被佔據的空間顯現。該肉體形態使用龍類精魂的數據。當你施展此法術時，選擇一個龍種科目：色彩龍，寶石龍，或金屬龍。該生物的長相與你所選擇的龍種相似，這會決定其數據中的某些特性。該生物在法術結束或其生命值降至<span>0</span>時消失。<span><br />      </span>該生物對你和你的同伴友善。在戰鬥中，該生物與你共享先攻，它在你的回合結束後行動。它聽從你的口頭命令（無需動作）。如果你不發出指令，該生物執行迴避動作，並用自己的移動力來回避危險。<span><br />      </span><span class=\"GramE\"><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">升環效果</span></strong></span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">。</span></strong>當你用<span>6</span>環或更高的<span class=\"GramE\">法術位</span>施展此法術時，用對應的環數決定數據欄中與法術環數有關的數據。<span><br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": 20,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一件帶有巨龍圖案的物品，價值至少500gp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "ykhLadSsK6164q3o",
+  "folder": null,
+  "sort": 51500000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720800041975,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!ykhLadSsK6164q3o"
+}

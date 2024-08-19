@@ -1,0 +1,91 @@
+{
+  "_id": "aLEYUnmaQ9DDdcv4",
+  "name": "隱匿通途 Hidden Paths",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_FarSight.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>          10級起，你可以使用那些被隱藏起來的、無法預測的魔法道路，像妖精一樣在眨眼之間穿越空間。在你的回合，你可以以一個附贈動作傳送到60尺內一處未被佔據的可見區域。或者，你也可以用你的動作來接觸一個自願生物將它傳送至30尺內一處未被佔據的你可見的空間。</p>\n<p>          你可以使用這個能力的次數等同於你的感知調整值（至少1次），當你結束一次長休之後，你恢復所有使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "夢境之環等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!aLEYUnmaQ9DDdcv4"
+}

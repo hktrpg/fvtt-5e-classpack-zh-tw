@@ -1,0 +1,124 @@
+{
+  "name": "尋獲高等坐騎 Find Greater Steed",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/tools/smithing/horseshoe-steel-blue.webp",
+  "_id": "kH5v6a4XIYnELReD",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你召喚一個聖魂並呈現出忠誠的、雄偉的坐騎外觀。坐騎出現在施法範圍內未被佔據的空間內，坐騎的外形由你從以下形態中選擇：獅鷲Griffon、飛馬Pegasus、鹿鷹獸Peryton、恐狼Dire Wolf、犀牛Rhinoceros或者劍齒虎Saber-toothed Tiger。坐騎擁有你選擇的形態數據如同怪物手冊，但它實際上是天界、精類或煉獄生物（由你選擇）而不是通常型別。另外，如果你的坐騎智力為5或以下，它的智力變為6，同時能聽懂一種你所說的語言。<br />你在戰鬥中控制坐騎。當坐騎在你周圍1英里內，你可以通過心靈感應和它溝通。當騎乘在你的魔法坐騎上時，所有你施展的只以你為目標法術同時也影響你的魔法坐騎。<br />當魔法坐騎的hp降為0時，它會暫時消失。你也可以以一個動作解散你的魔法坐騎使得它消失。再次施放這個法術可以重新召喚繫結的坐騎，此時它的生命值全部恢復，並且任何狀態都被移除。<br />你不能通過這個法術或獲得坐騎法術同時擁有與1個以上的魔法坐騎的聯繫，以一個動作，你可以在任何時候將你的坐騎從你們的聯繫中解放，使得它消失。<br />每當坐騎消失，它會留下所有它穿戴或者攜帶的物品。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 40100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720797803012,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kH5v6a4XIYnELReD"
+}

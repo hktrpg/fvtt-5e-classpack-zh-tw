@@ -1,0 +1,115 @@
+{
+  "_id": "4CA6201EAF3A9D8B",
+  "name": "噴嚏粉 Dust of Sneezing and Choking",
+  "type": "consumable",
+  "img": "icons/magic/water/bubbles-air-water-light.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這種細沙般的粉末通常被裝在小盒子裡，足夠1次使用。這種粉末看起來像是@UUID[Compendium.dnd5e_classpack.itempack.DB76E9AA70FD6EB1]{無蹤粉 Dust of Disappearance} ，@UUID[Compendium.dnd5e_classpack.new-icon.tyshE8ZcV1Xniej3]{鑑定術 Identify}也會給出這樣的結果。 你可以用一個動作把這種粉末灑向空中。你和你周圍30尺內任何需要呼吸的生物必須進行一次DC15的體質豁免，失敗則因為不停打噴嚏而無法呼吸。受此影響的生物將失能並窒息。只要受影響的生物依然清醒，它就能在每次自己回合結束時再次投豁免。一旦檢定成功，效果即告終止。@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]{次級復原術 Lesser Restoration}也能結束此效果對一名生物的影響。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 166"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 480,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "radius",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 39500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!4CA6201EAF3A9D8B"
+}

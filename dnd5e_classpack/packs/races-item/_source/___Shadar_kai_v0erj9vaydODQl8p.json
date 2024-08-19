@@ -1,0 +1,185 @@
+{
+  "folder": "pD9toO60LUEIogi3",
+  "name": "影靈 Shadar-kai",
+  "type": "race",
+  "_id": "v0erj9vaydODQl8p",
+  "img": "icons/commodities/flowers/flower-grey-orange.webp",
+  "system": {
+    "description": {
+      "value": "<h2>建立你的角色 Creating Your Character</h2><p>在1級時，決定你的角色是人類還是其他奇幻種族中的一員。如果你選擇幻想種族，如本節的仙靈或兔人，在角色建立時參照以下的額外規則。如果你選擇了本章中的一個幻想種族，在創造角色時遵循<span style=\"font-family:monospace\">@UUID[Compendium.dnd5e_classpack.races.JournalEntry.FZwvwDPgVsVzFRra]{MPMM_奇幻種族}</span>。</p><h2>影靈 Shadar-kai</h2><p>影靈是墮影冥界的精靈，從前被鴉后帶來了這個陰森可怖的世界。幾個世紀以來，他們中的一些仍然繼續侍奉於她，而另一些則冒險進入了物質位面來造就屬於自己的命運。</p><p>和他們的精靈親族一般，影靈們曾是精類，而如今他們為墮影冥界的可怕能量所改變，變成了介於生與死之間的存在。</p><p>影靈們有著灰白的膚色，當他們在墮影冥界時，他們還會變得乾枯憔悴，反映出了這個黑暗位面的陰沉本質。</p><p>和其他精靈一樣，影靈能夠活到750歲以上。</p><h2>影靈特質 Shadar-kai Traits</h2><p>作為一位影靈，你擁有以下角色特質：</p><p><strong>生物種類 Creature Type</strong>。你是類人生物。如果有任何前提或效果需要你作為一個精靈（Elf），你也被視作精靈。</p><p><strong>體型 Size</strong>。你的體型為中型。</p><p><strong>速度 Speed</strong>。你的步行速度為30尺。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.aRQ6NHFxlHsTJeai]{鴉后的祝福 Blessing of the Raven Queen}</strong>。用一個附贈動作，你可以魔法地傳送到一處30尺內且未被佔據的可見空間。你可以使用該特質的次數等於你的熟練加值，當你完成一次長休后，你重新獲得所有消耗的次數。</p><ul><li><p>當你到達3級時，當你使用該特質進行傳送，你獲得所有傷害的抗性。該抗性直到你的下一個回合開始前。在此期間，你的身體呈現出如幽魂般的半透明。</p></li></ul><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY]{黑暗視覺 Darkvision}</strong>。在微光光照下，你身邊60尺內可以視為等同於明亮光照。而在黑暗中，該範圍內可視為等同於微光光照。你無法在黑暗中分辨顏色，只能看到有灰度的黑白畫面。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.lxRLQZ9r8bHQlmPt]{精類血統 Fey Ancestry}</strong>。你在為自己避免或結束魅惑狀態的豁免檢定時具有優勢。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.d1QSfputnlx12sUk]{敏銳感官 Keen Senses}</strong>。你擁有察覺技能的熟練項。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.jWfsvpK1l4hhsY8r]{黯蝕抗性 Necrotic Resistance}</strong>。你具有黯蝕傷害的抗性。</p><p><strong>@UUID[Compendium.dnd5e_classpack.racial-traits.Item.8YwBbZ1jeWmYPFvn]{出神 Trance}</strong>。你不需要睡眠，並且不會因魔法效應而陷入睡眠。你能夠以4小時的時間完成長休，前提是如果你將這些時間花在一次出神冥想中，在此期間你保留意識。</p><ul><li><p>當你結束這段冥想時，你能夠獲得兩項你未擁有的熟練項，其中每一項都是你從《玩家手冊》中選擇的一個武器或是工具項。你通過抽取精靈共有記憶來神秘的獲得這些熟練項，並且你保留他們直到你完成下次長休。</p></li></ul><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "DFdcL99Rv6kGzs1F",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "hint": ""
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "pGk4v9H1OZQQ3r3n",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.aRQ6NHFxlHsTJeai"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.wUkIW5Nfcxad3qlY"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.lxRLQZ9r8bHQlmPt"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.d1QSfputnlx12sUk"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.jWfsvpK1l4hhsY8r"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack.racial-traits.Item.8YwBbZ1jeWmYPFvn"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特性",
+        "icon": null
+      },
+      {
+        "_id": "eAv9eLr0ackU7WO2",
+        "type": "Trait",
+        "configuration": {
+          "hint": "你擁有察覺技能的熟練項。",
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc"
+          ],
+          "choices": []
+        },
+        "level": 0,
+        "title": "敏銳感官",
+        "value": {
+          "chosen": []
+        },
+        "icon": null
+      },
+      {
+        "_id": "aHPerrtt8j9D6Uj6",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:necrotic"
+          ],
+          "choices": [],
+          "hint": "你具有黯蝕傷害的抗性。"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "黯蝕抗性",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "krICnnplyRFIq4Sm": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1713020810097,
+    "modifiedTime": 1713020914241,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!v0erj9vaydODQl8p"
+}

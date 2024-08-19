@@ -1,0 +1,120 @@
+{
+  "_id": "0KLtiqu9FS2L12a6",
+  "name": "炸藥(一管) Dynamite (stick)",
+  "type": "consumable",
+  "img": "icons/weapons/thrown/dynamite-black.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>作為一個動作項，生物可以點燃一根炸藥並將它扔到至多60尺遠的一點。該點周邊5尺範圍內的每個生物都必須進行一次DC 12的敏捷豁免，豁免失敗者將受[[/r 3d6]]點鈍擊傷害，豁免成功則傷害減半。</p>\n<p>角色可以將幾根炸藥綁在一起讓它們同時爆炸。每增加一根炸藥，其傷害將增加[[/r 1d6]]（至多為[[/r 10d6]]），爆炸半徑則增加5尺（至多為20尺）。</p>\n<p>炸藥可以用更長的導火線以延遲其爆炸時間，通常為是1到6輪。你可以為炸藥擲先攻，然後讓其在先攻序列輪到它時發生爆炸。</p>\n<p><em>註：傷害與爆炸半徑已設為1管時的狀態，請根據實際需要自行調整。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "radius",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 12,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438641,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 19200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!0KLtiqu9FS2L12a6"
+}

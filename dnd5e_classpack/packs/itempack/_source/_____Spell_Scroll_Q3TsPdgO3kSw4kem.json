@@ -1,0 +1,115 @@
+{
+  "_id": "Q3TsPdgO3kSw4kem",
+  "name": "法術卷軸 Spell Scroll",
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>每張法術卷軸都以神秘暗語記錄了一道法術。如果卷軸記載的法術在你職業的法術列表內，你可以用一個動作閱讀卷軸以施展其中的法術，而無需支付任何法術成分。反之，卷軸上的文字對你是晦澀難懂的。</p>\n<p>假如卷軸記載的法術在你職業的法術列表內，但其環數超過了你目前能施展的水平，則你必須以你的施法關鍵屬性通過一次DC為10+法術環數的屬性檢定。如果檢定失敗，卷軸上記載的法術將消失而不生效。</p>\n<p>卷軸上的法術一經施展即消失。卷軸本身則化為塵埃。</p>\n<p>卷軸的稀有度、其法術的豁免DC和攻擊加值由它所記載的法術環數決定，如下表所示：</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong> 法術環數</strong></td>\n<td><strong>稀有度</strong></td>\n<td><strong>豁免DC</strong></td>\n<td><strong>攻擊加值</strong></td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.5CE844FA6882C3CA]{戲法}</td>\n<td>普通</td>\n<td>13</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.A8FA9E9D797EC9FB]{1環}</td>\n<td>普通</td>\n<td>13</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.A89D32C1547860BD]{2環}</td>\n<td>非普通</td>\n<td>13</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.FCF8BB7DED76F020]{3環}</td>\n<td>非普通</td>\n<td>15</td>\n<td>+7</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.715BBC418336D60C]{4環}</td>\n<td>珍稀</td>\n<td>15</td>\n<td>+7</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.65F9D59D32AB1F8A]{5環}</td>\n<td>珍稀</td>\n<td>17</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.B12F44C54857E8C4]{6環}</td>\n<td>非常珍稀</td>\n<td>17</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.640A205537D9E0A6]{7環}</td>\n<td>非常珍稀</td>\n<td>18</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.494BDB7966E03AAB]{8環}</td>\n<td>非常珍稀</td>\n<td>18</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.30E78A964F9F425B]{9環}</td>\n<td>傳說</td>\n<td>19</td>\n<td>+11</td>\n</tr>\n</tbody>\n</table>\n<p>你可以如同抄錄法術書上的法術一般抄錄法術卷軸上的法師法術。抄錄卷軸上的法術時，抄錄者必須通過一次DC為10+法術環數的智力（神秘）檢定以成功抄錄。無論檢定成功與否，法術卷軸都將被摧毀。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 200"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010444188,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 113500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!Q3TsPdgO3kSw4kem"
+}

@@ -1,0 +1,190 @@
+{
+  "name": "奧法秘典+1 Arcane Grimoire",
+  "type": "equipment",
+  "img": "icons/sundries/books/book-symbol-hexagram-silver-red.webp",
+  "system": {
+    "description": {
+      "value": "<p class=\"MsoNormal\" style=\"MARGIN-BOTTOM:12pt;TEXT-ALIGN:left;mso-pagination:widow-orphan\"><em style=\"mso-bidi-font-style:normal\">需法師同調</em></p><p class=\"MsoNormal\" style=\"MARGIN-BOTTOM:12pt;TEXT-ALIGN:left;mso-pagination:widow-orphan\">當你持握著這件皮革封皮的書籍時，你可以將其作為你法師法術的法器，你在你法師法術的法術攻擊骰和法術豁免DC上獲得加值。加值取決於書的稀有度。<br />你可以將其作為法術書。此外，當你使用你的奧術回想特性時，你能夠恢復的法術位環階總和額外增加1環。<br /></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "奧法秘典+1 Arcane Grimoire",
+      "origin": "Item.ZdDW46FY1h5vDz9K",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "transfer": true,
+      "disabled": false,
+      "_id": "4u8lt2MYR8MbMvMK",
+      "changes": [
+        {
+          "key": "system.bonuses.spell.attack",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.spell.dc",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/sundries/books/book-symbol-hexagram-silver-red.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!VoBE8XxJjcp5fZMx.4u8lt2MYR8MbMvMK"
+    }
+  ],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1686059964887,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "_id": "VoBE8XxJjcp5fZMx",
+  "sort": 118300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!VoBE8XxJjcp5fZMx"
+}

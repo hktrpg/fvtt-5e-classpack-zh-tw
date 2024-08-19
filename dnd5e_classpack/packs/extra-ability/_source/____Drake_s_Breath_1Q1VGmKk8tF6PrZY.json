@@ -1,0 +1,106 @@
+{
+  "name": "龍獸吐息Drake』s Breath",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_oppressingroar2.png",
+  "system": {
+    "description": {
+      "value": "<p>使用一個動作，你能噴吐30尺錐形的傷害吐息，或者你也能將噴射起點設為你的龍獸。選擇強酸，寒冷，閃電，火焰，或毒性傷害。（你的選擇和龍族精粹特性無關。）錐形範圍內的生物進行一次敏捷豁免對抗你的法術DC，豁免失敗時受到[[/r 8d6]]傷害，成功時受到一半的傷害。</p><p>當你15級時，傷害增長到[[/r 10d6]]。</p><p>當你使用本特性后，你需要完成一次長休才能再次這樣做。你也能使用一個三環或更高的法術位來再次使用。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "當你使用本特性后，你需要完成一次長休才能再次這樣做。你也能使用一個三環或更高的法術位來再次使用。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "8d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "龍獸守衛等級 11",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e_classpack.extra-ability.DcQOhZPhVZbslq9W"
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686417886968,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": "Compendium.dnd5e_classpack.extra-ability.DcQOhZPhVZbslq9W",
+    "duplicateSource": null
+  },
+  "_id": "1Q1VGmKk8tF6PrZY",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wovyjRBV4JoGHRB8": 3
+  },
+  "_key": "!items!1Q1VGmKk8tF6PrZY"
+}

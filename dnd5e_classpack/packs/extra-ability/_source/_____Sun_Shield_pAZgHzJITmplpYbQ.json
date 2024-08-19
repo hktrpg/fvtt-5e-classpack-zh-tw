@@ -1,0 +1,91 @@
+{
+  "_id": "pAZgHzJITmplpYbQ",
+  "name": "光輝護盾 Sun Shield",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_AuraMastery.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從17級起，武僧可以完全將自己包覆在魔法性的強光之中。</p>\n<p>你發散出30尺的明亮照明和額外30尺的昏暗照明。你可以以一個附贈動作將這個光芒熄滅或者恢復。</p>\n<p>如果一個被光芒照耀的生物對你進行近戰攻擊並擊中了你，你可以用你的反應對這個生物造成5+你的感知調整值的光耀傷害。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "5 +@abilities.wis.mod",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "日魂宗等級 17",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!pAZgHzJITmplpYbQ"
+}

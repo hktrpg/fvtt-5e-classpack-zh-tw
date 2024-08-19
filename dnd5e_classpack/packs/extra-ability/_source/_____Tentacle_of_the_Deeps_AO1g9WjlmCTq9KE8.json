@@ -1,0 +1,97 @@
+{
+  "_id": "AO1g9WjlmCTq9KE8",
+  "name": "深海觸手 Tentacle of the Deeps",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_deathwing_grasping_tendrils1.png",
+  "system": {
+    "description": {
+      "value": "<p>你可以以魔法的形式召喚一根幽靈觸手攻擊你的敵人。在你60尺的可視範圍內，你可以以一個附贈動作創造一根10尺長的觸手。這根觸手可以持續一分鐘，或於你使用該能力創造另一根觸手時終止。</p>\n<p>當你創造觸手后，你可以對其10尺內的目標進行一次近戰法術攻擊。目標受到[[/r 1d8]]冷凍傷害，且直到你的下一回合，目標速度降低10尺。當你達到邪術師10級時，造成的傷害提高至[[/r 2d8]]。</p>\n<p>在你的回合中，你可以使用一個附贈動作將觸手移動至多30尺並重復以上攻擊。</p>\n<p>你可召喚的觸手的次數等於你的熟練加值，且可以在結束長休之後恢復所有使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "(min((ceil(@classes.warlock.levels/9)),2))d8",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "深海意志等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192626013,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AO1g9WjlmCTq9KE8"
+}

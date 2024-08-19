@@ -1,0 +1,172 @@
+{
+  "_id": "TsvhgdDRQPNMmC03",
+  "name": "戰地匠師 Battle Smith",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/ability_rogue_reinforcedleather.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>         軍隊需要保護，但當防衛戰失敗時，需要有人來進行重整。身為守護者和醫生的結合，戰地匠師是進行防衛，以及重整工事與人員的專家。戰地匠師大多都攜帶一個由自己製造的防衛性隨從——鋼鐵守衛來輔助自己。無數士兵都曾講述過關於瀕臨死亡的自己被一名戰地匠師，以及他的鋼鐵守衛所拯救的故事。</p>\n<p>         戰地匠師在卡尼斯家族製造戰鬥構裝體和最初的戰俑時扮演了關鍵的角色。在終末戰爭過後，這些奇械師致力於救助在恐怖的戰爭中受傷的人。</p>\n<h3><strong>本職工具</strong></h3>\n<p>         當你在第3級選擇此專業時，你獲得@UUID[Compendium.dnd5e_classpack.itempack.B97AB85722BCF651]{鐵匠工具}的熟練。如果你已經擁有此熟練，作為代替，你能獲得另一種工匠工具的熟練。</p>\n<h3><strong>戰地匠師法術</strong></h3>\n<p>         從第3級起，只要你達到相應的職業等級，戰地匠師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>職業等級</th>\n<th>法術</th>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.eatsvLyUqyzEFzCv]{英雄氣概}@UUID[Compendium.dnd5e_classpack.new-icon.6EjLIIN4ug7eSp4P]{護盾術}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.JTEqFylsjhdBhz3c]{印記斬}@UUID[Compendium.dnd5e_classpack.new-icon.DLyjjM6qTHBCSFCx]{守護之鏈}</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.XfYgB18GC8OgETjG]{活力靈光}@UUID[Compendium.dnd5e_classpack.new-icon.Ijq7k3y3AZoC76VF]{召喚箭雨}</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.ujZGFLEqgI0L6oli]{凈化靈光}@UUID[Compendium.dnd5e_classpack.new-icon.AdWubx1kFJLe8QDa]{火焰護盾}</td>\n</tr>\n<tr>\n<td>17級</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.2CIeVJ6dzmDcGfic]{放逐斬}@UUID[Compendium.dnd5e_classpack.new-icon.UBLAtJuRhRB3GokC]{群體療傷術}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "identifier": "battle-smith",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "tkbgdbxvtxpu7hy5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.eatsvLyUqyzEFzCv",
+            "Compendium.dnd5e_classpack.new-icon.6EjLIIN4ug7eSp4P"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "g4zf4sd250fujr18",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.JTEqFylsjhdBhz3c",
+            "Compendium.dnd5e_classpack.new-icon.DLyjjM6qTHBCSFCx"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "9gux83m1up7lh3r9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.XfYgB18GC8OgETjG",
+            "Compendium.dnd5e_classpack.new-icon.Ijq7k3y3AZoC76VF"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "wwxsap8xb3qeivcw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.ujZGFLEqgI0L6oli",
+            "Compendium.dnd5e_classpack.new-icon.AdWubx1kFJLe8QDa"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 13,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "xtggaeyr4hmz2fse",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.2CIeVJ6dzmDcGfic",
+            "Compendium.dnd5e_classpack.new-icon.UBLAtJuRhRB3GokC"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 17,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "ghdml62lf7ggrhk9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.mu9IA3SphVBRiv63",
+            "Compendium.dnd5e_classpack.extra-ability.iiNpYFVFDEWiGigt"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "6ptlppq33l9j3s9q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.WKQXfXbifuoCk1V1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 5,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "regcm0ht1xm0q4bi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.Cst5SSYPhKUEAtf1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 9,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "c7jrwpcj96gafkuw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.6XNKdSZKaddzjZ1F"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!TsvhgdDRQPNMmC03"
+}

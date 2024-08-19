@@ -1,0 +1,136 @@
+{
+  "_id": "qyECERKTnsRPNg7k",
+  "name": "幻影巨龍 Illusory Dragon",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_monk_revival.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你匯聚、編織從墮影冥界收集的陰影物質，隨後在施法距離內你可見的未佔據空間創造出巨型Huge陰影龍。這個幻象會佔據所在空間並持續到法術結束，就好像是一個真實生物。<br />當幻象出現時，任何可以看見幻象的你的敵人必須成功進行感知豁免檢定，否則將在1分鐘內陷入恐懼。如果被恐懼的生物在與幻象沒有視覺線相連的位置並結束回合，它可以重新進行豁免檢定，成功將終止對自己的恐懼效果。<br />在你的回合中以一個附贈動作，你可以移動幻象最多60英尺。選擇它進行移動的任意一點，你可以使它以那個位置作為起源點並噴吐出60尺錐形的爆發性能量。在你創造巨龍時選擇一種傷害型別：強酸，寒冷，火焰，閃電，暗蝕或者毒素。處於錐形範圍內的每個生物必須進行智力豁免檢定，若豁免失敗會受到7d6點對應型別的傷害，成功只承受一半。<br />幻象是有形的因為它由陰影物質創造而成，不過對它的攻擊會自動失手。它會通過所有豁免檢定，並且免疫所有的傷害和異常狀態。一個生物可以用動作來進行智力（調查）檢定對抗你的法術豁免DC來判斷巨龍是否為幻影。如果生物識別了幻象的真相，生物可以看穿它並在對抗它的吐息時獲得優勢。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 60,
+      "width": null,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "7d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 45900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728379368,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qyECERKTnsRPNg7k"
+}

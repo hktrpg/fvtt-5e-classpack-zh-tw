@@ -1,0 +1,136 @@
+{
+  "_id": "ESNeo2IdY8F19MMt",
+  "name": "虹光法墻 Prismatic Wall",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002658.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 由光構成的閃光多彩平面形成一幅不透光的墻壁。墻壁垂直於地面，其至多長90尺，高30尺，厚1寸，並以施法距離內你能看見的一點為源點。你也可以將此墻塑造成一個直徑30尺的球體，並以施法距離內你能看到的一點為中心。法墻在法術持續時間內維持在原地。如果定位法墻位置時可能使其穿過有生物佔據的空間，則本次施法失敗，而你的動作和法術位仍然會被浪費。法墻延伸出100尺的明亮光照外加100尺的微光光照。你和施放該法術時指定的生物可以穿過法墻或停留在法墻附近而不受傷害。如果其他能看見法墻的生物移動到距墻20尺內區域或在該處開始其回合，則該生物必須進行一次體質豁免，豁免失敗則陷入1分鐘的目盲狀態。\n<br>法墻由七層組成，每層都有不同顏色。生物試圖進入或穿過法墻時，將一層層穿過法墻所有的光層。其每穿過一層就必須進行一次敏捷豁免，豁免失敗則受下列光層特性影響。法墻可以被摧毀，不過也必須由紅到紫的順序一次一個光層的通過具體每層。某個光層一旦被摧毀則其在法術持續時間內保持被摧毀狀態。反魔法力場antimagic field 無法對法墻生效，法術解除魔法dispel magic 只對紫墻有效。\n<br>1.紅Red。生物豁免失敗時受到10d6的火焰傷害，豁免成功則傷害減半。此光層存在時，非魔法遠端攻擊無法穿過法墻。光層受至少25點冷凍傷害時被摧毀。\n<br>2.橙Orange。生物豁免失敗時受到10d6的強酸傷害，豁免成功則傷害減半。此光層存在時，魔法遠端攻擊不能穿過法墻。光層受強風吹襲后被摧毀。\n<br>3.黃Yellow。生物豁免失敗時受到10d6的閃電傷害，豁免成功則傷害減半。光層受至少60點力場傷害時被摧毀。\n<br>4.綠Green。生物豁免失敗時受到10d6的毒素傷害，豁免成功則傷害減半。光層在受法術穿墻術passwall，或者其它相同或更高環階法術在固態表面開口的效應影響時被摧毀。\n<br>5.藍Blue。生物豁免失敗時受到10d6的冷凍傷害，豁免成功則傷害減半。光層受至少25點火焰傷害時被摧毀。\n<br>6.靛Indigo。生物豁免失敗時受束縛。其每回合結束時進行一次體質豁免。三次豁免成功后法術終止。三次豁免失敗后目標將永久陷入石化狀態。成功或失敗的豁免不需要連續，只需記下兩邊的數量直至其中一種達到三次。此光層存在時法術無法穿過。光層受日光術daylight，或者其他相同或更高環階法術發出的明亮光線照射時被摧毀。\n<br>7.紫Violet。生物豁免失敗時陷入目盲。其必須在你下一回合開始時進行一次感知豁免。豁免成功則目盲狀態終止。豁免失敗則該生物被傳送到另一個DM 指定的位面並且不再目盲。（典型情況是不在家鄉位面的生物被驅逐回家，而其他生物通常會被傳送到星界或以太位面。）該光層在受法術解除魔法dispel magic，或者其他類似的相同或更高環階法術所產生的終止法術魔法效應的影響時被摧毀。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 267",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 90,
+      "units": "ft",
+      "type": "wall"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 11300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728336489,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ESNeo2IdY8F19MMt"
+}

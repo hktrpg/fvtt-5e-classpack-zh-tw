@@ -1,0 +1,132 @@
+{
+  "_id": "535BB3BECD631283",
+  "name": "吉兆刺劍 Luck Blade Rapier",
+  "type": "weapon",
+  "img": "icons/magic/light/projectile-beam-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>你用該魔法武器發動的攻擊檢定和傷害擲骰獲得+1加值。只要帶著這把劍，你進行豁免時還獲得+1加值。</p>\n<p><strong>幸運Luck。</strong>只要帶著這把劍，它就會為你帶來好運，使你可以重骰一次攻擊檢定、屬性檢定或豁免檢定（無需動作）。而你必須接受重投后的結果。此後直到次日黎明前，該屬性都無法再次啟動。</p>\n<p><strong>許願Wish。</strong>這把劍有[[/r 1d4-1]]發充能。持握它時，你可以用一個動作並消耗一發充能施展@UUID[Compendium.dnd5e_classpack.new-icon.xjn6gjItpWpldE53]{祈願術 Wish}。此後直到次日黎明前，該屬性都無法再次啟動。充能耗盡后，吉兆之刃也將失去這項屬性。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 179"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 210000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 +@mod +1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "rapier"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 42400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!535BB3BECD631283"
+}

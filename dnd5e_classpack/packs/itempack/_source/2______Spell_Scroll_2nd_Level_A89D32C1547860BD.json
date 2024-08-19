@@ -1,0 +1,115 @@
+{
+  "_id": "A89D32C1547860BD",
+  "name": "2環法術卷軸 Spell Scroll 2nd Level",
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>每張法術卷軸都以神秘暗語記錄了一道法術。如果卷軸記載的法術在你職業的法術列表內，你可以用一個動作閱讀卷軸以施展其中的法術，而無需支付任何法術成分。反之，卷軸上的文字對你是晦澀難懂的。</p>\n<p>假如2環卷軸記載的法術在你職業的法術列表內，但其環數超過了你目前能施展的水平，則你必須以你的施法關鍵屬性通過一次DC為12的屬性檢定。如果檢定失敗，2環卷軸上記載的法術將消失而不生效。</p>\n<p>卷軸上的法術一經施展即消失。卷軸本身則化為塵埃。</p>\n<p>卷軸的稀有度、其法術的豁免DC和攻擊加值由它所記載的法術環數決定，如下表所示：</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong> 法術環數</strong></td>\n<td><strong>稀有度</strong></td>\n<td><strong>豁免DC</strong></td>\n<td><strong>攻擊加值</strong></td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.A89D32C1547860BD]{2環}</td>\n<td>非普通</td>\n<td>13</td>\n<td>+5</td>\n</tr>\n</tbody>\n</table>\n<p>你可以如同抄錄法術書上的法術一般抄錄2環法術卷軸上的法師法術。抄錄2環卷軸上的法術時，抄錄者必須通過一次DC為12的智力（神秘）檢定以成功抄錄。無論檢定成功與否，2環法術卷軸都將被摧毀。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 200"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 120,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "法術在你職業的法術列表內。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "msak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "5",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010441154,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 74200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!A89D32C1547860BD"
+}

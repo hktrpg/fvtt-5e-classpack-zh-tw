@@ -1,0 +1,106 @@
+{
+  "name": "龍之息 Breath of the Dragon",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/inv_10_enchanting2_magicswirl_bronze.png",
+  "system": {
+    "description": {
+      "value": "<p>你可以引導氣來將其化為毀滅性的能量波，如同你所模仿的巨龍。當你在你的回合進行攻擊動作，你可以將其中一次攻擊替換為噴吐出一團20尺錐狀或30尺長5尺寬線狀（由你選擇）的龍類能量。選擇以下一種傷害型別：強酸，冷凍，火焰，閃電或毒素。範圍內的每個生物必須通過一次對抗你的氣豁免DC的敏捷豁免，豁免失敗者將於受到等同兩個你武藝骰的對應型別的傷害，豁免成功則傷害減半。</p><p>第11級時，你的吐息傷害提升到三個你的武藝骰。</p><p>你可以使用此特性的次數等同於你的熟練加值（PB），且在完成一次長休后恢復所有使用次數。當你沒有使用次數時，你可以花費2點氣來使用此特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "當你在你的回合進行攻擊動作；當你沒有使用次數時，2點氣。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d(ceil(((@classes.monk.levels)+2)/6)*2+2)",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "神龍宗等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e_classpack.extra-ability.bolUalIQ1Ad2I6Mg"
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1686415236650,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": "Compendium.dnd5e_classpack.extra-ability.bolUalIQ1Ad2I6Mg",
+    "duplicateSource": null
+  },
+  "_id": "VDcmX8LlO92IGktH",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wovyjRBV4JoGHRB8": 3
+  },
+  "_key": "!items!VDcmX8LlO92IGktH"
+}

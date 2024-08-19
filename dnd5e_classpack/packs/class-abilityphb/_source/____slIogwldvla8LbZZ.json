@@ -1,0 +1,93 @@
+{
+  "_id": "slIogwldvla8LbZZ",
+  "name": "休憩曲",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/002612.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級起，你可以在短休時用輕柔的音樂或話語幫助夥伴們回覆傷勢。如果你或任何友方生物可以在其短休時聽到你的演奏聲，並決定使用生命骰回覆生命值，則其恢復量可以額外增加[[/r 1d6]]。</p>\n<p>該額外恢復的數值在達到特定職業等級時可以再增加。第9級時增為[[/r 1d8]]，第13級時增為[[/r 1d10]]，第17級時增為[[/r 1d12]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 54",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "d(max(floor((- 1+@classes.bard.levels )/4)*2+4,6))",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "吟遊詩人等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!slIogwldvla8LbZZ"
+}

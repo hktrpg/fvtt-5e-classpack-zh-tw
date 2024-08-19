@@ -1,0 +1,126 @@
+{
+  "_id": "PmucSbzqmGhwisuE",
+  "name": "異界誓縛 Planar Binding",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002734.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 24小你嘗試以該法術與一個生物建立誓約使其為你服務，該生物可以是天界生物、元素生物、精類生物、邪魔等生物種類之一。該生物在整個施法過程中必須在法術的施法距離內。典型的情況下，在施展該法術前，生物會先被召喚到一個反向作用的防護法陣magic circle 中困住。施法完成後，目標必須進行一次魅力豁免。豁免失敗則目標在法術持續時間內與你建立誓約並服務於你。\n<br>如果該生物由其他法術所召喚或創造，則維持其存在的法術持續時間被延長至符合本法術的持續時間。\n<br>一個已建立誓約的生物必須盡其最大的能力遵從你的指示。你可以命令該生物在你冒險時陪伴你，或守衛一個地點，又或者傳遞一個資訊。該生物將遵從你所下達指示的字面意義，但是如果此生物與你敵對，則它會努力曲解你的字面意思來達到它自己的目標。如果生物在法術終止前全部完成了你的指示而你們仍處於同一位面時，則它會到你面前向你彙報。如果你們處與不同位面，則它會回到其建立誓約之地，並呆停留該處直至法術終止。\n<br><strong>升環施法效應。</strong>使用6環法術位施展該法術時，法術持續時間增為10日，7環則增為30日，8環為180日，9環為一年零一日。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 265",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一枚價值至少 1000gp 的寶石，作為該法術的耗材",
+      "consumed": true,
+      "cost": 1000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 22300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353713398,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PmucSbzqmGhwisuE"
+}

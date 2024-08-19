@@ -1,0 +1,110 @@
+{
+  "name": "休克",
+  "flags": {
+    "exportSource": {
+      "world": "curse-of-strahd",
+      "system": "dnd5e",
+      "coreVersion": "0.6.5",
+      "systemVersion": 0.96
+    }
+  },
+  "description": "一個生物從單個來源中承受的傷害大於或超過其生命值上限一半時，它必須進行一次 DC15 的體質豁免，失敗則依照表格「休克」擲骰並承受相應效應。例如，如果一個生物的生命值為 30，那麼當它受同一來源的一次傷害達 15 時即滿足該條件。",
+  "results": [
+    {
+      "_id": "497B9yLuNmf42THd",
+      "flags": {},
+      "type": "text",
+      "text": "該生物生命值降至 0。",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "documentId": null,
+      "_key": "!tables.results!nkVIGAQCE8BAKRl0.497B9yLuNmf42THd"
+    },
+    {
+      "_id": "XReQOHlGQm6dQVDa",
+      "flags": {},
+      "type": "text",
+      "text": "該生物生命值降至 0 並傷勢穩定。",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "documentId": null,
+      "_key": "!tables.results!nkVIGAQCE8BAKRl0.XReQOHlGQm6dQVDa"
+    },
+    {
+      "_id": "qLK8scC2TNPb24RH",
+      "flags": {},
+      "type": "text",
+      "text": "該生物陷入震懾，直至它的下一回合結束。",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "documentId": null,
+      "_key": "!tables.results!nkVIGAQCE8BAKRl0.qLK8scC2TNPb24RH"
+    },
+    {
+      "_id": "hJBuQcui4Aw556LF",
+      "flags": {},
+      "type": "text",
+      "text": "該生物無法執行反應，且其攻擊檢定和屬性檢定具有劣勢直至它的下一回合結束。",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        7
+      ],
+      "drawn": false,
+      "documentId": null,
+      "_key": "!tables.results!nkVIGAQCE8BAKRl0.hJBuQcui4Aw556LF"
+    },
+    {
+      "_id": "fTXvb8UJZVdpYeS5",
+      "flags": {},
+      "type": "text",
+      "text": "該生物無法執行反應直至它的下一回合結束。",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "documentId": null,
+      "_key": "!tables.results!nkVIGAQCE8BAKRl0.fTXvb8UJZVdpYeS5"
+    }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "_id": "nkVIGAQCE8BAKRl0",
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!nkVIGAQCE8BAKRl0"
+}

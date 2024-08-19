@@ -1,0 +1,89 @@
+{
+  "_id": "cqsvEL8Ufrcvj5ra",
+  "name": "氣球揹包 Balloon Pack",
+  "type": "consumable",
+  "img": "icons/containers/bags/pack-engraved-leather-tan.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這個揹包里裝填了風元素的精魂和一個壓縮的皮革氣球。當你揹著揹包的時候，你可以將氣球以一個動作展開，並獲得10分鐘的@UUID[Compendium.dnd5e_classpack.new-icon.GNvrHluGdgqD06wZ]{浮空術 Levitate}效果，目標只能是你自己，不需要專注。或者，你也可以在下降的時候，使用一個反應來展開氣球，你獲得@UUID[Compendium.dnd5e_classpack.new-icon.NYTOuhtKx54qRDCT]{羽落術 Feather Fall}的效果。</p>\n<p>當任一法術結束時，元素精魂便會逃逸並返回到風元素位面，氣球會慢慢地放氣。當氣球放氣時，你向地面徐徐下降60尺。如果你在這段距離結束時仍然處於半空中，且沒有其他方法保持滯空，你就會墜落。</p>\n<p>當精魂逃逸后，揹包效果便無法使用，除非揹包在一個風元素節點充能1小時，在節點將另一個精魂裝填到揹包內。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PotA",
+    "quantity": 1,
+    "weight": null,
+    "price": null,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "_key": "!items!cqsvEL8Ufrcvj5ra"
+}

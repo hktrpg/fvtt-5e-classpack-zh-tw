@@ -1,0 +1,108 @@
+{
+  "_id": "GSuEN1IlQzaTq8Ws",
+  "name": "操控天氣 Control Weather",
+  "type": "spell",
+  "flags": {},
+  "img": "modules/dnd5e_classpack/Nicons/spell_nature_tranquility.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在法術持續時間內控制自身5里範圍內的天氣狀況。施展該法術時你必須身處戶外，而一旦移動到無法直接看到天空的地點時，法術也會隨即終止。\n<br>本來由DM 基於季節和氣候所決定的天氣狀況，在你施展此法術時可以由你隨意操控。你可以改變降水、氣溫以及風勢等狀況。新的天氣狀況生效需要經過1d4×10分鐘的時間才能完成。\n<br>狀況改變完成後，你可以再次對當前對天氣狀況作改變。法術終止時，天氣將漸漸恢復成平常狀態。\n<br>改變天氣狀況時，你可以從以下表格查明與目前對應的等級，再選擇同一表格中高一級或第一級的狀況作為其改變結果。改變風勢時，你還可以同時改變其風向。\n<br>降水Precipitation\n<br>等級 狀況\n<br>1  天晴clear\n<br>2   薄雲light clouds\n<br>3   多雲overcast 或有霧ground fog\n<br>4   下雨rain，下冰雹hail 或下雪snow\n<br>5   暴雨torrential rain，大冰雹driving hail 或暴雪blizzard\n<br>氣溫Temperature\n<br>等級 狀況\n<br>1  酷熱unbearable heat\n<br>2   炎熱hot\n<br>3   暖和warm\n<br>4   清涼cool\n<br>5   寒冷cold\n<br>6   嚴寒arctic cold\n<br>風勢Wind\n<br>等級 狀況\n<br>1  無風calm\n<br>2   和風moderate wind\n<br>3   強風strong wind\n<br>4   狂風gale\n<br>5   暴風strom\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 228",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": 5,
+      "units": "mi",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 8,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "點燃的焚香和一點混有泥土和木屑的水",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 14000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717430144559,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GSuEN1IlQzaTq8Ws"
+}

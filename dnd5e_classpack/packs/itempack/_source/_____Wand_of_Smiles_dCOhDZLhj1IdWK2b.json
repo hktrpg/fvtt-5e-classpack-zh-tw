@@ -1,0 +1,115 @@
+{
+  "name": "歡笑之棒 Wand of Smiles",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-metal-mask.webp",
+  "system": {
+    "description": {
+      "value": "<p>這根魔杖有三發充能，持握其時，你可以用一個動作消耗一發充能並且指定一個類人生物作為目標。目標必須通過一個DC10的魅力豁免檢定否則被強制微笑一分鐘。</p><p>這根魔杖每天黎明恢復全部已消耗的充能。當充能耗盡時，骰一次[[/r d20]]。如果骰值為 1，這根魔杖會變成一根愁苦之棒。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "any"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "day",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d20",
+    "save": {
+      "ability": "cha",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1686324393721,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "_id": "dCOhDZLhj1IdWK2b",
+  "sort": 125500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!dCOhDZLhj1IdWK2b"
+}

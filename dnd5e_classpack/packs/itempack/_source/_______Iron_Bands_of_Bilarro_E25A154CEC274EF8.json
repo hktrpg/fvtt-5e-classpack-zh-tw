@@ -1,0 +1,120 @@
+{
+  "_id": "E25A154CEC274EF8",
+  "name": "比拉羅的鐵索 Iron Bands of Bilarro",
+  "type": "consumable",
+  "img": "icons/commodities/metal/clasp-steel-braid.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這個銹跡斑斑的鐵球重1磅，直徑3寸。你可以用一個動作說出命令語並把鐵球扔向一個60尺內你能看到的巨型或更小體型生物。球在空中飛行時會張開成為一張鐵網。</p>\n<p>用你的敏捷調整值加上熟練加值進行一次遠端攻擊檢定。如果攻擊命中，則目標被束縛，直到你用一個附贈動作再次說出命令語釋放它。如果你決定釋放目標，或是攻擊檢定沒能命中，那麼鐵網將重新變回鐵球。</p>\n<p>任一生物（包括被束縛的生物）都可以嘗試用一個動作進行DC 20的力量檢定以試圖破網而出。一旦檢定成功，鐵索即被破壞，被束縛的生物亦重獲自由。如果檢定失敗，則該生物在接下來24小時中再次嘗試破網時總會直接失敗。</p>\n<p>鐵索使用后，直到次日黎明前都無法再次啟動。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 177"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "命令字。目標生物必須是巨型或更小體型。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "d20 + @attributes.prof + @mod",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 94400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!E25A154CEC274EF8"
+}

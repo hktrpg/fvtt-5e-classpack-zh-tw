@@ -1,0 +1,95 @@
+{
+  "_id": "39YlsyoJXTtDSGf4",
+  "name": "戰慄形態 Form of Dread",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/achievement_dungeon_hallsofattonement_aleez.jpg",
+  "system": {
+    "description": {
+      "value": "<p>你顯現出你宗主可怕力量的一個側面。作為附贈動作，你變身持續1分鐘。變身時你獲得以下好處。</p>\n<ul>\n<li>你獲得相當於1d10+你的邪術師等級的臨時生命。</li>\n<li>在你的每個回合中只有一次，當你攻擊檢定命中一個生物時，你 可以強迫它進行一次感知豁免。若失敗，目標會對你恐慌，直到你的下一個回合結束。</li>\n<li>你對恐慌狀態免疫。</li>\n</ul>\n<p>你可以變身的次數等於你的熟練值，當你完成長休時，你會恢復所有消耗的次數。</p>\n<p>你戰慄形態的外觀反映了你宗主的某些方面。例如，你的形態可能是一個陰影紗幕，形成你巫妖宗主的王冠和長袍，或者你的身體開始發光，顯現出古代葬禮儀式的符印，並被沙塵旋風所環繞，暗示著你的木乃伊宗主。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "VRGR",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "wis",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10+1d10+ @classes.warlock.levels",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "死靈宗主等級1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attunement": null
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192566783,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!39YlsyoJXTtDSGf4"
+}

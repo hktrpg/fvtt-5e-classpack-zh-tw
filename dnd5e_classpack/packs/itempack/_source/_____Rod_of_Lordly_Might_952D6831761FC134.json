@@ -1,0 +1,120 @@
+{
+  "_id": "952D6831761FC134",
+  "name": "王者權杖 Rod of Lordly Might",
+  "type": "consumable",
+  "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>這把權杖頂端有尖刺狀凸起。它還是一把魔法硬頭錘。你在使用它進行的攻擊和傷害骰上獲得+3加值。</p>\n<p>王者權杖的杖柄上排列著六個不同的按鈕，用來啟動權杖的一些特性。權杖還有其他三種特性，見下。</p>\n<p><strong>六個按鈕。</strong>你可以用一個附贈動作按下權杖的六個按鈕之一。某個按鈕的效果將一直生效，直到你按下另一個按鈕，或再次按下同一個按鈕。再次按下同一個按鈕將使權杖變回通常形態。</p>\n<ul>\n<li>如果你按下<strong>按鈕1</strong>，權杖將變為一把 焰舌 flame tongue 。被烈焰覆蓋的刀刃從權杖沒有凸起的一端伸出。</li>\n<li>如果你按下<strong>按鈕2</strong>，權杖頂端的凸起折下，並伸展出兩片新月般的斧刃，將權杖變為一把魔法戰斧。你在使用它進行的攻擊和傷害骰上獲得+3加值。</li>\n<li>如果你按下<strong>按鈕3</strong>，權杖頂端的凸起折下，頂端伸出矛尖，柄伸長至6尺，將權杖變為一把魔法長矛。你在使用它進行的攻擊和傷害骰上獲得+3加值。</li>\n<li>如果你按下<strong>按鈕4</strong>，權杖將變為一根爬桿，長度由你設定但不能超過50尺。在花崗巖一般堅硬的表面上，爬桿尾部的巖釘和頂部的三個爪鉤可以固定住爬桿。爬桿上每隔1尺向兩側伸展出一根3寸長的把手，構成一架梯子。爬桿最多可以承受4000磅的重量。如果超重或是失去固定點，爬桿將會變回權杖。</li>\n<li>如果你按下<strong>按鈕5</strong>，權杖將變為一把手持式攻城錘。使用它的角色在破壞門、路障或其他障礙的力量檢定上獲得+10加值。</li>\n<li>如果你按下<strong>按鈕6</strong>，權杖將變回或維持通常形態，並指出地磁北極。如果權杖所在的地點並沒有地磁北極的概念，則此特性無效。權杖還會讓你瞭解到自己在地下的深度或在地上的高度。</li>\n</ul>\n<p><strong>生命吸取。</strong>用權杖近戰攻擊命中一名生物時，你可以令目標進行一次DC17的體質豁免。如果豁免失敗，目標將受到額外[[/r 4d6]]黯蝕傷害，而你獲得等於傷害值一半的HP。直到次日黎明前，這個特性都無法再次啟動。</p>\n<p><strong>麻痹。</strong>用權杖近戰攻擊命中一名生物時，你可以令目標進行一次DC17的力量豁免。如果豁免失敗，目標將麻痹1分鐘。目標可以在它的每輪結束時再次嘗試豁免，成功則終止效果對它的影響。直到次日黎明前，這個特性都無法再次啟動。</p>\n<p><strong>驚懼。</strong>持握此權杖時，你可以用一個動作令30尺內一名你能看見的生物進行一次DC17的感知豁免。如果豁免失敗，目標將對你恐懼1分鐘。目標可以在它的每輪結束時再次嘗試豁免，成功則終止效果對它的影響。直到次日黎明前，這個特性都無法再次啟動。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 195"
+    },
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 28000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "用附贈動作按下按鈕。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 +@mod +3",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "rod",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "3",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 66700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!952D6831761FC134"
+}

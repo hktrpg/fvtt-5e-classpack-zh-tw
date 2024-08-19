@@ -1,0 +1,132 @@
+{
+  "_id": "8B2C606C0C692CAD",
+  "name": "雷霆法杖 Staff of Thunder and Lightning",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>該法杖可以用作一把魔法長棍持用，你用它發動的攻擊檢定和傷害擲骰獲得+2加值。法杖具有以下屬性。使用法杖的某一屬性后，直到第二天黎明前其該屬性都無法再次啟動。</p>\n<p><strong>電閃Lightning。</strong>當你用這把法杖以近戰攻擊命中目標時，你可以令目標受額外[[/r 2d6]]點閃電傷害。</p>\n<p><strong>雷鳴Thunder。</strong>當你用這把法杖以近戰攻擊命中目標時，你可以使法杖爆出一陣300尺內都清晰可聞的雷鳴。目標必須進行一次DC 17的敏捷豁免，失敗則被震懾到你的下一回合結束。</p>\n<p><strong>閃電擊Lightning Strike。</strong>你可以用一個動作從法杖尖端射出一束寬5尺、長120尺的閃電。在閃電束路徑上的生物必須進行一次DC 17的敏捷豁免，失敗則受[[/r 9d6]]點閃電傷害，成功則傷害減半。</p>\n<p><strong>雷霆Thinderclap。</strong>你可以用一個動作使法杖發出在600尺內都清晰可聞的刺耳雷鳴。你周圍60尺除你以外的生物必須進行一次DC 17的體質豁免，失敗則受[[/r 2d6]]點雷鳴傷害並耳聾1分鐘。豁免成功的生物只受一半傷害且不會耳聾。</p>\n<p><strong>雷電Thinder and Lightning。</strong>你可以用一個動作同時啟動閃電擊和雷霆兩個特性。這樣做不會消耗閃電擊或雷霆的使用次數，只會消耗雷電的使用次數。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 204"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 10000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod +2",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8 + @mod +2"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440049,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 63200000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!8B2C606C0C692CAD"
+}

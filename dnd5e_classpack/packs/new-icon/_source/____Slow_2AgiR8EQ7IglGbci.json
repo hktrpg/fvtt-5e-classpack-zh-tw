@@ -1,0 +1,216 @@
+{
+  "_id": "2AgiR8EQ7IglGbci",
+  "name": "緩慢術 Slow",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "otherSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Slow.png",
+  "effects": [
+    {
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.2AgiR8EQ7IglGbci",
+      "duration": {
+        "seconds": 60,
+        "startTime": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "yFKe55li8EeoFVKt",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "-2",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.dex.save",
+          "mode": 2,
+          "value": "-2",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "*0.5",
+          "priority": 20
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "multi",
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": "41234",
+          "sourceId": "Actor.GabJyoAElcOKQvnt.Item.uCVpMQzRMkzIqrup.ActiveEffect.635JmtpXZmuoOyji"
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false
+        }
+      },
+      "name": "緩慢術 Slow",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_Slow.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!2AgiR8EQ7IglGbci.yFKe55li8EeoFVKt"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內一處40尺立方區域內指定至多六個生物並扭曲其周圍的時間流。每個目標都要進行一次感知豁免，豁免失敗則受到該法術影響直至法術終止。\n<br>受術生物的速度減半，而其AC和敏捷豁免都具有－2減值，且不能執行反應。該生物在其回合內可以執行一個動作或一個附贈動作，但不能在一回合內同時執行以上兩者。不論該生物擁有何種能力或魔法物品，它在其回合內只能發動一次近戰或遠端攻擊。\n<br>如果該生物嘗試施展一個施法時間為1動作的法術，則需擲一次d20。如果結果是11或更高，則該生物的法術直至其下一回合才會生效，且該生物必須在此時再使用一個動作來完成法術。\n<br>如果它做不到則它的法術就此浪費掉。\n<br>受術生物在其回合結束時要可以再進行一次感知豁免，豁免成功則其身上該法術的效應終止。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 277",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 40,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "1d20",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一滴糖漿",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 1800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.327",
+    "createdTime": 1711694615425,
+    "modifiedTime": 1719582279546,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2AgiR8EQ7IglGbci"
+}

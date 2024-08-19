@@ -1,0 +1,94 @@
+{
+  "_id": "tVe8Dhk12i9A1mOd",
+  "name": "墓穴驚嚎 Wails From The Grave",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_rogue_deadlymomentum.png",
+  "system": {
+    "description": {
+      "value": "<p>當你將某人推向墓穴時，你也可以溝通死亡之力，使得亡者的嚎哭短暫環繞著新的目標。當你在你的回合對於一個生物造成了偷襲傷害之後，你可以立即選擇該生物30尺內第二個可見生物，擲你一半的偷襲骰（向上取整），對其造成等同於結果的暗蝕傷害。</p>\n<p>你可以使用此特性的次數等同於你的熟練加值，當你完成一次長休時恢復所有使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(floor((-1+@classes.rogue.levels)/4)+1)d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "鬼魅等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.0",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685192964971,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!tVe8Dhk12i9A1mOd"
+}

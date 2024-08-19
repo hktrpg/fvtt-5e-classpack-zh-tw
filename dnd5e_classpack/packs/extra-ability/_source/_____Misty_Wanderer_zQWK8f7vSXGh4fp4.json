@@ -1,0 +1,86 @@
+{
+  "_id": "zQWK8f7vSXGh4fp4",
+  "name": "霧行漫遊 Misty Wanderer",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_monk.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你可以在眨眼之間穿梭妖精荒原以進行移動：你可以施展@UUID[Compendium.dnd5e_classpack.new-icon.Cnzcy1Tu7gt6xYHm]{迷蹤步}而不需要消耗法術位。你可以這麼做的次數等於你的感知調整值(最低一次)，你在完成一次長休後重獲所有的使用次數。另外，每當你施展迷蹤步時，你可以攜帶一個五尺以內你看得見的自願生物與你一起移動。那個生物會被傳送到由你選擇的，位於你的目標位置五尺以內的未被佔據空間。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "妖精漫遊者等級 15",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!zQWK8f7vSXGh4fp4"
+}

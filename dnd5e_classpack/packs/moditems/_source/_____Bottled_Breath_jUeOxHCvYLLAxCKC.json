@@ -1,0 +1,126 @@
+{
+  "_id": "jUeOxHCvYLLAxCKC",
+  "name": "壓縮空氣 Bottled Breath",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-corked-empty.webp",
+  "effects": [
+    {
+      "_id": "lztI7OHOOA4O34gq",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.jUeOxHCvYLLAxCKC",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "無需呼吸",
+      "img": "icons/consumables/potions/bottle-corked-empty.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!jUeOxHCvYLLAxCKC.lztI7OHOOA4O34gq"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>這個瓶子里存有一股來自風元素的氣流。</em></p>\n<p>當你吸氣時，你可以選擇呼出它，或者屏住它。如果你選擇呼氣，你得到@UUID[Compendium.dnd5e_classpack.new-icon.cGIrpk6h4Rf8QKV6]{造風術 Gust of Wind}的效果。如果你選擇屏住呼吸，你不需要呼吸至多1個小時，你可以提前結束這個好處（例如，開口說話）。提前結束並不會給你帶來呼氣的好處。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PotA",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "potion"
+  },
+  "_key": "!items!jUeOxHCvYLLAxCKC"
+}

@@ -1,0 +1,91 @@
+{
+  "_id": "p3ygdJ5jnwNfzLQL",
+  "name": "神聖打擊（秩序） Divine Strike",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_AvengineWrath.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從 8 級起，你可以使你的武器充滿神聖能量。你的每回合一次，在用一次武器攻擊命中某一名生物時，你可以使該攻擊造成額外的[[/r 1d8]] 心靈傷害。當你達到 14 級時，該傷害提升到[[/r 2d8]] 。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "GGR",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(min(max(floor(((@classes.cleric.levels)-2)/6),1),2))d8",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "秩序領域等級 8",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!p3ygdJ5jnwNfzLQL"
+}

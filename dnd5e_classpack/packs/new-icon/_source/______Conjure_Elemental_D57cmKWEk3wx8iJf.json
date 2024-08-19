@@ -1,0 +1,128 @@
+{
+  "_id": "D57cmKWEk3wx8iJf",
+  "name": "元素咒喚術 Conjure Elemental",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002731.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你召喚出一個元素生物僕從。在施法距離內指定一處充滿氣、土、火、水四物質其一的10尺立方區域作為法術目標。例如，一隻火元素從篝火中成型，而一隻土元素則從地面上浮現。一個挑戰等級5或者更低的元素生物從目標區域成型，並顯現在該區域10尺內一處未被佔據空間。該生物在生命值降至0時，或者法術終止時消失不見。\n<br>被召喚的元素生物對你和你的夥伴保持友善關係。你為召喚出來的元素生物擲先攻權，並依此獲得其自己的行動回合。該元素生物服從你發出的所有語言命令（不需要你作動作）。如果你不發出任何命令，該生物會在敵對生物前保護自己，如果沒有敵對生物則不執行任何動作。\n<br>如果你專注被打斷，該元素生物並不會因此消失不見，但你會因此失去該元素生物的控制權。失控的元素生物對你和你的夥伴變為敵對，並隨時準備發動攻擊。不受控的元素生物無法被你解散，並在你的召喚開始算起1小時後消失不見。\n<br>該元素生物的具體數值由DM 掌控。\n<br><strong>升環施法效應。</strong>使用6環或更高法術位施展該法術時，你使用的法術位每比5環高一環，召喚生物挑戰等級就增加1。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 225",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": "an area of air, earth, fire, or water that fills a 10-foot cube within range"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "space"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 5,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "氣元素為點燃的焚香，土元素為陶土，火元素為硫和磷，水元素為水和沙子",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 10100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354956846,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!D57cmKWEk3wx8iJf"
+}

@@ -1,0 +1,127 @@
+{
+  "_id": "AxOyPyPMswoy1UPZ",
+  "name": "圈套術 Snare",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_animaardenweald_groundstate.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>當你施展此法術時，用線繩在一處處於你觸及內的地面或地板上創造一個5英尺半徑的圓圈。當你完成施法時，線繩消失，化為一個魔法陷阱。<br />陷阱幾乎是隱形的，要找到它需要一次成功的對抗你的法術豁免DC的智力（調查）檢定。<br />當一個小型Small、中型Medium或大型Large的生物移動進入受到此法術保護的區域時，陷阱就會觸發。觸發的生物必須通過一次敏捷豁免檢定否則摔倒、變成俯臥，並被魔法性地上下顛倒的舉到半空中，直到它距離被保護的地面或地板3英尺高。生物被束縛在那裡直到法術結束。<br />被束縛的生物可以在其每個回合的結束時進行一次敏捷豁免檢定，成功則結束被束縛。或者，其他能觸及被束縛的生物可以進行一次智力（神秘）檢定，對抗你的法術豁免DC。成功則束縛的效果也會結束。<br />在陷阱被觸發之後，當沒有生物被它束縛時，法術將會結束。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "25英尺的線繩，它將被此法術消耗",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 9200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720803036481,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AxOyPyPMswoy1UPZ"
+}

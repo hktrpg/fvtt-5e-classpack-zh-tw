@@ -1,0 +1,104 @@
+{
+  "name": "畏懼咆哮 (獅族)",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你可以用一個附贈動作來發出一陣特別危險的咆哮。指定身邊10 尺內能聽到你聲音的生物必須進行一次感知豁免，否則他將因此陷入恐慌，並持續至你的下回合結束。該DC等於8+你的熟練加值+你的體質調整值。一旦你使用了此特性，直到你完成一次長休或短休才能再次使用。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "bonus",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn"
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": 10,
+      "long": 10,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "con"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "_id": "d3XgVoWZ3vI0EsgO",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 17500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1713014848758,
+    "lastModifiedBy": "krICnnplyRFIq4Sm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!d3XgVoWZ3vI0EsgO"
+}

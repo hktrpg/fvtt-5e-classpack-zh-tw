@@ -1,0 +1,155 @@
+{
+  "_id": "EhW2gBzYzx8d9s2i",
+  "name": "土巨怪之爪 Claws of the Umber Hulk",
+  "type": "equipment",
+  "img": "icons/equipment/hand/gauntlet-plate-steel-grey.webp",
+  "effects": [
+    {
+      "_id": "aeVNq4jo2aqbhUSk",
+      "changes": [
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 2,
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Item.EhW2gBzYzx8d9s2i",
+      "transfer": true,
+      "flags": {},
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "掘穴速度+20尺",
+      "img": "icons/equipment/hand/gauntlet-plate-steel-grey.webp",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!items.effects!EhW2gBzYzx8d9s2i.aeVNq4jo2aqbhUSk"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這些沉重的棕色鐵護手被鍛造成一個土巨怪的爪子形狀，戴著它的人可以套在手和前臂上，一直戴到肘部。當你戴上兩個爪子時，你可以獲得20尺的挖掘速度，你可以以每輪1尺的速度挖穿堅硬的巖石。</p>\n<p>此外，你可以戴著爪子作為近戰武器。你熟練於使用它，它可以在一次攻擊中造成[[/r 1d8]]點揮砍傷害（你的力量調整可以正常作用於攻擊檢定和傷害檢定）。</p>\n<p>當你戴著爪子的時候，你不能操縱物體或施放帶有軀體成分的法術。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PotA",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8+@mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "clothing",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": true
+  },
+  "_key": "!items!EhW2gBzYzx8d9s2i"
+}

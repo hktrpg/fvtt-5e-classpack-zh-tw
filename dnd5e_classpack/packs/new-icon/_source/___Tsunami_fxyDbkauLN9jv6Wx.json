@@ -1,0 +1,136 @@
+{
+  "_id": "fxyDbkauLN9jv6Wx",
+  "name": "海嘯術Tsunami",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Shaman_TidalWaves.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">你指定施法距離內一點並從中升起一面水墻。水墻長不過300 尺，高不過300 尺，厚不過50 尺，且持續存在至法術終止。水墻出現時，所有位於水墻內的生物都要進行一次力量豁免。</div>\n<div class=\"description \">豁免失敗者將受到6d10 點鈍擊傷害，豁免成功則傷害減半。水墻出現后，將在你每一回合開始時帶著其內的所有生物一起向遠離你的方向移動50 尺。當水墻進入一個巨型或更小體型生物所佔據空間，或他們原本就處於墻內時，該生物必須進行一次力量豁免，豁免失敗則受到5d10 點鈍擊傷害。該傷害一輪里對同一個生物只生效一次。在你的回合結束時，水墻的高度減少50 尺，且其隨後每輪對生物造成的傷害也減少1d10。當水墻高度變為0 尺時法術終止。</div>\n<div class=\"description \">淹沒在水墻中的生物可以用游泳的方式移動，由於波濤阻力影響，該生物必須要進行一次對抗該法術DC 的力量（運動）檢定以決定起能否成功移動，而檢定失敗者則無法移動。通過移動離開水墻區域的生物會直接掉到地上。</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 279",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 6,
+      "units": "round"
+    },
+    "target": {
+      "value": 300,
+      "units": "ft",
+      "type": "wall"
+    },
+    "range": {
+      "value": null,
+      "long": 0,
+      "units": "any"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "6d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 37200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711728316793,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fxyDbkauLN9jv6Wx"
+}

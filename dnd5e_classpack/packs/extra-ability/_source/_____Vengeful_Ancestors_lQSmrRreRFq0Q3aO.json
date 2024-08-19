@@ -1,0 +1,91 @@
+{
+  "_id": "lQSmrRreRFq0Q3aO",
+  "name": "先祖復仇 Vengeful Ancestors",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_ReflectiveShield.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>在14級時，你的先祖之魂變得強大到足以打擊傷害你所保護之人的敵人。當你使用@UUID[Compendium.dnd5e_classpack.extra-ability.H5J2aANa4OhuuPmv]{精魂之盾}保護生物、降低一次攻擊的傷害時，攻擊者受到精魂之盾所降低的等量力場傷害。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(min((floor(@classes.barbarian.levels+2)/4),4))d6",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "先祖守衛等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lQSmrRreRFq0Q3aO"
+}

@@ -1,0 +1,153 @@
+{
+  "name": "巫術箭激發 Witch Bolt",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ]
+    },
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "28ecebbf14a55a3f83429db73b20bd7464cfa68e",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.2AYYOmt6dT9v2tVw"
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_mage_focusingcrystal.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div class=\"description \">一支纏繞著碎裂魔力的藍色能量長矛射向施法距離內的一個生物，並在你與目標之間產生一道持久的閃電弧。對目標生物進行一次遠端法術攻擊。若命中，則目標受到1d12 點閃電傷害。</div>\n<div class=\"description \">在法術持續時間內，你在每個自己的回合中可以用一個動作直接對目標造成1d12 點閃電傷害。如果你執行動作做其他任何事情，法術將隨即終止。此外，如果目標離開法術的施法距離或相對你處於全身掩護狀態，法術也將隨即終止。</div>\n<div class=\"description \"> </div>\n<div class=\"description \">升環施法效應。</div>\n<div class=\"description \">使用2 環或更高法術位施展該法術時，你使用的法術位每比1 環高一環，法術的初始傷害就增加1d12。</div>\n</div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 242"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "util",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d12+1d6",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "evo",
+    "materials": {
+      "value": "從一顆被閃電擊中的樹上取來的樹枝",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d12"
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711705198281,
+    "modifiedTime": 1711705245009,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "qG7nr15fd5iHn6oo",
+  "sort": 0,
+  "_key": "!items!qG7nr15fd5iHn6oo"
+}

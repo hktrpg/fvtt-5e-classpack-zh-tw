@@ -1,0 +1,86 @@
+{
+  "_id": "Ny7aYganLo78DUfw",
+  "name": "法術盜賊",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Mage_IncantersAbsorbtion.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>      第17級起，你獲得盜取其他施法者施法知識的能力。</p>\n<p>        當一個生物施展的一一個法術以你為目標，或其法術效應範圍包含你所在區域時，你可以立即用你的反應強迫該生物以其施法關鍵屬性調整值進行一次豁免。其DC等同於你的法術豁免DC。若其豁免失敗，則你取消該法術對你的效應。如果該法術至少為1環且屬於你可以施展的環階(但不需要是法師法術)，則你還可以盜取該法術的知識。在接下來的8小時內，你視為習得該法術且能用你的法術位施展該法術。而目標生物則無法施展該法術直至8小時過去。</p>\n<p>        你必須完成一次長休后才能再次使用該特性。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "詭術師等級 17",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Ny7aYganLo78DUfw"
+}

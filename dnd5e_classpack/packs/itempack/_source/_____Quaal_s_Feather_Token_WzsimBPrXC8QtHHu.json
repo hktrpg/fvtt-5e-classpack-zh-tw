@@ -1,0 +1,115 @@
+{
+  "_id": "WzsimBPrXC8QtHHu",
+  "name": "夸爾羽符 Quaal's Feather Token",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-blue-grey.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這是一件外觀類似羽毛的小物品。夸爾羽符有很多種，每種都有一個一次性效應。羽符的型別由DM選取或參照下表隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>羽符</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01~20</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.9B0EA299DC5B47F9]{錨 Anchor}</td>\n</tr>\n<tr>\n<td>51~65</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.64E2036815FA407E]{天鵝船 Swan Boat}</td>\n</tr>\n<tr>\n<td>21~35</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.254960451BA9A412]{鳥 Bird}</td>\n</tr>\n<tr>\n<td>66~90</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.35C00054975984AD]{樹 Tree}</td>\n</tr>\n<tr>\n<td>36~50</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.4F6363A60F33BC8D]{扇 Fan}</td>\n</tr>\n<tr>\n<td>91~100</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.77C1A0FCE0457BA1]{鞭 Whip}</td>\n</tr>\n</tbody>\n</table>\n<p><strong>錨Anchor。</strong>你可以用一個動作以這枚羽符碰觸一艘船。接下來的24小時中，無論採取何種方式，該船都無法被移動。用羽符再次碰觸該船將終止該效應。效應終止時，羽符也將隨之消失。</p>\n<p><strong>鳥Bird。</strong>你可以用一個動作將這枚羽符拋到5尺高的空中。羽符將消失，取而代之的是一隻五彩斑斕的大鳥。這隻鳥使用@UUID[Compendium.dnd5e_classpack.monsterspack.p980augbCIdpK9ZX]{鵬鳥Roc}的資料。它服從你的簡單命令但無法攻擊。負載不超過500磅時，它能以全速飛行（16里每小時，每飛行3小時休息1小時，每天至多飛行144里）。而負重不超過1000磅時則以半速飛行。大鳥飛過144里或生命值降至0后消失。你可以用一個動作解消羽符的效應。</p>\n<p><strong>扇Fan。</strong>如果你正乘坐一艘船，你可以用一個動作將這枚羽符拋到10尺高的空中。羽符將消失，取而代之的是一把巨大的扇子。這把扇子會懸浮在空中，並扇起一陣足以推動一艘船的風，使船的速度增加5里每小時，持續8小時。你可以用一個動作解消羽符的效應。</p>\n<p><strong>天鵝船Swan Boat。</strong>你可以用一個動作以這枚羽符碰觸一個至少直徑60尺的水體。羽符將消失，取而代之的是一艘50尺長，20尺寬的天鵝形小船。這艘小船可以自行在水面上以6里每小時的速度前進。乘坐這艘小船時，你可以用一個動作命令它前進或在不超過90度的範圍內轉向。小船可以搭載至多三十二名中型或更小體型的生物。一名大型體型生物計為四名中型生物，一名巨型生物計為九名中型生物。小船將在24小時後消失。你可以用一個動作解消羽符的效應。</p>\n<p><strong>樹Tree。</strong>這枚羽符只能在室外使用。你可以用一個動作以這枚羽符碰觸一片未被佔據的地面。羽符將消失，一棵巨大的非魔法橡樹將在羽符消失的地方長出。橡樹高60尺，其樹幹直徑5尺，樹冠半徑20尺。</p>\n<p><strong>鞭Whip。</strong>你可以用一個動作將這枚羽符扔出至多10尺。羽符將消失，取而代之的是一條懸浮在空中的長鞭。你可以用一個附贈動作讓長鞭對它周圍10尺內的一名生物發動近戰法術攻擊，攻擊加值+9。如果攻擊命中，目標將受到[[/r 1d6+5]]點力場傷害。</p>\n<p>你可以在自己的回合里用一個附贈動作命令長鞭飛行至多20尺並攻擊它周圍10尺內的一名生物。長鞭將在1小時後消失，你陷入失能或你死亡時鞭子也會消失。你可以用一個動作解消羽符的效應。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 3600,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d100",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010444188,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 119900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!WzsimBPrXC8QtHHu"
+}

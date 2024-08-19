@@ -1,0 +1,120 @@
+{
+  "_id": "3E27D711AF2DE5EC",
+  "name": "魔豆之袋 Bag of Beans",
+  "type": "consumable",
+  "img": "icons/containers/bags/coinpouch-simple-leather-tan.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這個沉重的布袋里裝著[[/r 3d4]]顆乾燥的豆子。布袋重1/2磅，每顆豆子重1/4磅。</p>\n<p>如果你把布袋里的東西倒在地上，豆子將引發一場半徑10尺的爆炸。包括你在內，範圍內的生物必須進行DC15的敏捷豁免，失敗則受到[[/r 5d4]]火焰傷害，成功減半。此火焰會點燃範圍內沒有被穿戴或攜帶的物體。</p>\n<p>如果從布袋重取出一個豆子種到泥土或沙石中，澆上水，1分鐘后豆子將產生一個效果。DM可以使用下表隨機決定一種效果，自選一種效果，或是創造一種新效果。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>效果</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>01</td>\n<td>[[/r 5d4]]個毒菌破土而出。如果又生物吃掉了毒菌，投一個骰子。如果結果為奇數，食用者必須進行一次DC15的體質豁免否則受到[[/r 5d6]]毒素傷害並中毒1小時。如果結果為偶數，食用者獲得[[/r 5d6]]臨時生命，持續1小時。</td>\n</tr>\n<tr>\n<td>02-10</td>\n<td>一股間歇泉噴射而出達30尺高，持續[[/r 1d12]]輪，這種液體可以是水、啤酒、果汁、茶、醋、葡萄酒或者油（DM決定）。</td>\n</tr>\n<tr>\n<td>11-20</td>\n<td>一個@UUID[Compendium.dnd5e_classpack.monsterspack.NB6wUgVqeOQtsQKu]{樹人Treant}。有50%的概率，此樹人是混亂邪惡的並會發起攻擊。</td>\n</tr>\n<tr>\n<td>21-30</td>\n<td>一座和你外表相仿的活化石雕從地上升起。它會用言語威脅你。如果你離開它附近而其他人靠近它，它會把你描述成最卑劣的惡棍並引導他們去攻擊你。如果你和雕像處於同一位面，它知道你的位置。雕像在24小時之後變成無生命物體。</td>\n</tr>\n<tr>\n<td>31-40</td>\n<td>躍動著藍色火焰的篝火，持續24小時（或直到它熄滅）。</td>\n</tr>\n<tr>\n<td>41-50</td>\n<td>[[/r 1d6+6]]個@UUID[Compendium.dnd5e_classpack.monsterspack.TaK6nQMGqZ0y8gt7]{尖叫蕈Shrieker}。</td>\n</tr>\n<tr>\n<td>51-60</td>\n<td>爬出[[/r 1d4+8]]只鮮艷粉紅色的蟾蜍。當有人接觸到蟾蜍時，它變成一隻大型或更小的怪物（由DM選擇）。怪物存在1分鐘，然後消失在一陣粉紅色的煙霧中。</td>\n</tr>\n<tr>\n<td>61-70</td>\n<td>一隻飢餓的@UUID[Compendium.dnd5e_classpack.monsterspack.1ES45ODWg3pCrkzv]{鯊蜥獸 Bulette}（數據見怪物圖鑑）從地下爬出來併發起攻擊。</td>\n</tr>\n<tr>\n<td>71-80</td>\n<td>一棵果樹。樹上有[[/r 1d10+20]]個水果，其中1d8個是隨機效果的魔法藥水，但也有一個是DM決定的某種攝入毒藥。果樹將在1小時後消失，但摘下來的水果仍保留，其魔法保持30天。</td>\n</tr>\n<tr>\n<td>81-90</td>\n<td>一窩[[/r 1d4+3]]個蛋。任何食用了蛋的人必須進行一次DC20的體質豁免，成功則最低一項屬性永久+1（多個屬性同爲最低則隨機決定）。豁免失敗則該生物體內發生魔法爆炸，造成[[[/r 10d6]]力場傷害。</td>\n</tr>\n<tr>\n<td>91-99</td>\n<td>一座佔地60平方尺的金字塔從地下升起。金字塔內是一名@UUID[Compendium.dnd5e_classpack.monsterspack.UFW8M3JHzHkxUEGM]{木乃伊領主Mummy Lord}的石棺。金字塔是木乃伊領主的巢穴，其棺內的寶藏由DM決定。</td>\n</tr>\n<tr>\n<td>00</td>\n<td>一顆巨大的豌豆莖從地下長出，其高度由DM決定。莖的頂端通往DM選擇的地點，例如一處宏偉的景點，一座@UUID[Compendium.dnd5e_classpack.monsterspack.Aw2wmqGIatxe2ImI]{云巨人}的城堡，或是異位面。</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 152"
+    },
+    "quantity": 1,
+    "weight": 3.5,
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 12,
+      "max": "12",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "5d4",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010439307,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 35700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!3E27D711AF2DE5EC"
+}

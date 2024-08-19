@@ -1,0 +1,132 @@
+{
+  "_id": "ew36NWkbgd7kVKlu",
+  "name": "被遺忘者的法杖 Staff of the Forgotten One",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-metal-mask.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需要由術士、邪術師或法師進行同調）</em></p>\n<p>這柄扭曲的法杖由骨頭製成，其頂部嵌有一顆被遺忘的大法師的顱骨，它的主人在許久之前被阿瑟拉瑞克毀滅。顱骨的前額蝕刻著阿瑟拉瑞克的符文，這些符文在許多位面被視作死亡的標記。</p>\n<p><strong>增益特性 Beneficial Properties</strong>。當你攜有這柄法杖時，你獲得如下增益：</p>\n<ul>\n<li>你進行智力（奧秘）以及智力（歷史）的檢定時，熟練加值翻倍。</li>\n<li>你無法陷入目盲，魅惑，耳聾，恐慌，石化，震懾狀態。</li>\n<li>CR2及以下的不死生物無法威脅也無法攻擊你，除非你傷害他們</li>\n<li>你可以將這柄法杖作為+3長棍使用，每次命中時它會額外造成10（[[/r 3d6]]）點黯蝕傷害。</li>\n</ul>\n<p><strong>施加詛咒 Invoke Curse</strong>。被遺忘者的法杖擁有七次充能上限，並在每個黎明重新恢復[[/r 1d4+3]]次被使用的充能，手持這柄法杖時，你可以以一個動作，花費一次充能選擇在六十尺內你可以看到的一個生物。這個目標必須成功通過體質豁免檢定（DC為你的法術豁免DC），否則就會被詛咒。如果以此種方式被詛咒，目標無法恢復生命值，並對黯蝕傷害有易傷。@UUID[Compendium.dnd5e_classpack.new-icon.7dqplcsKNYQgRh2S]{高等復原術 Greater Restoration}，@UUID[Compendium.dnd5e_classpack.new-icon.ewDH2w8w2yLSM021]{移除詛咒 Remove Curse}即類似的法術能夠結束目標身上的詛咒效果。</p>\n<p><strong>被遺忘者 The Forgotten One</strong>。死亡的大法師的無形生命力量充斥著這柄法杖且被囚禁其中。刻與法杖的顱骨上的符文避免了阿瑟莫拉克遭到這個亡魂的腐臭。每當除了阿瑟莫拉克之外的生物耗費了法杖的充能時，這股生命力量有五成可能嘗試佔據法杖的使用者。使用者必須通過DC20的魅力豁免檢定，否則就會被憑依，成為DM控制下的一名NPC。如果來襲的生命力量被一些魔法比如說反制善惡作為目標，它就會被再一次困於法杖之中。一旦它成功控制了另一個生物，死亡的大法師的瘋狂甚至就會嘗試摧毀這柄法杖。</p>\n<p><strong>摧毀法杖 Destroying the Staff</strong>。擁有這柄法杖的人可以用一個動作將它在膝蓋上折斷，或者在一個堅固表面上將其破壞。這個動作執行會導致法杖被摧毀，並以法杖為中心釋放出殘餘的魔法，造成異常30尺半徑的球形爆炸。所有在這片區域的生物都需要進行一次DC18的敏捷豁免檢定，失敗承受132（[[/r 24d10]]）的力場傷害，成功則傷害減半。如果法杖被摧毀，被遺忘者的生命力量會被釋放至輪迴 Afterlife。具體去哪兒了就只能猜猜看了。 <br />將法杖投入湮滅法球會同時摧毀法杖以及其內束縛著的生命力量。以此方式摧毀法杖不會導致爆炸，但是它的毀滅也會導致法球被破壞。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ToA",
+    "quantity": 1,
+    "weight": 4,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "artifact",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "day"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "+3",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6+3+@mod",
+          "bludgeoning"
+        ],
+        [
+          "3d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": "1d8+3+@mod"
+    },
+    "formula": "1d4+3",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "quarterstaff",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!ew36NWkbgd7kVKlu"
+}

@@ -1,0 +1,94 @@
+{
+  "_id": "cAH59BK1ZibVqkYz",
+  "name": "粉碎棒 Shatterstick",
+  "type": "consumable",
+  "img": "icons/commodities/wood/log-cut-petrified-violet.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>粉碎棒是一種非魔法的12寸長4磅重的棍子，由開採於九獄的第八層卡尼亞的泛藍煉獄鋼製成。當棍子嵌入泥土或被插進堅硬的巖石中時，它會在半徑20尺內以自身為中心發出一種持續一分鐘的地震振動，震動該範圍內的地面。當效應結束時，粉碎棒會碎裂並失去作用，但它周圍20尺內的所有建築物都會受到35([[/r 10d6]])點鈍擊傷害。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "BGDIA",
+    "quantity": 1,
+    "weight": 4,
+    "price": null,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket"
+  },
+  "_key": "!items!cAH59BK1ZibVqkYz"
+}

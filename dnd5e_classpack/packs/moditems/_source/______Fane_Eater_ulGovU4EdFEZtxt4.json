@@ -1,0 +1,128 @@
+{
+  "_id": "ulGovU4EdFEZtxt4",
+  "name": "神殿吞食者 Fane-Eater",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-broad-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需一名邪惡牧師或聖武士同調）</em></p>\n<p>神殿吞食者是一把屬於殘暴者阿克汗的戰斧。</p>\n<p>你在使用神殿吞食者發動的攻擊檢定和傷害擲骰獲得+3加值。 當你使用該武器命中一名生物並在攻擊檢定中擲出20時，該生物受到額外的[[/r 2d8]]點黯蝕傷害，並且你將獲得與該黯蝕傷害相同數值的生命值。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "BGDIA",
+    "quantity": 1,
+    "weight": 4,
+    "price": null,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "+3",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8+3+@mod",
+          "slashing"
+        ]
+      ],
+      "versatile": "1d10+3+@mod"
+    },
+    "formula": "2d8",
+    "save": {
+      "ability": "",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "battleaxe",
+    "properties": {
+      "ver": true,
+      "mgc": true,
+      "rch": false,
+      "amm": false,
+      "ret": false,
+      "fir": false,
+      "ada": false,
+      "fin": false,
+      "lgt": false,
+      "two": false,
+      "spc": false,
+      "thr": false,
+      "sil": false,
+      "hvy": false,
+      "rel": false,
+      "foc": false,
+      "lod": false
+    },
+    "proficient": false,
+    "attuned": true,
+    "speed": {
+      "value": null,
+      "conditions": ""
+    }
+  },
+  "_key": "!items!ulGovU4EdFEZtxt4"
+}

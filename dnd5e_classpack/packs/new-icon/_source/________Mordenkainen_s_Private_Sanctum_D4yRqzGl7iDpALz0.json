@@ -1,0 +1,130 @@
+{
+  "_id": "D4yRqzGl7iDpALz0",
+  "name": "魔鄧肯私人密室 Mordenkainen's Private Sanctum",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Druid_LunarGuidance.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你對施法距離內一片區域施以魔法防護。該區域為一立方區域，其邊長至小5尺，大至100尺。該法術一直持續至持續時間結束或施法者以一個動作主動解除。\n<br>施展該法術時，其生效的保護內容由你決定。在以下幾項屬性中作選擇，你可以選擇若干項或者全部選擇：\n<br>聲音不能穿透被保護區域邊緣的障壁\n<br>被保護區域的障壁變得黑暗而模糊，無法通過視覺（包括黑暗視覺）看穿。\n<br>預言法術創造的感測器無法出現在被保護區域內，也無法穿過區域邊界處的障壁。\n<br>區域內的生物不能成為預言法術的目標。\n<br>任何事物無法通過傳送進出被保護區域。\n<br>在被保護區域內，位面旅行被封鎖。\n<br>每日在同一個位置施展此法術，持續一年，會使這些效果成為永久性效果。\n<br><strong>升環施法效應。</strong>使用5環或更高法術位施展此法術時，你使用的法術位每比4環高一環，你就可以將被保護的立方區域邊長增加100尺。比如使用5環法術位時，你就能保護邊長至多200尺的立方區域。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 100,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一片薄鉛片、一塊不透明的玻璃、一小塊棉花或布料和貴橄欖石粉末",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 10000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720802935110,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!D4yRqzGl7iDpALz0"
+}

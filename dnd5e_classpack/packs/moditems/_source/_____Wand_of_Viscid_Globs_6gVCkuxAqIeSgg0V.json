@@ -1,0 +1,89 @@
+{
+  "_id": "6gVCkuxAqIeSgg0V",
+  "name": "粘球魔杖 Wand of Viscid Globs",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-ornate-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<h4><strong>卓爾製品Drowcraft Items </strong></h4>\n<p>由卓爾製作的（或是由幽暗地域其他種族製作的某些）魔法物品，都是由一些無法接觸日光的物質或儀式製成。許多這類物品（包括卓爾的護甲、武器和魔法斗篷之類）當暴露在陽光下超過1小時就會失去其魔力。充能物品則會被徹底摧毀。</p>\n</blockquote>\n<p><em>魔杖（需同調）</em></p>\n<p>這根卓爾製作的黑細魔杖有7 發充能。持握該魔杖時，你可以用一個動作並消耗1 發充能，向身邊60 尺範圍內的一個目標發射一個粘球。對該目標進行一次遠端攻擊檢定，其攻擊加值為你的熟練加值加你的施法關鍵屬性調整值（沒有施法關鍵屬性時按智力調整值算）。若命中，則粘球炸開並在目標身上凝固，以此使目標受束縛1 小時。時間過後，其身上的粘性物質自然破裂脫落。</p>\n<p>被困目標可以至少一品脫劑量的酒精使其身上的粘質溶解，@UUID[Compendium.dnd5e_classpack.itempack.76A53FC1DC160E02]{靈化之油 Oil of Etherealness}或@UUID[Compendium.dnd5e_classpack.itempack.6BC1A57F655FB594]{萬溶劑 Universal Solvent}也可以實現同樣的效果。其粘質暴露在陽光下時也會立即溶解。</p>\n<p>此外的其他非魔法手段都無法移除魔杖產生的粘性物質。</p>\n<p>每日午夜時，魔杖會恢復[[/r 1d6+1]]發充能。當你用掉魔杖最後一發充能時骰一次[[/r d20]]，若骰值為1，則魔杖將隨之融化為一灘軟泥而徹底摧毀。</p>\n<p>粘球魔杖在陽光下連續暴露超過1個小時便會魔力盡失。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "OoTA",
+    "quantity": 1,
+    "weight": 1,
+    "price": 0,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rsak",
+    "attackBonus": "-10-@mod+ @attributes.spelldc+@attributes.prof",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6+1",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "wand"
+  },
+  "_key": "!items!6gVCkuxAqIeSgg0V"
+}

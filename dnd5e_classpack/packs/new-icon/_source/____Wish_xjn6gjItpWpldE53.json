@@ -1,0 +1,131 @@
+{
+  "_id": "xjn6gjItpWpldE53",
+  "name": "祈願術 Wish",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/002636.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 祈願術wish 是凡間生物所能施展的最強大法術。你只需要大聲說出自己的願望就能將現實世界的根基操弄於手中。\n<br>此法術最基礎的用法是用來模仿任意一個8環或更低環階的法術。你不需要滿足目標法術所需的任何前提條件（包括昂貴的材料成分）就可以讓該法術生效。\n<br>除此之外，你也可以選擇創造下列效應其中之一：\n<br>你創造出一個價值不超過25,000gp 的物件。該物件不能是魔法物品。該物件最長尺寸不能超過300尺，並隨法術出現在地面上你能看見的一處未被佔據位置。\n<br>你讓至多二十個你能看見的生物恢復其全部生命值，並且終止它們身上一切在高等復原術greater restoration 中描述過的效應。\n<br>你讓至多十個你能看見的生物對你所指定的一種傷害型別具有抗性。\n<br>你讓最多十個你能看見的生物在八小時內免疫某種法術或其他魔法效應。例如，你可以使你自己和你的所有同伴免疫巫妖的吸取生命攻擊。\n<br>你改變一件剛剛發生的事件。重擲前一輪的任意一次擲骰（包括你前一回合進行的擲骰），並讓現實隨著你的新擲骰結果改變。例如，祈願術wish 可以撤銷對手的成功豁免，敵人的重擊或同伴的失敗豁免。你可以迫使重新進行的擲骰具有優勢或劣勢，並且可以選擇是使用重投后的結果還是使用原來的結果。\n<br>上述範例效應之外，你也許還能達成其他某些結果。你可以詳細的跟DM 說明你的願望，並由DM 對其作出判定。不過你的願望越大，出錯的概率就越大。法術可能會直接失敗，也可能部分的達成你想要的結果，你還有可能因表述願望時措辭不當而遭到意想不到的結果。例如，許願讓一個壞人死去可能會讓你穿越到多年後該人已死的一個時間段，使你相當於離開了遊戲一樣。此外，許願獲取一件傳說中的魔法物品或神器可能會立即將你傳送到該物品目前的持有者身邊。\n<br>施放該法術來達成除了模仿其他法術外的任何目的都會使你承受極大的負擔。承受這種負擔之後，直到你完成一次長休息之前，你每次施放法術時都將受到一定傷害（傷害數值與施放法術的環階相關，每環1d10的黯蝕傷害）。你無法以任何方式減輕或防止這種傷害，而你的力量值在也將在2d4日內降至3（除非它已經是3或更低）。在這段時間裡，你每花一整日休息（不從事任何費力的工作），恢復需要的日數就減少2日。最後，如果你承受了這種負擔，你將有33%的概率再也無法施放祈願術。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 288",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          "necrotic"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 9,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 51200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711703742612,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xjn6gjItpWpldE53"
+}

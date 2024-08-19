@@ -1,0 +1,156 @@
+{
+  "name": "馬友夫微流星x1 Melf』s Minute Meteors",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "somatic",
+        "material",
+        "concentration"
+      ]
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "cc68137b01571936a3ffa184e4bc2e44a2b32301",
+      "sourceId": "Actor.bvEYS7EFkAFT4pCf.Item.SbBIyHQphiXAohER"
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_warlock_burningembers.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你在你所在的空間內製造出六顆微型流星。它們會懸浮在空氣中，在法術的持續時間內以你為中心繞轉。當你釋放此法術——及在你之後的每個回合中通過使用一個附贈動作——你能釋放一到兩顆流星，讓它們襲擊你周圍120英尺範圍內的一點。一旦流星到達目的地，或是撞擊到了固體表面，它會發生爆炸。在流星爆炸點周圍5英尺的生物均必須進行一次敏捷豁免檢定。檢定失敗者受到2d6點火焰傷害，檢定成功則只受到上述傷害的一半。</p>\n<p><strong>升環效果：</strong>當你使用4環或更高的法術位施放該法術時，使用的法術位每高一環，創造出的流星數量就增加兩顆。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "radius",
+      "width": null,
+      "prompt": true
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "evo",
+    "materials": {
+      "value": "由松木盛著的硝石和硫磺，外形為小珠子",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "atwill",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "cover": null,
+    "crewed": false,
+    "summons": null,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "BKSGjEZVDtK4HB0J": 3
+  },
+  "folder": null,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711700736939,
+    "modifiedTime": 1711700847457,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "8OAXWVD34QZT8WKC",
+  "sort": 0,
+  "_key": "!items!8OAXWVD34QZT8WKC"
+}

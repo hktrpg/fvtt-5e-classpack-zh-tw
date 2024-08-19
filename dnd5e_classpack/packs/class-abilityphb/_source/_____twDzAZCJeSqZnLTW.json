@@ -1,0 +1,93 @@
+{
+  "_id": "twDzAZCJeSqZnLTW",
+  "name": "神聖打擊",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_CrusaderStrike.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第8級起，你可以使你的武器充滿神聖能量。你在每個自己回合里有一次機會，可以在用武器攻擊命中某生物時，使該攻擊額外造成[[/r 1d8]]的光耀傷害。14級時，該傷害提升到[[/r 2d8]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 60",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "floor(@classes.cleric.levels/7)d8",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "生命、暮光領域等級 8",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!twDzAZCJeSqZnLTW"
+}

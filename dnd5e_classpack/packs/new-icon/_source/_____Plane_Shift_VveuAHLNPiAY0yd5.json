@@ -1,0 +1,128 @@
+{
+  "_id": "VveuAHLNPiAY0yd5",
+  "name": "異界傳送 Plane Shift",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/003143.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你和至多八個自願生物手拉手站成一圈，然後被傳送到一個不同的存在位面中。你可以概括地指名一個目的地（比如火元素位面的黃銅城，或者九層地獄第二層迪斯帕特的宮殿），然後你將出現在目的地裡或其附近附近。假設你想到達黃銅城，按照DM的判斷，你可能會傳送到達它的鋼鐵大道上，或它的灰燼之門前，又或者與城市隔著火焰之海相望之處。\n<br>另外，如果你知道某個處於另一位面的傳送法陣的印記序列，則該法術可以把你帶到該法陣處。如果該傳送法陣太小而裝不下所有你傳送的生物，則他們會出現在離傳送法陣最近的未佔據空間里。\n<br>你可以用該法術放逐一個非自願的生物到另一位面。指定一個你觸及範圍內的生物並對它進行一次近戰法術攻擊。命中時，此生物必須進行一次魅力豁免。豁免失敗者將被傳送到你指定位面的一個隨機地點。被這樣傳送走的生物必須自行尋找回到你現在位面的路。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 266",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 8,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一根與某個位面完成同調，價值至少 250gp 的分叉金屬短棒",
+      "consumed": false,
+      "cost": 250,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 28300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722353689688,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VveuAHLNPiAY0yd5"
+}

@@ -1,0 +1,172 @@
+{
+  "_id": "TsvhgdDRQPNMmC04",
+  "name": "裝甲師 Armorer（TCE）",
+  "type": "subclass",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>　　對於裝甲師專業的奇械師來說，裝甲就像是第二層面板。這一裝甲能夠增強奇械師的魔法，釋放強力的攻擊，產生絕佳的防護。這些奇械師與他們的裝甲之間有著強力的紐帶，在他們經過實驗並改進裝甲的魔法效能后，甚至能夠合二為一。</p>\n<blockquote>\n<p>經典的奇械師邏輯困局： 「如果，我們的發明出了那種會爆炸的問題時我們正在裡面該怎麼辦？ 」</p>\n<p><em> ——塔夏</em></p>\n</blockquote>\n<p><strong>本職工具 Tools of the Trade</strong></p>\n<p>　　你獲得重甲的熟練。你同時獲得@UUID[Compendium.dnd5e_classpack.itempack.B97AB85722BCF651]{鐵匠工具}的熟練，如果你已經熟練於此工具，作為代替，你能獲得另一種工匠工具的熟練。</p>\n<p><strong>裝甲師法術 Armorer Spells</strong></p>\n<p>　　只要你達到相應的職業等級，裝甲師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。</p>\n<table>\n<tbody>\n<tr>\n<th><strong>奇械師等級</strong></th>\n<th><strong>法術</strong></th>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.q0FYQJX9EBseJ9KN]{魔法飛彈}@UUID[Compendium.dnd5e_classpack.new-icon.8GM6YBgYFPIcFXKg]{雷鳴波}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.1EkQSAH6o8WMxUU3]{鏡影術}@UUID[Compendium.dnd5e_classpack.new-icon.3m0QZZAQfR4jXS9q]{粉碎音波}</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.BbpCbjCXt14a08Jp]{催眠圖紋}@UUID[Compendium.dnd5e_classpack.new-icon.dHg72reVMXYFu4lR]{閃電束}</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.AdWubx1kFJLe8QDa]{火焰護盾}@UUID[Compendium.dnd5e_classpack.new-icon.Au584WRiGch84PXI]{高等隱形術}</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>@UUID[Compendium.dnd5e_classpack.new-icon.EoIuyVnLAF4DyTO7]{穿墻術}@UUID[Compendium.dnd5e_classpack.new-icon.31jKHMGJ0vlqdvQU]{力場墻}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "identifier": "armorer",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "tkbgdbxvtxpu7hy5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.q0FYQJX9EBseJ9KN",
+            "Compendium.dnd5e_classpack.new-icon.8GM6YBgYFPIcFXKg"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "g4zf4sd250fujr18",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.1EkQSAH6o8WMxUU3",
+            "Compendium.dnd5e_classpack.new-icon.3m0QZZAQfR4jXS9q"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "9gux83m1up7lh3r9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.BbpCbjCXt14a08Jp",
+            "Compendium.dnd5e_classpack.new-icon.dHg72reVMXYFu4lR"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "wwxsap8xb3qeivcw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.AdWubx1kFJLe8QDa",
+            "Compendium.dnd5e_classpack.new-icon.Au584WRiGch84PXI"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 13,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "xtggaeyr4hmz2fse",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.new-icon.EoIuyVnLAF4DyTO7",
+            "Compendium.dnd5e_classpack.new-icon.31jKHMGJ0vlqdvQU"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 17,
+        "title": "獲得法術",
+        "icon": ""
+      },
+      {
+        "_id": "ghdml62lf7ggrhk9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.wefEDw2QaHeaBZig",
+            "Compendium.dnd5e_classpack.extra-ability.RblUGsE7qH9JxlZi"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "6ptlppq33l9j3s9q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.WKQXfXbifuoCk1V1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 5,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "regcm0ht1xm0q4bi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.9ezZhCxEiUIrw48w"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 9,
+        "title": "職業特性",
+        "icon": ""
+      },
+      {
+        "_id": "c7jrwpcj96gafkuw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.extra-ability.KyeKeVKvTJbZdiBG"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "_key": "!items!TsvhgdDRQPNMmC04"
+}

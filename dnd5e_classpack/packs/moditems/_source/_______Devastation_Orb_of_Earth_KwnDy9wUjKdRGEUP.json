@@ -1,0 +1,89 @@
+{
+  "_id": "KwnDy9wUjKdRGEUP",
+  "name": "土之毀滅法球 Devastation Orb of Earth",
+  "type": "consumable",
+  "img": "icons/weapons/thrown/grenade-round.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>毀滅法球是一種元素炸彈，可以在元素節點上通過使用邪惡元素武器進行儀式來製造。建立的法球型別取決於製造所使用的節點。例如，一個氣元素節點會產生一個氣之毀滅法球。這個儀式需要1個小時完成，需要2000gp的特殊材料，這些成分將會被消耗掉。</p>\n<p>毀滅法球直徑12寸，重10磅，外殼堅固。這個球體在誕生后[[/r 1d100]]小時將會爆炸，釋放出它所包含的元素能量。這個球體沒有任何跡象顯示它還需要多久才會爆炸。諸如@UUID[Compendium.dnd5e_classpack.new-icon.tyshE8ZcV1Xniej3]{鑑定術 Identify}和@UUID[Compendium.dnd5e_classpack.new-icon.0An7Gb3wSSffcHhV]{預言術 Divination}之類的法術可以用來確定球體爆炸的時間。一個球體有10點AC，15點生命值，對毒素和心靈傷害有免疫。降低到0點生命值會導致法球立刻爆炸。</p>\n<p>好在，可以製作一個特殊的容器來存放一個毀滅法球，以此防止它一言不合就爆炸。容器必須刻有球體相反元素的符號。例如，一個刻有大地符號的盒子可以用來封存一個氣之毀滅法球。在容器中，球體會緩緩旋轉。如果在本應引爆的時間之後將其從容器中取出，則法球會在[[/r 1d6]]輪之後爆炸，除非將其放回容器。</p>\n<p>無論法球的型別如何，它的作用範圍都是一個半徑為1里的球型區域。區域的中心是法球所在位置。一次使用后球體會被摧毀。</p>\n<p><strong>大地法球Earth Orb</strong>。當這個法球爆炸時，它使該區域受到@UUID[Compendium.dnd5e_classpack.new-icon.Yu7PAWvfqY70wBm2]{地震術 Earthquake}的影響直至1分鐘（法術豁免DC18）。該法術在球體爆炸的回合中施放。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PotA",
+    "quantity": 1,
+    "weight": 10,
+    "price": 2000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "mi",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "d100",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "ammo"
+  },
+  "_key": "!items!KwnDy9wUjKdRGEUP"
+}

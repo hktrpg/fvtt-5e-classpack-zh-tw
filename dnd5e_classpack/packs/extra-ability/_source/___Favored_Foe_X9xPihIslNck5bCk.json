@@ -1,0 +1,96 @@
+{
+  "_id": "X9xPihIslNck5bCk",
+  "name": "夙敵 Favored Foe",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Hunter_SniperTraining.png",
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p>替換@UUID[Compendium.dnd5e_classpack.class-abilityphb.FxSEAmMXMIcv4iWm]{宿敵}並能夠對@UUID[Compendium.dnd5e_classpack.class-abilityphb.V7VI6TXZ7LJzP8Fd]{屠滅眾敵}起效。</p>\n</blockquote>\n<p>當你以一次攻擊擲骰命中一個生物時，你可以呼喚你與自然的神秘羈連以將目標標記為你的夙敵，持續一分鐘或直到你失去專注(如同你在專注一道法術)。</p>\n<p>你在你的回合內第一次命中你的夙敵並對其造成傷害，包括你標記它的時候，你可以造成額外的[[/r 1d4]]點傷害。你可以使用同等於你的熟練加值次該特性來標記你的夙敵，你在完成一次長休后恢復所有已使用的次數。這個特性的額外傷害在你達到特定等級時會增加：6級時[[/r 1d6]]，14級時[[/r 1d8]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "2",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "d(floor((2+@classes.ranger.levels)/8)*2+6)",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "遊俠等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685541018409,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!X9xPihIslNck5bCk"
+}

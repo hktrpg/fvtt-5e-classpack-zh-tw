@@ -1,0 +1,91 @@
+{
+  "_id": "VJHMkz9DNOnuIsQ8",
+  "name": "復原藥劑 Restorative Reagents",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Mage_ConjureWater11.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從第9級起，你可以在你的一些作品中加入復原藥劑：每當一個生物飲用一劑你製造的@UUID[Compendium.dnd5e_classpack.extra-ability.sGggioh8w6WTNUbD]{實驗性靈藥}時，該生物獲得[[/r 2d6]]+你智力調整值的臨時生命值。（至少1點臨時生命點）。</p>\n<p>         此外，只要你使用@UUID[Compendium.dnd5e_classpack.itempack.EFBBAE8B63126638]{鍊金工具}作為法器，就可以在不花費法術位的情況下施展@UUID[Compendium.dnd5e_classpack.new-icon.I1C2EQxwynPd7dOC]{次級復原術}。你能夠這麼做的次數等於你的智力調整值（最少1次），在你完成一次長休后，將恢復所有可用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ERLW",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.int.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6+@abilities.int.mod",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "鍊金師等級 9",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!VJHMkz9DNOnuIsQ8"
+}

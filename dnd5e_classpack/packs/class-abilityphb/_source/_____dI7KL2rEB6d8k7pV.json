@@ -1,0 +1,94 @@
+{
+  "_id": "dI7KL2rEB6d8k7pV",
+  "name": "風暴狂怒",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_ThunderKing_Overcharge.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        第1級起，你可以用雷蓮驅逐攻擊者。身處你周邊5尺範圍內一個你能看見的生物攻擊命中你時，你可以用你的反應迫使該生物進行一次敏捷豁免。豁免失敗者將受到[[/r 2d8]]點閃電或雷鳴傷害(由你選擇)，豁免成功則傷害減半。</p>\n<p>        你可以使用該特性的次數等於你的感知調整值(至少為一次)。而你將在完成一次長休後重新恢復所有的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 60",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "周邊五尺內一個你能看見的生物攻擊命中你時。"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.wis.mod,1)",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "lightning"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "風暴領域等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dI7KL2rEB6d8k7pV"
+}

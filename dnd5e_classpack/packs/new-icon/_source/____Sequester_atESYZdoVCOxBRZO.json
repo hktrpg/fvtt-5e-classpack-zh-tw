@@ -1,0 +1,127 @@
+{
+  "_id": "atESYZdoVCOxBRZO",
+  "name": "隔離術 Sequester",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/SPELL_HOLY_BORROWEDTIME.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 該法術能夠將一個自願的生物或物體藏匿起來，使其在法術結束前都無法被偵測。施展該法術並且觸碰目標時，目標變為隱形且不能被作為預言系法術的目標，也無法被預言系法術創造出的感測器所感知。\n<br>如果法術的目標是一個生物，則目標將進入假死狀態。時間在受術者的世界中停止了流動，因此它不會衰老。\n<br>你可以設定一個讓該法術提前終止的條件。該條件由你自由設定，但必須是發生在目標周圍1里內或目標在周圍一英里內能看見的事件。例如：「1000年以後」或者「當泰拉斯奎巨獸覺醒時」。如果受術者受到任何傷害，則該法術立刻終止。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 274",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 7,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "鑽石、綠寶石、紅寶石、藍寶石得粉塵混合而成的粉末，其價值至少 5000gp，作為該法術的耗材",
+      "consumed": true,
+      "cost": 5000,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 33400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717698160340,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!atESYZdoVCOxBRZO"
+}

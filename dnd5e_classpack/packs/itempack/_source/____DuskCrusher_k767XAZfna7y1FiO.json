@@ -1,0 +1,132 @@
+{
+  "name": "碎暮者 DuskCrusher",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\"><p class=\"MsoNormal\"><span style=\"FONT-SIZE:10pt;COLOR:black\">這件魔法物品的外觀像是一根用皮革包裹著的金屬棒，上面裝飾著黎明之父培羅的徽記。持握此武器時，你可以用一個附贈動作讓一團噼啪作響的光輝噴薄而出。這柄戰錘由光組成的錘頭可以為其身邊</span><span class=\"1\">15</span><span style=\"FONT-SIZE:10pt;COLOR:black\">尺半徑範圍提供明亮光照，以及其外</span><span class=\"1\">15</span><span style=\"FONT-SIZE:10pt;COLOR:black\">尺範圍的微光光照。戰錘發出的光視為陽光。</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /><span style=\"FONT-SIZE:10pt;COLOR:black\">碎暮者的錘頭被啟用后，你在使用碎暮者發動的攻擊和傷害擲骰獲得</span><span class=\"1\">+2</span><span style=\"FONT-SIZE:10pt;COLOR:black\">加值，它造成光耀傷害而非鈍擊傷害。被這柄戰錘擊中的不死生物將額外受到[[/r 1d8]]點光耀傷害。</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /><span style=\"FONT-SIZE:10pt;COLOR:black\">你持握錘頭被啟用后的碎暮者時，你可以使用一個動作施放法術@UUID[Compendium.dnd5e_classpack.new-icon.Item.oU9SfwCYsV2eiZiQ]{陽炎射線}</span><span class=\"1\">(</span><span style=\"FONT-SIZE:10pt;COLOR:black\">豁免</span><span class=\"1\">dc15)</span><span style=\"FONT-SIZE:10pt;COLOR:black\">。第二天黎明前，此特性無法再次使用。</span><br style=\"WORD-SPACING:0px;ORPHANS:2;WIDOWS:2;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial\" /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "EGtW"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 50000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +2",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d10 + @mod +2"
+    },
+    "formula": "1d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "warhammer"
+    },
+    "attack": {
+      "bonus": "2",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692163946630,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "k767XAZfna7y1FiO",
+  "sort": 131500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!k767XAZfna7y1FiO"
+}

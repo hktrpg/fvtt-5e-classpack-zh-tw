@@ -1,0 +1,111 @@
+{
+  "_id": "oriOMAUpIf7Xkeq8",
+  "name": "阿迦納薩噴火術 Aganazzar』s Scorcher",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_rhyolith_magmaflow_wave.jpg",
+  "effects": [],
+  "folder": null,
+  "sort": 44000000,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>一道長30英尺，寬5英尺的翻涌火線從你向一個你選定的方向蔓延。在該線中的生物必須進行一次敏捷豁免檢定。豁免失敗的生物受到3d8點火焰傷害，而豁免成功則只受到上述傷害的一半。</p>\n<p><strong>升環效果：</strong>當你使用3環或更高的法術位施放該法術時，使用的法術位每高一環，傷害便增加1d8。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "wall"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一片紅龍的鱗片",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": null,
+    "modifiedTime": 1717426487214,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oriOMAUpIf7Xkeq8"
+}

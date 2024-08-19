@@ -1,0 +1,124 @@
+{
+  "_id": "wQtUjvfS0MXMFp06",
+  "name": "幻術學派 School of Illusion",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack/Nicons/ability_mage_GreaterInvisibility.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>        你專注於用魔法擾亂感官，迷惑意識，甚至可以欺詐最具智慧的人。你的魔法看似細微卻奧妙無窮，這些用你的敏銳思維創造的幻象足夠以假亂真。一些幻術師(包括許多侏儒法師)是些以法術娛樂他人的和善戲法師。而另一些更險惡的欺詐大師，則用他們的幻術恐嚇愚弄他人以滿足其個人的利益。</p>\n<p><strong>幻術學者Illusion Savant</strong></p>\n<p>        從第2級你選擇該學派起,你向法術書中抄寫幻術系法術的時間和金錢花費減半。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "school-of-illusion",
+    "classIdentifier": "wizard",
+    "advancement": [
+      {
+        "_id": "u6mkf8avr1c7kg3x",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.lnr4PHCReFAzQhXg"
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性"
+      },
+      {
+        "_id": "m7xdaseh3xfcxnki",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.vn5jPYjB6w0GmfCY"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性"
+      },
+      {
+        "_id": "hges9zqopy5eooq6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.Dwrhd7TijJRyg4iN"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性"
+      },
+      {
+        "_id": "4ji7jkn04mibz987",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.dnd5e_classpack.class-abilityphb.utiy2TGJ0Ue1P3RL"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "職業特性"
+      },
+      {
+        "_id": "9hH9IPSSwuERt8eK",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "2": 1
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [
+            "Compendium.dnd5e_classpack.new-icon.Item.ErbvJsxASx22Goxe"
+          ],
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "restriction": {
+            "level": "0"
+          },
+          "hint": "從第2級你選擇該學派起，你習得戲法次級幻影。如果你已學會此戲法，則你可以學習另一個自選的法師戲法。該戲法不計入你的已知戲法數目限制。你施展戲法次級幻影時，可以在一次施法中同時創造出聲音和影像。"
+        },
+        "value": {},
+        "title": "精通次級幻影"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1685805908026,
+    "lastModifiedBy": "Jo05tXxu7yf2dQe3",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wQtUjvfS0MXMFp06"
+}

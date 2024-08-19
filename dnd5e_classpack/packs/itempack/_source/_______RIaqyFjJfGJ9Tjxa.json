@@ -1,0 +1,130 @@
+{
+  "name": "探索者護目鏡",
+  "type": "equipment",
+  "img": "icons/equipment/head/helm-spangen-horned-gold.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left\"><em>（需持有探索龍紋的生物同調）</em></p></div><div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left\">這個花哨的護目鏡用西伯瑞斯龍晶作為鏡片材料。戴上護目鏡時，你獲得以下益處：</p><ul><li><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;LINE-HEIGHT:16.8pt\">當你進行感知（洞察）檢定時，你可以投擲一枚d4，將結果計入檢定。</p></li><li><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;LINE-HEIGHT:16.8pt\">以一個動作，你可以使用護目鏡檢查一個物品，確認上一個觸控它的生物的靈光。進行一次感知（洞察）檢定，對抗難度DC=13+該物品上次被觸控之時距離今天的天數。檢定一旦成功，你就能得知該生物的型別，同時你還可以立即使用護目鏡施展一個@UUID[Compendium.dnd5e_classpack.new-icon.Item.s9CC5wvKMHq42hPY]{生物定位術}以找到這個生物。本能力直到次日黎明前將無法再使用。</p></li></ul></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 168"
+    },
+    "quantity": 1,
+    "weight": 4,
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "與目標類人生物可以互相看見對方。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "day",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691478885850,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "RIaqyFjJfGJ9Tjxa",
+  "sort": 114400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!RIaqyFjJfGJ9Tjxa"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "WrdYtYe9gaMhdkvq",
+  "name": "啟悟傳播 Infectious Inspiration",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/002615.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         14級起，當你成功地激勵了某人，你的雄辯之力便可以傳播到他人的身上。當你身邊60尺內的一個生物將你的@UUID[Compendium.dnd5e_classpack.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}骰加到其屬性檢定、攻擊檢定或豁免檢定並且該擲骰成功時，你可以用你的反應去激勵在你身邊60尺內能聽到你聲音的一個其他生物（不能指定你自身），給予該生物一個詩人激勵而不需要消耗你任何的詩人激勵。</p>\n<p>         你能夠使用該特性的次數等於你的魅力調整值（最低一次）。完成一次長休后，你將重獲所有消耗掉的詩人激勵次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "MOT",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "max(@abilities.cha.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "雄辯學院等級 14",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!WrdYtYe9gaMhdkvq"
+}

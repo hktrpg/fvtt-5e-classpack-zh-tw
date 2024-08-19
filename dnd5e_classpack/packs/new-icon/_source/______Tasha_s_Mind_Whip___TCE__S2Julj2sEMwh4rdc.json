@@ -1,0 +1,213 @@
+{
+  "_id": "S2Julj2sEMwh4rdc",
+  "name": "塔莎心靈鞭 Tasha』s Mind Whip  (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "halfdam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": true,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/spell_priest_voidform.jpg",
+  "effects": [
+    {
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "startRound": null,
+        "startTime": null,
+        "startTurn": null,
+        "turns": null,
+        "combat": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "ActiveEffect.SDrUwzuaGgY9Zvev"
+        },
+        "dfreds-convenient-effects": {
+          "description": "緩慢 Slowed 如同緩慢術的效果，如果在緩慢狀態下再次受到緩慢影響將會陷入失能",
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "times-up": {
+          "isPassive": false
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "count",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [],
+          "disableIncapacitated": false,
+          "dontApply": false,
+          "showIcon": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "nameOverride": "",
+          "customCheck": "",
+          "wallsBlock": "system"
+        }
+      },
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.S2Julj2sEMwh4rdc",
+      "tint": "#ffffff",
+      "transfer": false,
+      "_id": "VfdhnTyZRUgnBemB",
+      "name": "恍惚",
+      "description": "<div class=\"Section0\" style=\"LAYOUT-GRID:15.6pt none\"><h4 style=\"MARGIN:2pt 0pt;mso-pagination:widow-orphan\"><strong>恍惚</strong></h4><p class=\"26\" style=\"MARGIN-BOTTOM:0pt;MARGIN-TOP:0pt;LINE-HEIGHT:13pt;MARGIN-RIGHT:0pt;TEXT-INDENT:12pt;mso-pagination:widow-orphan;mso-char-indent-count:1.0000;mso-add-space:auto;mso-line-height-rule:exactly\">·恍惚的生物不能執行反應。</p><p class=\"26\" style=\"MARGIN-BOTTOM:0pt;MARGIN-TOP:0pt;LINE-HEIGHT:13pt;MARGIN-RIGHT:0pt;TEXT-INDENT:12pt;mso-pagination:widow-orphan;mso-char-indent-count:1.0000;mso-add-space:auto;mso-line-height-rule:exactly\">·恍惚的生物在自己的回合內，只能從動作、附贈動作、消耗移動力三種行為中選擇一項執行。</p></div>",
+      "statuses": [
+        "Convenient Effect: 恍惚"
+      ],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "icons/svg/daze.svg",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!S2Julj2sEMwh4rdc.VfdhnTyZRUgnBemB"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div>&nbsp; &nbsp; &nbsp; &nbsp; 你對施法距離內一個你可見的生物進行心靈猛擊。目標必須進行一次智力豁免。若豁免失敗，目標會受到 3d6 精神傷害，並且直到其下一回合結束前不能做出反應。此外，它在自己的下一回閤中，只能選擇在移動、動作或附贈動作中採取一種。若豁免成功，目標只受到半額傷害，並且不會受到該法術的其他效應。<br>　　<strong>升環施法效應：</strong>使用三環或更高的法術位施展該法術時，你使用的法術位每比二環高 1 環就可以額外指定一個生物。被你選為目標的生物互相之間的距離不能超過 30 尺。</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "psychic"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 24400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711704938975,
+    "modifiedTime": 1711704952199,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!S2Julj2sEMwh4rdc"
+}

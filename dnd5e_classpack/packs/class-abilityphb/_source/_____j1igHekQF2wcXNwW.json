@@ -1,0 +1,89 @@
+{
+  "_id": "j1igHekQF2wcXNwW",
+  "name": "奧術回想",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Mage_PresenceOfMind.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你學會了通過研讀法術書來恢復魔法能量的辦法。你可以每日使用一次奧術回想，以在你完成一次短休后恢復若干已消耗的法術位，所恢復的法術位環階總和不得大於你法師等級的一半（向上取整），且任何一枚法術位的環階都必須小於6環。</p><p>例如，作為一名4級法師時，你可恢復環階總數最多為2的法術位。你可以選擇恢復一枚2環法術位或兩枚1環法術位。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 115",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "The wizard can recover this number worth of spells slots (of 5th-level or lower):",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "ceil(@classes.wizard.levels/2)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "法師等級 1",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!j1igHekQF2wcXNwW"
+}

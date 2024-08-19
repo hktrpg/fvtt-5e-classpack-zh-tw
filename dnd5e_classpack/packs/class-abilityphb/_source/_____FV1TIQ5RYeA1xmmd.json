@@ -1,0 +1,99 @@
+{
+  "_id": "FV1TIQ5RYeA1xmmd",
+  "name": "結社形態",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Shaman_FreedomWolf.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>結社的力量讓你可以變成更危險的動物形態。第2級起，你用@UUID[Compendium.dnd5e_classpack.class-abilityphb.pORTgCToV9NLPWo1]{荒野形態}特性變身的野獸其挑戰等級至高為1 (無視表格「野獸形態」中的「最高CR欄」，但限制依然生效)。</p>\n<p>        第6級起，你所變身野獸的挑戰等級最高等於你的德魯伊等級除以3 (向下取整)。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 66",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "type": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "max(floor(@classes.druid.levels/3),1)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "月亮結社等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 189
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FV1TIQ5RYeA1xmmd"
+}

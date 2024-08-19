@@ -1,0 +1,94 @@
+{
+  "_id": "lWw9NHXiINtblmGx",
+  "name": "陽光箭 Radiant Sun Bolt",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Priest_Flashoflight.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>從3級起，選擇了這個范型的武僧可以投擲出灼熱的箭矢。</p>\n<p>你可以在攻擊動作中使用一種特殊的遠端法術攻擊（射程30尺）。你熟練於這次攻擊，並且可以在攻擊和傷害骰上加上敏捷調整值。它造成光耀傷害，傷害骰為[[/r 1d4]]。傷害骰會隨著你的等級增長而改變，參考@UUID[Compendium.dnd5e_classpack.class-table.mslFlzSOAGX87lXV]{武僧表}中的武藝欄。</p>\n<p>如果你在自己的回合內用攻擊動作使用這種特殊攻擊，你可以花費1點氣，並且再用附贈動作用陽光箭進行兩次額外的攻擊。</p>\n<p>當你得到額外攻擊能力時，你可以在作為攻擊動作一部分的任意某次攻擊中使用這種特殊攻擊。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "SCAG",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "dex",
+    "actionType": "rsak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d((floor((@classes.monk.levels+1)/6))*2+4)+@mod +",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "日魂宗等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lWw9NHXiINtblmGx"
+}

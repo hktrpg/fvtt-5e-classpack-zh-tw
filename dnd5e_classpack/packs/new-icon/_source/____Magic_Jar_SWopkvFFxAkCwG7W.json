@@ -1,0 +1,127 @@
+{
+  "_id": "SWopkvFFxAkCwG7W",
+  "name": "魔魂壺 Magic Jar",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/inv_alchemy_90_combat1_green.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你的靈魂離開身體進入作為法術材料成分的容器中，而你的身體則陷入失神的狀況。靈魂處於容器中時，你可以如同身處容器所在位置一樣察覺周邊。你不能移動，也不能使用反應，而此時你唯一能做的動作就是將你的靈魂投射出容器至多100尺的距離，或者回到你仍活著的身體中去（並終止該法術），或者嘗試佔據另一個類人生物的身體。\n<br>你可以附身於任何距你100尺內你能看見的人形生物（受法術防護善惡 或防護法陣 所保護的生物無法被附身）。該目標必須進行一次魅力豁免。豁免失敗，則你的靈魂進入目標的身體，而目標的靈魂被困在容器中；豁免成功，則目標抵抗了你的附身，而隨後的24小時內你將無法再次嘗試附身該生物。\n<br>附身成功后，目標生物的身體將由你控制。你的遊戲資料將替換為該生物的屬性數據，不過你將保留自己的陣營以及智力、感知、魅力屬性值。你的職業特性增益也會在附身時維持，但你無法使用目標可能具有的任何職業特性。\n<br>此外，被附身生物的靈魂可以用它自己的感官從容器內部觀察外部，但它既不能移動也不能使用動作。\n<br>附身於一具軀體時，如果容器處在你身邊100尺內，則你可以用一個動作從宿主的身體回到容器中，並讓宿主的靈魂回到它自己的身體里。在你處於宿主的身體中時，如果宿主的身體死亡，則你必須進行一次對抗該法術豁免DC 的魅力豁免。豁免成功且容器距你不超過100尺時，你迴歸容器內。豁免失敗則即時死亡。\n<br>如果容器被毀或者法術終止，則你的靈魂會立即回到你自己身體里。如果你在嘗試回到自己身體時，身體距你超過100尺或者你的身體已死，則你也隨之死亡。如果容器被毀時另一生物的靈魂在容器內，且該生物的身體仍然活著並距它不超過100尺，則其靈魂會回到身體里。否則該生物死亡。\n<br>該法術終止時，其容器將隨之被摧毀。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 257",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一塊寶石或水晶，或者一個聖物匣，又或者他帶裝飾的容器，其價值不能低於 500gp",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 24900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1720803069927,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SWopkvFFxAkCwG7W"
+}

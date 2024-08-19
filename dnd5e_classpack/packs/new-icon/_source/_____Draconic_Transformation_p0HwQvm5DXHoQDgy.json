@@ -1,0 +1,223 @@
+{
+  "name": "龍類變形 Draconic Transformation",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_racial_visage.png",
+  "system": {
+    "description": {
+      "value": "<p>伴隨著一聲怒吼，你<span class=\"GramE\">用龍族的</span>魔法變化自身，獲得<span class=\"GramE\">多種龍族</span>特徵。直至法術結束，你獲得以下好處：<span><br />      </span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">盲視</span></strong>：你獲得<span>30</span>尺盲視。此範圍內，任何不處於全身掩護后的東西對於你來說清晰可見，即使你處於目<span class=\"GramE\">盲狀態</span>或黑暗中。此外，你可以看見隱形的生物，除非該生物對你處於躲藏狀態。<span><br />      </span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">吐息武器</span></strong>：當你施展此法術時，以及在持續時間內隨後的回合以一個附贈動作，你可以在<span>60</span>尺錐形內呼出一道閃著光的能量。範圍內的每個生物都必須成功通過一次敏捷豁免，否則受到<span>6d8</span>點力場傷害，成功則傷害減半。<span><br />      </span><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">飛翼</span></strong>：無形之翼從你背後長出，使你獲得<span>60</span>尺飛行速度。<span><br /><br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": 20,
+      "units": null,
+      "type": "self",
+      "prompt": false
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "一個龍形小雕像，價值至少500gp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "龍類變形 Draconic Transformation",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.p0HwQvm5DXHoQDgy",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "0uacPy6kvOWs77dz",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 2,
+          "value": "+60",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 2,
+          "value": "+60",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/ability_racial_visage.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!p0HwQvm5DXHoQDgy.0uacPy6kvOWs77dz"
+    }
+  ],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_id": "p0HwQvm5DXHoQDgy",
+  "folder": null,
+  "sort": 44400000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711699909889,
+    "modifiedTime": 1711699990205,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!p0HwQvm5DXHoQDgy"
+}

@@ -1,0 +1,91 @@
+{
+  "_id": "O3iKK0vtmoVxfUqo",
+  "name": "穿透箭 Piercing Arrow",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Hunter_Quickshot.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         你使用你的變化系魔法使你的箭變得虛無縹緲。當你使用該選項時，你不用為該次攻擊投攻擊骰，取而代之，這隻箭會在消失前劃出一條一尺寬30尺長的直線。這隻箭會無害地穿過物品且無視遮蔽。每一個在這條直線上的角色都必須通過一個敏捷豁免。如果失敗，角色會受到如同被這隻箭擊中的傷害和額外[[/r 1d6]]的穿刺傷害。如果成功，傷害減半。</p>\n<p>         當你的戰士等級到18級時該穿刺傷害增加到[[/r 2d6]]。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "line"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "(ceil(@classes.fighter.levels/17))d6",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "int"
+    },
+    "requirements": "魔射手等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!O3iKK0vtmoVxfUqo"
+}

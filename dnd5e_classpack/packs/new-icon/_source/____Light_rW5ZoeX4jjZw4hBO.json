@@ -1,0 +1,230 @@
+{
+  "_id": "rW5ZoeX4jjZw4hBO",
+  "name": "光亮術 Light",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/INV_Enchant_EssenceAstralSmall.png",
+  "effects": [
+    {
+      "changes": [
+        {
+          "key": "ATL.light.dim",
+          "mode": 5,
+          "value": "20",
+          "priority": 50
+        },
+        {
+          "key": "ATL.light.bright",
+          "mode": 5,
+          "value": "20",
+          "priority": 50
+        },
+        {
+          "key": "ATL.light.color",
+          "mode": 5,
+          "value": "#f98026",
+          "priority": 50
+        },
+        {
+          "key": "ATL.light.alpha",
+          "mode": 5,
+          "value": "0.4",
+          "priority": 50
+        },
+        {
+          "key": "ATL.light.animation",
+          "mode": 5,
+          "value": "{\"type\": \"torch\",\"speed\": 1,\"intensity\": 1}",
+          "priority": 50
+        }
+      ],
+      "description": "<p>Adds torch light for 1 hour (requires ATL)</p>",
+      "disabled": false,
+      "duration": {
+        "rounds": null,
+        "seconds": null,
+        "turns": null,
+        "startTime": null,
+        "combat": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "dfreds-convenient-effects": {
+          "isConvenient": true,
+          "isDynamic": false,
+          "isViewable": true,
+          "nestedEffects": [],
+          "subEffects": []
+        },
+        "dae": {
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system"
+        }
+      },
+      "name": "光亮術",
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.rW5ZoeX4jjZw4hBO",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "Convenient Effect: Torch"
+      ],
+      "_id": "I3zLes5LI4x30Fxw",
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/INV_Enchant_EssenceAstralSmall.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!rW5ZoeX4jjZw4hBO.I3zLes5LI4x30Fxw"
+    }
+  ],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你觸碰一個尺寸在任意方向上都不超過10尺的物件。在法術終止前，物件將在其20尺半徑範圍內發出明亮光照，並在其外20尺範圍發出微光光照。光的顏色由你決定，該物件被不透明的東西完全遮蓋時，其光照被遮擋。如果你再次施展該法術，或者使用一個動作解散該法術，則該法術終止。\n<br>如果你指定敵對生物所持握或著裝的一個物件作為目標，則該生物必須進行一次敏捷豁免以嘗試擺脫該法術的效應。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 255",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一隻螢火蟲或一片磷光苔蘚",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 46500000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "coreVersion": "12.325",
+    "createdTime": 1711693496690,
+    "modifiedTime": 1717699516465,
+    "lastModifiedBy": "Yu3wahtyxZLxHbwo",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rW5ZoeX4jjZw4hBO"
+}

@@ -1,0 +1,115 @@
+{
+  "_id": "254960451BA9A412",
+  "name": "羽符（鳥）Feather Token Bird",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這是一件外觀類似羽毛的小物品。夸爾羽符有很多種，每種都有一個一次性效應。羽符的型別由DM選取或參照下表隨機決定。</p>\n<table>\n<thead>\n<tr>\n<th><strong>[[/r d100]]</strong></th>\n<th><strong>羽符</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>21~35</td>\n<td>@UUID[Compendium.dnd5e_classpack.itempack.254960451BA9A412]{鳥 Bird}</td>\n</tr>\n</tbody>\n</table>\n<p><strong>鳥Bird。</strong>你可以用一個動作將這枚羽符拋到5尺高的空中。羽符將消失，取而代之的是一隻五彩斑斕的大鳥。這隻鳥使用@UUID[Compendium.dnd5e_classpack.monsterspack.p980augbCIdpK9ZX]{鵬鳥Roc}的資料。它服從你的簡單命令但無法攻擊。負載不超過500磅時，它能以全速飛行（16里每小時，每飛行3小時休息1小時，每天至多飛行144里）。而負重不超過1000磅時則以半速飛行。大鳥飛過144里或生命值降至0后消失。你可以用一個動作解消羽符的效應。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 188"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 144,
+      "max": "144",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 26400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!254960451BA9A412"
+}

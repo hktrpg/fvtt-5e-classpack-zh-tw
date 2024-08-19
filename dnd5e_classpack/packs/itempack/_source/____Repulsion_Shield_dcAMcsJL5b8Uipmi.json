@@ -1,0 +1,130 @@
+{
+  "name": "斥力之盾Repulsion Shield",
+  "type": "equipment",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Warrior_ShieldReflection.png",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>先決條件；6級奇械師<br />物品：一個盾牌（需同調）</p></blockquote><p>持握該盾牌的生物AC獲得+1加值</p><p>該盾牌有4發充能，當持用者被近戰攻擊命中時，以一個反應消耗一發充能，其可以將攻擊者擊退至多15尺遠。該盾牌在次日黎明時會恢復[[/r 1d4]]發充能。</p><p></p><p></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "ERLW"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "被近戰攻擊命中時。"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "charges",
+      "recovery": "d4",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 3,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "shield",
+      "baseItem": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "properties": []
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1686411044855,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "_id": "dcAMcsJL5b8Uipmi",
+  "sort": 125900000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!dcAMcsJL5b8Uipmi"
+}

@@ -1,0 +1,115 @@
+{
+  "_id": "8C9B5BE971A8B006",
+  "name": "恐懼魔杖 Wand of Fear",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-skull-brown.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需同調）</em></p>\n<p>這把魔杖有7發充能，且每天黎明時恢復1d6+1發已消耗的充能。當充能耗盡時，投一個d20。如果投骰結果為1，魔杖將化為灰燼而毀滅。</p>\n<p><strong>命令。</strong>持握此魔杖時，你可以用一個動作並消耗1發充能以命令一名生物逃跑或趴下（如同<em>@UUID[Compendium.dnd5e_classpack.new-icon.Ja6HpsLeGA9MQ0Rm]{命令術 Command}</em>，豁免DC15）。</p>\n<p><strong>恐懼錐。</strong>持握此魔杖時，你可以用一個動作並消耗2發充能，令魔杖尖端發出60尺錐形的橙光。錐形區域內的每名生物必須通過一次DC15的感知豁免否則對你恐慌1分鐘。 因此效果恐懼的生物每輪必須盡力遠離你並且無法自願進入你周圍30尺範圍內。使用自己的動作時，它只能採取疾行動作或是嘗試逃離某種阻止它移動的效果。它也無法使用反應。如果無處可逃，則它可以採取閃避動作。受此效果影響的生物在其每輪結束時可以再次嘗試豁免，成功則終止效果對它的影響。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 210"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 10000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 60,
+      "width": null,
+      "units": "ft",
+      "type": "cone",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1713010440538,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 63800000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!8C9B5BE971A8B006"
+}

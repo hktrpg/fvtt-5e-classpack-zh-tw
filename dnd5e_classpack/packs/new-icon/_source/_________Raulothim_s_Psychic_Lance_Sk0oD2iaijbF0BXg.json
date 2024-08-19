@@ -1,0 +1,217 @@
+{
+  "name": "勞洛希姆心靈長槍 Raulothim's Psychic Lance",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack/Nicons/ability_evoker_azurestrike.png",
+  "system": {
+    "description": {
+      "value": "<p>你從你的額頭處釋放一道閃閃發光的靈能長矛，瞄準法術範圍內你可見的一個生物。或者，你可以說出一個生物的名字。如果被喚名的生物身處法術範圍內，即使你無法看見它，它也會成為法術的目標。如果被喚名的生物不處於法術範圍內，長矛會消失並且沒有任何效果。<span><br />      </span>目標必須成功通過一次智力豁免，否則將受到<span>7d6</span>點心靈傷害並陷入失能，直至你的下回合開始。如果豁免成功，它只承受一半傷害並且不會失能。<span><br />      </span><span class=\"GramE\"><strong><span style=\"font-family:細明體;mso-bidi-font-family:細明體\">升環效果</span></strong></span>：當你用<span>5</span>環或更高的<span class=\"GramE\">法術位</span>施展此法術時，你使用的<span class=\"GramE\">法術位每比</span><span>4</span>環高一環，法術的傷害增加<span>1d6</span>。<span><br /><br /></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": 20,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "7d6",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "int",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    },
+    "properties": [
+      "vocal",
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "origin": "Compendium.dnd5e_classpack.new-icon.Item.Sk0oD2iaijbF0BXg",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "LyKrpSTghH0btO2a",
+      "changes": [],
+      "tint": "#ffffff",
+      "transfer": false,
+      "flags": {
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "multi",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "turnEnd"
+          ],
+          "disableIncapacitated": false,
+          "dontApply": false,
+          "showIcon": false
+        },
+        "core": {
+          "statusId": "1234",
+          "sourceId": "Actor.GabJyoAElcOKQvnt.Item.9uuVdQ5fn2hKm8Yy.ActiveEffect.uuJR7pWerqyxE3kN"
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "nameOverride": "",
+          "customCheck": "",
+          "wallsBlock": "system"
+        }
+      },
+      "name": "勞洛希姆心靈長槍 Raulothim's Psychic Lance",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "12.324",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack/Nicons/ability_evoker_azurestrike.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!Sk0oD2iaijbF0BXg.LyKrpSTghH0btO2a"
+    }
+  ],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "_id": "Sk0oD2iaijbF0BXg",
+  "folder": null,
+  "sort": 25100000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": 1711698507717,
+    "modifiedTime": 1711698542487,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!Sk0oD2iaijbF0BXg"
+}

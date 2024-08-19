@@ -1,0 +1,91 @@
+{
+  "_id": "kQbdBnEVZWpyM4oT",
+  "name": "狂暴牽引 Violent Attraction",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/003142.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         10級起，當一個除你以外，位於你60尺內且你可見的生物被武器攻擊命中時，你能用你的反應加快這次攻擊的速度，使得被攻擊的目標額外受到[[/r 1d10]]的該武器型別所造成的傷害。</p>\n<p>          此外，如果一個位於你60尺內的生物遭受了墜落傷害，你能用你的反應來增加這次墜落所造成的傷害，增加值為[[/r 1d10]]。</p>\n<p>         你能使用本特性的次數等於你的智力調整值（最少一次）。當你完成一次長休后，你恢復所有的使用次數。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "EGtW",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "max(@abilities.int.mod,1)",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "重力魔法等級 10",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kQbdBnEVZWpyM4oT"
+}

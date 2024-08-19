@@ -1,0 +1,96 @@
+{
+  "_id": "mZK4784I0vq8h7Ug",
+  "name": "引導神力：黎明曙光",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Holy_GreaterBlessingofLight.png",
+  "system": {
+    "description": {
+      "value": "<p>        第2級起，你可以用@UUID[Compendium.dnd5e_classpack.class-abilityphb.WPevnsjK8Cjd9Fcl]{引導神力}特性驅策陽光，以驅逐黑暗並對敵人造成光耀傷害。</p>\n<p>        作為一個動作，你可以展示你的@UUID[Compendium.dnd5e_classpack.itempack.TJi1q6Bm8IGoJJVL]{聖徽}，並驅散你身邊30尺內所有源自魔法的黑暗。此外，你身邊30尺內每個敵對生物都必須進行一次體質豁免。豁免失敗者將受[[/r 2d10]]+你牧師等級的光耀傷害，豁免成功則傷害減半。相對你處於全身掩護的生物不受該效應影響。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "enemy"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d10+@classes.cleric.levels",
+          "radiant"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "光明領域等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mZK4784I0vq8h7Ug"
+}

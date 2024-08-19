@@ -1,0 +1,86 @@
+{
+  "_id": "SoROktB6wHO25o9l",
+  "name": "造物表演 Performance Of Creation",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Ability_Paladin_SelflessHealer.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>以一個動作，你可以引導造物之歌的魔力來創造一個由你選擇的非魔法物品，它會在你選擇的距離你10尺內的一處未被佔據的空間里產生。它必須要產生在一個可以支撐它的地方&mdash;&mdash;這可以是在也體內或者一個表面上。這件物品的價值不能超過你吟遊詩人等級*20gp，它必須是中型或者更小的物品。這件物品會閃爍著柔和的微光。當一個生物觸碰它的時候，會聽到輕微的音樂。在被創造出等同於你的熟練加值數的小時之後，這件物品會消失。例如，玩家手冊中的裝備章節里的物品大多數都是可以通過此方法創造的。</p>\n<p>每當你用這一特性創造出一件物品后，直到下一次長休結束前你都不能再次使用這個能力。你可以消耗一個2環或者更高級的法術位去重製這個能力的使用次數。你同時只能保持一件以此法被創造出的物品。如果在你使用這個能力創造物品時已經有一件被創造出來的物品了，那麼那個舊的物品會立刻消失不見。</p>\n<p>你創造的物品都大小限制會隨著你的吟遊詩人等級提高而增長。6級時你可以創造出大型物品，14級時你可以創造去巨型物品。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": 2,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "space"
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "@classes.bard.levels*20",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "創造學院等級 3",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!SoROktB6wHO25o9l"
+}

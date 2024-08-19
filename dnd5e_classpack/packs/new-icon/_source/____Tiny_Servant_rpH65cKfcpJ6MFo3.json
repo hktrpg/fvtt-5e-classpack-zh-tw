@@ -1,0 +1,124 @@
+{
+  "name": "迷你僕役Tiny Servant",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    }
+  },
+  "img": "icons/creatures/magical/spirit-undead-masked-blue.webp",
+  "_id": "rpH65cKfcpJ6MFo3",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你接觸一個微型的非魔法物體，它沒有附在另一個物體或表面之上，也沒有被其他生物所攜帶。目標被活化並長出細小的胳膊和腿腳，併成為處於你控制之下的生物，直到法術結束或者降低至0HP。參考以下版塊得知它的數據。<br />以一個附贈動作，你可以對這個生物發出精神命令，只要它在你周圍120英尺範圍內（如果你通過這個法術控制了多個生物，你可以同時命令它們，對其中的每一個發佈同樣的指令）。你決定這個生物在下一回合自願採取的動作和自願進行的移動，或者你也可以發佈一個簡單的、綜合的命令，例如去拿起鑰匙、站著放哨、堆疊書本。如果你不發佈命令，僕役除了保護自己對抗敵對生物以外什麼也不會做。一旦得到一個命令，僕役會繼續服從命令列動直到工作完成。<br />當這個生物的生命值降低至0點，它恢復至原來的形態，並且任何剩餘的傷害會由那個形態承擔。</p>\n<p><strong>升環效果：</strong>當你使用4環或更高的法術位施放該法術時，使用的法術位每高一環，你可以額外活化兩個物體。</p>\n<p><br /><strong>迷你僕役Tiny Servant</strong><br />微型構裝體，無陣營<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />AC&nbsp;&nbsp; 15（天生護甲）<br />HP&nbsp;&nbsp; 10（4d4）<br />速度 30英尺，攀爬30英尺<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />力量4（-3）&nbsp; 敏捷16（+3）&nbsp; 體質10（+0）&nbsp; 智力2（-4）&nbsp; 感知10（+0）&nbsp; 魅力1（-5）<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />傷害免疫：毒素，精神<br />狀態免疫：目盲，魅惑，耳聾，力竭，恐慌，麻痹，石化，中毒<br />感官：盲視60英尺（對超過半徑的區域目盲），被動覺察10<br />語言：-<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />動作<br />揮擊。近戰武器攻擊：命中+5，觸及5英尺，單一目標。傷害：5（1d4+3）鈍擊傷害</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 46600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.1",
+    "coreVersion": "12.324",
+    "createdTime": null,
+    "modifiedTime": 1711730153240,
+    "lastModifiedBy": "BKSGjEZVDtK4HB0J",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rpH65cKfcpJ6MFo3"
+}

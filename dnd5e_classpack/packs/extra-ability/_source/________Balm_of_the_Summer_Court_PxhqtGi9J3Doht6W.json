@@ -1,0 +1,95 @@
+{
+  "_id": "PxhqtGi9J3Doht6W",
+  "name": "仲夏庭院的芬馥 Balm of the Summer Court",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack/Nicons/Spell_Nature_ProtectionformNature.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>          2級起，你將被灌注來自仲夏庭院的祝福，由此成為緩解旅者乏頓和傷者痛苦的聖洗池。你得到等同於德魯伊等級的[[/r d6]]作為代表的妖精能量池。</p>\n<p>          以一個附贈動作，你可以選擇一名在你120尺內的可見盟友，並且花費最多等於你德魯伊等級一半的[[/r d6]]骰。投擲那些骰子並把結果加在一起。目標恢復等於那個總值的生命值。目標同時也得到等同於花費骰子數目的臨時生命值。</p>\n<p>          在你結束一次長休之後，你恢復所有花費掉的骰子。</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "ally"
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": "@classes.druid.levels",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "healing"
+        ],
+        [
+          "1",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "夢境之環等級 2",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.324",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!PxhqtGi9J3Doht6W"
+}

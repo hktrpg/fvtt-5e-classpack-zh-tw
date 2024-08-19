@@ -1,0 +1,130 @@
+{
+  "_id": "N999l8iiW7Ub35fV",
+  "name": "預置幻影 Programmed Illusion",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack/Nicons/ability_ardenweald_monk.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內創造一個幻象，其外觀為一個物件，一個生物或其他可視的現象，並使其在特定情況下啟用。該幻象在被啟用前無法被察覺。它必須不大於30尺立方區域，而你將在施放該法術時決定幻像該如何行動和發出什麼聲音。而這種按指令碼執行的表演可以持續至多5分鐘。\n<br>你所指定的情況發生時，幻像會迅速成型並按設定的方式表演。表演結束后，幻象將消失並潛伏10分鐘。這段時間過後，幻像就可以再次被啟用。\n<br>觸發幻象的情況可以是一般事件，也可以按你的要求進行細化，但是它必須是發生在目標區域周邊30尺範圍內的能看到或聽到的狀況。例如，你可以製造一個自己的幻像，在其他人試圖打開一扇設定了陷阱的門時出現併發出警告，或者你也可以設定一個在生物說出正確單詞或短語才觸發的幻象。\n<br>由於幻象無法被碰到，任何與該幻象進行的物理互動都會暴露其幻覺本質。一個生物用其動作調查幻象時，它可以進行一次對抗法術豁免DC 的智力（調查）檢定，以判定是否看穿幻象。\n<br>辨出幻象的生物可以看穿該影像，其產生的聲響對該生物而言顯得虛假。\n<br></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 269",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 30,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 120,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "一點羊毛和價值至少 25gp 的翡翠粉末",
+      "consumed": false,
+      "cost": 25,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ]
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 19900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.2.1",
+    "coreVersion": "12.328",
+    "createdTime": null,
+    "modifiedTime": 1722354159197,
+    "lastModifiedBy": "9E074Eeh9KFUMBp9",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!N999l8iiW7Ub35fV"
+}

@@ -1,0 +1,134 @@
+{
+  "name": "拉鐸司祭刃Rakdos Riteknife",
+  "type": "weapon",
+  "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\">你在用該魔法武器發動攻擊檢定和傷害擲骰時獲得+1加值。<br />匕首的刀刃是殘忍無情的鋸齒，握柄猶如惡魔的頭顱與蝠翼。每當你用該匕首殺死一個生物，其靈魂將被囚入匕首，只有許願術wish能將其復活。匕首最多同時囚禁5個靈魂，每囚禁1個靈魂，匕首攻擊命中時額外造成1d4黯蝕傷害。若匕首在距你5尺範圍內，你的夢境將受到被困靈魂低語的糾纏。該匕首具有以下額外屬性:</p><p class=\"MsoNormal\">吸取活力Siphon Vitality.你可以用一個附贈動作釋放任意數量儲存於匕首中的靈魂，每釋放1個靈魂，你恢復1d10生命值。</p><p class=\"MsoNormal\"><br />湮滅Annihilation.你可以在匕首囚禁5個靈魂時使用此項屬性。你可以在用匕首攻擊命中一個生物造成傷害后，立即用反應釋放這5個靈魂，如果此時該生物生命值低於75，他必須進行一次DC為15的體質豁免，豁免失敗則死亡。若該生物死亡，你必須完成一次長休才能再次使用這項屬性。<br /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "GTR"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 75000,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod +1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "thr",
+      "mgc"
+    ],
+    "proficient": 0,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "dagger"
+    },
+    "attack": {
+      "bonus": "1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "12.327",
+    "createdTime": 1691398244114,
+    "modifiedTime": 1720244552405,
+    "lastModifiedBy": "ZaWJU8JthwQa7w2X",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "U3t3i2iixtUJSN32",
+  "sort": 116700000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!U3t3i2iixtUJSN32"
+}
