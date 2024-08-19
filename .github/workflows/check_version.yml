@@ -1,4 +1,4 @@
-name: Check Version and Release
+name: Check and Release DnD5E Classpack
 
 on:
   push:
@@ -6,45 +6,51 @@ on:
       - master
 
 jobs:
-  check_version:
+  check_version_and_release:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '14'
 
       - name: Install dependencies
-        working-directory: dnd5e_classpack # 指定正確的工作目錄
         run: npm install
 
-      - name: Check version
+      - name: Check module.json version
         id: check_version
         run: |
-          NEW_VERSION=$(jq -r '.version' dnd5e_classpack/module.json)
-          echo "New version: $NEW_VERSION"
+          # Get the current version from module.json
+          CURRENT_VERSION=$(jq -r .version dnd5e_classpack/module.json)
+          # Get the latest release version
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r .tag_name)
 
-          LATEST_RELEASE=$(git tag --sort=-creatordate | head -n 1)
-          echo "Latest release: $LATEST_RELEASE"
+          echo "Current version: $CURRENT_VERSION"
+          echo "Latest version: $LATEST_VERSION"
 
-          if [[ "$NEW_VERSION" != "$LATEST_RELEASE" ]]; then
-            echo "Version has changed"
-            echo "::set-output name=version_changed::true"
-            echo "::set-output name=new_version::$NEW_VERSION"
+          if [ "$CURRENT_VERSION" != "$LATEST_VERSION" ]; then
+            echo "Version has been updated."
+            echo "::set-output name=updated::true"
+            echo "::set-output name=new_version::$CURRENT_VERSION"
           else
-            echo "No version change"
-            echo "::set-output name=version_changed::false"
+            echo "No version update."
+            echo "::set-output name=updated::false"
           fi
 
-      - name: Create release
-        if: steps.check_version.outputs.version_changed == 'true'
+      - name: Create zip if updated
+        if: steps.check_version.outputs.updated == 'true'
         run: |
-          zip -r dnd5e_classpack.zip dnd5e_classpack
+          zip -r dnd5e_classpack.zip dnd5e_classpack/
 
-          gh release create ${{ steps.check_version.outputs.new_version }} dnd5e_classpack.zip --title "Release ${{ steps.check_version.outputs.new_version }}" --notes "Updated to version ${{ steps.check_version.outputs.new_version }}."
+      - name: Upload release asset
+        if: steps.check_version.outputs.updated == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag: ${{ steps.check_version.outputs.new_version }}
+          files: dnd5e_classpack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
