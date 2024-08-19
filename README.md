@@ -37,6 +37,10 @@ https://docs.google.com/document/d/1G4umHkFeSWn0ma92kaL_EI0lVRMhfk9ZKVjfLI2PXMY/
 
 ## 更新日誌
 
+### 2024.08.19(1.1.0)
+
+更新v3.0.6 & fix 化獸者技能
+
 ### 2023.8.19 (v2.2.6)
 
 加入了大量拓展魔法物品,截至塔莎書(TCE) 所有魔法物品更新完畢加入了github workflow自動壓縮.zip 壓縮(←我給我自己省事兒)修復了部分已知bug (例如獲得魔寵更正為儀式法術)引入了更多的未知bug
