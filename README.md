@@ -31,11 +31,18 @@ https://docs.google.com/document/d/1G4umHkFeSWn0ma92kaL_EI0lVRMhfk9ZKVjfLI2PXMY/
 
 本模組使用 [The official Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli) 與 [ConvertZZ](https://github.com/flier268/ConvertZZ) 進行轉換
 
+
 1. 使用foundryvtt-cli 把ldb 轉成json
 2. 使用ConvertZZ 進行繁簡轉換
 3. 使用foundryvtt-cli 把json 轉成ldb
 
 ## 更新日誌
+
+### 2025.04.08(v4.0.2)
+
+應用了官方遷移器的4.x升級。
+錯誤與額外的物品使用次數進行了移除，現在可以正常使用了。
+大部分的物品實現了使用次數自動化（休息恢復與物品充能恢復）。
 
 ### 2024.08.19(1.1.0)
 
