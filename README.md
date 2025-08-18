@@ -17,9 +17,30 @@
 https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json
 ```
 
+## 相關模組
+
+DnD 5e classpack zh-tw 正體中文 for fvtt
+
+<https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json>
+
+龍與地下城五版（DnD5E）—正體中文
+<https://gitlab.com/fvtt-zh_TW/dnd5e-taiwan-zh-tw/-/raw/13.3.4.2.01/module.json>
+
+Translation: 正體中文 [DnD 5e]
+<https://raw.githubusercontent.com/HKTRPG/foundryVtt_dnd5e_zh-tw/main/module.json>
+
+Actor Studio
+<https://github.com/geoidesic/foundryvtt-actor-studio/releases/latest/download/module.json>
+
+Translation: 正體中文 [Core]
+<https://raw.githubusercontent.com/hktrpg/foundry_zh-tw/main/module.json>
+
+DND5E城主工具包-正體中文
+<https://raw.githubusercontent.com/hktrpg/fvtt-5e-DMTools-zh-tw/main/module.json>
+
 ## 使用方法
 
-https://docs.google.com/document/d/1G4umHkFeSWn0ma92kaL_EI0lVRMhfk9ZKVjfLI2PXMY/edit#heading=h.gt8p42yhd29y
+<https://docs.google.com/document/d/1G4umHkFeSWn0ma92kaL_EI0lVRMhfk9ZKVjfLI2PXMY/edit#heading=h.gt8p42yhd29y>
 
 ## 介紹
 
@@ -30,7 +51,6 @@ https://docs.google.com/document/d/1G4umHkFeSWn0ma92kaL_EI0lVRMhfk9ZKVjfLI2PXMY/
 如果未來你有其他Package想翻譯或修改，可參考以下方法
 
 本模組使用 [The official Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli) 與 [ConvertZZ](https://github.com/flier268/ConvertZZ) 進行轉換
-
 
 1. 使用foundryvtt-cli 把ldb 轉成json
 2. 使用ConvertZZ 進行繁簡轉換
