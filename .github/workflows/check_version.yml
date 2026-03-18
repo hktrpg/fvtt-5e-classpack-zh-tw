@@ -36,13 +36,13 @@ jobs:
       - name: Create zip if updated
         if: steps.check_version.outputs.updated == 'true'
         run: |
-          cd dnd5e_classpack && zip -r ../dnd5e_classpack.zip . && cd ..
+          cd dnd5e_classpack && zip -r ../dnd5e_classpack-zh-tw.zip . && cd ..
 
       - name: Upload release asset
         if: steps.check_version.outputs.updated == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.check_version.outputs.new_version }}
-          files: dnd5e_classpack.zip
+          files: dnd5e_classpack-zh-tw.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
