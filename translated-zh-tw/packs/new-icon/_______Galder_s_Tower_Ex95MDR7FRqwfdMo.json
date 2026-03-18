@@ -1,0 +1,210 @@
+{
+  "name": "加德爾高塔術 Galder's Tower",
+  "type": "spell",
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>    你召喚一座兩層的石制，木製，或其他合適建築材料所製成的塔樓。塔的形狀既可以是圓形也可以爲方形。塔的每層有10尺高並有着最高100平方的面積。層與層之間的通道有一個簡單的梯子與艙口組成。當你施法時，每一層有以下形式供你選擇。</p><ul><li><p>有牀，椅子，櫃子和魔法壁爐的臥室</p></li><li><p>有書桌，書，書架，羊皮紙，墨水和墨水筆的書房</p></li><li><p>有餐桌、椅子、魔法壁爐、容器和炊具的用餐處</p></li><li><p>有沙發、扶手椅、邊桌和腳凳的休息室</p></li><li><p>有廁所、浴缸、魔法火盆和桑拿椅的衛生間</p></li><li><p>有望遠鏡和夜空地圖的天文臺</p></li><li><p>一間沒有傢俱的空房間</p></li></ul><p>    塔的內部溫暖而又幹燥，且不受外部環境影響。任何隨塔一同召喚的傢俱或設備如果被挪出塔外便會化爲煙霧。法術結束時，與該法術無關的一切生物或物件將安全地出現在室外的地面上，且塔與其中傢俱的一切痕跡都將消失。</p><p>   你可以在法術持續時再次施展該法術來將塔的存在延長24小時。在一年的時間內，你可以通過每天在相同的位置並以同樣的配置來施放這個法術來創造一個永久塔。</p><p><strong>升環施法效應。</strong>使用4環或更高法術位施展該法術時，你的法術位每比3環高一環，召喚的塔可以多一層。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "LLG",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 10
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "一塊石頭，木材或其他建築材料的碎片",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "galders-tower"
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_id": "Ex95MDR7FRqwfdMo",
+  "folder": "syUAnjMAMcVP2X3e",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757235114937,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Ex95MDR7FRqwfdMo"
+}

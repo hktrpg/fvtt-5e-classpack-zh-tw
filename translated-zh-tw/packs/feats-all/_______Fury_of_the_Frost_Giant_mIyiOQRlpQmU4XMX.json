@@ -1,0 +1,188 @@
+{
+  "name": "霜巨人之狂怒 Fury of the Frost Giant",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BPGG",
+      "page": "17",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "description": {
+      "value": "<div><hr /><div><p><em>先決條件: 第4級，@UUID[Compendium.dnd5e_classpack-zh-tw.feats-all.Item.WXC70UjLdZ7mpSpz]{巨人打擊}（寒霜打擊）專長</em></p><p>你展現出象徵着霜巨人的冰冷力量，使得你獲得下列增益：<br /><strong>屬性值提升Ability Score Increase。</strong> 你的力量、體質、或感知屬性提升1，上限爲20。<br /><strong>生於冰霜Born of Ice。</strong> 你獲得冷凍傷害的抗性。<br /><strong>霜寒回擊Frigid Retaliation。</strong> 當一個30尺內你可見的生物以攻擊檢定命中你，並對你造成傷害後，你可以立即用你的反應來喚出碎裂的寒冰來予以還擊。那個生物必須進行一次體質豁免（DC爲8+你的熟練加值+本專長提升屬性的調整值）。豁免失敗時，該生物將受到 1d8+你的熟練加值 點冷凍傷害，並速度減半，直至其下一個回合結束。你可以使用這一反應的次數等同於你的熟練加值次，在完成一次長休後你恢復所有已消耗的使用次數。</p></div></div>",
+      "chat": ""
+    },
+    "requirements": "strike of the giants (frost strike) feat",
+    "prerequisites": {
+      "level": 4,
+      "repeatable": false
+    },
+    "uses": {
+      "max": "@prof",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "properties": [],
+    "cover": null,
+    "crewed": false,
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-fury-of-the-frost-giant",
+    "advancement": [],
+    "enchant": {}
+  },
+  "ownership": {
+    "default": 0,
+    "pF5tIzH2aEMuTR6D": 3
+  },
+  "img": "icons/creatures/magical/spirit-mischief-fire-blue.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "BGG",
+      "hash": "fury%20of%20the%20frost%20giant_bgg",
+      "propDroppable": "feat"
+    },
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": null,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "folder": "Po4XyCR0WCieSuoN",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1724940930049,
+    "modifiedTime": 1757275416877,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "mIyiOQRlpQmU4XMX",
+  "sort": 400000,
+  "_key": "!items!mIyiOQRlpQmU4XMX"
+}

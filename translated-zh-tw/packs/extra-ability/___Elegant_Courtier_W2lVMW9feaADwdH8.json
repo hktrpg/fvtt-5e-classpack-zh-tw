@@ -1,0 +1,144 @@
+{
+  "_id": "W2lVMW9feaADwdH8",
+  "name": "雅臣 Elegant Courtier",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Achievement_Faction_LoreWalkers.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         從7級開始，你的修養和對細節的專注讓你得以在社交場合嶄露頭角。每當你進行一次魅力（說服）檢定時，你將在該檢定中獲得等同於你感知調整值的加值。</p><p>         你的自我控制能力同時也讓你獲得了感知豁免的熟練。若你已經擁有此熟練，則你可以改爲獲得智力豁免或魅力豁免的熟練（由你選擇）。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": null,
+      "recovery": []
+    },
+    "requirements": "武士等級 7",
+    "activities": {},
+    "identifier": "-elegant-courtier",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "雅臣 Elegant Courtier",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.W2lVMW9feaADwdH8",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_id": "RzXzKLfZSNB9F5Xv",
+      "changes": [
+        {
+          "key": "system.skills.per.bonuses.check",
+          "mode": 2,
+          "value": "+ @abilities.wis.mod",
+          "priority": 20
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Achievement_Faction_LoreWalkers.png",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!W2lVMW9feaADwdH8.RzXzKLfZSNB9F5Xv"
+    }
+  ],
+  "folder": null,
+  "sort": 27800000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1725708711155,
+    "modifiedTime": 1749883542518,
+    "lastModifiedBy": "uXKCmWFprrvnSIDm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!W2lVMW9feaADwdH8"
+}

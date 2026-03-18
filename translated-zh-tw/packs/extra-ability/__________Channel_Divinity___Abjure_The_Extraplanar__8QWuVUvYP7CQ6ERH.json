@@ -1,0 +1,265 @@
+{
+  "_id": "8QWuVUvYP7CQ6ERH",
+  "name": "引導神力：驅散異域 Channel Divinity:  Abjure The Extraplanar.",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Priest_BurningWill.png",
+  "system": {
+    "description": {
+      "value": "<p>你可以使用你的@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.3eyfqXMTJMG9AxYH]{引導神力}懲罰來自異界的存在。以一個動作，你展示你的@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.TJi1q6Bm8IGoJJVL]{聖徽}，你30尺範圍內能夠聽到你禱言的異怪、天界生物、元素、精類或邪魔都必須進行一次感知豁免，豁免失敗者將受到驅散，其效應持續1分鐘或直至其受到任何傷害。以此方式被驅散的生物必須花費其回合內的所有移動速度儘量遠離你，且無法主動靠近你30尺內。被驅散的生物無法執行反應，只能使用既有的疾走動作或從任何妨礙其移動的效應中掙脫。該生物無路可走時將執行迴避動作。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "守望之誓等級 3",
+    "activities": {
+      "h3z8dyTJHvxKDshk": {
+        "type": "utility",
+        "_id": "h3z8dyTJHvxKDshk",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none",
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "-channel-divinity-abjure-the-extraplanar",
+    "advancement": [],
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "引導神力：驅散異域 Channel Divinity： Abjure The Extraplanar.",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Priest_BurningWill.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.8QWuVUvYP7CQ6ERH",
+      "_id": "EPqFMKsaUi3siqzA",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": 10,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [
+            "isDamaged"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.9",
+        "createdTime": 1750172179750,
+        "modifiedTime": 1750172829001,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!8QWuVUvYP7CQ6ERH.EPqFMKsaUi3siqzA"
+    }
+  ],
+  "folder": null,
+  "sort": 11600000,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 0,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "onUseMacroName": "[preItemRoll]ItemMacro"
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dae": {
+      "macro": {
+        "name": "引導神力：驅散異域 Channel Divinity： Abjure The Extraplanar.",
+        "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Priest_BurningWill.png",
+        "type": "script",
+        "scope": "global",
+        "command": "// Abjure the Extraplanar – Channel Divinity macro\n// Foundry v12.331 + dnd5e v4.3.9\n// Requires: Midi-QOL, DAE\n\nif (!token) return ui.notifications.warn(\"Select your token.\");\n\nconst caster = token.actor;\nconst saveDC = caster.system.attributes.spelldc;\nconst DIST = 30;\nconst VALID = [\"aberration\", \"celestial\", \"elemental\", \"fey\", \"fiend\"];\n\n// 1️⃣ Find your Channel Divinity item on the caster\nconst cdItem = caster.items.find(i => i.name === \"引導神力：驅散異域 Channel Divinity： Abjure The Extraplanar.\");\nif (!cdItem) return ui.notifications.error(\"No 'Channel Divinity' item found.\");\n\n// 2️⃣ Pick the correct embedded effect on that item\n//    (for example: the third effect—adjust index as needed)\nconst itemEffectData = cdItem.effects.contents[0]; \nif (!itemEffectData) return ui.notifications.error(\"The item has no effects to apply.\");\n\n// 3️⃣ Prepare the effect data to apply later\nconst baseEffectData = itemEffectData.toObject();\ndelete baseEffectData._id;\n\n// 4️⃣ Locate targets within range\nconst targets = canvas.tokens.placeables.filter(t => {\n  if (!t.actor || t === token) return false;\n  if (t.actor.system.attributes.hp.value <= 0) return false;\n  if (!VALID.includes(t.actor.system.details.type.value)) return false;\n  return canvas.grid.measureDistance(token, t) <= DIST;\n});\n\nif (!targets.length) {\n  return ChatMessage.create({ content: \"No valid extraplanar creatures within 30 ft.\" });\n}\n\nlet chatHtml = `<h2>${caster.name} uses Abjure the Extraplanar</h2><ul>`;\n\nfor (let tgt of targets) {\n  // Skip actors who already have the effect\n  const existing = tgt.actor.effects.find(e => e.origin === cdItem.uuid && e.label === baseEffectData.label);\n  if (existing) {\n    chatHtml += `<li>${tgt.name}: ❌ Already has ${baseEffectData.label}</li>`;\n    continue;\n  }\n\n  const roll = await tgt.actor.rollAbilitySave(\"wis\", { chatMessage: false, fastForward: true });\n  const failed = roll.total < saveDC;\n  chatHtml += `<li>${tgt.name}: ${failed ? \"❌ Failed\" : \"✅ Success\"} (rolled ${roll.total} vs DC ${saveDC})</li>`;\n\n  if (failed) {\n    // Clone effect, set new origin, and apply\n    const eff = duplicate(baseEffectData);\n    eff.origin = cdItem.uuid;\n    await tgt.actor.createEmbeddedDocuments(\"ActiveEffect\", [eff]);\n  }\n}\n\nchatHtml += \"</ul>\";\nChatMessage.create({ content: chatHtml });",
+        "author": "WqWGW8MuBm7BNHxt",
+        "ownership": {
+          "default": 3
+        },
+        "_id": null,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "_stats": {
+          "coreVersion": "12.343",
+          "systemId": "dnd5e",
+          "systemVersion": "4.3.9",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1757865244507,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8QWuVUvYP7CQ6ERH"
+}

@@ -1,0 +1,217 @@
+{
+  "name": "神廟術Temple of the Gods",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "_id": "G1TzQn2GM4lvqUOi",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>你讓一座神廟在閃耀的光輝中出現。選擇施法距離內一處你可見的地面，爲了容納神廟這個空間必須是一個未被佔用的立方體，每邊至少120英尺長。神廟維持到法術結束。它被用於供奉施法時所用聖徽體現的神明、衆神或是哲學理念。<br />你可以對這座神廟的外觀做出所有決定。它的內部被地板、牆壁和屋頂所包圍，有一扇作爲入口的門扉和任意數量的窗戶，如你所願。只有你或任何你在施法時指定的生物可以開啓或關閉這扇門。<br />神廟的內部是個開放性空間，在一端擺放着神像或者是祭壇。你決定神廟是否被照亮，決定照亮神廟的是明亮光照還是微光光照。這裏的溫度適宜，薰香的氣味瀰漫在空氣中。<br />在你施展這個法術的時候，你選擇數種生物類型被神廟所敵對。從以下列表中選擇一項或更多：天界生物，元素生物，精類，邪魔，或是不死生物。如果選定類型的生物試圖進入神廟，它必須立即進行一次魅力豁免檢定。若豁免失敗，他在24小時內不能進入神廟。即使生物能夠進入神廟，魔法的力量也會妨礙它；每當它在神廟裏進行攻擊檢定，屬性檢定或者是豁免檢定時，它必須額外骰一個d4骰，把那個數值從d20的結果中減去。<br />此外，預言系法術所創造的傳感器不能在神廟中出現，並且神廟裏的生物無法被預言系法術定位。<br />最後，每次在神廟裏的任何生物從1環或更高環的法術中恢復生命時，它將恢復等同於你感知調整值的額外生命值（至少1點）。<br />神廟由不透明的魔法力場所創造並延伸至以太位面，因此會阻礙任何試圖從以太旅行中進入神廟內部的行爲。沒有東西能物理性地穿過神廟的外部。它不會被解除魔法所解消，也不會受到反魔場的影響。一道解離術能立即摧毀神廟。<br />如果你在一年中每天都對同一地點施展這個法術，法術的效果將持續永久。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "type": "cube",
+        "size": "120",
+        "contiguous": false,
+        "count": ""
+      }
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 7,
+    "school": "con",
+    "materials": {
+      "value": "一個價值至少5GP的聖徽",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "1d4",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "temple-of-the-gods"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "uCsiJvZQjqz2QNRl",
+  "sort": 12800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!G1TzQn2GM4lvqUOi"
+}

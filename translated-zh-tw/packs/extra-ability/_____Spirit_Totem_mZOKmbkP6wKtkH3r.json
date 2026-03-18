@@ -1,0 +1,170 @@
+{
+  "_id": "mZOKmbkP6wKtkH3r",
+  "name": "精魂圖騰 Spirit Totem",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/000516.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         2級起，你獲得了招現出自然精魂並藉助它們影響你身邊的世界的能力。以一個附贈動作，你可以魔法般地召喚一個虛體的精魂，到處於你周圍60尺內、你能看到的一點處。此精魂創造出一道環繞該點的、30尺半徑的光環。精魂不算作是生物，也不算作是物體，儘管它有着符合對應生物的幽魂般的外表。</p>\n<p>         以一個附贈動作，你可以移動此精魂至多60尺，到你能看到的一點處。</p>\n<p>         此精魂持續1分鐘或直到你失能。一旦你使用了此特性，你無法再次使用它，直到你完成一次短休或長休爲止。</p>\n<p>         此精魂的光環效果基於你召喚的精魂的類別，如下面的選項所示。</p>\n<p>         <strong>熊精魂</strong>：熊精魂授予你和你的夥伴它的力量和堅韌。在精魂出現時，每個處於此光環中、由你選擇的生物，獲得等於5+你的德魯伊等級的臨時生命值。此外，你和你的盟友在處於光環內時，在力量檢定和力量豁免檢定中獲得優勢。</p>\n<p>         <strong>鷹精魂</strong>： 鷹精魂是技藝精湛的獵手，用它敏銳的視力標記你的敵人。當一個生物對一個處於此精魂光環內的目標進行一次攻擊檢定時，你可以使用你的反應讓這次攻擊檢定獲得優勢。此外，在光環內你和你的盟友得到感知（觀察）檢定的優勢。</p>\n<p>          <strong>獨角獸精魂</strong>：獨角獸精魂爲周圍提供保護。你和你的盟友在用於偵測在此精魂光環內的生物所進行的所有屬性檢定中獲得優勢。此外，若你以一個法術位施展了一個爲任何處於或不處於光環內的人恢復生命值的法術，每個處於光環內、由你選擇的生物也恢復等於你德魯伊等級的生命值。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "牧人之環等級 2",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "30",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-spirit-totem",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 42500000,
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749883542518,
+    "lastModifiedBy": "uXKCmWFprrvnSIDm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mZOKmbkP6wKtkH3r"
+}

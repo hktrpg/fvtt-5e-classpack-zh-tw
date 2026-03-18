@@ -1,0 +1,239 @@
+{
+  "_id": "lybHyiBdyJywkQav",
+  "name": "守衛刻文 Glyph of Warding",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "saveDamage": "fulldam",
+      "bonusSaveDamage": "fulldam",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/httpcloud3steamusercontentcomugc842585136116522514517D409A5C57AEBD70C6BD05B1585311338B210E.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 施展該法術時，你在某個表面（諸如桌面、地板、牆等）或某個能被關閉以隱藏符紋的物件裏（諸如書本、卷軸、寶箱等）刻畫一個傷害其他生物的符紋。如果你指定某個表面，則此符紋可以覆蓋周邊不超過10尺直徑的區域。如果你指定某個物件，則該物件必須待在其所在位置；如果該物件從被施法位置被移開超過10尺，則其符紋被破壞且法術不被觸發即高終止。\n<br />結界符紋近乎隱形，其需要以法術的豁免DC 進行一次智力（調查）檢定才能被發現。\n<br />你在施法時設定結界符紋的觸發條件。刻畫於表面的符紋其最典型的觸發條件包括：觸碰或站立在符紋上；拿掉覆蓋在符紋上的物件；進入符紋一定施法距離；操作符紋所在的物件等。刻畫在物件內的符紋其最典型的觸發條件包括：打開物件；靠近物件一定的距離；看到或閱讀該符紋等。符紋一旦被觸發，則該法術終止。\n<br />你可以進一步細化觸發條件，比如設定法術觸發時符合特定的條件，或設定其觸發者必須具備特定身體特徵（身高體重等），特定生物種類（例如設定爲隻影響異怪或卓爾）或特定陣營。你還可以將特定條件者排除在符紋觸發者之外，諸如某說出特定口令的人。\n<br />刻畫符紋時，你可以從爆炸符文和法術符紋兩者中選擇其一。\n<br /><strong>爆炸符文Explosive Runes。</strong>符文被觸發時將在半徑20尺球狀區域內將爆發魔法能量，並繞過角落擴散。區域內的每個生物必須進行一次敏捷豁免。豁免失敗者將受到5d8的強酸，寒冷，火焰，閃電，或雷鳴傷害（你在製造符紋時指定），豁免成功則傷害減半。\n<br /><strong>法術符紋Spell Glyph。</strong>你可以施展一個準備好的3環或更低環階法術，並將其儲備在所創造的符紋中。所儲備法術必須以一個生物或一個區域爲目標，而其以該方式施展時並不會立即生效。符文被觸發時將隨即施展所儲備的法術。如果法術指向一個目標，則以觸發符紋的生物爲目標；如果法術影響一個區域，則該區域以此生物爲中心；如果法術召喚敵對生物或創造傷害性質的物件或陷井，則這些造物將顯現在可能靠近觸發者的地方並攻擊它。如果法術需要專注，則其效應將在其最大持續時間內維持。\n<br /><strong>升環施法效應。</strong>使用4環或更高法術位施展該法術時，你使用的法術位每比3環高一環，一個爆炸符文的傷害就增加1d8。如果你創造一個法術符紋，則其儲備法術的環階可以與你施放守衛刻文時使用的法術位相同。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 245",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "perm"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 3,
+    "school": "abj",
+    "materials": {
+      "value": "薰香和至少價值 200gp 的鑽石粉，作爲該法術的耗材",
+      "consumed": true,
+      "cost": 200,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ],
+          "critical": {
+            "allow": false
+          }
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": ""
+      }
+    },
+    "identifier": "glyph-of-warding"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 25700000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lybHyiBdyJywkQav"
+}

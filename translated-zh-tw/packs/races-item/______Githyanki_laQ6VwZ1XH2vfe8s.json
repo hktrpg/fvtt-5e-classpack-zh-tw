@@ -1,0 +1,250 @@
+{
+  "name": "吉斯洋基人 Githyanki",
+  "type": "race",
+  "_id": "laQ6VwZ1XH2vfe8s",
+  "img": "icons/magic/control/energy-stream-link-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">吉斯人特質 Gith Traits</span></strong></span><br />你的吉斯人角色與其他吉斯人一樣具有以下特質。<br /><em><strong>屬性值加成 Ability Score Increase。</strong></em>你的智力加1。<br /><em><strong>年齡 Age。</strong></em>吉斯人在20歲前成年，大約能活100年。<br /><em><strong>體型 Size。</strong></em>吉斯人比人類更高、更瘦，大多數都是6尺高的瘦高個兒。<br /><em><strong>速度 Speed。</strong></em>你的基礎步行速度爲30尺。<br /><em><strong>語言 Languages。</strong></em>你能說、讀、寫通用語和吉斯語。<br /><em><strong>亞種 Subrace。</strong></em>吉斯人分爲兩個亞種，吉斯洋基人和吉斯澤萊人，你可以從這些亞種選項中選擇其一。<br /><br /><strong>吉斯洋基人 Githyanki</strong><br />殘酷的吉斯洋基人自一出生便開始接受戰士訓練。<br /><em><strong>屬性值加成 Ability Score Increase。</strong></em>你的力量加2。<br /><em><strong>陣營 Alignment。</strong></em>吉斯洋基人傾向於守序邪惡陣營。他們好戰而且傲慢，同時又對他們的巫妖女王維拉基斯Vlaakith忠心耿耿。叛變的吉斯洋基人則多傾向於混亂陣營。<br /><em><strong>業餘愛好 Decadent Mastery。</strong></em>你學會一門自選的語言，並獲得一項技能或工具的熟練項。在圖納拉斯這座永恆之城裏，吉斯洋基人擁有足夠的時間來掌握一些零碎的知識。<br /><em><strong>軍事人才 Martial Prodigy。</strong></em>你擁有輕甲、中甲、短劍、長劍、巨劍的熟練項。<br /><em><strong>洋基靈能 Githyanki Psionics。</strong></em>你掌握戲法<span class=\"15\">法師之手mage hand</span>，且當你使用該特性施放這一戲法時，這隻手是不可見的。<br />從第3級起，你可以使用該特性施放一次法術<span class=\"15\">跳躍術jump</span>，你必須完成一次長休才能再次施展該法術。從第5級起，你可以使用該特性釋放一次法術<span class=\"15\">迷蹤步misty step</span>，你必須完成一次長休才能再次施展該法術。<br />你施展這些法術的施法屬性是智力。當你使用該特性施放這些法術時無需滿足法術成分。</p>",
+      "chat": ""
+    },
+    "identifier": "--githyanki",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "MTF",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "DFdcL99Rv6kGzs1F",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "UfiBp6kmDlMBcCVv",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:psychic"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "心靈抗性",
+        "icon": null,
+        "hint": "你具有心靈傷害的抗性。"
+      },
+      {
+        "_id": "PDRVBWLwFCqLkH6P",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.H5gghxp0hfT3BAlC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "吉斯洋基靈能",
+        "icon": null
+      },
+      {
+        "_id": "1NChOZV6mA7uLfjL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.obCTP2Jj5TgLwSA1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.dNez8RvjgkvijNc9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.6vPA7pyrMzSUaK7P",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.1B8U6kl0egesx3FK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "吉斯洋基靈能",
+        "icon": null,
+        "_id": "jUEfX7rkxGhzrCsa"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.Cnzcy1Tu7gt6xYHm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "吉斯洋基靈能",
+        "icon": null,
+        "_id": "IZNcxXy23HsWzA1Z"
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": "ov2HRMOpFmjBTw67",
+  "sort": 118750,
+  "ownership": {
+    "default": 0,
+    "vFLRCDyc5l72uRlV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1753967312302,
+    "modifiedTime": 1753967442803,
+    "lastModifiedBy": "vFLRCDyc5l72uRlV"
+  },
+  "_key": "!items!laQ6VwZ1XH2vfe8s"
+}

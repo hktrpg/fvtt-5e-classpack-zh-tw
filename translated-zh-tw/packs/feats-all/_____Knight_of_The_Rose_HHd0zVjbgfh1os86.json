@@ -1,0 +1,159 @@
+{
+  "name": "玫瑰騎士 Knight of The Rose",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>前置專長：@UUID[Compendium.dnd5e_classpack-zh-tw.feats-all.Item.K514K3cwFSluLevE]{索蘭尼亞扈從 Squire of Solamnia}</p></blockquote><p>你是一名隸屬於玫瑰騎士團的索蘭尼亞騎士，該騎士團以領導力、正義和睿智聞名於世。你的決心使得你獲得下列增益：</p><ul><li><p><strong>屬性值提升Ability Score Increase.</strong>你的體質、感知或魅力提升1，最高不能超過20。</p></li><li><p><strong>振奮集結Bolstering Rally.</strong>以一個附贈動作，你鼓舞一個距你30尺內你可見的生物（你可以選擇你自己）。若目標可以看見你或聽見你的聲音，其獲得等同於1d8+你的熟練加值+本專長提升屬性調整值的臨時生命值。你可使用此附贈動作的次數等同於你的熟練加值，並且在完成一次長休後會恢復所有已消耗的使用次數。</p></li></ul><p><em>*classpack提示：臨時生命值的DC所需要的屬性加值需要玩家自行指定並添加。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DSotDQ",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "等級 4，索蘭尼亞扈從專長",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "heal",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "30尺內可以看見你或聽見你的聲音的生物（或者自己）",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "perm",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 8,
+          "bonus": "@prof",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "whole",
+            "number": null,
+            "formula": ""
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-knight-of-the-rose",
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 2,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": 1686470383283,
+    "modifiedTime": 1749711029989,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "ThWE2BfGEbiZsk1k",
+  "_id": "HHd0zVjbgfh1os86",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "Jo05tXxu7yf2dQe3": 3
+  },
+  "_key": "!items!HHd0zVjbgfh1os86"
+}

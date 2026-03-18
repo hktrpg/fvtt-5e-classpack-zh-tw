@@ -1,0 +1,175 @@
+{
+  "_id": "NOdNl8paEppqJs07",
+  "name": "騎兵 Cavalier（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Holy_SealOfProtection.png",
+  "effects": [],
+  "folder": "dqzc0s0n6BEoFqEm",
+  "sort": 87891,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>這種泛型擅長乘騎作戰。他們通常出身於貴族，成長在宮廷，騎兵往往在家族中領導騎兵隊衝鋒陷陣或在國家慶典中擔任儀仗或守衛。他們學習如何在衝鋒時保護他人不受傷害，經常以保護者的身份服務於他們的長官或者弱者。他們被強迫去懲奸除惡或取得榮耀，他們中的一些戰士會爲了在冒險中提升自己而離開了他們的安逸生活。</p><p><strong>額外熟練：</strong></p><p>當你在3級選擇這個泛型時，你選擇一下技能中的一個並獲得其熟練：馴獸、歷史、洞察、表演、遊說。或者，你學會一門你選擇的語言。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "identifier": "cavalier",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "9gd70onmans30zvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.vJkOB99fOh8tjAFW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.LqBlv1BYu1IQVkgj",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.g3kghdNQIYypDRIG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "xrbp5zb11dgdzq36",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.iWd81TlNiudP2qNo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "a3dzqoxh385uu51q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.8uvP0ZcWTUZV7JGX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "ac1adrmivci6ryf4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.70pWX5593uWhDFSO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "ohit44ogojqgyzso",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.JZ9i7lYZdnucDdGF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "VSZp1aroEEBOddQ9",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard",
+                "languages:exotic",
+                "skills:prf",
+                "skills:ins",
+                "skills:his",
+                "skills:ani",
+                "skills:per"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "_key": "!items!NOdNl8paEppqJs07"
+}

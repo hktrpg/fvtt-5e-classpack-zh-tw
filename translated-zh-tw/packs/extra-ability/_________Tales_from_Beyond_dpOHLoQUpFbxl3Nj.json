@@ -1,0 +1,168 @@
+{
+  "_id": "dpOHLoQUpFbxl3Nj",
+  "name": "彼岸故事(抽取) Tales from Beyond",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/sanctum_features_animadiversion.jpg",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你與那些藉由你來講述自己故事的精魂溝通。當你持握你的@UUID[Compendium.dnd5e_classpack-zh-tw.extra-ability.Sew4Tj3ec9CwH53H]{精魂法器}時，你可以使用一個附贈動作，消耗一次你的@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.FSr7TfaoWRPpUtkD]{詩人激勵}來投擲一次精魂故事表。詩人激勵骰的擲骰結果將決定精魂們引導你說出何種故事。這個故事將保存在你腦海中，直到你用掉該故事的效果，或者完成一次短休或長休。</p><p>你可以使用一個動作選擇30尺內一個你能夠看到的生物（可以是你自身）作爲故事效果所影響的目標。一旦這樣做之後，在下一次投擲故事表以前，你都無法再次使用此故事的效果。</p><p>你的腦海中一次只能保存一種故事，再次投擲精魂故事表將立刻結束之前一個故事的效果。</p><p>如果故事的效果需要進行豁免，其DC爲你的法術豁免DC[[/r @attributes.spelldc]] 。</p><table><caption>精魂故事表</caption><thead><tr><th>[[/r @scale.bard.inspiration]]</th><th>通過你講述的故事</th></tr></thead><tbody><tr><td>1</td><td><p><strong>聰慧的動物的故事Tale of the Clever Animal</strong><br />接下來的10分鐘內，每當目標進行一次智力、感知或魅力檢定時，目標可以在投擲 D20 後額外立刻投擲一個額外的骰子[[/r 1@scale.bard.inspiration]]，並將數值加到檢定結果之中。額外骰的面數和你的詩人激勵骰相同。</p></td></tr><tr><td>2</td><td><p><strong>著名決鬥家的故事Tale of the Renowned Duelist</strong><br />你對目標進行一次近戰法術攻擊。若命中，則目標受到等同於2個你的詩人激勵骰的擲骰結果+你的魅力調整值的力場傷害 [[/damage 2@scale.bard.inspiration+@abilities.cha.mod force]]。</p></td></tr><tr><td>3</td><td><p><strong>摯友們的故事 Tale of the Beloved Friends</strong><br />目標和其所選的另一個在其5尺內且其可見的生物獲得臨時生命值，數值等於1個你的詩人激勵骰的擲骰結果+你的魅力調整值 [[/healing 1@scale.bard.inspiration+@abilities.cha.mod temp]].。</p></td></tr><tr><td>4(</td><td><p><strong>逃亡的故事Tale of the Runaway</strong><br />目標可以立即使用其反應來傳送至多30尺，到一處其可見且未被佔據的空間。當目標傳送時，其能選擇至多相當於你的魅力調整值（最少爲0）數量的[[/r max(@abilities.cha.mod,0)]]、在其30尺內的可見生物立即執行相同的反應。</p></td></tr><tr><td>5</td><td><p><strong>復仇者的故事 Tale of the Avenger</strong><br />在1分鐘裏，任何使用近戰攻擊命中目標的生物會受到相當於1個你的詩人激勵骰的擲骰結果的力場傷害 [[/damage 1@scale.bard.inspiration force ]]。</p></td></tr><tr><td>6</td><td><p><strong>旅行者的故事 Tale of theTraveler</strong><br />目標獲得臨時生命值，數值爲一個你的詩人激勵骰的擲骰結果+你的詩人等級[[/healing 1@scale.bard.inspiration+@classes.bard.levels temp]]。當其擁有這些臨時生命值時，其移動速度增加10尺，並在其AC上獲得+1加值。</p></td></tr><tr><td>7</td><td><p><strong>欺詐者的故事 Tale of the Beguiler</strong><br />目標進行一次感知豁免[[/save wis dc=@attributes.spelldc]]，失敗則受到數值等同於2個你的詩人激勵骰的擲骰結果的心靈傷害 [[/damage 2@scale.bard.inspiration psychic]]，並陷入失能@condition[Incapacitated|phb] 直到其下一個回合結束。</p></td></tr><tr><td>8</td><td><p><strong>鬼魅的故事Tale of the Phantom</strong><br />目標變爲隱形@condition[Invisible|phb]，直到其下一個回合結束，或以攻擊命中一個生物。如果目標在這次隱形期間攻擊命中了一個生物，被攻擊的生物受到暗蝕傷害，數值等同於1個你的詩人激勵骰的擲骰結果 [[/damage 1@scale.bard.inspiration necrotic]]，並陷入對目標的恐慌@condition[Frightened|phb]之中，持續到該生物的下一個回合結束。</p></td></tr><tr><td>9</td><td><p><strong>兇蠻惡漢的故事 Tale of the Brute</strong><br />目標所選擇的30尺內其可見的每個生物都必須進行一次力量豁免[[/save str dc=@attributes.spelldc]]。若豁免失敗，該生物受到3個你的詩人激勵骰的擲骰結果的雷鳴傷害 [[/damage 3@scale.bard.inspiration thunder]]，並倒地@condition[Prone|phb]。若豁免成功，該生物受到的傷害減半，並且不會倒地。</p></td></tr><tr><td>10</td><td><p><strong>巨龍的故事 Tale of the Dragon</strong><br />目標從口中噴出30尺錐形的火焰。在範圍內的每個生物都必須進行一次敏捷豁免[[/save dex dc=@attributes.spelldc]]，若豁免失敗則受到4個你的詩人激勵骰的擲骰結果的火焰傷害 [[/damage 4@scale.bard.inspiration fire]]，若豁免則成功傷害減半。</p></td></tr><tr><td>11</td><td><p><strong>天使的故事 Tale of the Angel</strong><br />目標恢復相當於2個你的詩人激勵骰的擲骰結果+你的魅力調整值的生命值 [[/healing 2@scale.bard.inspiration+@abilities.cha.mod]]，並且你結束目標身上正起作用的狀態中的一個，可結束的狀態如下：目盲@condition[Blinded|phb]，耳聾@condition[Deafened|phb]，麻痹@condition[Paralyzed|phb]，石化@condition[Petrified|phb]或中毒@condition[Poisoned|phb]。</p></td></tr><tr><td>12</td><td><p><strong>奪魂故事 Tale of the Mind-Bender</strong><br />你從某個超凡的存在那裏喚起了一則超越人的理解能力的寓言。目標必須成功通過一次智力豁免[[/save int dc=@attributes.spelldc]]，否則受到相當於3個你的詩人激勵骰的擲骰結果的心靈傷害 [[/damage 3@scale.bard.inspiration psychic]]，並被震懾@condition[Stunned|phb]直到其下一個回合結束。</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "VRGR",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "精魂學院等級 3",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.FSr7TfaoWRPpUtkD",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "1@scale.bard.inspiration",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-tales-from-beyond",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 34300000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1757427309561,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dpOHLoQUpFbxl3Nj"
+}

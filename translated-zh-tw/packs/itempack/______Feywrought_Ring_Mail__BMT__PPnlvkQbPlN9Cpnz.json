@@ -1,0 +1,213 @@
+{
+  "_id": "PPnlvkQbPlN9Cpnz",
+  "name": "妖精鍛環甲 Feywrought Ring Mail (BMT)",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "67",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>護甲（重甲），珍稀（需同調）</em><br />這套色彩鮮豔、花團錦簇的護甲鑄成於 <strong>妖精荒野Feywild</strong> 之中，它充滿着那個奇幻位面的誘人能量。<br />穿着這套護甲期間，你爲防止陷入或結束 <strong>魅惑&amp;Reference[condition=charmed]</strong> 狀態所做的豁免具有優勢。<br />這套護甲具有3發充能。你可以消耗一發充能以用其施展法術<em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.RpBbOYseLZCFXaFY]{強迫術 Compulsion}</em>（豁免DC15）。這套護甲在每日黎明時分恢復[[/r 1d3]]發已消耗的充能數。</p><div class=\"WordSection1\"><div><p class=\"MsoNormal\" style=\"LAYOUT-GRID-MODE:char;MARGIN:2pt 0cm\"><span class=\"GramE\">該護甲</span>是將重金屬<span class=\"GramE\">環扣縫進</span>內層的特殊皮甲。金屬環可以加強護甲<span class=\"GramE\">對劍斧揮擊</span>的抵抗力。環甲<span class=\"GramE\">比鍊甲</span>低一級，而通常只被那些無力支付更好護甲的人所使用。</p></div></div><p>This colorful, flowery armor was forged in the Feywild and is infused with that plane's captivating magic.</p><p>While wearing this armor, you have advantage on saving throws you make to avoid or end the &amp;Reference[condition=charmed] condition on yourself.</p><p>This armor has 3 charges. You can use an action to expend a charge to cast the @spell[Compulsion] spell (save DC <span class=\"rd__dc\">15</span>) from this armor. The armor regains [[/r 1d3]] expended charges daily at dawn.</p><p>This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.</p></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 40,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "rare",
+    "type": {
+      "value": "heavy",
+      "baseItem": "ringmail"
+    },
+    "properties": [
+      "mgc",
+      "stealthDisadvantage"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ]
+    },
+    "armor": {
+      "value": 14,
+      "dex": 0,
+      "magicalBonus": 0
+    },
+    "strength": null,
+    "activities": {
+      "g9p9b5FtGG3iI0mn": {
+        "_id": "g9p9b5FtGG3iI0mn",
+        "type": "cast",
+        "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.plutonium-faux-id--7b22746167223a227370656c6c222c2274657874223a22636f6d70756c73696f6e227d.custom.Item.0000000000000000"
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        }
+      }
+    },
+    "identifier": "feywrought-ring-mail-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false
+  },
+  "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "feywrought%20ring%20mail_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "UkU3u1aaCqVQbSa1",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1751738888053,
+    "modifiedTime": 1757350590002,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+  },
+  "sort": 127344,
+  "_key": "!items!PPnlvkQbPlN9Cpnz"
+}

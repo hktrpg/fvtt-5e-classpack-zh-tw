@@ -1,0 +1,182 @@
+{
+  "_id": "2GnsFIMLsIo93kJ9",
+  "name": "獵人之苦 Hunter's Bane",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BH2022",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<p>第 1 級時，你從獵人之苦之中生還——那是一個危險而漫長的儀式，它扭曲你的生命之血，使你與黑暗永遠爲伴，且磨礪你的感官以對抗它們。你在追蹤精類、邪魔或不死生物的感知（生存）檢定，以及獲知它們的信息的智力檢定中具有優勢。<br />獵人之苦也使你的身體能夠以你自己的血液與生命精華作爲燃料，來操控並塑造鮮血降咒之魔法。你的部分特性要求你的目標進行豁免檢定以對抗該特性的效果。豁免 DC 的計算式爲：</p><p style=\"text-align:center\"><strong>鮮血祕法豁免 DC = 8 + 你的熟練加值 + 你的智力調整值</strong></p>",
+      "chat": ""
+    },
+    "requirements": "血獵手等級 1",
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [
+      "trait"
+    ],
+    "advancement": [],
+    "activities": {
+      "xyHTNDHKuwMEsLTu": {
+        "_id": "xyHTNDHKuwMEsLTu",
+        "type": "save",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "save": {
+          "ability": [],
+          "dc": {
+            "calculation": "wis"
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": [],
+          "critical": {
+            "allow": false
+          }
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": ""
+      }
+    },
+    "identifier": "hunters-bane",
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": 1,
+      "repeatable": false
+    }
+  },
+  "img": "icons/skills/melee/strike-slashes-red.webp",
+  "flags": {
+    "plutonium": {
+      "page": "classFeature",
+      "source": "BH2022",
+      "hash": "hunter's%20bane_blood%20hunter_bh2022_1_bh2022",
+      "propDroppable": "classFeature"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "FAdeDr59Gwy7NN2E",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1757153159764,
+    "modifiedTime": 1757423683169,
+    "lastModifiedBy": "hzd8mTtpA2xMcmGp"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hzd8mTtpA2xMcmGp": 3
+  },
+  "_key": "!items!2GnsFIMLsIo93kJ9"
+}

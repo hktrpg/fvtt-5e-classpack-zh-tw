@@ -1,0 +1,224 @@
+{
+  "_id": "NXHO4t01vJcJ8Ct8",
+  "name": "嫌惡術/關懷術 Antipathy/Sympathy",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Hunter_BeastWithin.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 此法術吸引或驅趕你指定的生物。在施法距離內指定一個巨型或更小體型的物件或生物，或是一處不超過200尺的立方區域。你指定一類智慧生物（例如紅龍、地精、吸血鬼等），併爲目標註入能吸引或是驅趕所選類型生物的靈光。你可以選擇嫌惡或是關懷作爲法術的效應。\n<br /><strong>嫌惡Antipathy。</strong>法術的影響讓你選定類型的生物不可遏止的想要遠離被附魔目標。當符合條件的生物看到目標或是距離目標不足60尺時，該生物必須進行一次感知豁免併成功通過，否則將陷入恐慌。只要還能看到目標或是在目標60尺內，該生物就會維持恐慌狀態。陷入該恐慌狀態的生物必須自主移動至附近無法看到目標的安全地點。離開目標至少60尺且無法看到目標後，該生物的恐慌狀態終止。但再次看到目標或是進入目標60尺內時他也將再次陷入恐慌。\n<br /><strong>關懷Sympathy。</strong>法術的影響讓你選定類型的生物不可遏止的想要接近被附魔目標。當符合條件的生物看到目標或是距離目標不足60尺時，該生物必須進行一次感知豁免併成功通過，否則便會每回合自主移動並靠近目標。靠近後，該生物不能自主的遠離目標。\n<br />若目標對該生物造成傷害或是以其他方式對其造成危害，則該生物可以再進行一次感知豁免以終止效應，詳情見下節。\n<br /><strong>終止效應Ending the Effect。</strong>如果受影響的生物在距離目標60尺外或是無法看到目標的地方終止其回合，則其可以進行一次感知豁免，豁免成功則不再受法術影響並意識到厭惡感或誘惑力是來自魔法的影響。另外，在法術持續時間內，受影響的生物每24小時可以再進行一次感知豁免。\n<br />對該法術效應豁免成功的生物在1分鐘內免疫該效應，但隨後仍會受該效應影響。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 214",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "10",
+      "units": "day"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 8,
+    "school": "enc",
+    "materials": {
+      "value": "嫌惡效應時用一小塊醋浸溼的明礬；關懷效應則爲一滴蜂蜜",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [],
+          "critical": {
+            "allow": false
+          }
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": ""
+      }
+    },
+    "identifier": "antipathysympathy"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 29800000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NXHO4t01vJcJ8Ct8"
+}

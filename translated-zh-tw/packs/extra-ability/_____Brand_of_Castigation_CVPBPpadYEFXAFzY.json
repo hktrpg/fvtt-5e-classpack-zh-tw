@@ -1,0 +1,185 @@
+{
+  "_id": "CVPBPpadYEFXAFzY",
+  "name": "懲戒烙印 Brand of Castigation",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BH2022",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<p>第 6 級起，當你以猩紅儀式特性傷害一個生物時，你可以引導鮮血祕法，將奧術烙印在那個生物上（無需動作）。你始終知道烙印生物相對於你的方向。並且，每次烙印生物對你或距你 5 尺內你能看見的生物造成傷害時，烙印生物受到你的智力調整值點心靈傷害（至少1 點）。<br />你的烙印持續至你解除它，或者直到你對另一個生物打上烙印。你的烙印對解除魔法而言是一個法術，並具有等同於你鮮血獵人等級一半的環位（至多 9 環）。<br />使用此特性後，你必須完成一次短休或長休才能再次使用。</p>",
+      "chat": ""
+    },
+    "requirements": "血獵手等級 6",
+    "uses": {
+      "max": "1",
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "advancement": [],
+    "activities": {
+      "UOWAVjkhbLxmDRra": {
+        "_id": "UOWAVjkhbLxmDRra",
+        "type": "utility",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "target": "",
+              "value": "1",
+              "type": "itemUses",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "brand-of-castigation",
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": 6,
+      "repeatable": false
+    }
+  },
+  "img": "icons/magic/life/heart-shadow-red.webp",
+  "flags": {
+    "plutonium": {
+      "page": "classFeature",
+      "source": "BH2022",
+      "hash": "brand%20of%20castigation_blood%20hunter_bh2022_6_bh2022",
+      "propDroppable": "classFeature"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "FAdeDr59Gwy7NN2E",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1757153159764,
+    "modifiedTime": 1757174013481,
+    "lastModifiedBy": "hzd8mTtpA2xMcmGp"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hzd8mTtpA2xMcmGp": 3
+  },
+  "_key": "!items!CVPBPpadYEFXAFzY"
+}

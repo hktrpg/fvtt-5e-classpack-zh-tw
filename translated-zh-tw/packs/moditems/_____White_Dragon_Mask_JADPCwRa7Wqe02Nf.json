@@ -1,0 +1,204 @@
+{
+  "_id": "JADPCwRa7Wqe02Nf",
+  "name": "白龍面具 White Dragon Mask",
+  "type": "equipment",
+  "img": "icons/equipment/head/mask-horned-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749914484206,
+    "lastModifiedBy": "m5OidxJs4f11H0zu",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這具光滑面具是白色的，帶有淡藍色的亮點，頂部有帶刺紋飾。面具會調整自身尺寸以便其同調者着裝。你與之同調並着裝後，可以使用下列各屬性。</p>\n<p><strong>傷害吸收 Damage Absorption。</strong> 你對冷凍傷害擁有抗性， 如果你已經從另一來源擁有了冷凍傷害的抗性，則你改爲對冷凍傷害免疫。若你此前已從另一來源獲得了冷凍傷害免疫，則你在受到冷凍傷害時，可恢復其傷害量一半的生命值。</p>\n<p><strong>龍形威嚴 Draconic Majesty。</strong>你未着裝護甲時，可以將自己的魅力加值加入你的護甲等級中。</p>\n<p><strong>龍息 Dragon Breath。</strong>若你有本身擁有需要休息充能的吐息武器，則該吐息改爲充能 6。</p>\n<p><strong>龍之視界 Dragon Sight。</strong>你獲得 60 尺的黑暗視覺，若你已擁有黑暗視覺，則其範圍再增加 60 尺。你每日有一次機會， 可獲得持續 5 分鐘的 30 尺的盲視感官。</p>\n<p><strong>龍言 Dragon Tongue。</strong>你可以說和理解龍語。你對黑龍進行的所有魅力檢定都具有優勢。</p>\n<p><strong>傳奇抗性 Legendary Resistance（1/日）。</strong>你進行一次豁免檢定失敗時，可以選擇將其改爲豁免成功。</p>\n<p><strong>寒冬之怒 Winter’s Fury</strong>。你當前生命值不大於最大生命值的一半時，近戰攻擊造成額外的<strong>[[/r 1d8]]點<em>冷凍傷害</em></strong>。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "RoT",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "clothing",
+      "baseItem": ""
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "damage",
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-white-dragon-mask",
+    "container": null,
+    "attuned": false,
+    "cover": null,
+    "crewed": false,
+    "properties": []
+  },
+  "_key": "!items!JADPCwRa7Wqe02Nf"
+}

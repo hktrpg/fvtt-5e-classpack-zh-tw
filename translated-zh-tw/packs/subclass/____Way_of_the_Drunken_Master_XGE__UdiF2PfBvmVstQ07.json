@@ -1,0 +1,141 @@
+{
+  "_id": "UdiF2PfBvmVstQ07",
+  "name": "醉拳宗 Way of the Drunken Master（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Monk_DrunkenHaze.png",
+  "effects": [],
+  "folder": "b1hNUPJ6ajk0guML",
+  "sort": 87696,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>醉拳宗的導師教導其學徒跟隨醉漢古怪且不可預測的行爲來進行移動。一個醉拳大師總是搖搖晃晃、蹣跚搖擺着他的腳，表演出一個不盡人意，看似無能的戰鬥者。然而他們飄忽不定的跌撞通常掩蓋了一個精心執行的阻擋，招架，推進，攻擊和撤退，所有一切組合成完美的舞蹈。</p>\n<p>醉拳大師常常喜歡裝瘋賣傻，爲沮喪者帶來歡樂，或對傲慢者表現出謙卑，但當他們加入戰鬥時，醉拳大師或許會是一個令人發狂的，狡詐的敵人。</p>\n<p><strong>額外熟練項Bonus Proficiencies</strong></p>\n<p>    當你3級時，若你還沒有獲得表演技能項熟練，則你熟練之。你的武術技巧將戰鬥與舞者的精確及小丑的滑稽混合在一起。如果你還未獲得@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.C0D09255C48343B1]{釀酒工具}的熟練，你也能同時得到。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "identifier": "way-of-the-drunken-master",
+    "classIdentifier": "monk",
+    "advancement": [
+      {
+        "_id": "t6syhxntg6gb7f7r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.nuM7CwcvvLx2uQaO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "ya6uqp8hw4r54zsx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.C4S9XNPQwd2uilha",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.rzP2m3P2fpTodEGE",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "itghiv65p8swreh0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Il7oiu5wAWIjE0lI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "as1m1irim28remsg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.bm2e5C25S0klCPH7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "G9R2NAgAdb50E84W",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prf",
+            "tool:art:brewer"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "_key": "!items!UdiF2PfBvmVstQ07"
+}

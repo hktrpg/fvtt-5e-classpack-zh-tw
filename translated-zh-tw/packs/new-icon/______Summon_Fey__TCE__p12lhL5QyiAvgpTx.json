@@ -1,0 +1,216 @@
+{
+  "_id": "p12lhL5QyiAvgpTx",
+  "name": "精類召喚術 Summon Fey (TCE)",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/ability_ardenweald_mage.jpg",
+  "effects": [],
+  "folder": "eKWjH0NyoSjvzeog",
+  "sort": 1000000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div><p>        你喚來一個精類靈魄。其在施法距離內你可見的一個未佔據位置化爲實體。這一實體使用下面的精類靈魄Fey Spirit的數據。當你施展法術時，從詭詐Tricksy，憤怒Fuming或歡欣Mirthful中選擇一種情緒。此生物的外形爲一個受你所選情緒所影響的精類生物，其資料表中的部分特性也受此影響。當其生命值降至 0 或法術結束時，生物消失。<br />　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束後立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br />　　<strong>升環施法效應：</strong>使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p></div><p><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>妖精靈魄Fey Spirit</strong><em>小型妖精，無陣營</em><br />AC：12+法術環階（天生護甲）<br />HP：30+高於三環的每環階 10 點<br />速度：40尺<br />力量13（+1）敏捷16（+3）體質14（+4）<br />智力14（+2）感知11（+0）魅力16（+3）<br />狀態免疫：魅惑<br />感官：黑暗視覺 60尺，被動察覺 10<br />語言：木族語，理解你講的語言<br />挑戰等級：- 熟練加值與你相等</span></p><p style=\"color:rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif;font-size:medium;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>動作Actions</strong><br /><strong>多重攻擊Multiacttack。</strong>妖精發動等同於法術環階半數（向下取整）次數的攻擊。<br /><strong>短劍Shortsword。</strong>近戰武器攻擊：命中採取你的法術攻擊加值，觸及 5尺，單一目標；命中：1d6+3+法術環階的穿刺傷害，外加 1d6 力場傷害。<br /><strong>附贈動作Bonus Actions</strong><br /><strong>精類步Fey Step。</strong>妖精魔法地傳送到最遠 30尺的一處它可見的未被佔據空間。然後根據所選精類情緒，觸發以下效果之一：</span></p><ul style=\"color:rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif;font-size:medium;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><li><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>憤怒Fuming。</strong>在使用精類步後，妖精在它回合結束前的下一次攻擊檢定具有優勢。</span></li><li><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>歡欣Mirthful。</strong>在使用精類步後，妖精可以立即選擇它 10 尺內可見的一個生物，強迫其進行一次對抗你的法術豁免 DC 的感知豁免，若豁免失敗則其將被你及妖精生物魅惑，持續 1 分鐘或目標受到任何傷害。</span></li><li><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>詭詐Tricksy。</strong>在使用精類步後，妖精可以立即令魔法黑暗充斥於它 5 尺內的一個 5 尺立方區域，魔法黑暗持續直到妖精的下回合結束。</span></li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "一朵鍍金花，價值至少 300gp",
+      "consumed": false,
+      "cost": 300,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "summon-fey-tce"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!p12lhL5QyiAvgpTx"
+}

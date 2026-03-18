@@ -1,0 +1,135 @@
+{
+  "name": "星界浪客 Astral Drifter",
+  "type": "background",
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>自打你有記憶開始，你就在星界海之中遨遊。在星界海里，你切身體會到了銀色虛空的特殊性質：你停止老化並不再感受到飢渴。在流浪欲的驅使下，你像風中的塵埃一般，從星界海的一地方流浪到另一地方。自從你來到星界海到底過了多少個十年，你已經記不清了。</p><p>在你的旅途中，你於死去神靈的巨大石化殘骸上紮營，驚險地逃脫了橫掃星界海的心靈之風，同時還得躲避該位面最危險的居民們。</p><hr /><p><strong>技能熟練</strong>：洞悉，宗教<br /><strong>語言</strong>：兩項你選擇的語言（推薦天界語或吉斯語）<br /><strong>裝備</strong>：一套@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.018199C228C3FC13]{旅行者服裝}，一本@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.Item.vXvgokemaTFPuoWT]{日記}，一隻@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.A32E3C5845F5A20C]{墨水筆}，一瓶@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.1B08608A7AF77C85]{墨水}，一個裝着10gp的@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.2C22C4FE00679D76]{小包}<br /><strong>特性</strong>：@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.zyltPGYZrbj3XPhf]{神性之遇}</p><hr /><p><strong>長壽</strong></p><p>你的實際年齡要比你的外表年長[[/r 20d6]]歲，因爲你在停止老化的星界海中居住了這麼長的時間。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "AAG",
+      "revision": 1,
+      "rules": "2014",
+      "book": "AAG"
+    },
+    "advancement": [
+      {
+        "_id": "gNmPziRgUpwQDyb7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.zyltPGYZrbj3XPhf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "獲得背景特性",
+        "icon": null
+      },
+      {
+        "_id": "tUglFv51qpAxC04w",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins",
+            "skills:rel"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "CAIVe2c0WSDLOJ9J",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "推薦天界語或吉斯語",
+        "icon": null
+      },
+      {
+        "_id": "CkVItNs3AQhIoM55",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.018199C228C3FC13",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.A32E3C5845F5A20C",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.1B08608A7AF77C85",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.2C22C4FE00679D76",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.BfXf59a1jb1jxLQ1",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "identifier": "-astral-drifter",
+    "startingEquipment": [],
+    "wealth": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "lJNP5Uu4oTGwRQWK",
+  "folder": "ruU9WRwpFiJ2P3XZ",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757261977918,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lJNP5Uu4oTGwRQWK"
+}

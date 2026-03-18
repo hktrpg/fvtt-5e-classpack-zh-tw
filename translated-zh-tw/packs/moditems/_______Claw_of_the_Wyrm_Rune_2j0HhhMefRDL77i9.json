@@ -1,0 +1,177 @@
+{
+  "_id": "2j0HhhMefRDL77i9",
+  "name": "巨龍符文之爪 Claw of the Wyrm Rune",
+  "type": "equipment",
+  "img": "icons/commodities/claws/claw-lizard-white-black.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 3,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749710928408,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這枚龍爪上覆蓋着一層銀鑄的外衣，上面雕刻着wyrm（龍）的符文。該爪具有以下特性。</p>\n<p><strong>屠龍者Wyrmslayer</strong>。以一個動作，你可以以該爪指向一個距你30尺以內的龍。該龍必須通過一個DC15的體質豁免，否則對所有類型的傷害獲得易傷，直到你的下一回合結束。此特性可以使用三次。在下一次黎明時，該爪恢復所有消耗的次數。</p>\n<p><strong>防龍盾Wyrm Shield</strong>。當該爪被裝飾在你的身上時，你對龍的吐息所造成的傷害具有抗性。</p>\n<p><strong>隔離龍族Wyrm Ward</strong>。通過用你的手指在地面描繪wyrm符文，你可以將爪的魔法轉移到某一地方。由你所描繪的那個點成爲一個半徑100尺的球形魔法區域的中心，該區域的位置是固定的。轉移該項魔力需要花費8小時時間，並且需要爪在這期間一直位於你的5尺之內。在這8小時結束時，爪被摧毀，該區域獲得以下特性：</p>\n<ul>\n<li>當位於此100尺半徑的球形範圍內時，任何龍類在豁免骰上具有劣勢，並且其飛行速度不可超過10尺。</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "SKT",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "turn",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "spec"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-claw-of-the-wyrm-rune",
+    "container": null,
+    "attuned": false,
+    "cover": null,
+    "crewed": false,
+    "properties": []
+  },
+  "_key": "!items!2j0HhhMefRDL77i9"
+}

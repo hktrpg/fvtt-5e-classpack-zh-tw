@@ -1,0 +1,201 @@
+{
+  "name": "織心入門 Heart Weaver’s Primer",
+  "type": "equipment",
+  "img": "icons/sundries/books/book-worn-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>（需法師同調）</em><br />這本書樸實無華，聞起來時有隨機一種你喜歡的氣味。<br />這本書在被找到時，包含了以下法術：<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.NXHO4t01vJcJ8Ct8]{嫌惡/關懷術Antipathy/Sympathy}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.QFBZcGORjnBRgAYo]{魅惑人類Charm Person}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.JudswpO6E5GBlyfQ]{支配人類Dominate Person}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.YfT8hNtZ4Qt8aLKc]{注目術Enthrall}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.BbpCbjCXt14a08Jp]{催眠圖紋Hypnotic Pattern}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.O865yy87cPevGeMj]{篡改記憶Modify Memory}</em></span>和<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.Ubl35siOKv9ihW2M]{暗示術Suggestion}</em></span>。你可以將其作爲法術書。<br />當你持握這本書時，你可以將其作爲你法師法術的法器。<br />這本書具有3發充能，且每天黎明時恢復1d3發已消耗的充能。你持握它時，可以通過以下方式消耗充能：</p><ul class=\"bbc_list\"><li>如果你花費1分鐘時間研究這本書，你可以消耗1發充能來將你的一道已準備法術替換爲書中的另一道法術。新法術必須是附魔學派的法術。</li><li>當你施展一道附魔系法術時，你可以消耗1發充能讓目標在對抗法術的第一個豁免檢定上具有劣勢。</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 5000,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "3",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "spent": 0
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "container": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "special",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-heart-weavers-primer",
+    "attuned": false
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 3,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1686059964887,
+    "modifiedTime": 1757871366746,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "0kYXiIauxbxVdjZn",
+  "_id": "xUSaevck6xflB8xA",
+  "sort": 6300000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!xUSaevck6xflB8xA"
+}

@@ -1,0 +1,185 @@
+{
+  "_id": "1aIRpKtVZBmfAlOW",
+  "name": "鮮血惡戾 Blood Maledict",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BH2022",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<p>第 1 級時，你得到引導、甚至是犧牲你的活力精華來以鮮血祕法詛咒和操控生物的能力。你學會一種你所選的血咒（在後文中詳細描述）。在你第 6、第 10、第 14 及第 18 級時，你學會一種新的血咒，且你可以選擇一個已知血咒替換爲另一個。<br />當你使用鮮血惡戾時，你選擇要使用哪種血咒。在血咒影響目標前，你可以通過失去一個鮮血祕法骰的生命值來增幅你的血咒。一個增幅的血咒會得到額外效果，具體參照詛咒的描述。體內沒有血液的生物對未增幅的血咒免疫。<br />你能夠使用此特性 1 次。從第 6 級開始，你可以使用此特性 2 次，第 13 級時增爲 3 次，第 17 級時增爲 4 次。完成一次短休或長休後，你將重獲所有消耗掉的鮮血惡戾次數。</p>",
+      "chat": ""
+    },
+    "requirements": "血獵手等級 1",
+    "uses": {
+      "max": "@scale.blood-hunter.bloodmaledict",
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "advancement": [],
+    "activities": {
+      "GD2tScNz7XINHo4M": {
+        "_id": "GD2tScNz7XINHo4M",
+        "type": "utility",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "target": "",
+              "value": "1",
+              "type": "itemUses",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "blood-maledict",
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": 1,
+      "repeatable": false
+    }
+  },
+  "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+  "flags": {
+    "plutonium": {
+      "page": "classFeature",
+      "source": "BH2022",
+      "hash": "blood%20maledict_blood%20hunter_bh2022_1_bh2022",
+      "propDroppable": "classFeature"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "FAdeDr59Gwy7NN2E",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1757153159764,
+    "modifiedTime": 1757421431952,
+    "lastModifiedBy": "hzd8mTtpA2xMcmGp"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hzd8mTtpA2xMcmGp": 3
+  },
+  "_key": "!items!1aIRpKtVZBmfAlOW"
+}

@@ -1,0 +1,250 @@
+{
+  "_id": "f4HqyOlTVNlCFU77",
+  "name": "渦旋翹曲 Vortex Warp",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/liangxi.png",
+  "effects": [],
+  "folder": "ortcuG54X98lRYZL",
+  "sort": 400000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "onUseMacroName": "[isSaveFailure]ItemMacro"
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "dae": {
+      "macro": {
+        "name": "渦旋翹曲 Vortex Warp",
+        "img": "modules/dnd5e_classpack-zh-tw/Nicons/liangxi.png",
+        "type": "script",
+        "scope": "global",
+        "command": "/**\n * Teleport targets INTO caster-centered radius (no animation, uses MidiQOL.moveToken)\n * - 選中或 target 好目標後運行宏\n * - 選中(控制)施法者 token（作爲圓心）；若未選中則提示\n * - 點擊落點必須在施法者爲圓心的半徑內；超出會提示並重選\n * - 多目標支持：per-target 或 same-for-all 模式\n */\n\n(async () => {\n  const RANGE_FT = 90;       // 傳送範圍（英尺），可按需修改\n  const TIMEOUT_MS = 20000;  // 單次點擊超時\n  const HIGHLIGHT_COLOR = 0x66ccff;\n\n  // ---------- 幫助函數 ----------\n  const feetPerSquare = canvas.scene.grid?.distance ?? 5;\n  const gridSize = canvas.grid.size;\n  const S = CONST.GRID_SNAPPING_MODES;\n\n  function feetBetweenPts(a, b) {\n    return Math.hypot(a.x - b.x, a.y - b.y) / gridSize * feetPerSquare;\n  }\n\n  function centerToTopLeft(centerPoint, tokenDocOrCanvasToken) {\n    // tokenDocOrCanvasToken may be a Canvas.Token object (has document.width) or TokenDocument\n    const tokenGridW = Number(tokenDocOrCanvasToken.document?.width ?? tokenDocOrCanvasToken.document?.source?.width ?? tokenDocOrCanvasToken.width ?? tokenDocOrCanvasToken._source?.width ?? 1);\n    const tokenGridH = Number(tokenDocOrCanvasToken.document?.height ?? tokenDocOrCanvasToken.document?.source?.height ?? tokenDocOrCanvasToken.height ?? tokenDocOrCanvasToken._source?.height ?? tokenGridW);\n    const halfWpx = (tokenGridW * gridSize) / 2;\n    const halfHpx = (tokenGridH * gridSize) / 2;\n    return { x: Math.round(centerPoint.x - halfWpx), y: Math.round(centerPoint.y - halfHpx), gridW: tokenGridW, gridH: tokenGridH };\n  }\n\n  // 返回舞臺上的 token 視覺中心（不用已棄用方法）\n  function getTokenCenterPoint(tok) {\n    return { x: (tok.center?.x ?? (tok.x + tok.w/2)), y: (tok.center?.y ?? (tok.y + tok.h/2)) };\n  }\n\n  // snap 舞臺點到網格“格子中心”\n  function snapStagePointToGridCenter(stagePoint) {\n    try {\n      // BaseGrid#getSnappedPoint(point, behavior) -> 返回中心點（舞臺座標）\n      return canvas.grid.getSnappedPoint({ x: stagePoint.x, y: stagePoint.y }, { mode: S.CENTER, resolution: 1 });\n    } catch (e) {\n      // fallback 簡單四捨五入到最近格點中心\n      return { x: Math.round(stagePoint.x / gridSize) * gridSize, y: Math.round(stagePoint.y / gridSize) * gridSize };\n    }\n  }\n\n  // 檢查指定目標矩形是否與已有 tokens 衝突\n  function areaOccupiedByOther(topLeftX, topLeftY, widthPx, heightPx, ignoreId = null) {\n    const rectA = new PIXI.Rectangle(topLeftX, topLeftY, widthPx, heightPx);\n    return canvas.tokens.placeables.some(t => {\n      if (t.id === ignoreId) return false;\n      const rectB = new PIXI.Rectangle(t.x, t.y, t.w, t.h);\n      return rectA.right  > rectB.left &&\n             rectA.left   < rectB.right &&\n             rectA.bottom > rectB.top &&\n             rectA.top    < rectB.bottom;\n    });\n  }\n\n  // ---------- 解析施法者與目標 ----------\n  const caster = canvas.tokens.controlled[0] ?? token; // 優先使用你控制的 token\n  if (!caster) {\n    ui.notifications.warn(\"請先控制（選中）施法者的 Token，再運行此宏\");\n    return;\n  }\n  const casterCenter = getTokenCenterPoint(caster);\n\n  // 目標集：優先使用 game.user.targets（玩家 target），否則使用被控制的 tokens（不含 caster）\n  let targets = Array.from(game.user.targets ?? []);\n  if (targets.length === 0) {\n    const ctrl = canvas.tokens.controlled?.filter(t => t.id !== caster.id) ?? [];\n    targets = ctrl;\n  } else {\n    // 如果 targets 包含施法者的 token，移除之\n    targets = targets.filter(t => t.id !== caster.id);\n  }\n  if (targets.length === 0) {\n    ui.notifications.warn(\"請先 target 或選中要傳送的一個或多個目標（目標不能包含施法者）\");\n    return;\n  }\n\n  // 如果多個目標，詢問模式\n  let mode = \"per-target\";\n  if (targets.length > 1) {\n    const choice = await new Promise(resolve => {\n      new Dialog({\n        title: \"傳送模式\",\n        content: `<p>檢測到 ${targets.length} 個目標。請選擇：</p>`,\n        buttons: {\n          per: { label: \"爲每個目標分別選擇落點\", callback: () => resolve(\"per-target\") },\n          same: { label: \"爲所有目標選擇同一落點（並驗證每個目標是否允許）\", callback: () => resolve(\"same-for-all\") },\n          cancel: { label: \"取消\", callback: () => resolve(null) }\n        },\n        default: \"per\"\n      }).render(true);\n    });\n    if (!choice) return ui.notifications.info(\"已取消傳送\");\n    mode = choice;\n  }\n\n  // ---------- 繪製以施法者爲中心的高亮圓（視覺） ----------\n  const maxSquares = Math.max(1, Math.floor(RANGE_FT / feetPerSquare));\n  const radiusPx = maxSquares * gridSize;\n  const g = new PIXI.Graphics();\n  g.lineStyle(2, HIGHLIGHT_COLOR, 0.9);\n  g.beginFill(HIGHLIGHT_COLOR, 0.06);\n  g.drawCircle(casterCenter.x, casterCenter.y, radiusPx);\n  g.endFill();\n  g.zIndex = 10000;\n  canvas.app.stage.addChild(g);\n  ui.notifications.info(`請在施法者高亮圓內選擇落點（最多 ${RANGE_FT} 英尺）。點擊超出或被佔用會提示並重選。`);\n\n  // ---------- 單次點擊並 snap 到格子中心（null 表示超時） ----------\n  const getClickedSnappedCenter = (ms) => new Promise(resolve => {\n    const handler = (event) => {\n      try { canvas.app.stage.off(\"pointerdown\", handler); } catch(e){}\n      try { canvas.app.stage.removeChild(g); } catch(e){}\n      let pos = null;\n      try { pos = event.data.getLocalPosition(canvas.app.stage); } catch(e) { pos = null; }\n      if (!pos) return resolve(null);\n      const snap = snapStagePointToGridCenter(pos);\n      resolve(snap);\n    };\n    canvas.app.stage.on(\"pointerdown\", handler);\n    setTimeout(() => {\n      try { canvas.app.stage.off(\"pointerdown\", handler); } catch(e){}\n      try { canvas.app.stage.removeChild(g); } catch(e){}\n      resolve(null);\n    }, ms);\n  });\n\n  // ---------- 邏輯：per-target 與 same-for-all ----------\n  try {\n    if (mode === \"per-target\") {\n      for (const tk of targets) {\n        // 反覆 prompt 直到爲該目標選到合法位置\n        while (true) {\n          // 重新加入高亮（上一次可能被移除）\n          if (!canvas.app.stage.children.includes(g)) canvas.app.stage.addChild(g);\n          const snapped = await getClickedSnappedCenter(TIMEOUT_MS);\n          if (!snapped) { ui.notifications.warn(\"未檢測到點擊，請重試\"); continue; }\n\n          // 計算該 snapped 的直線距離到 caster 中心\n          const dist = feetBetweenPts(snapped, casterCenter);\n          if (dist > RANGE_FT + 0.001) {\n            ui.notifications.warn(`所選位置距離施法者 ${Math.round(dist)} 英尺，超出 ${RANGE_FT} 英尺，請重新選擇`);\n            continue;\n          }\n\n          // 將 snapped center 轉爲目標 token 應有的左上與中心（考慮 token 的格寬高）\n          const { x: topLeftX, y: topLeftY, gridW, gridH } = (() => {\n            const temp = centerToTopLeft(snapped, tk);\n            return { x: temp.x, y: temp.y, gridW: temp.gridW, gridH: temp.gridH };\n          })();\n\n          // 碰撞檢測\n          const occupied = areaOccupiedByOther(topLeftX, topLeftY, gridW * gridSize, gridH * gridSize, tk.id);\n          if (occupied) { ui.notifications.warn(`${tk.name} 的目標格被佔用，請重新選擇`); continue; }\n\n          // 計算傳入 MidiQOL.moveToken 的 center（以格爲單位中心）\n          // 當 token grid 大小爲偶數時，center 將位於格線交點；當爲奇數時，center 位於格子中心\n          const centerX = Math.round((topLeftX + (gridW * gridSize) / 2));\n          const centerY = Math.round((topLeftY + (gridH * gridSize) / 2));\n\n          // 執行瞬移（僅用 MidiQOL.moveToken，第三個參數 false 表示無動畫）\n          if (typeof MidiQOL?.moveToken === \"function\") {\n            try {\n              await MidiQOL.moveToken(tk, { x: centerX, y: centerY }, false);\n              ChatMessage.create({ content: `${tk.name} 已被傳送到選定位置（距施法者 ${Math.round(dist)} 英尺）。` });\n              console.log(`teleport: ${tk.name} -> center(${centerX},${centerY}), topLeft(${topLeftX},${topLeftY}), grid ${gridW}x${gridH}`);\n              break; // 下一目標\n            } catch (e) {\n              console.error(\"RealityCollapse: MidiQOL.moveToken failed\", e);\n              ui.notifications.error(\"傳送失敗（檢查控制檯）\");\n              break; // 跳出該目標的循環\n            }\n          } else {\n            ui.notifications.error(\"MidiQOL.moveToken 不可用（宏配置爲僅使用該函數進行傳送）\");\n            return;\n          }\n        } // per-target loop\n      } // for each target\n    } else { // same-for-all\n      while (true) {\n        if (!canvas.app.stage.children.includes(g)) canvas.app.stage.addChild(g);\n        const snapped = await getClickedSnappedCenter(TIMEOUT_MS);\n        if (!snapped) { ui.notifications.warn(\"未檢測到點擊，請重試\"); continue; }\n\n        const dist = feetBetweenPts(snapped, casterCenter);\n        if (dist > RANGE_FT + 0.001) { ui.notifications.warn(`所選位置超出 ${RANGE_FT} 英尺，請重選`); continue; }\n\n        // 需要驗證每個 target 的目標矩形是否被佔用（按其各自體型）\n        let failed = false;\n        const planned = [];\n        for (const tk of targets) {\n          const { x: topLeftX, y: topLeftY, gridW, gridH } = centerToTopLeft(snapped, tk);\n          const occupied = areaOccupiedByOther(topLeftX, topLeftY, gridW * gridSize, gridH * gridSize, tk.id);\n          if (occupied) { ui.notifications.warn(`${tk.name} 的目標格被佔用，選擇不合法，請重選`); failed = true; break; }\n          planned.push({ tk, topLeftX, topLeftY, gridW, gridH });\n        }\n        if (failed) continue;\n\n        // 全部合法，執行傳送\n        for (const p of planned) {\n          try {\n            const centerX = Math.round((p.topLeftX + (p.gridW * gridSize) / 2));\n            const centerY = Math.round((p.topLeftY + (p.gridH * gridSize) / 2));\n            await MidiQOL.moveToken(p.tk, { x: centerX, y: centerY }, false);\n            ChatMessage.create({ content: `${p.tk.name} 已被傳送到共同位置（距施法者 ${Math.round(feetBetweenPts({x:centerX,y:centerY}, casterCenter))} 英尺）。` });\n            console.log(`teleport same-for-all: ${p.tk.name} -> center(${centerX},${centerY})`);\n          } catch (e) {\n            console.error(\"RealityCollapse: MidiQOL.moveToken failed\", e);\n            ChatMessage.create({ content: `${p.tk.name} 傳送失敗（查看控制檯）` });\n          }\n        }\n        break;\n      } // same-for-all while\n    }\n  } finally {\n    try { canvas.app.stage.removeChild(g); } catch(e){}\n  }\n\n  console.log(\"RealityCollapse: caster-centered teleport finished\");\n})();",
+        "author": "WqWGW8MuBm7BNHxt",
+        "ownership": {
+          "default": 3
+        },
+        "_id": null,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "_stats": {
+          "coreVersion": "12.343",
+          "systemId": "dnd5e",
+          "systemVersion": "4.4.4",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null
+        }
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>你魔法地扭曲範圍裏另一個你可見生物周邊的空間。目標需通過一次體質豁免（目標可主動選擇失敗），否則目標將被傳送至範圍內一處你可見，由你選擇的未被佔據的空間。選擇的空間必須是地表之上或液體之中，並且能讓目標在不被擠壓的情況下支撐目標。</p>\n<p><strong> 升環施法效應</strong>：當你使用3環或更高的法術位釋放該法術時，法術位每比2環高1環，施法距離增加30尺。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "SCC",
+      "revision": 1,
+      "rules": "2014",
+      "book": "SCC"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "(@scaling)*30",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 2,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [],
+          "critical": {
+            "allow": false
+          }
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": ""
+      }
+    },
+    "identifier": "vortex-warp"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!f4HqyOlTVNlCFU77"
+}

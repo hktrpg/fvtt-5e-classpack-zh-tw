@@ -1,0 +1,343 @@
+{
+  "_id": "k0Edsji19UVt4i08",
+  "name": "死亡領域 Death Domain（DMG）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Shadow_DeadofNight.png",
+  "effects": [],
+  "folder": "Xih0AZJHkJZLWGw4",
+  "sort": 201563,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>         死亡領域關注的是導致死亡的原力，以及喚起不死生物的負能量。其神祇諸如奇魔須Chemosh、米爾寇Myrkul和維婕絲Wee Jas等，都是死靈法師、死亡騎士、巫妖、木乃伊領主和吸血鬼的守護神。死亡領域的神靈還具現爲謀殺（阿努比斯Anubis、巴爾Bhaal和匹裏麻斯Pyremius），痛苦（魯茲Iuz或勞薇塔Loviatar），疾病或毒藥（英凱布居羅斯Incabulos、塔洛娜Talona或魔吉安Morgion），和冥界underworld（哈迪斯Hades和赫爾Hel）。</p><table border=\"1\"><tbody><tr><th><p>牧師等級</p></th><th><p>法術</p></th></tr><tr><td><p><strong>1st</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.DEl8kc5vGwLCNYpR]{虛假生命}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.PZQqlG5R6G24aWtm]{致病射線}</p></td></tr><tr><td><p><strong>3rd</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.5GWYJBfc1aZ6415M]{目盲/耳聾術}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.VRvKmIZL44nZWKaa]{衰弱射線}</p></td></tr><tr><td><p><strong>5th</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.xYpJGRI4xcMa41kO]{操縱死屍}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.FKjra48NDHtB4518]{吸血鬼之觸}</p></td></tr><tr><td><p><strong>7th</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.AVumturalJuP4paw]{枯萎術}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.4gLdaCM7rxoNhj8d]{防死結界}</p></td></tr><tr><td><p><strong>9th</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.XK3IvcqPquyj1W3P]{防活物護罩}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.T39k39dbE2poIFc5]{死雲術}</p></td></tr></tbody></table><h3><strong>附贈熟練項</strong> Bonus Proficiency</h3><p>          該牧師在第1級選擇該領域時將獲得軍用武器的熟練項。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG",
+      "revision": 1,
+      "rules": "2014",
+      "book": "DMG",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "death-domain",
+    "classIdentifier": "cleric",
+    "advancement": [
+      {
+        "_id": "lowv6o578jo7dqnq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.DEl8kc5vGwLCNYpR"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.PZQqlG5R6G24aWtm"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "獲得領域法術",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "hae6czro96iqw4dp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.5GWYJBfc1aZ6415M"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.VRvKmIZL44nZWKaa"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得領域法術",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "fk77z2wwcw4n25l4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.xYpJGRI4xcMa41kO"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.FKjra48NDHtB4518"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得領域法術",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "s2c8unanjhicb4sd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.AVumturalJuP4paw"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.4gLdaCM7rxoNhj8d"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "獲得領域法術",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "zd4fuedgf1zxqiyg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.XK3IvcqPquyj1W3P"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.T39k39dbE2poIFc5"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得領域法術",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "2pbio9g7r1c48uqm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.YW2NTcJkg9hHYpCy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "職業特性"
+      },
+      {
+        "_id": "w23y6jcwldhqnfh2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.BAYFDeCiaMYHQZRw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性"
+      },
+      {
+        "_id": "4tobypdfms4ciha1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.XLAACVfQbbmNrhQk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性"
+      },
+      {
+        "_id": "cb32azsgazjyrx8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.5RpPB6Lwkva1meGG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "職業特性"
+      },
+      {
+        "_id": "wuj5f6aahfqtblyy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.hpaOlH1qrWKtRwaY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性"
+      },
+      {
+        "_id": "vPPxcUKwA1sFykVP",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          },
+          "restriction": {
+            "level": "0"
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "收割者",
+        "hint": "第1級時，該牧師可以從任意法術列表中選擇學習一個死靈戲法。"
+      },
+      {
+        "_id": "FkC6TepVXTYcTwLU",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:mar"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757275134817,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!k0Edsji19UVt4i08"
+}

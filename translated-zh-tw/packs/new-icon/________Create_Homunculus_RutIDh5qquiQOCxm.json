@@ -1,0 +1,353 @@
+{
+  "name": "創造人工生命體 Create Homunculus",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "_id": "RutIDh5qquiQOCxm",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>說出複雜咒語的同時，你用一把鑲嵌寶石的匕首刺穿自己，並受到不能被任何方式降低的2d4穿刺傷害。隨後你將血液滴落在法術的其他成分上並接觸它們，將它們轉變爲一種名爲造妖Homunculus的特殊構裝體。<br />造妖的數據參見怪物手冊。它是你的忠實夥伴，並且會隨着你死亡。每次你完成一次長休息，並且此時若造妖與你處於同一位面，你可以選擇花費最多一半的生命骰，投擲每個骰子並加上你的體質調整值，之後你的最大生命值降低數字的總和，並且造妖的最大生命值和當前生命值都提升這個數字。這個過程可以讓你的生命值降至不低於1點。你和造妖的生命值變化會在你完成下一次長休息時還原，在那之前你的最大生命降低效果不能被移除，除非你的造妖死亡。<br />同一時間你只能擁有一隻造妖。如果你在你的造妖還存活時施展，法術將會失敗。</p><p></p><p><strong>人工生命體（造妖）Homunculus</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt;mso-pagination:widow-orphan\">    人們用一種粘土、灰燼、曼德拉根和血液的混合物塑型，並引導一種罕見的儀式魔法來製造一個松鼠般大小的忠實夥伴。<br />    人工生命體是一種如其製作者身體延伸般活動的構裝體，它與其製作者以一種神祕的鏈接來分享思想、感官和語言。每個主人只能同時擁有一隻人工生命體（試圖創造另一個時總會失敗），當它的主人死亡時人工生命體也會一同死去。</p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt;mso-pagination:widow-orphan\">    <em style=\"mso-bidi-font-style:normal\"><strong>共享意識Shared Mind。</strong></em>人工生命體知曉其製作者的一切，包括其能說會讀的所有語言。而只要同處一個位面，即使兩者相隔遙遠，其主人都可以得知該構裝生物感官所及的一切。人工生命體被用作密探、斥候、使者或信使，是那些困身於祕密實驗或冒險中的施法者非常寶貴的僕從。</p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt;mso-pagination:widow-orphan\"> </p><p class=\"p\" style=\"TEXT-ALIGN:left;MARGIN:5pt 0pt 5pt 21pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto\"><strong>人工生命體Homunculus</strong></p><p class=\"p\" style=\"TEXT-ALIGN:justify;TEXT-JUSTIFY:inter-ideograph;MARGIN:2.4pt 0pt 2.4pt 21pt;mso-pagination:none;mso-para-margin-left:2.0000gd;mso-para-margin-top:0.2000gd;mso-para-margin-bottom:0.2000gd;mso-line-height-alt:0pt;punctuation-trim:leading;text-align:justify\"><em style=\"mso-bidi-font-style:normal\">微型構裝生物，絕對中立</em></p><p class=\"p\" style=\"TEXT-ALIGN:justify;TEXT-JUSTIFY:inter-ideograph;MARGIN:2.4pt 0pt 2.4pt 38pt;TEXT-INDENT:-17pt;mso-pagination:none;mso-para-margin-left:2.0000gd;mso-para-margin-top:0.2000gd;mso-para-margin-bottom:0.2000gd;mso-line-height-alt:0pt;punctuation-trim:leading;text-align:justify\"><strong style=\"mso-bidi-font-weight:normal\"> </strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">護甲等級：13（天生護甲）</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">生命值：5（2d4）</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">速度：20尺，飛行40尺</strong></p><p class=\"p\" style=\"TEXT-ALIGN:justify;TEXT-JUSTIFY:inter-ideograph;MARGIN:2.4pt 0pt 2.4pt 38pt;TEXT-INDENT:-17pt;mso-pagination:none;mso-para-margin-left:2.0000gd;mso-para-margin-top:0.2000gd;mso-para-margin-bottom:0.2000gd;mso-line-height-alt:0pt;punctuation-trim:leading;text-align:justify\"><strong style=\"mso-bidi-font-weight:normal\"> </strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">力量4（-3） 敏捷15（+2） 體質11（+0）<br />智力10（+0） 感知10（+0） 魅力7（-2）</strong></p><p class=\"p\" style=\"TEXT-ALIGN:justify;TEXT-JUSTIFY:inter-ideograph;MARGIN:2.4pt 0pt 2.4pt 38pt;TEXT-INDENT:-17pt;mso-pagination:none;mso-para-margin-left:2.0000gd;mso-para-margin-top:0.2000gd;mso-para-margin-bottom:0.2000gd;mso-line-height-alt:0pt;punctuation-trim:leading;text-align:justify\"><strong style=\"mso-bidi-font-weight:normal\"> </strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">傷害免疫：毒素</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">狀態免疫：魅惑，中毒</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">感官：黑暗視覺60尺，被動察覺10</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">語言：懂其製作者的語言但不能說</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 0pt 21pt;LINE-HEIGHT:10pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\"><strong style=\"mso-bidi-font-weight:normal\">挑戰等級：0（10 XP）</strong></p><p class=\"p\" style=\"TEXT-ALIGN:justify;TEXT-JUSTIFY:inter-ideograph;MARGIN:2.4pt 0pt 2.4pt 38pt;TEXT-INDENT:-17pt;mso-pagination:none;mso-para-margin-left:2.0000gd;mso-para-margin-top:0.2000gd;mso-para-margin-bottom:0.2000gd;mso-line-height-alt:0pt;punctuation-trim:leading;text-align:justify\"><strong style=\"mso-bidi-font-weight:normal\"> </strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 5pt 21pt;LINE-HEIGHT:13pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\">  <em style=\"mso-bidi-font-style:normal\"><strong style=\"mso-bidi-font-weight:normal\">心靈連結Telepathic Band。</strong></em>當人工生命體與其主人處於同一位面時，它可以用魔法將自己的感官傳遞給主人，且兩者可以通過心靈感應進行交流。</p><p class=\"MsoNormal\" style=\"BORDER-BOTTOM:rgb(183,156,97) 1pt solid;PAGE-BREAK-AFTER:avoid;PADDING-BOTTOM:1pt;TEXT-ALIGN:left;PADDING-TOP:0pt;PADDING-LEFT:0pt;MARGIN:8pt 0pt 0pt 21pt;PADDING-RIGHT:0pt;mso-pagination:widow-orphan lines-together;mso-para-margin-left:2.0000gd;mso-line-height-alt:0pt;mso-border-bottom-alt:1.0000pt solid rgb(183,156,97)\"><strong>動作</strong></p><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:0pt 0pt 5pt 21pt;LINE-HEIGHT:13pt;mso-pagination:widow-orphan;mso-para-margin-left:2.0000gd;mso-line-height-rule:exactly\">  <em style=\"mso-bidi-font-style:normal\"><strong style=\"mso-bidi-font-weight:normal\">啃咬Bite。</strong>近戰武器攻擊：</em>命中+4，觸及5尺，單一生物。<em style=\"mso-bidi-font-style:normal\">命中：</em>1點穿刺傷害，且目標必須進行一次DC 10的體質豁免，豁免失敗則陷入1分鐘的中毒狀態。如果豁免結果爲5或更低，則該目標改爲陷入5（1d10）分鐘的中毒狀態，且在該中毒狀態持續的同時陷入昏迷。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": "self",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "level": 6,
+    "school": "trs",
+    "materials": {
+      "value": "黏土，灰塵，曼德拉草根，以上材料在施法時被消耗，以及價值1000GP的鑲嵌寶石的匕首",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "5VcVHNO92PGYbjkz": {
+        "type": "damage",
+        "_id": "5VcVHNO92PGYbjkz",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": "4",
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "舉行儀式",
+        "img": "",
+        "appliedEffects": []
+      },
+      "GEs94hE9NrSf3cQg": {
+        "type": "summon",
+        "_id": "GEs94hE9NrSf3cQg",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "1",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "_id": "jrzXIWESFf87JeLT",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.ZQTCZfTV9ZoTjNCU"
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "召喚造妖",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "create-homunculus"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "uCsiJvZQjqz2QNRl",
+  "sort": 6600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RutIDh5qquiQOCxm"
+}

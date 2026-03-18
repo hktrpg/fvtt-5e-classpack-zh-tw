@@ -1,0 +1,283 @@
+{
+  "_id": "FSr7TfaoWRPpUtkD",
+  "name": "詩人激勵 Bardic Inspiration",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Shaman_CleanseSpirit.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        從第1級起，你可以用熱血的話語和音樂激勵他人。此時，你可以在自已回合內用一個附贈動作指定身邊60尺內一個能聽到你聲音的生物(不能指定你自身)，並使該生物獲得一個詩人激勵，即一個[[/r d6]]的激勵骰。</p>\n<p>       在接下來的10分鐘內，該生物在進行單次屬性檢定、攻擊檢定。豁免檢定時可以使用該激勵散，以將其結果加到揶骰結果中。該生物可以在[[/r d6]]結果擲出後，DM宣佈結果前決定是否使用詩人激勵。而詩人激勵一旦使用即被消耗掉。一個生物同一時間裏只能保有一個詩人激勵。</p>\n<p>        你能夠使用該特性的次數等於你的魅力調整值(最低1次)。完成一次長休後，你將重獲所有消耗掉的詩人激勵次數。</p>\n<p>        你產生的澈勵骰大小可以在達到本職業的特定等級時增大。第5級時爲[[/r d8]]，第10級時爲[[/r d10]]，而第15級時爲[[/r d12]]。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 53",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "max(@abilities.cha.mod,1)",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "吟遊詩人等級 1",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "10",
+          "units": "minute",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "1@scale.bard.inspiration",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "詩人激勵",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Shaman_CleanseSpirit.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.FSr7TfaoWRPpUtkD",
+      "transfer": false,
+      "_id": "vnvQLGPj8cA1lQjt",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.optional.詩人激勵.attack.all",
+          "mode": 2,
+          "value": "1@scale.bard.bardic-inspiration",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.詩人激勵.save.all",
+          "mode": 2,
+          "value": "1@scale.bard.bardic-inspiration",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.詩人激勵.check.all",
+          "mode": 2,
+          "value": "1@scale.bard.bardic-inspiration",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.詩人激勵.label",
+          "mode": 2,
+          "value": "詩人激勵",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.詩人激勵.skill.all",
+          "mode": 2,
+          "value": "1@scale.bard.bardic-inspiration",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          },
+          "dependents": [
+            {
+              "uuid": "Actor.EGpzRvpKd3haHHIR.ActiveEffect.YFU8XXG3DSprfeSa"
+            }
+          ]
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Actor.8kAJgkx5OPCuy8hD.Item.XqZE6clSCve3PQ9A.ActiveEffect.Z6EOxQ9qrzdSsDzk",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1756993708820,
+        "modifiedTime": 1756993708820,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!FSr7TfaoWRPpUtkD.vnvQLGPj8cA1lQjt"
+    }
+  ],
+  "folder": null,
+  "sort": 13900000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1757159976892,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FSr7TfaoWRPpUtkD"
+}

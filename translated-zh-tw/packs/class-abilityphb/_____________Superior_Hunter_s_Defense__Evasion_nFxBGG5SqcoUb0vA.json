@@ -1,0 +1,163 @@
+{
+  "_id": "nFxBGG5SqcoUb0vA",
+  "name": "高效獵人防術: 反射閃避 Superior Hunter's Defense: Evasion",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Priest_PathofDevout.png",
+  "system": {
+    "description": {
+      "value": "<p>當你作爲目標受某個區域效應影響時（比如@UUID[Compendium.dnd5e_classpack-zh-tw.monsterspack.ZyIBOoZZD0nDaO2s]{紅龍}的火焰吐息或是法術@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.dHg72reVMXYFu4lR]{閃電束 Lightning Bolt}），如果該效應需要你通過敏捷豁免來使傷害減半，則當你豁免成功時不再受到傷害，豁免失敗則只受一半傷害。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 93",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "superiorHuntersDefense"
+    },
+    "requirements": "獵人等級 15",
+    "activities": {},
+    "identifier": "-",
+    "advancement": [],
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "高效獵人防術: 反射閃避 Superior Hunter’s Defense: Evasion",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Priest_PathofDevout.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.nFxBGG5SqcoUb0vA",
+      "_id": "UMmmXAaCyf3Ys9GP",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.superSaver.dex",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1757097608618,
+        "modifiedTime": 1757097621487,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!nFxBGG5SqcoUb0vA.UMmmXAaCyf3Ys9GP"
+    }
+  ],
+  "folder": null,
+  "sort": 35700000,
+  "flags": {
+    "_sheetTab": "details",
+    "entityorder": {
+      "order": 107
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757099644150,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nFxBGG5SqcoUb0vA"
+}

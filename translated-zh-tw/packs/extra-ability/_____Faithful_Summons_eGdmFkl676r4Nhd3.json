@@ -1,0 +1,90 @@
+{
+  "_id": "eGdmFkl676r4Nhd3",
+  "name": "忠誠呼喚 Faithful Summons",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/000526.png",
+  "system": {
+    "description": {
+      "value": "<p>         從14級開始，你通聯的自然精魂會在你最爲無助的時候保護你。若你的生命值降到0，或非自願地變得失能，你可以立即獲得@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.JTNL68CjsZelE8b5]{召喚動物}法術的好處，如同它是以一個9級法術位施展的那樣。它召喚出四隻由你選擇的、挑戰等級2或更低的野獸。被召喚的野獸出現在你周圍20英尺內。如它們沒有從你那裏獲得命令，它們會保護你免受傷害並攻擊你的敵人。此法術持續1小時，無需專注，或直到你解消它（無需動作）。</p>\n<p>         一旦你使用了此特性，你無法再次使用它，直到你完成了一次長休爲止。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "牧人之環等級14",
+    "activities": {},
+    "identifier": "-faithful-summons",
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 34600000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1749883542518,
+    "lastModifiedBy": "uXKCmWFprrvnSIDm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eGdmFkl676r4Nhd3"
+}

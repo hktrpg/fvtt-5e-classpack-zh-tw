@@ -1,0 +1,182 @@
+{
+  "_id": "NOdNl8paEppqJs05",
+  "name": "武士 Samurai（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/003176.png",
+  "effects": [],
+  "folder": "dqzc0s0n6BEoFqEm",
+  "sort": 94141,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>         武士是一種以堅決戰鬥意志擊潰敵人的戰士。武士的信念幾乎堅不可摧，且擋在武士道路前的敵人只有兩種選擇：投降，或者死戰方休。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "identifier": "samurai",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "9gd70onmans30zvr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.8h2z8Kfz7wXyIvwM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "xrbp5zb11dgdzq36",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.W2lVMW9feaADwdH8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "a3dzqoxh385uu51q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.E0L7yAUqsq3jghRa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "ac1adrmivci6ryf4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.d9aVIFjiqL09iK7k",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "ohit44ogojqgyzso",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.UcTb44qcFcpYkA0I",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "2ej1spdilk7nf20j",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "temp-hp",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 5
+            },
+            "10": {
+              "value": 10
+            },
+            "15": {
+              "value": 15
+            }
+          }
+        },
+        "value": {},
+        "title": "戰意臨時生命值",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "k17CEKYxo3bvN9Q8",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "saves:wis"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 7,
+        "title": "雅臣",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "_key": "!items!NOdNl8paEppqJs05"
+}

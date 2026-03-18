@@ -1,0 +1,110 @@
+{
+  "_id": "eXbVBHzsJVUYvODO",
+  "name": "尖嘯腿甲 Shrieking Greaves (BMT)",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "174",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>奇物，珍稀（需同調）</em><br />這對漆黑的腿甲上裝飾着無數恐懼中尖叫的可怖顱骨。<br />這對腿甲有3發充能。着裝這對腿甲期間，你可以用一個附贈動作，消耗1發充能以令你的步行速度增加30尺且在敏捷豁免上具有優勢。這些效應持續1分鐘。腿甲在每日黎明恢復[[/r 1d3]]發已消耗的充能<br /><strong>詛咒Cursed。</strong>腿甲被詛咒了，而與腿甲同調會令你也被詛咒。你無法卸下腿甲直到同調結束或者你被法術<strong>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.ewDH2w8w2yLSM021]{移除詛咒 Remove Curse}</strong>或類似魔法指定爲目標。<br />你在爲抵抗恐慌狀態而進行的豁免具有劣勢。每當你在陷入<strong>恐慌</strong>期間開始回合時，腿甲都會釋放一道刺耳的尖嘯。你和每個位於你10尺內的生物都必須進行一次[[/save ability=con dc=15]]豁免，豁免失敗者受到9（[[/damage 2d8 type=thunder]]）雷鳴傷害，豁免成功則傷害減半。</p><p>Each of these black leg guards is decorated with a motif of monstrous skulls screaming in terror.</p><p>The greaves have 3 charges. While wearing these greaves, you can use a bonus action to expend 1 charge to increase your walking speed by 30 feet, and you have advantage on Dexterity saving throws. These effects last for 1 minute. The greaves regain [[/r 1d3]] expended charges daily at dawn.</p><div data-roll-name-ancestor=\"Curse\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Curse.</span> The greaves are cursed, and becoming attuned to them extends the curse to you. You can't remove the greaves or end your attunement to them until you are targeted by a @spell[Remove Curse] spell or similar magic.</p><p>You have disadvantage on saving throws against the frightened condition. Whenever you start your turn frightened, the greaves release an ear-piercing scream. You and each creature within 10 feet of you must make a [[/save ability=con dc=15]] saving throw, taking 9 ([[/damage 2d8 type=thunder]]) damage on a failed save, or half as much damage on a successful one.</p></div></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "rare",
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": 0
+    },
+    "strength": null,
+    "activities": {},
+    "identifier": "shrieking-greaves-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/img/items/BMT/Shrieking Greaves.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "shrieking%20greaves_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "ERmSxWVwaPGwQwzU",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738876728,
+    "modifiedTime": 1751738876728,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 200000,
+  "_key": "!items!eXbVBHzsJVUYvODO"
+}

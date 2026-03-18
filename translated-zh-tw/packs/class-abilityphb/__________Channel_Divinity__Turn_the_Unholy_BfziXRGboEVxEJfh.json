@@ -1,0 +1,288 @@
+{
+  "_id": "BfziXRGboEVxEJfh",
+  "name": "引導神力：驅散不潔 Channel Divinity: Turn the Unholy",
+  "type": "feat",
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<p>作爲一個動作，你可以用@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.3eyfqXMTJMG9AxYH]{引導神力}特性亮出@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.TJi1q6Bm8IGoJJVL]{聖徽}高喊禱言，以逐退不死生物和邪魔。你身邊30尺範圍內能夠看見聖徽或能聽到你禱言的不死生物或邪魔都必須進行一次感知豁免，豁免失敗者將受到驅散，其效應持續1分鐘或直至其受到任何傷害。</p>\n<p>以該方式被驅散的生物必須花費其回合內的所有移動力盡量遠離你，且無法主動靠近你30尺內。被驅散的生物無法執行反應，只能使用既有的疾走 Dash 動作或從任何妨礙其移動的效應中掙脫。該生物無路可走時將執行迴避 Dodge 動作。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 86",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "requirements": "奉獻之誓等級 3",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.v8z4Z2NuBAbYnjxk"
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "fUWLnqOQSuwe6fhT"
+          }
+        ],
+        "range": {
+          "value": "30",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "sphere",
+            "size": "30",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "enemy",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "fUWLnqOQSuwe6fhT"
+        ]
+      }
+    },
+    "identifier": "",
+    "advancement": [],
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "引導神力：驅散不潔 Channel Divinity",
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.BfziXRGboEVxEJfh",
+      "transfer": false,
+      "_id": "fUWLnqOQSuwe6fhT",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "isDamaged"
+          ]
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1757269733428,
+        "modifiedTime": 1757269759047,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!BfziXRGboEVxEJfh.fUWLnqOQSuwe6fhT"
+    }
+  ],
+  "folder": null,
+  "sort": 12100000,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 110
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 0,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "onUseMacroName": "[templatePlaced]ItemMacro"
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dae": {
+      "macro": {
+        "name": "引導神力：驅散不潔 Channel Divinity: Turn the Unholy",
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+        "type": "script",
+        "scope": "global",
+        "command": "// FilterTargets: 從當前選中的 targets 中移除非不死生物（優先讀取 actor.system.details.type.value）\n(async () => {\n  const targets = Array.from(game.user.targets);\n  if (!targets.length) return ui.notifications.warn(\"請先選中一個或多個目標（使用 Target 工具），然後再運行此宏。\");\n\n  // 可靠讀取 creature type 的函數，優先用 actor.system.details.type.value\n  function readCreatureType(actor) {\n    if (!actor) return null;\n    // 優先路徑（與你提供的輸出一致）\n    const primary = actor?.system?.details?.type?.value ?? actor?.system?.details?.type;\n    if (typeof primary === \"string\" && primary.trim()) return primary.trim().toLowerCase();\n    // 回退至 prototypeToken.actorData（如果存在）\n    const proto = actor?.prototypeToken?.actorData?.details?.type?.value ?? actor?.prototypeToken?.actorData?.details?.type;\n    if (typeof proto === \"string\" && proto.trim()) return proto.trim().toLowerCase();\n    // 進一步回退：getRollData 也可能包含 details\n    if (typeof actor.getRollData === \"function\") {\n      try {\n        const rd = actor.getRollData();\n        const rdType = rd?.details?.type;\n        if (typeof rdType === \"string\" && rdType.trim()) return rdType.trim().toLowerCase();\n      } catch (e) { /* ignore */ }\n    }\n    return null;\n  }\n\n  const removed = [];\n  const kept = [];\n\n  for (const t of targets) {\n    try {\n      // t 可能是 Canvas Token 或 TokenDocument 或其他。盡力解析到 canvas Token 和 actor\n      let token = null;\n      if (t?.document && canvas.tokens.get(t.id)) token = canvas.tokens.get(t.id);\n      else if (t?.id && canvas.tokens.get(t.id)) token = canvas.tokens.get(t.id);\n      else token = t; // 也有可能已經是 canvas token\n\n      // 最終確保拿到 actor\n      const actor = token?.actor ?? (await fromUuid(token?.actor?.uuid).catch(()=>null)) ?? null;\n      if (!actor) {\n        console.warn(\"無法解析目標 actor：\", t);\n        continue;\n      }\n\n      const ctype = readCreatureType(actor); // e.g. \"undead\", \"humanoid\"\n      const isUndead = !!ctype && (ctype.includes(\"undead\") || ctype.includes(\"fiend\"));\n      if (!isUndead) {\n        // 取消目標：優先用 canvas token 的 setTarget 方法\n        try {\n          if (token && typeof token.setTarget === \"function\") {\n            token.setTarget(false, { user: game.user.id });\n          } else {\n            // 回退：刪除 game.user.targets 中的條目\n            game.user.targets.delete(t);\n            // 另一回退：嘗試找畫布上對應 token 並取消\n            const canvasToken = canvas.tokens.placeables.find(p => p.actor?.id === actor.id);\n            if (canvasToken && typeof canvasToken.setTarget === \"function\") canvasToken.setTarget(false, { user: game.user.id });\n          }\n        } catch (e) {\n          // 最終回退：直接從 Set 中刪除\n          try { game.user.targets.delete(t); } catch(e2) { /* ignore */ }\n        }\n        removed.push(actor.name ?? token?.name ?? t?.id);\n      } else {\n        kept.push(actor.name ?? token?.name ?? t?.id);\n      }\n    } catch (err) {\n      console.error(\"處理目標時出錯：\", err);\n    }\n  }\n\n  // 輸出結果\n  const removedText = removed.length ? removed.join(\", \") : \"（無）\";\n  const keptText = kept.length ? kept.join(\", \") : \"（無）\";\n})();",
+        "author": "WqWGW8MuBm7BNHxt",
+        "ownership": {
+          "default": 3
+        },
+        "_id": null,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "_stats": {
+          "coreVersion": "12.343",
+          "systemId": "dnd5e",
+          "systemVersion": "4.4.4",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757271907560,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BfziXRGboEVxEJfh"
+}

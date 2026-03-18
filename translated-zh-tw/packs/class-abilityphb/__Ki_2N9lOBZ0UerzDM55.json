@@ -1,0 +1,86 @@
+{
+  "_id": "2N9lOBZ0UerzDM55",
+  "name": "氣 Ki",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Monk_HealthSphere.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級起，你掌握一股名爲氣的神祕能量。此後你將擁有一定數量的氣作爲儲備。而氣的儲備量由你的武僧等級決定，具體數值見“@UUID[Compendium.dnd5e_classpack-zh-tw.class-table.mslFlzSOAGX87lXV]{武僧職業表}”中“氣”一欄。</p>\n<p>你可以消耗氣以行使各種特性。一開始你掌握三種特性：@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.vLuoFN1x3tRWTPdm]{氣：疾風連擊}，@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.wsvuM0qXEMnmo6bk]{氣：堅強防禦}，@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.gLPcfpXUf336nV4G]{氣：飛檐走壁}。此後，隨着等級的提升你將習得更多的特性。</p>\n<p>消耗掉的氣必須在你短休或長休時完成至少30分鐘的冥想，才能重獲所有消耗掉的氣值。</p>\n<p>某些特性需要目標進行豁免檢定來抵抗你特性造成的效應。其豁免DC如下：</p>\n<p style=\"text-align:center\"><strong>氣豁免DC</strong>＝8＋你的熟練加值＋你的感知調整值</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 78",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "@classes.monk.levels",
+      "spent": 0,
+      "recovery": []
+    },
+    "requirements": "武僧等級 2",
+    "activities": {},
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6000000,
+  "flags": {
+    "_sheetTab": "details",
+    "entityorder": {
+      "order": 186
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 2,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757160086947,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2N9lOBZ0UerzDM55"
+}

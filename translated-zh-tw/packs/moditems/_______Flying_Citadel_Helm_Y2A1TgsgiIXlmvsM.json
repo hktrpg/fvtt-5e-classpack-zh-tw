@@ -1,0 +1,247 @@
+{
+  "name": "飛行堡壘魔舵 Flying Citadel Helm",
+  "type": "consumable",
+  "img": "icons/commodities/tech/electrode-copper.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需施法者同調）。</em></p><p>魔舵被設計成華麗的椅子模樣，讓坐在上面的生物可以操縱被安裝了魔舵的飛行堡壘。魔舵有15AC，18生命值。免疫毒素和心靈傷害，如果魔舵的生命值被降至0，則它被摧毀。</p><p>與魔舵同調的感受像是人類入睡後手臂或腿部發麻的感覺，但並沒有那麼強烈。</p><p>當你和一個飛行堡壘魔舵同調並坐在其中時，只要你保持專注（如同你在維持一個法術的專注）你可以獲得如下能力：</p><ul><li><p>你可以使用魔舵來讓在飛行堡壘在空中移動，每輪最多移動80尺，或每小時最多移動8裏。</p></li><li><p>你可以操縱飛行堡壘，但飛行堡壘的動作不會很靈巧，類似你用船舵或者船槳來操縱航海艦船的效果。</p></li><li><p>在任何時間，你都可以聽見和看到在飛行堡壘外部最高點能夠看見和聽見的事情，就好像你親自站在那個位置一樣。</p></li></ul><p>如果與魔舵同調的生物沒有保持專注，則飛行堡壘靜止在原位。</p><p><strong>轉移同調 Transfer Attunement。</strong>你可以使用一個動作或附贈動作來觸摸一個自願的施法者。此生物瞬間與此魔舵同調，而你與魔舵的同調在同一時間結束。</p><p><strong>摧毀 Crash。</strong>如果飛行堡壘魔舵被摧毀，它所在的堡壘就會失去動力並開始崩解。如果崩解的堡壘位於空中，它將以每輪30尺，或每分鐘300尺的速度下墜。當堡壘墜落到地面時，身處堡壘或者堡壘墜落地點周圍120尺範圍內的任何生物都必須進行一次DC20的敏捷豁免，豁免失敗會受到39（[[/r 6d12]]）的鈍擊傷害，成功則只受一半傷害。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DSotDQ",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "uses": {
+      "max": "",
+      "autoDestroy": false,
+      "spent": null,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": 6,
+        "denomination": 12,
+        "bonus": "",
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "replace": false
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "120",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "sort": 0
+      },
+      "dnd5eactivity100": {
+        "_id": "dnd5eactivity100",
+        "type": "save",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "120",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "20"
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-flying-citadel-helm",
+    "container": null,
+    "attuned": false,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": 1686486875863,
+    "modifiedTime": 1749710928408,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "_id": "Y2A1TgsgiIXlmvsM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jo05tXxu7yf2dQe3": 3
+  },
+  "_key": "!items!Y2A1TgsgiIXlmvsM"
+}

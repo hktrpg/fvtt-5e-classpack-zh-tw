@@ -1,0 +1,372 @@
+{
+  "_id": "daB7oGSKy1BglKlt",
+  "name": "尋獲魔寵 Find Familiar",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "ritual"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/INV_Misc_PheonixPet_01.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你獲得一隻爲你服務的魔寵。以下列動物爲原型選擇魔寵的動物精魂外貌：蝙蝠bat、貓cat、螃蟹crab、青蛙frog（蟾蜍toad）、鷹hawk、蜥蜴lizard、章魚octopus、貓頭鷹owl、毒蛇poisonous snake、魚fish（食人魚quipper）、老鼠rat、渡鴉raven、海馬sea horse、蜘蛛spider、鼬鼠weasel。魔寵出現在施法距離內一處未被佔據的空間，雖然有着所選的生物屬性數據，但其種類爲天界生物，精類生物或邪魔（由你選擇）而不是野獸。\n<br />你的魔寵可以獨立行動，不過會隨時遵循你的指令。戰鬥時，它爲自己骰先攻，並在自己的回合裏行動。魔寵無法攻擊，但是它能如常執行其他動作。\n<br />魔寵的HP 降爲0時自行消失，且不會留下任何物理殘餘，而當你重新施展該法術後它會重新出現。\n<br />你的魔寵在你身邊100尺範圍內時，你可以與其進行心靈交流。此外，你還可以用一個動作將自己的視覺和聽覺切換到魔寵的感官，並一持續至你下一回合。在此期間，你同時享有該魔寵自身的特殊感官，而你本體的感官則等同於陷入耳聾以及目盲狀態。\n<br />你可以用一個動作暫時的解散你的魔寵。此時它將進入一個小位面等待你的重新召喚。或者，你也可以選擇永久解散它。暫時解散時，你可以用一個動作召喚它出現在30尺內任意未佔據的空間中。\n<br />你不能同時擁有一隻以上的魔寵，如果你在已有魔寵的狀況下施展該法術，則你可以爲現有的魔寵選擇的新的形態（從以上列表選擇）。\n<br />此外，當你施展施法距離爲觸及的法術時，你的魔寵可以幫你傳遞法術，其效果就如同該法術由魔寵施展一樣。此時你的魔寵必須在你身邊100尺範圍內，且其必須可以執行反應來傳遞法術。如果傳遞的法術需要進行攻擊檢定，則該檢定將使用你自己的攻擊調整值。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 240",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "10",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 1,
+    "school": "con",
+    "materials": {
+      "value": "將價值 10gp 的木炭、焚香以及香草，放在黃銅盆中燒盡，作爲該法術的耗材",
+      "consumed": true,
+      "cost": 10,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual",
+      "mgc"
+    ],
+    "activities": {
+      "J65fm8MnaL3Iqttr": {
+        "type": "summon",
+        "_id": "J65fm8MnaL3Iqttr",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [
+          "fey",
+          "celestial",
+          "fiend"
+        ],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.hIf83RD3ZVW4Egfi",
+            "_id": "2dV5VBSRsc8hTi58",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "_id": "yTvCDyPEq4Gaaohz",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.hIf83RD3ZVW4Egfi"
+          },
+          {
+            "_id": "uX23UF1sIXuttk19",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.d0prpsGSAorDadec"
+          },
+          {
+            "_id": "hyLKnxWtBHhhqoNm",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.I2x01hzOjVN4NUjf"
+          },
+          {
+            "_id": "vMxQVKR0vuErRIfM",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.fnkPNfIpS62LqOu4"
+          },
+          {
+            "_id": "lD4AA7dhrtUeRnuG",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.EZgiprHXA2D7Uyb3"
+          },
+          {
+            "_id": "V24K0V6rsXvi3zYK",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.3UUNbGiG2Yf1ZPxM"
+          },
+          {
+            "_id": "bTJwkYSMcAhyP2jE",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.D5rwVIxmfFrdyyxT"
+          },
+          {
+            "_id": "NGfKXDLGZ0XxrjHs",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.nkyCGJ9wXeAZkyyz"
+          },
+          {
+            "_id": "gTKsBEBFfZbyhmRa",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.nkyCGJ9wXeAZkyyz"
+          },
+          {
+            "_id": "vkrFifkJms3yvjFG",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.pozQUPTnLZW8epox"
+          },
+          {
+            "_id": "GiIHaUTsN8Y9peok",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.LPdX5YLlwci0NDZx"
+          },
+          {
+            "_id": "TK42HYsHw5wYZgeQ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.WOdeacKCYVhgLDuN"
+          },
+          {
+            "_id": "zt6m3wjmz8Mi2MKB",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.28gU50HtG8Kp7uIz"
+          },
+          {
+            "_id": "0NVzvCSA7YHTlzVY",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.monsterspack.Actor.FWSDiq9SZsdiBAa8"
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "find-familiar"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 31200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!daB7oGSKy1BglKlt"
+}

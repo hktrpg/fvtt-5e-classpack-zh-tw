@@ -1,0 +1,206 @@
+{
+  "_id": "UwPHQ39LXpipmfaU",
+  "name": "浪客斗篷 Rogue's Mantle (BMT)",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "37",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>奇物，珍稀（需同調）</em> <br />這件深色的、帶兜帽的厚布斗篷充斥着祕密和欺瞞的魔法。着裝它時，你可以獲得以下增益：<br /><em><strong>黑暗視覺Darkvision。</strong></em>你獲得60尺黑暗視覺&amp;Reference[rule=darkvision]。如果你已經擁有黑暗視覺&amp;Reference[rule=darkvision]，它會將你的黑暗視覺&amp;Reference[rule=darkvision]範圍增加60尺。<br /><em><strong>陰影移動Move in Shadows。</strong></em>若你身處處於微光光照&amp;Reference[rule=dimlight]{dim light}或黑暗中，你便可以用一個附贈動作，將你和你所穿着或攜帶的任何物品一起傳送到30尺內的可見未被佔據的微光光照&amp;Reference[rule=dimlight]{dim light}或黑暗空間中。隨後直至你本回合結束前，你下一次發動近戰攻擊時具有優勢。<br /><em><strong>刻意樹敵Willful Enmity。</strong></em>你可以從斗篷施展<em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.VPJpFGhhBofVfsku]{敵意術 Antagonize}</em>（豁免DC15）（見第7章）。此法術一經斗篷施放，直到下次黎明前不能再次以此法施放該法術。</p><p>This dark, hooded mantle of thick cloth is infused with secretive and deceptive magic. While wearing it, you gain the following benefits:</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Darkvision\"><span class=\"bold rd__list-item-name\">Darkvision.</span> You gain &amp;Reference[rule=darkvision] within a range of 60 feet. If you already have &amp;Reference[rule=darkvision], the mantle increases your &amp;Reference[rule=darkvision]'s range by 60 feet instead.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Move in Shadows\"><span class=\"bold rd__list-item-name\">Move in Shadows.</span> While you are in &amp;Reference[rule=dimlight]{dim light} or darkness, you can use a bonus action to teleport, along with anything you are wearing or carrying, up to 30 feet to an unoccupied space you can see that is also in &amp;Reference[rule=dimlight]{dim light} or darkness. You then have advantage on the first melee attack you make before the end of the turn.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Willful Enmity\"><span class=\"bold rd__list-item-name\">Willful Enmity.</span> You can cast the @spell[Antagonize|BMT] spell (save DC <span class=\"rd__dc\">15</span>) from the mantle. Once the mantle has cast the spell, it can't cast the spell again until the next dawn.</p></li></ul></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "rare",
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": 0
+    },
+    "strength": null,
+    "activities": {
+      "1BWyRC8AIOq8rm70": {
+        "_id": "1BWyRC8AIOq8rm70",
+        "type": "cast",
+        "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.plutonium-faux-id--7b22746167223a227370656c6c222c2274657874223a22616e7461676f6e697a657c626d74227d.custom.Item.0000000000000000"
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        }
+      }
+    },
+    "identifier": "rogues-mantle-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false
+  },
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "rogue's%20mantle_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "4TOAfkeg3rPfaVef",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738836954,
+    "modifiedTime": 1751738836954,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 106250,
+  "_key": "!items!UwPHQ39LXpipmfaU"
+}

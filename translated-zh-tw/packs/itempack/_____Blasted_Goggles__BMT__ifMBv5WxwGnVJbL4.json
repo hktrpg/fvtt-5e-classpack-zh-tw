@@ -1,0 +1,110 @@
+{
+  "_id": "ifMBv5WxwGnVJbL4",
+  "name": "爆裂目鏡 Blasted Goggles (BMT)",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "174",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>奇物，非普通（需同調）</em><br />這副工匠護目鏡有3發充能。以一個動作，你可以消耗一發充能並從目鏡中向一個位於你120尺內生物射出一道烈焰光線。目標必須成功通過一次[[/save ability=dex dc=15]]豁免否則受到[[/damage 3d6 type=fire]]傷害。目鏡在每日黎明恢復[[/r 1d3]]發已消耗的充能。<br /><strong>詛咒Cursed。</strong>目鏡被詛咒了，而與目鏡同調會令你也被詛咒。你無法摘下目鏡，直到同調結束或者你被法術<strong>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.ewDH2w8w2yLSM021]{移除詛咒 Remove Curse}</strong>或類似魔法指定爲目標。<br />每當你使用目鏡的烈焰光線且目標用於此豁免的d20骰出了[[/r d20]]時，目鏡都會令你被強烈閃光&amp;Reference[rule=brightlight]{bright light}刺目。你陷入<strong>目盲</strong>狀態，持續24小時。</p><p>These tinker's goggles have 3 charges. As an action, you can expend 1 charge to shoot a beam of fiery light from the goggles at a creature you can see within 120 feet of yourself. The target must succeed on a [[/save ability=dex dc=15]] saving throw or take [[/damage 3d6 type=fire]] damage. The goggles regain [[/r 1d3]] expended charges daily at dawn.</p><div data-roll-name-ancestor=\"Cursed\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Cursed.</span> The goggles are cursed, and becoming attuned to them extends the curse to you. You can't remove the goggles or end your attunement to them until you are targeted by a @spell[Remove Curse] spell or similar magic.</p><p>Whenever you use the goggles' fiery beam and the target rolls a 20 on the [[/r d20]] for the saving throw, the goggles expose you to a flash of violent &amp;Reference[rule=brightlight]{bright light}. As a result, you have the blinded condition for 24 hours.</p></div></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "uncommon",
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": 0
+    },
+    "strength": null,
+    "activities": {},
+    "identifier": "blasted-goggles-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false
+  },
+  "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "blasted%20goggles_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "ERmSxWVwaPGwQwzU",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738876728,
+    "modifiedTime": 1751738876728,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 100000,
+  "_key": "!items!ifMBv5WxwGnVJbL4"
+}

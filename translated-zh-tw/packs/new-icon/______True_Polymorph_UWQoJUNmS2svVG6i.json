@@ -1,0 +1,306 @@
+{
+  "_id": "UWQoJUNmS2svVG6i",
+  "name": "完全變形術 True Polymorph",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Magic_PolymorphChicken.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你指定施法距離內一個你能看見的生物或物件並使其變形。\n<br />你可以將目標生物變成另一個不同的生物，或將目標生物變成一個物件，又或者將目標物件變成一個生物（該物件必須沒有被任何生物着裝或攜帶）。變形效應持續到法術持續時間結束，或直至目標生命值降至0或目標死亡。如果你在法術持續時間內一直保持該法術的專注，則該變形得以永久持續。\n<br />該法術對變形生物以及生命值爲0的目標無效。而不願被變形的生物可以進行一次感知豁免，豁免成功則不受該法術影響。\n<br />生物變生物。\n<br />如果你將一個生物變形成另一種生物，則它的新形態可以是你選擇的挑戰等級等於或低於受術者挑戰等級（如果受術者沒有挑戰等級則按其角色等級）的任意物種。受術者的遊戲資料（包括各精神屬性值）將被新形態的數據取代，而其陣營和性格則保持不變。目標將使用新形態的生命值。而當其變回通常形態時，該目標的生命值也恢復爲變形前的數值。如果目標是因爲生命值降至0而變回通常形態，則由通常形態承受溢出的傷害。只要溢出傷害不足以將通常形態生命值降至0，他就不會因此而昏迷。\n<br />該生物所能實施的行爲因其新形態的特徵而受限，除非其新形態的身體特徵允許，否則該生物不能說話，施法或者執行任何需要手和言語的動作。目標的裝備融入其新形態，而且不能激活或持用裝備，也無法以其他任何方式從其裝備上獲益。\n<br />物件變生物。\n<br />你可以將一個物件變成任何一種符合下列要求的生物：生物的體積不能大於原物件，且生物的挑戰等級必須低於等於9。變形出的生物對你和你的同伴保持友善。而戰鬥中它將會在你的回合內，由你決定其如何行動。該生物的數據由DM掌控，並由DM 來判定其行動結果如何。\n<br />如果該法術變成永久有效，則你將不再控制該生物。此後，該生物將根據你對待他的方式決定是否對你保持友善。\n<br />生物變物件。\n<br />如果你將一個生物變形成一個物件，則它連同其穿着攜帶物一起變成新的形態。受術者的數據變成和該物件一樣，在法術終止而受術者變回原形後，它將不會記得在變成物件時所發生的任何事情。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 283",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 9,
+    "school": "trs",
+    "materials": {
+      "value": "一滴水銀，一團阿拉伯膠以及一縷煙",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "3wefNSp82CkFFFFo": {
+        "type": "save",
+        "_id": "3wefNSp82CkFFFFo",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "critical": {
+            "allow": false
+          },
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "",
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "PlUJsRpyyFV5IjI1": {
+        "type": "transform",
+        "_id": "PlUJsRpyyFV5IjI1",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "cr": "@details.level",
+            "name": "",
+            "_id": "wzgWQFHsqW3o3enA",
+            "sizes": [],
+            "types": [],
+            "movement": [],
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "otherOrigin",
+            "origin",
+            "spell"
+          ],
+          "keep": [],
+          "preset": "polymorph",
+          "merge": [],
+          "other": [],
+          "transformTokens": true
+        },
+        "transform": {
+          "customize": true,
+          "preset": "polymorph"
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "identifier": "true-polymorph"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 28400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UWQoJUNmS2svVG6i"
+}

@@ -1,0 +1,168 @@
+{
+  "_id": "XjAPBLTyScoKwt04",
+  "name": "先祖守衛 Path of The Ancestral Guardian（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Monk_ChargingOxWave.png",
+  "effects": [],
+  "folder": "n9z0xBgG2wlf6bJ4",
+  "sort": 82813,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>一些野蠻人來自於崇敬他們祖先的文化。這些部落教導我們，過去的戰士作爲強大的靈魂在世界上徘徊，他們可以引導和保護活着的人。當一個走這條路的野蠻人怒不可遏時，野蠻人會聯繫到精神世界，並向這些守護者的靈魂求援。利用祖先守護者的野蠻人可以更好地戰鬥來保護他們的部落和盟友。爲了鞏固與祖先守護者的聯繫，走這條路的野蠻人會用精心製作的紋身來掩飾自己，以慶祝他們祖先的行爲。這些紋身講述了戰勝可怕的怪物和其他可怕的對手的傳奇故事。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "identifier": "path-of-the-ancestral-guardian",
+    "classIdentifier": "barbarian",
+    "advancement": [
+      {
+        "_id": "a45q9n3p2hjfvfvz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Vlx0VdQ9V61wHX9I",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "hqjx4r95b4az2jqi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.H5J2aANa4OhuuPmv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "xd45scpbmzf8ab1a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.QXOrwsPs3IqQfONF"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.umqpL5B9ccbkpJtJ"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.WO2nFm8xEVkX4KJy"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "innate",
+            "uses": {
+              "max": "1",
+              "per": "sr",
+              "requireSlot": false
+            },
+            "ability": [
+              "wis"
+            ]
+          }
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "sf086i2niszava2o",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.lQSmrRreRFq0Q3aO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "vc8g3j0b67c830za",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "spirit-shield",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "6": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "14": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "精魂之盾骰值",
+        "icon": null,
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "_key": "!items!XjAPBLTyScoKwt04"
+}

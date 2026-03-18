@@ -1,0 +1,254 @@
+{
+  "_id": "c4fhXZjjdz4V3ukc",
+  "name": "射星手弩 Starshot Hand Crossbow (BMT)",
+  "type": "weapon",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "38",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>武器（手弩），珍稀（需同調）</em><br />這把弩由黑色木材製成，弩弓上鑲嵌着排列爲星座的珍珠。你可以忽略此弩的裝填屬性。 如果這把武器沒有裝填彈藥，它會在你使用它進行一次遠程攻擊時自動爲自己製造出一發魔法彈藥。被創造出的彈藥命中或落空後會消失。這把弩有3發充能，每天黎明時恢復[[/r 1d3]]發已消耗的充能。<br /><em><strong>星座Constellation。</strong></em>弩上飾有三個星座。以一個附贈動作，你可以激活其中一個星座，消耗1發充能並獲得以下增益之一：</p><ul><li><em><strong>平衡Balance</strong></em>。你在下一回合結束之前用這把武器進行的下一次遠程攻擊命中時，你可以選擇你或30尺內的另一個生物恢復[[/r 1d8]]+你的熟練加值的生命值。</li><li><em><strong>火焰Flame。</strong></em>直到你下個回合結束爲止，你用這把武器進行的遠程攻擊在命中生物時造成額外的[[/damage 2d8 type=fire]]傷害。</li><li><p><em><strong>浪客Rogue。</strong></em>直到你下個回合結束爲止，你變爲隱形。你的穿着物和攜帶物也隨之隱形。</p></li></ul><p>This crossbow is crafted from blackened wood, and its limbs bear pearl inlays depicting constellations. You ignore the loading property with this crossbow. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target. The crossbow has 3 charges and regains [[/r 1d3]] expended charges daily at dawn.</p><div data-roll-name-ancestor=\"Constellations\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Constellations.</span> The crossbow is decorated with three constellations. As a bonus action, you can tap one of the constellations to invoke it, expending 1 charge and producing one of the following effects:</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Balance\"><span class=\"bold rd__list-item-name\">Balance.</span> The next time you hit a creature with a ranged attack roll using this crossbow before the end of your next turn, you or another creature of your choice within 30 feet of you can regain hit points equal to [[/r 1d8]] plus your proficiency bonus.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Flames\"><span class=\"bold rd__list-item-name\">Flames.</span> Until the end of your next turn, when you hit a creature with a ranged attack roll using this crossbow, the attack deals an additional [[/damage 2d8 type=fire]] damage.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Rogue\"><span class=\"bold rd__list-item-name\">Rogue.</span> Until the end of your next turn, you have the invisible condition, and anything you are wearing or carrying is also invisible.</p></li></ul></div></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "rare",
+    "type": {
+      "value": "martialR",
+      "baseItem": "handcrossbow"
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft",
+      "reach": null
+    },
+    "properties": [
+      "amm",
+      "mgc",
+      "lgt",
+      "lod"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ]
+    },
+    "magicalBonus": 0,
+    "damage": {
+      "base": {
+        "types": [
+          "piercing"
+        ],
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "scaling": {
+          "mode": "",
+          "number": 1
+        },
+        "custom": {
+          "enabled": false
+        }
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "ammunition": {
+      "type": "crossbowBolt"
+    },
+    "mastery": "",
+    "activities": {
+      "OrHYyi8XdvBVB0aK": {
+        "_id": "OrHYyi8XdvBVB0aK",
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "weapon"
+          },
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "",
+        "attackMode": "oneHanded",
+        "ammunition": "",
+        "otherActivityUuid": ""
+      }
+    },
+    "identifier": "starshot-hand-crossbow-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false,
+    "armor": {
+      "value": null
+    }
+  },
+  "img": "icons/weapons/crossbows/handcrossbow-green.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "starshot%20hand%20crossbow_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "4TOAfkeg3rPfaVef",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738836954,
+    "modifiedTime": 1751738836954,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 100196,
+  "_key": "!items!c4fhXZjjdz4V3ukc"
+}

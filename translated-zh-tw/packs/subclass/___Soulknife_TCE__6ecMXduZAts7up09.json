@@ -1,0 +1,166 @@
+{
+  "_id": "6ecMXduZAts7up09",
+  "name": "魂刃 Soulknife（TCE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Rogue_StayofExecution.png",
+  "effects": [],
+  "folder": "Zb9g0dv8kgsfu4Hc",
+  "sort": 100782,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote><p><q>我也有讓我的思想以割傷人們的能力，我將這份力量稱爲——言語。</q></p><p style=\"text-align:right\"><em>——塔莎</em></p></blockquote><p>絕大多數的刺客都用物理的武器襲擊，而許多的夜賊和密探利用盜賊工具來潛入安全的位置。與他們相反，一個魂刃者利用心靈的力量來攻擊和滲透，擊穿阻礙他們的物理和心靈障礙。這些遊蕩者們從內心之中發掘出靈能之力，並且引導靈能來協助他們的老本行。儘管有些遊蕩者極力排斥“奇怪的心靈力量”，並對使用這一力量經營生意的魂刃者表示懷疑，但魂刃者依然能輕易成爲盜賊行會的一員，同時大多數政府也樂意僱傭他們作爲間諜。</p><p>在物質界和妖精荒野的古老森林中，一些木精靈踏上了魂刃者之道，使他們成爲森林中無聲而致命的守護者。在吉斯人永無止境的戰爭中，當吉斯瑟雷人需要對吉斯洋基仇敵進行祕密行動時，他們會被鼓勵成爲魂刃者。</p><p>身爲一名魂刃者，你的靈能可能從你還是個孩子的時候就一直伴隨着你，直到你在面臨冒險的壓力時才顯露潛能。或者你可能找到了一個隱居的靈能修士團，花了很多年的時間學習如何顯現你的力量。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "identifier": "soulknife",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "s5zxyl9xy1l17o75",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.UHIZXCLTWbG6nDr4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.xHVWpRyTlBQqB9po",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Ke8bj2JtOarcO9Rh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.yeqpLzvtDcAw6UBm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性"
+      },
+      {
+        "_id": "y7zuvtnp2qqymkj5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.mHDQAyXiAgvAldGc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.5uD9A8KhKLjUNYMP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "職業特性"
+      },
+      {
+        "_id": "1ulzdfl3zkqmczbc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.3NFC4X4zW9fGuJr6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "職業特性"
+      },
+      {
+        "_id": "trisxbt67wh77vtz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.zuBT4TqrEvO2Tanv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性"
+      },
+      {
+        "_id": "cj5zpltisoin2214",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "lingneng",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": 1,
+              "faces": 8,
+              "modifiers": []
+            },
+            "11": {
+              "number": 1,
+              "faces": 10,
+              "modifiers": []
+            },
+            "17": {
+              "number": 1,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "靈能骰"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "_key": "!items!6ecMXduZAts7up09"
+}

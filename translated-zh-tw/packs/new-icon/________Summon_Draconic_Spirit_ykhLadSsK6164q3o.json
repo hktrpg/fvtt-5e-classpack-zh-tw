@@ -1,0 +1,270 @@
+{
+  "name": "龍類靈魄召喚術 Summon Draconic Spirit",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/ability_dragonriding_launch01.png",
+  "system": {
+    "description": {
+      "value": "<p><span><br />      </span>你喚出一隻巨龍精魂。它於施法範圍內一處未被佔據的空間顯現。該肉體形態使用龍類精魂的數據。當你施展此法術時，選擇一個龍種科目：色彩龍，寶石龍，或金屬龍。該生物的長相與你所選擇的龍種相似，這會決定其數據中的某些特性。該生物在法術結束或其生命值降至<span>0</span>時消失。<span><br />      </span>該生物對你和你的同伴友善。在戰鬥中，該生物與你共享先攻，它在你的回合結束後行動。它聽從你的口頭命令（無需動作）。如果你不發出指令，該生物執行迴避動作，並用自己的移動力來回避危險。<span><br />      </span><span class=\"GramE\"><strong><span style=\"font-family:宋體;mso-bidi-font-family:宋體\">升環效果</span></strong></span><strong><span style=\"font-family:宋體;mso-bidi-font-family:宋體\">。</span></strong>當你用<span>6</span>環或更高的<span class=\"GramE\">法術位</span>施展此法術時，用對應的環數決定數據欄中與法術環數有關的數據。<span><br /></span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "FTD",
+      "revision": 1,
+      "rules": "2014",
+      "book": "FTD"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "width": "20",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 5,
+    "school": "con",
+    "materials": {
+      "value": "一件帶有巨龍圖案的物品，價值至少500gp",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "activities": {
+      "eqHLCqmoJTF27m5t": {
+        "type": "summon",
+        "_id": "eqHLCqmoJTF27m5t",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@scaling+4",
+          "hd": "(@scaling-1)d10",
+          "hp": "",
+          "attackDamage": "@scaling+4",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": false,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "G9e6jMG5tE4iyYP5",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.7rYYaM5UZgSnASMT",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "1JOEKzXtipWw8atB",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.w9vBEjAX35YAbLyQ",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "aZbHN6QyG3ywgLjv",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.moXLi5EXeRBmf76A",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": true,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "summon-draconic-spirit"
+  },
+  "effects": [],
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "core": {
+      "sourceId": "Item.LYx7fa92PlJmMYsF"
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_id": "ykhLadSsK6164q3o",
+  "folder": "2ufaZU3CczVxwe3R",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": "Item.LYx7fa92PlJmMYsF",
+    "duplicateSource": null
+  },
+  "_key": "!items!ykhLadSsK6164q3o"
+}

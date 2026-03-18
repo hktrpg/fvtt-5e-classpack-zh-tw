@@ -1,0 +1,211 @@
+{
+  "_id": "8Cs1k28oBMvCLfgE",
+  "name": "銅牆鐵壁 Guards and Wards",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/httpcloud3steamusercontentcomugc764896815834656102C7E15CA6272079E3B50294121BE10E40DECB5335.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"><p>你製造一個保護區域覆蓋至多2,500平方尺地面面積（一個50尺的方形區域，或一百個5尺的方狀區域，或二十五個10尺的方形區域）。保護區域至高可達20尺，並隨你的意願塑形。只要你施法時可以走進每一個連續區域，你就可以分割區域來護衛一座要塞的幾個樓層。 <br />施展該法術時，你可以指明特定個體以讓其不受法術某些或全部效應的影響。你還可以指明一句口令，當其被大聲說出時，即可讓說出口令的人對這些效應免疫。 <br />銅牆鐵壁在保護區域內創造下列效應。 <br />過道Corridors。濃霧充斥受保護的過道使其處於重度遮蔽。 <br />此外，除你以外的生物在過道上遇到需要選擇方向的分叉路口時，有50% 機會誤認錯的方向爲正確的前進方向。 <br /><strong>門Door。</strong>所有保護區域內的門都以魔法上鎖，等同於使用法術祕法鎖封門。此外，你還可以用一個幻像掩蓋至多10扇門（相當於法術次級幻像minor illusion 的虛幻物件效果）來讓其看起來有如平整的牆面。 <br /><strong>樓梯Stairs。</strong>蛛網從上到下佈滿了保護區域內的樓梯，等同於法術蛛網術web 的效應。銅牆鐵壁法術持續時，即使這些蛛網被焚燒或撕毀，也可以在10分鐘後重生。 <br />其他法術效應。 <br />你可以在要塞的保護區域內佈置你指定的下列魔法效應之一。 <br />在四條走廊佈置舞光術dancing lights。你可以安排一個簡單的燈光舞動程序，使其在銅牆鐵壁法術持續時反覆運作。 <br /><strong>在兩個地點佈置魔嘴術magic mouth。</strong>在兩個地點佈置臭雲術stinking clound。其雲霧顯現在由你安排的位置。在銅牆鐵壁法術持續時，即使其雲霧被風吹散也會在10分鐘後重新生成。 <br /><strong>在一條走廊或一個房間佈置一個持續存在的造風術gust ofwind。</strong>在一個地點佈置一個暗示術suggestion。你指定一個至多5尺的方狀區域，任何進入或穿過該區域的生物將受到法術的精神暗示。 <br />整個保護區域輻射着魔法。對某個特定效應施展解除魔法dispel magic 時，如果法術成功則移除該特定效應。 <br />當你在一年裏對同一處每日連續施展該法術後，將創造出一個永久的銅牆鐵壁效果。 <br /></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 248",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 10
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 6,
+    "school": "abj",
+    "materials": {
+      "value": "燃燒的薰香，少許硫磺和油，一條打結的繩子，少量土巨怪的血和一把至少價值 10gp 的小型銀權杖",
+      "consumed": false,
+      "cost": 10,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "guards-and-wards"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 28100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8Cs1k28oBMvCLfgE"
+}

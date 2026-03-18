@@ -1,0 +1,217 @@
+{
+  "name": "堅固堡壘Mighty Fortress",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "_id": "zv4uMIQkGfANHAon",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>一座岩石的堡壘從施法距離內你選擇的一處可見的方形地面升起。這塊區域需要在每一邊上有至少120英尺，並且必須沒有任何建築或其他構造物立於其上。所有處於區域內的生物在堡壘升起時將會被無害地舉起。<br />這座堡壘有4個方形的塔樓，每一個都有20英尺的邊長和30英尺的高度，分佈在堡壘的每個角上。塔樓通過每邊80尺長的石牆相互連接，創造出一個封閉的區域。每一面牆的厚度都達到1英尺，由10英尺寬度和20英尺高度的石板組成。每塊石板都與其他兩塊石板或是與一塊石板和一座塔樓相鄰接。你可以在堡壘的外牆放置4面石門。<br />在封閉區域內樹立着一座小城堡。城堡擁有50尺邊長的方形基座，並且有3層樓，每一層的天花板都有10英尺高。每一層都可以以你喜歡的方式劃分出許多房間，但每個房間都至少要有5英尺的邊長。城堡的每一層都由石頭樓梯相連，它的牆厚達6英寸，室內房間的門戶式樣（石門或者開放式拱門）由你選擇。城堡內部的傢俱和裝潢以你喜歡的方式佈置，它每天可以提供足夠100人享用的、包含九道菜餚的盛宴。從堡壘中被帶走的傢俱、食物和其他由這個法術創造的物體會立即化爲土灰。<br />你在施展法術時可以指定任意生物，有100個隱形的侍從作爲堡壘的職工遵從他們的任何命令。每一個侍從都如同隱形僕役法術的造物，有近似的功能。<br />所有由石頭創造的城牆、塔樓和城堡都會被損害。每一塊10英尺x10英尺的岩石部件都有15點AC，以及每英寸厚度30點的生命值。它免疫毒素和精神傷害。將某一部分的岩石生命值降低至0點會摧毀它，並且也許會引起與它連接的部分變形和垮塌，具體由你的DM裁量。<br />在7天之後，或當你在別處再次施展這個法術，堡壘會無害地坍塌並沉入地面，把其中的任何生物安全地留在地上。<br />在一年之間，每7天一次在相同的位置施展這個法術會讓堡壘永久存在。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "7",
+      "units": "day"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "ft",
+        "type": "square",
+        "size": "120",
+        "contiguous": false,
+        "count": ""
+      }
+    },
+    "range": {
+      "value": "1",
+      "units": "mi",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 8,
+    "school": "con",
+    "materials": {
+      "value": "一顆價值至少500GP的鑽石，在施法時被消耗",
+      "consumed": false,
+      "cost": null,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "mighty-fortress"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "uCsiJvZQjqz2QNRl",
+  "sort": 9600000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zv4uMIQkGfANHAon"
+}

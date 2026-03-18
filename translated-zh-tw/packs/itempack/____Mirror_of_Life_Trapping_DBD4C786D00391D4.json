@@ -1,0 +1,200 @@
+{
+  "_id": "DBD4C786D00391D4",
+  "name": "攝心鏡 Mirror of Life Trapping",
+  "type": "consumable",
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "effects": [],
+  "folder": "XzwLZWoghG1AqJYp",
+  "flags": {
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 12,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>以非直接的方式看向這面鏡子時，其中映着生物模糊的影像。鏡子重50磅，AC爲11，HP爲10，鈍擊易傷。HP降至0時，鏡子將粉碎並被摧毀。</p>\n<p>鏡子被掛在垂直平面上時，你可以在5尺內用一個動作說出命令字激活它。它將一直保持激活狀態直到你再次用一個動作說出命令字。</p>\n<p>除你之外，任何在一面激活的攝心鏡周圍30尺內從鏡中看到自己影像的生物必須通過一次DC15的魅力豁免，否則會連同穿戴或攜帶的物品一起被困入鏡中的十二個異次元空間之一。如果該生物瞭解鏡子的本質，則它在豁免上具有優勢。構裝生物豁免自動成功。</p>\n<p>異次元空間中充滿了濃霧，能見度只有10尺。被囚禁的生物不會衰老，也無需飲食和睡眠。使用位面旅行魔法可以逃脫，但除此之外被囚禁的生物只能等待被釋放。</p>\n<p>如果鏡子的十二個異次元空間已被佔滿而鏡子又困住了新的生物，則它將隨機釋放一名之前被囚禁的生物以容納新囚犯。被釋放的生物在鏡子前未被佔據的空間背對鏡子出現。如果鏡子被打碎，它囚禁的生物將全部被釋放，出現在它周圍未被佔據的空間裏。</p>\n<p>你可以在鏡子5尺內用一個動作說出一名被囚禁生物的名字或是一個異次元空間的號碼。該生物或是被囚禁於該號碼空間裏的生物的影像將出現在鏡子裏，使得你和該生物可以正常交流。</p>\n<p>以類似的方式，你可以用一個動作說出另一個命令字以釋放一名被囚禁的生物。被釋放的生物連帶其所有物將背對鏡子出現在離鏡子最近的未被佔據的空間裏。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 181",
+      "revision": 1,
+      "rules": "2014",
+      "book": "DMG"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 50,
+      "units": "lb"
+    },
+    "price": {
+      "value": 18000,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "uses": {
+      "max": "12",
+      "autoDestroy": false,
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "container": null,
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "命令字。目標生物必須能看見其鏡中倒影。",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-mirror-of-life-trapping",
+    "attuned": false
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1713010441792,
+    "modifiedTime": 1757871255850,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 46100000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!DBD4C786D00391D4"
+}

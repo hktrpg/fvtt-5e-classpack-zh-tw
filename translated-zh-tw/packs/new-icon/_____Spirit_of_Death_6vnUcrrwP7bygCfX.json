@@ -1,0 +1,210 @@
+{
+  "_id": "6vnUcrrwP7bygCfX",
+  "name": "死神靈魄 Spirit of Death",
+  "type": "spell",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "50",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>你喚來一個象徵死神的靈魄。其在施法距離內你可見的一個未佔據位置化爲實體，並使用 <strong>@UUID[Compendium.dnd5e_classpack-zh-tw.summons.Actor.9rn7x1QM4gDtBMAc]{收割者靈魄 Reaper Spirit}</strong>或法術結束時，靈魄會消失。<br />該靈魄在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物與你共享先攻值，其回合緊跟在你的回合之後。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br /><strong>升環施法效應：</strong>使用5環或更高法術位施放本法術時，該法術召喚的收割者靈魄數據中使用更高的法術環階。</p><div class=\"rd__spc-inline-post\"><blockquote style=\"MARGIN-RIGHT:0px\" dir=\"ltr\"><p><strong>收割者靈魄 Reaper Spirit</strong> <br /><em>中型不死生物，絕對中立</em><br />AC：11+法術環階（天生護甲）<br />HP：40+高於4環每環10點<br />速度：30尺，飛行30尺（懸浮）<br />力量16（+3） 敏捷16（+3） 體質16（+3）<br />智力16（+3） 感知16（+3） 魅力16（+3）   <br />傷害免疫：黯蝕，毒素<br />狀態免疫：魅惑，力竭，恐慌，麻痹，中毒<br />感官：黑暗視覺60尺，被動察覺13<br />語言：理解你所說的語言<br />挑戰等級：-<br />熟練加值：等同於你的熟練加值</p><p><strong>虛體移動 Incorporeal Movement。</strong>靈魄可以如同穿過困難地形一樣穿過其他生物和物件。如果它在自己的回合結束時仍處在物件內部則受到5（1d10）的力場傷害。<br /><strong>動作Actions</strong><br /><strong>多重攻擊Multiattacks。</strong>靈魄發動等同於法術環階一半的次數的攻擊 （向下取整）。<br /><strong>收割之鐮Reaping Scythe。</strong>近戰武器攻擊：命中使用你的法術攻擊調整值(具有優勢)，觸及5尺，單一被作祟的生物。命中：1d8+3+該法術環階的黯蝕傷害。<br /><strong>附贈動作Bonus Actions</strong><br /><strong>作祟生物Haunt Creature。</strong>靈魄以自己10尺內的一個生物爲目標，並開始作祟該生物。當目標被作祟時，如果目標和你在同一個存在位面上，你和靈魄就會感知到目標的方向和距離。此外，如果目標在靈魄10尺內開始其回合，則該目標必須對你的法術豁免DC進行一次成功的感知豁免，否則將陷入恐慌狀態直到目標的下一回合開始。目標在死亡、靈魄消失或靈魄再次使用此動作前一直處於被作祟狀態。</p></blockquote></div></div>",
+      "chat": ""
+    },
+    "level": 4,
+    "school": "nec",
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "materials": {
+      "value": "一張描繪着死神化身的鍍金紙牌，至少價值400gp",
+      "consumed": false,
+      "cost": 400,
+      "supply": 0
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "uses": {
+      "max": "",
+      "spent": null,
+      "recovery": []
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "ability": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "summon",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "bonuses": {
+          "ac": "@scaling+3",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "_id": "SLe6tEvedLPhzv7Z",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.9rn7x1QM4gDtBMAc"
+          }
+        ],
+        "summon": {
+          "identifier": "",
+          "mode": "",
+          "prompt": true
+        },
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "spirit-of-death"
+  },
+  "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
+  "ownership": {
+    "default": 0,
+    "pF5tIzH2aEMuTR6D": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "BMT",
+      "hash": "spirit%20of%20death_bmt",
+      "propDroppable": "spell"
+    },
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "folder": "ATtIqlCQWh4B7tmw",
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1724941944301,
+    "modifiedTime": 1757235114937,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6vnUcrrwP7bygCfX"
+}

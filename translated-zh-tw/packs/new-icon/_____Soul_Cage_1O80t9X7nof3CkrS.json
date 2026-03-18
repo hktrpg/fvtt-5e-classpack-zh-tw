@@ -1,0 +1,224 @@
+{
+  "_id": "1O80t9X7nof3CkrS",
+  "name": "靈魂牢籠 Soul Cage",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/spell_animamaldraxxus_nova.jpg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>這個法術攫取一個死去的類人生物的靈魂，並將它關在你用作爲法術材料成分的籠子裏。被偷竊而來的靈魂在籠子裏持續到法術結束或者你摧毀這個籠子，這也會使法術結束。當你的籠子裏面有一個靈魂時，你可以用下文描述的任一方法來利用它。一個被困住的靈魂最多被你這樣使用6次。一旦你第六次利用這個靈魂，它將會被釋放，然後法術結束。在靈魂被困住時，作爲靈魂來源的已死類人生物無法被複活。</p>\n<p><strong>竊取生命Steal Life：</strong>你可以用一個附贈動作從靈魂中吸取活力並恢復2d8生命值。</p>\n<p><strong>靈魂質問Query Soul：</strong>你向靈魂提出一個問題（無需動作）並得到一個簡短的回答作爲心靈感應，無論用什麼語言你都可以理解。靈魂只知道它的人生中瞭解的事物，但它必須如實回答並且盡其所能。回答至多是一兩句話，也有可能是有隱藏意義的。</p>\n<p><strong>借鑑經驗Borrow Experience：</strong>你可以使用一個附贈動作讓靈魂的人生經驗來支撐你，令你的下一次攻擊檢定，能力檢定和豁免檢定具有優勢。如果在你的下個回合開始之前你沒有使用這個增益，它將會丟失。</p>\n<p><strong>亡者之眼Eyes of the Dead：</strong>你可以使用一個動作來說出這個類人生物在人生中曾見過的地點的名字，如果你和那個地點在同一位面，你可以在那裏創造出一個隱形的傳感器。這個傳感器將維持到你的專注結束，最多10分鐘（如同你正專注於一個法術）。你從這個傳感器中接受視覺和聽覺信息，就如同你在那個地點使用自己的感官。<br />能看到這個傳感器的生物（例如使用了識破隱形法術或是擁有真實視覺）將會看到被你關在籠中的受難者半透明的影像。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "activation": {
+      "type": "reaction",
+      "condition": "當你看見60英尺內類人生物死去時採取",
+      "value": 1
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "enemy",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 6,
+    "school": "nec",
+    "materials": {
+      "value": "一個價值100GP的銀籠子",
+      "consumed": false,
+      "cost": null,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "heal",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "healing": {
+          "number": 2,
+          "denomination": 8,
+          "bonus": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        }
+      }
+    },
+    "identifier": "soul-cage"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "uCsiJvZQjqz2QNRl",
+  "sort": 10400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1O80t9X7nof3CkrS"
+}

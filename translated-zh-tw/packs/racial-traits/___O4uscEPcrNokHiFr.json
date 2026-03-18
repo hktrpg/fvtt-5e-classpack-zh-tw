@@ -1,0 +1,201 @@
+{
+  "name": "獸化",
+  "type": "feat",
+  "_id": "O4uscEPcrNokHiFr",
+  "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+  "system": {
+    "activities": {
+      "eXCn96OTakFarLqY": {
+        "type": "heal",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": 0,
+          "types": [],
+          "custom": {
+            "enabled": true,
+            "formula": "@details.level+max(@abilities.con.mod,1)"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "_id": "eXCn96OTakFarLqY"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>以一個附贈動作，你的外表能夠變得更爲野性。這個變化將持續1分鐘，或直到你死亡。你能以一個附贈動作恢復原來的外表。當你獸化，你獲得等同於你的等級+體質調整值的臨時生命值（最少1點）。同時你還將根據亞種獲得額外的好處，具體見下。<br />當你獸化之後，必須經過一次短休或長休才能再次使用。<br /></p><p></p><p><strong>獸皮 Beasthide</strong>堅忍又結實的獸皮化獸者從內心的野獸處汲取力量和耐力。獸皮化<strong>獸化特性。</strong>當你獸化時，能夠額外得到1d6臨時生命值，並且在處於獸化狀態時，你在AC上獲得+1加值。</p><p><strong>長牙 Longtooth</strong><br /><strong>獸化特性。</strong>當你獸化時，你能以一個附贈動作用利齒髮動徒手攻擊。如果命中，你將造成1d6+力量調整值的穿刺傷害，而不是通常的徒手攻擊傷害。</p><p><strong>疾馳 Swiftstride</strong><br /><strong>獸化特性。</strong>當你獸化時，步行速度增加5英尺。此外，當敵人在距離你5英尺處結束回合時，你能以一個反應動作移動10英尺。<br />此移動不會引發藉機攻擊。</p><p><strong>狩獵 Wildhunt</strong> <br /><strong>獸化特性。</strong>當你獸化時，你在感知檢定中具有優勢。</p>",
+      "chat": ""
+    },
+    "identifier": "-",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "WGE",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [
+      "mgc"
+    ],
+    "requirements": "化獸者",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "vFLRCDyc5l72uRlV": 3
+  },
+  "flags": {
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1753969104253,
+    "modifiedTime": 1756544420586,
+    "lastModifiedBy": "sPF2dtZDreDpJaW6"
+  },
+  "_key": "!items!O4uscEPcrNokHiFr"
+}

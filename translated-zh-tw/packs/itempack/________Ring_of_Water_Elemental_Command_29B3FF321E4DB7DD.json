@@ -1,0 +1,187 @@
+{
+  "_id": "29B3FF321E4DB7DD",
+  "name": "命令水元素戒指 Ring of Water Elemental Command",
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-cabochon-gold-purple.webp",
+  "effects": [],
+  "folder": "XzwLZWoghG1AqJYp",
+  "flags": {
+    "core": {},
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 5,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>戒指（需同調）</em></p>\n<p>佩戴這枚戒指時，你在攻擊來自水元素位面的元素時具有優勢，且它們在攻擊你時承受劣勢。</p>\n<p>戒指有5發充能，每天黎明時恢復1d4+1發已消耗的充能。利用戒指施展的法術DC爲17。</p>\n<p>你可以消耗2發充能對一名水元素使用@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.f63uBXNvbalm1y7v]{支配怪物 Dominate Monster} 。另外，你可以在液體表面移動，如同在堅實的地面上一般。你可以說和理解 水族語 Aquan 。</p>\n<p>如果你在與戒指同調期間參與殺死了一名水元素，你額外獲得以下特性：</p>\n<p>你可以在水下呼吸，並獲得等同於步行速度的游泳速度。</p>\n<p>你可以利用戒指施展以下法術（消耗充能數在括號中註明）：@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.V843ppI7fUmc5Gd6]{造水/枯水術 Create or Destroy Water}（1發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.9zy4xObdmQFW9VP7]{操控水體 Control Water}（3發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.u2MG84qW8YLuECHa]{冰風暴 Ice Storm}（2發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.kZ9PSqGyiR7bGViM]{冰牆術 Wall of Ice}（3發）。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 191",
+      "revision": 1,
+      "rules": "2014",
+      "book": "DMG"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 25000,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "5",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "formula",
+          "formula": "1d4+1"
+        }
+      ]
+    },
+    "armor": {
+      "value": 0,
+      "dex": 0,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": null,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "container": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "0",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "yuan-ring-of-water-elemental-command",
+    "attuned": false
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1713010438952,
+    "modifiedTime": 1757871117682,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 38500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!29B3FF321E4DB7DD"
+}

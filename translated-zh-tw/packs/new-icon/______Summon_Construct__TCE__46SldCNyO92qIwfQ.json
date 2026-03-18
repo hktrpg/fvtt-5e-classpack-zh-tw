@@ -1,0 +1,259 @@
+{
+  "name": "構裝召喚術 Summon Construct (TCE)",
+  "type": "spell",
+  "flags": {
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/achievement_dungeon_spireofascension_ventunax.jpg",
+  "_id": "46SldCNyO92qIwfQ",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>        你喚來一個構裝生物靈魄。其在施法距離內你可見的一個未佔據位置化爲實體。這一實體使用下面的構裝體靈魄Construct Spirit的數據。當你施展法術時，從粘土Clay，金屬Metal或石Stone中選擇一個材質。此生物的外形爲一個你選定材質地魔像Golem或魔冢Modron，其資料表中的部分特性也受此影響。當其生命值降至 0 或法術結束時，生物消失。<br />　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束後立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br />　　<strong>升環施法效應：</strong>使用六環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p><p><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>構裝靈魄Construct Spirit</strong><br />中型構裝，無陣營<br />AC：13+法術等級 (天生護甲)<br />HP：40+每比4環高的法術環階15點<br />速度：30 尺<br />力量18（+4）敏捷10（+0）體質18（+4）<br />智力14（+2）感知11（+0）魅力5（-3）<br />傷害抗性：毒素<br />狀態免疫：魅惑，力竭，恐慌，失能，麻痹，石化，中毒<br />感官：黑暗視覺60 尺，被動察覺10<br />語言：理解你說的語言<br />挑戰等級：- 熟練加值與你相等</span></p><p style=\"color:rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif;font-size:medium;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>灼熱之軀Heated Body（僅限金屬）。</strong>當一個生物在構裝體周邊5尺範圍內觸碰或對其發動近戰攻擊命中時，將受1d10火焰傷害。<br /><strong>石迷昏眠Stony Lethargy（僅限石）。</strong>當一個構裝體可見的生物在其10 尺距離內開始回合時，構裝生物可以強迫其進行一次感知豁免對抗你的法術豁免DC，豁免失敗則其直到其下個回合開始前不能使用反應，且速度減半。<br /><strong>動作Actions</strong><br /><strong>多重攻擊Multiattack。</strong>構裝體發動等同於法術環數一半的次數的攻擊（向下取整）。<br /><strong>猛擊Slam。</strong>近戰武器攻擊：命中+你的法術攻擊調整值，觸及5尺，單一目標。命中：1d8+4+法術環數的鈍擊傷害<br /><strong>反應Reactions</strong><br /><strong>狂怒亂擊Berserk Lashing（僅限粘土）。</strong>當構裝體受到傷害時，對其5尺內的隨機一個生物進行一次猛擊攻擊。如果在其觸及範圍內沒有生物，則該構裝生物會以其一半的速度朝着其可見的一個敵人移動，且不會引發藉機攻擊。</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "一塊華麗的石頭和一個金屬密碼箱，價值至少 400gp",
+      "consumed": false,
+      "cost": 400,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "w6TDGNmTytWO53Q9": {
+        "type": "summon",
+        "_id": "w6TDGNmTytWO53Q9",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@scaling+3",
+          "hd": "",
+          "hp": "15*@scaling-15",
+          "attackDamage": "+@scaling+3",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": false,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "v86idNY5zUJNxTlm",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.Dw9gMuH0300RUIb8",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "jpbfNIhzpLzQ6RqH",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.sfRgEjuY5E8NIkaH",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "VpEZu9z0CKVAqIsa",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.IbLjg9KAQZbRtv9g",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "summon-construct-tce"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "eKWjH0NyoSjvzeog",
+  "sort": 400000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!46SldCNyO92qIwfQ"
+}

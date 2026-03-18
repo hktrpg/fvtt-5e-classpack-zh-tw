@@ -1,0 +1,197 @@
+{
+  "name": "海精靈Sea Elf",
+  "type": "race",
+  "_id": "5s6ndbSEGpdDyIrZ",
+  "img": "icons/environment/wilderness/cave-entrance-island.webp",
+  "system": {
+    "description": {
+      "value": "<div class=\"Section0\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\" style=\"TEXT-ALIGN:left;MARGIN:5pt 0pt 12pt;mso-margin-top-alt:auto;mso-pagination:widow-orphan\"><strong>海精靈（Sea Elf）</strong><br />在多元宇宙最早的時光，海精靈們就愛上了海洋的狂野之美。當其他的精靈從一個國度旅行往另一個國度，海精靈們則橫渡最深的洋流，探索成百上千個世界的水域。如今，他們大多數都已經在水元素位面或者是海洋的淺灘中組成了小型的、隱匿的社區。<br /><br />海精靈特性<br />海精靈在其精靈特性之外，有着下列特性。<br />屬性值提升。你的體質屬性值提升1點。<br />海精靈武器訓練。你熟練於使用矛、三叉戟、輕弩、捕網。<br />海之子。你擁有30英尺的游泳速度，並可以在空氣與水中呼吸。<br />海之友。通過手勢和聲音，你可以與任何擁有天生游泳速度的野獸交流簡單的想法。<br />語言。你可以說、讀、寫水族語。</p><p class=\"MsoNormal\" style=\"BACKGROUND:rgb(192,212,222);TEXT-ALIGN:left;MARGIN:1.05pt 36pt 3.15pt 0pt;LINE-HEIGHT:14.7pt;mso-pagination:widow-orphan\">鯊華魚人：來自深海的舞者<br />海精靈在水世界中面臨着諸多危機，其他精靈在乾旱的陸地上面對着的類似的威脅，但沒有東西能比鯊華魚人更爲致命。兩個種族之間的仇恨起源於鯊華魚人激進的領土觀念。他們完全無法容忍其他任何智能生物的社會存在，並且認爲整個海洋都是他們的領土。<br />使局面更爲緊張的是，鯊華魚人信仰着鯊魚之神瑟寇拉（Sekolah），而精靈的海神深海塞悉拉（Deep Sashelas），正是全體鯊魚不共戴天的仇敵。但即使海精靈莫名其妙地同樣信奉着瑟寇拉，鯊華魚人也無法與他們和睦相處——在嗜血狂熱的支配下，鯊華魚人將會把其他人，甚至自己的同類撕成碎片！</p></div>",
+      "chat": ""
+    },
+    "identifier": "-",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "MTF",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "Size",
+        "_id": "v4JRhgWBclYrNIss",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "LFI0kjnWN7pW4qTs",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "敏銳感官",
+        "icon": null,
+        "hint": "你擁有察覺技能的熟練項。"
+      },
+      {
+        "_id": "w3kKDFNHxqscZtuT",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:cold"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "海之子",
+        "icon": null,
+        "hint": "你可以在空氣和水中呼吸，同時你具有冷凍傷害的抗性。"
+      },
+      {
+        "_id": "WfhGfNTDmjBvYz8r",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.mYGkKzHDr3pH7kOh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.wUkIW5Nfcxad3qlY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.lxRLQZ9r8bHQlmPt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.iypNwZ1uND9HnZzO",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.d1QSfputnlx12sUk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.8YwBbZ1jeWmYPFvn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特質",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": 30,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": "ov2HRMOpFmjBTw67",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "vFLRCDyc5l72uRlV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1753965527098,
+    "modifiedTime": 1753966935452,
+    "lastModifiedBy": "vFLRCDyc5l72uRlV"
+  },
+  "_key": "!items!5s6ndbSEGpdDyIrZ"
+}

@@ -1,0 +1,117 @@
+{
+  "_id": "Ql50wBZVwmjBOmG8",
+  "name": "命運紡錘 Spindle of Fate (BMT)",
+  "type": "consumable",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "38",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>魔杖，傳說（需同調）</em> <br />這根魔杖的形狀就像一個包復着紅線的水滴形紡錘。這把魔杖有6發充能，可以通過以下方式消耗：<br /><em><strong>戰鬥預知Battle Foreknowledge。</strong></em><strong> </strong>投擲先攻時，你可以消耗1發充能，從檢定總值中加上或減去你的熟練加值。<br /><em><strong>末日前兆Doom Foretold。</strong> </em>以一個動作，你可以消耗2發充能指定距你30尺內的一個生物，引發它的厄運。只要該生物與你在同一存在位面，你就會感測到該生物的方位。如果該生物正在移動，則你也將知曉其移動的方向。此外，一回合一次，你對被此特性標記的生物造成傷害時，可以投擲[[/r 1d6]]並將骰出的數值加入傷害骰中。這些增益持續1小時或你再次使用這一特性指定一個不同生物爲止。<br /><em><strong>扭曲命運Twist of Fate。</strong></em>當距你60尺內的一個生物進行豁免檢定或攻擊檢定時，你可以用一個反應消耗3發充能並改變其結果，將失敗的豁免轉變爲成功，將未命中的攻擊轉變爲命中，反之亦然。</p><p>魔杖在每個黎明時恢復[[/r 1d6]]發已消耗的充能。</p><p>This wand is shaped like a drop spindle wrapped in red thread. The wand has 6 charges that can be used for the following properties:</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Battle Foreknowledge\"><span class=\"bold rd__list-item-name\">Battle Foreknowledge.</span> When you roll initiative, you can expend 1 charge to add or subtract your proficiency bonus from the total roll.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Doom Foretold\"><span class=\"bold rd__list-item-name\">Doom Foretold.</span> As an action, you can expend 2 charges to target a creature within 30 feet of yourself and invoke that creature's doom. While the target is on the same plane of existence as you, you can sense the direction to its location, and you know the direction of its movement if it's in motion. Additionally, once per turn when you deal damage to the doomed creature, you can roll [[/r 1d6]] and add the number rolled to the damage roll. These benefits persist for 1 hour or until you target another creature with this effect.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Twist of Fate\"><span class=\"bold rd__list-item-name\">Twist of Fate.</span> When a creature within 60 feet of you makes a saving throw or an attack roll, you can use your reaction to expend 3 charges and alter the outcome, turning a failed saving throw into a successful one, a missed attack roll into a hit, or vice versa.</p></li></ul><p>The wand regains [[/r 1d6]] expended charges daily at dawn.</p></div>",
+      "chat": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "equipped": false,
+    "identified": true,
+    "rarity": "legendary",
+    "type": {
+      "value": "wand",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "6",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d6"
+        }
+      ],
+      "autoDestroy": false
+    },
+    "magicalBonus": 0,
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "activities": {},
+    "identifier": "spindle-of-fate-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/img/items/BMT/Spindle of Fate.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "spindle%20of%20fate_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "FTUTqxHn0J4bGngr",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738836954,
+    "modifiedTime": 1751738836954,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 100000,
+  "_key": "!items!Ql50wBZVwmjBOmG8"
+}

@@ -1,0 +1,263 @@
+{
+  "name": "亡靈召喚術 Summon Undead (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/ability_necrolord_fleshcraft.jpg",
+  "_id": "DWDgKtljaEhfs9XQ",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>        你喚來一個不死生物靈魄。其在施法距離內你可見的一個未佔據位置化爲實體。這一實體使用下面的不死靈魄Undead Spirit的數據。當你施展法術時，當你施展法術時，從虛靈Ghostly，腐屍Putrid或骷髏Skeletal中爲此生物選擇一個外形。此生物的外形爲你所選形態的不死生物，其資料表中的部分特性也受此影響。當其生命值降至 0 或法術結束時，生物消失。<br />　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束後立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br />　　<strong>升環施法效應：</strong>使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p><p></p><p><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>不死靈魄Undead Spirit</strong><br /><em>中型亡靈，無陣營</em><br />AC：11+法術等級 (天生護甲)<br />HP：30（僅限虛靈或腐屍）或20（僅限骷髏）+10每比3環高的法術等級<br />速度：40 尺，飛行40 尺（懸浮）（僅限虛靈）<br />力量12（+1）敏捷16（+3）體質15（+2）<br />智力4（-3）感知10（+0）魅力9（-1）<br />傷害免疫：暗蝕，毒素<br />狀態免疫：力竭，恐慌，麻痹，中毒<br />感官：黑暗視覺60 尺，被動察覺10<br />語言：理解你說的語言<br />挑戰等級：- 熟練加值與你相等</span></p><p style=\"color:rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif;font-size:medium;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>腐滅靈光Festering Aura（僅限腐屍）。</strong> 除你之外的所有生物，在不死生物5尺內開始其回合時必須進行一次體質豁免對抗你的法術豁免DC，豁免失敗則在其下個回合開始前中毒。<br /><strong>虛體移動Incorporeal Movement（僅限於虛靈）。</strong> 靈魄可以虛體化並如同穿過困難地形一樣穿過其他生物和物件。如果它在自己的回合結束時仍處在物件內部，則被挪到距離最近的未被佔據的位置，且每虛體移動5尺便受到1d10力場傷害。<br /><strong>動作Actions</strong><br /><strong>多重攻擊Multiattack。</strong>靈魄發動等同於法術環數一半的次數的攻擊（向下取整）。<br /><strong>致死之觸Deathly Touch（僅限於虛靈）。</strong> 近戰武器攻擊：命中採取你的法術攻擊加值，觸及5尺，單一生物。命中：1d8+3+法術環數的暗蝕傷害，且目標生物必須進行一次感知豁免對抗你的法術豁免DC，豁免失敗則對不死生物恐慌直到目標下回合結束。<br /><strong>暗澹箭Grave Bolt（僅限於骷髏）。</strong> 遠程法術攻擊：命中採取你的法術攻擊加值，射程150 尺，單一目標。命中：2d4+3+法術環數的暗蝕傷害。<br /><strong>腐爛爪擊Rotting Claw（僅限於腐屍）。</strong> 近戰武器攻擊：命中採取你的法術攻擊加值，觸及5尺，單一目標。命中：1d6+3+法術環數的揮砍傷害。如果目標處於中毒狀態，其必須進行一次體質豁免對抗你的法術豁免DC，否則麻痹直到目標下回合結束。</span></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 3,
+    "school": "nec",
+    "materials": {
+      "value": "一個鍍金頭骨，價值至少 300gp",
+      "consumed": false,
+      "cost": 300,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "QC9sRa0RsBCVjtUZ": {
+        "type": "summon",
+        "_id": "QC9sRa0RsBCVjtUZ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@scaling+2",
+          "hd": "",
+          "hp": "10*@scaling-10",
+          "attackDamage": "@scaling+2",
+          "saveDamage": "@scaling+2",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "XU94HWdVqa0IoMZ9",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.s4sCGqYityjtRDOT",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "RTGpEKi0q1KI5W92",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.mFzYZd4jVi2IGjVC",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "LzIJq6aafnNWJiiR",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.RvN6ekmPWqZBDGw6",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "summon-undead-tce"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "eKWjH0NyoSjvzeog",
+  "sort": 2000000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DWDgKtljaEhfs9XQ"
+}

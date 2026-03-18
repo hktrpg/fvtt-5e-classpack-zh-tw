@@ -1,0 +1,104 @@
+{
+  "folder": "J3ShE9vempANVrJE",
+  "name": "異種龍紋 Aberrant Dragonmarks",
+  "type": "feat",
+  "_id": "7adzFfBewFVD90TD",
+  "img": "modules/plutonium/media/icon/feat/erlw-aberrant-dragonmark.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<div style=\"FONT-STYLE:italic\"><p>先決條件：沒有龍紋</p></div><div><p>你顯現出異種龍紋。請設定它的外觀和它造成的缺陷。你獲得以下增益：</p></div><ul><li>體質屬性增加1，上限20。</li><li>你從術士法術列表中習得一個戲法。然後，從術士法術列表中選擇一個1環法術。你習得該法術，並能通過龍紋施展它。當你施展過一次此法術後，必須經過一次短休或長休才能再次通過龍紋施展。對你而言，這些法術的施法屬性是體質。</li><li>當你通過龍紋施展一環法術時，你能消耗一個生命骰並擲骰。如果擲骰結果是偶數，你將獲得等同擲骰結果的臨時生命值。如果擲骰結果是奇數，距離你30尺內的一個隨機生物（不包括你）受到等同擲骰結果的力場傷害。如果範圍內沒有其他生物，則你會受到該傷害。</li></ul><div><p>你根據異種龍紋缺陷表產生一個隨機缺陷。</p></div><table><caption>異種龍紋缺陷</caption><tbody><tr class=\"light\"><th>d8</th><th style=\"TEXT-ALIGN:left\">缺陷</th></tr><tr class=\"colored\"><td>1</td><td class=\"content\">你的龍紋給你帶來生理上的持續疼痛。</td></tr><tr class=\"light\"><td>2</td><td class=\"content\">你的龍紋會對你細語，但你可能不知道它想對你說什麼。</td></tr><tr class=\"colored\"><td>3</td><td class=\"content\">當你緊張時，你的龍紋發出嘶嘶聲。</td></tr><tr class=\"light\"><td>4</td><td class=\"content\">你龍紋周圍的皮膚變得燒焦、鱗片化或萎縮。</td></tr><tr class=\"colored\"><td>5</td><td class=\"content\">你周圍的動物感到不安。</td></tr><tr class=\"light\"><td>6</td><td class=\"content\">你使用龍紋時情緒會劇烈波動。</td></tr><tr class=\"colored\"><td>7</td><td class=\"content\">每當你使用龍紋，你的外觀就會發生細微的變化。</td></tr><tr class=\"light\"><td>8</td><td class=\"content\">你使用龍紋後會做可怕的噩夢。</td></tr></tbody></table><h4 style=\"MARGIN-BOTTOM:0%;FONT-VARIANT:small-caps;COLOR:darkred;TEXT-ALIGN:left\">額外選項：更強的異種力量 Option: Greater Aberrant Powers</h4><p>在DM的選擇下，擁有異種龍紋專長的角色有機會展現更大的力量。當你達到10級時，這個角色有10%的幾率從《城主指南》第7章的選項中獲得傳奇恩惠。如果角色沒有得到傳奇恩惠，他在下次升級時仍有10%的機會獲得。</p><p>如果角色得到了一個傳奇恩惠，由DM來決定具體效果或隨機決定效果。該角色同時永久性地失去一個生命骰，其最大生命值相應地減少一個生命骰加上其體質調整值（最少減少1）。這一減少無法以任何方法解除。</p>",
+      "chat": ""
+    },
+    "identifier": "-",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "ERLW"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "UG5OxO2kRVHwk4rt",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "沒有龍紋",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WlyFYC2sYFseAvyj": 3
+  },
+  "flags": {
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1756717691105,
+    "modifiedTime": 1757350333724,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+  },
+  "_key": "!items!7adzFfBewFVD90TD"
+}

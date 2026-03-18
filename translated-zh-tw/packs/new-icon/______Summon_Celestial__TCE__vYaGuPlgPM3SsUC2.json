@@ -1,0 +1,255 @@
+{
+  "name": "天界召喚術 Summon Celestial (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/spell_animabastion_groundstate.jpg",
+  "_id": "vYaGuPlgPM3SsUC2",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>        你喚來一個天界生物靈魄。其在施法距離內你可見的一個未佔據位置化爲實體。這一實體使用下面的天界靈魄Celestial Spirit的數據。當你施展法術時，從復仇聖靈Avenger或守護聖靈Defender中選擇一個。此生物資料表中的攻擊方式由你的選擇決定。當其生命值降至 0 或法術結束時，生物消失。<br />　　該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束後立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br />　　<strong>升環施法效應：</strong>使用六環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p><div><p> <span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>天界靈魄Celestial Spirit</strong><br /><em>大型天族，無陣營<br /></em>AC：11+法術等級 (天生護甲)+2（僅限守護聖靈）<br />HP：40+10每比五環高的法術等級<br />速度：30 尺；飛行40 尺<br />力量16（+3）敏捷14（+2）體質16（+3）<br />智力10（+0）感知14（+2）魅力16（+3）<br />傷害抗性：光耀<br />狀態免疫：魅惑，恐慌<br />感官：黑暗視覺60 尺，被動察覺12<br />語言：天界語，理解你說的語言<br />挑戰等級：- 熟練加值與你相等</span></p><p style=\"color:rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif;font-size:medium;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Arial, Helvetica, sans-serif\"><strong>動作Actions</strong><br /><strong>多重攻擊Multiattack。</strong>天界生物發動等同於法術環數一半的次數的攻擊（向下取整）。<br /><strong>光耀之弓Radiant Bow（僅限復仇聖靈）。</strong> 遠程武器攻擊：命中採取你的法術攻擊加值，射程150/600 尺，單一目標。命中：2d6+2+法術環數的光耀傷害。<br /><strong>光耀之錘Radiant Mace（僅限守護聖靈）。</strong> 近戰武器攻擊：命中採取你的法術攻擊加值，觸及5尺，單一目標。命中：1d10+3+法術環數的光耀傷害，且天界生物可選擇自己或其10 尺內可見的另一生物。選定生物獲得1d10臨時生命值。<br /><strong>治癒之觸Healing Touch（1/日）。</strong>天界生物觸碰另一生物。目標魔法性地恢復目標等同於 2d8+法術環階 點生命值。</span></p></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 5,
+    "school": "con",
+    "materials": {
+      "value": "一個的金制聖物匣，價值至少 500gp",
+      "consumed": false,
+      "cost": 500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "summon",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "bonuses": {
+          "ac": "@scaling+4",
+          "hd": "",
+          "hp": "10*@scaling-10",
+          "attackDamage": "@scaling+4",
+          "saveDamage": "@scaling+4",
+          "healing": "@scaling+4"
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "NNxYOiGuuHI05b1p",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.ERJdt7MDpuD3Q6MB",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "tkO8rZXwE6TIBvAm",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.ZOgPmec1RGGWvVYu",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "identifier": "",
+          "mode": "",
+          "prompt": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "summon-celestial-tce"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "eKWjH0NyoSjvzeog",
+  "sort": 1900000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vYaGuPlgPM3SsUC2"
+}

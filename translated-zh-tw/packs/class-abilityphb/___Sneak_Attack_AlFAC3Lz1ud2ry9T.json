@@ -1,0 +1,301 @@
+{
+  "_id": "AlFAC3Lz1ud2ry9T",
+  "name": "偷襲 Sneak Attack",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Rogue_SurpriseAttack.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第1級起，你就知道如何精確地攻擊分心的敵人。每當你的攻擊命中一個生物時，如果該攻擊的攻擊檢定帶有優勢，則可以造成額外[[/r 1d6]]的傷害。該傷害每回合可以產生一次，且造成傷害的攻擊必須使用帶靈巧屬性的武器或遠程武器。</p>\n<p>如果目標生物身邊5尺內還有其他與之對敵者，且該對敵者並未處於失能狀態，則只要你的攻擊檢定沒有劣勢，就可以發動偷襲。</p>\n<p>你的偷襲傷害也將會隨遊蕩者職業等級的提升而提高，其具體數值見“@UUID[Compendium.dnd5e_classpack-zh-tw.class-table.Ft3CGxQpcwyFz94r]{遊蕩者職業表}”。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 96",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "requirements": "遊蕩者等級 1",
+    "activities": {
+      "g2KzC71PJF5ziz4p": {
+        "type": "damage",
+        "_id": "g2KzC71PJF5ziz4p",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.rogue.sneak-attack"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": []
+            }
+          ]
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "Sneak Attack Damage",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "偷襲",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Rogue_SurpriseAttack.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.AlFAC3Lz1ud2ry9T",
+      "_id": "vxaxFxYqUG1saIGf",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.DamageBonusMacro",
+          "mode": 2,
+          "value": "ItemMacro",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "none",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1757174050361,
+        "modifiedTime": 1757174076076,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!AlFAC3Lz1ud2ry9T.vxaxFxYqUG1saIGf"
+    }
+  ],
+  "folder": null,
+  "sort": 11700000,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 142
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dae": {
+      "macro": {
+        "name": "偷襲",
+        "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Rogue_SurpriseAttack.png",
+        "type": "script",
+        "scope": "global",
+        "command": "const version = \"12.4.4\"\ntry {\n    if (![\"mwak\",\"rwak\"].includes(workflow.activity.actionType)) return {}; // weapon attack\n    if (workflow.activity.actionType === \"mwak\" && !rolledItem?.system.properties?.has(\"fin\")) \n      return {}; // ranged or finesse\n    if (workflow.hitTargets.size < 1) return {};\n    if (!actor || !token || workflow.hitTargets.size < 1) return {};\n    const rogueLevels = actor.getRollData().classes.rogue?.levels;\n    if (!rogueLevels) {\n      MidiQOL.warn(\"Sneak Attack Damage: Trying to do sneak attack and not a rogue\");\n      return {}; // rogue only\n    }\n    let target = workflow.hitTargets.first();\n    if (!target) MidiQOL.error(\"Sneak attack macro failed\");\n    \n    if (game.combat) {\n      const combatTime = `${game.combat.id}-${game.combat.round + game.combat.turn /100}`;\n      const lastTime = actor.getFlag(\"midi-qol\", \"sneakAttackTime\");\n      if (combatTime === lastTime) {\n       MidiQOL.warn(\"Sneak Attack Damage: Already done a sneak attack this turn\");\n       return {};\n      }\n    }\n    let foundEnemy = true;\n    let isSneak = args[0].advantage;\n    \n    if (!isSneak) {\n      foundEnemy = false;\n      let nearbyEnemy = canvas.tokens.placeables.filter(t => {\n        let nearby = (t.actor &&\n             t.actor?.id !== args[0].actor._id && // not me\n             t.id !== target.id && // not the target\n             t.actor?.system.attributes?.hp?.value > 0 && // not incapacitated\n             t.document.disposition !== target.document.disposition && // not an ally\n             MidiQOL.computeDistance(t, target, {wallsBlock: false}) <= 5 // close to the target\n         );\n        foundEnemy = foundEnemy || (nearby && t.document.disposition === -target.document.disposition)\n        return nearby;\n      });\n      isSneak = nearbyEnemy.length > 0;\n    }\n    if (!isSneak) {\n      MidiQOL.warn(\"Sneak Attack Damage: No advantage/ally next to target\");\n      return {};\n    }\n    let useSneak = foundry.utils.getProperty(actor, \"flags.dae.autoSneak\");\n    if (!useSneak) {\n        let dialog = new Promise((resolve, reject) => {\n          new Dialog({\n          // localize this text\n          title: \"Conditional Damage\",\n          content: `<p>Use Sneak attack?</p>`+(!foundEnemy ? \"<p>Only Nuetral creatures nearby</p>\" : \"\"),\n          buttons: {\n              confirm: {\n                  icon: '<i class=\"fas fa-check\"></i>',\n                  label: \"Confirm\",\n                  callback: () => resolve(true)\n              },\n              cancel: {\n                  icon: '<i class=\"fas fa-times\"></i>',\n                  label: \"Cancel\",\n                  callback: () => {resolve(false)}\n              }\n          },\n          default: \"confirm\"\n          }).render(true);\n        });\n        useSneak = await dialog;\n    }\n    if (!useSneak) return {}\n    if (game.combat) {\n      const combatTime = `${game.combat.id}-${game.combat.round + game.combat.turn /100}`;\n      const lastTime = actor.getFlag(\"midi-qol\", \"sneakAttackTime\");\n      if (combatTime !== lastTime) {\n         await actor.setFlag(\"midi-qol\", \"sneakAttackTime\", combatTime)\n      }\n    }\n    const sneakActivity = macroItem.system.activities?.contents[0];\n    if (!sneakActivity) {\n      console.error(\"no activity\");\n      return {};\n    }\n   let damageRolls = await sneakActivity.rollDamage({midiOptions: {isCritical: workflow.isCritical}}, {configure: false}, {create: false});\n   for (let damageRoll of damageRolls)\n    damageRoll.options.flavor = sneakActivity.name;\n    return damageRolls;\n} catch (err) {\n    console.error(`${args[0].itemData.name} - Sneak Attack ${version}`, err);\n}",
+        "author": "WqWGW8MuBm7BNHxt",
+        "ownership": {
+          "default": 3
+        },
+        "_id": null,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "_stats": {
+          "coreVersion": "12.343",
+          "systemId": "dnd5e",
+          "systemVersion": "4.4.4",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757174180241,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!AlFAC3Lz1ud2ry9T"
+}

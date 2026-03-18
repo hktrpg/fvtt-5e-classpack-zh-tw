@@ -1,0 +1,93 @@
+{
+  "_id": "SU3RYIYcwg1MmRGV",
+  "name": "卓越戰技 Combat Superiority",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Icon_Scenarios.png",
+  "system": {
+    "description": {
+      "value": "<p>        在你選擇此範型的第3級時，你習得戰技並獲得驅動戰技的卓越骰。</p>\n<p>      <strong>@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.CRu7K83gIxlVL5sX]{戰技 Maneuver}。</strong>你習得三種自選戰技。戰技強化了你的攻擊。而你在每次攻擊時只能應用一種戰技。</p>\n<p>        你在第7，第10和第15級時均習得兩種新戰技。習得新戰技時，你還可以額外替換一個已經習得的戰技。</p>\n<p>       <strong> 卓越骰Superiority Dice。</strong>你擁有四個[[/r d8]]卓越骰。卓越骰一經使用即消耗，完成短休或長休後恢復。你的卓越骰在第7和第15級時各增加一粒。</p>\n<p>      <strong>  豁免SavingThrows。</strong>某些戰技需要進行豁免檢定作抵抗。戰技的豁免DC爲:</p>\n<p style=\"text-align:center\"><strong>豁免DC</strong>=8+你的熟練加值+你的力量或敏捷調整值(自選)</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": null
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "戰鬥大師等級 3",
+    "activities": {},
+    "identifier": "",
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 22100000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedUses": 4,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757274723987,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SU3RYIYcwg1MmRGV"
+}

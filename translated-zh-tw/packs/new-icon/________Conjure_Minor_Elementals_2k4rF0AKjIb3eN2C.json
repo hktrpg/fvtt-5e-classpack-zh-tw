@@ -1,0 +1,399 @@
+{
+  "_id": "2k4rF0AKjIb3eN2C",
+  "name": "次級元素咒喚術 Conjure Minor Elementals",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/000516.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你召喚元素生物並使其顯現在施法範圍內一處你能看見但未被佔據的空間。選擇以下選項之一作爲顯現的生物：\n<br />一個挑戰等級2或更低的元素生物\n<br />兩個挑戰等級1或更低的元素生物\n<br />四個挑戰等級1/2或更低的元素生物\n<br />八個挑戰等級1/4或更低的元素生物\n<br />每個被該法術召喚的元素生物在生命值降至0，或者法術終止時消失不見。\n<br />被召喚的生物對你和你的夥伴保持友善關係。每次召喚出來的所有生物視爲一個團體來擲先攻權，並依此獲得其自己的行動回合。他們服從你發出的所有語言命令（不需要你作動作）。如果你不發出任何命令，這些生物會在敵對生物前保護自己，如果沒有敵對生物則不執行任何動作。\n<br />這些生物的具體數值由DM 掌控。\n<br /><strong>升環施法效應。</strong>使用更高法術位施展該法術時，選擇上文所述召喚選項之一，並顯現更多生物：6環法術位顯現兩倍生物，8環法術位顯現三倍生物。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 226",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration",
+      "mgc"
+    ],
+    "activities": {
+      "FldnmGcRlf7PustX": {
+        "type": "summon",
+        "_id": "FldnmGcRlf7PustX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "1",
+            "cr": "2",
+            "name": "",
+            "_id": "wPgt32Z9aehiOKCB",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "count": "2",
+            "cr": "1",
+            "name": "",
+            "_id": "E6y3COzjx3JH6jlr",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "count": "4",
+            "cr": "1/2",
+            "name": "",
+            "_id": "NIvw0ckH5Ppq2Xfp",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "count": "8",
+            "cr": "1/4",
+            "name": "",
+            "_id": "RgvOiYuzzzELLwWx",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 4,
+              "max": 5
+            }
+          },
+          {
+            "count": "2",
+            "cr": "2",
+            "name": "",
+            "_id": "ZhmOzJm0T6oiW5GY",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 6,
+              "max": 7
+            }
+          },
+          {
+            "count": "4",
+            "cr": "1",
+            "name": "",
+            "_id": "xOqJmGXHwfrJdBtk",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 6,
+              "max": 7
+            }
+          },
+          {
+            "count": "8",
+            "cr": "1/2",
+            "name": "",
+            "_id": "UHutAmtc1hjZwyNr",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 6,
+              "max": 7
+            }
+          },
+          {
+            "count": "16",
+            "cr": "1/4",
+            "name": "",
+            "_id": "EHJJteCzong42blb",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 6,
+              "max": 7
+            }
+          },
+          {
+            "count": "3",
+            "cr": "2",
+            "name": "",
+            "_id": "NC1LpDIE3A1BwxJD",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 8,
+              "max": 9
+            }
+          },
+          {
+            "count": "6",
+            "cr": "1",
+            "name": "",
+            "_id": "ktdneg367LuA8ArX",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 8,
+              "max": 9
+            }
+          },
+          {
+            "count": "12",
+            "cr": "1/2",
+            "name": "",
+            "_id": "rVqlCLPPefNFiorq",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 8,
+              "max": 9
+            }
+          },
+          {
+            "count": "24",
+            "cr": "1/4",
+            "name": "",
+            "_id": "SfE3n9Tl4oabznAa",
+            "uuid": "",
+            "types": [
+              "elemental"
+            ],
+            "level": {
+              "min": 8,
+              "max": 9
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "cr"
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "conjure-minor-elementals"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 2300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2k4rF0AKjIb3eN2C"
+}

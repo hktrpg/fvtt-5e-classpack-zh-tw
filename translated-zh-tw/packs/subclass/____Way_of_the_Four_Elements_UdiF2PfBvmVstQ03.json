@@ -1,0 +1,201 @@
+{
+  "_id": "UdiF2PfBvmVstQ03",
+  "name": "四象宗 Way of the Four Elements",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/003253.png",
+  "effects": [],
+  "folder": "b1hNUPJ6ajk0guML",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>你追隨一個教導掌控元素的宗派。你運氣凝神時可以掌握創造之力，隨意的驅使元素甚至將其當做軀體的延伸。宗派的某些成員會精修單一的元素，而其它人則同時使役所有元素。</p><p>本宗派的許多武僧會用紋身描繪自身氣的力量形式，比如盤龍或是諸如鳳、魚、樹、山、奔浪等等。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "identifier": "way-of-the-four-elements",
+    "classIdentifier": "monk",
+    "advancement": [
+      {
+        "_id": "6mh3c4dlhirpzrts",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.pKBXwROhJId7m0tZ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.HNXXulgGVJSfkgZR",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性"
+      },
+      {
+        "_id": "uj7nc0si94p3hoaq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.dS3D3l0jf4I5zVAA",
+              "optional": false
+            }
+          ],
+          "optional": true,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得法門"
+      },
+      {
+        "_id": "ngwr4jvll8hk70ng",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "max-ki-use",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "5": {
+              "value": 3
+            },
+            "9": {
+              "value": 4
+            },
+            "13": {
+              "value": 5
+            },
+            "17": {
+              "value": 6
+            }
+          }
+        },
+        "value": {},
+        "title": "施法最高耗氣量",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "TSCMTrym6yhR1NrY",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": {
+              "count": 1,
+              "replacement": false
+            },
+            "6": {
+              "count": 1,
+              "replacement": false
+            },
+            "11": {
+              "count": 1,
+              "replacement": false
+            },
+            "17": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": false,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.hqnKBQJsuYZzBc9i"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.sNrDFzaiP0pvgCjX"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.qBi3DzSSW5ZktRtc"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.c5KyCD0uwDY6DCQf"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.eAB5tlQ0BHt7zEXj"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.L7krSPbgJty7ecX2"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.3ouXJD37P4GmxMwd"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.PN50ELAWyNv2ScHl"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.9dfu1BYvq4emCXOF"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.3QY4kbIB3IMVsCNQ"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.kDuQKvu0J3Y2NBmL"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.BgWvJmXSrxl1xS3E"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.WFebTqf4oUmfTDvd"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.jJvZPyNYhY9vkZZW"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.6LVrpFKUZygZXPh9"
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.r50hfUUmNP8h2YV6"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "elementalDiscipline"
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "獲得法門",
+        "hint": "第3級選擇本宗派起，你開始學習操控元素的法門。每種法門在使用時都需要消耗氣。\n                        \n                        你會先習得元素同調法門和另一個自選法門，所有法門具體見下。你將在第6、第11、第17級時，將各習得一個新法門。你每次習得新的法門時，還可以將一個你已知的法門替換爲另一個符合選擇條件的法門。"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757866917654,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UdiF2PfBvmVstQ03"
+}

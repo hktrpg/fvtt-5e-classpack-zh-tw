@@ -1,0 +1,179 @@
+{
+  "name": "追憶之鏡 Mirror Of Reflected Pasts",
+  "type": "consumable",
+  "img": "icons/tools/scribal/lens-grey-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p><p>這面精靈設計製造的鏡子可以讓凝視它的人看見過去美好的回憶。鏡子高3尺，重25磅， AC爲11，生命值爲 10點，具有鈍擊易傷。若其生命值降低到0點，便會破碎且被毀壞。</p><p>當你把鏡子豎着的時候，可以用一個動作說出命令詞並激活它。被激活時，鏡子會浮空，此時它可以被摧毀，但不能移動。鏡子會一直處於激活狀態，直到你使用一個動作再次說出命令詞，或者你與鏡子的同調結束。這時鏡子會安全地落到地上。一旦鏡子的激活結束，它在第二天黎明前不能再次被激活。</p><p>如果除你以外的非構裝體生物在被激活的鏡子中看到了自己的倒影，並且在鏡子30尺內，則該生物必須成功於一次DC 15感知豁免檢定，否則陷入麻痹，直到鏡子失效或該生物不再能看到鏡子。被鏡子麻痹的生物可以在其每一回合結束時重複該豁免檢定，成功則麻痹效果結束。如果該生物的豁免檢定成功或效果結束，則該生物在接下來的24小時內對該鏡子的效果免疫。</p><p>被鏡子麻痹時，該生物可以在鏡面上看到其過去所發生的事情。但這些記憶不是真實發生過的，而是過去那些事件的理想化版本。如果附近的觀察者間接地看到鏡子，可以瞥見一閃而過的回憶片段。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DSotDQ",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "uses": {
+      "max": "1",
+      "recovery": [
+        {
+          "period": "day",
+          "type": "recoverAll"
+        }
+      ],
+      "autoDestroy": false,
+      "spent": 0
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "命令詞。",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "disp",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-mirror-of-reflected-pasts",
+    "container": null,
+    "attuned": false,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": 1686487486012,
+    "modifiedTime": 1749710928408,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": null,
+  "_id": "7sDjlkj5G0q3qxbN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jo05tXxu7yf2dQe3": 3
+  },
+  "_key": "!items!7sDjlkj5G0q3qxbN"
+}

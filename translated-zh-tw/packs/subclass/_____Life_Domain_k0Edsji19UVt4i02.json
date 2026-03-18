@@ -1,0 +1,311 @@
+{
+  "_id": "k0Edsji19UVt4i02",
+  "name": "生命領域 Life Domain",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_BurningSoul.png",
+  "effects": [],
+  "folder": "Xih0AZJHkJZLWGw4",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>        生命領域專注於活躍的正能量,其既是組成字宙的主能量之一，也是維持所有生命延續的基礎。生命之神的神職就是恢復人們的健康和傷痛,照顧需要幫助者，同時對抗死亡和不死的力量。幾乎所有的非邪惡神衹都可以宣稱在這一領域有影響， 特別是農業神(如裳提亞Chauntea、阿拉瓦依Arawai和德墨忒爾Demeter)、太陽神(洛山達Lathander、培羅Pelor 和拉.赫拉克提Re-Horakhty)、醫療或者堅韌之神(如伊爾馬特Ilmater、 米莎凱Mishakal、阿波羅Apollo和迪安斯徹特Diancecht) 以及家庭和社會之神(如赫斯提亞Hestia,哈托爾Hathor和博得雷Boldrei)。</p><table border=\"1\"><tbody><tr><th><p>牧師等級</p></th><th><p>法術</p></th></tr><tr><td><p><strong>1st</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.U1GNY4potyr0c6mq]{祝福術}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.a5wqDP53A5UvGvSK]{療傷術}</p></td></tr><tr><td><p><strong>3rd</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.I1C2EQxwynPd7dOC]{次級復原術}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.uLEtdTC6yBxuLNFe]{靈體武器}</p></td></tr><tr><td><p><strong>5th</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.dU8oQCE5dA1qZ6TD]{希望信標}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.TkFsGmyAeHknESJ4]{回生術}</p></td></tr><tr><td><p><strong>7th</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.4gLdaCM7rxoNhj8d]{防死結界}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.LPXdi1HhVx8kJWYy]{信仰守衛}</p></td></tr><tr><td><p><strong>9th</strong></p></td><td><p>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.UBLAtJuRhRB3GokC]{羣體療傷術}@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.63gAxMpLpbVW9Oja]{死者復活}</p></td></tr></tbody></table><p><strong>附贈熟練項Bonus Proficiency</strong></p><p>在第1級選擇該領域時，你獲得重甲的熟練項。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "identifier": "life-domain",
+    "classIdentifier": "cleric",
+    "advancement": [
+      {
+        "_id": "lowv6o578jo7dqnq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.U1GNY4potyr0c6mq"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.a5wqDP53A5UvGvSK"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "獲得領域法術",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "hae6czro96iqw4dp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.I1C2EQxwynPd7dOC"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.uLEtdTC6yBxuLNFe"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "獲得領域法術",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "fk77z2wwcw4n25l4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.dU8oQCE5dA1qZ6TD"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.TkFsGmyAeHknESJ4"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "獲得領域法術",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "s2c8unanjhicb4sd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.4gLdaCM7rxoNhj8d"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.LPXdi1HhVx8kJWYy"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "獲得領域法術",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "zd4fuedgf1zxqiyg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.UBLAtJuRhRB3GokC"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.63gAxMpLpbVW9Oja"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": []
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "獲得領域法術",
+        "icon": null,
+        "hint": ""
+      },
+      {
+        "_id": "2pbio9g7r1c48uqm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.JKRSuJBfZnXIx8Zu",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "w23y6jcwldhqnfh2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.cVCWDgOyiytOouwE",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "4tobypdfms4ciha1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.jo4tImzlVO1EqvZj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "cb32azsgazjyrx8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.twDzAZCJeSqZnLTW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "96yky860nofemqc4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.mSQMj6rZxjKtCe7i",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "x82gvlwrOz6XTaID",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:hvy"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "_key": "!items!k0Edsji19UVt4i02"
+}

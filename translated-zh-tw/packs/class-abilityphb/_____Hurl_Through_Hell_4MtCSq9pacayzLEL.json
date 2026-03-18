@@ -1,0 +1,198 @@
+{
+  "_id": "4MtCSq9pacayzLEL",
+  "name": "直墜噩夢 Hurl Through Hell",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Shadow_DeathsEmbrace.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第14級起，每當你的攻擊動作成功命中一個生物時，你可以使用此能力將目標瞬間傳送並穿越下層位面。該生物立刻消失並前往如同噩夢一般的風景。</p>\n<p>在你下一回合結束時，目標返回先前所佔據的空間、或是最近的未被佔據空間。如果目標並非邪魔，則他因這次可怖的經歷而受到[[/r 10d10]]點心靈傷害。</p>\n<p>你必須完成一次長休才能再次使用該特性。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 109",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "邪魔等級 14",
+    "activities": {},
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "直墜噩夢",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Shadow_DeathsEmbrace.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.4MtCSq9pacayzLEL",
+      "_id": "x5MeMhiZixec2bsg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.optional.直墜噩夢.activation",
+          "mode": 2,
+          "value": "![\"fiend\"].includes(typeOrRace)",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.直墜噩夢.damage.msak",
+          "mode": 2,
+          "value": "10d10[psychic]",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.直墜噩夢.damage.mwak",
+          "mode": 2,
+          "value": "10d10[psychic]",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.直墜噩夢.damage.rsak",
+          "mode": 2,
+          "value": "10d10[psychic]",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.直墜噩夢.damage.rwak",
+          "mode": 2,
+          "value": "10d10[psychic]",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.直墜噩夢.count",
+          "mode": 2,
+          "value": "ItemUses.直墜噩夢 Hurl Through Hell",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1757274212961,
+        "modifiedTime": 1757274362706,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!4MtCSq9pacayzLEL.x5MeMhiZixec2bsg"
+    }
+  ],
+  "folder": null,
+  "sort": 7500000,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757274338278,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4MtCSq9pacayzLEL"
+}

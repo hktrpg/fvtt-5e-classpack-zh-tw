@@ -1,0 +1,189 @@
+{
+  "_id": "F5CE44FC264E3AA5",
+  "name": "收妖瓶 Iron Flask",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-empty-glass.webp",
+  "effects": [],
+  "folder": "XzwLZWoghG1AqJYp",
+  "flags": {
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物</em></p>\n<p>這是一個有黃銅瓶塞的鐵瓶。你可以選擇一個60尺內你能看見的生物作爲目標，並用一個動作說出瓶子的命令字。如果目標並非你所處的位面的生物，則它必須通過一次DC17的感知豁免否則將被困入瓶中。如果目標曾經被瓶子囚禁過，則它在豁免上具有優勢。一旦被瓶子吸入，該生物將被困在瓶中直到被釋放。收妖瓶最多隻能同時容納一名生物。被困在瓶中的生物無需呼吸和飲食，也不會衰老。</p>\n<p>你可以用一個動作拔掉瓶塞釋放瓶中的生物。該生物將在1小時內對你和你的同伴友好並服從你的命令。如果你沒有下達命令或你的命令可能導致該生物死亡，則它會保護自己並不採取其他任何行動。持續時間結束後，該生物將按自己的意願和陣營行動。</p>\n<p>鑑定術可以辨別瓶中是囚禁了生物，但只有打開瓶塞才能確定其中的生物具體是什麼。一個新發現的收妖瓶可能已經囚禁了一名由DM決定或隨機決定的生物。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>[[/r d100]]</strong></td>\n<td><strong>瓶中生物</strong></td>\n</tr>\n<tr>\n<td>01-50</td>\n<td>無</td>\n</tr>\n<tr>\n<td>51</td>\n<td>奧登羅斯魔 Arcanaloth</td>\n</tr>\n<tr>\n<td>52</td>\n<td>魔裔 Cambion</td>\n</tr>\n<tr>\n<td>53-54</td>\n<td>土巨靈 Dao</td>\n</tr>\n<tr>\n<td>55-57</td>\n<td>惡魔（類型1）</td>\n</tr>\n<tr>\n<td>58-60</td>\n<td>惡魔（類型2）</td>\n</tr>\n<tr>\n<td>61-62</td>\n<td>惡魔（類型3）</td>\n</tr>\n<tr>\n<td>63-64</td>\n<td>惡魔（類型4）</td>\n</tr>\n<tr>\n<td>65</td>\n<td>惡魔（類型5）</td>\n</tr>\n<tr>\n<td>66</td>\n<td>惡魔（類型6）</td>\n</tr>\n<tr>\n<td>67</td>\n<td>使徒 Deva</td>\n</tr>\n<tr>\n<td>68-69</td>\n<td>魔鬼（高等）</td>\n</tr>\n<tr>\n<td>70-72</td>\n<td>魔鬼（次等）</td>\n</tr>\n<tr>\n<td>73-74</td>\n<td>風巨靈 Djinn</td>\n</tr>\n<tr>\n<td>75-76</td>\n<td>火巨靈 Efreeti</td>\n</tr>\n<tr>\n<td>77-78</td>\n<td>元素（任意） Elemental (any)</td>\n</tr>\n<tr>\n<td>79</td>\n<td>吉斯揚基騎士 Githyanki knight</td>\n</tr>\n<tr>\n<td>80</td>\n<td>吉斯揚基澤斯 Githyanki zerth</td>\n</tr>\n<tr>\n<td>81-82</td>\n<td>隱形潛伏怪 Invisible stalker</td>\n</tr>\n<tr>\n<td>83-84</td>\n<td>水巨靈 Marid</td>\n</tr>\n<tr>\n<td>85-86</td>\n<td>麥澤羅斯魔 Mezzoloth</td>\n</tr>\n<tr>\n<td>87-88</td>\n<td>老鬼婆 Night hag</td>\n</tr>\n<tr>\n<td>89-90</td>\n<td>尼卡羅斯魔 Nycaloth</td>\n</tr>\n<tr>\n<td>91</td>\n<td>異界神使 Planetar</td>\n</tr>\n<tr>\n<td>92-93</td>\n<td>火蜥蜴 Salamander</td>\n</tr>\n<tr>\n<td>94-95</td>\n<td>史拉蟾（任意） Slaad (any)</td>\n</tr>\n<tr>\n<td>96</td>\n<td>熾天神使 Solar</td>\n</tr>\n<tr>\n<td>97-98</td>\n<td>魅魔/男魅魔 Succubus/incubus</td>\n</tr>\n<tr>\n<td>99</td>\n<td>烏特羅斯魔 Ultroloth</td>\n</tr>\n<tr>\n<td>00</td>\n<td>索爾石怪 Xorn</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 178",
+      "revision": 1,
+      "rules": "2014",
+      "book": "DMG"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 31000,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "uses": {
+      "max": "",
+      "autoDestroy": false,
+      "spent": null,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "container": null,
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "命令字。",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "17"
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-iron-flask",
+    "attuned": false
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1713010442504,
+    "modifiedTime": 1757871277136,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 47400000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!F5CE44FC264E3AA5"
+}

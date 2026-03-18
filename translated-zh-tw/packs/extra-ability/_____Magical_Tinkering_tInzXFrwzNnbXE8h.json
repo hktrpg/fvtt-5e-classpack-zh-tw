@@ -1,0 +1,140 @@
+{
+  "_id": "tInzXFrwzNnbXE8h",
+  "name": "魔法工藝 Magical Tinkering",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_RewindTime.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>         在第1級，你將學習如何在平凡的物品中注入魔法的火花。要使用這個能力，你必須手持@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.E20CE7D30DE58B23]{修理工具}，或其他工匠工具。然後花費一個動作觸摸一個微小的非魔法物體，從以下魔法屬性中選擇一個賦予它：</p>\n<ul>\n<li>該物體提供5尺半徑的明亮照明，以及該範圍外5尺範圍的微光照明。</li>\n<li>無論何時，只要該物品被生物觸碰，就會發出可在10尺外聽到的錄音信息。錄入的信息在你將此屬性賦予對象時決定，且時長不可超過6秒。</li>\n<li>物品不斷地發出一種氣味或一種非語言的聲音（風聲、浪聲、鳥叫或類似的聲音）。這一現象最多能傳播10尺遠。</li>\n<li>一個靜態的視覺效果出現在物體的表面上。這個效果可以是一幅圖片，最多25個單詞的文本，線條和形狀，或者這些元素的混合，如你所願。</li>\n</ul>\n<p>         所選的魔法屬性持續時間無限。你能夠以一個動作觸摸對象來消除這一魔法屬性。</p>\n<p>         你能夠通過此特性將魔力賦予多個物品，每次使用該特性時都需要觸摸一個物品，並且單個物品一次只能承載一種魔法屬性。你能夠使用該特性影響的物品的最大數量等於你的智力調整值（最少一個物品）。如果你試圖超過最大值，最老的魔法屬性將立即結束，然後新的魔法屬性生效。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "ERLW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "max(@abilities.int.mod,1)",
+      "spent": 0,
+      "recovery": []
+    },
+    "requirements": "奇械師等級 1",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "any"
+          },
+          "affects": {
+            "count": "1",
+            "type": "object",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-magical-tinkering",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 47000000,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 0,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749883542518,
+    "lastModifiedBy": "uXKCmWFprrvnSIDm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!tInzXFrwzNnbXE8h"
+}

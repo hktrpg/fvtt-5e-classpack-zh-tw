@@ -1,0 +1,124 @@
+{
+  "_id": "LKqWpyndGVcnhZO6",
+  "name": "朝臣 Courtier",
+  "type": "background",
+  "img": "icons/commodities/treasure/crystal-pedastal-red-gold.webp",
+  "effects": [],
+  "folder": "1ObYUkIG9kL1K5e0",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757261977918,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>早些時候，你是一名貴族法院或者官場的重要人士。你可能或者不是來自某個上流社會的家族之中；你用你的才能，而不是你出生的背景讓你贏得了這個位置。</p><p>你可能是一名銀月法庭的政府人員，僕人，或者是隨從。亦或你旅行至深水城時被招募成爲某個殺手公會，貴族，冒險家或祕密社團的一員。你可能是一個在博德之門或是無冬城維護法紀的幕後工作人員。亦可能成長在匕首灘城堡之中。</p><p>即使你已不再是那個給了你生活的開始的組織中的一員，你與以前同事們之間的人際關機可以給你和你冒險夥伴們一些優勢。你也可能會和現在新的夥伴們從之前的組織中接到任務。在任何情況下，你曾經作爲朝臣的能力會使你在冒險生活中處於更有利的境地。</p><hr /><p><strong>技能熟練項：</strong>洞悉，遊說<br /><br /><strong>語言：</strong>兩種你選擇的語言<br /><strong>裝備：</strong>一套@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.191986051F42D84B]{高檔服裝}和一個裝有5gp的@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.2C22C4FE00679D76]{小包}<br /><strong>特性：</strong>@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.zIjEDyDwAZfXv8Iu]{官員 Court Functionary}</p><hr /><p><strong>建議特性：</strong></p><p>使用@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundList.me0zqP09tEwczMS2]{公會工匠}的背景作爲自己的基礎特徵和動機，在適當的時候修改點條目以適應你作爲一名朝臣。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "SCAG",
+      "revision": 1,
+      "rules": "2014",
+      "book": "SCAG"
+    },
+    "advancement": [
+      {
+        "_id": "g4vthei56dqfcpca",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.zIjEDyDwAZfXv8Iu",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "獲得背景特性",
+        "icon": null
+      },
+      {
+        "_id": "6NAZ3rwL1qX5hE8c",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins",
+            "skills:per"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*",
+                "languages:exotic:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null,
+        "_id": "S8OqfVyiAG7F21lV"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.lJRfxSVCXvwWK3RP",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.191986051F42D84B",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "_id": "sOGkNPwREvGGyRKK"
+      }
+    ],
+    "identifier": "-courtier",
+    "startingEquipment": [],
+    "wealth": ""
+  },
+  "_key": "!items!LKqWpyndGVcnhZO6"
+}
