@@ -1,0 +1,212 @@
+{
+  "_id": "kqwC37kkP0krDB3l",
+  "name": "妖精鍛皮甲 Feywrought Leather Armor (BMT)",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "67",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>護甲（輕甲），珍稀（需同調）</em><br />這套色彩鮮豔、花團錦簇的護甲鑄成於 <strong>妖精荒野Feywild</strong> 之中，它充滿着那個奇幻位面的誘人能量。<br />穿着這套護甲期間，你爲防止陷入或結束 <strong>魅惑&amp;Reference[condition=charmed]</strong> 狀態所做的豁免具有優勢。<br />這套護甲具有3發充能。你可以消耗一發充能以用其施展法術<em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.RpBbOYseLZCFXaFY]{強迫術 Compulsion}</em>（豁免DC15）。這套護甲在每日黎明時分恢復[[/r 1d3]]發已消耗的充能數。</p><div class=\"WordSection1\"><div><p class=\"MsoNormal\" style=\"LAYOUT-GRID-MODE:char;MARGIN:2pt 0cm\"><span class=\"GramE\">該護甲</span>的護胸和護肩由<span class=\"GramE\">通過油煮硬化</span>的皮子製成。護甲的其餘部分則由<span class=\"GramE\">更軟更靈活</span>的材料製作。</p></div></div><p>This colorful, flowery armor was forged in the Feywild and is infused with that plane's captivating magic.</p><p>While wearing this armor, you have advantage on saving throws you make to avoid or end the &amp;Reference[condition=charmed] condition on yourself.</p><p>This armor has 3 charges. You can use an action to expend a charge to cast the @spell[Compulsion] spell (save DC <span class=\"rd__dc\">15</span>) from this armor. The armor regains [[/r 1d3]] expended charges daily at dawn.</p><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "rare",
+    "type": {
+      "value": "light",
+      "baseItem": "leather"
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ]
+    },
+    "armor": {
+      "value": 11,
+      "dex": null,
+      "magicalBonus": 0
+    },
+    "strength": null,
+    "activities": {
+      "SNldY6HE6uckRZB9": {
+        "_id": "SNldY6HE6uckRZB9",
+        "type": "cast",
+        "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.plutonium-faux-id--7b22746167223a227370656c6c222c2274657874223a22636f6d70756c73696f6e227d.custom.Item.0000000000000000"
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        }
+      }
+    },
+    "identifier": "feywrought-leather-armor-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false
+  },
+  "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "feywrought%20leather%20armor_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "UkU3u1aaCqVQbSa1",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738888053,
+    "modifiedTime": 1751738888053,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 135938,
+  "_key": "!items!kqwC37kkP0krDB3l"
+}

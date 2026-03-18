@@ -1,0 +1,247 @@
+{
+  "_id": "UCXmrppS3yLbg5Id",
+  "name": "幻奏琴短弓 Shortbow of Melodies (BMT)",
+  "type": "weapon",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "66",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>武器（短弓），極珍稀（需同調）</em><br />這把弓有着多條弦（弓弦/琴絃），它形如一把里拉琴或一把小號豎琴。你可以在箭矢搭弦時彈奏弦，來爲箭矢注入魔法的能量。當你用這把弓發動遠程武器攻擊時，你可以演奏以下旋律之一。你必須在攻擊檢定前選擇你要演奏的旋律，且你在每次攻擊中只能演奏一種旋律。</p><ul style=\"MARGIN:0px auto\"><li><p><strong>精準旋律Melody of Precision。</strong>如果你熟練於表演&amp;Reference[skill=Performance]技能，你的攻擊檢定將具有+1加值。如果你專精於表演&amp;Reference[skill=Performance]技能，則改爲獲得+2加值。（原文如此）</p></li><li><strong>迴響旋律Melody of Reverberation。</strong>你彈奏出的旋律響徹雲霄。命中時，目標將受到等同於你魅力調整值點的額外雷鳴傷害。</li></ul><p>This bow has multiple strings and resembles a lyre or small harp. By strumming the strings while setting an arrow to the bow, you imbue the arrow with magic.</p><p>You can play one of the following melodies when you use the bow to make a ranged weapon attack. You must choose to do so before you make the attack roll, and you can play only one melody per attack.</p><div data-roll-name-ancestor=\"Melody of Precision\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Melody of Precision.</span> If you're proficient in &amp;Reference[skill=Performance], you gain a +1 bonus to the attack roll. If you have expertise in &amp;Reference[skill=Performance], you gain a +2 bonus instead.</p></div><div data-roll-name-ancestor=\"Melody of Reverberation\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">Melody of Reverberation.</span> The melody you strum echoes loudly. On a hit, the target takes extra thunder damage equal to your Charisma modifier.</p></div></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "veryRare",
+    "type": {
+      "value": "simpleR",
+      "baseItem": "shortbow"
+    },
+    "range": {
+      "value": 80,
+      "long": 320,
+      "units": "ft",
+      "reach": null
+    },
+    "properties": [
+      "amm",
+      "mgc",
+      "two"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "magicalBonus": 0,
+    "damage": {
+      "base": {
+        "types": [
+          "piercing"
+        ],
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "scaling": {
+          "mode": "",
+          "number": 1
+        },
+        "custom": {
+          "enabled": false
+        }
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "ammunition": {
+      "type": "arrow"
+    },
+    "mastery": "",
+    "activities": {
+      "3LHOygQpabfw7mTX": {
+        "_id": "3LHOygQpabfw7mTX",
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "weapon"
+          },
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "",
+        "attackMode": "oneHanded",
+        "ammunition": "",
+        "otherActivityUuid": ""
+      }
+    },
+    "identifier": "shortbow-of-melodies-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false,
+    "armor": {
+      "value": null
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/img/items/BMT/Bow of Melodies.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "shortbow%20of%20melodies_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "JkCcQt5fmlph6h7T",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738888053,
+    "modifiedTime": 1751738888053,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 1500000,
+  "_key": "!items!UCXmrppS3yLbg5Id"
+}

@@ -1,0 +1,298 @@
+{
+  "_id": "VPJpFGhhBofVfsku",
+  "name": "敵意術 Antagonize",
+  "type": "spell",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "50",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>你以魔法之詞低語，令施法距離內你選擇的一個生物產生敵意。目標必須進行一次感知豁免。若豁免失敗，目標會受到 [[/damage 4d4 type=psychic]] 點心靈傷害，且必須立即使用反應對你選擇的另一個你能看到的生物發動一次近戰攻擊。如果目標無法發動這次攻擊（例如它的觸及範圍內沒有生物，或者因爲它的反應無法使用），那麼在你的下一回合開始前，目標的下一次攻擊檢定具有劣勢。若豁免成功，目標僅會受到一半的傷害。</p><div class=\"rd__spc-inline-post\"><p><strong>升環施法效應：</strong>當你使用4環或更高法術位施放本法術時，你使用的法術位每比3環高一環，法術的傷害就增加 [[/r 1d4]]。</p></div><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p></p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+      "chat": ""
+    },
+    "level": 3,
+    "school": "enc",
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "materials": {
+      "value": "一張描繪着 浪客Rogue 的卡牌",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "type": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "uses": {
+      "max": "",
+      "spent": null,
+      "recovery": []
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "ability": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "RjCCXxGFBrdhBN5J"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": "4",
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "mode": "whole"
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "antagonize"
+  },
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "ownership": {
+    "default": 0,
+    "pF5tIzH2aEMuTR6D": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "BMT",
+      "hash": "antagonize_bmt",
+      "propDroppable": "spell"
+    },
+    "midiProperties": {
+      "confirmTargets": "default",
+      "saveDamage": "default",
+      "bonusSaveDamage": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "敵意術 Antagonize",
+      "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.VPJpFGhhBofVfsku",
+      "transfer": false,
+      "_id": "RjCCXxGFBrdhBN5J",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.disadvantage.attack.all",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": [
+            "Reaction",
+            "turnStartSource"
+          ],
+          "macroRepeat": "none"
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.9",
+        "createdTime": 1755605416815,
+        "modifiedTime": 1757188539713,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!VPJpFGhhBofVfsku.RjCCXxGFBrdhBN5J"
+    }
+  ],
+  "folder": "ATtIqlCQWh4B7tmw",
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1724941943032,
+    "modifiedTime": 1757235114937,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VPJpFGhhBofVfsku"
+}

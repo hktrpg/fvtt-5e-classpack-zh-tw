@@ -1,0 +1,328 @@
+{
+  "_id": "AA2BAB3B70D52372",
+  "name": "賢者法杖 Staff of the Magi",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-engraved-red.webp",
+  "effects": [],
+  "folder": "XzwLZWoghG1AqJYp",
+  "flags": {
+    "core": {},
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 10,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>（需術士、魔導士或法師同調）</em></p>\n<p>賢者法杖是一把魔法長棍，你在使用它進行的攻擊和傷害骰上獲得+3加值。持握它時，你在法術攻擊骰上獲得+2加值。</p>\n<p>法杖有50發充能，且每天黎明時恢復[[/r 4d6+2]]發已消耗的充能。當充能耗盡時，投一個[[/r d20]]。如果投骰結果爲20，法杖恢復[[/r 1d12+1]]發充能。</p>\n<p><strong>法術吸收。</strong>持握這把法杖時，你在對抗法術的豁免上具有優勢。當另一名生物施展僅以你爲目標的法術時，你可以用反應以法杖吸收該法術。在消除法術的同時，法杖還會獲得等同於該法術環數的充能數。但如果吸收法術後法杖的充能數超過50，它將爆炸，視爲啓動了復仇打擊（見下）。</p>\n<p><strong>法術。</strong>持握這把法杖時，你可以用一個動作並消耗若干充能從法杖施展下列法術之一（使用你自身的施法屬性和豁免DC）： @UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.TEZY0aYJtnuU4FlW]{熾焰法球 Flaming Sphere}（2發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.V7BV9skWjd87Ebgj]{隱形術 Invisibility}（2發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.VC9nFuUxF7yptXK5]{敲擊術 Knock}（2發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.oopuSIBsaXzQKw1Q]{蛛網術 Web}（2發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.as6xgBANCbyoWPXX]{解除魔法 Dispel Magic}（3發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.u2MG84qW8YLuECHa]{冰風暴 Ice Storm}（4發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.agTzLRmgNSVghaGk]{火牆術 Wall of Fire}（4發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.EoIuyVnLAF4DyTO7]{穿牆術 Passwall}（5發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.MTNfEcCXSJZ2m2nG]{心靈遙控 Telekinesis}（5發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.D57cmKWEk3wx8iJf]{召喚元素生物 Conjure Elemental}（7發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Uh3zcz4PO4DXP3Dj]{火球術 Fireball}（視同使用7環法術位，7發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.dHg72reVMXYFu4lR]{閃電束 Lightning Bolt}（視同使用7環法術位，7發）、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.VveuAHLNPiAY0yd5]{異界傳送 Plane Shift}（7發）。</p>\n<p>你還可以用一個動作從法杖隨意施展下列法術：@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Xdu0aGdkaf36cmvR]{祕法鎖 Arcane Lock}、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.cGO3m3Xu4mtPegr4]{偵測魔法 Detect Magic}、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.1bUnNgI45qffE1P9]{變巨/縮小術 Enlarge/Reduce}、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.rW5ZoeX4jjZw4hBO]{光亮術 Light}、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.H5gghxp0hfT3BAlC]{法師之手 Mage Hand}、@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.IuzXxwP3EhWGhtXC]{防護善惡 Protection from Evil and Good}。</p>\n<p><strong>復仇打擊。</strong>你可以用一個動作在自己的膝蓋上或堅固的表面上折斷這把法杖，釋放復仇性的打擊。法杖將毀滅併產生一場以其爲中心半徑30尺的爆炸，釋放其剩餘的所有魔力。</p>\n<p>你有50%的概率被傳送到某個隨機位面以避開爆炸。如果你未被傳送，則你將受16×法杖剩餘充能數點力場傷害。爆炸範圍內的其他生物必須進行一次DC 17的敏捷豁免。豁免失敗的生物根據它距離爆炸中心的距離承受傷害，如下表所示。豁免成功的生物傷害減半。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>與爆炸中心的距離</strong></td>\n<td><strong>傷害</strong></td>\n</tr>\n<tr>\n<td>0尺或更近</td>\n<td>8*法杖剩餘充能數</td>\n</tr>\n<tr>\n<td>11-20尺</td>\n<td>6*法杖剩餘充能數</td>\n</tr>\n<tr>\n<td>21-30尺</td>\n<td>4*法杖剩餘充能數</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "DMG pg. 203",
+      "revision": 1,
+      "rules": "2014",
+      "book": "DMG"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 350000,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "cover": null,
+    "crewed": false,
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft",
+      "reach": null
+    },
+    "uses": {
+      "max": "50",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "formula",
+          "formula": "1d12+1"
+        }
+      ]
+    },
+    "damage": {
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": true,
+          "formula": "1d8 + @mod +2"
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": true,
+          "formula": "1d6 + @mod +2"
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      }
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": null,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "container": null,
+    "magicalBonus": null,
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "2",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "sort": 0
+      },
+      "dnd5eactivity300": {
+        "_id": "dnd5eactivity300",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "4d6 +2",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-staff-of-the-magi",
+    "attuned": false,
+    "ammunition": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1713010441154,
+    "modifiedTime": 1757275698084,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 56500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!AA2BAB3B70D52372"
+}

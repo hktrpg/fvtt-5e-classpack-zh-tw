@@ -1,0 +1,80 @@
+{
+  "_id": "V5YioLyAmcWLtZqm",
+  "name": "物品注法 Infuse Item",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Shaman_ImprovedStormstrike.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>     在第2級，你獲得爲普通物品注入魔法的能力。使用此特性創造的魔法物品是永久性魔法物品的原型。</p>\n<h3><strong>已知注法</strong></h3>\n<p>     當你獲得這個特性時，從職業描述末尾的“@UUID[Compendium.dnd5e_classpack-zh-tw.extra-ability.IrZuNJvar506SCUa]{奇械師注法}”列表中選擇選擇四個奇械師注法習得。當你提升奇械師等級時，還能夠根據“@UUID[Compendium.dnd5e_classpack-zh-tw.class-table.2A3nWtToOKL8Asu3]{奇械師職業表}”習得更多注法。</p>\n<p>     當你提升一個奇械師等級時，你能夠習得一個新的奇械師注法來來替換一個原有的已知注法。</p>\n<h3><strong>爲物品進行注法</strong></h3>\n<p>     每當你完成一個長休後，你可以觸摸一個非魔法的物體，使用奇械師注法來把它變成一個魔法物品。注法只能作用於注法描述中寫明的指定類型物品。如果該物品需要同調，你可以在爲物品進行注法的那一刻同調到它，或者你可以放棄同調，以便其他人能夠同調到該物品。如果你決定以後與這個物品進行同調，你必須進行通常的同調程序（參見《地下城主指南》第136頁中的“同調”）。</p>\n<p>     你的注法持續時間無限，但當你死亡時，注法會在你智力調整值的天數後消失（至少1天）。如果你將某個注法從已知中替換掉，該注法的效果也將消失。</p>\n<p>     你能在一次長休後爲複數物品進行注法；注法物品的最大數量請參見“@UUID[Compendium.dnd5e_classpack-zh-tw.class-table.2A3nWtToOKL8Asu3]{奇械師職業表}”。你必須觸摸每一個物體，且一種注法在同一時間內只能存在於一個物品上。如果你試圖超過你的最大注法量，則最舊的注法立即結束，然後新的注法適用。</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>奇械師等級</th>\n<th>已知注法</th>\n<th>注法物品數量上限</th>\n</tr>\n<tr>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>6</td>\n<td>6</td>\n<td>3</td>\n</tr>\n<tr>\n<td>10</td>\n<td>8</td>\n<td>4</td>\n</tr>\n<tr>\n<td>14</td>\n<td>10</td>\n<td>5</td>\n</tr>\n<tr>\n<td>18</td>\n<td>12</td>\n<td>6</td>\n</tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "ERLW",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": null,
+      "recovery": []
+    },
+    "requirements": "奇械師等級 2",
+    "activities": {},
+    "identifier": "-infuse-item",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 27100000,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757410381069,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!V5YioLyAmcWLtZqm"
+}

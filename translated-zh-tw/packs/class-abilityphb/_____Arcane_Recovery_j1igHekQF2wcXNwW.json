@@ -1,0 +1,187 @@
+{
+  "_id": "j1igHekQF2wcXNwW",
+  "name": "奧術回想 Arcane Recovery",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Mage_PresenceOfMind.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>你學會了通過研讀法術書來恢復魔法能量的辦法。你可以每日使用一次奧術回想，以在你完成一次短休後恢復若干已消耗的法術位，所恢復的法術位環階總和不得大於你法師等級的一半（向上取整），且任何一枚法術位的環階都必須小於6環。</p><p>例如，作爲一名4級法師時，你可恢復環階總數最多爲2的法術位。你可以選擇恢復一枚2環法術位或兩枚1環法術位。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 115",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "法師等級 1",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "法師可以恢復總和爲 [[ceil(@classes.wizard.levels/2)]] 環階的五環及以下法術位"
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 32400000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "onUseMacroName": "[preItemRoll]ItemMacro"
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "dae": {
+      "macro": {
+        "name": "奧術回想",
+        "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Mage_PresenceOfMind.png",
+        "type": "script",
+        "scope": "global",
+        "command": "// 奧術回想 - 物品宏形式\n// 點擊角色卡內的專屬能力或物品時使用\n// 兼容 FoundryVTT DND5e\n \nif (!actor) return ui.notifications.warn(\"沒有找到角色！\");\nif (!item) return ui.notifications.warn(\"沒有找到奧術回想ArcaneRecovery物品！\");\n \n// 檢查使用次數\nconst uses = item.system.uses?.value ?? 0;\nconst usesMax = item.system.uses?.max ?? 1;\nif (uses < 1) {\n  return ui.notifications.warn(\"奧術回想已沒有剩餘使用次數！\");\n}\n \n// 先消耗一次\nawait item.update({\"system.uses.value\": uses - 1});\n \n// 以下爲奧術回想的主要功能\nconst wizardLevel = actor.items.find(i => i.type===\"class\" && i.name===\"法師wizard\")?.system.levels;\nif (!wizardLevel) return ui.notifications.warn(\"找不到你的法師等級！\");\n \nconst maxPoints = Math.ceil(wizardLevel / 2);\nconst slotLevels = [1,2,3,4,5];\n \nlet maxRecoverable = {};\nslotLevels.forEach(lvl => {\n  const total = getProperty(actor.system, `spells.spell${lvl}.max`) ?? 0;\n  const used = total - (getProperty(actor.system, `spells.spell${lvl}.value`) ?? 0);\n  maxRecoverable[lvl] = Math.max(0, used);\n});\n \nlet content = `<form><div>你最多可恢復一共 <b>${maxPoints}</b> 環法術位（注意奧術回想所恢復的單個環位最高不能超過5環）：</div>`;\nslotLevels.forEach(lvl => {\n  content += `\n    <div class=\"form-group\">\n      <label>${lvl}環（已消耗: ${maxRecoverable[lvl]}）:</label>\n      <input type=\"number\" min=\"0\" max=\"${maxRecoverable[lvl]}\" value=\"0\" id=\"arcane-lvl${lvl}\">\n    </div>\n  `;\n});\ncontent += `</form>`;\n \nnew Dialog({\n  title: \"奧術回想 - 恢復法術位\",\n  content,\n  buttons: {\n    confirm: {\n      label: \"恢復\",\n      callback: async (html) => {\n        let totalSpent = 0;\n        let restoreData = {};\nslotLevels.forEach(lvl => {\n          let n = Number(html.find(`#arcane-lvl${lvl}`).val()) || 0;\n          n = Math.min(n, maxRecoverable[lvl]);\n          totalSpent += lvl * n;\n          restoreData[lvl] = n;\n});\n        if (totalSpent === 0) {\n          return ui.notifications.warn(\"你沒有選擇恢復任何法術位。\");\n}\n        if (totalSpent > maxPoints) {\n          return ui.notifications.warn(`你選擇的法術位總環數爲${totalSpent}，已超過最大可恢復點數${maxPoints}！`);\n}\n \n        // 更新法術位\n        let updates = {};\nslotLevels.forEach(lvl => {\n          if (restoreData[lvl] > 0) {\n            const path = `system.spells.spell${lvl}.value`;\n            const cur = getProperty(actor, path) ?? 0;\n            updates[path] = Math.min(\n              cur + restoreData[lvl],\n              getProperty(actor.system, `spells.spell${lvl}.max`) ?? 0\n            );\n}\n});\n \n        await actor.update(updates);\n \n        // 聊天提示\n        let txt = `${actor.name} 用奧術回想恢復了：`;\n        txt += slotLevels.filter(lvl => restoreData[lvl]>0).map(lvl=>`${restoreData[lvl]}個${lvl}環`).join(\"，\");\n        txt += `（共消耗點數${totalSpent}，最大可用${maxPoints}）`;\n        ChatMessage.create({\n          speaker: ChatMessage.getSpeaker({actor: actor}),\n          content: txt\n});\n}\n    },\n    cancel: { label: \"取消\" }\n}\n}).render(true);",
+        "author": "WqWGW8MuBm7BNHxt",
+        "ownership": {
+          "default": 3
+        },
+        "_id": null,
+        "folder": null,
+        "sort": 0,
+        "flags": {},
+        "_stats": {
+          "coreVersion": "12.343",
+          "systemId": "dnd5e",
+          "systemVersion": "4.3.9",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757093700184,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!j1igHekQF2wcXNwW"
+}

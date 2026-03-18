@@ -1,0 +1,162 @@
+{
+  "_id": "WPevnsjK8Cjd9Fcl",
+  "name": "引導神力 (牧師)",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第2級時，你獲得引導神祇所授予神聖能量的能力，所引導的能量將用以實現各種魔法效應。你最初將獲得兩種效應：@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.IYuxMvRIO9feIxSe]{引導神力：驅散不死生物}和另一個與你所選領域相關的效應。隨着你在冒險中提升等級，某些領域會賦予更多額外的效應，具體信息可以參考相應領域的描述內容。</p>\n<p>引導神力最終產生的效應由你自行選擇。引導神力後，你必須完成一次短休或長休才能重新使用該特性。</p>\n<p>某些引導神力的效應需要豁免，其豁免DC等於你的牧師法術豁免DC。</p>\n<p>第6級起，你可以在兩次休息之間使用兩次引導神力，第18級後可以使用三次。完成一次短休或長休後，你將重新獲得所有消耗掉的引導神力次數。</p>\n<p><em>**友情提示:使用此追蹤牧師的引導神力次數。注意默認可用次數爲1，請自己手動進行調整。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 60",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "floor((@classes.cleric.levels+6)/12)+1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "牧師等級 2、6、18",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 24900000,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749738852730,
+    "lastModifiedBy": "00Hmaouu4SsMyc7n",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!WPevnsjK8Cjd9Fcl"
+}

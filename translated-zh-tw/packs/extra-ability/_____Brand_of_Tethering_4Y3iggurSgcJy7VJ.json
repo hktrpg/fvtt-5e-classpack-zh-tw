@@ -1,0 +1,201 @@
+{
+  "_id": "4Y3iggurSgcJy7VJ",
+  "name": "束縛烙印 Brand of Tethering",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BH2022",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<p>第 13 級起，你的懲戒烙印特性所造成的心靈傷害提升至你智力調整值的雙倍（至少爲2）。此外，烙印生物無法執行疾走動作。如果烙印生物以任何方式嘗試離開當前位面或進行傳送時，其受到 4d6 點心靈傷害且必須進行一次感知豁免。豁免失敗時，該次傳送或位面轉移的嘗試失敗。</p>",
+      "chat": ""
+    },
+    "requirements": "血獵手等級 13",
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "advancement": [],
+    "activities": {
+      "bdbp4lYOYgyTxvWT": {
+        "_id": "bdbp4lYOYgyTxvWT",
+        "type": "save",
+        "name": "",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting"
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": [
+            {
+              "types": [
+                "psychic"
+              ],
+              "number": 4,
+              "denomination": 6,
+              "bonus": "",
+              "scaling": {
+                "mode": "",
+                "number": 1
+              },
+              "custom": {
+                "enabled": false
+              }
+            }
+          ],
+          "critical": {
+            "allow": false
+          }
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": ""
+      }
+    },
+    "identifier": "brand-of-tethering",
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": 13,
+      "repeatable": false
+    }
+  },
+  "img": "icons/sundries/survival/rope-noose-brown.webp",
+  "flags": {
+    "plutonium": {
+      "page": "classFeature",
+      "source": "BH2022",
+      "hash": "brand%20of%20tethering_blood%20hunter_bh2022_13_bh2022",
+      "propDroppable": "classFeature"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "FAdeDr59Gwy7NN2E",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1757153159764,
+    "modifiedTime": 1757153159764,
+    "lastModifiedBy": "hzd8mTtpA2xMcmGp"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "hzd8mTtpA2xMcmGp": 3
+  },
+  "_key": "!items!4Y3iggurSgcJy7VJ"
+}

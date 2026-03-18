@@ -1,0 +1,151 @@
+{
+  "_id": "wPSWDO1jRWiNZ3aM",
+  "name": "宗族工匠 Clan Crafter",
+  "type": "background",
+  "img": "icons/skills/trades/smithing-smelter-tongs.webp",
+  "effects": [],
+  "folder": "1ObYUkIG9kL1K5e0",
+  "sort": 100098,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757261977918,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>矮人們以他們工藝和手工的價值而聞名，而你則一直在接受這門技藝的訓練。多年來，你一直在一名矮人大師的門下學習磨練，爲的就是今日你所擁有的好技藝。</p><p>你一般來說應該是一名矮人，但這並不是必要的-特別是在北地，盾矮人部族們在很久之前就已經學到了只有自傲的傻瓜們纔會在意學徒們的手藝會超過自己而拒絕收受徒弟，即使是其他種族的學徒。如果你不是一名矮人，無論如何你必須立下一個莊重的誓言，永遠不接收這門工藝的學徒：這並不是爲了非矮人們通過這門摩拉丁青睞的孩子們的技藝考覈。你會毫無困難的找到一名矮人大師願意接受你作爲學徒並傳授你這門技藝。</p><hr /><p><strong>技能熟練：</strong>歷史，洞悉<br /><strong>工具熟練：</strong>一種自選的工匠工具<br /><strong>語言：</strong>矮人語或者如果你已經熟悉矮人語了就自選一種語言<br /><strong>裝備：</strong>一種你所熟練的工匠工具，一個用來標示出你是從哪個宗族學習何種手工技藝的徽記，一件@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.018199C228C3FC13]{旅行者服裝}，一個有5gp的@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.2C22C4FE00679D76]{小包}和一塊價值10gp的寶石。<br /><strong>特性：</strong>@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.DPqrZg9mZNs03mIt]{矮人的尊敬 Respect of the Stout Folk}</p><hr /><p><strong>建議特性：</strong></p><p>使用@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundList.me0zqP09tEwczMS2]{公會工匠}的背景作爲自己的基礎特徵和動機，在適當的時候修改點條目以適應你作爲宗族工匠的一員。（例如考慮把“公會”和“宗族”互換）</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "SCAG",
+      "revision": 1,
+      "rules": "2014",
+      "book": "SCAG"
+    },
+    "advancement": [
+      {
+        "_id": "nsjgfhbvpso4x2cm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.DPqrZg9mZNs03mIt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "獲得背景特性",
+        "icon": null
+      },
+      {
+        "_id": "6NAZ3rwL1qX5hE8c",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins",
+            "skills:his"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "7jK84QIbVcpgcc44",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard:*",
+                "languages:exotic:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null,
+        "_id": "S8OqfVyiAG7F21lV"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.lJRfxSVCXvwWK3RP",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.018199C228C3FC13",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.loots.Item.lztlDeVrpEfNvSed",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "_id": "sOGkNPwREvGGyRKK"
+      }
+    ],
+    "identifier": "-clan-crafter",
+    "startingEquipment": []
+  },
+  "_key": "!items!wPSWDO1jRWiNZ3aM"
+}

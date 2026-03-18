@@ -1,0 +1,181 @@
+{
+  "name": "雲巨人之詭詐 Guile of the Cloud Giant",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BPGG",
+      "page": "18",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "description": {
+      "value": "<div><hr /><div><p><em>先決條件: 第4級，@UUID[Compendium.dnd5e_classpack-zh-tw.feats-all.Item.WXC70UjLdZ7mpSpz]{巨人打擊}（雲霧打擊）專長</em> <br />你展現出象徵着雲巨人的輕浮言語以及魔法，使得你獲得下列增益：<br /><strong>屬性值提升Ability Score Increase。</strong> 你的敏捷、體質、或魅力屬性提升1，上限爲20。<br /><strong>迷雲逃逸Cloudy Escape。</strong> 當一個你可見的生物以攻擊檢定命中你時，你可以使用你的反應來獲得此次攻擊傷害的抗性。然後你可以傳送至30尺範圍內的一處你可見的、未被佔據的空間。你可以使用這一反應的次數等同於你的熟練加值次，在完成一次長休後你恢復所有已消耗的使用次數。</p></div></div>",
+      "chat": ""
+    },
+    "requirements": "strike of the giants (cloud strike) feat",
+    "prerequisites": {
+      "level": 4,
+      "repeatable": false
+    },
+    "uses": {
+      "max": "@prof",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "properties": [],
+    "cover": null,
+    "crewed": false,
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "When a creature you can see hits you with an attack roll, you can use",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-guile-of-the-cloud-giant",
+    "advancement": [],
+    "enchant": {}
+  },
+  "ownership": {
+    "default": 0,
+    "pF5tIzH2aEMuTR6D": 3
+  },
+  "img": "icons/magic/air/weather-clouds.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "BGG",
+      "hash": "guile%20of%20the%20cloud%20giant_bgg",
+      "propDroppable": "feat"
+    },
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": null,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "folder": "Po4XyCR0WCieSuoN",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1724940932368,
+    "modifiedTime": 1757275415855,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "uckFbhwjAjQ7Gric",
+  "sort": 200000,
+  "_key": "!items!uckFbhwjAjQ7Gric"
+}

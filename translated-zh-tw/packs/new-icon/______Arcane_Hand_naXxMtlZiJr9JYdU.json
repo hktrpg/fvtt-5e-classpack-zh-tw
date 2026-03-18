@@ -1,0 +1,246 @@
+{
+  "_id": "naXxMtlZiJr9JYdU",
+  "name": "畢格比之手 Arcane Hand",
+  "type": "spell",
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "always",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "reactionCondition": ""
+    },
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Shadow_DeadofNight.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你在施法距離內指定一處你能看見且未被佔據的空間，並在該處創造出一隻閃爍着微光的巨手。巨手在法術持續時間內維持存在，並聽從你的命令模仿你手掌移動的方式進行移動。巨手視爲一個物件，其AC爲20，生命值等於你的生命值上限。如果它的生命值降至0則法術提前終止。其力量爲26（+8），敏捷爲10（+0）。巨手並不佔據其所在的空間。\n<br />施展此法術時，你可以令巨手移動至多60尺遠並造成下列效應之一。你也可以在自己隨後的回合裏以一個附贈動作完成該效應。\n<br /><strong>金剛拳Clenched Fist。</strong>巨手對自身5尺內的一個生物或物件發動打擊。用你自身的遊戲資料發動一次近戰法術攻擊，並在命中時造成4d8點力場傷害。\n<br /><strong>飛擊掌Forceful Hand。</strong>巨手嘗試對自身5尺內的一個生物進行推擠。用巨手的力量檢定與目標的力量（運動）檢定作對抗。如果目標爲中型或更小的生物則你的檢定具有優勢。你勝出對抗時，目標將被推開數尺，其具體尺數等於5加上你施法關鍵屬性調整值得五倍。巨手隨着目標一起移動，並與之保持5尺的距離。\n<br /><strong>擒拿掌Grasping Hand。</strong>巨手嘗試對自身5尺內的一個巨型或更小的生物進行擒抱。該擒抱的計算數據使用巨手的力量值。如果目標體型爲中型或更小，則你的檢定具有優勢。在巨手擒抱目標期間，你可以使用一個附贈動作命令巨手對其進行擠壓，並對目標造成2d6＋你的施法關鍵屬性調整的鈍擊傷害。\n<br /><strong>護身掌Interposing Hand。</strong>巨手阻擋在你和一名你所選生物中間，直到你給他另一個命令爲止。巨手不斷移動保持在你和目標中間，使得你相對目標處於半身掩護。如果目標的力量值小於或等於巨手的力量值，則其無法穿過巨手的阻擋。如果其力量值高於巨手，則目標可以穿過巨手所在的空間，不過該空間必須被目標視爲困難地形。\n<br /><strong>升環施法效應。</strong>使用6環或更高法術位施展該法術時，你使用的法術位每比5環高一環，則金剛拳的傷害提高2d8，擒拿掌的傷害提高2d6。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB",
+      "page": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 5,
+    "school": "evo",
+    "materials": {
+      "value": "一塊蛋殼和一隻蛇皮手套",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "activities": {
+      "Tyy6yH8LHITXY3xb": {
+        "type": "summon",
+        "_id": "Tyy6yH8LHITXY3xb",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "ifLb0VGrHN4Fehjs",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.w0VOLcXHPDyXiHzb",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "arcane-hand"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": -62500,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757260956346,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!naXxMtlZiJr9JYdU"
+}

@@ -1,0 +1,156 @@
+{
+  "_id": "SoROktB6wHO25o9l",
+  "name": "造物表演 Performance Of Creation",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Paladin_SelflessHealer.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>以一個動作，你可以引導造物之歌的魔力來創造一個由你選擇的非魔法物品，它會在你選擇的距離你10尺內的一處未被佔據的空間裏生成。它必須要生成在一個可以支撐它的地方——這可以是在也體內或者一個表面上。這件物品的價值不能超過你吟遊詩人等級*20gp，它必須是中型或者更小的物品。這件物品會閃爍着柔和的微光。當一個生物觸碰它的時候，會聽到輕微的音樂。在被創造出等同於你的熟練加值數的小時之後，這件物品會消失。例如，玩家手冊中的裝備章節裏的物品大多數都是可以通過此方法創造的。</p>\n<p>每當你用這一特性創造出一件物品後，直到下一次長休結束前你都不能再次使用這個能力。你可以消耗一個2環或者更高級的法術位去重製這個能力的使用次數。你同時只能保持一件以此法被創造出的物品。如果在你使用這個能力創造物品時已經有一件被創造出來的物品了，那麼那個舊的物品會立刻消失不見。</p>\n<p>你創造的物品都大小限制會隨着你的吟遊詩人等級提高而增長。6級時你可以創造出大型物品，14級時你可以創造去巨型物品。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": null,
+      "recovery": []
+    },
+    "requirements": "創造學院等級 3",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "special",
+          "value": 0,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "2",
+          "units": "hour",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "10",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "space",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "@classes.bard.levels*20",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-performance-of-creation",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 26000000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 0,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757420910468,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!SoROktB6wHO25o9l"
+}

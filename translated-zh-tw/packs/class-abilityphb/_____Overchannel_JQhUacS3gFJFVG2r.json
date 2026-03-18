@@ -1,0 +1,186 @@
+{
+  "_id": "JQhUacS3gFJFVG2r",
+  "name": "超限導能 Overchannel",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_ThunderKing_Thunderstruck.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第14級起，你可以爲你的簡單法術增強力量。施展一個造成傷害的1—5環法師法術時，你可以讓法術的傷害直接取其最大值。該特性不能作用於戲法。</p>\n<p>首次發動該特性時，你並不會承受任何減益。如果你在完成一次長休前再次使用此特性，則你將在施法完成後立刻受到等於該法術每環階[[/r 2d12]]點黯蝕傷害。你在完成一次長休前，每再使用一次該特性，每環階的黯蝕傷害就增加[[/r 1d12]]。這種反噬傷害將無視任何的抗性和免疫。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 118",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "塑能學派等級 14",
+    "activities": {},
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "超限導能",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_ThunderKing_Thunderstruck.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.JQhUacS3gFJFVG2r",
+      "_id": "D1g5iESsnLEXed4K",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.optional.超限導能.count",
+          "mode": 5,
+          "value": "ItemUses.超限導能",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.超限導能.activation",
+          "mode": 5,
+          "value": "item.school === 'evo' && item.sourceClass === 'wizard' && workflow.castData.castLevel <= 5 && item.level > 0",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.超限導能.damage.all",
+          "mode": 5,
+          "value": "reroll-max",
+          "priority": 20
+        },
+        {
+          "key": "flags.midi-qol.optional.超限導能.damage.save",
+          "mode": 2,
+          "value": "reroll-max",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1756987428014,
+        "modifiedTime": 1756988606234,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!JQhUacS3gFJFVG2r.D1g5iESsnLEXed4K"
+    }
+  ],
+  "folder": null,
+  "sort": 16200000,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757063963391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!JQhUacS3gFJFVG2r"
+}

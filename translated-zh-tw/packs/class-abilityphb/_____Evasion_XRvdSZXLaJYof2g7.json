@@ -1,0 +1,162 @@
+{
+  "_id": "XRvdSZXLaJYof2g7",
+  "name": "反射閃避 Evasion",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Monk_TigersLust.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>第7級起，你敏銳的直覺讓你可以躲過某些特定的區域效應（比如@UUID[Compendium.dnd5e_classpack-zh-tw.monsterspack.mNijwXPMhwR7yYfc]{藍龍}的閃電吐息或是法術@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Uh3zcz4PO4DXP3Dj]{火球術 Fireball}）。當你需要通過敏捷豁免來使傷害減半時，若你豁免成功則不再受到傷害，豁免失敗則只受一半傷害。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 79; 96",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": null,
+      "recovery": []
+    },
+    "requirements": "武僧等級 7，遊俠等級 7，遊蕩者等級 5",
+    "activities": {},
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "反射閃避",
+      "img": "modules/dnd5e_classpack-zh-tw/Nicons/Ability_Monk_TigersLust.png",
+      "origin": "Compendium.dnd5e_classpack-zh-tw.class-abilityphb.Item.XRvdSZXLaJYof2g7",
+      "_id": "sHGb2wELMvAQtaXS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.midi-qol.superSaver.dex",
+          "mode": 2,
+          "value": "+1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        },
+        "ActiveAuras": {
+          "isAura": false,
+          "aura": "None",
+          "nameOverride": "",
+          "radius": "",
+          "alignment": "",
+          "type": "",
+          "customCheck": "",
+          "ignoreSelf": false,
+          "height": false,
+          "hidden": false,
+          "displayTemp": false,
+          "hostile": false,
+          "onlyOnce": false,
+          "wallsBlock": "system",
+          "statuses": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1756703381601,
+        "modifiedTime": 1756703401666,
+        "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+      },
+      "_key": "!items.effects!XRvdSZXLaJYof2g7.sHGb2wELMvAQtaXS"
+    }
+  ],
+  "folder": null,
+  "sort": 25700000,
+  "flags": {
+    "_sheetTab": "details",
+    "entityorder": {
+      "order": 187
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1757091912322,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!XRvdSZXLaJYof2g7"
+}

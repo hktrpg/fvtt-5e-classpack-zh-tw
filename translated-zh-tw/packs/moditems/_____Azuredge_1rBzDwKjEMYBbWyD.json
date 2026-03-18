@@ -1,0 +1,293 @@
+{
+  "_id": "1rBzDwKjEMYBbWyD",
+  "name": "蔚藍之鋒 Azuredge",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-double-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 3,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749710928408,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>(需同調)</em></p>\n<p>這把智能戰斧由大法師阿格哈榮 Ahghairon 鑄造用以守護深水城。它目前的持有者是前灰色小隊成員梅倫·戰龍 Meloon Wardragon，但它正在尋求一名新主人。</p>\n<p>蔚藍之鋒的鋼製斧柄上刻着細小的符文，並以藍龍皮包覆，頭部鑲嵌着一顆星光藍寶石。散發着深藍色微光的斧頭則以銀、銀金和鋼合金製成。</p>\n<p>你在使用此魔法武器進行的攻擊和傷害骰上獲得+3 加值。另外，這把武器可以穿過護盾術產生的魔法屏障， 無視其提供的防護。</p>\n<p>當你使用這把戰斧命中邪魔或不死生物時，斧刃上爆發出的冰藍色火焰會對目標造成額外 2d6 光耀傷害。</p>\n<p><strong>投擲。</strong>這把戰斧有 3 發充能。你可以消耗 1 發充能， 將此斧視爲具有投擲屬性，射程 60/180 英尺的武器，並 用它進行一次遠程攻擊。無論命中與否，此斧會在當前回合結束時飛回你身邊、落在你手中或是你腳邊(由你決定)。 此斧每天黎明時恢復全部已消耗的充能。</p>\n<p><strong>照明。</strong>持握此斧時，你可以用一個動作讓它發出藍光或熄滅。這種藍光可以提供 30 英尺半徑的明亮光照以及該範圍外 30 英尺的微光光照。</p>\n<p><strong>智能。</strong>蔚藍之鋒是一把守序中立的智能武器，其屬性值爲智力 12、感知 15、魅力 15。它擁有聽覺和 150 英尺的黑暗視覺。</p>\n<p>蔚藍之鋒可以說、讀、理解通用語並且能用心靈感應和持用者交流。它的聲音冷靜而溫和。另外，它能感知到 120 英尺範圍內任何非守序生物的存在。</p>\n<p><strong>性格。</strong>蔚藍之鋒誓言守護深水城，因此它希望自己的主人是一名遵紀守法的，願意爲了保護深水城奉獻出自己一切的人。它非常耐心，不吝惜在尋找理想主人這件事上多花時間。</p>\n<p>如果有人試圖違背蔚藍之鋒的意願使用它，它可能會 讓自己的重量變爲通常的十倍，也可能會靠魔力吸附到它接觸到的任何中型或更大的物體或表面上。這樣一來就沒人能揮舞它了。若想將蔚藍之鋒從它吸附的物體或表面上取下，只能摧毀兩者之一，或是使用@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.xjn6gjItpWpldE53]{祈願術 Wish}。當然，它自己可以隨時決定終止效果。</p>\n<p><em>注：需要的話，其他公式已設爲骰命中邪魔或不死生物時的光耀傷害。</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "WDH",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft",
+      "reach": null
+    },
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": true,
+          "formula": "1d10+@mod+3"
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": true,
+          "formula": "1d8+@mod+3"
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      }
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": null,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "battleaxe"
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "sort": 0
+      },
+      "dnd5eactivity300": {
+        "_id": "dnd5eactivity300",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "2d6",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-azuredge",
+    "container": null,
+    "attuned": false,
+    "cover": null,
+    "crewed": false,
+    "ammunition": {},
+    "magicalBonus": null
+  },
+  "_key": "!items!1rBzDwKjEMYBbWyD"
+}

@@ -1,0 +1,214 @@
+{
+  "name": "神龍宗 Way of the Ascendant Dragon（FTD）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/ability_evoker_return.png",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>“我最喜歡的神龍宗武僧們都會在用他們的身體攻擊時喊出有趣的擬聲詞，就像‘咻’、‘咔砰’之類的。”                                                                   </p><p style=\"text-align:right\">——費茲本</p></blockquote><p> 衆所周知，龍神巴哈姆特曾以年輕武僧的裝扮行遍多元宇宙，傳說有言祂以此相開山立派，是爲神龍宗。此宗派的武學基本便是模仿龍之姿態，使武僧將自身融入世界及其魔法之中。這些武僧們通過對自我魂靈的更新以與巨龍偉力產生共鳴，在戰鬥中再添威能，成爲戰友的支撐，甚至騰展龍翼，怒而飛天。但所有武學其實均是爲了一個更偉大的目標而生：與物質位面的本質於精神上連結，或謂天人合一之境。<br />作爲神龍宗的學徒，由你決定自己是如何激發出體內的巨龍之力。以下的神龍起源表格提供了些許建議。</p><h2>神龍起源</h2><table><tbody><tr><th><p>[[/r D6]]</p></th><th><p>起源</p></th></tr><tr><td><p>1</p></td><td><p>你通過觀察巨龍並將自己的氣與它們改天換地的力量相調諧來磨練自己的技藝。</p></td></tr><tr><td><p>2</p></td><td><p>一位巨龍主動地幫助你修煉自身的能量。</p></td></tr><tr><td><p>3</p></td><td><p>你所在修道院的教義可追溯到百年甚至數百年前一隻巨龍的指導，或某位獻身於龍神的存在。</p></td></tr><tr><td><p>4</p></td><td><p>你在一個遠古巨龍巢穴的影響範圍內冥想良久，並憑此吸收了環境中的魔力。</p></td></tr><tr><td><p>5</p></td><td><p>你找到了一張龍語卷軸，裏面包含了令人頓悟的嶄新技巧。</p></td></tr><tr><td><p>6</p></td><td><p>你夢到了一名五首龍裔，而你醒來時，體內的氣就已不同以往，宛如巨龍之息。</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "FTD",
+      "revision": 1,
+      "rules": "2014",
+      "book": "FTD"
+    },
+    "identifier": "way-of-the-ascendant-dragon",
+    "classIdentifier": "monk",
+    "advancement": [
+      {
+        "_id": "EkpObh8dBVczwvWL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.ZnFAn3aIHwhiCC09",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.JMphzPi5BvfWMv38",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.VDcmX8LlO92IGktH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.48ZsVMmLPu4dZvJb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.uTHPe07UXUplbpKF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "A2Ie7peI0cYccqVb",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "languages:exotic:draconic"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "龍之言語",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "bRVd9dGQBEkfjjnv",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "breath",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 2
+            },
+            "11": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "龍之息骰數",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "xUt8JwqDpUA5Mu6X",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.ha64OtoWa9nYmEzq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "xqtH7GSW3gwsGaP8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.G75MaegmHeuCUaFu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.EZ9JgsnCrXNyMKry",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.yeZclVcgJyLBWtav",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "n9SScDpz2ff3cFmG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.m1GcOY8rRoGMDE0e",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.L7RwOX6OBnhpMxit",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.yAdB802jzGraQppV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.DENXRbHTRUVxCGpA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.KrZMa6Lo5V8fuBqO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e_classpack-zh-tw.subclass.UdiF2PfBvmVstQ08"
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": "Compendium.dnd5e_classpack-zh-tw.subclass.UdiF2PfBvmVstQ08",
+    "duplicateSource": null
+  },
+  "_id": "POZt54TrGZBN4htN",
+  "folder": "b1hNUPJ6ajk0guML",
+  "sort": 212500,
+  "ownership": {
+    "default": 0,
+    "wovyjRBV4JoGHRB8": 3
+  },
+  "_key": "!items!POZt54TrGZBN4htN"
+}

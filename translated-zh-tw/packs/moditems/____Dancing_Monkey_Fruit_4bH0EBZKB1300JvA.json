@@ -1,0 +1,173 @@
+{
+  "_id": "4bH0EBZKB1300JvA",
+  "name": "猴舞果 Dancing Monkey Fruit",
+  "type": "consumable",
+  "img": "icons/consumables/fruit/mang-unripe-yellow-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749710928408,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<blockquote>\n<p>這是楚爾特當地不同尋常的野生動植物。熟練自然技能的冒險者能夠一眼認出這些動植物，並通過一個成功 的 DC 15 的智力(自然)檢定來回憶起它的詳細屬性。如果冒險者們是楚爾特本地人，則該檢定具優勢。</p>\n<p>此處描述的野生動植物可以在南扎路港和其他聚居地內以動植物價格表內對應的價格進行買賣。</p>\n<p>有的野生動植物中會使生物承受一小時或更久的中毒狀態。請記住，@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.I1C2EQxwynPd7dOC]{次級復原術 Lesser Restoration}以及類似魔法可以結束該狀態。</p>\n</blockquote>\n<p>這些稀有魔法果實的汁液足以裝滿一個小瓶。任何喫下猴舞果或者飲下其汁液的類人生物都必須進行一次 DC 14 的體質豁免豁免失敗則開始跳起持續一分鐘的滑稽舞蹈。免疫中毒的類人生物同樣免疫該魔法效果。</p>\n<p>舞者必須耗盡他的移動力在原地跳舞，其攻擊檢定和敏捷豁免均具劣勢。對他發動的攻擊檢定具優勢。每次受到傷害時，舞者可以再次進行該豁免，豁免成功則結束舞蹈效果。當舞蹈效果結束時，該類人生物陷入一小時的中毒狀態中。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "ToA",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "uses": {
+      "max": "1",
+      "autoDestroy": true,
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "minute",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "any"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "14"
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-dancing-monkey-fruit",
+    "container": null,
+    "attuned": false,
+    "magicalBonus": null,
+    "properties": []
+  },
+  "_key": "!items!4bH0EBZKB1300JvA"
+}

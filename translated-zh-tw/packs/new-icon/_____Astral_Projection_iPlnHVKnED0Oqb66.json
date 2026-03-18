@@ -1,0 +1,215 @@
+{
+  "_id": "iPlnHVKnED0Oqb66",
+  "name": "星界投影 Astral Projection",
+  "type": "spell",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/003556.png",
+  "effects": [],
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 30400000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你和施法距離內至多八名自願的生物將軀體投影到星界（如果你已經在星界，則法術失敗且被消耗）。你原本的軀體昏迷並進入靜止狀態，即其不需要空氣和食物也不會衰老。\n<br />你的星界軀體幾乎完美的保持了原本的形態，並保留你本體的遊戲資料和隨身物。星界軀體和你本體的主要區別是從你肩胛骨間向後伸出的一條銀線。這條可見長度僅有一尺的銀線是你星界軀體和本體間的聯繫。只要銀線保持完好，你總能找到回原本世界的路。只有明確註明可以切斷這種銀線的效應纔可以將其切斷。切斷銀線會將你的靈魂和軀體分離，並將你殺死。\n<br />你的星界軀體可以在星界任意旅行，並能穿過星界的傳送門到達其他位面。如果你到達一個新位面，或是回到你施法時所在的位面，你的本體和物品將沿着銀線被傳送，使你以本體的形態到達新位面。你的星界軀體是單獨的實體。星界軀體承受的傷害或效應不會反映在你的本體上，也不會在你回到本體時保持。\n<br />你可以使用一個動作來解散法術，並終止其對你與同伴產生的效應。法術終止時，受術的生物回到其原本的軀體並甦醒。你或你的某位同伴會存在提前終止法術效應的情況。對某生物的本體或星界軀體成功施展解除魔法將終止生物的投影效應。\n<br />如果某生物的本體或星界軀體的生命值降至0，則該生物自身的投影效應終止。如果法術終止時銀線依然保持連接，則受術生物會被拉回原本的軀體，並脫離靜止狀態。\n<br />如果你在法術終止前被送回本體，你的同伴將被留在星界，只能自行返回（通常通過生命值降至0的方式）。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 215",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "spec",
+      "special": ""
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "9",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "10",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 9,
+    "school": "nec",
+    "materials": {
+      "value": "你必須爲此法術影響的每個生物準備一枚至少價值 1000gp 的紅鋯石jacinth，以及一根做工精細，至少價值 100gp 的銀棒，作爲該法術的耗材",
+      "consumed": true,
+      "cost": 1100,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "astral-projection"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!iPlnHVKnED0Oqb66"
+}

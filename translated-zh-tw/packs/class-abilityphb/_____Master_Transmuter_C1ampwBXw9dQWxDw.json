@@ -1,0 +1,162 @@
+{
+  "_id": "C1ampwBXw9dQWxDw",
+  "name": "變化宗師 Master Transmuter",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/INV_Enchant_ShardPrismaticLarge.png",
+  "system": {
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>        第14級起，你可以用你的動作將儲存在你@UUID[Compendium.dnd5e_classpack-zh-tw.class-abilityphb.zX6GFGKuX3nerGYF]{變化師之石}中的變化魔力一次耗盡。此時你可以選擇下述效應之一。你的變化師之石將因此被毀，而你必須完成一次長休後才能再創作新的變化師之石頭。</p>\n<p><strong>        高等轉化Major Transformation.</strong>你可以將一件不大於 5尺立方的非魔法物件變成體積和質量相近，價值等同或更低的另一件非魔法物件。你必須花10分鐘來完成轉化。<br /><strong>        萬靈祕藥Panacea.</strong>你用變化師之石觸碰一個生物，移除其身上生效的所有詛咒、中毒以及疾病效應，同時恢復該生物的全部生命值。<br />        <strong>起死回生Restore Life.</strong>你用變化師之石觸碰一個生物，並以此對其施展法術@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.63gAxMpLpbVW9Oja]{死者復活 Raise Dead}，而無需消耗任何法術位，也不需要法術書中有該法術。<br />       <strong> 返老還童Restore Youth.</strong>你用變化師之石觸碰一個自願的生物，並將該生物的表面年齡減少[[/r 3d10]]年(至少減少13年的表面年齡)。不過該效應並不能延長生物的壽命。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "變化學派等級 14",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "",
+          "value": 0,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "3d10",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12400000,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 171
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1757062296723,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!C1ampwBXw9dQWxDw"
+}

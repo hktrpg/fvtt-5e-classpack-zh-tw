@@ -1,0 +1,188 @@
+{
+  "name": "火巨人之餘燼 Ember of the Fire Giant",
+  "type": "feat",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BPGG",
+      "page": "17",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "description": {
+      "value": "<div><hr /><div><p><em>先決條件: 第4級，@UUID[Compendium.dnd5e_classpack-zh-tw.feats-all.Item.WXC70UjLdZ7mpSpz]{巨人打擊}（火焰打擊）專長</em> <br />你展現出象徵着火巨人的熾烈戰鬥方式，使得你獲得下列增益：<br /><strong>屬性值提升Ability Score Increase。</strong> 你的力量、體質、或感知屬性提升1，上限爲20。<br /><strong>生於烈焰Born of Flame。</strong> 你獲得火焰傷害的抗性。<br /><strong>熾熱灼燒Searing Ignition。</strong> 當你在你的回合中執行攻擊動作時，你可以將其中一次攻擊替換爲噴射出一陣魔法烈焰。以你爲中心，15尺半徑球狀內所有由你選擇的可見生物都必須進行一次敏捷豁免（DC爲8+你的熟練加值+本專長提升屬性的調整值）。豁免失敗時，生物將受到 1d8+你的熟練加值 點火焰傷害，並陷入 <strong>目盲Blinded</strong> 狀態，直至你下一個回合開始。豁免成功時只受一半傷害。你可使用熾熱灼燒的次數等同於你的熟練加值次，在完成一次長休後你恢復所有已消耗的使用次數。</p></div></div>",
+      "chat": ""
+    },
+    "requirements": "strike of the giants (fire strike) feat",
+    "prerequisites": {
+      "level": 4,
+      "repeatable": false
+    },
+    "uses": {
+      "max": "@prof",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "properties": [],
+    "cover": null,
+    "crewed": false,
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-ember-of-the-fire-giant",
+    "advancement": [],
+    "enchant": {}
+  },
+  "ownership": {
+    "default": 0,
+    "pF5tIzH2aEMuTR6D": 3
+  },
+  "img": "icons/creatures/magical/spirit-fire-orange.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "BGG",
+      "hash": "ember%20of%20the%20fire%20giant_bgg",
+      "propDroppable": "feat"
+    },
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "core": {},
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": null,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "effects": [],
+  "folder": "Po4XyCR0WCieSuoN",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1724940928630,
+    "modifiedTime": 1757275422150,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "ylaggyJH1YrY8n46",
+  "sort": 300000,
+  "_key": "!items!ylaggyJH1YrY8n46"
+}

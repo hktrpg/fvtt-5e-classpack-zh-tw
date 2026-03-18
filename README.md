@@ -14,14 +14,14 @@
 打開安裝MOD界面，複製以下路徑
 
 ```
-https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json
+https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack-zh-tw/module.json
 ```
 
 ## 相關模組
 
 DnD 5e classpack zh-tw 正體中文 for fvtt
 
-<https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json>
+<https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack-zh-tw/module.json>
 
 龍與地下城五版（DnD5E）—正體中文
 <https://gitlab.com/fvtt-zh_TW/dnd5e-taiwan-zh-tw/-/raw/main/module.json>
@@ -48,90 +48,95 @@ DND5E城主工具包-正體中文
 
 ## 轉換方法
 
-如果未來你有其他Package想翻譯或修改，可參考以下方法
+如果未來你有其他 Package 想翻譯或修改，可參考以下方法。
 
-本模組使用 [The official Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli) 與 [ConvertZZ](https://github.com/flier268/ConvertZZ) 進行轉換
+本模組使用 [Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli) 與 [ConvertZZ](https://github.com/zouhuidong/ConvertZZ) 進行轉換：
 
-1. 使用foundryvtt-cli 把ldb 轉成json
-2. 使用ConvertZZ 進行繁簡轉換
-3. 使用foundryvtt-cli 把json 轉成ldb
+1. 使用 foundryvtt-cli 把 ldb 轉成 json
+2. 使用 ConvertZZ 進行繁簡轉換
+3. 使用 foundryvtt-cli 把 json 轉成 ldb
+
+### 前置設定
+
+```powershell
+cd YOUR_PATH_TO/foundrydata/Data/modules/classpack
+
+fvtt configure set dataPath "XXXXXX\FoundryVTT\Data"
+```
+
+> 若為本專案正體中文版，路徑改為 `dnd5e_classpack-zh-tw`，`--id` 改為 `dnd5e_classpack-zh-tw`。
+
+### 批次解包（unpack）
+
+將 `packs` 下所有 LevelDB 合集包解壓至 `src/packs/`：
+
+```powershell
+# 1. 獲取 packs 資料夾下所有的子資料夾名稱
+$packs = Get-ChildItem ./packs | Where-Object { $_.PSIsContainer } | Select-Object -ExpandProperty Name
+
+# 2. 迴圈執行 unpack 指令，補上明確的 ID 與 Type
+foreach ($pack in $packs) {
+    Write-Host "正在解壓資料庫: $pack ..." -ForegroundColor Cyan
+    fvtt package unpack $pack --id "dnd5e_classpack-zh-tw" --type "Module" --out "./src/packs/$pack"
+}
+
+Write-Host "所有資料庫已成功解壓至 src/packs/ 目錄！" -ForegroundColor Green
+```
+
+### 批次打包（pack）
+
+將 `src/packs/` 下翻譯後的 JSON 打包回 LevelDB：
+
+```powershell
+# 1. 獲取翻譯好的資料夾名稱
+$srcPacks = Get-ChildItem ./src/packs | Where-Object { $_.PSIsContainer } | Select-Object -ExpandProperty Name
+
+# 2. 開始打包
+foreach ($pack in $srcPacks) {
+    Write-Host "正在打包資料庫: $pack ..." -ForegroundColor Yellow
+    
+    $inputDir = "./src/packs/$pack"
+    fvtt package pack -n "$pack" --id "dnd5e_classpack-zh-tw" --type "Module" --in "$inputDir"
+}
+
+Write-Host "加壓完成！請檢查 packs 資料夾結構。" -ForegroundColor Green
+```
 
 ## 更新日誌
 
-### 2025.04.08(v4.0.2)
+> 完整更新紀錄請見 [CHANGELOG.md](./dnd5e_classpack-zh-tw/CHANGELOG.md)。
 
-應用了官方遷移器的4.x升級。
-錯誤與額外的物品使用次數進行了移除，現在可以正常使用了。
-大部分的物品實現了使用次數自動化（休息恢復與物品充能恢復）。
+### 2026/03/18
 
-### 2024.08.19(1.1.0)
+本專案基於 [HJSmile/classpack](https://github.com/HJSmile/classpack) 簡體中文4.3.4版，使用 [ConvertZZ](https://github.com/zouhuidong/ConvertZZ) 進行正體中文轉換。README 新增 Foundry VTT CLI 批次 unpack / pack 說明。
 
-更新v3.0.6 & fix 化獸者技能
+### v4.3.4（2025/09/17）— 最新版
 
-### 2023.8.19 (v2.2.6)
+- 移除物品消耗次數、恢復武器與護甲自動熟練
+- 職業升級可選擇子職
+- 法術表檢查與修復（儀式標記、學派標記）
+- 升級自動加入法術（德魯伊、牧師、聖武士、奇械師）
+- 游俠宿敵／夙敵、熟練探險家修復
+- 4.X 行動組合修復（法術、職業特性）
+- 種族、專長、子職補全；warlock 統一譯為魔契師
 
-加入了大量拓展魔法物品,截至塔莎書(TCE) 所有魔法物品更新完畢加入了github workflow自動壓縮.zip 壓縮(←我給我自己省事兒)修復了部分已知bug (例如獲得魔寵更正為儀式法術)引入了更多的未知bug
-部分魔法物品並未給每個變體建立物品。望使用者自行修改。(或者是後續維護者自行修改)(相信後人智慧)例:
+### v4.3.3（2025/09/08）
 
-+ 熔銅面板(胸甲、半身板甲或板甲) 僅建立了板甲；
-+ 冥河之劍 Acheron blade 僅建立了長劍；
+- 新增技能圖示與怪物 token
+- 更新 module.json 與合集包 manifest
 
-部分丟失的隨機表源於
-[DMTools](https://github.com/feederze/DMTools) ← 我在同時更新兩個模組的時候忘了這碼事 把有些東西弄混了 乾脆推一波
+### v4.3.2（2025/08/14）
 
-### 更新日誌2023.6.11（v2.2.0）
+- 一般更新與修復
 
--修復了fvtt 11不能識別classpack包的問題
+### v4.3.1（2025/08/10）
 
-BUG修復
+- 車卡相關重大改動：職業、子職、專長、物品、背景自動化配置
+- 新增野蠻人巨人道途、武僧神龍宗
+- 新增 BPGG、BMT 資料；推薦 Midi QOL
 
--吟遊詩人法表多出法術無效結界
--各個職業特性中的法表關聯丟失
--漿人缺失語言特性
--傳送術表格缺失
--特性中的熟練加值的程式碼修復為@prof
--艾羅娜的箭袋 Quiver of Ehlonna稀有度錯誤
--梟人種族特性中的前置條件未更改
--成年銀龍的英文名稱
--種族描述的許可權錯誤
--修改了一些錯別字與拼寫錯誤的單詞
--原始意志與自然面紗的來源從PHB改為TCE
--從法術列表中刪除古賢之誓
--法術「探知」的格式
--人工智慧生命體的怪物丟失
--更正鍊甲衫與鑲釘皮甲的稀有度為空
--FTD子職的升級鏈接丟失
+### v4.0.2（2025/04/08）
 
-更新內容
-
--更新了一些表格格式
--文件中的SAS（Spelljammer: Adventures in Space）縮寫均改為AAG（Astral -Adventurer's Guide）
--跟隨DND5e 2.2.0系統更新怪物token，主要是幾條成年龍
--去除專長合集的「（補全）」二字
--給職業中的快速建卡新增了物品鏈接，現在可以更快速的建卡了
--魔契的特性型別新增為魔契恩澤
--將法師20級的獨門法術1和獨門法術2合併爲一個
--更新了奇械師注法的邏輯，將注法的物品和注法的特性分離；更新了TCE的三個注法
--新增了XGE的物品
-
-### 更新日誌22.10.3（v2.0.0）
-
--優化職業表、法術表、種族的格式以適應新版本
--跟隨DND5e系統更新怪物token
--修復一些bug
-
--大概率無法向下相容
-
-### 更新日誌2022.7.15
-
--修正了吟遊詩人雄辯學院統一言說特性的掌握等級
--修正了戰鬥風格：雙武器戰鬥
--新增FTD相關內容：
-子職：龍獸守衛&神龍宗
-種族：各種龍裔
-龍類專長
-巨龍魔法
--其它新增內容：
-SCC法表
-種族梟人
-TCE專長
+- 套用官方遷移器 4.x 升級
+- 移除錯誤物品使用次數
+- 大部分物品使用次數自動化（休息恢復、物品充能）

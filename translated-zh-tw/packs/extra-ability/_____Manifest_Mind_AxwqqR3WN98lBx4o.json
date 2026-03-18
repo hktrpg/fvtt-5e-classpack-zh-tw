@@ -1,0 +1,146 @@
+{
+  "_id": "AxwqqR3WN98lBx4o",
+  "name": "神識顯現 Manifest Mind",
+  "type": "feat",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/inv_pet_naaru.jpg",
+  "system": {
+    "description": {
+      "value": "<p>你能將你覺醒法術書中的意識召喚出來。當你持有該法術書時，你可以以一個附贈動作令書中的意識顯現爲一個微型的靈體物件，使其懸浮於距離你60尺以內且未被佔據的、由你選擇的空間中。這一靈體意識是無形的，不會佔據其空間，並會在其周圍半徑10尺範圍內發出微光光照。它看上去如同一本靈體卷宗、一摞文字、或是一位歷史中的學者（由你選擇）。</p>\n<p>顯現時，該靈體意識能夠聽音視物，並具有60尺的黑暗視覺。它能用心靈感應將它所看見和聽到的信息分享給你（無需動作）。</p>\n<p>每當你在自己的回合內施放法師法術時，你可以使用靈體意識的感官、如同身處它所在的空間一樣釋放該法術。你能使用該能力的次數等於你的熟練加值，完成一次長休後，你將重獲所有消耗掉的使用次數。</p>\n<p>以一個附贈動作，你可以令靈體意識飄浮到其周圍30尺內、你或它可見且未被佔據的空間。靈體意識可以穿過生物但不能穿過物件。</p>\n<p>若遇到以下情況之一，靈體意識的顯現將會停止：與你的距離超過300尺，成爲解除魔法的目標，覺醒魔法書被摧毀，你死亡時，或是你以一個附贈動作將其驅散。</p>\n<p>召喚過靈體意識後，你必須完成一次長休、或是消耗一枚任意環位的法術位，才能再次召喚。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "書士會等級 6",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "10",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-manifest-mind",
+    "advancement": [],
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 13600000,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 0,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1749883542518,
+    "lastModifiedBy": "uXKCmWFprrvnSIDm",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AxwqqR3WN98lBx4o"
+}

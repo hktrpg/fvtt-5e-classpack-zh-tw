@@ -1,7 +1,7 @@
 {
-  "title": "DND5E正體中文職業包",
-  "description": "<p>包含了職業表和按環分類的法術包，方便車卡，包含部分UA規則，DM可以根據需要進行修改。</p>Bug回報可到https://support.hktrpg.com<p><b>注意：需要搭配 FVTT v11 與 DND5e v3.0.0以上版本使用</b></p>",
-  "version": "4.0.3",
+  "title": "DND5E正體中文職業包(DND5E不全包)",
+  "description": "<p>包含了職業表和按環分類的法術包，方便車卡，包含部分UA規則，DM可以根據需要進行修改。</p>Bug回報可到https://support.hktrpg.com<p><b>注意：需要搭配 FVTT v12 與 DND5e v3.0.0以上版本使用</b></p>",
+  "version": "4.3.4",
   "authors": [
     {
       "name": "classpack社區",
@@ -114,7 +114,7 @@
     },
     {
       "name": "races",
-      "label": "種族",
+      "label": "種族（純文字，舊版數據",
       "path": "packs/races",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -210,47 +210,191 @@
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e"
+    },
+    {
+      "name": "summons",
+      "label": "召喚物",
+      "path": "packs/summons",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monster",
+      "label": "怪物",
+      "path": "packs/monster",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro",
+      "label": "Macro",
+      "path": "packs/macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "5E正體中文合集包",
+      "color": "#1100ff",
+      "sorting": "m",
+      "packs": [
+        "itempack"
+      ],
+      "folders": [
+        {
+          "name": "創角專用",
+          "sorting": "m",
+          "color": "#00aaff",
+          "packs": [
+            "classes-new",
+            "subclass",
+            "races",
+            "BackgroundList",
+            "feats-all",
+            "new-icon"
+          ],
+          "folders": []
+        },
+        {
+          "name": "DM專用",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "monsterspack",
+            "summons",
+            "monster"
+          ],
+          "folders": []
+        },
+        {
+          "name": "MISC",
+          "sorting": "a",
+          "color": "#000000",
+          "packs": [
+            "rtable",
+            "moditems",
+            "loots",
+            "extra-ability",
+            "class-table",
+            "class-abilityphb",
+            "racial-traits",
+            "spell-table",
+            "BackgroundFeature",
+            "races-item",
+            "macro"
+          ],
+          "folders": []
+        }
+      ]
     }
   ],
   "url": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw",
   "compatibility": {
-    "minimum": "10",
-    "verified": "13"
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
   },
   "manifest": "https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json",
-  "download": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/latest/download/dnd5e_classpack.zip",
-  "id": "dnd5e_classpack",
-  "relationships": {
-    "relationships": {
-      "systems": [
-        {
-          "id": "dnd5e",
-          "type": "system",
-          "compatibility": {
-            "minimum": "4.0.0"
-          }
-        }
-      ],
-      "recommends": [
-        {
-          "id": "dnd5e_DMTools-zh-tw",
-          "type": "module",
-          "manifest": "https://raw.githubusercontent.com/hktrpg/fvtt-5e-DMTools-zh-tw/main/module.json",
-          "compatibility": {}
-        },
-        {
-          "id": "foundryvtt-actor-studio",
-          "type": "module",
-          "manifest": "https://github.com/geoidesic/foundryvtt-actor-studio/releases/latest/download/module.json",
-          "compatibility": {}
-        },
-        {
-          "id": "foundryVtt_dnd5e_zh-tw",
-          "type": "module",
-          "manifest": "https://raw.githubusercontent.com/HKTRPG/foundryVtt_dnd5e_zh-tw/main/module.json",
-          "compatibility": {}
-        }
+  "download": "https://github.com/hktrpg/fvtt-5e-classpack-zh-tw/releases/latest/download/dnd5e_classpack-zh-tw.zip",
+  "id": "dnd5e_classpack-zh-tw",
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "AAG": "AAG.星界冒險者指南",
+        "AI": "AI.艾奎茲玄有限責任公司",
+        "BMT": "BMT.萬象無常書",
+        "EGW": "EGW.荒州冒險家指南",
+        "FTD": "FTD.費茲本的巨龍寶庫",
+        "GGR": "GGR.拉尼卡公會長指南",
+        "PHB": "PHB.玩家手冊",
+        "SCAG": "SCAG.劍灣冒險者指南",
+        "SCC": "SCC.斯翠海文: 混沌研習",
+        "SO": "SO.印記城與外域",
+        "TCE": "TCE.塔莎的萬事坩堝",
+        "XGE": "XGE.珊娜薩的萬事指南",
+        "VGM": "VGM.瓦羅的怪物指南",
+        "MTF": "MTF.魔鄧肯的衆敵卷冊",
+        "ERLW": "ERLW.艾伯倫.從終末戰爭中崛起",
+        "MOT": "MOT.塞洛斯之神話奧德賽",
+        "VRGR": "VRGR.範·裏希騰的鴉閣魔域指南",
+        "MPMM": "MPMM.魔鄧肯鉅獻：多元宇宙的怪物",
+        "BAM": "BAM.布布的星界怪獸指南",
+        "BPGG": "BPGG.畢哥比鉅獻:巨人之榮耀",
+        "MPP": "MPP.莫提的位面遊記",
+        "TCSR": "TCSR.塔爾多雷戰役設定集",
+        "BH": "BH.血獵手",
+        "GH": "GH.鬼魅幽谷",
+        "DoDk": "DoDk.德拉肯海姆之墟",
+        "WGE": "WGE.艾伯倫尋路者指南",
+        "DMG": "DMG.地下城主指南",
+        "MM": "MM.怪物圖鑑",
+        "HCS": "HCS.謙卑林戰役設定集",
+        "BoET": "BoET.黯潮之書",
+        "TGS": "TGS.獅鷲的鞍中珍寶",
+        "OTTG": "OTTG.朧憶島：蒿野物語",
+        "VSS": "VSS.瓦爾達的祕密尖塔",
+        "CM": "CM.歪曲之月"
+      },
+      "spellLists": [
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.MghDUgJzkxmUe8jk",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.yMjGcmIYlG1GHN6v",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.Dr4nXcwezO7RiHkC",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.clXkUVjokitddspR",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.LVVFrPLwOdafDlrW",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.dncn4vdZhKpeB1xa",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.GVunZOQL0p8YVzxQ",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.wJ1S37FfqCTBsXPX",
+        "Compendium.dnd5e_classpack.spell-table.JournalEntry.NfpC7UnUn2qtsO2L.JournalEntryPage.URAfzTlq1eQp0qGc"
       ]
     }
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd5e_DMTools-zh-tw",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/hktrpg/fvtt-5e-DMTools-zh-tw/main/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "foundryvtt-actor-studio",
+        "type": "module",
+        "manifest": "https://github.com/geoidesic/foundryvtt-actor-studio/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "foundryVtt_dnd5e_zh-tw",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/HKTRPG/foundryVtt_dnd5e_zh-tw/main/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
   }
 }

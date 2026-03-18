@@ -1,0 +1,264 @@
+{
+  "name": "暗影衍體召喚術 Summon Shadowspawn (TCE)",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": true,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/ability_revendreth_monk.jpg",
+  "_id": "n9tVU1jnmwUqoUnf",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>        你喚來一個暗影靈魄。其在施法距離內你可見的一個未佔據位置化爲實體。這一實體使用下面的 <strong>暗影靈魄Shadow Spirit</strong> 的數據。當你施展法術時，當你施展法術時，從暴怒Fury，絕望Despair或恐懼Fear中選擇一種情感。此生物的外形爲一個受你所選情感所影響的畸形二足生物，其資料表中的部分特性也受此影響。當其生命值降至 0 或法術結束時，生物消失。<br />該生物在法術持續時間內對你和你的同伴們友好。在戰鬥中，該生物使用你的先攻，但在你回合結束後立即行動。它遵從於你的口頭指令（無需任何動作）。如果你不發令，它將執行迴避動作並遠離危險。<br /><strong>升環施法效應：</strong>使用四環或更高法術位施展該法術時，該生物數據中使用更高的法術環數。</p><blockquote style=\"MARGIN-RIGHT:0px\" dir=\"ltr\"><p><strong>暗影靈魄Shadow Spirit</strong> <br /><em>中型怪獸，無陣營</em><br />AC：11+法術等級 (天生護甲)<br />HP：35+15每比3環高的法術等級<br />速度：40<br />力量13（+1）敏捷16（+3）體質15（+2）<br />智力4（-3）感知10（+0）魅力16（+3）<br />傷害抗性：黯蝕<br />狀態免疫：恐慌<br />感官：黑暗視覺120 尺，被動察覺10<br />語言：理解你說的語言<br />挑戰等級：- 熟練加值與你相等</p><p><strong>懼怖狂怒Terror Frenzy（僅限暴怒）。</strong> 該靈魄對恐慌生物發動的攻擊檢定具有優勢。<br /><strong>哀傷之重Weight of Sorrow（僅限絕望）。</strong> 除你之外的所有生物在該靈魄 5 尺內開始回合時，其速度降低 20 尺直到該生物的下回合開始。<br /><strong>動作Actions</strong><br /><strong>多重攻擊Multiattack。</strong>該靈魄發動等同於法術環數一半的次數的攻擊（向下取整）。<br /><strong>凍寒撕裂Chilling Rend。</strong> 近戰武器攻擊：命中採取你的法術攻擊加值，觸及5尺，單一目標。命中：1d12+3+法術環階的冷凍傷害。<br /><strong>恐懼尖叫Dreadful Scream（1/日）。</strong> 該靈魄發出尖叫。處於它10 尺內的每個生物必須進行一次感知豁免對抗你的法術豁免DC，否則對靈魄恐慌1分鐘。被恐慌生物可以在其自己回合結束時再進行一次該豁免，豁免成功則終止該生物身上的恐慌效應。<br /><strong>附贈動作Bonus Actions</strong> <br /><strong>暗影潛藏Shadow Stealth（僅限恐懼）。</strong> 靈魄處於微光光照或黑暗環境時，可以一個附贈動作來執行躲藏動作。</p></blockquote>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "包有眼淚的寶石，價值至少 300gp",
+      "consumed": false,
+      "cost": 300,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "mgc"
+    ],
+    "activities": {
+      "ed0hu1MDktLE98Bd": {
+        "type": "summon",
+        "_id": "ed0hu1MDktLE98Bd",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@scaling+2",
+          "hd": "",
+          "hp": "@scaling*15-15",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "8liwjf4ucyuX1CpE",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.RsU3RO5BgJ5RB4FB",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "fTi0H7ZjVWCIFIRs",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.IZYLXSt8HoJrQPxf",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "IXDY6ZRpincrPt96",
+            "uuid": "Compendium.dnd5e_classpack-zh-tw.summons.Actor.wJxAzaf57kEXEIPp",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "summon-shadowspawn-tce"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "eKWjH0NyoSjvzeog",
+  "sort": 100000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!n9tVU1jnmwUqoUnf"
+}

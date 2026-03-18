@@ -1,0 +1,114 @@
+{
+  "folder": "x7MmWDKa3Bx58yph",
+  "name": "空氣泡泡 Air Bubble",
+  "type": "spell",
+  "_id": "ElTkzRz8F2UyF3xQ",
+  "img": "systems/dnd5e/icons/svg/items/spell.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": null,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你指定視線範圍內的一個自願生物，並在其頭部創造一個散發幽光的球體。這個球體內會充滿新鮮空氣直到法術結束。如果這個生物有多個頭，那麼球體只會出現在它的一個頭周圍（若該生物的所有頭顱共用同一套呼吸系統，那麼這個法術也可以讓它避免窒息）。 <br /><strong>升環施法效應：</strong>當你使用3環或更高的環階施放這個法術時，你使用的法術位每比2環高一環，就能額外創造兩個新鮮空氣球體。</p>",
+      "chat": ""
+    },
+    "identifier": "air-bubble",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "AAG",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "24"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "",
+        "size": "",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "type": "willing",
+        "count": "1",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Y5bWIYpxDhkJkvP2": 3
+  },
+  "flags": {
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1749803897896,
+    "modifiedTime": 1757256789513,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt"
+  },
+  "_key": "!items!ElTkzRz8F2UyF3xQ"
+}

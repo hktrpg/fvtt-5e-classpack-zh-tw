@@ -1,0 +1,207 @@
+{
+  "name": "加德爾急速郵差 Galder's Speedy Courier",
+  "type": "spell",
+  "img": "icons/containers/boxes/box-gift-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>    你在施法距離內的一點召喚出一名小型@UUID[Compendium.dnd5e_classpack-zh-tw.monsterspack.banHjKDMCegbUwYE]{氣元素}。氣元素沒有形體且近乎透明，它對所有傷害免疫且無法與其他生物或物件互動。它攜帶着一件內部尺寸爲每邊3尺的打開的空箱子。當法術持續時，你可以在箱子內存放盡可能多的物品。隨後你可以指定一名你曾見過至少一次，或擁有其一件身體部位，頭髮，指甲或類似物件的生物。</p><p>    一旦箱子的蓋子被合上，氣元素與箱子將會消失，並隨後在目標生物的旁邊重新出現。如果目標生物處在另一個位面，或是不受魔法偵測和定位的影響，箱子裏的物件將在你腳下的地面上重新出現。</p><p>    目標生物在選擇是否打開箱子前會知道其中內容，並知道在法術結束前它還有多少時間取得其中物品。其他任何生物都無法打開箱子和取得其中的內容。當法術結束或箱子內部所裝物品皆被移出之後，氣元素與箱子都會消失。如果目標生物命令氣元素將物品返還與你，則它也會消失，而箱子內未被取出的物品將在你腳下的地面上重新出現。</p><p><strong>升環施法效應。</strong>使用8環法術位施展該法術時，你可以將箱子送往與你處在不同存在位面的生物。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "LLK",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false
+      },
+      "template": {
+        "units": "",
+        "contiguous": false
+      }
+    },
+    "range": {
+      "value": "10",
+      "units": "ft"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "25金幣，或同等價值的礦石貨物作爲該法術的耗材",
+      "consumed": true,
+      "cost": 25,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "galders-speedy-courier"
+  },
+  "effects": [],
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_id": "4nhQ6KAK3ixbyEAI",
+  "folder": "syUAnjMAMcVP2X3e",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757235114937,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4nhQ6KAK3ixbyEAI"
+}

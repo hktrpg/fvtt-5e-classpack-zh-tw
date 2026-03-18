@@ -1,0 +1,140 @@
+{
+  "_id": "hF3GFBbyWG7GYn05",
+  "name": "低語學院 College of Whispers（XGE）",
+  "type": "subclass",
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/Spell_Arcane_FocusedPower.png",
+  "effects": [],
+  "folder": "m3bKIE0ifc256Y9J",
+  "sort": 98439,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>         大多數村民都樂於招待吟遊詩人。而來自低語學院的詩人們正是利用了這一點。他們看起來就像是其他的吟遊詩人那樣，分享新聞，一展歌喉，向觀衆們講述蒐羅來的軼事。但實際上，低語學院教會學生們的是：他們應該是披着羊皮的狼。這些詩人用他們的知識和魔法來揭露祕密，並用這些祕密來恐嚇或是勒索他人。</p>\n<p>         許多其他的吟遊詩人痛恨低語，認爲他們是利用吟遊詩人的名譽來爲自己贏取金錢與權力的害羣之馬。因此，這些詩人很少會揭露出自己的真實面目，除非確有必要。他們通常聲稱來自其他學院，或謹慎的隱藏自己，好混入皇室或其他權力中心。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "XGE"
+    },
+    "identifier": "college-of-whispers",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "xc5aaw0wrli6jluk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.krzQeK2QuWmhc4C1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.SiYzAyOLXUFow2lF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "i636y9x8kmqd9es0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.i8fpZzA2N0hL3Irs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "5q08qn03a7lbzlj8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.m9IA0eF0U0iEV2cv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "職業特性",
+        "icon": null
+      },
+      {
+        "_id": "3896qjilm2jm18w4",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "psychic-blades",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 5,
+              "faces": 6,
+              "modifiers": []
+            },
+            "15": {
+              "number": 8,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "心靈之刃傷害",
+        "icon": null,
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "_key": "!items!hF3GFBbyWG7GYn05"
+}

@@ -1,0 +1,212 @@
+{
+  "_id": "XbVBvp0A6Nf7imnf",
+  "name": "異界誓盟 Planar Ally",
+  "type": "spell",
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "vocal",
+        "somatic"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/002684.png",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div class=\"description \"> 你祈求一個異界個體的援助。你必須對該存在個體有所瞭解，它可以是一個神祗，一位原祖，一名惡魔主君，或是其他界域級力量的存在。該存在將派遣一個效忠它的天界生物，元素生物或邪魔來援助你，並使該個生物顯現在施法距離內一個未佔據空間。如果你知道他們中某個特定生物的名字，則你可以在施展法術時說出其名字來請求指派該生物來援，但是你仍然有可能得到一個不同的生物（由DM 選擇）。\n<br />該生物出現時，你無法強迫它作任何事。你可以以報酬爲交換請求其提供服務，只是它並沒任何義務爲你實現。請求的任務可以簡單（幫我們飛越峽谷，或在一場戰鬥中提供協助），也可以複雜（暗中監視我們的敵人，或在我們掃蕩地城時保護我們）。你必須能與該生物交流以爲他服務的報酬討價還價。\n<br />報酬的形式也可以各式各樣。一個天界生物可能會要求爲一座同盟的神殿捐獻一份相當可觀的金幣或魔法物品，而一隻邪魔可能會索要一次活祭或一份財寶作爲禮物。一些生物可能會要求你進行一個任務來換取它們的服務。\n<br />粗略計算，一個可以按分鐘計算的任務需要每分鐘100gp的報酬。一個可以按小時計算的任務需要每小時1,000gp 的報酬。一個可以按日計算的任務（至多10日）需要每日10,000gp的報酬。DM 可以按你施放該法術的環境調整具體的報酬。如果任務與生物的行爲準則一致，則報酬可能會被減半甚至放棄。沒有風險的任務一般只需要建議報酬的一半，而特別危險的任務可能會需要更大的贈禮。生物極少接受看上去像自殺的任務。\n<br />生物完成任務後，或當協議服務時間結束後，如果任務合適並在可能的情況下，生物會在回來向你報告後再返回自己的家鄉位面。如果你不能同意生物的服務價格，則其將立即返回其家鄉位面。\n<br />應召加入你隊伍的生物算作隊伍成員，並正常分享獲得的經驗值。\n<br /></div>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB pg. 265",
+      "revision": 1,
+      "rules": "2014",
+      "book": "PHB"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 10
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "space",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "any",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 6,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "planar-ally"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": "hSoScUNgYYqpKuFk",
+  "sort": 33200000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XbVBvp0A6Nf7imnf"
+}

@@ -1,0 +1,180 @@
+{
+  "name": "巨人道途 Path of the Giant（BGG）",
+  "type": "subclass",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>選擇踏上巨人道途的野蠻人從巨人和他們的元素同族中汲取力量。他們的狂暴浸潤在元素能量下，讓這些野蠻人的體型變大，讓他們展現出巨人之榮耀。一些野蠻人看上去就像是大一號版本的它們自己，也許元素能量的印記會從他們的眼睛放出的光芒，同時環繞在它們的武器上。另一些變化看上去就比較戲劇性了，他們會採取一個實際存在的巨人的外形，或是一個酷似元素生物的，籠罩在火焰、冰霜、或閃電之下的形態。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "BGG",
+      "revision": 1,
+      "rules": "2014",
+      "book": "BPGG"
+    },
+    "identifier": "path-of-the-giant",
+    "classIdentifier": "barbarian",
+    "advancement": [
+      {
+        "_id": "m4fNFDp3ygf5gb9S",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "languages:standard:giant"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "巨人之力",
+        "hint": "選擇此道途後，你獲得說、讀、寫巨人語的能力。若你已經習得巨人語，則可以改爲自選另一種語言。",
+        "icon": null
+      },
+      {
+        "_id": "Iv8iVuKzpVvSodez",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": true,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.Q6muyDarRcXMcuKv"
+            },
+            {
+              "optional": true,
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.9utDFSqFjS9QRpNw"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "preparation": "innate",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "ability": [
+              "wis"
+            ]
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "巨人之力",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "LfItRz0maJpXE0Sf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.m3TuVkhkiRr9zHai",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.ZzK9hwSovHEvT9Vr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "職業特性",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "9TlzJ5jdG5XIs2Yd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.Rz1SotWgV1hgDUCm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "職業特性",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "Mx6Ra0XTERcUNohK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.gGHBogBYDHmCqWGj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "職業特性",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "_id": "sa0mAadjJbujN7My",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.extra-ability.Item.BcR6WUlgzz0VqH4p",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "職業特性",
+        "hint": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "folder": "n9z0xBgG2wlf6bJ4",
+  "ownership": {
+    "default": 0,
+    "e4wUhoMqlYUuBuAF": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1724868498766,
+    "modifiedTime": 1757275023121,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "v3w8rjyz5i66kc7l",
+  "sort": 203125,
+  "_key": "!items!v3w8rjyz5i66kc7l"
+}

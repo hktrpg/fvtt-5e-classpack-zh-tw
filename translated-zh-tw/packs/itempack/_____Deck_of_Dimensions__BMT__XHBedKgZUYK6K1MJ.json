@@ -1,0 +1,206 @@
+{
+  "_id": "XHBedKgZUYK6K1MJ",
+  "name": "諸空牌組 Deck of Dimensions (BMT)",
+  "type": "equipment",
+  "system": {
+    "source": {
+      "custom": "",
+      "book": "BMT",
+      "page": "40",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--2\"><p><em>奇物，極珍稀（需同調）</em> <br />這副牌的卡背有着交錯複雜的裝飾，代表着不同的存在位面。此牌組具有6發充能。持握該牌組期間，你可以花費1發或多發充能來使用以下能力：<br /><strong>記號牌Marked Card。</strong>以一個附贈動作，你可以花費1發充能用從牌組中抽取一張牌，將它扔到在你周圍5尺範圍內的未被佔據空間內。這張牌上會被標上一個隱形的印記。在接下來的24小時內，你可以用一個動作說出作記號卡片的名字，你（以及你佩戴或攜帶的任何裝備）將傳送回這張卡的位置，並出現在離標記卡最近的空間。通過這種方式傳送後、或者8小時內未使用該牌之後，牌就會回到牌組裏，印記也會消失。 （注：前文又說24小時，後文又說8小時......）</p><p><strong>對切之門Riffling Portal。</strong>以一個動作，你可以花費3發充能來用牌組施展法術 <em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.GoHxmQDNg9i6lWU3]{祕法門 Arcane Gate}</em> 。卡組會飛出並組合成一個卡牌圓環，以充當那個法術的傳送門。當法術效果結束時，這套牌組會重新重組回到你的手中。 <br /><strong>洗切之行Shuffling Stride。</strong>以一個附贈動作，你可以花費1發充能，將卡組的一張卡投擲到你周圍60尺範圍內的一處未被佔據的空間內，然後你（以及你佩戴或攜帶的任何裝備）將傳送到這裏。那之後擲出的卡牌將消失並回到卡組中。<br />每日黎明時分，此牌組將恢復[[/r 1d6]]發已被消耗的充能數。</p><p>The backs of the cards in this deck are decorated with intricate designs representing different planes of existence. The deck has 6 charges. While holding it, you can expend 1 or more of its charges to use the following properties:</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Marked Card\"><span class=\"bold rd__list-item-name\">Marked Card.</span> As a bonus action, you can expend 1 charge to draw a card from the deck and place it in an unoccupied space within 5 feet of you. The card then becomes marked with an invisible sigil. Once within the next 24 hours, as an action, you can speak the marked card's name and teleport to the card's location, along with any equipment you are wearing or carrying, appearing in the closest unoccupied space to the card. After you teleport in this way, or after 8 hours, the card returns to the deck, and the mark on it fades.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Riffling Portal\"><span class=\"bold rd__list-item-name\">Riffling Portal.</span> As an action, you can expend 3 charges to cast the @spell[Arcane Gate] spell from the deck. The deck vanishes, and fluttering cards create the spell's portal rings. When the spell ends, the deck reappears in your possession.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Shuffling Stride\"><span class=\"bold rd__list-item-name\">Shuffling Stride.</span> As a bonus action, you can expend 1 charge to throw a card from the deck to an unoccupied space within 60 feet of yourself and teleport, along with any equipment you're wearing or carrying, to that space. The card then vanishes and returns to the deck.</p></li></ul><p>The deck regains [[/r 1d6]] expended charges daily at dawn.</p></div>",
+      "chat": ""
+    },
+    "proficient": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attuned": true,
+    "identified": true,
+    "equipped": true,
+    "rarity": "veryRare",
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "uses": {
+      "max": "6",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d6"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": 0
+    },
+    "strength": null,
+    "activities": {
+      "HqBNLifZKwU4rYbT": {
+        "_id": "HqBNLifZKwU4rYbT",
+        "type": "cast",
+        "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.plutonium-faux-id--7b22746167223a227370656c6c222c2274657874223a22617263616e652067617465227d.custom.Item.0000000000000000"
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        }
+      }
+    },
+    "identifier": "deck-of-dimensions-bmt",
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "cover": null,
+    "crewed": false
+  },
+  "img": "modules/dnd5e_classpack-zh-tw/Nicons/img/items/BMT/Deck of Dimensions.webp",
+  "ownership": {
+    "default": 0,
+    "qKmljmeCDhGDkX2L": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "items.html",
+      "source": "BMT",
+      "hash": "deck%20of%20dimensions_bmt",
+      "propDroppable": "item"
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    }
+  },
+  "effects": [],
+  "folder": "hwopJR0mBnCHlBOU",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1751738869001,
+    "modifiedTime": 1751738869001,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L"
+  },
+  "sort": 125000,
+  "_key": "!items!XHBedKgZUYK6K1MJ"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "灰矮人魔法 (矮人)",
+  "type": "feat",
+  "system": {
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "description": {
+      "value": "<p>當你達到3級時，你可以對你自己施放一次使變巨術/縮小術enlarge/reduce，只使用該法術的變巨術選項。</p>\n<p>當你達到5級的時候，你可以對自己施放一次隱形術Invisibility 。</p>\n<p>這兩種咒語都不需要材料，而且也不能在日照環境下施放。這些每日施展一次的法術其施法關鍵屬性是智力。</p>\n<p>你必須完成一次長休才能再次以該特質施展這些法術</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MTF/MPMM",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "requirements": "灰矮人",
+    "activities": {},
+    "identifier": "-",
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": []
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "img": "icons/magic/lightning/orb-ball-purple.webp",
+  "_id": "5G85wKYqV3ec5oLS",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 13300000,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1756544420586,
+    "lastModifiedBy": "sPF2dtZDreDpJaW6",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5G85wKYqV3ec5oLS"
+}

@@ -1,0 +1,223 @@
+{
+  "name": "地底侏儒 Deep Gnome (MTF)",
+  "type": "race",
+  "_id": "pmJb1rl0oxtfvKua",
+  "img": "icons/environment/wilderness/terrain-river-road-gray.webp",
+  "system": {
+    "description": {
+      "value": "<div class=\"WordSection1\" style=\"LAYOUT-GRID:15.6pt none\"><p class=\"MsoNormal\"><span class=\"15\">侏儒</span><span lang=\"EN-US\">GNOMES</span><br /><span class=\"16\">然後那玩意整個兒炸成了一百多萬塊！我從來沒見過這種事！</span><em><br /></em><span class=\"16\">——————————</span><span lang=\"EN-US\">Griballix, </span>印記城的侏儒<span lang=\"EN-US\">gnome of Sigil</span><br /><br />對新事物的愛驅動着侏儒的生活，不論是研究魔法的本質，還是發明更好的癢癢撓。充滿侏儒那小腦袋的是關於世界的問題：昆蟲如何飛翔，魚如何游泳，蚱蜢如何跳躍——他們想要知道一切！但是吸引他們的不僅僅是大自然和它的運轉規律，各種各樣的話題都讓侏儒迷戀。他們對機械裝置、自然世界和魔法研究的興趣尤爲濃厚；侏儒可能會想要發明一樣新的園藝工具、收集分類每一種蝴蝶，或者開發一種新的寶石切割工藝。</p><p class=\"MsoNormal\"></p><p class=\"MsoNormal\"><strong>地底侏儒</strong><span lang=\"EN-US\"><strong>DEEP GNOME<br /></strong></span>若<span lang=\"EN-US\">DM</span>允許，您可以扮演一個地底侏儒的角色。<span lang=\"EN-US\"><br /></span>當你選擇你的侏儒亞種時，你可以選擇地底侏儒，使用以下規則來創建你的角色。<br /><br /><strong>地底侏儒特性</strong><span lang=\"EN-US\"><strong> Deep Gnome Traits</strong></span><br />地底侏儒擁有《玩家手冊》中的侏儒的特徵，以及下面的亞種特性。與其他的侏儒不同，它們的體重在<span lang=\"EN-US\">80</span>到<span lang=\"EN-US\">120</span>磅之間。<span lang=\"EN-US\"><br /></span>與其他侏儒相比，地底侏儒的壽命較短，其成熟的速度與人類相同，在<span lang=\"EN-US\">25</span>歲時被認爲是成年侏儒。他們壽命在<span lang=\"EN-US\">200</span>到<span lang=\"EN-US\">250</span>年，儘管在他們壽終正寢之前，過度的勞作和幽暗地域的危險經常奪去他們的生命。<span lang=\"EN-US\"><br /></span>地底侏儒們認爲，生存的訣竅在於避免與其他的物種發生衝突，不要樹敵，所以他們傾向於中立的陣營。他們很少幸災樂禍，也不太可能爲了別人而涉險，除非是他們最親近的人。<br /><strong>屬性值增加</strong><span lang=\"EN-US\"><strong>Ability Score Increase</strong></span><strong>。</strong>你的敏捷值增加<span lang=\"EN-US\">1</span>。<br /><strong>增強黑暗視覺</strong><span lang=\"EN-US\"><strong>Superior Darkvision</strong></span>。你的黑暗視野半徑爲<span lang=\"EN-US\">120</span>英尺。<span lang=\"EN-US\"><br /></span><strong>巖地僞裝</strong><span lang=\"EN-US\"><strong>Stone Camouflage</strong></span><strong>。</strong>當你在岩石地形和地下進行躲藏時，你的敏捷（隱匿<span lang=\"EN-US\">Stealth</span>）檢定獲得優勢。<span lang=\"EN-US\"><br /></span><strong>額外語言</strong><span lang=\"EN-US\"><strong>Extra Language</strong></span><strong>。</strong>你能說、讀、寫，地底通用語。</p><p class=\"MsoNormal\"></p><p class=\"MsoNormal\"><strong>地底侏儒可選專長</strong><span lang=\"EN-US\"><strong> Optional Deep Gnome Feat</strong></span></p></div>",
+      "chat": ""
+    },
+    "identifier": "--deep-gnome-mpmm",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "MTF",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "KxTrLyBU6zoebSXG",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": []
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "type": "Size",
+        "_id": "DFdcL99Rv6kGzs1F",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "icon": null,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "_id": "gy8HtSs3nwbUk9KB",
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "Vcm5w5cN9WHF1C4Y",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.wUkIW5Nfcxad3qlY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.uQHTlw9vXVHG25aj",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.l8jN6k3L1VLLHbkn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "種族特性",
+        "icon": null
+      },
+      {
+        "_id": "NhkxvzZFSfnpwSz3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.ju3LXSi72l6vso3l",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "斯涅布力贈禮",
+        "icon": null
+      },
+      {
+        "_id": "oIJfhLt971WIPSaZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.racial-traits.Item.RWiNYKyOZmK9fW62",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "種族特性",
+        "icon": null
+      },
+      {
+        "_id": "7lRGd3F3ZZJWxwsx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.new-icon.Item.VT60UFGIZOZhPgMi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "斯涅布力贈禮",
+        "icon": null
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": "ov2HRMOpFmjBTw67",
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "vFLRCDyc5l72uRlV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": 1753967498980,
+    "modifiedTime": 1753967635657,
+    "lastModifiedBy": "vFLRCDyc5l72uRlV"
+  },
+  "_key": "!items!pmJb1rl0oxtfvKua"
+}

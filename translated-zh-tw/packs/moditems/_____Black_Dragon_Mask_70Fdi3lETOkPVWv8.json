@@ -1,0 +1,168 @@
+{
+  "_id": "70Fdi3lETOkPVWv8",
+  "name": "黑龍面具 Black Dragon Mask",
+  "type": "equipment",
+  "img": "icons/equipment/head/mask-horned-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 1,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.9",
+    "createdTime": null,
+    "modifiedTime": 1749710928408,
+    "lastModifiedBy": "qKmljmeCDhGDkX2L",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>奇物（需同調）</em></p>\n<p>這具以拋光黑檀木製成的帶角面具其造型如同一個長角 的顱骨。面具會調整自身尺寸以便其同調者着裝。你與之同調並着裝後，可以使用下列各屬性。</p>\n<p><strong>傷害吸收 Damage Absorption。</strong> 你對強酸傷害擁有抗性， 如果你已經從另一來源擁有了強酸傷害的抗性，則你改爲對強酸傷害免疫。若你此前已從另一來源獲得了強酸傷害免疫，則你在受到強酸傷害時，可恢復其傷害量一半的生命值。</p>\n<p><strong>龍形威嚴 Draconic Majesty。</strong>你未着裝護甲時，可以將自己的魅力加值加入你的護甲等級中。</p>\n<p><strong>龍息 Dragon Breath。</strong>若你有本身擁有需要休息充能的吐息武器，則該吐息改爲充能 6。</p>\n<p><strong>龍之視界 Dragon Sight。</strong>你獲得 60 尺的黑暗視覺，若你已擁有黑暗視覺，則其範圍再增加 60 尺。你每日有一次機會， 可獲得持續 5 分鐘的 30 尺的盲視感官。</p>\n<p><strong>龍言 Dragon Tongue。</strong>你可以說和理解龍語。你對黑龍進行的所有魅力檢定都具有優勢。</p>\n<p><strong>傳奇抗性 Legendary Resistance（1/日）。</strong>你進行一次豁免檢定失敗時，可以選擇將其改爲豁免成功。</p>\n<p><strong>水下呼吸 Water Breathing。</strong>你可以在水下呼吸。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "HotDQ",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "clothing",
+      "baseItem": ""
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-black-dragon-mask",
+    "container": null,
+    "attuned": false,
+    "cover": null,
+    "crewed": false,
+    "properties": []
+  },
+  "_key": "!items!70Fdi3lETOkPVWv8"
+}

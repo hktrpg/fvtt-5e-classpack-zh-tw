@@ -1,0 +1,209 @@
+{
+  "_id": "Lk16ZQMErMb3Gb1O",
+  "name": "思想編碼 Encode Thoughts",
+  "type": "spell",
+  "img": "icons/magic/light/projectile-smoke-blue.webp",
+  "effects": [],
+  "folder": "54kcd5su25oZwuB9",
+  "sort": 100000,
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "always",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": true,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "always",
+      "itemCondition": "",
+      "effectCondition": "",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "migratedProperties": [
+        "somatic"
+      ],
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>你將一根手指放在你的頭上，然後將一段記憶、想法或信息從你的心靈中拖出來，轉變爲一段由耀眼能量組成的，名爲“思想鏈”的有形的鏈條，其將一直存在直到持續時間結束，或者到你再次施放這個法術爲止。思想鏈出現在距離你5尺的未被佔據的空間內，表現爲一個可以像絲帶一樣被你持握或攜帶的，微小的、極輕的、半固態的物件。除此之外，思想鏈都是靜止的。如果你在施放這個法術時正在專注於一個允許你讀取或操縱他人思想的法術或能力時（例如@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.YuGbz9k5JXA0kIgT]{偵測思想 Detect Thoughts}或@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.O865yy87cPevGeMj]{篡改記憶 Modify Memory}）。你可以將你讀取到的思想和記憶轉化爲思想鏈，而不是轉化你自己的。</p>\n<p>在你持握着一根思想鏈的時候施放這個法術將使你立刻接收到思想鏈裏所包含的任何記憶、想法或信息（對思想鏈施放@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.YuGbz9k5JXA0kIgT]{偵測思想 Detect Thoughts}也具有同樣效果）。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "GGR",
+      "revision": 1,
+      "rules": "2014",
+      "book": "GGR"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "將一根手指放在你的頭上。",
+      "value": 1
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "self",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": null
+    },
+    "ability": "",
+    "level": 0,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "somatic",
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none"
+      }
+    },
+    "identifier": "encode-thoughts"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": null,
+    "modifiedTime": 1757259979391,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Lk16ZQMErMb3Gb1O"
+}

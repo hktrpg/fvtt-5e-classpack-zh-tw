@@ -1,0 +1,202 @@
+{
+  "name": "爆鳴專論 Fulminating Treatise",
+  "type": "equipment",
+  "img": "icons/sundries/books/book-symbol-yellow-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>（需法師同調）</em><br />這本書被燒焦的厚實法術書散發着煙霧和臭氧的氣味，書頁的邊緣閃爍着能量的火花。<br />這本書在被找到時，包含了以下法術：<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.phPySCLLBCsToa81]{觸發術Contingency}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.Uh3zcz4PO4DXP3Dj]{火球術Fireball}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.cGIrpk6h4Rf8QKV6]{造風術Gust of Wind}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.r32GM0pRthbUBqeT]{李歐蒙小屋Leomund’s Tiny Hut}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.q0FYQJX9EBseJ9KN]{魔法飛彈Magic Missile}</em></span>，<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.8GM6YBgYFPIcFXKg]{雷鳴波Thunderwave}</em></span>和<span class=\"bbc_color\" style=\"COLOR:purple\"><em>@UUID[Compendium.dnd5e_classpack-zh-tw.new-icon.Item.31jKHMGJ0vlqdvQU]{力牆術Wall of Force}</em></span>。你可以將其作爲法術書。<br />當你持握這本書時，你可以將其作爲你法師法術的法器。<br />書具有3發充能，且每天黎明時恢復1d3發已消耗的充能。你持握它時，可以通過以下方式消耗充能：</p><ul class=\"bbc_list\"><li>如果你花費1分鐘時間研究這本書，你可以消耗1發充能來將你的一道已準備法術替換爲書中的另一道法術。新法術必須是塑能學派的法術。</li><li>當一個你可見的生物被你所施展的塑能系法術傷害時，你可以用一個反應並消耗1發充能對該生物造成一次額外的[[/r 2d6]]力場傷害，如果該生物爲大型或更小，還會使其<span class=\"bbc_color\" style=\"COLOR:green\"><em>倒地Prone</em></span>。</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "TCE",
+      "revision": 1,
+      "rules": "2014",
+      "book": "TCE"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 5000,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "3",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "spent": 0
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "container": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "-fulminating-treatise",
+    "attuned": false
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "persistSourceMigration": true,
+      "migratedUses": 3,
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "coreVersion": "12.343",
+    "createdTime": 1686059964887,
+    "modifiedTime": 1757871202388,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "0kYXiIauxbxVdjZn",
+  "_id": "8Ig7IfbWCvXa1bG0",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "5Uof9fv4q2aZTmDS": 3
+  },
+  "_key": "!items!8Ig7IfbWCvXa1bG0"
+}

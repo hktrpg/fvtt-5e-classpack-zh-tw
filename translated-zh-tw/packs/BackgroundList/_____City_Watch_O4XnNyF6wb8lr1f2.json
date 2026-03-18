@@ -1,0 +1,131 @@
+{
+  "_id": "O4XnNyF6wb8lr1f2",
+  "name": "城市守衛 City Watch",
+  "type": "background",
+  "img": "icons/environment/people/infantry.webp",
+  "effects": [],
+  "folder": "1ObYUkIG9kL1K5e0",
+  "sort": 150000,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": null,
+    "modifiedTime": 1757261977918,
+    "lastModifiedBy": "WqWGW8MuBm7BNHxt",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>當你長大之時，你加入了城市守衛，並且堅定的站在了對抗犯罪的第一線。你並不是一名士兵，注意着外來的敵人，相反你是服務於你的城鎮，幫助民衆們處理罪犯，從犯法者和作惡者們手上保護城市。</p><hr /><p><strong>技能熟練項：</strong>運動，洞悉<br /><strong>語言：</strong>兩種由你選擇的語言<br /><strong>裝備：</strong>一件你所在組織的標示你軍銜的@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.SzB2tPKLYh58Frt4]{制服}，一個用來召喚幫手的@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.6C49B96341C2C6DB]{角號}，一副@UUID[Compendium.dnd5e_classpack-zh-tw.itempack.Item.SAL7B2r3RiCcjpta]{鐐銬 Manacles}，一個裝有10金幣的袋子<br /><strong>特徵：</strong>@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.w9a0Yue3VxlZx7zP]{守護者之眼 Watcher's Eye}</p><hr /><p><strong>建議特性</strong></p><p>使用@UUID[Compendium.dnd5e_classpack-zh-tw.BackgroundList.eHi6eK6u9FBlvT88]{士兵}背景作爲你的基礎特徵和動機，在適當的時候修改條目以適應你作爲城市守衛的一員。</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "SCAG",
+      "revision": 1,
+      "rules": "2014",
+      "book": "SCAG"
+    },
+    "advancement": [
+      {
+        "_id": "mikhbdzp7qkz70zj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.BackgroundFeature.w9a0Yue3VxlZx7zP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "6NAZ3rwL1qX5hE8c",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:ins",
+            "skills:ath"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*",
+                "languages:exotic:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "icon": null,
+        "_id": "S8OqfVyiAG7F21lV"
+      },
+      {
+        "_id": "KtJt36VOI1jKBZYE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.BfXf59a1jb1jxLQ1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.SzB2tPKLYh58Frt4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.6C49B96341C2C6DB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e_classpack-zh-tw.itempack.Item.SAL7B2r3RiCcjpta",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "identifier": "-city-watch",
+    "startingEquipment": []
+  },
+  "_key": "!items!O4XnNyF6wb8lr1f2"
+}
