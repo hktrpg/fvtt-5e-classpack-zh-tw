@@ -77,5 +77,5 @@ fvtt package pack "compendiumName"
 ## 參考連結
 
 - [HJSmile/classpack 釋出頁](https://github.com/HJSmile/classpack/releases/)
-- [ConvertZZ 簡繁轉換工具](https://github.com/zouhuidong/ConvertZZ)
+- [ConvertZZ 繁簡轉換工具](https://github.com/zouhuidong/ConvertZZ)
 - [Foundry VTT CLI](https://github.com/foundryvtt/foundryvtt-cli)（unpack / pack LevelDB 合集包）
