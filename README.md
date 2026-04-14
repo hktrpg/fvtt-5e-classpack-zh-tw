@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_cl
 
 DnD 5e classpack zh-tw 正體中文 for fvtt
 
-<https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack-zh-tw/module.json>
+<https://raw.githubusercontent.com/hktrpg/fvtt-5e-classpack-zh-tw/master/dnd5e_classpack/module.json>
 
 龍與地下城五版（DnD5E）—正體中文
 <https://gitlab.com/fvtt-zh_TW/dnd5e-taiwan-zh-tw/-/raw/main/module.json>
