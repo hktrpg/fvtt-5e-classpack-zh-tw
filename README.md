@@ -26,9 +26,6 @@ DnD 5e classpack zh-tw 正體中文 for fvtt
 龍與地下城五版（DnD5E）—正體中文
 <https://raw.githubusercontent.com/hktrpg/foundryvtt-5e-zh-tw/refs/heads/main/module.json>
 
-Translation: 正體中文 [DnD 5e]
-<https://raw.githubusercontent.com/HKTRPG/foundryVtt_dnd5e_zh-tw/main/module.json>
-
 Actor Studio
 <https://github.com/geoidesic/foundryvtt-actor-studio/releases/latest/download/module.json>
 
